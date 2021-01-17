@@ -2,8 +2,8 @@
     "_meta": {
         "sources": [
             {
-                "json": "MHP",
-                "abbreviation": "MHP",
+                "json": "MHPWT",
+                "abbreviation": "MHPWT",
                 "full": "Complete Witch",
                 "authors": "Mage Hand Press",
                 "convertedBy": "Shin",
@@ -17,7 +17,7 @@
     "class": [
         {
             "name": "Witch",
-            "source": "MHP",
+            "source": "MHPWT",
             "hd": {
                 "number": 1,
                 "faces": 8
@@ -176,8 +176,8 @@
                 },
                 {
                     "colLabels": [
-                        "{@filter Cantrips Known|spells|level=0|class=Witch (MHP)}",
-                        "{@filter Spells Known|spells|class=Witch (MHP)}"
+                        "{@filter Cantrips Known|spells|level=0|class=Witch (MHPWT)}",
+                        "{@filter Spells Known|spells|class=Witch (MHPWT)}"
                     ],
                     "rows": [
                         [
@@ -265,15 +265,15 @@
                 {
                     "title": "Spell Slots per Spell Level",
                     "colLabels": [
-                        "{@filter 1st|spells|level=1|class=Witch (MHP)}",
-                        "{@filter 2nd|spells|level=2|class=Witch (MHP)}",
-                        "{@filter 3rd|spells|level=3|class=Witch (MHP)}",
-                        "{@filter 4th|spells|level=4|class=Witch (MHP)}",
-                        "{@filter 5th|spells|level=5|class=Witch (MHP)}",
-                        "{@filter 6th|spells|level=6|class=Witch (MHP)}",
-                        "{@filter 7th|spells|level=7|class=Witch (MHP)}",
-                        "{@filter 8th|spells|level=8|class=Witch (MHP)}",
-                        "{@filter 9th|spells|level=9|class=Witch (MHP)}"
+                        "{@filter 1st|spells|level=1|class=Witch (MHPWT)}",
+                        "{@filter 2nd|spells|level=2|class=Witch (MHPWT)}",
+                        "{@filter 3rd|spells|level=3|class=Witch (MHPWT)}",
+                        "{@filter 4th|spells|level=4|class=Witch (MHPWT)}",
+                        "{@filter 5th|spells|level=5|class=Witch (MHPWT)}",
+                        "{@filter 6th|spells|level=6|class=Witch (MHPWT)}",
+                        "{@filter 7th|spells|level=7|class=Witch (MHPWT)}",
+                        "{@filter 8th|spells|level=8|class=Witch (MHPWT)}",
+                        "{@filter 9th|spells|level=9|class=Witch (MHPWT)}"
                     ],
                     "rows": [
                         [
@@ -655,47 +655,47 @@
                 "Weird"
             ],
             "classFeatures": [
-                "Spellcasting|Witch|MHP|1",
-                "Witch's Curse|Witch|MHP|1",
-                "Hexes|Witch|MHP|1",
-                "Cackle|Witch|MHP|2",
-                "Familiar|Witch|MHP|2",
+                "Spellcasting|Witch|MHPWT|1",
+                "Witch's Curse|Witch|MHPWT|1",
+                "Hexes|Witch|MHPWT|1",
+                "Cackle|Witch|MHPWT|2",
+                "Familiar|Witch|MHPWT|2",
                 {
-                    "classFeature": "Witch's Craft|Witch|MHP|3",
+                    "classFeature": "Witch's Craft|Witch|MHPWT|3",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Increase|Witch|MHP|4",
-                "Insidious Spell|Witch|MHP|5",
+                "Ability Score Increase|Witch|MHPWT|4",
+                "Insidious Spell|Witch|MHPWT|5",
                 {
-                    "classFeature": "Craft Feature|Witch|MHP|6",
+                    "classFeature": "Craft Feature|Witch|MHPWT|6",
                     "gainSubclassFeature": true
                 },
-                "Improved Familiar|Witch|MHP|7",
-                "Ability Score Increase|Witch|MHP|8",
-                "Dying Curse|Witch|MHP|9",
+                "Improved Familiar|Witch|MHPWT|7",
+                "Ability Score Increase|Witch|MHPWT|8",
+                "Dying Curse|Witch|MHPWT|9",
                 {
-                    "classFeature": "Craft Feature|Witch|MHP|10",
+                    "classFeature": "Craft Feature|Witch|MHPWT|10",
                     "gainSubclassFeature": true
                 },
-                "Grand Hex|Witch|MHP|11",
-                "Ability Score Increase|Witch|MHP|12",
+                "Grand Hex|Witch|MHPWT|11",
+                "Ability Score Increase|Witch|MHPWT|12",
                 {
-                    "classFeature": "Craft Feature|Witch|MHP|14",
+                    "classFeature": "Craft Feature|Witch|MHPWT|14",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Increase|Witch|MHP|16",
-                "Ability Score Increase|Witch|MHP|19",
-                "Hexmaster|Witch|MHP|20"
+                "Ability Score Increase|Witch|MHPWT|16",
+                "Ability Score Increase|Witch|MHPWT|19",
+                "Hexmaster|Witch|MHPWT|20"
             ]
         }
     ],
     "classFeature": [
         {
             "name": "Spellcasting",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 2,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 1,
             "entries": [
                 "You have learned to mold and reshape the magic that curses you into spells.",
@@ -762,10 +762,10 @@
         },
         {
             "name": "Witch's Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 3,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 1,
             "entries": [
                 "You are wracked by a terrible curse which infects your body and soul. At 1st level, choose the form that this curse takes from the options below.",
@@ -775,47 +775,47 @@
                     "entries": [
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Burned|MHP"
+                            "optionalfeature": "Burned|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Drowned|MHP"
+                            "optionalfeature": "Drowned|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Feral|MHP"
+                            "optionalfeature": "Feral|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Hideous|MHP"
+                            "optionalfeature": "Hideous|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Hollow|MHP"
+                            "optionalfeature": "Hollow|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Infested|MHP"
+                            "optionalfeature": "Infested|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Insanity|MHP"
+                            "optionalfeature": "Insanity|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Loveless|MHP"
+                            "optionalfeature": "Loveless|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Possessed|MHP"
+                            "optionalfeature": "Possessed|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Starving|MHP"
+                            "optionalfeature": "Starving|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Visions|MHP"
+                            "optionalfeature": "Visions|MHPWT"
                         }
                     ]
                 }
@@ -823,10 +823,10 @@
         },
         {
             "name": "Hexes",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 4,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 1,
             "entries": [
                 "You can learn a number of powerful incantations, known as hexes, derived from the same insidious magic which cursed you.",
@@ -840,107 +840,107 @@
                     "entries": [
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Abate|MHP"
+                            "optionalfeature": "Abate|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Apathy|MHP"
+                            "optionalfeature": "Apathy|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Beckon Familiar|MHP"
+                            "optionalfeature": "Beckon Familiar|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Bleeding|MHP"
+                            "optionalfeature": "Bleeding|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Charm|MHP"
+                            "optionalfeature": "Charm|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Cripple|MHP"
+                            "optionalfeature": "Cripple|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Dire Familiar|MHP"
+                            "optionalfeature": "Dire Familiar|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Disorient|MHP"
+                            "optionalfeature": "Disorient|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Doomward|MHP"
+                            "optionalfeature": "Doomward|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Duplicity|MHP"
+                            "optionalfeature": "Duplicity|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Evil Eye|MHP"
+                            "optionalfeature": "Evil Eye|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Fortune|MHP"
+                            "optionalfeature": "Fortune|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Go Unseen|MHP"
+                            "optionalfeature": "Go Unseen|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Hesitate|MHP"
+                            "optionalfeature": "Hesitate|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Knowing|MHP"
+                            "optionalfeature": "Knowing|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Mire|MHP"
+                            "optionalfeature": "Mire|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Misfortune|MHP"
+                            "optionalfeature": "Misfortune|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Obfuscate|MHP"
+                            "optionalfeature": "Obfuscate|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Peacebond|MHP"
+                            "optionalfeature": "Peacebond|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Pox|MHP"
+                            "optionalfeature": "Pox|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Ruin|MHP"
+                            "optionalfeature": "Ruin|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Scurry|MHP"
+                            "optionalfeature": "Scurry|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Shriek|MHP"
+                            "optionalfeature": "Shriek|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Slumber|MHP"
+                            "optionalfeature": "Slumber|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Tremors|MHP"
+                            "optionalfeature": "Tremors|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Ward|MHP"
+                            "optionalfeature": "Ward|MHPWT"
                         }
                     ]
                 }
@@ -948,10 +948,10 @@
         },
         {
             "name": "Cackle",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 4,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 2,
             "entries": [
                 "At 2nd level, you can use your bonus action to cackle. The duration of your hex extends by 1 round for each creature affected within 60 feet of you.",
@@ -960,10 +960,10 @@
         },
         {
             "name": "Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 4,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 2,
             "entries": [
                 "At 2nd level, you learn the find familiar spell and can cast it as a ritual without material components.",
@@ -978,10 +978,10 @@
         },
         {
             "name": "Witch's Craft",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 4,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 3,
             "entries": [
                 "Your knowledge of magic has culminated in learning a Craft, an innate variety of magic which exists apart from the schools of magic. When you reach 3rd level, choose one Witch’s Craft. Your choice grants you features at 3rd level, and again at 6th, 10th, and 14th level.",
@@ -997,10 +997,10 @@
         },
         {
             "name": "Ability Score Increase",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 0,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 4,
             "entries": [
                 "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
@@ -1009,10 +1009,10 @@
         },
         {
             "name": "Insidious Spell",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 4,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 5,
             "entries": [
                 "Starting at 5th level, when you cast a witch spell that affects a creature that is under the effect of your hex, that creature has disadvantage on its first saving throw against the spell. This feature only applies to a hostile creature which is the sole target of your hex."
@@ -1020,10 +1020,10 @@
         },
         {
             "name": "Craft Feature",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 4,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 6,
             "entries": [
                 "At 6th level, you gain a feature granted by your Witch's Craft"
@@ -1031,10 +1031,10 @@
         },
         {
             "name": "Improved Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 5,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 7,
             "entries": [
                 "At 7th level, your familiar’s attacks count as magical for the purposes of overcoming damage resistance and immunity. Additionally, you can choose the following forms for your familiar: brass dragon wyrmling (without breath weapons), fright, grep, imp, or quasit. The statistics for these creatures are in Chapter 2."
@@ -1042,10 +1042,10 @@
         },
         {
             "name": "Ability Score Increase",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 0,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 8,
             "entries": [
                 "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
@@ -1054,10 +1054,10 @@
         },
         {
             "name": "Dying Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 5,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 9,
             "entries": [
                 "Beginning at 9th level, when a creature reduces you to 0 hit points but does not kill you outright, you can lay a nefarious curse upon them. The creature is cursed for up to 24 hours. While cursed, the creature has disadvantage on attack rolls, ability checks, and saving throws. This curse ends early if you regain consciousness, and can be ended by the remove curse spell. Once you use this ability, you can’t use it again until you finish a long rest."
@@ -1065,10 +1065,10 @@
         },
         {
             "name": "Craft Feature",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 0,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 10,
             "entries": [
                 "At 10th level, you gain a feature granted by your Witch's Craft"
@@ -1076,10 +1076,10 @@
         },
         {
             "name": "Grand Hex",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 5,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 11,
             "entries": [
                 "By 11th level, you have perfected deeply malevolent forms of magic. You learn one Grand Hex, and you learn another at 13th, 15th, and 18th level. Grand hexes are detailed at the end of the class description.",
@@ -1090,47 +1090,47 @@
                     "entries": [
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Cauldron|MHP"
+                            "optionalfeature": "Cauldron|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Coven|MHP"
+                            "optionalfeature": "Coven|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Dual Hex|MHP"
+                            "optionalfeature": "Dual Hex|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Forceful Personality|MHP"
+                            "optionalfeature": "Forceful Personality|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Hybrid|MHP"
+                            "optionalfeature": "Hybrid|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Mire|MHP"
+                            "optionalfeature": "Mire|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Poison Apple|MHP"
+                            "optionalfeature": "Poison Apple|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Possession|MHP"
+                            "optionalfeature": "Possession|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "War Hex|MHP"
+                            "optionalfeature": "War Hex|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Witch's Broom|MHP"
+                            "optionalfeature": "Witch's Broom|MHPWT"
                         },
                         {
                             "type": "refOptionalfeature",
-                            "optionalfeature": "Witch's Hut|MHP"
+                            "optionalfeature": "Witch's Hut|MHPWT"
                         }
                     ]
                 }
@@ -1138,10 +1138,10 @@
         },
         {
             "name": "Ability Score Increase",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 0,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 12,
             "entries": [
                 "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
@@ -1150,10 +1150,10 @@
         },
         {
             "name": "Craft Feature",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 0,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 14,
             "entries": [
                 "At 14th level, you gain a feature granted by your Witch's Craft"
@@ -1161,10 +1161,10 @@
         },
         {
             "name": "Ability Score Increase",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 0,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 16,
             "entries": [
                 "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
@@ -1173,10 +1173,10 @@
         },
         {
             "name": "Ability Score Increase",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 0,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 19,
             "entries": [
                 "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
@@ -1185,10 +1185,10 @@
         },
         {
             "name": "Hexmaster",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 5,
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "level": 20,
             "entries": [
                 "By 20th level, you have mastered your foul magic. Humanoid creatures have disadvantage on saving throws against your hexes."
@@ -1198,7 +1198,7 @@
     "optionalfeature": [
         {
             "name": "Burned",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Almost all of your body has been scorched by arcane flames, leaving you with striking black scars and embers of magic that burn under the skin. As a result, you have resistance to fire damage, and you know the cantrip produce flame, which does not count against your total number of cantrips known."
             ],
@@ -1206,7 +1206,7 @@
         },
         {
             "name": "Drowned",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Water fills your lungs, and yet you do not die. You can breathe air and water. Additionally, you have a swimming speed equal to your walking speed."
             ],
@@ -1214,7 +1214,7 @@
         },
         {
             "name": "Feral",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Through your curse, you have forgotten the manners and customs of civilized men and gone to live among beasts in the wild. Hunting and fighting daily, you have become savage. You have proficiency in the Survival skill. Additionally, while you are wearing no armor and not wielding a shield, your AC equals 12 + your Dexterity modifier."
             ],
@@ -1222,7 +1222,7 @@
         },
         {
             "name": "Hideous",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Your appearance is ghastly to behold. You have proficiency with the Intimidation skill. When you roll initiative, you can choose one humanoid you can see to scare. That creature must make a Wisdom saving throw against your spell save DC or be frightened until the end of your next turn."
             ],
@@ -1230,7 +1230,7 @@
         },
         {
             "name": "Hollow",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Your soul has been divorced from your body, trapping you in a limbo between life and death. When you or your familiar reduces a hostile creature to 0 hit points, you drain some of its life force, and gain temporary hit points equal to your witch level + Charisma modifier (minimum of 1)."
             ],
@@ -1238,7 +1238,7 @@
         },
         {
             "name": "Infested",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You are constantly followed by vermin, like insects and rats, which crawl on your skin and swarm in your wake. As a result, you are immune to being diseased. Additionally, you can command these pests as your own. Starting at 2nd level, you can choose the form of a swarm of rats for your familiar. Starting at 7th level, you can choose a swarm of insects."
             ],
@@ -1246,7 +1246,7 @@
         },
         {
             "name": "Insanity",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Your mind is cracked, allowing your thoughts to leak out for others to hear. As such, you can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathy, but the creature must be able to understand at least one language."
             ],
@@ -1254,7 +1254,7 @@
         },
         {
             "name": "Loveless",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You are cursed to never find true love. Jaded and disaffected, not even magic can turn your heart; as a result, you are immune to being charmed."
             ],
@@ -1262,7 +1262,7 @@
         },
         {
             "name": "Possessed",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Your soul is occupied by a foreign spirit that sometimes tries to wrest away your consciousness. However, while you sleep, the spirit whispers magical secrets to you. You learn an additional witch spell at a level for which you have spell slots at 1st level, and again at 4th level, 8th level, and 12th level. These spells do not count against your total number of spells known."
             ],
@@ -1270,7 +1270,7 @@
         },
         {
             "name": "Starving",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "No matter how much you eat, food turns to ash in your mouth. Your curse nourishes you, but only at the edge of starvation, and you are constantly wracked by pangs of hunger. You don’t need to eat or drink, but can still imbibe and benefit from potions. Additionally, you are immune to being poisoned."
             ],
@@ -1278,7 +1278,7 @@
         },
         {
             "name": "Visions",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You are cursed to have terrible visions of the future, presaging the death of your friends, family, and yourself. However many of these visions are cruel deceptions, they are sometimes grimly accurate. You can add your Charisma modifier, in addition to your Dexterity modifier, to your initiative rolls."
             ],
@@ -1286,7 +1286,7 @@
         },
         {
             "name": "Abate",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet of you to make a Charisma saving throw. On a failed save, the creature can’t take reactions until the end of your next turn."
             ],
@@ -1294,7 +1294,7 @@
         },
         {
             "name": "Apathy",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet of you to make a Charisma saving throw. On a failed save, until the end of your next turn, the creature becomes indifferent toward one creature of your choice that it is hostile towards. This indifference ends if the target is attacked or harmed by a spell by the creature to which it is indifferent. When the hex ends, the creature becomes hostile again, unless the GM rules otherwise."
             ],
@@ -1302,7 +1302,7 @@
         },
         {
             "name": "Beckon Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You can cast the find familiar spell as an action without expending a spell slot or spell components. Once you cast this spell in this manner, you can’t do so again for 1 minute.",
                 "You must have the Familiar feature to choose this hex."
@@ -1311,7 +1311,7 @@
         },
         {
             "name": "Bleeding",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet of you to make a Constitution saving throw. On a failed save, each time this creature takes damage, it takes an additional 1d4 damage. This effect lasts until the end of your next turn."
             ],
@@ -1319,7 +1319,7 @@
         },
         {
             "name": "Charm",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet to make a Wisdom saving throw. On a failed save, the creature is charmed by you until the end of your next turn. When the hex ends, the creature knows it was charmed by you."
             ],
@@ -1327,7 +1327,7 @@
         },
         {
             "name": "Cripple",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet of you to make a Strength saving throw. On a failed save, the creature’s movement speed reduced to 10 feet until the end of your next turn. If the creature is flying, it falls."
             ],
@@ -1335,7 +1335,7 @@
         },
         {
             "name": "Dire Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you can bolster your summoned familiar. For 1 minute, your familiar’s current and maximum hit points is increased by twice your witch level and it gains a bonus to its damage rolls equal to your Charisma modifier.",
                 "You can cast other hexes while this hex is in effect. Once you cast this hex, you can’t cast it again until your familiar is dismissed, or until its duration expires. You must have the Familiar feature to choose this hex."
@@ -1344,7 +1344,7 @@
         },
         {
             "name": "Disorient",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature that you can see within 60 feet to make a Constitution saving throw. On a failed save, whenever this target makes an attack roll before the end of your next turn, it must roll a d6 and subtract the number rolled from the attack roll."
             ],
@@ -1352,7 +1352,7 @@
         },
         {
             "name": "Doomward",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one friendly creature other than yourself you can see within 60 feet. If this creature drops to 0 hit points before the end of your next turn and doesn’t die outright, it drops to 1 hit point instead. This hex then ends and can’t be used to target the same creature until you finish a short or long rest."
             ],
@@ -1360,7 +1360,7 @@
         },
         {
             "name": "Duplicity",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you can create a duplicate self, composed of shadowstuff, to confuse your enemies. When a creature attacks you, roll any die. On an odd number, the attack roll misses. This effect lasts until the end of your next turn or until you attack or cast a spell.",
                 ""
@@ -1369,7 +1369,7 @@
         },
         {
             "name": "Evil Eye",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see that can see you within 60 feet to make a Wisdom saving throw. On a failed save, the creature is frightened of you until the end of your next turn."
             ],
@@ -1377,7 +1377,7 @@
         },
         {
             "name": "Fortune",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one friendly creature other than yourself you can see within 60 feet. The creature has advantage on saving throws until the end of your next turn."
             ],
@@ -1385,7 +1385,7 @@
         },
         {
             "name": "Go Unseen",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you and your familiar become invisible. The effect ends at the end of your next turn, or if you or your familiar attack or cast a spell. Once you cast this hex, you can’t cast it again for 1 minute."
             ],
@@ -1393,7 +1393,7 @@
         },
         {
             "name": "Hesitate",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet to make a Wisdom saving throw. On a failed save, if the creature moves on its turn, it can’t use its action to attack, or vice versa. This effect lasts until the end of your next turn."
             ],
@@ -1401,7 +1401,7 @@
         },
         {
             "name": "Knowing",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you open your third eye and become intuitively aware of your surroundings. You have advantage on Wisdom (Insight) rolls until the beginning of your next turn. Additionally, choose of the following pieces of information:",
                 {
@@ -1418,7 +1418,7 @@
         },
         {
             "name": "Mire",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you can transform the ground within 30 feet of where you cast this hex into murky swamp, which is difficult terrain. You can move without penalty in this area. This effect lasts until the end of your next turn."
             ],
@@ -1426,7 +1426,7 @@
         },
         {
             "name": "Misfortune",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet. Until the end of your next turn, whenever this creature rolls a 20 on a d20 roll, the roll instead becomes a 1."
             ],
@@ -1434,7 +1434,7 @@
         },
         {
             "name": "Obfuscate",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you create a 20 foot radius sphere of fog centered on yourself. The sphere spreads around corners, and its area is heavily obscured. This effect lasts until the end of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
             ],
@@ -1442,7 +1442,7 @@
         },
         {
             "name": "Peacebond",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you can lock weapons to their owners. The weapons and ammunition of each creature within 30 feet become locked in their sheaths, quivers, or holsters until the end of your next turn. During this time, a creature can use its action to free its weapon with a Strength check, opposed by your spell save DC."
             ],
@@ -1450,7 +1450,7 @@
         },
         {
             "name": "Pox",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 5 feet to make a Constitution saving throw. On a failed save, the creature is poisoned until the end of your next turn."
             ],
@@ -1458,7 +1458,7 @@
         },
         {
             "name": "Ruin",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet to make a Constitution saving throw. On a failed save, the creature’s Armor Class decreases by 3, to a minimum of 10, until the end of your next turn."
             ],
@@ -1466,7 +1466,7 @@
         },
         {
             "name": "Scurry",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, a nonmagical object you choose within 30 feet sprouts legs and runs away. You can’t target an object that weighs more than 10 pounds, nor can you target one that is being worn as clothing or armor; however, you can target certain objects that are being carried, as long as they are not affixed entirely around a creature’s body and are not being held in a hand. For example, you can’t target a creature’s helmet or a sword it is wielding, but you can target a drawstring pouch it is wearing or a dagger that is sheathed at its side.",
                 "The object animates, wriggles free of its owner, if it has one, sprouts two legs, and moves 20 feet in a direction you choose. At the beginning of your turn, you can choose which direction the object moves. The object has an AC of 10, if its AC was not already higher, and remains animated until the end of your next turn, or until it is picked up."
@@ -1475,7 +1475,7 @@
         },
         {
             "name": "Shriek",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As a bonus action, you can release a thunderous, blood curdling screech. Each Large or smaller creature you choose within 5 feet of you is pushed 5 feet away from you."
             ],
@@ -1483,7 +1483,7 @@
         },
         {
             "name": "Slumber",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose one creature you can see within 60 feet to make a Wisdom saving throw. On a failed save, the target falls unconscious until it takes damage, or until the end of your next turn. Undead, creatures which are immune to being charmed, and creatures whose current hit points are greater than five times your witch level are immune to this effect."
             ],
@@ -1491,7 +1491,7 @@
         },
         {
             "name": "Tremors",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you can create a small quake. Each creature on the ground within 10 feet of you must succeed a Dexterity saving throw or be knocked prone."
             ],
@@ -1499,7 +1499,7 @@
         },
         {
             "name": "Ward",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, choose 1 creature you can see other than yourself within 60 feet. Each time the creature takes damage before the end of your next turn, it reduces the damage it takes by 3. "
             ],
@@ -1507,7 +1507,7 @@
         },
         {
             "name": "Cauldron",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You can brew potions in a bubbling cauldron using raw components scavenged from nature. To this end, you have a pool of alchemy points equal to half your witch level, rounded down. You regain all expended alchemy points when you finish a long rest.",
                 "You can spend 10 minutes and expend any number of alchemy points to brew potions. These potions retain potency for 24 hours, after which they become inert. If a potion calls for a saving throw, it uses your spell save DC.",
@@ -1579,7 +1579,7 @@
         },
         {
             "name": "Coven",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You can induct others into your insidious coven. By performing a special ritual over the course of 8 hours, which can be done during a long rest, you can intermingle your cursed magic with a willing creature which has the Spellcasting or Pact Magic feature. This creature enters into your coven. You can have up to two creatures other than yourself in your coven at one time.",
                 "While two or more members of your coven are within 30 feet of one another, they gain the ability to cast additional spells, as shown on the Coven Spellcasting table. Additionally, members of your coven gain access to a shared pool of 5 spell slots—one of each level, from 1st to 5th level—which they can use to cast any spell known to them. Expended spell slots are regained when all members of the coven finish a long rest.",
@@ -1623,7 +1623,7 @@
         },
         {
             "name": "Dual Hex",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "When you cast a hex which targets one creature, you can target two creatures instead. For these creatures, you gain the benefits of your Insidious Spell feature against both of them, provided they fall under the effect of the same hex."
             ],
@@ -1631,7 +1631,7 @@
         },
         {
             "name": "Forceful Personality",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "Your Charisma score increases by 2, to a maximum of 22."
             ],
@@ -1639,7 +1639,7 @@
         },
         {
             "name": "Hybrid",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As a bonus action, if your familiar is within 5 feet of you, you can meld with it, transforming into a magical hybrid. For the next minute, you gain the following benefits:",
                 "• You gain temporary hit points equal to your familiar’s hit points.",
@@ -1652,7 +1652,7 @@
         },
         {
             "name": "Poison Apple",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, you can produce a magical apple out of thin air. This apple can possess whatever appearance you wish, be that a ruby red coloration, a golden skin, or the appearance of crystal. On your turn, you can use your action to eat the apple, granting you the following benefits:",
                 "• You regain hit points equal to twice your witch level, plus your Charisma modifier.",
@@ -1665,7 +1665,7 @@
         },
         {
             "name": "Possession",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "As an action, your body becomes immaterial, and your spirit dives into a Large or smaller creature you can see within 10 feet of you in an attempt to possess it. This target must make a Charisma saving throw. A creature with a challenge rating greater than your witch level automatically succeeds on this save. On a failed save, you disappear and the target becomes incapacitated and possessed; you gain control of its body but don’t deprive the target of its awareness. While possessing the creature, you can’t be targeted by any attack, spell, or other effect. You maintain your Intelligence, Wisdom, and Charisma ability scores and your alignment, but otherwise use the creature’s statistics. You don’t gain access to the target’s knowledge, class features, or proficiencies.",
                 "For the purposes of spells and effects which can end possession, such as the spell dispel evil and good, you are treated as an undead spirit and can be banished from the target, returning to your own body, which rematerializes within 5 feet of the target. This possession lasts for 1 hour, or until the body drops to 0 hit points or you are forced out by a spell or other magical effect that ends possession. Once you use this ability, you can’t do so again until you finish a long rest."
@@ -1674,7 +1674,7 @@
         },
         {
             "name": "War Hex",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "When you cast a hex that targets a single creature, you can use your bonus action to cast a cantrip targeting the same creature."
             ],
@@ -1682,7 +1682,7 @@
         },
         {
             "name": "Witch's Broom",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You can use your action to enchant a mundane object —like a broom, cauldron, or rug—to fly for you. You gain a flying speed of 60 feet while holding this item with one hand, as long as you are not wearing medium or heavy armor, or wielding a shield. You can only enchant one object using this ability at a time. If you target another object using this effect, the enchantment on the previous object ends."
             ],
@@ -1690,7 +1690,7 @@
         },
         {
             "name": "Witch's Hut",
-            "source": "MHP",
+            "source": "MHPWT",
             "entries": [
                 "You can perform a 24 hour long ritual to enchant a structure which can fit within a 15 foot cube, animating it as a Huge object, as per the animate objects spell. The structure rises up on a pair of magical legs and follows your commands.",
                 "The entrance to the structure is linked to an extradimensional abode, as per the magnificent mansion spell. You can command the structure from inside this abode. If the structure is destroyed, the extradimensional abode is unharmed, but its occupants are ejected to unoccupied spaces adjacent to the structure.",
@@ -1703,7 +1703,7 @@
     "spell": [
         {
             "name": "Accursed Act",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 27,
             "level": 1,
             "school": "E",
@@ -1765,14 +1765,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Candy Blast",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 27,
             "level": 0,
             "school": "C",
@@ -1819,14 +1819,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Corruption Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 27,
             "level": 6,
             "school": "N",
@@ -1875,14 +1875,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Curse of Aging",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 27,
             "level": 4,
             "school": "T",
@@ -1928,14 +1928,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Curse of Blades",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 28,
             "level": 3,
             "school": "N",
@@ -1978,14 +1978,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Curse of Binding",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 28,
             "level": 7,
             "school": "E",
@@ -2037,14 +2037,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Curse of Chains",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 28,
             "level": 1,
             "school": "N",
@@ -2090,14 +2090,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Curse of Tomes",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 28,
             "level": 1,
             "school": "E",
@@ -2141,14 +2141,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Curse Ward",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 28,
             "level": 2,
             "school": "A",
@@ -2184,14 +2184,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Curse Weapon",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 28,
             "level": 5,
             "school": "T",
@@ -2303,14 +2303,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Demand",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 29,
             "level": 6,
             "school": "E",
@@ -2357,14 +2357,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Eldritch Orb",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 29,
             "level": 0,
             "school": "E",
@@ -2414,14 +2414,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Elemental Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 29,
             "level": 6,
             "school": "V",
@@ -2463,14 +2463,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Face Swap",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 29,
             "level": 1,
             "school": "T",
@@ -2516,14 +2516,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Flawed Reconstruction",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 29,
             "level": 1,
             "school": "T",
@@ -2571,14 +2571,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Frenzy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 30,
             "level": 6,
             "school": "E",
@@ -2631,14 +2631,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Hocuspocus",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 30,
             "level": 0,
             "school": "C",
@@ -2686,14 +2686,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Hollowing Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 30,
             "level": 1,
             "school": "N",
@@ -2753,14 +2753,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Identity Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 30,
             "level": 9,
             "school": "E",
@@ -2805,14 +2805,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Intrusive Thought",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 30,
             "level": 2,
             "school": "T",
@@ -2851,14 +2851,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Minor Lifesteal",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 31,
             "level": 0,
             "school": "N",
@@ -2904,14 +2904,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Pharaoh's Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 31,
             "level": 5,
             "school": "N",
@@ -2957,14 +2957,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Prehensile Hair",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 31,
             "level": 1,
             "school": "T",
@@ -3004,14 +3004,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Protect Threshold",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 32,
             "level": 2,
             "school": "A",
@@ -3068,14 +3068,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Psychedelics",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 32,
             "level": 1,
             "school": "I",
@@ -3119,14 +3119,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Restore Youth",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 32,
             "level": 3,
             "school": "T",
@@ -3169,14 +3169,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Ruby-Eye Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 32,
             "level": 3,
             "school": "N",
@@ -3221,14 +3221,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Secret Enclave",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 32,
             "level": 9,
             "school": "C",
@@ -3272,14 +3272,14 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
         },
         {
             "name": "Soul Bond",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": 32,
             "level": 4,
             "school": "N",
@@ -3320,7 +3320,7 @@
                 "fromClassList": [
                     {
                         "name": "Witch",
-                        "source": "MHP"
+                        "source": "MHPWT"
                     }
                 ]
             }
@@ -3330,218 +3330,218 @@
         {
             "name": "Black Magic",
             "shortName": "Black",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Black Magic|Witch|MHP|Black Magic|MHP|3",
-                "Hex: Decay|Witch|MHP|Black Magic|MHP|3",
-                "Undeath Command|Witch|MHP|Black Magic|MHP|6",
-                "Life Tether|Witch|MHP|Black Magic|MHP|10",
-                "Black Sacrifice|Witch|MHP|Black Magic|MHP|14"
+                "Black Magic|Witch|MHPWT|Black Magic|MHPWT|3",
+                "Hex: Decay|Witch|MHPWT|Black Magic|MHPWT|3",
+                "Undeath Command|Witch|MHPWT|Black Magic|MHPWT|6",
+                "Life Tether|Witch|MHPWT|Black Magic|MHPWT|10",
+                "Black Sacrifice|Witch|MHPWT|Black Magic|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Blood Magic",
             "shortName": "Blood",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Blood Magic|Witch|MHP|Blood Magic|MHP|3",
-                "Hex: Blood Curse|Witch|MHP|Blood Magic|MHP|3",
-                "Novice Hemomancy|Witch|MHP|Blood Magic|MHP|3",
-                "Arcane Bloodletting|Witch|MHP|Blood Magic|MHP|3",
-                "Deathseeker|Witch|MHP|Blood Magic|MHP|6",
-                "Hemomantic Recovery|Witch|MHP|Blood Magic|MHP|10",
-                "Sanguine|Witch|MHP|Blood Magic|MHP|14"
+                "Blood Magic|Witch|MHPWT|Blood Magic|MHPWT|3",
+                "Hex: Blood Curse|Witch|MHPWT|Blood Magic|MHPWT|3",
+                "Novice Hemomancy|Witch|MHPWT|Blood Magic|MHPWT|3",
+                "Arcane Bloodletting|Witch|MHPWT|Blood Magic|MHPWT|3",
+                "Deathseeker|Witch|MHPWT|Blood Magic|MHPWT|6",
+                "Hemomantic Recovery|Witch|MHPWT|Blood Magic|MHPWT|10",
+                "Sanguine|Witch|MHPWT|Blood Magic|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Blue Magic",
             "shortName": "Blue",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Blue Magic|Witch|MHP|Blue Magic|MHP|3",
-                "Blue Magic Spells|Witch|MHP|Blue Magic|MHP|3",
-                "Hex: Arcane Awareness|Witch|MHP|Blue Magic|MHP|3",
-                "Turquoise Efficiency|Witch|MHP|Blue Magic|MHP|6",
-                "Copycat|Witch|MHP|Blue Magic|MHP|10",
-                "Cerulean Reflection|Witch|MHP|Blue Magic|MHP|14"
+                "Blue Magic|Witch|MHPWT|Blue Magic|MHPWT|3",
+                "Blue Magic Spells|Witch|MHPWT|Blue Magic|MHPWT|3",
+                "Hex: Arcane Awareness|Witch|MHPWT|Blue Magic|MHPWT|3",
+                "Turquoise Efficiency|Witch|MHPWT|Blue Magic|MHPWT|6",
+                "Copycat|Witch|MHPWT|Blue Magic|MHPWT|10",
+                "Cerulean Reflection|Witch|MHPWT|Blue Magic|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Fragrant Magic",
             "shortName": "Fragrant",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Fragrant Magic|Witch|MHP|Fragrant|MHP|3",
-                "Hex: Fragrant Aura|Witch|MHP|Fragrant|MHP|3",
-                "Smoke Rings|Witch|MHP|Fragrant|MHP|3",
-                "Aromatherapy|Witch|MHP|Fragrant|MHP|6",
-                "Dizzying Fog|Witch|MHP|Fragrant|MHP|10",
-                "Olefactory Aurora|Witch|MHP|Fragrant|MHP|14"
+                "Fragrant Magic|Witch|MHPWT|Fragrant|MHPWT|3",
+                "Hex: Fragrant Aura|Witch|MHPWT|Fragrant|MHPWT|3",
+                "Smoke Rings|Witch|MHPWT|Fragrant|MHPWT|3",
+                "Aromatherapy|Witch|MHPWT|Fragrant|MHPWT|6",
+                "Dizzying Fog|Witch|MHPWT|Fragrant|MHPWT|10",
+                "Olefactory Aurora|Witch|MHPWT|Fragrant|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Gingerbread Magic",
             "shortName": "Gingerbread",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Gingerbread Magic|Witch|MHP|Gingerbread|MHP|3",
-                "Hex: Sweet Tooth|Witch|MHP|Gingerbread|MHP|3",
-                "Gingerbread Familiar|Witch|MHP|Gingerbread|MHP|3",
-                "Sugar Rush|Witch|MHP|Gingerbread|MHP|6",
-                "Candied Decoy|Witch|MHP|Gingerbread|MHP|10",
-                "Candy Land|Witch|MHP|Gingerbread|MHP|14"
+                "Gingerbread Magic|Witch|MHPWT|Gingerbread|MHPWT|3",
+                "Hex: Sweet Tooth|Witch|MHPWT|Gingerbread|MHPWT|3",
+                "Gingerbread Familiar|Witch|MHPWT|Gingerbread|MHPWT|3",
+                "Sugar Rush|Witch|MHPWT|Gingerbread|MHPWT|6",
+                "Candied Decoy|Witch|MHPWT|Gingerbread|MHPWT|10",
+                "Candy Land|Witch|MHPWT|Gingerbread|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Green Magic",
             "shortName": "Green",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Green Magic|Witch|MHP|Green|MHP|3",
-                "Hex: Elder Tongue|Witch|MHP|Green|MHP|3",
-                "Primal Ally|Witch|MHP|Green|MHP|3",
-                "Twin Familiar|Witch|MHP|Green|MHP|6",
-                "Great Oak|Witch|MHP|Green|MHP|10",
-                "Sacrificial Familiar|Witch|MHP|Green|MHP|14"
+                "Green Magic|Witch|MHPWT|Green|MHPWT|3",
+                "Hex: Elder Tongue|Witch|MHPWT|Green|MHPWT|3",
+                "Primal Ally|Witch|MHPWT|Green|MHPWT|3",
+                "Twin Familiar|Witch|MHPWT|Green|MHPWT|6",
+                "Great Oak|Witch|MHPWT|Green|MHPWT|10",
+                "Sacrificial Familiar|Witch|MHPWT|Green|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Lunar Magic",
             "shortName": "Lunar",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Lunar Magic|Witch|MHP|Lunar|MHP|3",
-                "Hex: Lunacy|Witch|MHP|Lunar|MHP|3",
-                "Under Cover of Darkness|Witch|MHP|Lunar|MHP|6",
-                "Everlasting Night|Witch|MHP|Lunar|MHP|10",
-                "Moonsight|Witch|MHP|Lunar|MHP|14"
+                "Lunar Magic|Witch|MHPWT|Lunar|MHPWT|3",
+                "Hex: Lunacy|Witch|MHPWT|Lunar|MHPWT|3",
+                "Under Cover of Darkness|Witch|MHPWT|Lunar|MHPWT|6",
+                "Everlasting Night|Witch|MHPWT|Lunar|MHPWT|10",
+                "Moonsight|Witch|MHPWT|Lunar|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Purple Magic",
             "shortName": "Purple",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Purple Magic|Witch|MHP|Purple|MHP|3",
-                "Hex: Hallucination|Witch|MHP|Purple|MHP|3",
-                "False Authority|Witch|MHP|Purple|MHP|6",
-                "Deceitful Transposition|Witch|MHP|Purple|MHP|10",
-                "Waking Nightmare|Witch|MHP|Purple|MHP|14"
+                "Purple Magic|Witch|MHPWT|Purple|MHPWT|3",
+                "Hex: Hallucination|Witch|MHPWT|Purple|MHPWT|3",
+                "False Authority|Witch|MHPWT|Purple|MHPWT|6",
+                "Deceitful Transposition|Witch|MHPWT|Purple|MHPWT|10",
+                "Waking Nightmare|Witch|MHPWT|Purple|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Red Magic",
             "shortName": "Red",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Red Magic|Witch|MHP|Red|MHP|3",
-                "Hex: Imperil|Witch|MHP|Red|MHP|3",
-                "Convolute Energy|Witch|MHP|Red|MHP|6",
-                "Invulnerability|Witch|MHP|Red|MHP|10",
-                "Elemental Annihilation|Witch|MHP|Red|MHP|14"
+                "Red Magic|Witch|MHPWT|Red|MHPWT|3",
+                "Hex: Imperil|Witch|MHPWT|Red|MHPWT|3",
+                "Convolute Energy|Witch|MHPWT|Red|MHPWT|6",
+                "Invulnerability|Witch|MHPWT|Red|MHPWT|10",
+                "Elemental Annihilation|Witch|MHPWT|Red|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Sky Magic",
             "shortName": "Sky",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Sky Magic|Witch|MHP|Sky|MHP|3",
-                "Hex: Light Heels|Witch|MHP|Sky|MHP|3",
-                "Corvid Familiar|Witch|MHP|Sky|MHP|6",
-                "Hex: Vortex|Witch|MHP|Sky|MHP|10",
-                "Cloud Dancer|Witch|MHP|Sky|MHP|14"
+                "Sky Magic|Witch|MHPWT|Sky|MHPWT|3",
+                "Hex: Light Heels|Witch|MHPWT|Sky|MHPWT|3",
+                "Corvid Familiar|Witch|MHPWT|Sky|MHPWT|6",
+                "Hex: Vortex|Witch|MHPWT|Sky|MHPWT|10",
+                "Cloud Dancer|Witch|MHPWT|Sky|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Steel Magic",
             "shortName": "Steel",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Steel Magic|Witch|MHP|Steel|MHP|3",
-                "Bonus Proficiencies|Witch|MHP|Steel|MHP|3",
-                "Hex: Malevolence|Witch|MHP|Steel|MHP|3",
-                "Cackling Killer|Witch|MHP|Steel|MHP|6",
-                "Soulsword Familiar|Witch|MHP|Steel|MHP|10",
-                "Shrieking Strike|Witch|MHP|Steel|MHP|14"
+                "Steel Magic|Witch|MHPWT|Steel|MHPWT|3",
+                "Bonus Proficiencies|Witch|MHPWT|Steel|MHPWT|3",
+                "Hex: Malevolence|Witch|MHPWT|Steel|MHPWT|3",
+                "Cackling Killer|Witch|MHPWT|Steel|MHPWT|6",
+                "Soulsword Familiar|Witch|MHPWT|Steel|MHPWT|10",
+                "Shrieking Strike|Witch|MHPWT|Steel|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Tea Magic",
             "shortName": "Tea",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Tea Magic|Witch|MHP|Tea|MHP|3",
-                "Hex: Tasseography|Witch|MHP|Tea|MHP|3",
-                "Tea Ceremony|Witch|MHP|Tea|MHP|3",
-                "Shapes and Omens|Witch|MHP|Tea|MHP|6",
-                "Herbal Remedy|Witch|MHP|Tea|MHP|10",
-                "Invigorate|Witch|MHP|Tea|MHP|14"
+                "Tea Magic|Witch|MHPWT|Tea|MHPWT|3",
+                "Hex: Tasseography|Witch|MHPWT|Tea|MHPWT|3",
+                "Tea Ceremony|Witch|MHPWT|Tea|MHPWT|3",
+                "Shapes and Omens|Witch|MHPWT|Tea|MHPWT|6",
+                "Herbal Remedy|Witch|MHPWT|Tea|MHPWT|10",
+                "Invigorate|Witch|MHPWT|Tea|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "Technicolor Magic",
             "shortName": "Technicolor",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "Technicolor Magic|Witch|MHP|Technicolor|MHP|3",
-                "Animal Friends|Witch|MHP|Technicolor|MHP|3",
-                "Hex: Musical Interlude|Witch|MHP|Technicolor|MHP|3",
-                "Friendship Bracelet|Witch|MHP|Technicolor|MHP|6",
-                "Positivity|Witch|MHP|Technicolor|MHP|10",
-                "Redemptive Arc|Witch|MHP|Technicolor|MHP|14"
+                "Technicolor Magic|Witch|MHPWT|Technicolor|MHPWT|3",
+                "Animal Friends|Witch|MHPWT|Technicolor|MHPWT|3",
+                "Hex: Musical Interlude|Witch|MHPWT|Technicolor|MHPWT|3",
+                "Friendship Bracelet|Witch|MHPWT|Technicolor|MHPWT|6",
+                "Positivity|Witch|MHPWT|Technicolor|MHPWT|10",
+                "Redemptive Arc|Witch|MHPWT|Technicolor|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         },
         {
             "name": "White Magic",
             "shortName": "White",
-            "source": "MHP",
+            "source": "MHPWT",
             "subclassFeatures": [
-                "White Magic|Witch|MHP|White|MHP|3",
-                "Hex: Remedy|Witch|MHP|White|MHP|3",
-                "Talisman of Protection|Witch|MHP|White|MHP|6",
-                "Benevolent Surge|Witch|MHP|White|MHP|10",
-                "Redemptive Arc|Witch|MHP|White|MHP|14"
+                "White Magic|Witch|MHPWT|White|MHPWT|3",
+                "Hex: Remedy|Witch|MHPWT|White|MHPWT|3",
+                "Talisman of Protection|Witch|MHPWT|White|MHPWT|6",
+                "Benevolent Surge|Witch|MHPWT|White|MHPWT|10",
+                "Redemptive Arc|Witch|MHPWT|White|MHPWT|14"
             ],
             "className": "Witch",
-            "classSource": "MHP"
+            "classSource": "MHPWT"
         }
     ],
     "subclassFeature": [
         {
             "name": "Black Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "9",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Black Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Black magic is associated with hexes that cause pain and suffering, and spells which give rise to undeath. Harnessing such a craft can lend you great power, but inevitably carries a cost. Darkness cannot be contained, after all; it merely seeps forth from wherever it is kept.",
@@ -3583,12 +3583,12 @@
         },
         {
             "name": "Hex: Decay",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "9",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Black Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "When you adopt this craft at 3rd level, you learn to drain the vitality from a living being. As an action, choose one creature you can see within 60 feet to make a Constitution saving throw. On a failed save, the creature takes 1d4 necrotic damage at the beginning of each its turns until the hex ends and its hit point maximum is reduced by the amount of necrotic damage taken. This reduction lasts until the hex ends. The target dies if this effect reduces its hit point maximum to 0. This hex ends at the end of your next turn."
@@ -3596,12 +3596,12 @@
         },
         {
             "name": "Undeath Command",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "9",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Black Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "Starting at 6th level, you have intertwined the magic of your familiar with the magic you use to animate the dead. When you use your bonus action to command your familiar, you can use the same bonus action to issue a command to any undead you control via the animate dead spell or similar magic."
@@ -3609,12 +3609,12 @@
         },
         {
             "name": "Life Tether",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "9",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Black Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "At 10th level, as a reaction when you take damage from a creature you can see, you can transfer some of that damage to a creature which is the sole target of your hex. You take half the damage (rounded down) and the hexed creature takes the remaining damage. Once you use this ability, you can’t use it again until you finish a short or long rest."
@@ -3622,12 +3622,12 @@
         },
         {
             "name": "Black Sacrifice",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "9",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Black Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "Beginning at 14th level, if your familiar is within 10 feet of you, you can use your action to command it to dissolve its magical bond to this plane, which unleashes a torrent of necromantic energy. Each creature you choose within 20 feet must make a Dexterity saving throw against your spell save DC. A creature takes 8d10 necrotic damage on a failed save, or half as much on a successful one, and its hit point maximum is reduced by the amount of necrotic damage taken. A target dies if this effect reduces its hit point maximum to 0. Once you use this ability, you can’t summon your familiar again until you finish a long rest."
@@ -3635,12 +3635,12 @@
         },
         {
             "name": "Blood Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "10",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blood Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Forbidden by most witch covens, blood magic centers on the use of dark spells and mortal hexes that draw from the spellcaster’s very essence. It is fundamentally more perilous than other witch crafts, but its many risks come with copious rewards.",
@@ -3658,7 +3658,7 @@
                     "rows": [
                         [
                             "1st",
-                            "{@spell hellish rebuke|phb}, {@spell hollowing curse|MHP}"
+                            "{@spell hellish rebuke|phb}, {@spell hollowing curse|MHPWT}"
                         ],
                         [
                             "2nd",
@@ -3666,7 +3666,7 @@
                         ],
                         [
                             "3rd",
-                            "{@spell ruby-eye curse|MHP}, {@spell vampiric touch|phb}"
+                            "{@spell ruby-eye curse|MHPWT}, {@spell vampiric touch|phb}"
                         ],
                         [
                             "4th",
@@ -3682,12 +3682,12 @@
         },
         {
             "name": "Hex: Blood Curse",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "10",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blood Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Starting when you choose this craft at 3rd level, you can mark a creature with a sinister blood curse. As an action, choose one creature you can see within 60 feet to make a Constitution saving throw. On a failed save, this creature is on the brink of death until the end of your next turn. If the creature at any point in this duration has less than its maximum hit points and has fewer hit points than twice your witch level, it immediately drops to 0 hit points."
@@ -3695,12 +3695,12 @@
         },
         {
             "name": "Novice Hemomancy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "10",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blood Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Also at 3rd level, when you cast a spell which requires material components that do not have a specific cost, you can replace the material components with a drop of blood."
@@ -3708,12 +3708,12 @@
         },
         {
             "name": "Arcane Bloodletting",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "10",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blood Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Lastly at 3rd level, you can impel your magic with a measure of your own blood. When you cast a spell that has a casting time of 1 action, you can choose to lose 5 hit points to change the casting time to 1 bonus action for this casting.",
@@ -3722,12 +3722,12 @@
         },
         {
             "name": "Deathseeker",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "10",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blood Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "At 6th level, you can see those near death shrouded in a crimson aura. Even in heavily obscured conditions, you can detect the location of creatures within 60 feet that have less than their maximum hit points. This sense can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. Additionally, you have advantage on ability checks you make to track a creature you or your familiar has damaged."
@@ -3735,12 +3735,12 @@
         },
         {
             "name": "Hemomantic Recovery",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "10",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blood Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Beginning at 10th level, you can perform a blood ritual to bolster your magic. Once per day when you finish a short rest, you can spend hit dice to recover expended spell slots. The cost for each spell slot is given on the table below. You can’t use this ability to recover spell slots of 6th level or higher.",
@@ -3781,12 +3781,12 @@
         },
         {
             "name": "Sanguine",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "10",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blood Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "By 14th level, you can wield your own blood like a vicious lash. Once per round, when you cast a spell which deals damage to a creature that is under the effect of your hex, you can choose to lose hit points to increase the amount of damage dealt. For every 5 hit points you lose you can add 2d8 necrotic damage to the damage roll, up to a maximum of 6d8 damage. This feature only applies to a hostile creature which is the sole target of your hex."
@@ -3794,12 +3794,12 @@
         },
         {
             "name": "Blue Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blue Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Compared to all other crafts of magic, blue magic is unique, in that it reflects the essence of magic itself. Witches that specialize in blue magic forgo the ability to learn magic normally, instead adopting magic only by absorbing the energy of spells that affect them and letting the arcana imprint upon their souls."
@@ -3807,12 +3807,12 @@
         },
         {
             "name": "Blue Magic Spells",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blue Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Beginning at 3rd level, the only way you can learn new spells is to experience them. Unlike other witches, you no longer learn new spells as you grow in level (though you retain the spells you have already learned). When a spell is cast on you, you are in the area of a spell’s effect, or you are targeted by the effect of a spell, and you experience any effect of the spell, you can use your reaction to learn that spell. You do not learn a spell if you are required to make a saving throw, you succeed, and the spell has no effect on you.",
@@ -3822,12 +3822,12 @@
         },
         {
             "name": "Hex: Arcane Awareness",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blue Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "At 3rd level, you have a second-sense for ambient magical energy. You can use your action to cast the spell detect magic without using a spell slot. The effects of this spell last until the end of your next turn. In addition, while this spell is active, you can use an action or bonus action to detect if a creature you can see within 60 feet has the Spellcasting feature, Innate Spellcasting trait, or any other ability that allows the creature to cast a spell."
@@ -3835,12 +3835,12 @@
         },
         {
             "name": "Turquoise Efficiency",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blue Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "By 6th level, you have learned to be frugal with the magical energy you absorb from spells. You have advantage on saving throws you make against spells that you know.",
@@ -3849,12 +3849,12 @@
         },
         {
             "name": "Copycat",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blue Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "At 10th level, you can copy a creature’s skills, in addition to their magic. When you see another creature make an ability check using a skill in which it is proficient, you can gain proficiency with that skill, if you are not already proficient, until you take a long rest. Once you use this ability, you must finish a long rest before using it again."
@@ -3862,12 +3862,12 @@
         },
         {
             "name": "Cerulean Reflection",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Blue Magic",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "Beginning at 14th level, you can use your body as a conduit to transmit magic back at other casters. When you are subjected to a spell that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. If you succeed the saving throw by 10 or more, you can use your reaction to cast the spell back at the caster, as though it originated from you, turning the caster into the target. Once you reflect a spell in this way, you can’t do so again until you finish a long rest."
@@ -3875,12 +3875,12 @@
         },
         {
             "name": "Fragrant Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Fragrant",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Magic based on the swirling smoke of strongsmelling herbs has been practiced since the time of ancient wood elves. Today, the discipline, a mix of aromatherapy and mystical arcana, is kept alive by the so-called “perfumed witches”, who can purify the body and still the mind with their collection of fragrances and herbal smokes. Their fragrant magic, however, is not always evident. Sometimes, it would appear their magic is more about relaxation and meditation, while other times, they summon foul clouds which disorientate and kill.",
@@ -3922,12 +3922,12 @@
         },
         {
             "name": "Hex: Fragrant Aura",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Fragrant",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "When you choose this craft at 3rd level, you master a hex that generates aromatic scents. As an action, you can emanate a fragrant aura in a 30-foot radius sphere centered on yourself, which lasts until the end of your next turn. This hex has no effect on creatures that don’t breathe. When you create the aura, choose one of the following scents:",
@@ -3938,12 +3938,12 @@
         },
         {
             "name": "Smoke Rings",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Fragrant",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Also at 3rd level, whenever you create smoke, such as when you burn herbs or incense, you can shape it in any manner you choose in the brief moments before it floats away."
@@ -3951,12 +3951,12 @@
         },
         {
             "name": "Aromatherapy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Fragrant",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "At 6th level, you can replace the verbal, somatic, and material components for a witch spell that you cast by burning a stick of incense. When you do so, the incense is always consumed by the spell, and if the spell would normally require material components with a gp value, you must use an equal value of incense.",
@@ -3965,12 +3965,12 @@
         },
         {
             "name": "Dizzying Fog",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Fragrant",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Beginning at 10th level, as an action, you can release a 20-foot radius cloud of multi-hued smoke centered on yourself. The area of the smoke is heavily obscured, but dissipates fully at the end of your turn. Each creature you choose within the area must make a Wisdom saving throw or be dazed for up to 1 minute. A dazed creature has disadvantage on attack rolls and Dexterity saving throws. Any creature that is immune to being stunned is also immune to being dazed. An affected creature can repeat its saving throw at the end of each of its turns, ending the effect on itself on a success.",
@@ -3979,12 +3979,12 @@
         },
         {
             "name": "Olefactory Aurora",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "11",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Fragrant",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "When you reach 14th level, you are constantly surrounded by a flowery fog that puts your allies into a positive state of mind. Whenever a friendly creature within 30 feet of you makes an attack roll, ability check, or saving throw, they can add a d4 to the roll."
@@ -3992,12 +3992,12 @@
         },
         {
             "name": "Gingerbread Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Gingerbread",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Witches that learn the fine details of Gingerbread Magic become masters in all things confectionery. Some witches, particularly those with a sweet tooth of their own, use their magic to bring joy to others: for example, turning pebbles into gumdrops, and giving them to children. Evil gingerbread witches, however, have a penchant for cruelty, and use their delectable powers to tempt others into traps, or to transform their valuables into sweet treats.",
@@ -4039,12 +4039,12 @@
         },
         {
             "name": "Hex: Sweet Tooth",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Gingerbread",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Starting when you choose this craft at 3rd level, your touch can make anything sweet. As an action, you can touch a nonmagical object that isn’t being worn or carried by another creature that can fit within a 1-foot cube and transform it into an edible candy replica. You choose the type of candy it is made out of, whether it be gingerbread, candy cane, licorice, or a combination of various candies. If the candy is not eaten by the end of your next turn, it reverts to its original material."
@@ -4052,12 +4052,12 @@
         },
         {
             "name": "Gingerbread Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Gingerbread",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Also at 3rd level, when you summon your familiar, you can conjure a version of it made from gingerbread. Your gingerbread familiar has the same statistics as it normally would, but it has blindsight with a range of 10 feet and the following traits: ",
@@ -4068,12 +4068,12 @@
         },
         {
             "name": "Sugar Rush",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Gingerbread",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "By 6th level, as a bonus action, you can give an ally you touch a burst of quickly fading energy. The creature can take the Dash action or Disengage action as a bonus action on its next turn."
@@ -4081,12 +4081,12 @@
         },
         {
             "name": "Candied Decoy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Gingerbread",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Starting at 10th level, you can use your action to conjure an identical duplicate of yourself, created from chocolate, candy, and other sweet treats, in an empty space within 5 feet of you. You can choose to swap places with the decoy when you conjure it. The decoy is a construct with AC 10 and 20 HP, and ability scores equal to yours. It is immune to poison and psychic damage. It appears at first to be indistinguishable from you, but cracks in its candy shell appear when it takes damage. The decoy moves with your walking speed to a location that you choose when you move, but can’t speak or take actions, bonus actions, or reactions. The decoy collapses into an inanimate pile of candy when it is reduced to 0 HP, or after 1 minute. Once you use this ability, you can’t use it again until you finish a long rest."
@@ -4094,12 +4094,12 @@
         },
         {
             "name": "Candy Land",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Gingerbread",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "By 14th level, as an action, you can transform a whole area into a field of confectionary delights. Choose a point you can see within 120 feet. For the next minute, a 30-foot radius sphere of magic centered on that point transforms every nonmagical object entirely within the area that isn’t being worn or carried into an edible candy replica. Structures become gingerbread houses, trees are made of chocolate, and so on. The GM decides the type of candy into which objects are transformed. Candy objects have no damage threshold and vulnerability to all damage. If a candy object is not eaten by the end of the duration, it reverts to its original material.",
@@ -4109,12 +4109,12 @@
         },
         {
             "name": "Green Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Green",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Plants, nature, and things that grow are the domain of green magic. Normally a type of arcana championed by druids, some witches have a close tie to the powers of green magic, and can coax plants and animals into their bidding.",
@@ -4156,12 +4156,12 @@
         },
         {
             "name": "Hex: Elder Tongue",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Green",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Starting when you choose this craft at 3rd level, you know the speech of the forest. As a bonus action, you can attune yourself to the forest, granting you the ability to speak with beasts and plants in a limited manner until the end of your next turn. Most beasts and plants lack the intelligence to convey or understand sophisticated concepts, but could relay what they have seen or heard in the recent past. While you can speak with them, you have advantage on all Charisma checks you make to influence beasts and plants."
@@ -4169,12 +4169,12 @@
         },
         {
             "name": "Primal Ally",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Green",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Also at 3rd level, whenever you summon your familiar, you conjure one that is hardier and more primal than you would normally. Add three times your witch level, instead of twice your witch level, to your familiar’s maximum hit points."
@@ -4182,12 +4182,12 @@
         },
         {
             "name": "Twin Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Green",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "By 6th level, when you summon your familiar, you can divide its spirit into two bodies. When summoned this way, your familiar is two identical creatures which share a single pool of hit points. Your twin familiars roll only once for initiative and act on subsequent turns. You can use your bonus action to command one twin to attack and your action to command the other to attack. A spell or feature which targets or dismisses your familiar affects both twins."
@@ -4195,12 +4195,12 @@
         },
         {
             "name": "Great Oak",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Green",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Beginning at 10th level, you can use your action to plant a seed at your feet and grow a fully-grown tree in mere seconds. At the end of your turn, a tree shoots forth from the soil, rapidly rising to a height of 20 feet and thickening to a 5-foot diameter trunk. The tree’s growth avoids fixed objects, and so can’t destroy fixed structures, but can shove any creature of Large size or smaller high up into its branches. If a creature doesn’t expect the sudden tree growth, it must make a Dexterity saving throw against your spell save DC or take 6d6 bludgeoning damage, or half as much on a successful save.",
@@ -4209,12 +4209,12 @@
         },
         {
             "name": "Sacrificial Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "12",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Green",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "At 14th level, whenever you are targeted by a melee attack while your familiar is within 5 feet of you, you can use your reaction to command it to dive in the way of the attack. This attack targets the familiar instead.",
@@ -4223,12 +4223,12 @@
         },
         {
             "name": "Lunar Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "13",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Lunar",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "The moon is a potent symbol for many witches— especially those who are forced to practice their art incognito. To them it represents a guiding light in the darkness, a confidant or keeper of secrets, and a link to the powerful natural forces that govern time and tide. Lunar witches are the masters of the night: shadowy, quiet, and exceptionally difficult to pin down.",
@@ -4270,12 +4270,12 @@
         },
         {
             "name": "Hex: Lunacy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "13",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Lunar",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "When you join this craft at 3rd level, you gain the ability to drive people mad. As an action, choose one creature you can see within 60 feet to make a Charisma saving throw. On a failed save, the creature suffers from one long-term madness effect, selected at random, until the end of your next turn."
@@ -4283,12 +4283,12 @@
         },
         {
             "name": "Under Cover of Darkness",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "13",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Lunar",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "By 6th level, you have developed a supernatural affinity for shadows. When you are in an area of dim light or darkness, you can use your bonus action to take the Hide action."
@@ -4296,12 +4296,12 @@
         },
         {
             "name": "Everlasting Night",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "13",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Lunar",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "At 10th level, you can use your accursed powers to suppress light around you. As an action, you can cause all areas of direct sunlight within 300 feet of yourself to become bright light, bright light to become dim and dim light to become total darkness for ten minutes. Sources of light are still visible; only the illumination they provide is reduced.",
@@ -4310,12 +4310,12 @@
         },
         {
             "name": "Moonsight",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "13",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Lunar",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "At 14th level, you can see through illusions with ease. You have truesight out to a range of 60 feet and you perceive a shimmering halo of moonlight around any creature you can see that has the shapechanger subtype."
@@ -4323,12 +4323,12 @@
         },
         {
             "name": "Purple Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Purple",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Purple magic holds sway over the domains of illusions and enchantments that take hold over people’s minds, and anything that is not quite as it seems. Practitioners of this form of magic are puppet masters, shaping the apparent reality of those around them to their advantage.",
@@ -4370,12 +4370,12 @@
         },
         {
             "name": "Hex: Hallucination",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Purple",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Starting at 3rd level, you can infect the minds of other creatures. As an action, choose one creature you can see within 60 feet to make a Wisdom saving throw. A creature that is immune to being charmed automatically succeeds on this saving throw. On a failed save, the target’s perspective of the world distorts into a horrific and alien place. The creature has a -1 penalty on all attack rolls and ability checks it makes. Whenever the creature begins its turn, the penalty on all attack rolls and ability checks increases by 1, up to a maximum penalty of -5. This effect lasts until the end of your next turn."
@@ -4383,12 +4383,12 @@
         },
         {
             "name": "False Authority",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Purple",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "By 6th level, as an action, you can wrap yourself in an illusory air of expectation. Any creature which sees you perceives you as a figure of authority. A blacksmith might see you as a guild master, whereas a soldier might see you as a captain. The changes perceived by a viewer fail to hold up to physical inspection. This illusion lasts for 1 hour or until you end it on your turn (no action required).",
@@ -4398,12 +4398,12 @@
         },
         {
             "name": "Deceitful Transposition",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Purple",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Starting at 10th level, you can use your bonus action to create an illusory disguise over two creatures within 60 feet of you, making it seem as if they have teleported and switched places. The disguise makes it seem that the creatures are in one another’s spaces, moving all sounds, smells, and other effects caused by each creature to their correct points of origin. Creatures under the effect of the disguise do not perceive any part of the illusion.",
@@ -4414,12 +4414,12 @@
         },
         {
             "name": "Waking Nightmare",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Purple",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "By 14th level, you can warp everything a creature sees into a hellscape, full of terrible creatures that wish them harm. When a creature fails its saving throw against your Hallucination hex, you can further distort its mind, causing it to lose the ability to distinguish friend from foe, regarding all creatures it sees as enemies until the hex ends. Whenever the hexed creature chooses a target for an attack, spell, or other ability, it must choose the target at random from among the creatures it can see within range. The hexed creature must always use its reaction to make an opportunity attack, if a creature provokes one.",
@@ -4428,12 +4428,12 @@
         },
         {
             "name": "Red Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Red",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Arcane magic tied to channeling the elements is deemed red magic, and is extremely hazardous when used. Witches that specialize in red magic are among the deadliest spellcasters in existence, channeling their curse into unhindered arcane wrath.",
@@ -4475,12 +4475,12 @@
         },
         {
             "name": "Hex: Imperil",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Red",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Starting at 3rd level, you know how to strip away your foes’ magical defenses. As an action, choose one creature you can see within 60 feet to make a Constitution saving throw, and choose any one damage type. On a failed save, the creature loses resistance to the given damage type until the end of your next turn, or is treated as having only resistance, if it is immune."
@@ -4488,12 +4488,12 @@
         },
         {
             "name": "Convolute Energy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Red",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "At 6th level, whenever you cast a spell that deals acid, cold, fire, lightning, poison, or thunder damage, you can gain resistance to that damage type until the end of your next turn."
@@ -4501,12 +4501,12 @@
         },
         {
             "name": "Invulnerability",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Red",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Beginning at 10th level, when an attacker that you can see hits you with an attack, you can use your reaction to briefly become invulnerable. Subtract 50 from the damage dealt, to a minimum of 0.",
@@ -4515,12 +4515,12 @@
         },
         {
             "name": "Elemental Annihilation",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "14",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Red",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "Starting at 14th level, when you cast a witch spell which deals acid, cold, fire, lightning, or thunder damage, you can expend another spell slot of equal or higher level to maximize the damage dealt.",
@@ -4529,12 +4529,12 @@
         },
         {
             "name": "Sky Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "15",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Sky",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Although all witches appreciate the value of a good broom of flying, the Sky Magic craft takes things to another level. Known colloquially as “cloud witches”, they spend as much time aloft as they do on the ground, claiming that the thrill of flight is the only thing that helps them forget the pain and loneliness that comes with a witch’s curse.",
@@ -4576,12 +4576,12 @@
         },
         {
             "name": "Hex: Light Heels",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "15",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Sky",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "When you adopt this craft at 3rd level, you can twist a hex to hold you aloft. As an action, you can gain a flight speed equal to your base movement speed. However, you must end your movement on solid ground, otherwise you fall. This effect lasts until the end of your next turn."
@@ -4589,12 +4589,12 @@
         },
         {
             "name": "Corvid Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "15",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Sky",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "At 6th level, your witch’s familiar becomes a monstrous hybrid, with black feathers and beady eyes. It gains a flying speed of 50 feet (unless it already has a faster flying speed), the ability to speak Common and the following traits: ",
@@ -4604,12 +4604,12 @@
         },
         {
             "name": "Hex: Vortex",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "15",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Sky",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "At 10th level, you can tangle the winds into a howling vortex. As an action, you can create a 5-foot radius sphere of twisting wind, centered on yourself. This area is difficult terrain for creatures other than yourself. The winds force fog, cloud, and other gases out of the area, as well as Small or smaller flying creatures or objects, which are directed upwards, above the sphere of wind. Attacks through this area using arrows, bolts, or other projectiles have disadvantage. Heavy projectiles, such as boulders and ballista bolts, are unaffected."
@@ -4617,12 +4617,12 @@
         },
         {
             "name": "Cloud Dancer",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "15",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Sky",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "When you reach 14th level, your affinity for the skies grants you a supernatural grace while airborne. Whenever you are flying, falling, or levitating and are hit by an attack, you can roll a d4. On a 4, the attack misses."
@@ -4630,12 +4630,12 @@
         },
         {
             "name": "Steel Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "16",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Steel",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Secret covens throughout the Material Plane practice their magic by drawing spells into their blades. Maniacally cackling and whirling their way across the battlefield, these witches weave their curses into a bloody tapestry whenever they bring their steel to bear.",
@@ -4677,12 +4677,12 @@
         },
         {
             "name": "Bonus Proficiencies",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "16",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Steel",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Beginning when you choose this craft at 3rd level, you gain proficiency with battleaxes, flails, longswords, morningstars, rapiers, scimitars, tridents, and warhammers."
@@ -4690,12 +4690,12 @@
         },
         {
             "name": "Hex: Malevolence",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "16",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Steel",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Also at 3rd level, you have learned a secret hex associated with the profane rites of long-forgotten covens. You can use your bonus action to shroud yourself with an evil smog. Until the end of your next turn, you gain the following benefits:",
@@ -4706,12 +4706,12 @@
         },
         {
             "name": "Cackling Killer",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "16",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Steel",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "At 6th level, when you use your Cackle feature, you can attack twice, instead of once, whenever you take the Attack action on your turn."
@@ -4719,12 +4719,12 @@
         },
         {
             "name": "Soulsword Familiar",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "16",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Steel",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Starting at 10th level, as a bonus action, you can draw the essence of your familiar into your weapon, manifesting in a cloak of green flame. Your familiar is dismissed, and can’t be resummoned until you finish a short or long rest. Until your familiar is resummoned, this weapon deals an additional 1d8 fire damage on a hit."
@@ -4732,12 +4732,12 @@
         },
         {
             "name": "Shrieking Strike",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "16",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Steel",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "Starting at 14th level, your accursed magic has seeped into your weapon. Once per turn, when you hit another creature with a melee weapon attack, you can perform a shrieking strike. The target must succeed a Wisdom saving throw against your spell save DC or be frightened of you until the end of your next turn.",
@@ -4746,12 +4746,12 @@
         },
         {
             "name": "Tea Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "17",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Tea",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Tea witches are among the calmest and friendliest of witches, radiating warmth and contentment despite their hideous faces and hollow souls. At their very worst, they can be cranky (if forced to drink their tea in a hurry), or twitchy (after too much tea), but even then, they are likely to look for peaceful solutions to their problems.",
@@ -4793,12 +4793,12 @@
         },
         {
             "name": "Hex: Tasseography",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "17",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Tea",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Starting when you choose this craft at 3rd level, you can see glimpses of the future in your tea leaves. As an action, choose a friendly creature you can see within 60 feet, roll a d20, and record the number rolled. Until the end of your next turn, you can replace any attack roll, saving throw, or ability check made by the creature with this foretelling roll. You must choose to do so before the roll. Once you replace a roll in this way, this hex ends."
@@ -4806,12 +4806,12 @@
         },
         {
             "name": "Tea Ceremony",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "17",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Tea",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Also at 3rd level, you can magically conjure enough tea for you and your allies whenever you take a short or long rest. A creature who drinks this tea loses one additional level of exhaustion during that rest period."
@@ -4819,12 +4819,12 @@
         },
         {
             "name": "Shapes and Omens",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "17",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Tea",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "By 6th level, you can see deeper glimpses into the future through your tea leaves. When you finish a long rest, you can examine the shape of your tea leaves. The GM tells you a shape which hints at future events. For example, if you see a tower in your tea leaves, you might encounter a wizard on the following day. If you see a serpent, you might encounter a liar or a monster."
@@ -4832,12 +4832,12 @@
         },
         {
             "name": "Herbal Remedy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "17",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Tea",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "At 10th level, you can cast the spell greater restoration without expending a spell slot or material components. Once you use this ability, you must finish a short or long rest before using it again."
@@ -4845,12 +4845,12 @@
         },
         {
             "name": "Invigorate",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "17",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Tea",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "By 14th level, as a bonus action, you can give yourself or a friendly creature you can see within 5 feet of you a temporary rush of energy by drinking an energizing cup of tea. On the target’s next turn, the target can take one additional action on top of its regular action and a possible bonus action.",
@@ -4859,12 +4859,12 @@
         },
         {
             "name": "Technicolor Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Technicolor",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Technicolor Magic witches draw their power from the friendships they find around them. They have a penchant for collecting adorable animals of all shapes and sizes, which they will never endanger, no matter how dire the situation. Above all, Technicolor witches are defined by their relentlessly positive outlook, which empowers their arcana and spurs on their allies.",
@@ -4906,12 +4906,12 @@
         },
         {
             "name": "Animal Friends",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Technicolor",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "Starting when you choose this craft at 3rd level, you have advantage on all Wisdom (Animal Handling) checks you make to befriend beasts. You can use your Charisma, instead of Wisdom, on these checks if the creature is Small or smaller. If you adopt a beast as a pet, you can temporarily dismiss it into an extradimensional space, as you would a familiar."
@@ -4919,12 +4919,12 @@
         },
         {
             "name": "Hex: Musical Interlude",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Technicolor",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "At 3rd level, you gain a hex which inspires your allies with an uplifting speech or an encouraging musical number. As an action, you can grant each willing creature you can see which can see you within 30 feet a number of temporary hit points equal to your Charisma modifier plus half your witch level. These temporary hit points last until the end of your next turn."
@@ -4932,12 +4932,12 @@
         },
         {
             "name": "Friendship Bracelet",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Technicolor",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "Beginning at 6th level, as an action, you can weave a small bracelet of string, beads, or some other inexpensive material. You can always determine the location of a creature wearing one of these bracelets, as long as you and it are on the same plane of existence. You can target the creature with spells and effects as if you could see it, even if an obstacle or environmental effect obscures the target from your view."
@@ -4945,12 +4945,12 @@
         },
         {
             "name": "Positivity",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Technicolor",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "Starting at 10th level, you can leverage your bonds of friendship for protection. As a reaction, when a creature you can see attacks you, you gain a bonus to your Armor Class equal to the number of friendly creatures within 5 feet of you.",
@@ -4959,12 +4959,12 @@
         },
         {
             "name": "Redemptive Arc",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "Technicolor",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "Beginning at 14th level, you can redeem your foes, instead of slaying them. When a hostile creature you can see is reduced to 0 hit points, you can use your reaction to protect the creature from harm, causing it to fall unconscious. When the creature awakens, it is freed of any magical effect which would charm, curse, frighten, or possess it. Furthermore, the creature loses one of its Bonds or Flaws which inspired it to be hostile towards you.",
@@ -4973,12 +4973,12 @@
         },
         {
             "name": "White Magic",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "White",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "White magic is fundamentally good and benevolent for all living things. Witches that adopt this craft, in spite of the hateful curse that infects them, often dedicate themselves to healing and caretaking, with the intent of bettering the world.",
@@ -5020,12 +5020,12 @@
         },
         {
             "name": "Hex: Remedy",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "White",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "3",
             "entries": [
                 "At 3rd level, you learn a hex which closes wounds and eases pain. As an action, choose one creature you can see within 60 feet. This creature regains a number of hit points equal to 1d10 + your witch level. A creature which regains hit points from this hex can’t be affected by it again until it finishes a short or long rest."
@@ -5033,12 +5033,12 @@
         },
         {
             "name": "Talisman of Protection",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "White",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "6",
             "entries": [
                 "At 6th level, you can craft a talisman which wards off harm. Creating a talisman takes one hour of work, which can be performed over the course of a short rest. You can only have one of these talismans at a time; crafting a new talisman causes the previous talisman to become mundane. Any creature that wears a talisman can add a d4 to all saving throws it makes."
@@ -5046,12 +5046,12 @@
         },
         {
             "name": "Benevolent Surge",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "White",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "10",
             "entries": [
                 "At 10th level, when you, your familiar, or one of your allies you can see within 30 feet takes damage, you can use your reaction to cause that creature to regain hit points equal to 1d10 + your Charisma modifier. Once you use this ability, you must finish a short or long rest before using it again."
@@ -5059,12 +5059,12 @@
         },
         {
             "name": "Redemptive Arc",
-            "source": "MHP",
+            "source": "MHPWT",
             "page": "18",
             "className": "Witch",
-            "classSource": "MHP",
+            "classSource": "MHPWT",
             "subclassShortName": "White",
-            "subclassSource": "MHP",
+            "subclassSource": "MHPWT",
             "level": "14",
             "entries": [
                 "Starting at 14th level, when you cast a spell or hex which restores a creature’s hit points, that creature gains a +3 bonus to its Armor Class until the end of your next turn."
