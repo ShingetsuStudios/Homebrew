@@ -1,0 +1,1091 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TalesOfIntrigue",
+				"abbreviation": "ToI",
+				"full": "Tales of Intrigue",
+				"authors": [
+					"Baron"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.1.2"
+			}
+		],
+		"dateAdded": 1537874753,
+		"spellSchools": {
+			"TH": {
+				"full": "Thesamancy",
+				"short": "Thes.",
+				"color": "731a32"
+			},
+			"U": {
+				"full": "Umbramancy",
+				"short": "Umbra.",
+				"color": "685875"
+			}
+		}
+	},
+	"spell": [
+		{
+            "name": "Quincy Shot",
+			"source": "TalesOfIntrigue",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1,
+                        "upTo": true
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You call upon the power of light to form a powerful bow, when you cast this spell and as a bonus action on each of the following turns you can make a ranged spell attack. On a hit you deal {@damage 2d8} force damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd lvl or higher the damage increases by {@dice 1d8} per a spell lvl above 2nd."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "force"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "miscTags": [
+                "SCL"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "spellAttack": [
+                "R"
+            ]
+        },
+		{
+			"name": "Bonds of Renewal",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 3,
+			"school": "TH",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a Holly twig"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"concentration": true,
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You release a wave of rejuvenating magic. All friendly creatures within 60 feet gain regeneration 10 (regain 10 hp at the start of the turn for 1 minute if they haven't taken and fire or necrotic damage) also removes the {@condition poisoned} condition, one level of {@condition exhaustion}, or any curses effecting these creatures.",
+				"You can also repair divine nexuses.",
+				"When you cast this spell as a ritual, it takes an hour to complete."
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Destructive Wrath",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 3,
+			"school": "TH",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a vial of blood harvested from a living which is consumed by the spell"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"Destructive energy courses through you. you take 2d8 damage, your maximum hp decreases by that much, and you gain 10 temporary hit points. Every time you hit with a weapon or a spell attack, you add an additional damage die to that attack. Every time you deal damage to a creature, you gain half the damage you delt as temporary hit points. These temporary hitpoints stack with any temporary hitpoints gained from this spell.",
+				"While this spell is active, you gain resistance to all damage types except radiant damage. You gain vulnerability to radiant damage.",
+				"This spell also ends when you fall unconcious."
+			],
+			"miscTags": [
+				"THP",
+				"PRM"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Blood Bond",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 2,
+			"school": "TH",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a vial of fresh blood from each creature that participates in the spell"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"The caster creates a magical bond between a group of creatures. All of the creatures gain a bonus to their attack rolls and ability checks equal to the number of bonded creatures. The caster rolls a hitdie per bonded creature and loses hp from their max until the spell ends. Each other bonded creature loses hp equal to 2x their con mod from their max until the spell ends."
+			],
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Bonds of Pain",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 6,
+			"school": "TH",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": "30"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Obsidian Barbed chains infused with a vengeful spirit worth at least 300gp"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"Black barbed chains shoots out towards a creature within range that you can see. That creature makes a constitution saving throw. On a fail the creature is bound by the chains which take the form of tattoos on the creatures skin. The creature takes 10d8 psychic damage. And they are {@condition incapacitated}. Any attempt to remove this curse require a spell casting ability check dc equal to your spell save. Any failed attempt causes the creature to immediately take 10d8 force damage. Also no health may be regained until the spell is dispelled."
+			],
+			"damageInflict": [
+				"force",
+				"psychic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Bind Blood",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 7,
+			"school": "TH",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Mythral chains enchanted with the spell Magic Circle"
+			},
+			"duration": [
+				{
+					"concentration": false,
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You attempt to bond a creature to your will. You bind the creature with sing its blood and these enchanted chains. The creature must make a charisma saving throw. On a fail the creature is bound to the casters will. The creature may repeat the spell at end if every 30 days."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "True Rejuvenation",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 8,
+			"school": "TH",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You chose up to 6 willing creatures that you can see. Each creature regains hp  equal to 10x your lvl, lose all levels of {@condition exhaustion} and end all poison and curse effects."
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Essence Blade",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 3,
+			"school": "U",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "1 oz of essence of the apppropriate creature type, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You touch a weapon and imbue it with the essence of a creature. Choosing one of the following effects.",
+				{
+					"type": "list",
+					"items": [
+						"Abberation: the weapon deals additional 2d8 psychic damage.",
+						"Fey: the weapon deals an addition 2d8 force damage.",
+						"Fiend: the weapon deals an addition 2d8 Poison damage.",
+						"Undead: the weapon deals an additional 2d8 necrotic damage.",
+						"Celestial: the weapon deals an additional 2d8 radiant damage.",
+						"Elemental: the weapon deals an additional 2d8 (fire/lightning/thunder/cold damage your choice).",
+						"Humaniod: the weapon deals an additional 2d8 acid damage.",
+						"Beast: the weapon deals an additional 2d8 slashing damage."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"force",
+				"lightning",
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant",
+				"slashing",
+				"thunder"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Evisceration",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 5,
+			"school": "U",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": "60"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "essence of a shadow worth at least 20gp which is consumed"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"Shadowy blades shoot out towards a creature you can see. The creature must make a dexterity saving throw. On a fail the shadowy blades pierce the flesh of the target and remain in side of them dealing 6d8 necrotic damage and half on a failed save ending the spell. On each of your following turns you may use a bonus action to cause the creature to make a constitution saving throw on a fail they take 6d8 necrotic damage or non on a failed save also ending the spell"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"dexterity",
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wrist Pocket",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You create an extra dimensional pocket that can hold one small item. When you cast this spell again you may retrieve the object from the pocket or swap it out with another small object."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mystic Correspondence",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A silver hand mirror worth at least 50 gp, and 5 gp of quicksilver, which the spell consumes."
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"you pour the quicksilver across the mirror and say the name of a familiar person's name. The mirror will expand to a 1 foot by 1 foot mirror.",
+				"A similar mirror will appear by the target, letting both creatures converse for the duration.",
+				"You cannot see anything outside of 5 feet from the other side, and it follows and centers on the face of the target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Jhankdi's Guardian Leap",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which an ally wihtin range is attacked"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": "30"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A Weapon or Shield worth at least 1 gp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"When you see an ally being attacked, you quickly surround them in your magic and swap places with them. The attack automatically hits you, saving them from the damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell at a 5th level or higher, the attack roll must hit your ac, as if the attack was made at you normally."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT",
+				"TP"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	],
+	"item": [
+		{
+			"name": "Jhankdi's Fabulous Fanny Pack",
+			"source": "TalesOfIntrigue",
+			"tier": "Minor",
+			"rarity": "Very Rare",
+			"wondrous": true,
+			"weight": 0.5,
+			"entries": [
+				"This well made leather belt pouch has a golden cog with a silver dragon head emblazened on the front. Internally, it has strong metal supports to help it keep its shape, as well as many pouches, vials, and various bits of materials.",
+				"The Fanny Pack has 7 charges, and regains {@dice 1d4+1} charges per day.",
+				"As an action, you may consume a charge and reach into the pouch and pull out any mundane that is either under 20 gp or could be feasably pulled out of a fanny pack.",
+				"Once per day, you may reach into the pouch and create one uncommon or common magic item that does not require attunement.",
+				"Any item created by the Fanny Pack disappates into wisps of shadow after 24 hours."
+			]
+		}
+	]
+}
