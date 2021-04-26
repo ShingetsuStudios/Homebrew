@@ -1,0 +1,3515 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MHPWM",
+                "abbreviation": "MHPWM",
+                "full": "Complete Warmage",
+                "authors": "Mage Hand Press",
+                "convertedBy": "Shin",
+                "url": "https://store.magehandpress.com/products/complete-warmage",
+                "version": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "class": [
+        {
+            "name": "Warmage",
+            "source": "MHPWM",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "con",
+                "int"
+            ],
+            "spellcastingAbility": "int",
+            "startingProficiencies": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "animal handling",
+                                "arcana",
+                                "athletics",
+                                "history",
+                                "investigation",
+                                "medicine",
+                                "perception",
+                                "survival"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ],
+                "tools": [
+                    "one type of {@item artisan's tools|PHB} of your choice",
+                    "one {@item musical instrument|PHB} of your choice"
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "{@item Leather armor|PHB}, a {@item dagger|PHB}, and any simple weapon ",
+                    "(a) a {@item component pouch|PHB} or (b) an {@item arcane focus|PHB} ",
+                    "An {@item Explorer's Pack|PHB} an (a) a {@item Scholar's Pack|PHB} or (b) one kit you’re proficient in"
+                ],
+                "defaultData": [
+                    {
+                        "_": [
+                            "leather armor|phb",
+                            "dagger|phb",
+                            {
+                                "equipmentType": "weaponSimple"
+                            },
+                            "explorer's pack|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "component pouch|phb"
+                        ],
+                        "b": [
+                            "arcane focus|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "scholar's pack|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "toolArtisan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "{@filter Cantrips Knwon|spells|level=0|class=Warmage (MHPWM)}",
+                        "Cantrip Bonus Dice",
+                        "{@filter Tricks Known|optionalfeatures|feature type=Warmage Tricks}"
+                    ],
+                    "rows": [
+                        [
+                            4,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            0,
+                            2
+                        ],
+                        [
+                            5,
+                            0,
+                            3
+                        ],
+                        [
+                            5,
+                            0,
+                            3
+                        ],
+                        [
+                            6,
+                            1,
+                            4
+                        ],
+                        [
+                            6,
+                            1,
+                            4
+                        ],
+                        [
+                            6,
+                            1,
+                            5
+                        ],
+                        [
+                            6,
+                            1,
+                            5
+                        ],
+                        [
+                            7,
+                            1,
+                            6
+                        ],
+                        [
+                            7,
+                            1,
+                            6
+                        ],
+                        [
+                            7,
+                            2,
+                            7
+                        ],
+                        [
+                            7,
+                            2,
+                            7
+                        ],
+                        [
+                            8,
+                            2,
+                            8
+                        ],
+                        [
+                            8,
+                            2,
+                            8
+                        ],
+                        [
+                            8,
+                            2,
+                            9
+                        ],
+                        [
+                            8,
+                            2,
+                            9
+                        ],
+                        [
+                            9,
+                            3,
+                            10
+                        ],
+                        [
+                            9,
+                            3,
+                            10
+                        ],
+                        [
+                            9,
+                            3,
+                            10
+                        ],
+                        [
+                            10,
+                            3,
+                            10
+                        ]
+                    ]
+                }
+            ],
+            "fluff": [
+                {
+                    "name": "Warmage",
+                    "type": "section",
+                    "entries": [
+                        "An elf recites the motions again for the simplest spell she knows, repeating them until she knows they are perfect. With a single, precise stroke, she unleashes a wave of arcane energy, focused into a searing blue beam.",
+                        "A tiefling waves her hands to conjure floating greatswords of humming blue energy, which dance about in mesmerizing and deadly arcs. One blade takes on an aspect of fire, and the other lightning, as she begins to cleave through the goblinoid horde.",
+                        "Waving a black and red checkered banner, a dragonborn king charges into the fore. At his sides are warmages of all houses, a chessboard of elite arcanists, poised to turn the tide of battle.",
+                        "The undisputed masters of cantrips, Warmages turn the most fundamental types of magic into a deadly and precise art.",
+                        {
+                            "type": "entries",
+                            "name": "Cantrip Masters",
+                            "entries": [
+                                "While other spellcasters aspire to grander and more complex spells, warmages refine and master the most fundamental magic: cantrips. Warmages wield their magic in the same way that a warrior uses a sword, bow, or axe: as weapons to be perfected and mastered, not as an unknowable force to be feared. In contrast to sorcerers and wizards, their magic is a trainable skill, one that can be mastered by almost anyone with discipline and aptitude. Therefore, warmages stand among the most fearsome of spellcasters, with only the most rudimentary of spells."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Strategic Geniuses",
+                            "entries": [
+                                "Warmages have a long and storied history as grand strategists and tacticians, both in grand battles and personal skirmishes. If a warmage is outgunned or outmanned, they’ll try to outthink their foes, which works more often than not. They demonstrate an efficient kind of pragmatism, owing perhaps to their ability to solve many problems with a few magical tools."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Aligned Free Agents",
+                            "entries": [
+                                "While some warmages are fully self-taught, the majority join a House, a loose confederation of warmages which practice together and share secrets of the trade. Houses teach invaluable battlefield strategy, but each individual Houses also touts their own brands of tactics and styles of magical tricks. The House of Knights, for example, emphasizes armor and martial prowess, whereas the House of Kings emphasizes battlefield strategy.",
+                                "By way of metaphor, Houses which value honor and teamwork above all else brand themselves after games of strategy, whereas those who epitomize self-reliance name themselves for games of chance. This division in the warmage Houses is representative of a schism that dates back to the earliest warmage masters. Legend has it that the first two masters separated when one decided to found a college. The other, out of spite, built a casino outside its grounds."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating a Warmage",
+                            "entries": [
+                                "Warmages come from all walks of life, so as you build yours, consider where you first learned the fundamentals of magic, which you would go on to perfect. You might have picked up cantrips from a fellow adventurer or in the early stages of wizarding training. You could even be selftaught. Choose an Arcane Initiation which best fits your character’s history with magic. Moreover, consider how you feel about magic as a whole. Are you envious of other spellcasters, or are you confident you could best them regardless? Did you once pine to be a wizard, but found you could never muster enough true magic to form a spell slot? Did you choose warmagistry to hone your talents to their absolute peak, or did you choose it to wield power no warrior can equal? Lastly, consider your prospective warmage house. Though you don’t choose one until reaching third level, your aspirations might shape which house you favor the most. If you would like to dabble with greater arcane magic, the House of Bishops is the best fit. If the clashing of swords at the frontlines piques your interest, consider the House of Knights."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Quick Build",
+                            "entries": [
+                                "You can make a Warmage quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution. Make Strength your third highest if you plan to take the House of Knights. Then choose the cantrips chill touch, fire bolt, prestidigitation, and springheel, and the Adventurer Arcane Initiation. Pick any background."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "classSpells": [
+                "Acid Splash",
+                "Chill Touch",
+                "Fire Bolt",
+                "Light",
+                "Mage Hand",
+                "Mending",
+                "Minor Illusion",
+                "Prestidigitation",
+                "Poison Spray",
+                "Produce Flame",
+                "Ray of Frost",
+                "Shocking Grasp",
+                "True Strike"
+            ],
+            "cantripProgression": [
+                4,
+                4,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                10
+            ],
+            "classFeatures": [
+                "Spellcasting|Warmage|MHPWM|1",
+                "Arcane Initiation|Warmage|MHPWM|1",
+                "Arcane Fighting Style|Warmage|MHPWM|1",
+                "Warmage Edge|Warmage|MHPWM|2",
+                "Warmage Trick|Warmage|MHPWM|2",
+                {
+                    "classFeature": "Warmage House|Warmage|MHPWM|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warmage|MHPWM|4",
+                "Arcane Surge|Warmage|MHPWM|5",
+                "Tactical Insight|Warmage|MHPWM|6",
+                {
+                    "classFeature": "Warmage House Feature|Warmage|MHPWM|7",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warmage|MHPWM|8",
+                {
+                    "classFeature": "Warmage House Feature|Warmage|MHPWM|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warmage|MHPWM|12",
+                "Strategic Deflection|Warmage|MHPWM|14",
+                {
+                    "classFeature": "Warmage House Feature|Warmage|MHPWM|15",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warmage|MHPWM|16",
+                {
+                    "classFeature": "Warmage House Feature|Warmage|MHPWM|18",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warmage|MHPWM|19",
+                "Master Warmage|Warmage|MHPWM|20"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Spellcasting",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 1,
+            "entries": [
+                "At 1st level, you begin to learn the simple, yet potent, brand of spellcasting for which warmages are known.",
+                {
+                    "type": "entries",
+                    "name": "Cantrips",
+                    "entries": [
+                        "You learn four cantrips of your choice from the warmage spell list. You learn additional warmage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warmage table.",
+                        "Additionally, when you gain a level in this class, you can choose one of the warmage cantrips you know and replace it with another warmage cantrip.",
+                        "If a cantrip appears on the wizard spell list and it isn't already on the Warmage spell list, the GM can allow this cantrip to be a warmage spell as well.",
+                        "When a warmage uses a cantrip which calls for a melee weapon attack, such as burning blade or frigid blade, they can apply their class features and warmage tricks to the weapon damage dealt."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your warmage spells, since you learn your spells through practice and mental discipline. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a warmage spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You can use an arcane focus as a spellcasting focus for your warmage spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Initiation",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 1,
+            "entries": [
+                "Warmages come from all backgrounds and walks of life. At 1st level, choose where you first learned the basics of magic. The cantrips offered by your initiation don’t count against your total number of warmage cantrips known.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Adventurer|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Circus Performer|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Eldritch Event|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Mercenary|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Temple|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Tower Apprentice|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Self-Taught|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Survival|MHPWM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Fighting Style",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 1,
+            "entries": [
+                "Warmages learn that magic is the purest of weapons, and can be wielded just as easily as any other. At 1st level, select one of the following fighting styles:",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blaster|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Deflector|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Resistive|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Sniper|MHPWM"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Striker|MHPWM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Warmage Edge",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level, once on each of your turns when you deal damage with a warmage cantrip, you can improve one damage roll of the spell, adding your Intelligence modifier to the roll. Starting at 5th level, and as you gain levels in this class, you also add additional dice of cantrip damage, as shown on the Cantrip Bonus Dice column of the Warmage table, to the damage roll. For example, when you are at 5th level, you can enhance the damage of the fire bolt cantrip to deal fire damage equal to 3d10 + your Intelligence modifier on a hit."
+            ]
+        },
+        {
+            "name": "Warmage Trick",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 2,
+            "entries": [
+                "Beginning at 2nd level, you learn a Warmage Trick, a special technique that alters the way you fight, move, and cast your spells. You learn 2 tricks at 2nd level, and an additional trick as shown on the Tricks Known column of the Warmage table. ",
+                "Additionally, when you gain a level in this class, you can replace a trick that you know with another trick for which you meet the prerequisites."
+            ]
+        },
+        {
+            "name": "Warmage House",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 3,
+            "entries": [
+                "The College of Warmages divides its students into distinct Houses, teaching different skills, abilities, and techniques. Upon reaching 3rd level, you can select a House, which offers you features at 3rd level, and additional features at 7th, 10th, 15th, and 18th level."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Arcane Surge",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 5,
+            "entries": [
+                "Starting at 5th level, you learn to, for a moment, tap into a vast reservoir of magical power and unleash it upon your foes. On your turn, when you deal damage with a warmage cantrip, you can deal twice the number of damage dice dealt by the spell. You can’t use this ability on a spell that has scored a critical hit.",
+                "Once you use this ability, you can’t use it again until you finish a short or long rest. Starting at 11th level, you can use this ability twice between rests."
+            ]
+        },
+        {
+            "name": "Tactical Insight",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn how to use ambient magical power to defend yourself from your foes’ magical attacks. You can add your Intelligence modifier to saving throws you make against spells and magical effects that deal damage."
+            ]
+        },
+        {
+            "name": "Warmage House Feature",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 7,
+            "entries": [
+                "At 7th level, you gain a feature from your Warmage House"
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Warmage House Feature",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature from your Warmage House"
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Strategic Deflection",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 14,
+            "data": {
+                "activation.type": "reaction",
+                "activation.condition": "When you make a successful saving throw against a spell"
+            },
+            "entries": [
+                "Starting at 14th level, as a reaction when you make a successful saving throw against a spell, you can redirect the spell’s energy to a new target. When you do so, choose another creature (including the spellcaster) you can see within the spell’s range or 30 feet, whichever is closer. The spell targets the chosen creature instead of you, as if you cast the spell. The target creature makes its own save against your spell save DC.",
+                "Once you use this ability, you can’t use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Warmage House Feature",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 15,
+            "entries": [
+                "At 15th level, you gain a feature from your Warmage House"
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Warmage House Feature",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 18,
+            "entries": [
+                "At 18th level, you gain a feature from your Warmage House"
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. ",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Master Warmage",
+            "source": "MHPWM",
+            "page": 0,
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "level": 20,
+            "entries": [
+                "At 20th level, you reach the pinnacle of your warmage prowess. If you cast a cantrip which deals 4 dice of damage to a target, it instead deals 5 dice of damage. If you cast a cantrip which makes 4 attacks, it instead makes 5 attacks."
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Blitz",
+            "source": "MHPWM",
+            "entries": [
+                "As a bonus action, when you hit a creature with an attack, you can expend one battle die to maneuver one of your comrades into a more advantageous position. Choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
+            ],
+            "featureType": "Arcane Maneuver"
+        },
+        {
+            "name": "Bulwark",
+            "source": "MHPWM",
+            "entries": [
+                "When you hit a creature with a melee attack, you can expend a battle die as a bonus action to brace yourself for its counterattack. The next time the creature damages you before the start of your next turn, you can roll the battle die and subtract the result from the damage dealt."
+            ],
+            "featureType": "Arcane Maneuver"
+        },
+        {
+            "name": "Check",
+            "source": "MHPWM",
+            "entries": [
+                "When you hit a creature with an attack, as a bonus action you can spend one battle die to force that creature to flee. The target must make a Charisma saving throw. A creature that is immune to being charmed automatically succeeds this saving throw. On a failed save, the target must immediately use its reaction, if available, to move up to half its speed directly away from you."
+            ],
+            "featureType": "Arcane Maneuver"
+        },
+        {
+            "name": "Gambit",
+            "source": "MHPWM",
+            "entries": [
+                "When you hit a creature with an attack, you can expend one battle die to give your allies an opening. The next creature other than you to make an attack against the target adds the battle die to their attack roll."
+            ],
+            "featureType": "Arcane Maneuver"
+        },
+        {
+            "name": "Rally",
+            "source": "MHPWM",
+            "entries": [
+                "As a bonus action on your turn, you can expend a battle die to choose one allied creature within 60 feet of you who can see or hear you. That creature regains hit points equal to the die rolled + your Intelligence modifier. You cannot use this ability to heal a creature who has 0 hit points."
+            ],
+            "featureType": "Arcane Maneuver"
+        },
+        {
+            "name": "Stalemate",
+            "source": "MHPWM",
+            "entries": [
+                "When you hit a creature with an attack, as a bonus action you can expend one battle die to hold that creature in place. Until the end of its next turn, the target can’t willingly move unless it first takes the Disengage action."
+            ],
+            "featureType": "Arcane Maneuver"
+        },
+        {
+            "name": "Adventurer",
+            "source": "MHPWM",
+            "entries": [
+                "You picked up your magic informally by travelling with a dozen different mages over the years. You learn the {@spell mage hand} and {@spell ray of frost} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Circus Performer",
+            "source": "MHPWM",
+            "entries": [
+                "You learned a few simple tricks to participate in a sideshow or circus act. You learn the {@spell dancing lights} and {@spell minor illusion} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Eldritch Event",
+            "source": "MHPWM",
+            "entries": [
+                "An influx of insidious magic left an imprint on you. You learn the {@spell chill touch} and {@spell message} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Mercenary",
+            "source": "MHPWM",
+            "entries": [
+                "You mastered the fundamentals of war magic to engage in battle with similarly-armed arcanists. You learn the {@spell arc blade|MHPWM} and {@spell true strike} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Temple",
+            "source": "MHPWM",
+            "entries": [
+                "A monastery or temple educated you in the ways of gentle healing magic. You learn the {@spell sacred flame} and {@spell spare the dying} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Tower Apprentice",
+            "source": "MHPWM",
+            "entries": [
+                "You apprenticed under a spellcaster for some time, who taught you the fundamentals of arcana. You learn the {@spell prestidigitation} and {@spell shocking grasp} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Self-Taught",
+            "source": "MHPWM",
+            "entries": [
+                "You taught yourself all the fundamentals of magic from a dusty old tome or abandoned scroll. You learn the {@spell fire bolt} and {@spell light} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Survival",
+            "source": "MHPWM",
+            "entries": [
+                "To survive in the wilderness, you taught yourself to cast simple spells. You learn the {@spell druidcraft} and {@spell shillelagh} cantrips."
+            ],
+            "featureType": "Arcane Initiation"
+        },
+        {
+            "name": "Blaster",
+            "source": "MHPWM",
+            "entries": [
+                "The spell save DC for your warmage cantrips increases by 1."
+            ],
+            "featureType": "Arcane Fighting Style"
+        },
+        {
+            "name": "Deflector",
+            "source": "MHPWM",
+            "entries": [
+                "When you have one hand free and a creature hits you with a spell attack or a ranged weapon attack, you can use your reaction to add your proficiency bonus to your Armor Class, potentially causing the attack to miss."
+            ],
+            "featureType": "Arcane Fighting Style"
+        },
+        {
+            "name": "Resistive",
+            "source": "MHPWM",
+            "entries": [
+                "While you are wearing light armor or are under the effects of the mage armor spell, you gain a +2 bonus to your Armor Class."
+            ],
+            "featureType": "Arcane Fighting Style"
+        },
+        {
+            "name": "Sniper",
+            "source": "MHPWM",
+            "entries": [
+                "When making a ranged spell attack, you gain a +1 bonus to the attack roll. Additionally, your ranged cantrips ignore half cover."
+            ],
+            "featureType": "Arcane Fighting Style"
+        },
+        {
+            "name": "Striker",
+            "source": "MHPWM",
+            "entries": [
+                "When you hit with a cantrip requiring a melee attack and exceed the target’s AC by 5 or more or score a critical hit, you can add your proficiency modifier to the damage roll."
+            ],
+            "featureType": "Arcane Fighting Style"
+        },
+        {
+            "name": "Bishop's Maneuver",
+            "source": "MHPWM",
+            "entries": [
+                "You can take the Disengage action as a bonus action, and when you do so, your movement speed increases by 10 feet until the end of your turn."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Bishop",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Blasting Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "Once on each of your turns, when you deal force damage to a creature with a warmage cantrip, you can push the creature up to 10 feet away from you in a straight line."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Blinding Light",
+            "source": "MHPWM",
+            "entries": [
+                "When you use the light cantrip to target an object you are holding, you can direct a flare at a creature within 10 feet of you, which must make a Constitution saving throw against your spell save DC. On a failed save, the creature is blinded until the beginning of your next turn. After a creature has failed a saving throw against this ability, it has advantage on all Constitution saving throws against it for 24 hours."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "light#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Castle",
+            "source": "MHPWM",
+            "entries": [
+                "As an action, you can choose a willing Small or Medium creature you can see within 100 feet of you. You both teleport, switching places. ",
+                "Once you use this trick, you can’t use it again until you finish a short or long rest."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Rook",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Chivalrous Presence",
+            "source": "MHPWM",
+            "entries": [
+                "You can add half your proficiency bonus (rounded up) to any Charisma check you make that doesn’t already use your proficiency bonus. Additionally, you can tell when a creature you are speaking with tells a lie, as long as you haven’t told a lie to that creature."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Knight",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cloak of Feathers",
+            "source": "MHPWM",
+            "entries": [
+                "While not wearing armor, under the effects of mage armor, or using a shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Rook",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Commander's Steed",
+            "source": "MHPWM",
+            "entries": [
+                "You learn the find steed spell and can cast it without using a spell slot. Your steed is more resilient than most, and has a number of additional hit points equal to your warmage level."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "King",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Corrosive Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "Once on each of your turns, when you deal acid damage to a creature with a warmage cantrip, you can cause the acid to erode the target’s defenses. The next time a creature makes an attack roll against the target before the beginning of your next turn, roll a d4 and subtract it from the target’s Armor Class for this attack."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Directed Momentum",
+            "source": "MHPWM",
+            "entries": [
+                "Once on each of your turns, when you score a critical hit with a melee attack or reduce a creature to 0 hit points with one, you can make an unarmed strike against a second target. If the target is within range of your Shock Trooper feature, you can lunge toward it. On a hit, this attack deals an additional 1d8 force damage."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Lancer",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Draining Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "Whenever you deal necrotic or poison damage to a hostile creature using a warmage cantrip, you can siphon some of its life force. You gain temporary hit points equal to half your warmage level, which last for 1 minute."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Encryptogram",
+            "source": "MHPWM",
+            "entries": [
+                "Your knowledge of ciphers has improved your magically clandestine communications. When you cast the cryptogram cantrip, its limit is 20 characters, instead of 8, and only the specified recipient can read the message."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "cryptogram|MHPWM#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Explosive Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "Once on each of your turns, when you deal fire damage to a creature with a warmage cantrip, each creature within 5 feet of the target, except yourself and the target, must succeed a Dexterity saving throw against your spell save DC or take half the fire damage dealt."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Extended Range",
+            "source": "MHPWM",
+            "entries": [
+                "The range of your warmage cantrips is doubled."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Field Medic",
+            "source": "MHPWM",
+            "entries": [
+                "You learn the cantrip {@spell spare the dying|PHB}, which does not count against your maximum number of cantrips known. Additionally, when you cast spare the dying on a creature which has 0 hit points, the target regains 1 hit point and gains temporary hit points equal to your level, which last for 1 minute. Once a creature regains hit points due to this ability, it can’t do so again until it finishes a long rest."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Bishop",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Flexible Range",
+            "source": "MHPWM",
+            "entries": [
+                "Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged spell attack rolls. Additionally, the range of any cantrip you cast that requires a melee spell attack increases to 10 feet."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Fold",
+            "source": "MHPWM",
+            "entries": [
+                "You have learned to graciously accept defeat using your Deck of Fate. As a reaction when you are hit by an attack, you can play your entire hand to cast the shield spell without using a spell slot.",
+                "Once you use this ability, you can’t use it again until you finish a short or long rest."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Card",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Gamble",
+            "source": "MHPWM",
+            "entries": [
+                "You are always under the effects of the cheat cantrip. ",
+                "Additionally, you can reroll an attack roll, ability check, or saving throw. Once you use this ability, you can’t use it again until you finish a short or long rest."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Card or Dice",
+                            "visible": true
+                        }
+                    }
+                },
+                {
+                    "spell": [
+                        "cheat|MHPWM#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Infinite Variation",
+            "source": "MHPWM",
+            "entries": [
+                "You have become exceptionally skilled at using the prestidigitation cantrip to mimic other spells. When you cast prestidigitation, you can use it to emulate the effects of any other cantrip that does not deal damage, even one that is not on the warmage spell list. To do so, you must succeed on a DC 15 Intelligence (Arcana) check, otherwise the spell fizzles and does nothing. A cantrip cast using this trick counts as a warmage cantrip and uses your Intelligence modifier as the spellcasting modifier."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "prestidigitation#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Icy Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "Once on each of your turns, when you deal cold damage to a creature with a warmage cantrip, you can numb the target with a frigid blast. The first time the target makes an attack roll before the end of its next turn, it must roll a d4 and subtract it from the roll."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Knight's Aegis",
+            "source": "MHPWM",
+            "entries": [
+                "When you cast the force buckler cantrip, you can concentrate on it for up to 1 minute. The spell does not end early if you are hit by an attack."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Knight",
+                            "visible": true
+                        }
+                    }
+                },
+                {
+                    "spell": [
+                        "force buckler|MHPWM#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Leading Edge Tactics",
+            "source": "MHPWM",
+            "entries": [
+                "You always have a plan when engaging the enemy. As such, attacks during the first round of combat have disadvantage against you."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Lancer",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Lieutenant's Demand",
+            "source": "MHPWM",
+            "entries": [
+                "You can cast the spell command at will without using a spell slot."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "King",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Mage Hand Knack",
+            "source": "MHPWM",
+            "entries": [
+                "Your skill with the mage hand cantrip allows you to use it as an extension of yourself. When you cast the spell and as a bonus action on each of your subsequent turns, you can use one of the following effects with the hand:",
+                "{@bold Press.} The hand pushes against a Large or smaller creature within 5 feet of it. Choose a direction away from that creature. Every foot of movement in that direction while the hand is pressing against it costs the creature two feet of movement. The hand continues to push the target until the spell ends or you use your bonus action to use a different effect using the hand.",
+                "{@bold Punch.} The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your spell attack bonus. On a hit, the target takes 1d6 force damage.",
+                "{@bold Seize.} The hand grabs a creature of Tiny size and attempts to grapple it. The creature must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC or be grappled by the hand. The hand continues to grapple the target until the target uses an action to escape on its turn, the spell ends, or you use your bonus action to use a different effect using the hand."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "mage hand#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Minor Shadow Illusion",
+            "source": "MHPWM",
+            "entries": [
+                "When you create the image of an object in an unoccupied space using the minor illusion cantrip, you can fill it with fibers of shadowstuff, causing it to become partially real. No matter what form the semi-real object takes, it still must be no larger than a 5-foot cube. It has AC 10 and 5 HP, and it weighs 5 pounds. You can only have one semireal illusion at a time. While this semi-real object exists, the cantrip requires your concentration.",
+                "The illusion can’t replicate a creature, but it can deal damage to a creature within its 5-foot cube. If the illusion is of an object that can deal damage, a creature that enters the object’s 5-foot cube or begins its turn there must make an Intelligence saving throw against your spell save DC. On a failed save, the creature takes 1d6 damage of a type appropriate to the illusion. This damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6). This damage can’t trigger Warmage Edge or any warmage tricks."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "minor illusion#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mystical Armor",
+            "source": "MHPWM",
+            "entries": [
+                "You can cast the spell mage armor on yourself at will, without expending a spell slot."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Mystical Athlete",
+            "source": "MHPWM",
+            "entries": [
+                "When you cast the quickstep cantrip, your speed increases by 20 feet instead of 10 feet. When you cast the springheel cantrip, your jumping distance increases by 20 feet instead of 10 feet. If you know both of these cantrips, you can cast both of them as part of the same bonus action."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "quickstep|MHPWM#c",
+                        "springheel|MHPWM#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mystical Weaponmaster",
+            "source": "MHPWM",
+            "entries": [
+                "Once on each of your turns when you roll a 1 on the d20 for an attack roll for the force weapon or magic daggers cantrips, you can reroll the die and must use the new roll."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "force weapon|MHPWM#c",
+                        "magic daggers|MHPWM#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mystical Vision",
+            "source": "MHPWM",
+            "entries": [
+                "You can cast the spell detect magic at will without expending a spell slot."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Phantom Hookshot",
+            "source": "MHPWM",
+            "entries": [
+                "You can cast the phantom grapnel cantrip as a bonus action. If you do so, its range is reduced to 15 feet. Additionally, creatures pulled by phantom grapnel are pulled an additional 10 feet."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "phantom grapnel|MHPWM#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rapid Fortification",
+            "source": "MHPWM",
+            "entries": [
+                "You can cast the mending cantrip as a bonus action, or you can cast it as an action for one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can restore a single object, such as a door, cart, wall, or window to pristine condition, if at least half of its parts are present. This object can be no larger than 10 cubic feet, or 1 cubic foot if it is an exceptionally complex object (such as a clock).",
+                        "You can create simple fortifications, such as sealing a door shut, adding wooden planks to a window, or building a short stone wall (no larger than 10 cubic feet). You must have the materials present to use this ability."
+                    ]
+                }
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "mending#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Snake Eyes",
+            "source": "MHPWM",
+            "entries": [
+                "If you roll a 1 or 2 on a Die of Fate, you keep the die instead of giving it to the GM."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Dice",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Severe Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "When a creature rolls a 1 on a saving throw against one of your warmage cantrips, it automatically fails the save and takes twice the number of damage dice dealt by the spell, as if you scored a critical hit. The additional damage only applies to the creature that rolled a 1."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Signature Focus",
+            "source": "MHPWM",
+            "entries": [
+                "When you finish a long rest, you can place a unique sigil on a simple weapon, which becomes your signature focus until you use this ability again. This weapon becomes magical, and can be used as an arcane focus. Your signature focus is bonded to you, and gains a number of special abilities:",
+                {
+                    "type": "list",
+                    "items": [
+                        "As a bonus action, you can call your signature focus to your hand, as long as you are on the same plane as it. ",
+                        "You can add your Intelligence modifier, instead of your Strength or Dexterity modifier, to attack rolls using your signature focus. ",
+                        "Your signature focus gains a number of charges equal to your Intelligence modifier. When you damage a creature with it or a cantrip cast through it, you can expend one charge to deal an additional 1d8 force damage to that creature. Your focus regains all spent charges after you finish a long rest."
+                    ]
+                }
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Silent Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "Whenever you cast a warmage cantrip which deals thunder damage, you can choose for the spell’s casting to be magically silent for all creatures other than the target. Furthermore, you can become magically silent until the start of your next turn."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Split Fire",
+            "source": "MHPWM",
+            "entries": [
+                "When you cast a warmage cantrip that requires a single spell attack roll, you can select multiple creatures and make a spell attack roll against each. You can target a number of creatures equal to the number of damage dice the cantrip deals, and split your damage dice up amongst your targets, to a minimum of 1 die of damage per target. Each attack must target a different creature. ",
+                "For example, fire bolt deals 3d10 damage. You can choose to target three creatures and deal 1d10 damage to each creature, or you can target two creatures, dealing 1d10 damage to one creature and 2d10 damage to the other creature, or you can target one creature for 3d10 damage."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Static Cantrip",
+            "source": "MHPWM",
+            "entries": [
+                "Whenever you deal lightning damage to a hostile creature using a warmage cantrip, you can sap part of the energy into a charge which clings to your body until the beginning of your next turn. While charged, you can use your reaction when you take damage from a creature you can see within 5 feet of you to deal lightning damage equal to half your warmage level to the creature."
+            ],
+            "featureType": "Warmage Tricks"
+        },
+        {
+            "name": "Unerring Strike",
+            "source": "MHPWM",
+            "entries": [
+                "When you cast the true strike cantrip, you can concentrate on it for a number of rounds equal to your Intelligence modifier. You gain advantage on the first attack roll you make against the target each round while maintaining concentration on true strike."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "true strike#c"
+                    ]
+                }
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "House of Bishops",
+            "shortName": "Bishop",
+            "source": "MHPWM",
+            "spellcastingAbility": "int",
+            "casterProgression": "1/3",
+            "subclassTableGroups": [
+                {
+                    "subclasses": [
+                        {
+                            "name": "House of Bishops",
+                            "source": "MHPWM"
+                        }
+                    ],
+                    "colLabels": [
+                        "{@filter Spells Known|spells|subclass=Warmage: Bishop (MHPWM)}"
+                    ],
+                    "rows": [
+                        [
+                            0
+                        ],
+                        [
+                            0
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ]
+                    ]
+                },
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "subclasses": [
+                        {
+                            "name": "House of Bishops",
+                            "source": "MHPWM"
+                        }
+                    ],
+                    "colLabels": [
+                        "{@filter 1st|spells|level=1|subclass=Warmage: Bishop (MHPWM)}",
+                        "{@filter 2nd|spells|level=2|subclass=Warmage: Bishop (MHPWM)}",
+                        "{@filter 3rd|spells|level=3|subclass=Warmage: Bishop (MHPWM)}",
+                        "{@filter 4th|spells|level=4|subclass=Warmage: Bishop (MHPWM)}"
+                    ],
+                    "rows": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "spellsKnownProgression": [
+                0,
+                0,
+                3,
+                4,
+                4,
+                4,
+                5,
+                6,
+                6,
+                7,
+                7,
+                8,
+                9,
+                10,
+                10,
+                11,
+                11,
+                11,
+                12,
+                13
+            ],
+            "subclassSpells": [
+                {
+                    "class": "Wizard",
+                    "source": "PHB"
+                }
+            ],
+            "subclassFeatures": [
+                "House of Bishops|Warmage|MHPWM|Bishop|MHPWM|3",
+                "Arcane Study|Warmage|MHPWM|Bishop|MHPWM|3",
+                "Mystical Companion|Warmage|MHPWM|Bishop|MHPWM|7",
+                "Siege Casting|Warmage|MHPWM|Bishop|MHPWM|10",
+                "Arcane Sculpting|Warmage|MHPWM|Bishop|MHPWM|15",
+                "Arcane Dominance|Warmage|MHPWM|Bishop|MHPWM|18"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        },
+        {
+            "name": "House of Cards",
+            "shortName": "Card",
+            "source": "MHPWM",
+            "subclassFeatures": [
+                "House of Cards|Warmage|MHPWM|Card|MHPWM|3",
+                "Bluff|Warmage|MHPWM|Card|MHPWM|3",
+                "Deck of Fate|Warmage|MHPWM|Card|MHPWM|3",
+                "High Stakes|Warmage|MHPWM|Card|MHPWM|7",
+                "Dealer's Choice|Warmage|MHPWM|Card|MHPWM|10",
+                "Card Reading|Warmage|MHPWM|Card|MHPWM|15",
+                "Ace in the Hole|Warmage|MHPWM|Card|MHPWM|18"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        },
+        {
+            "name": "House of Dice",
+            "shortName": "Dice",
+            "source": "MHPWM",
+            "subclassFeatures": [
+                "House of Dice|Warmage|MHPWM|Dice|MHPWM|3",
+                "Dice of Fate|Warmage|MHPWM|Dice|MHPWM|3",
+                "Chaos Roll|Warmage|MHPWM|Dice|MHPWM|3",
+                "Loaded Dice|Warmage|MHPWM|Dice|MHPWM|7",
+                "Twisted Fate|Warmage|MHPWM|Dice|MHPWM|10",
+                "Roll the Bones|Warmage|MHPWM|Dice|MHPWM|15",
+                "Steal Luck|Warmage|MHPWM|Dice|MHPWM|18",
+                "Bonus Proficiencies|Warmage|MHPWM|Dice|MHPWM|3"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        },
+        {
+            "name": "House of Kings",
+            "shortName": "King",
+            "source": "MHPWM",
+            "subclassFeatures": [
+                "House of Kings|Warmage|MHPWM|King|MHPWM|3",
+                "Bonus Proficiencies|Warmage|MHPWM|King|MHPWM|3",
+                "Battle Tactics|Warmage|MHPWM|King|MHPWM|3",
+                "Lead from the Front|Warmage|MHPWM|King|MHPWM|7",
+                "Tactical Master|Warmage|MHPWM|King|MHPWM|10",
+                "Maneuver: Checkmate|Warmage|MHPWM|King|MHPWM|15",
+                "Grandmaster|Warmage|MHPWM|King|MHPWM|18"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        },
+        {
+            "name": "House of Lancers",
+            "shortName": "Lancer",
+            "source": "MHPWM",
+            "subclassFeatures": [
+                "House of Lancers|Warmage|MHPWM|Lancer|MHPWM|3",
+                "Intercept Technique|Warmage|MHPWM|Lancer|MHPWM|3",
+                "Hand-to-Hand Arcana|Warmage|MHPWM|Lancer|MHPWM|3",
+                "Shock Trooper|Warmage|MHPWM|Lancer|MHPWM|3",
+                "Mystical Physicallity|Warmage|MHPWM|Lancer|MHPWM|7",
+                "Deflect Energy|Warmage|MHPWM|Lancer|MHPWM|10",
+                "Improved Shock Trooper|Warmage|MHPWM|Lancer|MHPWM|15",
+                "Flurry of Spells|Warmage|MHPWM|Lancer|MHPWM|18"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        },
+        {
+            "name": "House of Knights",
+            "shortName": "Knight",
+            "source": "MHPWM",
+            "subclassFeatures": [
+                "House of Knights|Warmage|MHPWM|Knight|MHPWM|3",
+                "Bonus Proficiencies|Warmage|MHPWM|Knight|MHPWM|3",
+                "Force Breastplate|Warmage|MHPWM|Knight|MHPWM|3",
+                "Mystical Weapon|Warmage|MHPWM|Knight|MHPWM|3",
+                "Flurry of Blades|Warmage|MHPWM|Knight|MHPWM|7",
+                "Knight's Ward|Warmage|MHPWM|Knight|MHPWM|10",
+                "Tactical Maneuver|Warmage|MHPWM|Knight|MHPWM|15",
+                "Field of Blades|Warmage|MHPWM|Knight|MHPWM|18"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        },
+        {
+            "name": "House of Pawns",
+            "shortName": "Pawn",
+            "source": "MHPWM",
+            "subclassFeatures": [
+                "House of Pawns|Warmage|MHPWM|Pawn|MHPWM|3",
+                "Promotion|Warmage|MHPWM|Pawn|MHPWM|3",
+                "Adaptive Arcanist|Warmage|MHPWM|Pawn|MHPWM|3",
+                "Pawn Storm|Warmage|MHPWM|Pawn|MHPWM|7",
+                "Additional Arcane Fighting Style|Warmage|MHPWM|Pawn|MHPWM|10",
+                "Opening Move|Warmage|MHPWM|Pawn|MHPWM|15",
+                "Fundamental Mastery|Warmage|MHPWM|Pawn|MHPWM|18"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        },
+        {
+            "name": "House of Rooks",
+            "shortName": "Rook",
+            "source": "MHPWM",
+            "subclassFeatures": [
+                "House of Rooks|Warmage|MHPWM|Rook|MHPWM|3",
+                "Rook Strike|Warmage|MHPWM|Rook|MHPWM|3",
+                "Rasp|Warmage|MHPWM|Rook|MHPWM|3",
+                "Arcane Acrobat|Warmage|MHPWM|Rook|MHPWM|7",
+                "Fleeting Decoy|Warmage|MHPWM|Rook|MHPWM|10",
+                "Elusive Step|Warmage|MHPWM|Rook|MHPWM|15",
+                "Flash of Feathers|Warmage|MHPWM|Rook|MHPWM|18"
+            ],
+            "className": "Warmage",
+            "classSource": "MHPWM"
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "House of Bishops",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Bishop",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "The House of Bishops adopts warmages with true arcane potential, expanding on essential magic principles with true spellcasting. Such warmages might be easily confused for wizards or sorcerers, for they don the same garb and wield many of the same spells, but the warmage focus on perfection still holds precedence over garnering a vast array of spells.",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting",
+                    "entries": [
+                        "When you choose this house at 3rd level, you gain the ability to cast spells more potent than cantrips.",
+                        "{@bold Spell Slots.} The Bishop Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.",
+                        "{@bold Spells known of 1st-Level or Higher.} You know three 1st-level wizard spells of your choice, two of which you must choose from the conjuration and evocation spells on the wizard spell list.",
+                        "The Spells Known column of the Bishop Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be a conjuration or evocation spell of your choice, except for the spells learned at 8th, and 14th level, and must be of a level for which you have spell slots.",
+                        "Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be a conjuration or evocation spell, unless you’re replacing the spell you gained at 8th or 14th level.",
+                        "{@bold Warmage Edge.} You can add additional damage with your warmage spells of 1st level or higher using your Warmage Edge feature, as if they were cantrips."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Study",
+            "source": "MHPWM",
+            "page": "8",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Bishop",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "At 3rd level, you become proficient in two of the following skills: Arcana, History, Medicine, Investigation, or Religion."
+            ]
+        },
+        {
+            "name": "Mystical Companion",
+            "source": "MHPWM",
+            "page": "8",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Bishop",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "At 7th level, you learn the find familiar spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.",
+                "When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite."
+            ]
+        },
+        {
+            "name": "Siege Casting",
+            "source": "MHPWM",
+            "page": "8",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Bishop",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "At 10th level, damage you deal to objects with a warmage spell is doubled. Additionally, when you cast a warmage spell which requires a spell attack roll, you can cast it at up to double its normal range. If its target is beyond its normal range, the spell attack has disadvantage."
+            ]
+        },
+        {
+            "name": "Arcane Sculpting",
+            "source": "MHPWM",
+            "page": "8",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Bishop",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "entries": [
+                "Starting at 15th level, when you cast a warmage spell that affects other creatures that you can see, you can choose a number of them equal to your Intelligence modifier. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+            ]
+        },
+        {
+            "name": "Arcane Dominance",
+            "source": "MHPWM",
+            "page": "8",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Bishop",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "At 18th level, you learn a powerful magical trick. As a bonus action on your turn, you can expend a number of spell slots with a combined level of 6 or more to regain an expended use of your Arcane Surge."
+            ]
+        },
+        {
+            "name": "House of Cards",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Card",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Warmages who join the House of Cards approach combat the same way they do games of chance, with high stakes, calculated gambles. Each warmage of this house wields a special deck of cards tied to the very threads of fate, through which they can empower their magic with deft flurries of hands. However, while these warmages command incredible power, their magical surges are at the whims of the cards, and so they must make strategic, ingenious plays to master them."
+            ]
+        },
+        {
+            "name": "Bluff",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Card",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "When you choose this house at 3rd level, your poker face carries you through practically any lie. You gain proficiency in the Deception skill and with gaming sets (playing cards), if you didn’t have it already. Additionally, you can use your Intelligence instead of Charisma for Charisma (Deception) checks you make."
+            ]
+        },
+        {
+            "name": "Deck of Fate",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Card",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Starting at 3rd level, you gain a deck of magical playing or tarot cards, called a Deck of Fate, through which you can enhance the power of your cantrips. Shuffle a standard playing card deck and draw a hand of 5 cards when you roll initiative.",
+                "Whenever you target a hostile creature with a warmage spell that deals damage, you can use your bonus action to play one or more cards from your hand to enhance the power of the spell. If the cards exactly match one of the results on the Hands table below, it deals additional damage or one additional effect according to the result to one of the spell’s targets of your choice. Playing cards which do not match a result has no effect. Aces count as ones for results. Once you play a card, place it on the bottom of the deck and draw back to five cards.",
+                {
+                    "type": "table",
+                    "caption": "Hands",
+                    "colLabels": [
+                        "Results",
+                        "Cards",
+                        "Benefits"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-5",
+                        "col-5"
+                    ],
+                    "rows": [
+                        [
+                            "Straight",
+                            "Any five sequential cards, regardless of house",
+                            "You deal an additional 12 damage"
+                        ],
+                        [
+                            "Flush",
+                            "Any five cards in the same suit, regardless of order",
+                            "You deal an additional 10 damage"
+                        ],
+                        [
+                            "Three of a kind",
+                            "Any three of the same card",
+                            "You deal an additional 6 damage"
+                        ],
+                        [
+                            "Pair",
+                            "Any two of the same card",
+                            "You deal an additional 2 damage"
+                        ],
+                        [
+                            "Hearts",
+                            "Any two hearts",
+                            "You gain temporary hit points equal to your intelligence modifier"
+                        ],
+                        [
+                            "Spades",
+                            "Any two spades",
+                            "Your movement speed increases by 10 feet until the start of your next turn."
+                        ],
+                        [
+                            "Diamonds",
+                            "Any two diamonds",
+                            "You gain a +1 to your AC until the start of your next turn"
+                        ],
+                        [
+                            "Clubs",
+                            "Any two clubs",
+                            "You gain a +1 bonus to saving throws until the start of your next turn."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "High Stakes",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Card",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "At 7th level, you’ve mastered a very risky card trick using your Deck of Fate. On your turn, you can choose to lose 2 hit points to play 1 card from your hand and draw back to 5 cards (no action required)."
+            ]
+        },
+        {
+            "name": "Dealer's Choice",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Card",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "At 10th level, you can use your bonus action to gain one of the following three abilities, selected by the GM: ",
+                "• You gain resistance to all damage until the end of your next turn. ",
+                "• You teleport to a point you can see within 60 feet. ",
+                "• You vanish into a safe, endless demiplane until the beginning of your next turn, at which time you return at the same location from which you vanished. ",
+                "Once you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Card Reading",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Card",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "entries": [
+                "Beginning at 15th level, once on each of your turns when you draw a card from your deck as part of your Deck of Fate feature, you can declare a suit (Club, Diamonds, Hearts, or Spades) and check the top card of your deck. If you guessed the suit correctly, you can take the Dash, Disengage, or Use an Object action as part of the bonus action used for the feature."
+            ]
+        },
+        {
+            "name": "Ace in the Hole",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Card",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "Beginning at 18th level, you are a deckmaster. Whenever you would draw one or more cards from your deck, draw twice as many. Put half of the drawn cards on the bottom of your deck and the other cards in your hand."
+            ]
+        },
+        {
+            "name": "House of Dice",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Warmages who join the House of Cards approach combat the same way they do games of chance, with high stakes, calculated gambles. Each warmage of this house wields a special deck of cards tied to the very threads of fate, through which they can empower their magic with deft flurries of hands. However, while these warmages command incredible power, their magical surges are at the whims of the cards, and so they must make strategic, ingenious plays to master them."
+            ]
+        },
+        {
+            "name": "Dice of Fate",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Beginning when you choose this house at 3rd level, you gain four Dice of Fate, which are d6s. Whenever you make an ability check, attack roll, saving throw, or damage roll, you can expend a Die of Fate and add it to the roll. Once you expend a Die of Fate, it goes to the GM, who can use it to add it to a roll made by an NPC or monster. Once the GM has used a die, it passes back to you, and so on. When you finish a long rest, you regain all of your expended Dice of Fate, whether or not the GM has used them. ",
+                "Beginning at 7th level, you have an additional 2 Dice of Fate, and you can add two Dice of Fate to your damage rolls with warmage spells."
+            ]
+        },
+        {
+            "name": "Chaos Roll",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Also at 3rd level, you can expend two of your Dice of Fate as an action, rolling them on the table below to create a chaotic surge of energy.",
+                {
+                    "type": "table",
+                    "caption": "Hands",
+                    "colLabels": [
+                        "Results",
+                        "Cards",
+                        "Benefits"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-5",
+                        "col-5"
+                    ],
+                    "rows": [
+                        [
+                            "2",
+                            "You cast fireball, centered on yourself."
+                        ],
+                        [
+                            "3",
+                            "Your AC is reduced by 2 until the start of your next turn."
+                        ],
+                        [
+                            "4",
+                            "You fall prone."
+                        ],
+                        [
+                            "5",
+                            "Each creature other than yourself within 60 feet of you can speak only in a babbling nonsense language for the next minute, and can’t perform the verbal components of spells."
+                        ],
+                        [
+                            "6",
+                            "A 5-foot radius sphere of butterflies, insects, or doves fills a location you can choose within range, heavily obscuring the area until the start of your next turn."
+                        ],
+                        [
+                            "7",
+                            "You gain 7 temporary hit points, and keep the Dice of Fate instead of giving them to the GM."
+                        ],
+                        [
+                            "8",
+                            "You become invisible until the end of your next turn, as per the spell invisibility."
+                        ],
+                        [
+                            "9",
+                            "A random object explodes nearby, dealing no damage to you or your allies, and dealing 3d6 fire damage to one creature caught in the blast chosen by the GM."
+                        ],
+                        [
+                            "10",
+                            "You teleport up to 60 feet to an unoccupied location you can see. Each creature within 5 feet of the destination must make a Dexterity saving throw against your spell save DC or take 2d6 force damage."
+                        ],
+                        [
+                            "11",
+                            "Choose a creature you can see within 60 feet. That creature takes 4d6 necrotic damage, and you regain hit points equal to the necrotic damage dealt."
+                        ],
+                        [
+                            "12",
+                            "You cast lightning bolt and can add the Dice of Fate to the damage roll"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Loaded Dice",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "By 7th level, you can subtly cheat your dice. Once on each of your turns when you roll a d6, you can flip the die upside down. Note that on a balanced d6, the top and bottom numbers add up to 7, so you can determine the bottom number by subtracting the top from 7."
+            ]
+        },
+        {
+            "name": "Twisted Fate",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "Starting at 10th level, the winds of chance follow your die rolls, rather than vice-versa. When you make an attack roll or ability check with disadvantage on your turn, you can attempt to invert fate as a bonus action. Expend a Die of Fate and roll it; on a 5, you ignore disadvantage on the roll, on a 6, you instead have advantage on the attack roll or ability check."
+            ]
+        },
+        {
+            "name": "Roll the Bones",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "data": {
+                "activation.type": "reaction",
+                "activation.condition": "When you take damage from a creature you can see"
+            },
+            "entries": [
+                "Beginning at 15th level, you can channel the chaotic energy of your dice in an instant. As a reaction when you take damage from a creature you can see, you can expend two Dice of Fate to make a Chaos Roll."
+            ]
+        },
+        {
+            "name": "Steal Luck",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "Starting at 18th level, when you roll initiative, roll a d6. You steal that many Dice of Fate back from the GM. "
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "MHPWM",
+            "page": "9",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Dice",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "When you choose this house at 3rd level, your light fingers and unscrupulous tactics help you win the day. You gain proficiency in the Sleight of Hand skill and with gaming sets (dice set), if you didn’t have it already."
+            ]
+        },
+        {
+            "name": "House of Kings",
+            "source": "MHPWM",
+            "page": "11",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "King",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Warmages who train in the House of Kings specialize in tactics and strategy, learning age-old maneuvers to give them the edge in combat. Natural-born leaders, Kings work best with a cadre of supporters to perform their tactics and overwhelm the enemy. Moreso than all other warmages, those in the House of Kings treat life and death as little more than a game of strategy to be understood and conquered."
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "MHPWM",
+            "page": "11",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "King",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "When you choose this house at 3rd level, you gain proficiency with medium armor, battleaxes, longswords, tridents, lances, and warhammers."
+            ]
+        },
+        {
+            "name": "Battle Tactics",
+            "source": "MHPWM",
+            "page": "11",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "King",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "At 3rd level, you learn maneuvers that are fueled by special dice called Battle dice. ",
+                "{@spell Battle Dice.} You have two battledice, which are d8s. A battle die is expended when you use it. You regain all of your battle dice when you take a short or long rest, or when you roll initiative. ",
+                "Your battle die changes and more battle dice become available when you reach certain levels in this class, as shown on the table below.",
+                "Warmage Level Battle Dice ",
+                "3rd 2d8 ",
+                "7th 3d8 ",
+                "13th 3d10 ",
+                "19th 4d10",
+                "{@spell Using Battle Dice.} Once per turn, you can expend a battle die to perform an arcane maneuver of your choice. Your maneuver options are detailed at the end of the subclass description.",
+                "{@spell Saving Throws.} When a maneuver calls for a saving throw to resist its effects, use your spell save DC."
+            ]
+        },
+        {
+            "name": "Lead from the Front",
+            "source": "MHPWM",
+            "page": "11",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "King",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "Starting at 7th level, you and each friendly creature within 100 feet that can see you ignores nonmagical difficult terrain."
+            ]
+        },
+        {
+            "name": "Tactical Master",
+            "source": "MHPWM",
+            "page": "11",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "King",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "Starting at 10th level, friendly creatures within 10 feet of you add your Intelligence modifier to saving throws against spells and magical effects that deal damage."
+            ]
+        },
+        {
+            "name": "Maneuver: Checkmate",
+            "source": "MHPWM",
+            "page": "11",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "King",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "entries": [
+                "Starting at 15th level, you learn the following maneuver: When you hit a creature with a weapon or spell attack, you can use your bonus action and expend a battle die to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you that is within reach of the creature you hit. That creature can immediately use its reaction to make one weapon attack or cast a cantrip requiring an attack roll, adding the battle die to the attack’s damage roll."
+            ]
+        },
+        {
+            "name": "Grandmaster",
+            "source": "MHPWM",
+            "page": "11",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "King",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "Beginning at 18th level, when you roll initiative, choose a number of friendly creatures equal to your Intelligence modifier that can hear or see you to gain a battle die. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes. The creature can wait until after it makes the roll before deciding to add the battle die, but must decide before the GM declares the roll’s outcome. Once the battle die is rolled, it is lost. A creature can have only one battle die from this feature at a time."
+            ]
+        },
+        {
+            "name": "House of Lancers",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Warmages who join the House of Lancers are trained in the fluid martial arts and meditative asceticism of monks, and have learned to meld these practices with their potent spellcasting. As such, they are unarmed elemental warriors, self-reliant and capable of feats no monk or warmage could hope to match. However, Lancers are notoriously neutral in almost all matters, and stand apart from the politics of the other Houses.",
+                "Lancers derive their name from an ancient precursor to the pawn, a piece remembered only in early variants of chess. Remote monasteries still play using this ancient set of rules: a smaller board, fewer pieces, and lancers replacing the dutiful pawns. It is a relic from a forgotten age, rife with symbolism."
+            ]
+        },
+        {
+            "name": "Intercept Technique",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Starting when you choose this house at 3rd level, you adopt the monastic principle of offensive protection. While you are unarmored or are under the effects of mage armor, you can add your Intelligence, rather than your Dexterity, to your Armor Class."
+            ]
+        },
+        {
+            "name": "Hand-to-Hand Arcana",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Also at 3rd level, you learn the Lancer’s secret unarmed combat technique, granting you the following benefits: ",
+                "• You can use Intelligence instead of Strength for the attack and damage rolls of your unarmed strikes. ",
+                "• Your unarmed strikes count as melee weapons for the purposes of warmage spells. ",
+                "• Your unarmed strikes deal 1d6 bludgeoning damage."
+            ]
+        },
+        {
+            "name": "Shock Trooper",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Starting at 3rd level, can rapidly close the distance between you and your foes. Whenever you make a melee attack on your turn against a creature you can see, you can lunge up to 15 feet toward your target before making the attack. This movement doesn’t provoke opportunity attacks. You can perform this movement even if it causes you to travel through the air, though you fall after making the attack if you do not land on solid ground."
+            ]
+        },
+        {
+            "name": "Mystical Physicallity",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "Starting at 7th level, whenever you make a Strength, Dexterity, or Constitution check, you can use your Intelligence modifier instead of the normal modifier.",
+                "In addition, moving through difficult terrain no longer costs you additional movement."
+            ]
+        },
+        {
+            "name": "Deflect Energy",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "By 10th level, you can deflect bolts of energy with your bare hands. As a reaction when you are hit by a ranged spell attack or a ranged weapon attack which deals cold, fire, force, lightning, necrotic, or radiant damage, you can use your reaction to deflect the bolt. The damage you take from the attack is reduced by 1d10 + your Intelligence modifier + half your warmage level (rounded down)."
+            ]
+        },
+        {
+            "name": "Improved Shock Trooper",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "entries": [
+                "Starting at 15th level, you can lunge up to 30 feet using your Shock Trooper ability. This movement causes you to teleport through creatures and objects, blinking to the target in an instant. You can’t end your movement in an occupied space."
+            ]
+        },
+        {
+            "name": "Flurry of Spells",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Lancer",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "Starting at 18th level, you can cast spells with superhuman speed. As an action, you can expend a use of your Arcane Surge ability to cast three different cantrips which have a casting time of 1 action or 1 bonus action. You can’t use your Arcane Surge feature on any of these cantrips. ",
+                "Once you use this ability, you can’t use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "House of Knights",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "The House of Knights have a long and storied tradition of melding melee combat and swordplay with the warmage’s simple spellcasting. Unlike other warriors, however, Knights carry neither swords or shields into combat, for they can forge both out of magical force at a moment’s notice."
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "When you choose this house at 3rd level, you gain proficiency with medium armor and martial weapons."
+            ]
+        },
+        {
+            "name": "Force Breastplate",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "At 3rd level, plates of magical force reinforce your armor. While you are wearing light or medium armor or are under the effects of mage armor, you can add your Intelligence, rather than your Dexterity, to your Armor Class."
+            ]
+        },
+        {
+            "name": "Mystical Weapon",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Also at 3rd level, you learn the force weapon cantrip, which does not count against your total number of cantrips known. Additionally, on your turn when you would draw a weapon, you can summon a simple or martial weapon, made entirely of magical force, to your empty hand. This weapon counts as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage. This weapon vanishes if it leaves your hand."
+            ]
+        },
+        {
+            "name": "Flurry of Blades",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "Beginning at 7th level, when you cast a cantrip which allows you to make multiple spell attacks, such as force weapon or magic daggers, you can use your bonus action to make one additional spell attack."
+            ]
+        },
+        {
+            "name": "Knight's Ward",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "Starting 10th level, you learn to forge a hardened magical barrier between you and your foes. As a bonus action on your turn, you can gain a number of temporary hit points equal to twice your warmage level, which last for 1 minute.",
+                "Once you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Tactical Maneuver",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "entries": [
+                "At 15th level, you can spend your entire movement to teleport up to half your movement speed to a location you can see."
+            ]
+        },
+        {
+            "name": "Field of Blades",
+            "source": "MHPWM",
+            "page": "12",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Knight",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "Starting at 18th level, you can summon a whirlwind of mystical weapons, striking at a legion of foes in a single swipe. As an action on your turn, you can choose up to 5 creatures you can see within 30 feet. Make a single melee spell attack against each target. On a hit, a target takes 2d10 + your Intelligence modifier force damage."
+            ]
+        },
+        {
+            "name": "House of Pawns",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Pawn",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "By far the most prominent warmage House is that of the Pawns. Warmages which join the House of Pawns learn to stretch their skill with cantrips to its limits. Pawns can master any cantrip or trick known to the other warmage houses, for they embody the adaptability all warmages aspire to."
+            ]
+        },
+        {
+            "name": "Promotion",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Pawn",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "When you choose this house at 3rd level, you gain the adaptability of the quintessential warmage. You learn one warmage trick of your choice, which doesn’t count against your total number of warmage tricks known. Additionally, whenever you learn a warmage trick, you can learn tricks which have the House of Bishops, House of Kings, House of Knights, or House of Rooks as a prerequisite, so long as you meet all of the tricks other prerequisites."
+            ]
+        },
+        {
+            "name": "Adaptive Arcanist",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Pawn",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Also at 3rd level, you learn to emulate the spellcasting prowess of other warmages. When you finish a short or long rest, choose one warmage cantrip. You learn this cantrip, which doesn’t count against the total number of warmage cantrips you can learn, until you choose a different one with this feature."
+            ]
+        },
+        {
+            "name": "Pawn Storm",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Pawn",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "Beginning at 7th level, when you cast a cantrip targeting a creature, you don’t provoke opportunity attacks from that creature for the rest of the turn, whether you deal damage using the cantrip or not."
+            ]
+        },
+        {
+            "name": "Additional Arcane Fighting Style",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Pawn",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "Additional Arcane Fighting Style At 10th level, you can choose a second option from the Arcane Fighting Style class feature."
+            ]
+        },
+        {
+            "name": "Opening Move",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Pawn",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "entries": [
+                "Starting at 15th level, you can add your Intelligence modifier to your initiative rolls. Additionally, when you roll initiative and you are not surprised, you can move up to your movement speed."
+            ]
+        },
+        {
+            "name": "Fundamental Mastery",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Pawn",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "Starting at 18th level, your magic always finds its way to your foes most vulnerable spots. Once on each turn when you roll damage for a warmage cantrip, you can choose to replace one damage die roll with the maximum possible result."
+            ]
+        },
+        {
+            "name": "House of Rooks",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Rook",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "The clandestine members of the House of Rooks make adept spies, assassins, and scouts, though they might just as easily pick up jobs run by rogues and brigands. In addition to their suite of cantrips, Rooks are light on their feet and know a few tricks to magically open doors in utter silence."
+            ]
+        },
+        {
+            "name": "Rook Strike",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Rook",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Starting you choose this house at 3rd level, as a bonus action, you can gain advantage on the next spell attack roll you make on your turn. Alternatively, you can impose disadvantage on a saving throw a creature makes against a warmage spell you cast before the end of your turn. Once you use this ability, you can’t use it again until you finish a short or long rest, or you use a cantrip to reduce a creature to 0 hit points."
+            ]
+        },
+        {
+            "name": "Rasp",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Rook",
+            "subclassSource": "MHPWM",
+            "level": "3",
+            "entries": [
+                "Starting at 3rd level, you can cast the knock spell at will without using a spell slot or spell components. When you cast the spell using this ability, the casting time is increased to 1 minute and the spell is completely silent."
+            ]
+        },
+        {
+            "name": "Arcane Acrobat",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Rook",
+            "subclassSource": "MHPWM",
+            "level": "7",
+            "entries": [
+                "Beginning at 7th level, you can add your Intelligence modifier to all Dexterity checks you make. Additionally, while you are conscious, you ignore falling damage from falling any distance shorter than 60 feet. Subtract 60 feet from the distance fallen when calculating falling damage from further drops."
+            ]
+        },
+        {
+            "name": "Fleeting Decoy",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Rook",
+            "subclassSource": "MHPWM",
+            "level": "10",
+            "entries": [
+                "At 10th level, as a reaction when you take damage from a creature you can see, you raise a defensive illusion to protect you from further harm. Attacks made against you have disadvantage until the beginning of your next turn."
+            ]
+        },
+        {
+            "name": "Elusive Step",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Rook",
+            "subclassSource": "MHPWM",
+            "level": "15",
+            "entries": [
+                "By 15th level, you’re extremely difficult to pin down. If you move more than 15 feet on your turn, any additional movement you make does not provoke opportunity attacks."
+            ]
+        },
+        {
+            "name": "Flash of Feathers",
+            "source": "MHPWM",
+            "page": "13",
+            "className": "Warmage",
+            "classSource": "MHPWM",
+            "subclassShortName": "Rook",
+            "subclassSource": "MHPWM",
+            "level": "18",
+            "entries": [
+                "Starting at 18th level, you can vanish without a trace, slip behind enemy lines, and dive in for the kill. You can cast the invisibility spell once, targeting yourself only, without using a spell slot or spell components. While you are invisible, your movement speed is doubled, and you can make one attack or cast one warmage cantrip without ending the spell.",
+                "Once you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Arc Blade",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell’s range, otherwise the spell fails. On a hit, the target suffers the weapon attack’s normal effects, except that any damage dealt by the attack is lightning damage instead of its normal type. Additionally, an arc of lightning jumps to a creature you choose within 5 feet of the target, dealing {@damage 1d6} lightning damage. ",
+                "This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an additional {@damage 1d8} lightning damage and secondary damage deals an additional {@damage 1d6} lightning damage to their targets. Both damage rolls increase by one die at 11th level ({@dice 2d8} and {@dice 3d6}), and 17th level ({@dice 3d8} and {@dice 4d6})."
+            ],
+            "source": "MHPWM",
+            "page": 14,
+            "components": {
+                "v": true,
+                "m": "a melee weapon"
+            },
+            "spellAttack": [
+                "M"
+            ],
+            "areaTags": [
+                "MT"
+            ],
+            "damageInflict": [
+                "lightning"
+            ]
+        },
+        {
+            "name": "Burning Blade",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell’s range, otherwise the spell fails. On a hit, the target suffers the weapon attack’s normal effects, except that any damage dealt by the attack is fire damage instead of its normal type. Additionally, embers whirl in the target’s space. Until the start of your next turn, when a creature enters the space for the first time or ends its turn there, you can use your reaction to deal {@damage 1d6} fire damage to the creature, ending the spell. ",
+                "This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an additional {@damage 1d6} fire damage to the target on a hit and the secondary damage deals an additional {@damage 1d6} fire damage to its target. Both damage rolls increase by one die at 11th level ({@dice 2d6} and {@dice 3d6}) and 17th level ({@dice 3d6} and {@dice 4d6})."
+            ],
+            "source": "MHPWM",
+            "page": 14,
+            "components": {
+                "v": true,
+                "m": "a melee weapon"
+            },
+            "spellAttack": [
+                "M"
+            ],
+            "areaTags": [
+                "MT",
+                "C"
+            ],
+            "damageInflict": [
+                "fire"
+            ]
+        },
+        {
+            "name": "Caustic Blade",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell’s range, otherwise the spell fails. On a hit, the target suffers the weapon attack’s normal effects, except that any damage dealt by the attack is acid damage instead of its normal type. If you miss by 3 or less, acid splashes on the target, and you instead deal {@damage 1d8} acid damage. ",
+                "This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an additional {@damage 1d8} acid damage to the target on a hit, and the acid damage dealt on a miss increases to {@dice 2d8}. Both damage rolls increase by one die at 11th level ({@dice 2d8} and {@dice 3d8}) and 17th level ({@dice 3d8} and {@dice 4d8})."
+            ],
+            "source": "MHPWM",
+            "page": 14,
+            "components": {
+                "v": true,
+                "m": "a melee weapon"
+            },
+            "spellAttack": [
+                "M"
+            ],
+            "damageInflict": [
+                "acid"
+            ],
+            "areaTags": [
+                "ST"
+            ]
+        },
+        {
+            "name": "Frigid Blade",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell’s range, otherwise the spell fails. On a hit, the attack does damage as normal, except that the entire attack deals cold damage instead of its normal type. Additionally, the target is covered in a brittle frost until the start of your next turn. If the target willingly moves before then, you can use your reaction to deal {@damage 1d8} cold damage to the target, ending the spell. ",
+                "At 5th level, the melee attack and secondary damage each deal an additional {@damage 1d8} cold damage. Both damage rolls increase by {@dice 1d8} at 11th level ({@dice 2d8 / 3d8}), and 17th level ({@dice 3d8 / 4d8})."
+            ],
+            "source": "MHPWM",
+            "page": 14,
+            "components": {
+                "v": true,
+                "m": "a melee weapon"
+            },
+            "spellAttack": [
+                "M"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "damageInflict": [
+                "cold"
+            ]
+        },
+        {
+            "name": "Card Trick",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "With a flash of your hands, you fling a playing card charged with energy at your opponents. Choose whether you make a spell attack roll or for the target to make a Dexterity saving throw. On a hit or a failed saving throw, the target takes {@damage 1d6} force damage. ",
+                "This spell’s damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "source": "MHPWM",
+            "page": 14,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a deck of playing cards"
+            },
+            "damageInflict": [
+                "force"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "areaTags": [
+                "ST"
+            ]
+        },
+        {
+            "name": "Cheat",
+            "level": 0,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You subtly twist your fingers and fate seems to follow suit. For the duration, you can reroll any ability check you make to play nonmagical games of skill. Therefore, this spell could influence a game of poker, but not the result of a deck of many things."
+            ],
+            "source": "MHPWM",
+            "page": 15,
+            "components": {
+                "s": true,
+                "m": "a weighted die"
+            }
+        },
+        {
+            "name": "Cryptogram",
+            "level": 0,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "unlimited"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You send a small scroll with a short message to a creature of your choice. The recipient must be a creature known to you and also be on the same plane of existence as you. This scroll will hover in front of the recipient, drop into their pocket, or appear sitting on something nearby. The scroll’s message can be up to 8 characters long (spaces count as characters). You can send only one scroll to a single target each day."
+            ],
+            "source": "MHPWM",
+            "page": 15,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small written message"
+            }
+        },
+        {
+            "name": "Force Buckler",
+            "level": 0,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You summon a translucent, yet visible, field of force which springs forth from the prepared gauntlet. Until the beginning of your next turn, this shield grants you a +2 bonus to your Armor Class, as if you were wielding a shield. This spell ends early if you are hit by an attack."
+            ],
+            "source": "MHPWM",
+            "page": 15,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a specially-prepared gauntlet worth at least 5 gp",
+                    "cost": 500
+                }
+            },
+            "miscTags": [
+                "MAC"
+            ]
+        },
+        {
+            "name": "Force Dart",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You fling a dart of magical force at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d10} force damage. ",
+                "This spell’s damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+            ],
+            "source": "MHPWM",
+            "page": 15,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a specially-prepared gauntlet worth at least 5 gp",
+                    "cost": 500
+                }
+            },
+            "damageInflict": [
+                "force"
+            ],
+            "spellAttack": [
+                "R"
+            ]
+        },
+        {
+            "name": "Force Weapon",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You conjure a blade of magical force in the air, which lashes out at your foes. Make a melee spell attack. On a hit, you deal {@damage 1d10} force damage. The blade remains in existence for a short time; until the beginning of your next turn, you can make a single strike with your mystical blade as an opportunity attack. ",
+                "You can make 1 additional attack on your turn at 5th level (2 attacks), at 11th level (3 attacks), and at 17th level (4 attacks)."
+            ],
+            "source": "MHPWM",
+            "page": 15,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a specially-prepared gauntlet worth at least 5 gp",
+                    "cost": 500
+                }
+            },
+            "damageInflict": [
+                "force"
+            ],
+            "spellAttack": [
+                "M"
+            ]
+        },
+        {
+            "name": "Lightning Surge",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You emit a dazzling array of short lightning bolts in all directions. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take {@damage 1d6} lightning damage. ",
+                "This spell’s damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "source": "MHPWM",
+            "page": 15,
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "Two bits of copper wire"
+            },
+            "damageInflict": [
+                "lightning"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ]
+        },
+        {
+            "name": "Magic Daggers",
+            "level": 0,
+            "school": "C",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "With a flourish, you conjure a throwing dagger of magical force out of thin air and flick it from your wrist at a target you can see. Make a ranged spell attack roll against a creature within range. On a hit, the target takes {@dice 1d6} magical piercing damage. The dagger vanishes after the attack. ",
+                "At higher levels, you conjure more daggers out of force and make additional attacks: two daggers at 5th level, three daggers at 11th level, and four daggers at 17th level. You can use the daggers to attack the same target or different ones. Make a separate attack roll for each dagger."
+            ],
+            "source": "MHPWM",
+            "page": 16,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "damageInflict": [
+                "force"
+            ],
+            "spellAttack": [
+                "R"
+            ]
+        },
+        {
+            "name": "Phantom Grapnel",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You conjure a chain and hook made of magical force, which you propel at a creature or unoccupied space you can see within range. When you target a space or a creature of Huge size or larger, your grapnel pulls you to that target in a straight line. You provoke opportunity attacks for this movement as normal. When you target a creature of Large size or smaller, you pull the target up to 10 feet towards you. A creature can make a Strength saving throw to resist this movement."
+            ],
+            "source": "MHPWM",
+            "page": 16,
+            "components": {
+                "v": true,
+                "s": true
+            }
+        },
+        {
+            "name": "Quickstep",
+            "level": 0,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You call upon your inner reserves to give you a brief flash of speed. When you cast this spell, your base movement speed increases by 10 feet until the beginning of your next turn."
+            ],
+            "source": "MHPWM",
+            "page": 16,
+            "components": {
+                "v": true
+            }
+        },
+        {
+            "name": "Sonic Pulse",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You compress a thunderous boom into an {@condition invisible} ball and project it at a creature you can see within range. The target must succeed on a Constitution saving throw, or it takes {@damage 1d8} thunder damage and is {@condition deafened} until the start of your next turn. ",
+                "If the spell’s target is within 10 feet of you, this spell’s damage becomes {@dice d10}s, instead of {@dice d8}s. ",
+                "This spell’s damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+            ],
+            "source": "MHPWM",
+            "page": 16,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "conditionInflict": [
+                "deafened"
+            ],
+            "damageInflict": [
+                "thunder"
+            ],
+            "savingThrow": [
+                "constitution"
+            ]
+        },
+        {
+            "name": "Springheel",
+            "level": 0,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You flood magic into your legs, allowing you to bound high into the air from a standstill. When you cast this spell, your jump distance increases 10 feet until the beginning of your next turn, and you can make a running high jump or a running long jump without a running start."
+            ],
+            "source": "MHPWM",
+            "page": 16,
+            "components": {
+                "v": true
+            }
+        },
+        {
+            "name": "Thunderous Distortion",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warmage",
+                        "source": "MHPWM"
+                    }
+                ]
+            },
+            "entries": [
+                "You produce a distorted wave of noise in a 10-foot cone, which can be heard up to 100 feet away. Each creature in that area must succeed a Constitution saving throw, or take {@damage 1d6} thunder damage. ",
+                "An echo of this noise persists until the end of your next turn. If you cast this spell again before the end of your next turn, its damage becomes {@dice d8}s, instead of {@dice d6}s. This spell’s damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+            ],
+            "source": "MHPWM",
+            "page": 16,
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "damageInflict": [
+                "thunder"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "areaTags": [
+                "MT",
+                "N"
+            ]
+        }
+    ]
+}
