@@ -1,0 +1,2391 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "BHSor",
+                "abbreviation": "BHSor",
+                "full": "Sorcerer Revisited",
+                "authors": "Benjamin Huffman",
+                "convertedBy": "ShingekiSkunk#2922",
+                "url": "https://www.dmsguild.com/product/253474/The-Sorcerer-Class-Revisited",
+                "version": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "class": [
+        {
+            "name": "Sorcerer",
+            "source": "BHSor",
+            "hd": {
+                "number": 1,
+                "faces": 6
+            },
+            "proficiency": [
+                "con",
+                "cha"
+            ],
+            "spellcastingAbility": "cha",
+            "casterProgression": "full",
+            "classSpells": [
+                {
+                    "className": "Sorcerer",
+                    "classSource": "PHB"
+                }
+            ],
+            "startingProficiencies": {
+                "weapons": [
+                    "daggers",
+                    "darts",
+                    "slings",
+                    "quarterstaffs",
+                    "light crossbows"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "deception",
+                                "insight",
+                                "intimidation",
+                                "persuasion",
+                                "religion"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+                    "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+                    "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+                    "Two {@item dagger|phb|daggers}"
+                ],
+                "goldAlternative": "{@dice 3d4 × 10|3d4 × 10|Starting Gold}",
+                "defaultData": [
+                    {
+                        "a": [
+                            "light crossbow|phb",
+                            "crossbow bolts (20)|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "weaponSimple"
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "component pouch|phb"
+                        ],
+                        "b": [
+                            "arcane focus|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "dungeoneer's pack|phb"
+                        ],
+                        "b": [
+                            "explorer's pack|phb"
+                        ]
+                    },
+                    {
+                        "_": [
+                            {
+                                "item": "dagger|phb",
+                                "quantity": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "cha": 13
+                }
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Sorcery Points"
+                    ],
+                    "rows": [
+                        [
+                            4
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            18
+                        ],
+                        [
+                            22
+                        ],
+                        [
+                            25
+                        ],
+                        [
+                            28
+                        ],
+                        [
+                            29
+                        ],
+                        [
+                            32
+                        ],
+                        [
+                            33
+                        ],
+                        [
+                            37
+                        ],
+                        [
+                            38
+                        ],
+                        [
+                            42
+                        ],
+                        [
+                            44
+                        ],
+                        [
+                            48
+                        ],
+                        [
+                            51
+                        ]
+                    ]
+                },
+                {
+                    "colLabels": [
+                        "{@filter Cantrips Known|spells|level=0|class=Sorcerer}",
+                        "{@filter Spells Known|spells|class=Sorcerer}"
+                    ],
+                    "rows": [
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            4,
+                            4
+                        ],
+                        [
+                            4,
+                            6
+                        ],
+                        [
+                            5,
+                            7
+                        ],
+                        [
+                            5,
+                            9
+                        ],
+                        [
+                            5,
+                            10
+                        ],
+                        [
+                            5,
+                            12
+                        ],
+                        [
+                            5,
+                            13
+                        ],
+                        [
+                            5,
+                            14
+                        ],
+                        [
+                            6,
+                            15
+                        ],
+                        [
+                            6,
+                            16
+                        ],
+                        [
+                            6,
+                            16
+                        ],
+                        [
+                            6,
+                            17
+                        ],
+                        [
+                            6,
+                            17
+                        ],
+                        [
+                            6,
+                            18
+                        ],
+                        [
+                            6,
+                            18
+                        ],
+                        [
+                            6,
+                            19
+                        ],
+                        [
+                            6,
+                            19
+                        ],
+                        [
+                            6,
+                            20
+                        ],
+                        [
+                            6,
+                            20
+                        ]
+                    ]
+                },
+                {
+                    "colLabels": [
+                        "Max Spell Level"
+                    ],
+                    "rows": [
+                        [
+                            "1st"
+                        ],
+                        [
+                            "1st"
+                        ],
+                        [
+                            "2nd"
+                        ],
+                        [
+                            "2nd"
+                        ],
+                        [
+                            "3rd"
+                        ],
+                        [
+                            "3rd"
+                        ],
+                        [
+                            "4th"
+                        ],
+                        [
+                            "4th"
+                        ],
+                        [
+                            "5th"
+                        ],
+                        [
+                            "5th"
+                        ],
+                        [
+                            "6th"
+                        ],
+                        [
+                            "6th"
+                        ],
+                        [
+                            "7th"
+                        ],
+                        [
+                            "7th"
+                        ],
+                        [
+                            "8th"
+                        ],
+                        [
+                            "8th"
+                        ],
+                        [
+                            "9th"
+                        ],
+                        [
+                            "9th"
+                        ],
+                        [
+                            "9th"
+                        ],
+                        [
+                            "9th"
+                        ]
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Spellcasting|Sorcerer|BHSor|1",
+                {
+                    "classFeature": "Sorcerous Origin|Sorcerer|BHSor|1",
+                    "gainSubclassFeature": true
+                },
+                "Metamagic|Sorcerer|BHSor|2",
+                "Font of Magic|Sorcerer|BHSor|3",
+                "Ability Score Improvement|Sorcerer|BHSor|4",
+                "Sorcerous Versatility|Sorcerer|BHSor|4",
+                "Magical Guidance|Sorcerer|BHSor|5",
+                {
+                    "classFeature": "Sorcerous Origin feature|Sorcerer|BHSor|6",
+                    "gainSubclassFeature": true
+                },
+                "Metamagic|Sorcerer|BHSor|6",
+                "Ability Score Improvement|Sorcerer|BHSor|8",
+                "Metamagic|Sorcerer|BHSor|10",
+                "Ability Score Improvement|Sorcerer|BHSor|12",
+                {
+                    "classFeature": "Sorcerous Origin feature|Sorcerer|BHSor|14",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Sorcerer|BHSor|16",
+                "Metamagic|Sorcerer|BHSor|17",
+                {
+                    "classFeature": "Sorcerous Origin feature|Sorcerer|BHSor|18",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Sorcerer|BHSor|19",
+                "Sorcerous Actualization|Sorcerer|BHSor|20"
+            ],
+            "subclassTitle": "Sorcerous Origin",
+            "subclasses": [
+                {
+                    "name": "Draconic Bloodline",
+                    "shortName": "Draconic",
+                    "source": "BHSor",
+                    "page": 102,
+                    "subclassFeatures": [
+                        "Draconic Bloodline|Sorcerer|BHSor|Draconic|BHSor|1",
+                        "Elemental Affinity|Sorcerer|BHSor|Draconic|BHSor|6",
+                        "Dragon Wings|Sorcerer|BHSor|Draconic|BHSor|14",
+                        "Draconic Presence|Sorcerer|BHSor|Draconic|BHSor|18"
+                    ]
+                },
+                {
+                    "name": "Wild Magic",
+                    "shortName": "Wild",
+                    "source": "BHSor",
+                    "page": 103,
+                    "subclassFeatures": [
+                        "Wild Magic|Sorcerer|BHSor|Wild|BHSor|1",
+                        "Bend Luck|Sorcerer|BHSor|Wild|BHSor|6",
+                        "Controlled Chaos|Sorcerer|BHSor|Wild|BHSor|14",
+                        "Spell Bombardment|Sorcerer|BHSor|Wild|BHSor|18"
+                    ]
+                },
+                {
+                    "name": "Divine Soul",
+                    "shortName": "Divine Soul",
+                    "source": "BHSor",
+                    "page": 50,
+                    "additionalSpells": [
+                        {
+                            "prepared": {
+                                "1": [
+                                    "cure wounds"
+                                ]
+                            }
+                        },
+                        {
+                            "prepared": {
+                                "1": [
+                                    "inflict wounds"
+                                ]
+                            }
+                        },
+                        {
+                            "prepared": {
+                                "1": [
+                                    "bless"
+                                ]
+                            }
+                        },
+                        {
+                            "prepared": {
+                                "1": [
+                                    "bane"
+                                ]
+                            }
+                        },
+                        {
+                            "prepared": {
+                                "1": [
+                                    "protection from evil and good"
+                                ]
+                            }
+                        }
+                    ],
+                    "subclassFeatures": [
+                        "Divine Soul|Sorcerer|BHSor|Divine Soul|BHSor|1",
+                        "Empowered Healing|Sorcerer|BHSor|Divine Soul|BHSor|6",
+                        "Otherworldly Wings|Sorcerer|BHSor|Divine Soul|BHSor|14",
+                        "Unearthly Recovery|Sorcerer|BHSor|Divine Soul|BHSor|18"
+                    ]
+                },
+                {
+                    "name": "Shadow Magic",
+                    "shortName": "Shadow",
+                    "source": "BHSor",
+                    "page": 50,
+                    "additionalSpells": [
+                        {
+                            "prepared": {
+                                "2": [
+                                    "darkness"
+                                ]
+                            }
+                        }
+                    ],
+                    "subclassFeatures": [
+                        "Shadow Magic|Sorcerer|BHSor|Shadow|BHSor|1",
+                        "Hound of Ill Omen|Sorcerer|BHSor|Shadow|BHSor|6",
+                        "Shadow Walk|Sorcerer|BHSor|Shadow|BHSor|14",
+                        "Umbral Form|Sorcerer|BHSor|Shadow|BHSor|18"
+                    ]
+                },
+                {
+                    "name": "Storm Sorcery",
+                    "shortName": "Storm",
+                    "source": "BHSor",
+                    "page": 51,
+                    "subclassFeatures": [
+                        "Storm Sorcery|Sorcerer|BHSor|Storm|BHSor|1",
+                        "Heart of the Storm|Sorcerer|BHSor|Storm|BHSor|6",
+                        "Storm Guide|Sorcerer|BHSor|Storm|BHSor|6",
+                        "Storm's Fury|Sorcerer|BHSor|Storm|BHSor|14",
+                        "Wind Soul|Sorcerer|BHSor|Storm|BHSor|18"
+                    ]
+                },
+                {
+                    "name": "Arcane Prodogy",
+                    "shortName": "Prodogy",
+                    "source": "BHSor",
+                    "subclassFeatures": [
+                        "Arcane Prodigy|Sorcerer|BHSor|Prodogy|BHSor|1",
+                        "Alternate Spellcasting Ability|Sorcerer|BHSor|Prodogy|BHSor|1",
+                        "Living Grimoire|Sorcerer|BHSor|Prodogy|BHSor|1",
+                        "Rare Genius|Sorcerer|BHSor|Prodogy|BHSor|1",
+                        "Metamagic Prodigy|Sorcerer|BHSor|Prodogy|BHSor|6",
+                        "Spell Tinkering Savant|Sorcerer|BHSor|Prodogy|BHSor|14",
+                        "Metamagic Mastery|Sorcerer|BHSor|Prodogy|BHSor|18"
+                    ]
+                }
+            ],
+            "fluff": [
+                {
+                    "name": "Sorcerer, Revisited",
+                    "type": "section",
+                    "entries": [
+                        "Presented here is an alternative version of the Sorcerer class. This alternative version was founded on a few common criticisms of the Sorcerer class presented in the Player’s Handbook. Namely, the sorcerer class learns too few spells and metamagic feels too scarce to be the single mechanic that differentiates the class from wizards.",
+                        "To address these concerns, I took the stance that less change is better. To address the concern about spells known, I simply increased the number sorcerers learned. In the Player’s Handbook version of the class, sorcerers learn a total of 15 spells   4 less than the warlock knows and 10 less than clerics, druids, and wizards can prepare. In this revision, sorcerers can learn a maximum of 20 spells.",
+                        "Another minor change was increasing the number of Metamagic options sorcerers learn. In the Player’s Handbook, sorcerers start with 2 metamagic options, eventually learning another at 10th level and again at 17th for a total of 4. Since the predominant way sorcerers are different from other full spellcasters is their ability to manipulate spells, I decided to grant them more metamagics. In this version, sorcerers start with 2 metamagic options and learn another at 4th, 6th, 10th, and 17th level for a total of 6. I have also given each sorcerer archetype its own metamagic option that only sorcerers of that archetype can learn.",
+                        "Finally, the biggest departure from the sorcerer class as presented in the Player’s Handbook is changing the class from spell slots to spell points. Many playtesters and reviewers shared the valid concern that if spell points were included it could lead to stagnant gameplay where sorcerers always cast spells at the highest level they can, upcasting every spell. In order to encourage more dynamic spellcasting decisions, the sorcerer’s spell point pool is much smaller than it should be for a full spellcaster but can be refreshed once or twice a day with the Font of Magic feature. This encourages sorcerers to try to squeeze every spell they can out of their pool before refilling it.",
+                        "With this spell point refresh mechanic came the possibility to define the sorcerer a bit more. To do that, when a sorcerer uses their font of magic they regain all expended spell points and can temporarily manipulate their spells even more than usual   they can use any number of metamagic options they know on each spell they cast for a minute.",
+                        "It is my hope that you will find this alternative version of the Sorcerer class balanced and fun in your campaign. Please be sure to leave a comment on the product page if you have questions or feedback!"
+                    ]
+                },
+                {
+                    "name": "Sorcerer",
+                    "type": "section",
+                    "entries": [
+                        "Golden eyes flashing, a human stretches out her hand and unleashes the dragonfire that burns in her veins. As an inferno rages around her foes, leathery wings spread from her back and she takes to the air.",
+                        "Long hair whipped by a conjured wind, a half-elf spreads his arms wide and throws his head back. Lifting him momentarily off the ground, a wave of magic surges up in him, through him, and out from him in a mighty blast of lightning.",
+                        "Crouching behind a stalagmite, a halfling points a finger at a charging troglodyte. A blast of fire springs from her finger to strike the creature. She ducks back behind the rock formation with a grin, unaware that her wild magic has turned her skin bright blue.",
+                        "Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. One can't study sorcery as one learns a language, any more than one can learn to live a legendary life. No one chooses sorcery; the power chooses the sorcerer.",
+                        {
+                            "type": "entries",
+                            "name": "Raw Magic",
+                            "entries": [
+                                "Magic is a part of every sorcerer, suffusing body, mind, and spirit with a latent power that waits to be tapped. Some sorcerers wield magic that springs from an ancient bloodline infused with the magic of dragons. Others carry a raw, uncontrolled magic within them, a chaotic storm that manifests in unexpected ways.",
+                                "The appearance of sorcerous powers is wildly unpredictable. Some draconic bloodlines produce exactly one sorcerer in every generation, but in other lines of descent every individual is a sorcerer. Most of the time, the talents of sorcery appear as apparent flukes. Some sorcerers can't name the origin of their power, while others trace it to strange events in their own lives. The touch of a demon, the blessing of a dryad at a baby's birth, or a taste of the water from a mysterious spring might spark the gift of sorcery. So too might the gift of a deity of magic, exposure to the elemental forces of the Inner Planes or the maddening chaos of Limbo, or a glimpse into the inner workings of reality.",
+                                "Sorcerers have no use for the spellbooks and ancient tomes of magic lore that wizards rely on, nor do they rely on a patron to grant their spells as warlocks do. By learning to harness and channel their own inborn magic, they can discover new and staggering ways to unleash that power."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Unexplained Powers",
+                            "entries": [
+                                "Sorcerers are rare in the world, and it's unusual to find a sorcerer who is not involved in the adventuring life in some way. People with magical power seething in their veins soon discover that the power doesn't like to stay quiet. A sorcerer's magic wants to be wielded, and it has a tendency to spill out in unpredictable ways if it isn't called on.",
+                                "Sorcerers often have obscure or quixotic motivations driving them to adventure. Some seek a greater understanding of the magical force that infuses them, or the answer to the mystery of its origin. Others hope to find a way to get rid of it, or to unleash its full potential. Whatever their goals, sorcerers are every bit as useful to an adventuring party as wizards, making up for a comparative lack of breadth in their magical knowledge with enormous flexibility in using the spells they know."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating a Sorcerer",
+                            "entries": [
+                                "The most important question to consider when creating your sorcerer is the origin of your power. As a starting character, you'll choose an origin that ties to a draconic bloodline or the influence of wild magic, but the exact source of your power is up to you to decide. Is it a family curse, passed down to you from distant ancestors? Or did some extraordinary event leave you blessed with inherent magic but perhaps scarred as well?",
+                                "How do you feel about the magical power coursing through you? Do you embrace it, try to master it, or revel in its unpredictable nature? Is it a blessing or a curse? Did you seek it out, or did it find you? Did you have the option to refuse it, and do you wish you had? What do you intend to do with it? Perhaps you feel like you've been given this power for some lofty purpose. Or you might decide that the power gives you the right to do what you want, to take what you want from those who lack such power. Perhaps your power links you to a powerful individual in the world—the fey creature that blessed you at birth, the dragon who put a drop of its blood into your veins, the lich who created you as an experiment, or the deity who chose you to carry this power.",
+                                {
+                                    "type": "entries",
+                                    "name": "Quick Build",
+                                    "entries": [
+                                        "You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the {@spell light}, {@spell prestidigitation}, {@spell ray of frost}, and {@spell shocking grasp} cantrips, along with the 1st-level spells {@spell shield} and {@spell magic missile}."
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "page": 0,
+                    "source": "BHSor"
+                },
+                {
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "quote",
+                            "entries": [
+                                "Practice and study are for amateurs. True power is a birthright."
+                            ],
+                            "by": "Hennet, scion of Tiamat"
+                        },
+                        "When it comes to drawing forth their abilities in times of need, sorcerers have it easy compared to other characters. Their power not only rests within them, but it likely takes some effort to keep it at bay. Every sorcerer is born to the role, or stumbles into it through cosmic chance. Unlike other characters, who must actively learn, embrace, and pursue their talents, sorcerers have their power thrust upon them.",
+                        "Because the idea of an innately magical being traveling among them does not sit well with many folk, sorcerers tend to breed mistrust and suspicion in others they come across. Nonetheless, many sorcerers succeed in overcoming that prejudice through deeds that benefit their less magically gifted contemporaries.",
+                        "Sorcerers are often defined by the events surrounding the manifestation of their power. For those who receive it as an expected birthright, its appearance is a cause for celebration. Other sorcerers are treated as outcasts, banished from their homes after the sudden, terrifying arrival of their abilities.",
+                        "Playing a sorcerer character can be as rewarding as it is challenging. The sections below offer suggestions on how to flesh out and personalize your persona.",
+                        {
+                            "type": "entries",
+                            "name": "Arcane Origins",
+                            "entries": [
+                                "Some sorcerers understand where their power came from, based on how their abilities manifested. Others can only speculate, since their powers came to them in a way that suggests no particular cause.",
+                                "Does your character know the source of your magical power? Does it tie back to some distant relative, a cosmic event, or blind chance? If your sorcerer doesn't know where their power arose from, your DM can use this table (or select an origin) and reveal it to you when the information plays a role in the campaign.",
+                                {
+                                    "type": "table",
+                                    "caption": "Arcane Origins",
+                                    "colLabels": [
+                                        "{@dice d6}",
+                                        "Origin"
+                                    ],
+                                    "colStyles": [
+                                        "col-1 text-center",
+                                        "col-11"
+                                    ],
+                                    "rows": [
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 1
+                                                }
+                                            },
+                                            "Your power arises from your family's bloodline. You are related to some powerful creature, or you inherited a blessing or a curse."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 2
+                                                }
+                                            },
+                                            "You are the reincarnation of a being from another plane of existence."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 3
+                                                }
+                                            },
+                                            "A powerful entity entered the world. Its magic changed you."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 4
+                                                }
+                                            },
+                                            "Your birth was prophesied in an ancient text, and you are foretold to use your power for terrible ends."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 5
+                                                }
+                                            },
+                                            "You are the product of generations of careful, selective breeding."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 6
+                                                }
+                                            },
+                                            "You were made in a vat by an alchemist."
+                                        ]
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Reaction",
+                            "entries": [
+                                "When a new sorcerer enters the world, either at birth or later when one's power becomes evident, the consequences of that event depend greatly on how its witnesses react to what they have seen.",
+                                "When your sorcerer's powers appeared, how did the world around you respond? Were other people supportive, fearful, or somewhere in between?",
+                                {
+                                    "type": "table",
+                                    "caption": "Reactions",
+                                    "colLabels": [
+                                        "{@dice d6}",
+                                        "Reaction"
+                                    ],
+                                    "colStyles": [
+                                        "col-1 text-center",
+                                        "col-11"
+                                    ],
+                                    "rows": [
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 1
+                                                }
+                                            },
+                                            "Your powers are seen as a great blessing by those around you, and you are expected to use them in service to your community."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 2
+                                                }
+                                            },
+                                            "Your powers caused destruction and even a death when they became evident, and you were treated as a criminal."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 3
+                                                }
+                                            },
+                                            "Your neighbors hate and fear your power, causing them to shun you."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 4
+                                                }
+                                            },
+                                            "You came to the attention of a sinister cult that plans on exploiting your abilities."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 5
+                                                }
+                                            },
+                                            "People around you believe that your powers are a curse levied on your family for a past transgression."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 6
+                                                }
+                                            },
+                                            "Your powers are believed to be tied to an ancient line of mad kings that supposedly ended in a bloody revolt over a century ago."
+                                        ]
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Supernatural Mark",
+                            "entries": [
+                                "A sorcerer at rest is almost indistinguishable from a normal person; it's only when their magic flies forth that sorcerers reveal their true nature. Even so, many sorcerers have a subtle but telling physical trait that sets them apart from other folk.",
+                                "If your sorcerer has a supernatural mark, it might be one that's easily concealed, or it could be a source of pride that you keep on constant display.",
+                                {
+                                    "type": "table",
+                                    "caption": "Supernatural Marks",
+                                    "colLabels": [
+                                        "{@dice d6}",
+                                        "Mark"
+                                    ],
+                                    "colStyles": [
+                                        "col-1 text-center",
+                                        "col-11"
+                                    ],
+                                    "rows": [
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 1
+                                                }
+                                            },
+                                            "Your eyes are an unusual color, such as red."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 2
+                                                }
+                                            },
+                                            "You have an extra toe on one foot."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 3
+                                                }
+                                            },
+                                            "One of your ears is noticeably larger than the other."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 4
+                                                }
+                                            },
+                                            "Your hair grows at a prodigious rate."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 5
+                                                }
+                                            },
+                                            "You wrinkle your nose repeatedly while you are chewing."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 6
+                                                }
+                                            },
+                                            "A red splotch appears on your neck once a day, then vanishes after an hour."
+                                        ]
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Signs of Sorcery",
+                            "entries": [
+                                "As the world well knows, some sorcerers are better than others at controlling their spellcasting. Sometimes a wild display of magic gone awry emanates from a sorcerer who casts a spell. But even when one's magic goes off as planned, the act of casting is often accompanied by a telltale sign that makes it clear where that magical energy came from.",
+                                "When your sorcerer character casts a spell, does the effort reveal itself in a sign of sorcery? Is this sign tied to your origin or some other aspect of who you are, or is it a seemingly random phenomenon?",
+                                {
+                                    "type": "table",
+                                    "caption": "Signs of Sorcery",
+                                    "colLabels": [
+                                        "{@dice d6}",
+                                        "Sign"
+                                    ],
+                                    "colStyles": [
+                                        "col-1 text-center",
+                                        "col-11"
+                                    ],
+                                    "rows": [
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 1
+                                                }
+                                            },
+                                            "You deliver the verbal components of your spells in the booming voice of a titan."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 2
+                                                }
+                                            },
+                                            "For a moment after you cast a spell, the area around you grows dark and gloomy."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 3
+                                                }
+                                            },
+                                            "You sweat profusely while casting a spell and for a few seconds thereafter."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 4
+                                                }
+                                            },
+                                            "Your hair and garments are briefly buffeted about, as if by a breeze, whenever you call forth a spell."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 5
+                                                }
+                                            },
+                                            "If you are standing when you cast a spell, you rise six inches into the air and gently float back down."
+                                        ],
+                                        [
+                                            {
+                                                "type": "cell",
+                                                "roll": {
+                                                    "exact": 6
+                                                }
+                                            },
+                                            "Illusory blue flames wreathe your head as you begin your casting, then abruptly disappear."
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "page": 48,
+                    "source": "BHSor"
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Sorcerous Origin",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 1,
+            "entries": [
+                "Choose a sorcerous origin, which describes the source of your innate magical power, from the list of available origins.",
+                "Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 1,
+            "entries": [
+                "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter sorcerer spell list|spells|class=sorcerer}.",
+                {
+                    "type": "entries",
+                    "name": "Cantrips",
+                    "entries": [
+                        "At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sorcery Points",
+                    "entries": [
+                        "You gain a pool of 4 sorcery points that you can use to cast spells (and later manipulate their properties through your Metamagic feature). When you wish to cast a spell, you expend a number of sorcery points to create a spell slot of a given level as indicated on the sorcery point cost chart, and then use that slot to cast a spell. You can’t reduce your sorcery point total to less than 0, and you regain all spent sorcery points when you finish a long rest.",
+                        "The number of sorcery points you have to spend increases as you gain levels in this class, as shown in the Sorcery Points column on the sorcerer class table.",
+                        "Your sorcerer level also determines the maximum level of the spell slots you can create. Even though you might have enough points to create a slot above this maximum, you cannot do so."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Casting Spells of 6th level and Higher",
+                    "entries": [
+                        "Spells of 6th level and higher are particularly taxing to cast. You can use sorcery points to create one slot of each level of 6th level or higher. You can’t create another slot of the same level until you finish a long rest. ",
+                        "At higher levels, your ability to create spell slots of 6th level and above improves. At 19th level, you can create two 6th level spell slots, and regain the ability to create more when you finish a long rest. At 20th level, you can create two 7th level spell slots, and regain the ability to create more when you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spells Known of 1st Level and Higher",
+                    "entries": [
+                        "You know two 1st-level spells of your choice from the sorcerer spell list. The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level which you can cast using sorcery points. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
+                        "Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting",
+                        "ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "cha"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "cha"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You can use an {@item arcane focus|phb} as a spellcasting focus for your sorcerer spells."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "caption": "",
+                    "colLabels": [
+                        "Spell Level",
+                        "Point Cost"
+                    ],
+                    "colStyles": [
+                        "col",
+                        "col"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "2"
+                        ],
+                        [
+                            "2nd",
+                            "3"
+                        ],
+                        [
+                            "3rd",
+                            "5"
+                        ],
+                        [
+                            "4th",
+                            "6"
+                        ],
+                        [
+                            "5th",
+                            "7"
+                        ],
+                        [
+                            "6th",
+                            "9"
+                        ],
+                        [
+                            "7th",
+                            "10"
+                        ],
+                        [
+                            "8th",
+                            "11"
+                        ],
+                        [
+                            "9th",
+                            "13"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Metamagic",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 6th, 10th, and 17th level.",
+                "You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.",
+                {
+                    "type": "options",
+                    "count": 2,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Careful Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Distant Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Empowered Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Extended Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Heightened Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Quickened Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Subtle Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Twinned Spell"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Divine Spell|BHSor"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Draconic Spell|BHSor"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Focused Spell|BHSor"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Tempest Spell|BHSor"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Tenebrous Spell|BHSor"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Wild Spell|BHSor"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Seeking Spell|TCE"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Transmuted Spell|TCE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Font of Magic",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you can use a bonus action on your turn to let flow the font of magic within you. When you do, you regain all of your spent sorcery points. In addition, for the next minute you are in a sorcerous trance.",
+                "While in this sorcerous trance, you can use any number of Metamagic options on a spell but can still only use each Metamagic option once. You can use this feature again after you complete a long rest.",
+                "Starting at 5th level, you can use this feature twice between long rests."
+            ],
+            "data": {
+                "activation.type": "bonus",
+                "activation.cost": 1
+            }
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Sorcerous Versatility",
+            "source": "BHSor",
+            "page": 65,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 4,
+            "isClassFeatureVariant": true,
+            "entries": [
+                "{@i 4th-level sorcerer {@variantrule optional class features|tce|optional feature}}",
+                "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Replace one of the options you chose for the Metamagic feature with a different {@filter Metamagic option|optionalfeatures|Feature Type=MM} available to you.",
+                        "Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the {@filter sorcerer spell list|spells|level=0|class=Sorcerer}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Magical Guidance",
+            "source": "BHSor",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 5,
+            "isClassFeatureVariant": true,
+            "entries": [
+                "{@i 5th-level sorcerer feature}",
+                "You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the {@dice d20}, and you must use the new roll, potentially turning the failure into a success."
+            ]
+        },
+        {
+            "name": "Sorcerous Origin feature",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain a feature granted by your Sorcerous Origin."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Metamagic",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 10,
+            "entries": [
+                "At 10th level, you learn an additional metamagic option."
+            ]
+        },
+        {
+            "name": "Metamagic",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn an additional metamagic option."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Sorcerous Origin feature",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 14,
+            "entries": [
+                "At 14th level, you gain a feature granted by your Sorcerous Origin."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Metamagic",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 17,
+            "entries": [
+                "At 17th level, you learn an additional metamagic option."
+            ]
+        },
+        {
+            "name": "Sorcerous Origin feature",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 18,
+            "entries": [
+                "At 18th level, you gain a feature granted by your Sorcerous Origin."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Sorcerous Actualization",
+            "source": "BHSor",
+            "page": 0,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "level": 20,
+            "entries": [
+                "At 20th level, while you are in a sorcerous trance spell slots cost half as many sorcery points to create (round down)"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Draconic Bloodline",
+            "source": "BHSor",
+            "page": 102,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Draconic",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "entries": [
+                "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Dragon Ancestor|Sorcerer|BHSor|Draconic|BHSor|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Draconic Resilience|Sorcerer|BHSor|Draconic|BHSor|1"
+                }
+            ]
+        },
+        {
+            "name": "Draconic Resilience",
+            "source": "BHSor",
+            "page": 102,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Draconic",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.",
+                "Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier."
+            ]
+        },
+        {
+            "name": "Dragon Ancestor",
+            "source": "BHSor",
+            "page": 102,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Draconic",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+                {
+                    "type": "table",
+                    "caption": "Draconic Ancestry",
+                    "colLabels": [
+                        "Dragon",
+                        "Damage Type"
+                    ],
+                    "colStyles": [
+                        "col-6 text-center",
+                        "col-6 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Black",
+                            "{@filter Acid|spells|damage type=acid|class=sorcerer}"
+                        ],
+                        [
+                            "Blue",
+                            "{@filter Lightning|spells|damage type=lightning|class=sorcerer}"
+                        ],
+                        [
+                            "Brass",
+                            "{@filter Fire|spells|damage type=fire|class=sorcerer}"
+                        ],
+                        [
+                            "Bronze",
+                            "{@filter Lightning|spells|damage type=lightning|class=sorcerer}"
+                        ],
+                        [
+                            "Copper",
+                            "{@filter Acid|spells|damage type=acid|class=sorcerer}"
+                        ],
+                        [
+                            "Gold",
+                            "{@filter Fire|spells|damage type=fire|class=sorcerer}"
+                        ],
+                        [
+                            "Green",
+                            "{@filter Poison|spells|damage type=poison|class=sorcerer}"
+                        ],
+                        [
+                            "Red",
+                            "{@filter Fire|spells|damage type=fire|class=sorcerer}"
+                        ],
+                        [
+                            "Silver",
+                            "{@filter Cold|spells|damage type=cold|class=sorcerer}"
+                        ],
+                        [
+                            "White",
+                            "{@filter Cold|spells|damage type=cold|class=sorcerer}"
+                        ]
+                    ]
+                },
+                "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+            ]
+        },
+        {
+            "name": "Elemental Affinity",
+            "source": "BHSor",
+            "page": 102,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Draconic",
+            "subclassSource": "BHSor",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour."
+            ]
+        },
+        {
+            "name": "Dragon Wings",
+            "source": "BHSor",
+            "page": 102,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Draconic",
+            "subclassSource": "BHSor",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.",
+                "You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them."
+            ]
+        },
+        {
+            "name": "Draconic Presence",
+            "source": "BHSor",
+            "page": 102,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Draconic",
+            "subclassSource": "BHSor",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition frightened}. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be {@condition charmed} (if you chose awe) or {@condition frightened} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours."
+            ]
+        },
+        {
+            "name": "Wild Magic",
+            "source": "BHSor",
+            "page": 103,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Wild",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "entries": [
+                "Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Wild Magic Surge|Sorcerer|BHSor|Wild|BHSor|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Tides of Chaos|Sorcerer|BHSor|Wild|BHSor|1"
+                }
+            ]
+        },
+        {
+            "name": "Tides of Chaos",
+            "source": "BHSor",
+            "page": 103,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Wild",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.",
+                "Any time before you regain the use of this feature, the DM can have you roll on the {@table Wild Magic Surge|PHB} table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature."
+            ]
+        },
+        {
+            "name": "Wild Magic Surge",
+            "source": "BHSor",
+            "page": 103,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Wild",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a {@dice d20}. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. A Wild Magic Surge can happen once per turn.",
+                "If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
+                {
+                    "type": "table",
+                    "caption": "Wild Magic Surge",
+                    "colLabels": [
+                        "{@dice d100}",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "01-02",
+                            "Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."
+                        ],
+                        [
+                            "03-04",
+                            "For the next minute, you can see any {@condition invisible} creature if you have line of sight to it."
+                        ],
+                        [
+                            "05-06",
+                            "A {@filter modron|bestiary|search=modron} chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears 1 minute later."
+                        ],
+                        [
+                            "07-08",
+                            "You cast {@spell fireball} as a 3rd-level spell centered on yourself."
+                        ],
+                        [
+                            "09-10",
+                            "You cast {@spell magic missile} as a 5th-level spell."
+                        ],
+                        [
+                            "11-12",
+                            "Roll a {@dice d10}. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."
+                        ],
+                        [
+                            "13-14",
+                            "You cast {@spell confusion} centered on yourself."
+                        ],
+                        [
+                            "15-16",
+                            "For the next minute, you regain 5 hit points at the start of each of your turns."
+                        ],
+                        [
+                            "17-18",
+                            "You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face."
+                        ],
+                        [
+                            "19-20",
+                            "You cast {@spell grease} centered on yourself."
+                        ],
+                        [
+                            "21-22",
+                            "Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."
+                        ],
+                        [
+                            "23-24",
+                            "Your skin turns a vibrant shade of blue. A {@spell remove curse} spell can end this effect."
+                        ],
+                        [
+                            "25-26",
+                            "An eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+                        ],
+                        [
+                            "27-28",
+                            "For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."
+                        ],
+                        [
+                            "29-30",
+                            "You teleport up to 60 feet to an unoccupied space of your choice that you can see."
+                        ],
+                        [
+                            "31-32",
+                            "You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."
+                        ],
+                        [
+                            "33-34",
+                            "Maximize the damage of the next damaging spell you cast within the next minute."
+                        ],
+                        [
+                            "35-36",
+                            "Roll a {@dice d10}. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."
+                        ],
+                        [
+                            "37-38",
+                            "{@dice 1d6} {@creature flumph||flumphs} controlled by the DM appear in unoccupied spaces within 60 feet of you and are {@condition frightened} of you. They vanish after 1 minute."
+                        ],
+                        [
+                            "39-40",
+                            "You regain {@dice 2d10} hit points."
+                        ],
+                        [
+                            "41-42",
+                            "You turn into a potted plant until the start of your next turn. While a plant, you are {@condition incapacitated} and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."
+                        ],
+                        [
+                            "43-44",
+                            "For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."
+                        ],
+                        [
+                            "45-46",
+                            "You cast {@spell levitate} on yourself."
+                        ],
+                        [
+                            "47-48",
+                            "A {@creature unicorn} controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."
+                        ],
+                        [
+                            "49-50",
+                            "You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."
+                        ],
+                        [
+                            "51-52",
+                            "A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to {@spell magic missile}."
+                        ],
+                        [
+                            "53-54",
+                            "You are immune to being intoxicated by alcohol for the next {@dice 5d6} days."
+                        ],
+                        [
+                            "55-56",
+                            "Your hair falls out but grows back within 24 hours."
+                        ],
+                        [
+                            "57-58",
+                            "For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."
+                        ],
+                        [
+                            "59-60",
+                            "You regain your lowest-level expended spell slot."
+                        ],
+                        [
+                            "61-62",
+                            "For the next minute, you must shout when you speak."
+                        ],
+                        [
+                            "63-64",
+                            "You cast {@spell fog cloud} centered on yourself."
+                        ],
+                        [
+                            "65-66",
+                            "Up to three creatures you choose within 30 feet of you take {@damage 4d10} lightning damage."
+                        ],
+                        [
+                            "67-68",
+                            "You are {@condition frightened} by the nearest creature until the end of your next turn."
+                        ],
+                        [
+                            "69-70",
+                            "Each creature within 30 feet of you becomes {@condition invisible} for the next minute. The invisibility ends on a creature when it attacks or casts a spell."
+                        ],
+                        [
+                            "71-72",
+                            "You gain resistance to all damage for the next minute."
+                        ],
+                        [
+                            "73-74",
+                            "A random creature within 60 feet of you becomes {@condition poisoned} for {@dice 1d4} hours."
+                        ],
+                        [
+                            "75-76",
+                            "You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is {@condition blinded} until the end of its next turn."
+                        ],
+                        [
+                            "77-78",
+                            "You cast {@spell polymorph} on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."
+                        ],
+                        [
+                            "79-80",
+                            "Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."
+                        ],
+                        [
+                            "81-82",
+                            "You can take one additional action immediately."
+                        ],
+                        [
+                            "83-84",
+                            "Each creature within 30 feet of you takes {@damage 1d10} necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
+                        ],
+                        [
+                            "85-86",
+                            "You cast {@spell mirror image}."
+                        ],
+                        [
+                            "87-88",
+                            "You cast {@spell fly} on a random creature within 60 feet of you."
+                        ],
+                        [
+                            "89-90",
+                            "You become {@condition invisible} for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."
+                        ],
+                        [
+                            "91-92",
+                            "If you die within the next minute, you immediately come back to life as if by the {@spell reincarnate} spell."
+                        ],
+                        [
+                            "93-94",
+                            "Your size increases by one size category for the next minute."
+                        ],
+                        [
+                            "95-96",
+                            "You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."
+                        ],
+                        [
+                            "97-98",
+                            "You are surrounded by faint, ethereal music for the next minute."
+                        ],
+                        [
+                            "99-00",
+                            "You regain all expended sorcery points."
+                        ]
+                    ],
+                    "data": {
+                        "tableInclude": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Bend Luck",
+            "source": "BHSor",
+            "page": 103,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Wild",
+            "subclassSource": "BHSor",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll {@dice 1d4} and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur."
+            ]
+        },
+        {
+            "name": "Controlled Chaos",
+            "source": "BHSor",
+            "page": 103,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Wild",
+            "subclassSource": "BHSor",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the {@table Wild Magic Surge|PHB} table, you can roll twice and use either number."
+            ]
+        },
+        {
+            "name": "Spell Bombardment",
+            "source": "BHSor",
+            "page": 103,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Wild",
+            "subclassSource": "BHSor",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn."
+            ]
+        },
+        {
+            "name": "Divine Soul",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Divine Soul",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "entries": [
+                "Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god's name.",
+                "Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.",
+                "A Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.",
+                "In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Divine Magic|Sorcerer|BHSor|Divine Soul|BHSor|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Favored by the Gods|Sorcerer|BHSor|Divine Soul|BHSor|1"
+                }
+            ]
+        },
+        {
+            "name": "Divine Magic",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Divine Soul",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Your link to the divine allows you to learn spells from the cleric class. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the cleric spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+                "In addition, choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell from the cleric spell list.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Affinity",
+                        "Spell"
+                    ],
+                    "colStyles": [
+                        "col-5",
+                        "col-7"
+                    ],
+                    "rows": [
+                        [
+                            "Good",
+                            "{@spell cure wounds}"
+                        ],
+                        [
+                            "Evil",
+                            "{@spell inflict wounds}"
+                        ],
+                        [
+                            "Law",
+                            "{@spell bless}"
+                        ],
+                        [
+                            "Chaos",
+                            "{@spell bane}"
+                        ],
+                        [
+                            "Neutrality",
+                            "{@spell protection from evil and good}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Favored by the Gods",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Divine Soul",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Starting at 1st level, divine power guards your destiny. If you fail a saving throw or miss with an attack roll, you can roll {@dice 2d4} and add it to the total, possibly changing the outcome. Once you use this feature, you can't use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Empowered Healing",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Divine Soul",
+            "subclassSource": "BHSor",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't {@condition incapacitated}. You can use this feature only once per turn."
+            ]
+        },
+        {
+            "name": "Otherworldly Wings",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Divine Soul",
+            "subclassSource": "BHSor",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Starting at 14th level, you can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're {@condition incapacitated}, you die, or you dismiss them as a bonus action.",
+                "The affinity you chose for your Divine Magic feature determines the appearance of the spectral wings: eagle wings for good or law, bat wings for evil or chaos, and dragonfly wings for neutrality."
+            ]
+        },
+        {
+            "name": "Unearthly Recovery",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Divine Soul",
+            "subclassSource": "BHSor",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "At 18th level, you gain the ability to overcome grievous injuries. As a bonus action when you have fewer than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.",
+                "Once you use this feature, you can't use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Shadow Magic",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Shadow",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "entries": [
+                "You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.",
+                "The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the Shadow Sorcerer Quirks table to create a quirk for your character.",
+                {
+                    "type": "table",
+                    "caption": "Shadow Sorcerer Quirks",
+                    "colLabels": [
+                        "d6",
+                        "Quirk"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "You are always icy cold to the touch."
+                        ],
+                        [
+                            "2",
+                            "When you are asleep, you don't appear to breathe (though you must still breathe to survive)."
+                        ],
+                        [
+                            "3",
+                            "You barely bleed, even when badly injured."
+                        ],
+                        [
+                            "4",
+                            "Your heart beats once per minute. This event sometimes surprises you."
+                        ],
+                        [
+                            "5",
+                            "You have trouble remembering that living creatures and corpses should be treated differently."
+                        ],
+                        [
+                            "6",
+                            "You blinked. Once. Last week."
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Eyes of the Dark|Sorcerer|BHSor|Shadow|BHSor|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Strength of the Grave|Sorcerer|BHSor|Shadow|BHSor|1"
+                }
+            ]
+        },
+        {
+            "name": "Eyes of the Dark",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Shadow",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Starting at 1st level, you have {@sense darkvision} with a range of 120 feet.",
+                "When you reach 3rd level in this class, you learn the {@spell darkness} spell, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the {@spell darkness} created by the spell."
+            ]
+        },
+        {
+            "name": "Strength of the Grave",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Shadow",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.",
+                "After the saving throw succeeds, you can't use this feature again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Hound of Ill Omen",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Shadow",
+            "subclassSource": "BHSor",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to magically summon a hound of ill omen to target one creature you can see within 120 feet of you. The hound uses the {@creature dire wolf}'s statistics (see the Monster Manual or appendix C in the Player's Handbook), with the following changes:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The hound is size Medium, not Large, and it counts as a monstrosity, not a beast.",
+                        "It appears with a number of temporary hit points equal to half your sorcerer level.",
+                        "It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.",
+                        "At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound."
+                    ]
+                },
+                "The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
+            ]
+        },
+        {
+            "name": "Shadow Walk",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Shadow",
+            "subclassSource": "BHSor",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can magically teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness."
+            ]
+        },
+        {
+            "name": "Umbral Form",
+            "source": "BHSor",
+            "page": 50,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Shadow",
+            "subclassSource": "BHSor",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "Starting at 18th level, you can spend 6 sorcery points as a bonus action to magically transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.",
+                "You remain in this form for 1 minute. It ends early if you are {@condition incapacitated}, if you die, or if you dismiss it as a bonus action."
+            ]
+        },
+        {
+            "name": "Storm Sorcery",
+            "source": "BHSor",
+            "page": 51,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Storm",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "entries": [
+                "Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.",
+                "Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Wind Speaker|Sorcerer|BHSor|Storm|BHSor|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Tempestuous Magic|Sorcerer|BHSor|Storm|BHSor|1"
+                }
+            ]
+        },
+        {
+            "name": "Tempestuous Magic",
+            "source": "BHSor",
+            "page": 51,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Storm",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks."
+            ]
+        },
+        {
+            "name": "Wind Speaker",
+            "source": "BHSor",
+            "page": 51,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Storm",
+            "subclassSource": "BHSor",
+            "level": 1,
+            "header": 1,
+            "entries": [
+                "The arcane magic you command is infused with elemental air. You can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran."
+            ]
+        },
+        {
+            "name": "Heart of the Storm",
+            "source": "BHSor",
+            "page": 51,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Storm",
+            "subclassSource": "BHSor",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "At 6th level, you gain resistance to lightning and thunder damage. In addition, whenever you start casting a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level."
+            ]
+        },
+        {
+            "name": "Storm Guide",
+            "source": "BHSor",
+            "page": 51,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Storm",
+            "subclassSource": "BHSor",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "At 6th level, you gain the ability to subtly control the weather around you.",
+                "If it is raining, you can use an action to cause the rain to stop falling in a 20-foot-radius sphere centered on you. You can end this effect as a bonus action.",
+                "If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn. This feature doesn't alter the speed of the wind."
+            ]
+        },
+        {
+            "name": "Storm's Fury",
+            "source": "BHSor",
+            "page": 51,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Storm",
+            "subclassSource": "BHSor",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you."
+            ]
+        },
+        {
+            "name": "Wind Soul",
+            "source": "BHSor",
+            "page": 51,
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Storm",
+            "subclassSource": "BHSor",
+            "level": 18,
+            "header": 2,
+            "entries": [
+                "At 18th level, you gain immunity to lightning and thunder damage.",
+                "You also gain a magical flying speed of 60 feet. As an action, you can reduce your flying speed to 30 feet for 1 hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a magical flying speed of 30 feet for 1 hour. Once you reduce your flying speed in this way, you can't do so again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Arcane Prodigy",
+            "source": "BHSor",
+            "page": "5",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Prodogy",
+            "subclassSource": "BHSor",
+            "level": "1",
+            "entries": [
+                "Since your first conscious attempt at the use of your innate magic, you’ve displayed a natural aptitude for magic uncommon even amongst sorcerers. Since that time, the more you tried to learn magic through rote memorization and practiced study, the less your innate talent shone through. Sorcerers who are arcane prodigies eventually discover its better to let their own instincts and idiosyncrasies guide their use of magic. While arcane prodigies never truly abandon the attempt to understand magic on a rational or methodical level, their prodigious talent for spellcasting relies on their intuitive, rather than intellectual, grasp of it."
+            ]
+        },
+        {
+            "name": "Alternate Spellcasting Ability",
+            "source": "BHSor",
+            "page": "5",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Prodogy",
+            "subclassSource": "BHSor",
+            "level": "1",
+            "entries": [
+                "When you choose this sorcerous origin at 1st level, you can choose to use Intelligence instead of Charisma as your sorcerer spellcasting ability. If you do, Metamagic options that use your Charisma modifier use your Intelligence modifier instead. You must make this choice when you gain this feature."
+            ]
+        },
+        {
+            "name": "Living Grimoire",
+            "source": "BHSor",
+            "page": "5",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Prodogy",
+            "subclassSource": "BHSor",
+            "level": "1",
+            "entries": [
+                "Starting at 1st level, a book containing your notes on arcane research springs to life. Your living grimoire functions as if it was a familiar created by the find familiar spell and chosen the statistics of a raven, but is a construct rather than a celestial, fey, or fiend. If your living grimoire is ever killed, you can create a new one by over the course of 1 hour using 10 gp worth of paper and ink."
+            ]
+        },
+        {
+            "name": "Rare Genius",
+            "source": "BHSor",
+            "page": "5",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Prodogy",
+            "subclassSource": "BHSor",
+            "level": "1",
+            "entries": [
+                "At 1st level, you gain proficiency in the Arcana skill.",
+                "In addition, your intuitive mastery of arcane formulas allows you to learn spells normally associated with the Wizard class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the wizard spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you."
+            ]
+        },
+        {
+            "name": "Metamagic Prodigy",
+            "source": "BHSor",
+            "page": "5",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Prodogy",
+            "subclassSource": "BHSor",
+            "level": "6",
+            "entries": [
+                "At 6th level, you gain a pool of prodigy points equal to your level in this class. This pool increases by 1 each time you gain a level in this class. You can spend prodigy points instead of sorcery points to use Metamagic options. You regain all expended prodigy points when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Spell Tinkering Savant",
+            "source": "BHSor",
+            "page": "5",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Prodogy",
+            "subclassSource": "BHSor",
+            "level": "14",
+            "entries": [
+                "At 14th level, when you cast a spell you may spend an additional sorcery point to use two Metamagic options to modify that spell, rather than just one. You must pay the sorcery point costs for those Metamagic options as normal."
+            ]
+        },
+        {
+            "name": "Metamagic Mastery",
+            "source": "BHSor",
+            "page": "5",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Prodogy",
+            "subclassSource": "BHSor",
+            "level": "18",
+            "entries": [
+                "At 18th level, you have achieved perfect mastery over one of your Metamagic options. You can use the Metamagic option without spending sorcery points and using it on a spell does not prevent you from using another Metamagic option on the same spell."
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Divine Spell",
+            "source": "BHSor",
+            "page": 6,
+            "featureType": "MM",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Sorcerer"
+                        },
+                        "subclass": {
+                            "name": "Divine Soul"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You need to have chosen the Divine Soul sorcerous origin to take this option.",
+                "When you cast a spell that deals damage to you can spend 1 sorcery point to change the damage type dealt by the spell to a damage type determined by the affinity you chose for your Divine Magic feature: radiant for good or law, necrotic for evil or chaos, or force for neutrality."
+            ]
+        },
+        {
+            "name": "Draconic Spell",
+            "source": "BHSor",
+            "page": 6,
+            "featureType": "MM",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Sorcerer"
+                        },
+                        "subclass": {
+                            "name": "Draconic Bloodline"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You need to have chosen the Draconic Bloodline sorcerous origin to take this option.",
+                "When you cast a spell that deals damage you can spend 1 sorcery point to change the damage type dealt by the spell to the type indicated by your draconic ancestry."
+            ]
+        },
+        {
+            "name": "Focused Spell",
+            "source": "BHSor",
+            "page": 6,
+            "featureType": "MM",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Sorcerer"
+                        },
+                        "subclass": {
+                            "name": "Arcane Prodigy"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You need to have chosen the Arcane Prodigy sorcerous origin to take this option.",
+                "When you cast a spell that requires concentration, you can spend 1 sorcery point to focus your will. When you do, you have advantage on all saving throws made to maintain concentration on the spell."
+            ]
+        },
+        {
+            "name": "Tempest Spell",
+            "source": "BHSor",
+            "page": 6,
+            "featureType": "MM",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Sorcerer"
+                        },
+                        "subclass": {
+                            "name": "Storm Sorcery"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You need to have chosen the Storm Sorcery sorcerous origin to take this option.",
+                "When you deal lightning or thunder damage to a creature with a spell you have cast, you may spend 1 sorcery point to push the creature up to 15 feet."
+            ]
+        },
+        {
+            "name": "Tenebrous Spell",
+            "source": "BHSor",
+            "page": 6,
+            "featureType": "MM",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Sorcerer"
+                        },
+                        "subclass": {
+                            "name": "Shadow Sorcery"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You need to have chosen the Shadow Magic sorcerous origin to take this option.",
+                "When you use your action to cast a spell, you may spend 3 sorcery points to turn invisible until the start of your next turn. The cost to activate this option is reduced to 1 sorcery point if you are in dim light or darkness."
+            ]
+        },
+        {
+            "name": "Wild Spell",
+            "source": "BHSor",
+            "page": 6,
+            "featureType": "MM",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Sorcerer"
+                        },
+                        "subclass": {
+                            "name": "Wild Magic"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "You need to have chosen the Wild Magic sorcerous origin to take this option.",
+                "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 1 sorcery point to roll randomly on the wild saving throw chart below to determine what kind of saving throw the spell requires. This saving throw replaces the normal saving throw required to resist the spell.",
+                {
+                    "type": "table",
+                    "caption": "",
+                    "colLabels": [
+                        "1d6",
+                        "Wild Saving Throw"
+                    ],
+                    "colStyles": [
+                        "col-6 text-center",
+                        "col-6 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Strength"
+                        ],
+                        [
+                            "2",
+                            "Dexterity"
+                        ],
+                        [
+                            "3",
+                            "Constituion"
+                        ],
+                        [
+                            "4",
+                            "Intelligence"
+                        ],
+                        [
+                            "5",
+                            "Wisdom"
+                        ],
+                        [
+                            "6",
+                            "Charisma"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

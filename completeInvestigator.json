@@ -1,0 +1,597 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Spire of Secrets",
+                "abbreviation": "VSoS",
+                "full": "Varro's Spire of Secrets",
+                "authors": "Mage Hand Press",
+                "convertedBy": "Shin",
+                "url": "",
+                "version": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "class": [
+        {
+            "name": "Investigator",
+            "source": "Spire of Secrets",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [],
+            "startingProficiencies": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple",
+                    "hand crossbows",
+                    "heavy crossbows",
+                    "longswords",
+                    "rapiers",
+                    "shortswords"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "athletics",
+                                "deception",
+                                "history",
+                                "insight",
+                                "intimidation",
+                                "investigation",
+                                "medicine",
+                                "nature",
+                                "perception",
+                                "persuasion",
+                                "stealth",
+                                "sleight of hand",
+                                "religion"
+                            ],
+                            "count": 3
+                        }
+                    }
+                ],
+                "tools": [
+                    "one gaming set"
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "Leather armor",
+                    "A dagger and (a) a spear or (b) any simple weapon",
+                    "(a) a light crossbow and 20 bolts or (b) a hand crossbow and 20 bolts",
+                    "(a) dungeoneer’s pack or (b) one kit you’re proficient with",
+                    "A grimoire and a material component pouch"
+                ],
+                "defaultData": [
+                    {
+                        "_": [
+                            "Leather armor"
+                        ]
+                    },
+                    {
+                        "_": [
+                            "A dagger"
+                        ],
+                        "a": [
+                            "a spear"
+                        ],
+                        "b": [
+                            "any simple weapon"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "a light crossbow and 20 bolts"
+                        ],
+                        "b": [
+                            "a hand crossbow and 20 bolts"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "dungeoneer’s pack"
+                        ],
+                        "b": [
+                            "one kit you’re proficient with"
+                        ]
+                    },
+                    {
+                        "_": [
+                            "A grimoire and a material component pouch"
+                        ]
+                    }
+                ]
+            },
+            "fluff": [
+                {
+                    "name": "Investigator",
+                    "type": "section",
+                    "entries": [
+                        "A collage of diagrams, maps, and small items litters the wall, pinned with nails and connected by a spiderweb of colorful strings. An elf stands nearby, contemplating the mystery splayed out in front of her and readying her crossbow for work.",
+                        "A half-orc wearing a wide-brimmed hat leafs through a thick tome, double-checking the preparations: a sturdy net trap, holy symbols on the doors, cloves of garlic, and several dozen wooden stakes. The preparations made, the half-orc slinks into the shadows and readies himself for the bloodshed.",
+                        "Hastily tracing symbols in chalk, a human wearing a long coat whirls about in a wide arc, completing a rough magic circle in mere seconds. A monstrously fat demon, blood dripping with its drool, lunges at him, but instead impacts off an invisible magical barrier, a cylinder raised from the circle’s edge. The fiend howls with rage, and the inquisitor breathes a sigh of relief.",
+                        "Supernatural detectives and monster slayers, investigators are always on the hunt for malevolent outsiders. Whenever evil seeps into the world—be it fiends, undead, or strange abominations from beyond the stars—investigators will be the first to locate them and banish their foul corruption from the mortal plane.",
+                        {
+                            "type": "entries",
+                            "name": "Paranormal Investigators",
+                            "entries": [
+                                "There are forces more ancient than time, foes more sinister than the foulest men, and beings more titanic than gods. The world stands at a precipice of woe and terror, being threatened nightly by dark agents and hordes of monsters. At risk to their own lives and sanities, investigators penetrate the evil that creeps in the shadows and banish it from the world. Their battles are never-ending, for victory only delays doomsday another night.",
+                                "Investigators track supernatural threats ranging from incorporeal spirits, to nefarious vampires and lycanthropes, to incursions of demons and devils. Often in their investigations, they often uncover secret cults and maligned individuals who bring these supernatural threats to bear. It is always their goal to impede these evildoers by any means necessary, resorting to trickery, guile, magic, and bloodshed when necessary. To an investigator, no tactic is unthinkable when the world is at stake."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Exorcists and Occultists",
+                            "entries": [
+                                "Even as they strive to contain its influence from the world at large, investigators dabble in forbidden magic to give themselves an edge against supernatural threats. Prepared investigators keep a well-stocked grimoire of magical secrets, containing rituals, incantations, notes on monsters’ powers and weaknesses, recipes for poisons, and arcane diagrams—everything needed to confront their foes on an even footing. Even so, an investigator’s occupation is perilous. A grimoire might spell out a vampire’s fear of sunlight and aversion to silver, but it does little to hinder their fangs."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating an Investigator",
+                            "entries": [
+                                "As you build your investigator, consider what sort of supernatural threat first drove you to investigating and combating the occult. Did one of your family members strike a bargain with a fiend? Were you kidnapped by a cabal of vampires or a pack of lycanthropes? Did you stumble across evidence of an eldritch abomination, such as a Great Old One? The type of creature you first did battle with likely shaped your tools and methods later on.",
+                                "Did you apprentice under a seasoned monster hunter, learning the ropes of tracking a threat, uncovering its weaknesses, and setting a trap for it? Or did you strike out on your own, compiling your own grimoire from hard-earned research? Perhaps you learned everything about monster hunting from someone else’s grimoire, a masterwork containing an abridged library of occult knowledge and a lifetime of experience. It’s even possible that you signed a contract with a minor fiend and turned to supernatural investigation in a last-ditch effort to save your soul."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Quick Build",
+                            "entries": [
+                                "Follow these suggestions to build an investigator quickly: Intelligence should be your highest ability score, followed by Dexterity or Strength. Choose any background. Then, select the rituals clue, comprehend languages, detect magic, and transient bulwark to add to your grimoire."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "classSpells": [
+                "Alarm",
+                {
+                    "name": "Blood Print",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "Clue",
+                    "source": "Spire of Secrets"
+                },
+                "Comprehend Languages",
+                {
+                    "name": "Conjure Cover",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "Consecrated Armor",
+                    "source": "Spire of Secrets"
+                },
+                "Detect Evil and Good",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Disguise Self",
+                "Find Familiar",
+                "Floating Disk",
+                "Heroism",
+                "Identify",
+                "Illusory Script",
+                {
+                    "name": "Memorize",
+                    "source": "Spire of Secrets"
+                },
+                "Purify Food and Drink",
+                {
+                    "name": "Rumor",
+                    "source": "Spire of Secrets"
+                },
+                "Speak with Animals",
+                {
+                    "name": "Transient Bulwark",
+                    "source": "Spire of Secrets"
+                },
+                "Unseen Servant",
+                {
+                    "name": "Whispering Wind",
+                    "source": "Spire of Secrets"
+                },
+                "Animal Messenger",
+                "Arcane Lock",
+                "Arcanist’s Magic Aura",
+                "Augury",
+                {
+                    "name": "Curse Ward",
+                    "source": "Spire of Secrets"
+                },
+                "Gentle Repose",
+                {
+                    "name": "Jethro’s Instant Reload",
+                    "source": "Spire of Secrets"
+                },
+                "Knock",
+                "Locate Animals or Plants",
+                "Locate Object",
+                "Magic Mouth",
+                {
+                    "name": "Nondescript",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "Protect Threshold",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "Recall",
+                    "source": "Spire of Secrets"
+                },
+                "See Invisibility",
+                "Silence",
+                "Spider Climb",
+                {
+                    "name": "Unseen Accountant",
+                    "source": "Spire of Secrets"
+                },
+                "Zone of Truth",
+                {
+                    "name": "After Image",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "Benign Dismemberment",
+                    "source": "Spire of Secrets"
+                },
+                "Clairvoyance",
+                {
+                    "name": "Geomantic Discernment",
+                    "source": "Spire of Secrets"
+                },
+                "Magic Circle",
+                "Fly",
+                "Meld into Stone",
+                "Phantom Steed",
+                "Remove Curse",
+                {
+                    "name": "Séance",
+                    "source": "Spire of Secrets"
+                },
+                "Sending",
+                "Speak with Plants",
+                "Water Breathing",
+                "Water Walk",
+                {
+                    "name": "Dire Warning",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "Distort Gravity",
+                    "source": "Spire of Secrets"
+                },
+                "Divination",
+                {
+                    "name": "Invisibility Purge",
+                    "source": "Spire of Secrets"
+                },
+                "Locate Creature",
+                "Private Sanctum",
+                "Commune",
+                "Commune with Nature",
+                "Dream",
+                "Legend Lore",
+                {
+                    "name": "Scrutinize Foe",
+                    "source": "Spire of Secrets"
+                },
+                "Telepathic Bond",
+                {
+                    "name": "Find the Path",
+                    "source": "Spire of Secrets"
+                },
+                "Forbiddance",
+                {
+                    "name": "Game of Fate",
+                    "source": "Spire of Secrets"
+                },
+                "Instant Summons"
+            ],
+            "classFeatures": [
+                "Expertise|Investigator|Spire of Secrets|1",
+                "Ritualist|Investigator|Spire of Secrets|1",
+                "Myths And Legends|Investigator|Spire of Secrets|2",
+                "Rushed Incantation|Investigator|Spire of Secrets|2",
+                {
+                    "classFeature": "Occult Specialization|Investigator|Spire of Secrets|3",
+                    "gainSubclassFeature": true
+                },
+                "Trinkets|Investigator|Spire of Secrets|3",
+                "Ability Score Improvement|Investigator|Spire of Secrets|4",
+                "Exploit Weakness|Investigator|Spire of Secrets|5",
+                {
+                    "classFeature": "Occult Specialization Feature|Investigator|Spire of Secrets|6",
+                    "gainSubclassFeature": true
+                },
+                "Opportunistic Piety|Investigator|Spire of Secrets|7",
+                "Ability Score Improvement|Investigator|Spire of Secrets|8",
+                "Supernatural Resolve|Investigator|Spire of Secrets|9",
+                {
+                    "classFeature": "Occult Specialization Feature|Investigator|Spire of Secrets|10",
+                    "gainSubclassFeature": true
+                },
+                "Finisher|Investigator|Spire of Secrets|11",
+                "Ability Score Improvement|Investigator|Spire of Secrets|12",
+                "Enigma Arcane|Investigator|Spire of Secrets|13",
+                {
+                    "classFeature": "Occult Specialization Feature|Investigator|Spire of Secrets|14",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Investigator|Spire of Secrets|16",
+                "Exorcist|Investigator|Spire of Secrets|18",
+                "Ability Score Improvement|Investigator|Spire of Secrets|19",
+                "Spellbinder|Investigator|Spire of Secrets|20"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Expertise",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "1",
+            "entries": [
+                "At 1st level, choose two of your skill proficiencies; your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+                "At 6th level, you can choose two more of your proficiencies to gain this benefit.",
+                ""
+            ]
+        },
+        {
+            "name": "Ritualist",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "1",
+            "entries": [
+                "You maintain a grimoire brimming with magical rituals, your most potent tools to defeat supernatural threats.",
+                {
+                    "type": "entries",
+                    "name": "Grimoire",
+                    "entries": [
+                        "At 1st level, you have a grimoire containing four 1stlevel spells of your choice that have the ritual tag from any class’s spell list (the spells needn’t be from the same list). You can’t cast spells in your grimoire except as rituals, unless you’ve learned them by some other means.",
+                        "Whenever you gain a level in this class, you can add an additional ritual spell from the Investigator Rituals list to your grimoire at no cost. The Ritual Level column on the Investigator table shows the maximum spell level you can add to your grimoire.",
+                        "Additionally, whenever you find a ritual spell on your adventures, you can add it to your grimoire if it is on the Investigator Rituals list of a level you can add to your grimoire. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bonus Rituals",
+                    "entries": [
+                        "As an investigator, you can treat specific spells as if they had the ritual tag, allowing you to add them to your grimoire and cast them as rituals. These spells are listed on the Investigator Rituals table to the right."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your ritual spells, since you master your spells through deduction and cunning. You use your Intelligence whenever a",
+                        "spell refers to your spellcasting ability. In addition, when you cast an investigator ritual or a spell offered to you by a feature in this class, you use your Intelligence modifier when setting the saving throw DC and making an attack roll.",
+                        " Spell save DC = 8 + your proficiency bonus + your Intelligence modifier",
+                        "Spell attack modifier = your proficiency bonus + your Intelligence modifier",
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Myths And Legends",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "2",
+            "entries": [
+                "At 2nd level, you are extremely adept at uncovering knowledge which pertains to eldritch threats and forgotten legends. You have advantage on Intelligence checks related to researching creatures, spells, and other ancient or secret lore.",
+                ""
+            ]
+        },
+        {
+            "name": "Rushed Incantation",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "2",
+            "entries": [
+                "Beginning at 2nd level, you can hastily perform any ritual spell in your grimoire that has a casting time of 1 action, completing the ritual as a bonus action. If the ritual requires spell components worth 100 gp or less, you cast it without using spell components. You can use this feature a number of times equal to your Intelligence modifier (minimum 1), and regain the ability to do so when you finish a long rest.",
+                "As you gain higher levels in this class, you can use this feature additional times. You can use it once more at 5th level (Int mod + 1), 9th level (Int mod + 2), 13th level (Int mod + 3), and 17th level (Int mod + 4).",
+                ""
+            ]
+        },
+        {
+            "name": "Occult Specialization",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "3",
+            "entries": [
+                "At 3rd level, you choose a specialization, an area of expertise in handling eldritch threats. Your specialization choices are detailed at the end of the class description. Your specialization choice grants you features at 3rd level and then again at 6th, 10th, and 14th level.",
+                " "
+            ]
+        },
+        {
+            "name": "Trinkets",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "3",
+            "entries": [
+                "Also at 3rd level, Investigators of each specialization also collect a number of supernatural trinkets. Once you use one of your trinkets, you can’t use another one until you finish a short or long rest. As you gain higher levels in this class, you can use your trinkets additional times: You can use them once more at 5th level (2 uses), 11th level (3 uses), and 17th level (4 uses).",
+                ""
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "4",
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                ""
+            ]
+        },
+        {
+            "name": "Exploit Weakness",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "5",
+            "entries": [
+                "Most supernatural creatures have some form of weakness, a gap in their armor that allows them to be defeated. Starting at 5th level, once on each of your turns when you hit a creature with a weapon attack, it is treated as if it has vulnerability to the weapon’s damage. Vulnerability from this feature only doubles your weapon damage dice and your ability modifier; do not double additional sources of damage, such as spells and other class features.",
+                "Moreover, the attack, as well as all other attacks made against the creature until the start of your next turn, are considered magical for the purposes of bypassing damage resistance and immunity.",
+                ""
+            ]
+        },
+        {
+            "name": "Opportunistic Piety",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "7",
+            "entries": [
+                "By 7th level, you always keep a wide array of holy symbols and blessed items on your person, even if you aren’t particularly pious. When you use your Opportunistic Piety, you choose which effect to create from the list below. You must then finish a short or long rest to use your Opportunistic Piety again.",
+                "{@bold Banish.} You cast the spell banishment without using a spell slot. If the target is a fey, fiend, or undead and fails its saving throw against this spell, it also takes radiant damage equal to your level.",
+                "{@bold Miracle Healing.} As an action, divine light from your hands knit the wounds of a willing creature you touch. That creature regains a number of hit points equal to twice your investigator level. This ability has no effect on undead or constructs.",
+                "{@bold Warding.} As an action, you trace a holy symbol on a creature within 5 feet of you, warding it from harm. For the next minute, aberrations, celestials, fey, fiends, and undead which touch the target creature or hit it with a melee attack take 1d12 radiant damage.",
+                ""
+            ]
+        },
+        {
+            "name": "Supernatural Resolve",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "9",
+            "entries": [
+                "At 9th level, you gain an extreme resilience to the attacks and effects of the creatures you regularly investigate. You can’t be possessed or charmed, and you gain resistance to both psychic and necrotic damage.",
+                ""
+            ]
+        },
+        {
+            "name": "Finisher",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "11",
+            "entries": [
+                "Beginning at 11th level, you know exactly how to bring a monster down. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 damage to the creature. If the creature has less than half its hit points remaining, you can instead deal an additional 4d8 damage to the creature.",
+                ""
+            ]
+        },
+        {
+            "name": "Enigma Arcane",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "13",
+            "entries": [
+                "At 13th level, you uncover a magical secret connected to a wellspring of potent magic. You can cast one of the following spells once without expending a spell slot: mirage arcane, plane shift, reverse gravity, sequester, or teleport. You must finish a long rest before you can do so again.",
+                "At 15th level, you can also cast one of the following spells without expending a spell slot: antimagic field, glibness, maze, or mind blank. You must finish a long rest before you can do so again.",
+                "At 17th level, you can also cast one of the following spells without expending a spell slot: astral projection, gate, or weird. You must finish a long rest before you can do so again.",
+                ""
+            ]
+        },
+        {
+            "name": "Exorcist",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "18",
+            "entries": [
+                "Beginning at 18th level, you can cast the spell protection from evil and good without using a spell slot or spell components.",
+                ""
+            ]
+        },
+        {
+            "name": "Spellbinder",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": "20",
+            "entries": [
+                "By 20th level, many rituals you perform have become second nature to you. Select five ritual spells in your grimoire with a casting time of 1 action. You can cast these spells as a bonus action without using a use of Rushed Incantation, and you can do so without your grimoire on hand. If the ritual requires spell components worth 100 gp or less, you cast it without using spell components. "
+            ]
+        },
+        {
+            "name": "Occult Specialization Feature",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain a feature from your Occult Specialization."
+            ]
+        },
+        {
+            "name": "Occult Specialization Feature",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature from your Occult Specialization."
+            ]
+        },
+        {
+            "name": "Occult Specialization Feature",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": 14,
+            "entries": [
+                "At 14th level, you gain a feature from your Occult Specialization."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. \nIf your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. \nIf your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. \nIf your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Spire of Secrets",
+            "className": "Investigator",
+            "classSource": "Spire of Secrets",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. \nIf your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        }
+    ]
+}
