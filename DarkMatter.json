@@ -7715,6 +7715,29 @@
 				"dmgType": "O",
 				"valueExpression": "[[baseItem.value]] * 2"
 			}
+		},
+		{
+			"name": "Golem Skin",
+			"source": "DarkMatter",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "LA"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Golem Skin ",
+				"source": "DarkMatter",
+				"page": 156,
+				"rarity": "very rare",
+				"weight": 10,
+				"ac": 11,
+				"bonusAc": "+1",
+				"entries": [
+					"This lightly armored suit is traced in intricate, glowing arcane circuitry, and has a series of attachment points and nodes covering its surface. You can install construct grafts into this suit, which has four body slots: Arms, External, Head, and Legs. While wearing this armor, you gain a +1 bonus to your AC, and you gain the benefits of any construct grafts installed in the suit, though you lose the benefits of any grafts you have attached to your own body (except those in the Internal slot).",
+					"Additionally, this suit comes with an arm blade graft attached to its Arms slot."
+				]
+			}
 		}
 	],
 	"itemType": [
@@ -8926,22 +8949,6 @@
 	],
 	"subclass": [
 		{
-			"name": "Scrappers' Guild",
-			"shortName": "Scrapper",
-			"source": "DarkMatter",
-			"subclassFeatures": [
-				"Scrappers' Guild|Craftsman|mhpcf|Scrapper|DarkMatter|3",
-				"Makeshift Brawler|Craftsman|mhpcf|Scrapper|DarkMatter|3",
-				"Scrap Smithing|Craftsman|mhpcf|Scrapper|DarkMatter|3",
-				"Quality Junk|Craftsman|mhpcf|Scrapper|DarkMatter|7",
-				"Scrapper's Improvement|Craftsman|mhpcf|Scrapper|DarkMatter|10",
-				"Impromptu Repair|Craftsman|mhpcf|Scrapper|DarkMatter|14",
-				"Master Scrapper|Craftsman|mhpcf|Scrapper|DarkMatter|18"
-			],
-			"className": "Craftsman",
-			"classSource": "mhpcf"
-		},
-		{
 			"name": "Path of the Dreadnought",
 			"shortName": "Dreadnought",
 			"source": "DarkMatter",
@@ -9224,125 +9231,6 @@
 		}
 	],
 	"subclassFeature": [
-		{
-			"name": "Scrappers' Guild",
-			"source": "DarkMatter",
-			"page": "83",
-			"className": "Craftsman",
-			"classSource": "mhpcf",
-			"subclassShortName": "Scrapper",
-			"subclassSource": "DarkMatter",
-			"level": "3",
-			"entries": [
-				"Most craftsmen do their best work in precisely arranged workshops, with exact components, plenty of tools and space, and all the best materials. You’ve learned to be far more pragmatic and flexible with your choices for tools, materials, and workspace, allowing you to forge deadly gear out of little more than a box of scraps and a roll of vent tape."
-			]
-		},
-		{
-			"name": "Makeshift Brawler",
-			"source": "DarkMatter",
-			"page": "83",
-			"className": "Craftsman",
-			"classSource": "mhpcf",
-			"subclassShortName": "Scrapper",
-			"subclassSource": "DarkMatter",
-			"level": "3",
-			"entries": [
-				"Starting when you choose this guild at 3rd level, you gain proficiency with improvised weapons."
-			]
-		},
-		{
-			"name": "Scrap Smithing",
-			"source": "DarkMatter",
-			"page": "83",
-			"className": "Craftsman",
-			"classSource": "mhpcf",
-			"subclassShortName": "Scrapper",
-			"subclassSource": "DarkMatter",
-			"level": "3",
-			"entries": [
-				"At 3rd level, you learn how to craft magnificent gear under less than ideal conditions and with less than ideal materials. You can craft scrap weapons, armor, and shields, which function identically to normal items, with the following exceptions:",
-				{
-					"type": "list",
-					"items": [
-						"Scrap items cost no gold to produce, have half the normal crafting time, and can be made without any available tools.",
-						"Scrap items break after 24 hours.",
-						"You can make only one scrap masterwork item each day and can apply masterwork properties to this item at no cost.",
-						"Scrap items fall apart more easily. When you attack with a scrap weapon and roll a 1 on the d20, the weapon breaks and is no longer functional. Likewise, if you suffer the effects of a critical hit while wearing scrap armor or holding a scrap shield, roll a Dexterity saving throw for each piece of gear, with a DC equal to 10 or half the damage dealt, whichever is higher; on a failure, that armor or shield breaks and is no longer considered functional."
-					]
-				}
-			]
-		},
-		{
-			"name": "Quality Junk",
-			"source": "DarkMatter",
-			"page": "83",
-			"className": "Craftsman",
-			"classSource": "mhpcf",
-			"subclassShortName": "Scrapper",
-			"subclassSource": "DarkMatter",
-			"level": "7",
-			"entries": [
-				"Starting at 7th level, you find treasure where others see only trash. When you make a Persuasion skill check in an attempt to buy or sell scrap or salvage, you can use your Intelligence modifier instead of your Charisma modifier, and you add double your proficiency bonus to the check.",
-				"Additionally, you can cobble together tools and other equipment much more efficiently out of scrap. You now regain expended uses of your Tool Belt ability following a short or long rest."
-			]
-		},
-		{
-			"name": "Scrapper's Improvement",
-			"source": "DarkMatter",
-			"page": "83",
-			"className": "Craftsman",
-			"classSource": "mhpcf",
-			"subclassShortName": "Scrapper",
-			"subclassSource": "DarkMatter",
-			"level": "10",
-			"entries": [
-				"Starting at 10th level, you can spend 10 minutes to fortify a scrap weapon, or up to 6 scrap weapons following a short or long rest, each of which gains the following property:",
-				{
-					"type": "entries",
-					"name": "Unstable.",
-					"entries": [
-						"This weapon deals an additional die of damage. On a hit, this weapon breaks and can't be repaired"
-					]
-				}
-			]
-		},
-		{
-			"name": "Impromptu Repair",
-			"source": "DarkMatter",
-			"page": "83",
-			"className": "Craftsman",
-			"classSource": "mhpcf",
-			"subclassShortName": "Scrapper",
-			"subclassSource": "DarkMatter",
-			"level": "14",
-			"entries": [
-				"Starting at 14th level, you learn to make surprisingly effective repairs using scrap or junk. So long as you have a suitable amount of raw material (metal, wood, stone, etc.) and a bonding agent (nails, rivets, sovereign glue, copious amounts of vent tape, etc.), you can use your action to repair a nonmagical object or construct. A repaired object is restored to full functionality and also regains hit points equal to your craftsman level + your Intelligence modifier.",
-				"A destroyed or dead construct can be restored to functionality by using this ability, so long as no more than 1 minute has passed since the construct was destroyed.",
-				"You can use this ability a number of times equal to your Intelligence modifier and regain all uses of this ability when you finish a long rest."
-			]
-		},
-		{
-			"name": "Master Scrapper",
-			"source": "DarkMatter",
-			"page": "83",
-			"className": "Craftsman",
-			"classSource": "mhpcf",
-			"subclassShortName": "Scrapper",
-			"subclassSource": "DarkMatter",
-			"level": "18",
-			"entries": [
-				"At 18th level, you reach the peak of your craft. You learn the following masterwork property:",
-				{
-					"type": "entries",
-					"name": "Quick Configuration Socket",
-					"entries": [
-						"Legendary Property",
-						"Components Masterwork weapon or armor",
-						"When you apply this property to an item, select any other masterwork property of Master level or lower that the item does not already have. The item gains that property as a bonus property, even if it already had another property of the same level. You can use your action to replace this bonus property with another property of Master level or lower that the item does not already have. The item must always meet the prerequisites for its bonus property."
-					]
-				}
-			]
-		},
 		{
 			"name": "Path of the Wrecker",
 			"source": "DarkMatter",
@@ -10564,13 +10452,7 @@
 			"subclassSource": "DarkMatter",
 			"level": "3",
 			"entries": [
-				"Trained in infiltration, espionage, and covert operations by",
-				"the Firm, infiltrators excel at being completely untraceable",
-				"agents of intrigue and subterfuge. Despite their vast",
-				"array of skills, Infiltrators are primarily known for their",
-				"proprietary Infiltration Rigs, nonmagical devices derived",
-				"from gnomish tech, capable of an array of illusory,",
-				"transformative, and technical effects."
+				"Trained in infiltration, espionage, and covert operations by the Firm, infiltrators excel at being completely untraceable agents of intrigue and subterfuge. Despite their vast array of skills, Infiltrators are primarily known for their proprietary Infiltration Rigs, nonmagical devices derived from gnomish tech, capable of an array of illusory, transformative, and technical effects."
 			]
 		},
 		{
@@ -10583,8 +10465,7 @@
 			"subclassSource": "DarkMatter",
 			"level": "3",
 			"entries": [
-				"Starting at 3rd level, you gain proficiency in the Data and",
-				"Deception skills."
+				"Starting at 3rd level, you gain proficiency in the Data and Deception skills."
 			]
 		},
 		{
@@ -11808,6 +11689,303 @@
 				"Death Burst",
 				"Spider Climb"
 			]
+		}
+	],
+	"item": [
+		{
+			"name": "Cryogenic Pod",
+			"source": "DarkMatter",
+			"page": 144,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This capsule, large enough to fit one Medium-size creature, can provide air and heat for its occupant indefinitely. When a creature inside the pod activates it as an action, the pod cryogenically freezes them over the course of a minute, petrifying them as well as the rest of the pod's contents. The pod then locks. Petrified creatures don't age. Another creature can use their action to unpetrify the creature, which unfreezes over the course of a minute. The pod then unlocks."
+			]
+		},
+		{
+			"name": "Attractor Mine",
+			"source": "DarkMatter",
+			"page": 144,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can prime this small metallic disk and throw it to a space within 40 feet. Upon landing, the disk crackles with electricity and draws objects within a 5-foot cube toward it. If a creature enters the affected area for the first time on a turn or starts its turn there, it must make a DC 14 Strength saving throw. On a failed save, the creature can't move or take reactions until the start of its next turn. After 1 minute, the mine burns out and becomes nonmagical."
+			]
+		},
+		{
+			"name": "BEG-3000",
+			"source": "DarkMatter",
+			"page": 144,
+			"baseItem": "singularity emitter|DarkMatter",
+			"type": "R",
+			"rarity": "legendary",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"BLS",
+				"H",
+				"OH",
+				"2H"
+			],
+			"range": "30/120",
+			"dmg1": "2d10",
+			"dmgType": "O",
+			"bonusWeapon": "+3",
+			"recharge": "dawn",
+			"charges": 4,
+			"weapon": true,
+			"entries": [
+				"An experimental singularity emitter of unrivaled power, the BEG is perhaps several iterations away from being completely stable. You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+				"This weapon has 4 charges and regains {@dice 1d4} expended charges daily at dawn. As an action, you can expend a charge to fire an unstable singularity from this weapon.",
+				"When you do so, roll a {@dice d20}. On a roll of 5 lower, the weapon expends all of its remaining charges, instead of only one. The singularity travels up to 60 feet to a point you can see within range, then explodes. Each creature within a 20-foot radius sphere centered on that point must make a DC 17 Dexterity saving throw or take {@damage 10d10} force damage, or half as much on a successful save. After this, the weapon overheats and can't spend another charge or attack until the end of your next turn."
+			]
+		},
+		{
+			"name": "Ankh of Ra",
+			"source": "DarkMatter",
+			"page": 143,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This golden holy symbol, blessed by the Sun Above, shields you from death. When you drop to 0 hit points as a result of taking damage while you are attuned to the ankh, you instead regain {@dice 4d10} hit points. The ankh then loses its luster and becomes nonmagical."
+			]
+		},
+		{
+			"name": "Arcane Terminal",
+			"source": "DarkMatter",
+			"page": 143,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"Arcane terminals are essential units of computing in the 'verse. Most information, from public databanks to private financial records, are stored on such terminals. These terminals weigh 800 pounds and come equipped with a keyboard, monitor, and antenna.",
+				"A terminal can store data, search its contents, and transfer data to other terminals. You can enter text into a terminal using the keyboard and search for data using queries of any length. A terminal can hold an arbitrarily large amount of text; the equivalent of hundreds of encyclopedias, but its storage of images and video is much more strictly limited. If you connect an arcane terminal by cable to another terminal, a ship's computer, or a datapad, you can transfer information between these devices.",
+				"With permission, it is possible to use one terminal to search the data of another. The most common use of this is to query the extensive amoeboid Compendium, which is located on a network of arcane terminals spread across dozens of maws, accessible from any given maw.",
+				"You can also use a terminal to compute mathematical problems, process data sets, and perform simulations using extensive amount of recorded data.",
+				"The arcane terminal's antenna enables datapads within 1 mile of it to communicate with short messages.",
+				"Arcane terminals are also generally locked with a password associated with each user. Only someone with the password can access the terminal (barring unauthorized access, which can be accomplished with a successful DC 20 Intelligence (Data) check to hack the terminal)."
+			]
+		},
+		{
+			"name": "Arcane Warhead",
+			"source": "DarkMatter",
+			"page": 143,
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This 4,000-pound bomb is capable of cataclysmic destruction. You can arm the warhead over the course of a minute if you know the warhead's command code and have a specially-made key attuned to it. Once the warhead is armed, you can set its method of detonation: Timed or Impact If you choose a timed detonation, you enter a delay time of 1 minute, 10 minutes, or 1 hour, after which the warhead detonates. If you choose impact, the bomb lays dormant until it takes 1 mega hit point of damage, which might happen if it falls a suitable distance.",
+				"When the arcane warhead detonates, each creature and object within a 10-mile radius takes {@dice 10d10 + 200} mega radiant damage. Each creature within a 100-mile radius must make a DC 20 Dexterity saving throw or take {@dice 10d10}",
+				"+ 50 radiant damage, or half as much on a successful save. This damage bypasses resistance and immunity to damage, and can't be avoided by Evasion or similar features. A creature that takes damage from this warhead becomes {@condition poisoned} for 24 hours.",
+				"The epicenter of the blast becomes a permanent {@dice 5d10 + 5} feet wide Dead Magic Zone."
+			]
+		},
+		{
+			"name": "Death Ray",
+			"source": "DarkMatter",
+			"page": 144,
+			"baseItem": "repeater|DarkMatter",
+			"type": "R",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"BLS"
+			],
+			"range": "60/240",
+			"dmg1": "2d6",
+			"dmgType": "R",
+			"bonusWeapon": "+2",
+			"recharge": "dawn",
+			"charges": 2,
+			"crossbow": true,
+			"weapon": true,
+			"entries": [
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. The weapon also has 2 charges, and regains {@dice 1d2} expended charges daily at dawn. While attuned to it, you can spend one charge to cast the spell disintegrate (DC 16) at a target you can see within range."
+			]
+		},
+		{
+			"name": "Deconstructive Nanobots",
+			"source": "DarkMatter",
+			"page": 144,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This capsule, which looks identical to that which contains reconstructive nanobots, contains a swarm of extremely dangerous nanobots, designed to reduce complex objects to their basic materials. You can use your action to open the canister and administer it, or throw it up to 15 feet (treating the canister as an improvised weapon). If the nanobots hit a creature, that creature takes an irreducible",
+				"{@damage 1d4} necrotic damage at the beginning of each of its turns for the next minute. If the nanobots hit an object, that object takes an irreducible {@damage 1d10} necrotic damage at the beginning of each of its turns for the next minute. At the end of this duration, the nanobots deactivate."
+			]
+		},
+		{
+			"name": "Dome Projector",
+			"source": "DarkMatter",
+			"page": 144,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Throwing this egg-shaped device at the ground as an action activates it, creating a dome of force as if you had cast the spell geodesic shield. The projector burns out and becomes nonmagical after 10 minutes as the dome of force collapses."
+			]
+		},
+		{
+			"name": "Doom Gauntlet",
+			"source": "DarkMatter",
+			"page": 144,
+			"baseItem": "Repulsor Gauntlet|DarkMatter",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "martial",
+			"property": [
+				"H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "O",
+			"bonusWeapon": "+3",
+			"weapon": true,
+			"entries": [
+				"You have a +3 bonus to attack and damage rolls made with this magic weapon. The gauntlet contains a single charge. When you hit a target with an attack made with this weapon, you can expend this charge to deal an additional {@dice 1d4} mega ({@dice 1d4 × 100}) force damage. Once this charge is expended, roll a {@dice d4}. On a roll of 1, the weapon collapses into dust. On any other roll, the weapon takes",
+				"{@dice 3d6} days to regain its charge."
+			]
+		},
+		{
+			"name": "Double Laser Blade",
+			"source": "DarkMatter",
+			"page": 144,
+			"baseItem": "laser sword|DarkMatter",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "R",
+			"bonusWeapon": "+1",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The long hilt of this laser sword projects a second blade from its far end. You have a +1 bonus to attack and damage rolls with this magic weapon. Instead of having the Versatile property, this weapon has the Two-Handed property. Additionally, when you use the {@action Attack} action with this weapon, you can make a second attack using it as a bonus action."
+			]
+		},
+		{
+			"name": "Drive Disk",
+			"source": "DarkMatter",
+			"page": 145,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"By grasping the two handles on this foot-wide disk, you can cast the spell Telaros's speedcycle. The disk becomes the steering wheel of the speedcycle, which materializes beneath you.",
+				"Once Telaros's speedcycle is cast from the disk, it can't be used again until the following dawn."
+			]
+		},
+		{
+			"name": "Drone Controller",
+			"source": "DarkMatter",
+			"page": 145,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This set of controls, either installed in a glove, integrated onto a datapad, or linked into a visor, allows you to control a drone. Each controller is linked to a single drone, either a defense drone, a medical drone, or a recon drone",
+				{
+					"type": "entries",
+					"name": "(see Monsters chapter for statistics)",
+					"entries": [
+						"You can be attuned to up to three drone controllers at one time, as long as each controller is linked to a different type of drone.",
+						"While attuned to the controller, you can use your bonus action to command the drone to use its reaction to move to a location within 60 feet of you and use an action it is capable of. Unless commanded, drones do not act. You can also use your action to see and hear through its sensor array until the start of your next turn, gaining the benefit of the drone's special senses, but becoming blind and deaf with regard to your own senses during that time."
+					]
+				}
+			]
+		},
+		{
+			"name": "Encyclopedia Multiplanaria",
+			"source": "DarkMatter",
+			"page": 145,
+			"rarity": "legendary",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"This datapad is enchanted to hold an incredible wealth of information. However, the data is not indexed, so the datapad only provides data that it believes will be useful at any given moment. The datapad has 3 charges, and regains all charges daily at dawn. You can use your action to access the datapad when you make an Intelligence check to gain a +20 bonus to the roll."
+			]
+		},
+		{
+			"name": "Energy Shield Bracer",
+			"source": "DarkMatter",
+			"page": 145,
+			"baseItem": "shield|PHB",
+			"type": "S",
+			"rarity": "common",
+			"reqAttune": true,
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"This metal bracer has a sophisticated energy projector on its back. While wearing it, you can use a bonus action on your turn to cause a shield composed of shimmering, translucent energy to appear on your wrist. While in this form, it functions like a normal shield, except you can't drop it or be disarmed of it. The shield lasts until you use a bonus action to collapse it again."
+			]
+		},
+		{
+			"name": "Enigma Ring",
+			"source": "DarkMatter",
+			"page": 145,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This ring, which has two rows of letters and numbers running around its circumference, can be used to encrypt or decrypt messages using complicated cyphers. When you speak a command word to the ring, the letters and numbers reorganize into a configuration unique to that command word.",
+				"Messages can only be decrypted if encrypted using the same command word."
+			]
+		},
+		{
+			"name": "Etheradio",
+			"source": "DarkMatter",
+			"page": 145,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"An essential tool for galactic communication, an etheradio transmits and receives its messages though the Ethereal",
+				{
+					"type": "entries",
+					"name": "Plane",
+					"entries": [
+						"This device stands over 6-feet tall (with an antenna that extends its length by an additional 3 feet) and weighs over 1,000 pounds.",
+						"A single operator can man the device, sending audio messages to other etheradios on the same plane of existence, or listening to messages sent to it. By broadcasting on an emergency channel, an etheradio can send a message to all other etheradios on the same plane of existence, but it can only send such a message once per day. No matter the distance to the receiver, messages tend to take 10 minutes to propagate.",
+						"An etheradio only works if it is calibrated according to its location in the universe. Calibrating this device takes an hour, and it must be recalibrated if it is ever moved more than 100 miles. Calibration takes into account regular cosmic motion, such as a planet's orbit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gamestation-7331",
+			"source": "DarkMatter",
+			"page": 145,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This special version of datapad is scaled down and packed with dozens of digital amusements and diversions that test your reflexes and puzzle-solving skills. If you spend a short rest playing on this gamestation, you gain a +1 bonus to the next attack roll you make until you take a short or long rest."
+			]
+		},
+		{
+			"name": "Grasshopper",
+			"source": "DarkMatter",
+			"page": 145,
+			"baseItem": "phaser|DarkMatter",
+			"type": "B",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"BLS",
+				"L",
+				"NL"
+			],
+			"range": "30/120",
+			"dmg1": "2d4",
+			"dmgType": "R",
+			"weapon": true,
+			"entries": [
+				"On a hit, this magic weapon deals an additional {@damage 2d10} radiant damage and the target is pushed 10 feet away from you. The weapon then overheats. An overheated weapon can't be used to make an attack again until the end of your next turn."
+			],
+			"ammoType": "crossbow bolt|phb"
 		}
 	]
 }
