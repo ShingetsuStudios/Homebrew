@@ -2125,7 +2125,7 @@
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
-            "level": "1",
+            "level": 1,
             "entries": [
                 "Since your first conscious attempt at the use of your innate magic, you’ve displayed a natural aptitude for magic uncommon even amongst sorcerers. Since that time, the more you tried to learn magic through rote memorization and practiced study, the less your innate talent shone through. Sorcerers who are arcane prodigies eventually discover its better to let their own instincts and idiosyncrasies guide their use of magic. While arcane prodigies never truly abandon the attempt to understand magic on a rational or methodical level, their prodigious talent for spellcasting relies on their intuitive, rather than intellectual, grasp of it."
             ]
@@ -2138,7 +2138,7 @@
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
-            "level": "1",
+            "level": 1,
             "entries": [
                 "When you choose this sorcerous origin at 1st level, you can choose to use Intelligence instead of Charisma as your sorcerer spellcasting ability. If you do, Metamagic options that use your Charisma modifier use your Intelligence modifier instead. You must make this choice when you gain this feature."
             ]
@@ -2151,7 +2151,7 @@
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
-            "level": "1",
+            "level": 1,
             "entries": [
                 "Starting at 1st level, a book containing your notes on arcane research springs to life. Your living grimoire functions as if it was a familiar created by the find familiar spell and chosen the statistics of a raven, but is a construct rather than a celestial, fey, or fiend. If your living grimoire is ever killed, you can create a new one by over the course of 1 hour using 10 gp worth of paper and ink."
             ]
@@ -2164,7 +2164,7 @@
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
-            "level": "1",
+            "level": 1,
             "entries": [
                 "At 1st level, you gain proficiency in the Arcana skill.",
                 "In addition, your intuitive mastery of arcane formulas allows you to learn spells normally associated with the Wizard class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the wizard spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you."
@@ -2178,7 +2178,7 @@
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
-            "level": "6",
+            "level": 6,
             "entries": [
                 "At 6th level, you gain a pool of prodigy points equal to your level in this class. This pool increases by 1 each time you gain a level in this class. You can spend prodigy points instead of sorcery points to use Metamagic options. You regain all expended prodigy points when you finish a long rest."
             ]
@@ -2191,7 +2191,7 @@
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
-            "level": "14",
+            "level": 14,
             "entries": [
                 "At 14th level, when you cast a spell you may spend an additional sorcery point to use two Metamagic options to modify that spell, rather than just one. You must pay the sorcery point costs for those Metamagic options as normal."
             ]
@@ -2204,7 +2204,7 @@
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
-            "level": "18",
+            "level": 18,
             "entries": [
                 "At 18th level, you have achieved perfect mastery over one of your Metamagic options. You can use the Metamagic option without spending sorcery points and using it on a spell does not prevent you from using another Metamagic option on the same spell."
             ]
