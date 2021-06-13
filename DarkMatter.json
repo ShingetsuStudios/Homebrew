@@ -9255,7 +9255,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Wrecker",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Muscle breaks Steel; Rage defeats Machines; Strength beats Systems; such is the creed of the wrecker. True barbarians learn this creed quickly when set adrift in the so-called civilized world of blinking lights and metal walls. People have lost their way in this universe, trusting their lives to machines and algorithms instead of the reliability of their own might. Setting upon the Path of the Wrecker means tearing down the machines and buildings of the mechanized world and letting your bottomless rage guide you when the universe itself seems upside-down."
 			]
@@ -9268,7 +9268,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Wrecker",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"By 3rd level, ripping apart machines, piece by piece, comes second nature to you. While you're raging, you ignore the damage threshold of nonmagical objects. Additionally, you double the rage bonus damage you deal to constructs and living constructs."
 			]
@@ -9281,7 +9281,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Wrecker",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"Starting at 6th level, you understand that smashing something usually makes it work better. You can attempt to hack a device that could usually be hacked, such as a door control panel or an arcane terminal, by breaking it. Make a Strength (Athletics) check in place of an Intelligence (Data) check. On a success, you perform one operation on the system of your choice as if you had full access, just as if you successfully hacked the system. The machine breaks immediately after this and can't be used afterwards without repair, whether or not you succeeded on the check."
 			]
@@ -9294,7 +9294,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Wrecker",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"By 10th level, you've become quite skilled in the timetested tactic of ripping off an enemy's limb and swinging it at them. You gain proficiency in improvised weapons. When you reduce a humanoid creature to 0 hit points with a melee weapon attack, you can rip off one of its limbs. Alternatively, you can use your action to attempt to rip a limb off a Large or smaller construct or undead creature within 5 feet of you by making an opposed Strength (Athletics) check against it. A construct or undead that has more than half its hit points automatically succeeds on this check. If you successfully rip off a limb, you can immediately use it to make a melee attack as a bonus action. A creature missing a limb can't make attacks using a removed limb and has disadvantage on ability checks that involve using their limbs. You can only remove one limb from a creature.",
 				"A severed limb is an improvised melee weapon which deals 1d8 bludgeoning damage on a hit. If removed from a Large creature, it deals 1d10 bludgeoning damage instead."
@@ -9308,7 +9308,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Wrecker",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"Starting at 14th level, your strikes land with such ferocity that you tear armor and armor plating asunder. While raging, when you deal damage with a melee weapon attack to a construct or a creature wearing armor, you can cause the armor or construct to take a cumulative −1 penalty to the AC it offers, to a maximum penalty of −4 AC. A construct or suit of armor damaged by this ability can be repaired in 1 hour for 100 gp per point of AC penalty taken."
 			]
@@ -9321,7 +9321,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Dreadnought",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"The unstoppable soldiers of wartorn battlegrounds, it is the duty of the dreadnought to break enemy lines and raze entire cities. Each dreadnought wears an advanced helmet, a Berserker Helm, which, once donned, is never removed. Each helm is specially engineered to make the dreadnought fearless and to grant them complete control over their terrible rage. The helmet is the locus of their emotion, or lack thereof.",
 				"To a dreadnought, reality is simple: there are friends and foes, good and evil, law and chaos. The rule above all: never remove your helm."
@@ -9335,7 +9335,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Dreadnought",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Beginning when you select this path at 3rd level, you are fitted with a helmet which regulates your emotion and focuses your anger. Assisted by your helmet, you can summon up rage at will, and end it just as swiftly. You are unable to rage if your helmet is removed. Instead of raging normally, you can rage for a number of rounds equal to your half your barbarian level (rounded down) + double your Constitution modifier. These rounds need not be consecutive. You can begin and end your rage as a bonus action. Your rage only ends early only if you fall unconscious or if you choose to end it on your turn. After raging for this number of rounds, you must finish a short or long rest before raging again.",
 				"At 20th level, you can rage for any number of rounds."
@@ -9349,7 +9349,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Dreadnought",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"At 6th level, you have advantage on saving throws against being charmed or frightened. If you make this saving throw while you are raging, you can reroll one of the d20s once."
 			]
@@ -9362,7 +9362,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Dreadnought",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"Beginning at 10th level, when you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.",
 				"If you move at least 10 feet in a straight line immediately before taking this bonus action, you have advantage on this attack roll."
@@ -9376,7 +9376,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Dreadnought",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"At 14th level, you can focus your rage into an unstoppable fury against a single target. When you enter a rage, you can choose 1 creature that you can see within 60 feet. Your attacks deal twice the normal amount of rage damage to this target."
 			]
@@ -9389,7 +9389,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Spheres",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Since time immemorial, musicians and storytellers have looked to the heavens for inspiration, imagining them to be the souls of great heroes or the divine singers of some eternal ballad. Now that bards can travel among the celestial spheres for themselves, the true sound of the Universal Music has been found: not in the roaring of stars or the crashing of asteroids, but in the incredible diversity of peoples and cultures that permeates the galaxy. Bards who belong to the College of the Spheres seek to blend as many of these influences together as they can, creating stunning, multi-layered compositions that push both the player and the listener to the limits of possibility."
 			]
@@ -9402,7 +9402,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Spheres",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"When you join this college at 3rd level, you begin to explore the relationship between music and mathematics, gaining a deep understanding of cutting-edge science. You have advantage on any Intelligence check relating to advanced mathematics, geometry, kinematics, acoustics, or ballistics."
 			]
@@ -9415,7 +9415,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Spheres",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Also at 3rd level, you begin to channel the majesty of the stars with your spellcasting. Whenever you deal damage with a bard spell, you can change the damage type to radiant damage. Additionally, you can increase the damage by expending one use of your Bardic Inspiration, adding that die to the spell’s damage roll"
 			]
@@ -9428,7 +9428,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Spheres",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"Starting at 6th level, your voice gains the backing of a distant chorus that echoes across the heavens. Whenever one of your Bardic Inspiration dice is rolled, you can roll it twice and take whichever result you prefer."
 			]
@@ -9441,7 +9441,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Spheres",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"When you reach 14th level, you are so attuned to the rhythm of the cosmos that the skies shake when you sing. Once per turn, when a creature makes a saving throw against a spell you cast, you can expend one use of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll."
 			]
@@ -9454,7 +9454,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sun Above",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Clerics which pledge their loyalty to this singular religion of the sun must relinquish all other pantheons and deities; the Sun Above accepts nothing less than total devotion. To the avia-ra, and numerous other ancient cultures, the sun is the ultimate force of creation and destruction, an entity that banishes the darkness of ignorance and exposes the world in stark contrasts: light and shadow, day and night, good and evil. The Sun Above demands that its devotees spread its message to the stars, such that all worship be focused to it.",
 				"Though there are many stars, there is but one Sun Above: The Sepulcher Star. To hear the avia-ra tell it, they have always worshiped this star, even before they discovered it at the center of the galaxy. Today, the star is a site of pilgrimage visited by all true believers, who gaze upon its magnificent rays from the windows of the Solar Citadel.",
@@ -9502,7 +9502,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sun Above",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Starting at 1st level, your faith in the Sun Above shields you from harm. While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
 			]
@@ -9515,7 +9515,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sun Above",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Also at 1st level, you gain proficiency with the avia-ra sunstaff, laser halfsword, laser sword, photonic lash, and thermal lance.",
 				"Additionally, you can use your Dexterity instead of Strength for your melee weapon attacks and damage rolls. This feature only applies to weapons you are proficient with that lack the Heavy property."
@@ -9529,7 +9529,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sun Above",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Starting at 2nd level, as a bonus action, you can present your holy symbol and use your Channel Divinity to brand a creature that you can see within 60 feet with an ancient mark, condemning them to receive the absolute judgment of the Sun Above. For 1 minute, the target can’t take the Hide action, as it is followed by an uncanny light. Additionally, you deal an extra 1d6 radiant damage to the target whenever you hit it with a weapon attack."
 			]
@@ -9542,7 +9542,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sun Above",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"By 6th level, you have attained the much-coveted rank of Apologist within the faith, and are tasked with carrying the message of the Sun to all who will listen and banishing those who would obscure this message. Whenever you make a Charisma check, you can add your Wisdom modifier to the roll.",
 				"Additionally, you can bend non-believers before the Sun’s authority. When you roll initiative and aren't surprised, you can choose one creature you can see within 60 feet to make a Wisdom saving throw, opposed by your spell save DC. On a failed save, that creature has a penalty equal to your Wisdom modifier to its AC and attack rolls for the first round of combat."
@@ -9556,7 +9556,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sun Above",
 			"subclassSource": "DarkMatter",
-			"level": "8",
+			"level": 8,
 			"entries": [
 				"Starting at 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."
 			]
@@ -9569,7 +9569,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sun Above",
 			"subclassSource": "DarkMatter",
-			"level": "17",
+			"level": 17,
 			"entries": [
 				"At 17th level, you can feel the sun’s majesty at your fingertips and can summon it in immense waves. You learn the spell sunbeam, and it counts as a cleric spell for you. Sunbeam is always prepared for you, and doesn't count against your number of prepared spells.",
 				"Additionally, as an action on your turn, you can fill yourself with the luminous wrath of the Sun Above. You can cast sunbeam as an 8th level spell without expending a spell slot. When you cast the spell in this way, you regain hit points equal to your Wisdom modifier at the start of each of your turns if you have no more than half of your hit points left. You can't lose your concentration on this casting of sunbeam as a result of taking damage. Once you use this ability, you can’t use it again until you finish a long rest."
@@ -9583,7 +9583,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Void",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Conventional understanding places the Void outside the cosmology of the rest of the universe, exploitable if one wishes to hop between the stars, but dangerous and foreign otherwise. But priests of the Void Domain know better: the Void is the least tangible, but most integral, element of existence. If the universe is a great orchestra of musical instruments, each producing sounds that comprise beautiful music, the Void is the silence between those notes, which gives rhythm and shape to the whole. The Void also gives rise to the differences between the instruments and empowers their individual songs amongst the whole. And finally, the Void shall make itself the conductor, waving its baton for the final time and commanding all the instruments to stop.",
 				"Those who accept the Void might stare into its hideous lights for the briefest moments and come away unravaged by the warp, yet purified by the light. Void priests seek to share this gift by bringing others to stare into the Void.",
@@ -9638,7 +9638,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Void",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"At 1st level, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray. If you already possess darkvision, its range increases by 30 feet.",
 				"Starting at 8th level, you can see through magical, as well as nonmagical, darkness."
@@ -9652,7 +9652,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Void",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Starting at 2nd level, you can use your action to bend the walls of the universe, creating a small pocket of black voidstuff in its absence, and shaping it as you see fit. Choose one of the following options:",
 				{
@@ -9688,7 +9688,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Void",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"At 6th level, you can use your bonus action to step briefly into the Void, teleporting to an unoccupied location you can see within 20 feet. You can use this ability 3 times and regain all uses when you finish a long rest."
 			]
@@ -9701,7 +9701,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Void",
 			"subclassSource": "DarkMatter",
-			"level": "8",
+			"level": 8,
 			"entries": [
 				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
 			]
@@ -9714,7 +9714,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Void",
 			"subclassSource": "DarkMatter",
-			"level": "17",
+			"level": 17,
 			"entries": [
 				"By 17th level, you can use your action to open a rift in space and time into the Void around a creature or object of your choosing within 120 feet. A creature makes a Dexterity saving throw to avoid falling into the rift. On a successful save, the creature avoids falling into the rift, but sees a glimpse of the Void and takes 2d8 radiant damage and 2d8 psychic damage. On a failed save, the creature is banished to the Void for 1d4 rounds, taking 2d8 radiant damage and 2d8 psychic damage at the beginning of each of its turns there. At the end of your following turn, the target returns to the space it previously occupied, or the nearest unoccupied space. Objects larger than 20 feet in any dimension and Huge and larger creatures can't fall into the rift.",
 				"Once you use this ability, you must finish a long rest before using it again."
@@ -9728,7 +9728,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Configuration",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Some life is made of wire and steel, rather than flesh and bone. Druids who find credence in this notion join the Circle of Configuration and shun all ties to nature, aligning themselves instead with constructs and machines. Some do this because construct forms offer superior strength and adaptability compared to that of beasts. Others, however, believe that constructs represent a higher form of life, for constructs are ageless, designed with a clear intent, and are made to be free of hunger, thirst, and disease."
 			]
@@ -9741,7 +9741,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Configuration",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Starting when you choose this circle at 2nd level, you gain the ability to speak the native code-language of machines. You can use this language to interact with arcane terminals and ship computers from range and to communicate with constructs, even if you don't share a language."
 			]
@@ -9754,7 +9754,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Configuration",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"At 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than an action. However, you lose the ability to assume the shape of a beast. Instead, you can use it to take a {@creature Construct Form|DarkMatter}.",
 				"",
@@ -9807,7 +9807,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Configuration",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"At 6th level, your empathy for constructs allows you to persuade their programming to your side. As a result, constructs can be charmed by you, even if they would otherwise be immune to being charmed. Additionally, if you cast the animal friendship spell, you can target a construct with the spell."
 			]
@@ -9820,7 +9820,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Configuration",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"Starting at 10th level, you gain a Configuration optimized for stealth and subterfuge. As a bonus action, you can activate a cloaking device to temporarily warp the light around you and hide yourself from view. You become invisible until the beginning of your next turn, or until you make an attack, or cast a spell. Once you use this ability, you can't use it again on the following round.",
 				"Additionally, you have advantage on Dexterity (Stealth) checks while in this form and you gain the following action, in addition to your Photon Cannon: ",
@@ -9841,7 +9841,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Configuration",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"Starting at 14th level, you can use your action to switch to an empowered version of your Juggernaut Configuration: a towering Mecha Configuration. While in this form, you have all the benefits of being in your Juggernaut Configuration, except you retain your photon cannon attack option and you subtract 4 from all damage you take, instead of 2. In addition, you become Large size, have advantage on Strength checks and saving throws, and can use your bonus action to make two melee weapon additional attacks when you take the Attack action.",
 				"You can remain in this configuration for up to 10 minutes. Once you enter this configuration, you can’t do so again until you finish a long rest. "
@@ -9855,7 +9855,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Obelisk",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"The Circle of the Obelisk seeks to evolve lower lifeforms by channeling the mysterious power of an artifact known as the Obelisk. Black like the ichor between stars, this strange, rectangular prism has magically appeared throughout the cosmos, landing on primitive worlds and imbuing their inhabitants with the spark of knowledge. Druids of this circle believe that the Obelisk is responsible for all true evolution, and directly shaped all intelligent life in the universe; yet, very little is known about it. These druids seek to find the Obelisk's current location, unravel its mysteries, and raise themselves to a higher evolutionary state."
 			]
@@ -9868,7 +9868,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Obelisk",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Starting at 2nd level, you have a pool of 4 Evolution Dice, which are d4s, that you can use to raise yourself and your allies to greater power. As a bonus action on your turn, you can choose a willing creature you can see within 60 feet, spend 1 Evolution Die, and roll it. You increase one of that creature's ability scores of your choice by the amount rolled, to a maximum of 20, for 1 minute. A creature can have only 1 ability score increased by this ability at a time. You regain all expended Evolution Dice when you finish a long rest."
 			]
@@ -9881,7 +9881,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Obelisk",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"At 6th level, you can bestow limited sentience on a lower form of life. You can cast the spell speak with animals or speak with plants without using a spell slot. ",
 				"Once you use this ability, you can't use it again until you finish a short or long rest."
@@ -9895,7 +9895,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Obelisk",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"Beginning at 10th level, your biology is impeccable; immune to the ravages of lesser beasts. You gain immunity to one of the following conditions of your choice: blinded, deafened, or poisoned. You can change this selection when you take a long rest."
 			]
@@ -9908,7 +9908,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Obelisk",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"By 14th level, you have reached the pinnacle of your form. Each of your ability scores increase by 2, to a maximum of 20."
 			]
@@ -9921,7 +9921,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Space Marine",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Grunts, warhounds, mudstompers; they go by many names, but every great armada in the ‘verse is supported whole-cloth by its men and women on the ground. Among those brave soldiers, only a scarce few have the incredible strength, tenacity, and raw guts to join the ranks of the elite space marines. These super soldiers are bolstered by an arsenal of weapons and a suit of powerful and adaptable armor, called an impulse frame, which grants them every advantage possible over their opponents."
 			]
@@ -9934,7 +9934,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Space Marine",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you gain proficiency with the Piloting skill."
 			]
@@ -9947,7 +9947,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Space Marine",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"When you select this archetype at 3rd level, you gain access to the space marine’s most valuable piece of gear: a suit of magically-powered armor known as an impulse frame. An impulse frame is a suit of environmentally sealed heavy armor made of exotic alloys. While wearing your impulse frame, you gain the following benefits:",
 				{
@@ -9989,7 +9989,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Space Marine",
 			"subclassSource": "DarkMatter",
-			"level": "7",
+			"level": 7,
 			"entries": [
 				"Starting at 7th level, you gain proficiency in the Perception and Survival skills if you did not have them before, and gain advantage on checks using those skills when tracking or spotting aberrations or monstrosities."
 			]
@@ -10002,7 +10002,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Space Marine",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"Starting at 10th level, you gain an upgrade to your impulse frame. Choose one of the following:",
 				{
@@ -10036,7 +10036,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Space Marine",
 			"subclassSource": "DarkMatter",
-			"level": "15",
+			"level": 15,
 			"entries": [
 				"Starting at 15th level, when you make an attack with a blaster, you score a critical hit on a roll of 19 or 20."
 			]
@@ -10049,7 +10049,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Space Marine",
 			"subclassSource": "DarkMatter",
-			"level": "18",
+			"level": 18,
 			"entries": [
 				"At 18th level, you gain an upgrade to your impulse frame. Choose from one of the following:",
 				{
@@ -10083,7 +10083,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Gravity",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Monks that have spent ample time in artificial gravity can feel the difference in their ki; natural gravity is substantial and wholesome, like an embrace from a great planet itself, whereas artificial gravity hums with a flimsy electrical artifice. With practice, these monks learn to manipulate their own gravity using their ki, throwing their center of mass about in defiance of physical conventions and tweaking gravitational fields around them."
 			]
@@ -10096,7 +10096,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Gravity",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Starting when you choose this monastic tradition at 3rd level, you can choose your own center of gravity. On your turn, you can use half your movement to choose a solid surface (such as a wall or ceiling) within 30 feet of you to act as the ground for your subjective gravity. You are pulled down to this surface, as if by gravity. Your subjective gravity follows this surface along any smooth contours, but stops at any corners that turn 90 degrees or more. Only you and objects you wear or carry are influenced by your subjective gravity."
 			]
@@ -10109,7 +10109,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Gravity",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"Starting at 6th level, you can spend 2 ki points to cast the spell levitate."
 			]
@@ -10122,7 +10122,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Gravity",
 			"subclassSource": "DarkMatter",
-			"level": "11",
+			"level": 11,
 			"entries": [
 				"Starting at 11th level, you can use your bonus action and spend 1 ki point to create an invisible 10-foot diameter sphere of gravitational distortion, centered on a point you can see within 60 feet. This distortion lasts for 1 minute. If a creature enters this space, its movement stops. At the beginning of each of its turns, the creature can use half its movement and make a Strength saving throw to escape the distortion field, moving to an adjacent unoccupied space of its choice on a success. On a failed save, the creature can't move. Any projectile that passes through your distortion field stops instantly in midair."
 			]
@@ -10135,7 +10135,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Gravity",
 			"subclassSource": "DarkMatter",
-			"level": "17",
+			"level": 17,
 			"entries": [
 				"Starting at 17th level, your attacks carry massive fields in their wake. When you hit a creature with two or more unarmed strikes on your turn, you form a gravitational field around it. Until the beginning of your next turn, the creature can’t willingly move unless it first uses the Disengage action and spends half its movement to escape this field."
 			]
@@ -10148,7 +10148,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sepulcher",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"The Order of the Sepulcher Knights was founded to bring stability to the galaxy, to protect the maws from outside control, and to maintain balance between light and dark. Acting as a law-enforcing authority throughout the galaxy, the knights make their presence known most often around maw stations and on the Solar Citadel, their base of operations. A paladin that swears the Oath of the Sepulcher gains profound responsibility and a divine connection to all living things, a gift the knights believe comes from Old Un himself.",
 				{
@@ -10190,7 +10190,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sepulcher",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				{
 					"type": "table",
@@ -10236,7 +10236,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sepulcher",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
 				{
@@ -10265,7 +10265,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sepulcher",
 			"subclassSource": "DarkMatter",
-			"level": "7",
+			"level": 7,
 			"entries": [
 				"Starting at 7th level, you and friendly creatures within 10 feet of you are always under the effects of the spell zone of atmosphere. Additionally, if you are in an area of zero gravity, you have a flight speed equal to your movement speed. When you move in such an area, each friendly creature within 10 feet of you can use its reaction to move with you to remain within this aura. ",
 				"At 18th level, the range of this aura increases to 30 feet."
@@ -10279,7 +10279,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sepulcher",
 			"subclassSource": "DarkMatter",
-			"level": "15",
+			"level": 15,
 			"entries": [
 				"Beginning at 15th level, you can cast the spell plane shift, targeting only yourself, without using a spell slot or spell components, or you can teleport to the nearest Maw station, appearing somewhere on its surface.",
 				"Once you use this ability, you can't use it again until you finish a long rest."
@@ -10293,7 +10293,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sepulcher",
 			"subclassSource": "DarkMatter",
-			"level": "20",
+			"level": 20,
 			"entries": [
 				"When you reach 20th level, you learn to tap into the very heart of the stars, drawing on their immense power to fuel your fight for justice. As an action, you can choose one of the two following options:",
 				{
@@ -10321,7 +10321,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sniper",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"The distant cough of a concussion rifle, the wet thud of an impact, and an extremely recent widow screaming in terror: these are usually the only sounds indicating that a deadeye sniper has paid a visit. Such rangers are infamous for their uncanny accuracy with a blaster at all ranges, but prefer to be far away from their targets, carefully lining up crosshairs before pulling the trigger. If at all possible, a sniper is an unseen foe, using range and stealth in equal measure to pick off their foes."
 			]
@@ -10334,7 +10334,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sniper",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"When you choose this archetype at 3rd level, you ignore the Sighted property of weapons you wield."
 			]
@@ -10347,7 +10347,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sniper",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Also at 3rd level, you begin to practice a style of combat that promotes precision over volume of attacks. Once per turn when you hit a creature with a weapon attack, you can deal an additional 1d8 damage to the target if you haven't moved since the beginning of your last turn."
 			]
@@ -10360,7 +10360,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sniper",
 			"subclassSource": "DarkMatter",
-			"level": "7",
+			"level": 7,
 			"entries": [
 				"At 7th level, given enough time, you can prepare hidden sniper nests. A sniper nest takes 10 minutes to construct and occupies a 10-foot square area. While inside the nest, you have three-quarters cover and can see out of it unhindered. Neither you nor the nest can be seen by any creature or sensor more than 30 feet away, even if you make an attack from inside, though you can still be heard and detected by divination spells that penetrate more than one inch of solid material. A creature within 10 feet of the nest can detect its presence with an Intelligence (Investigation) check against your spell save DC. Once you leave a nest, you can't benefit from it again."
 			]
@@ -10373,7 +10373,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sniper",
 			"subclassSource": "DarkMatter",
-			"level": "11",
+			"level": 11,
 			"entries": [
 				"Beginning at 11th level, if you are wielding a ranged weapon, and a hostile creature that you can see moves into or within the normal range of that weapon, you can use your reaction to make an opportunity attack against that creature using your ranged weapon."
 			]
@@ -10386,7 +10386,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Sniper",
 			"subclassSource": "DarkMatter",
-			"level": "15",
+			"level": 15,
 			"entries": [
 				"By 15th level, you are a true master of stealth, capable of fading into thin air. As a reaction when you take damage, you can use this ability to move up to 5 feet without provoking opportunity attacks and become invisible until the beginning of your next turn. ",
 				"You can use this ability a number of times equal to your Wisdom modifier (minimum 1), and regain all expended uses when you finish a long rest."
@@ -10400,7 +10400,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"The ‘verse is harsh, alien, and above all, unspeakably vast  and reconnaissance rangers task themselves with being the first to explore it. When a ship comes out of a blind void jump, it’s far more likely to find itself orbiting a previously-undiscovered planet or star system than it is to be remotely near civilization. This is the time for a landing party. Recon rangers lead landing parties through harsh, unfamiliar territories, derelict spacecraft, and deadly warzones. They are experts in identifying danger before it strikes and use every tool available to them to survive."
 			]
@@ -10413,7 +10413,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"At 3rd level, you gain a drone controller magic item linked to a recon drone. You can use your action to command this drone to fly to its maximum altitude and look out for danger, granting you advantage on initiative rolls against threats that the drone detects. Your drone remains in lookout mode, hovering high above you, until you command it to return to you."
 			]
@@ -10426,7 +10426,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "DarkMatter",
-			"level": "7",
+			"level": 7,
 			"entries": [
 				"Beginning at 7th level, you can use your bonus action to move up to 15 feet. This movement doesn't provoke opportunity attacks, ignores difficult terrain, and can move you through hostile creature’s spaces, as long as you do not end your movement there.",
 				"You can use this ability a number of times equal to your Dexterity modifier, and regain all expended uses when you finish a long rest."
@@ -10440,7 +10440,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "DarkMatter",
-			"level": "11",
+			"level": 11,
 			"entries": [
 				"At 11th level, you can use your action to focus a blaster's shots to penetrate through its targets. You fire a 5-foot wide energetic blast, extending in a line out to the normal range of your blaster in a direction that you choose. Each creature in the line must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Dexterity modifier). A creature takes the blaster's damage on a failed save, or half as much damage on a successful one."
 			]
@@ -10453,7 +10453,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Scout",
 			"subclassSource": "DarkMatter",
-			"level": "15",
+			"level": 15,
 			"entries": [
 				"By 15th level, you wear an advanced shielding system which protects you from harm. Your shield grants you resistance to one of the following damage types of your choice: cold, fire, lightning, necrotic, or radiant. You can change this selection as a bonus action"
 			]
@@ -10466,7 +10466,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Infiltrator",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Trained in infiltration, espionage, and covert operations by the Firm, infiltrators excel at being completely untraceable agents of intrigue and subterfuge. Despite their vast array of skills, Infiltrators are primarily known for their proprietary Infiltration Rigs, nonmagical devices derived from gnomish tech, capable of an array of illusory, transformative, and technical effects."
 			]
@@ -10479,7 +10479,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Infiltrator",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Starting at 3rd level, you gain proficiency in the Data and Deception skills."
 			]
@@ -10492,7 +10492,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Infiltrator",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Also at 3rd level, you build your own infiltration rig, which is an interface rig extended with gloves, a visor, and a range of additional functions. While you wear it, you gain the following benefits:",
 				"• You can access arcane terminals, datapads, and ship computers from up to 30 feet away.",
@@ -10510,7 +10510,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Infiltrator",
 			"subclassSource": "DarkMatter",
-			"level": "9",
+			"level": 9,
 			"entries": [
 				"At 9th level, while wearing your infiltration rig, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You also gain a climbing speed equal to your walking speed."
 			]
@@ -10523,7 +10523,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Infiltrator",
 			"subclassSource": "DarkMatter",
-			"level": "13",
+			"level": 13,
 			"entries": [
 				"Starting at 13th level, while wearing your infiltration rig, you gain advantage on all Intelligence (Data) checks made to disable security systems or to acquire sensitive data. Additionally, when you hit a construct with a Sneak Attack using a melee weapon, it must make a Wisdom saving throw (DC equals 8 + your proficiency modifier + your Intelligence modifier). On a failed save, the construct is stunned until the beginning of your next turn, even if it would otherwise be immune to being stunned."
 			]
@@ -10536,7 +10536,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Infiltrator",
 			"subclassSource": "DarkMatter",
-			"level": "17",
+			"level": 17,
 			"entries": [
 				"Starting at 17th level, when you use your infiltration rig to cast invisibility, you can choose to cast {@spell greater invisibility} instead."
 			]
@@ -10549,7 +10549,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Jumper",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Specialists in entry and exit, archetypal jumpers are trained in the art of leaping through space in the blink of an eye. Though most jumpers use specialized portal devices to teleport, some have gained their powers through near-catastrophic malfunctions with shipboard teleporters or other dimensional mishaps. Jumpers are essential additions to teams of smugglers and burglars —anyone who wants to get in and out of high-security areas quickly and quietly, without breaking down doors."
 			]
@@ -10562,7 +10562,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Jumper",
 			"subclassSource": "DarkMatter",
-			"level": "3",
+			"level": 3,
 			"entries": [
 				"Starting when you choose this archetype at 3rd level, you can blink around the battlefield with ease. As a bonus action, you can teleport to any unoccupied location within 10 feet of you that you can see. You can use this ability a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.",
 				"This ability becomes more powerful as you gain higher levels in this class. At 9th level, this distance increases to 15 feet, and you can carry one willing passenger you touch with you when you teleport.",
@@ -10577,7 +10577,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Jumper",
 			"subclassSource": "DarkMatter",
-			"level": "9",
+			"level": 9,
 			"entries": [
 				"By 9th level, you can quickly open portals on solid surfaces for ingenious weapon attacks. These portals only open for a brief moment, and only objects can pass through them. Once per turn, you can use this ability to make a melee attack against a target that is within 30 feet of you and within 5 feet of a wall, as if you were next to the target, or to make a ranged attack against a creature behind cover within 30 feet of you, as if the creature didn't have cover."
 			]
@@ -10590,7 +10590,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Jumper",
 			"subclassSource": "DarkMatter",
-			"level": "13",
+			"level": 13,
 			"entries": [
 				"At 13th level, you can cast the spell dimension door without using a spell slot or spell components. Once you use this ability, you must finish a short or long rest before you can use it again."
 			]
@@ -10603,7 +10603,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Jumper",
 			"subclassSource": "DarkMatter",
-			"level": "17",
+			"level": 17,
 			"entries": [
 				"Starting at 17th level, you can cast the spell teleportation circle as a ritual, without using material components. Circles you create in this way can't be made permanent.",
 				"Additionally, you can create a destination circle each day by casting this spell using 50 gp worth of diamond dust as a material component. This destination circle lasts for 24 hours, or until it is used, after which it becomes inert. As long as you are on the same plane of existence as the destination circle, you can use your action to teleport yourself and up to eight willing creatures within 30 feet of you to that destination circle."
@@ -10617,7 +10617,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Nanite Host",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Whether by accident or design, your body is host to a colony of magical nanobots, called nanites. By drawing on their energy, you can command sorcerous power and compel the nanite swarm to do your bidding. Your relationship to the nanites is symbiotic: as you grow in strength, your connection to the nanites grows, until they become part of you on a fundamental level, influencing not only your body, but also your mind."
 			]
@@ -10630,7 +10630,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Nanite Host",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Starting when you choose this origin at 1st level, you gain proficiency in the Technology skill."
 			]
@@ -10643,7 +10643,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Nanite Host",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"At 1st level, you learn the {@spell mending cantrip} if you don't already know it, and can cast it as an action. This spell doesn't count against your number of cantrips known.",
 				"In addition, as long as you are conscious, you can use a bonus action on your turn to expend one of your hit dice, roll it, and immediately recover hit points equal to the number rolled + your Constitution modifier."
@@ -10657,7 +10657,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Nanite Host",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"By 6th level, your nanites have become more adept at repair work. When you cast the {@spell mending} cantrip targeting",
 				"a vehicle with mega hit points, you can choose to expend any number of sorcery points to restore the vehicle as a whole. For each point you expend, you can repair 1d10 lost mega hit points to that vehicle."
@@ -10671,7 +10671,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Nanite Host",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"At 14th level, you develop a neural interface through which you can communicate with, and, to some extent, control your nanite symbiotes. You can speak the native code-language of machines, which you can use to interact with arcane terminals and ship computers from up to 60 feet away and to communicate with constructs, even if you don't share a language. Additionally, you can instantly decipher any encrypted messages you encounter.",
 				"Lastly, you can use your action to lock a machine or magical device that you touch, so that only you can access it. Any other creature that attempts to use the device finds that it doesn't activate for them or respond to their commands. Devices remain locked for up to 1 day, and you can have up to 3 locked devices at one time."
@@ -10685,7 +10685,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Nanite Host",
 			"subclassSource": "DarkMatter",
-			"level": "18",
+			"level": 18,
 			"entries": [
 				"When you reach 18th level, your nanites enable you to reset yourself quickly after being knocked unconscious, and help you to store your memories so they can't be tampered with. When you regain consciousness after dropping to 0 hit points, you immediately regain an additional 4d6 + 4 hit points. Once you use this ability, you can’t use it again until you finish a short or long rest.",
 				"Furthermore, you are immune to any spell or ability that would alter your memory or personality."
@@ -10699,7 +10699,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Radiation Freak",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"The depths of space hold terrible forces that can warp and twist a man irreparably. For example, the hideous lights emanating from the Void, typically called radiation, normally offer a cruel, agonizing death to those who see them, but can sometimes fundamentally alter those subjected to its strange energies. This process is called \"the warp\", and those who survive it are deemed “radiation freaks” or “warped ones” for the horrible physical deformities that accompany their transformation. However, some are changed in even stranger ways. Radiation has the potential to alter a creature at the magical level as well, resulting in mutated sorcerers wielding horrific power."
 			]
@@ -10712,7 +10712,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Radiation Freak",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Starting at 1st level, your body is saturated with harmful residual radiation. You can use your action to activate or suppress a radioactive aura. While active, your body glows with a bright light in a 10-foot radius and dim light for an additional 10 feet. Additionally, each creature which comes within 5 feet of you or starts its turn in that area takes 1d6 radiant damage. At 6th level, this damage increases to 1d8, and at 14th level, this damage increases to 1d10."
 			]
@@ -10725,7 +10725,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Radiation Freak",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"At 1st level, whenever you deal cold, fire, lightning, or poison damage, you can replace the damage type with radiant damage."
 			]
@@ -10738,7 +10738,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Radiation Freak",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"By 6th level, the tumors within your body can rapidly shift your magical metabolism. After you take damage, you can use your reaction and spend 1 sorcery point to gain resistance to that damage type until you take a short or long rest, or until you use this ability again. You do not gain resistance against the damage that triggers this ability."
 			]
@@ -10751,7 +10751,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Radiation Freak",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"Starting at 14th level, you can use your action to transform your entire body, along with everything you’re wearing and carrying, into a cloud of dangerous radioactive material. This effect acts as the {@spell gaseous form} spell, with the following differences:",
 				"• Your flying speed is equal to half your movement",
@@ -10770,7 +10770,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Radiation Freak",
 			"subclassSource": "DarkMatter",
-			"level": "18",
+			"level": 18,
 			"entries": [
 				"At 18th level, as an action, you can spend 3 sorcery points to bombard a creature you touch with a near lethal amount of radioactivity. At the beginning of each of the target’s turns, it must make a Constitution saving throw. On a failed save, the target is poisoned until the beginning of its next turn and takes 4d10 radiant damage. If a target fails three times, it remains poisoned for one hour, and takes 1d10 radiant damage at the beginning of each of its turns. If it succeeds three times, this effect ends."
 			]
@@ -10783,7 +10783,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Singularity",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Most denizens of the galaxy think that the ravenous chasms known as black holes are simply portals to the Void, formed from the collapse of particularly large stars. This theory brings them a sense of understanding to these dangerous galactic phenomena, and imparts a sense of control and comfort to those who would otherwise despair in the face of such a terrible, destructive force of nature.",
 				"However, the small group of warlocks who draw their power from these black holes know better: The Singularity is intelligent, malevolent, and, above all, hungry."
@@ -10797,7 +10797,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Singularity",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"The Singularity gives you the power to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 				{
@@ -10844,7 +10844,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Singularity",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"Starting at 1st level, you can channel the ravenous hunger of The Singularity to absorb energies directed at you. When you are damaged by an effect or attack that deals damage of a type other than bludgeoning, piercing, or slashing, you can use your reaction to reduce the damage you take by an amount equal to your Charisma modifier. When you do so, you gain temporary hit points equal to",
 				"your warlock level."
@@ -10858,7 +10858,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Singularity",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"Starting at 6th level, you can induce terror and despair by showing others the truth of the Void as an action. Each creature within 30 feet of you that can see you must succeed a Wisdom saving throw or be frightened of you for 1 minute. If a frightened creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw, ending the effect on a successful save.",
 				"Once you use this ability, you can’t use it again until you finish a short or long rest."
@@ -10872,7 +10872,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Singularity",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"Starting at 10th level, whenever you use your Hunger of the Void ability, you can surround yourself with a swirling disc of damaging energy. For a number of rounds equal to your Charisma modifier, or until you use this ability again or dismiss this effect on your turn (no action required), any creature that starts its turn within 10 feet of you takes damage equal to your warlock level of the type you avoided."
 			]
@@ -10885,7 +10885,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Singularity",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"Starting at 14th level, as an action, you can summon a 20-foot radius sphere of pure voidstuff, centered on yourself. The first time a creature enters the area on its turn or when it starts its turn there, it must make a Strength saving throw. On a failed save, it takes 7d6 necrotic damage and is restrained until the start of its next turn. On a successful save, the creature takes half as much damage, and moves through the area as difficult terrain. You can concentrate on this effect, as you would a spell, to maintain this sphere for up to 1 minute.",
 				"Once you use this ability, you can't use it again until you finish a long rest. Additionally, you have advantage on checks you make to control spheres of annihilation."
@@ -10899,7 +10899,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Star",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"It is impossible to comprehend the unbridled power contained within a star: an infinity of nuclear reactions, a constant explosion, unceasing for millennia—the ultimate inferno. It’s no surprise that someone would seek to harness some of this power for their own.",
 				"With the right words of forgotten lore, warlocks can do just that, drawing some small fraction of the howling flames into themselves. The Star is not a sentient patron, it doesn't demand sacrifices or worship from its warlocks; it is a beacon in a sea of black, a force of nature that will long outlive any living thing.",
@@ -10914,7 +10914,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Star",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"The Star gives you the power to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 				{
@@ -10961,7 +10961,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Star",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"You know the {@spell light} and {@spell produce flame} cantrips. These cantrips count as warlock spells for you, and don't count against your number of cantrips known."
 			]
@@ -10974,7 +10974,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Star",
 			"subclassSource": "DarkMatter",
-			"level": "1",
+			"level": 1,
 			"entries": [
 				"At 1st level, you can unleash your Star’s fury in earnest. However, if you channel its energy for too long, it will consume your mortal body. You can use your bonus action to enter a Nova. When you enter a Nova, and each subsequent turn you begin while your Nova is active, you take special radiant damage called Nova damage. This damage begins at 1d6 when you enter your Nova, and increases to 2d6 the following turn, 3d6 the turn after, and so on. This damage can’t be reduced or avoided. You don't make Constitution saving throws to maintain your Concentration as a result of taking this damage. Your Nova ends if you drop to 0 hit points or if you use your bonus action to end it.",
 				"While your Nova is active, you can add bonus d6s of damage, up to a maximum of twice the number of Nova damage dice you have taken on your turn, when you damage a creature with an attack on your turn. You can choose to add all the damage dice to the roll of a single attack, or divide up the damage among multiple attacks. For example, if you take 3d6 Nova damage, you have 6d6 bonus damage to add to your attacks on your turn."
@@ -10988,7 +10988,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Star",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"Starting at 6th level, if you drop to 0 hit points while your Nova is active, you can choose to instead drop to 1 hit point and cause each hostile creature within 30 feet of you to take radiant damage equal to your Charisma modifier + your warlock level. Your Nova ends.",
 				"Once you use this feature, you can’t use it again until you finish a short or long rest."
@@ -11002,7 +11002,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Star",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"At 10th level, the Star’s soothing rays can mend even your severest of wounds. When you begin your turn in direct sunlight and your Nova isn't active, you can use your action to regain 1d6 hit points.",
 				"You can heal yourself a number of times using this ability equal to your Charisma modifier and regain all expended uses when you finish a short or long rest. At 14th level, this healing increases to 1d10."
@@ -11016,7 +11016,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Star",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"Starting at 14th level, when you enter a Nova, you can choose for your Nova damage dice and the additional damage you deal to other creatures to be d10s, instead of d6s."
 			]
@@ -11029,7 +11029,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Automata",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Inspired by the practicality of gadgeteers, wizards in the School of Automata depart from the traditional realm of scholarly book-smart mages in favor of a hands-on, mechanical approach to their magic. These so-called mechamancers use their expertise in mechanist's tools, engineering, and the principles of magical technology to animate obedient automatons to follow their every command. Typically, mechamancers reside some distance away from the dangers of exploring, while their creations engage in the unpleasantness of combat on their behalf."
 			]
@@ -11042,7 +11042,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Automata",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Starting when you choose this tradition at 2nd level, you gain proficiency with the Technology skill and mechanist's tools."
 			]
@@ -11055,7 +11055,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Automata",
 			"subclassSource": "DarkMatter",
-			"level": "2",
+			"level": 2,
 			"entries": [
 				"Beginning at 2nd level, you can fashion and animate constructs that serve at your command. When you prepare spells following a long rest, you use your mechanist's tools and spend spell slots to raise a collection of mundane parts into mechanical constructs. Once you have expended a spell slot to make a construct, you can't regain that slot until the construct is disassembled (requiring 10 minutes of work) or drops to 0 hit points. Different constructs cost different number of spell slot levels and can only be created when you have enough levels in this class, as shown on the Constructs table above. You can expend one or more spell slots to create each construct, as long as you meet or exceed the number of slot levels required. You can have up to 3 constructs at one time.",
 				"When you take a long rest, you can repair your constructs to their full hit points. You are always considered to have enough scrap and material to create and repair your constructs.",
@@ -11117,7 +11117,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Automata",
 			"subclassSource": "DarkMatter",
-			"level": "6",
+			"level": 6,
 			"entries": [
 				"Starting at 6th level, your constructs add your Intelligence modifier to their attack and damage rolls."
 			]
@@ -11130,7 +11130,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Automata",
 			"subclassSource": "DarkMatter",
-			"level": "10",
+			"level": 10,
 			"entries": [
 				"At 10th level, whenever you assemble a construct, you can apply one of the following upgrades to it. Each construct can have only one upgrade at a time, which you can switch when you repair it over a long rest.",
 				{
@@ -11164,7 +11164,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Automata",
 			"subclassSource": "DarkMatter",
-			"level": "14",
+			"level": 14,
 			"entries": [
 				"By 14th level, you have perfected the construct cores that animate and control your automatons. You use your action to assume direct control of one of your constructs: when you do so, you can see through its senses, designate exactly where it will move, and choose what action it will take. While controlling a construct directly, if you command it to attack, it can make multiple attacks if it has the Multiattack trait."
 			]
@@ -11179,7 +11179,7 @@
 			"entries": [
 				"Adapted to the modern scale and complexity of interstellar warfare, warmages of the Coalition blend the tactics of the College with formidable blaster technology. Squads of these arcanists form the backbone of Coalition special forces, as their firepower and discipline are unmatched, even among Coalition troops."
 			],
-			"level": "3",
+			"level": 3,
 			"page": "100"
 		},
 		{
@@ -11196,7 +11196,7 @@
 				"{@b Scatter}. Shooting at a close range target, you increase the cantrip’s damage dice by one die size for the attack. For example, if the cantrip deals d6s for damage, it deals d8s instead. If it deals d8s, it instead deals d10s, up to a maximum of d12s. This cantrip can’t target a creature further than 10 feet from you.",
 				"{@b Sighted}. You can cast a cantrip at up to double its range. If its target is beyond its normal range, the spell attack has disadvantage."
 			],
-			"level": "3",
+			"level": 3,
 			"page": "100"
 		},
 		{
@@ -11210,7 +11210,7 @@
 				"Starting at 7th level, you are fitted with a neural implant, granting you unparalleled battlefield awareness. You can use an action to gain knowledge of the general lay of the land within a 1-mile radius of yourself. This knowledge only extends to surface-level or obvious features (natural or artificial), and doesn't detect creatures of any sort.",
 				"Additionally, you gain a +5 bonus to your passive Perception score."
 			],
-			"level": "7",
+			"level": 7,
 			"page": "100"
 		},
 		{
@@ -11223,7 +11223,7 @@
 			"entries": [
 				"By 10th level, you can requisition magic items from the Coalition’s armory for short term use. When you finish a long rest, choose one of the following magic items, which is teleported to you: 2 {@item attractor mine|DarkMatter|attractor mines}, a {@item dome projector|DarkMatter}, a {@item gravity nullifier|DarkMatter}, a {@item jetpack|DarkMatter}, a {@item ring of spacewalking|DarkMatter} (which is attuned to you automatically), or a {@item universal translator|DarkMatter}. This item remains in your possession for 24 hours, at which time it is teleported back to the Coalition’s secure armory."
 			],
-			"level": "10",
+			"level": 10,
 			"page": "100"
 		},
 		{
@@ -11236,7 +11236,7 @@
 			"entries": [
 				"Starting at 15th level, your tactical uplink synchronizes you with your allies, granting you a decisive tactical advantage. While you are within 120 feet of an ally, you know the exact location of any creature that your ally sees. Additionally, you can use a cantrip to target a creature that your ally can see, as long as that creature isn't in cover from your ally’s perspective. This cantrip is fired like a mortar, ricocheted off obstacles, or fired through thin barriers to hit its target."
 			],
-			"level": "15",
+			"level": 15,
 			"page": "100"
 		},
 		{
@@ -11249,7 +11249,7 @@
 			"entries": [
 				"At 18th level, you are granted access to the Coalition’s vast fleet of orbital drones, which are teleported to your location. You can cast the spell {@spell orbital hardlight cannon|DarkMatter} without using a spell slot. Once you use this ability, you can’t use it again until you finish a long rest. "
 			],
-			"level": "18",
+			"level": 18,
 			"page": "100"
 		}
 	],
