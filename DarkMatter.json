@@ -2769,7 +2769,7 @@
 				{
 					"type": "timed",
 					"duration": {
-						"type": "Bound",
+						"type": "Round",
 						"amount": 3,
 						"upTo": true
 					},
@@ -4661,7 +4661,8 @@
 									"Your Armor Class equals 13 + your Dexterity Modifier"
 								],
 								[
-									"Juggernaut Plating. Your Armor Class equals 16. You can't wear conventional armor while you have this graft installed. You can only install this graft if you are proficient with heavy armor."
+									"Juggernaut Plating.",
+									"Your Armor Class equals 16. You can't wear conventional armor while you have this graft installed. You can only install this graft if you are proficient with heavy armor."
 								]
 							]
 						}
