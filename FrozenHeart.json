@@ -1,0 +1,314 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "FH",
+                "abbreviation": "FH",
+                "full": "Frozen Heart Sorcerer",
+                "authors": [
+                    "Shin, Baron"
+                ],
+                "convertedBy": [
+                    "Shin"
+                ],
+                "url": "",
+                "version": "0.5"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "subclass": [
+        {
+            "name": "Frozen Heart Sorcerer",
+            "shortName": "Frozen Heart",
+            "source": "FH",
+            "additionalSpells": [
+                {
+                    "expanded": {
+                        "1": [
+                            "armor of agathys",
+                            "frost fingers|IDRotF"
+                        ],
+                        "2": [
+                            "elemental weapon"
+                        ],
+                        "3": [
+                            "hunger of hadar"
+                        ],
+                        "4": [
+                            "elemental bane|XGE",
+                            "fire shield"
+                        ],
+                        "6": [
+                            "otiluke's freezing sphere",
+                            "wall of ice"
+                        ],
+                        "8": [
+                            "illusory dragon|XGE"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Expanded Spell List|Sorcerer|PHB|Frozen Heart|FH|1",
+                "Flash Freeze|Sorcerer|PHB|Frozen Heart|FH|1",
+                "Inner Chill|Sorcerer|PHB|Frozen Heart|FH|1",
+                "Icey Armor|Sorcerer|PHB|Frozen Heart|FH|6",
+                "Permafrost|Sorcerer|PHB|Frozen Heart|FH|14",
+                "Raging Blizzard|Sorcerer|PHB|Frozen Heart|FH|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "PHB"
+        },
+        {
+            "name": "Frozen Heart Sorcerer",
+            "shortName": "Frozen Heart",
+            "source": "FH",
+            "additionalSpells": [
+                {
+                    "expanded": {
+                        "1": [
+                            "armor of agathys",
+                            "frost fingers|IDRotF"
+                        ],
+                        "2": [
+                            "elemental weapon"
+                        ],
+                        "3": [
+                            "hunger of hadar"
+                        ],
+                        "4": [
+                            "elemental bane|XGE",
+                            "fire shield"
+                        ],
+                        "6": [
+                            "otiluke's freezing sphere",
+                            "wall of ice"
+                        ],
+                        "8": [
+                            "illusory dragon|XGE"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Expanded Spell List|Sorcerer|BHSor|Frozen Heart|FH|1",
+                "Flash Freeze|Sorcerer|BHSor|Frozen Heart|FH|1",
+                "Inner Chill|Sorcerer|BHSor|Frozen Heart|FH|1",
+                "Icey Armor|Sorcerer|BHSor|Frozen Heart|FH|6",
+                "Permafrost|Sorcerer|BHSor|Frozen Heart|FH|14",
+                "Raging Blizzard|Sorcerer|BHSor|Frozen Heart|FH|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "BHSor"
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Expanded Spell List",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 1,
+            "entries": [
+                "When you learn a new spell, you can choose a to learn a spell that is not on your spell list that deals cold damage. These spells count as sorcerer spells for you. If these spells give you a choice between damage types, then you must use cold damage.",
+                "Examples of spells that can be gained from this feature are Armor of Agathys, Fire Shield, Wall of Ice, and Freezing Sphere.",
+                "You can work with your dm to reflavor other spells into cold damage spells to give yourself more options."
+            ]
+        },
+        {
+            "name": "Flash Freeze",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 1,
+            "entries": [
+                "At 1st level, you gain the ability to chill and freeze an area at will. As an action, you can magically freeze up to 5 cubic feet of terrain or fluid to create difficult terrain, or simple shapes of ice. A creature can not be in this area.",
+                "In addition, you have a number of freeze charges equal to your charisma modifier plus half your sorcerer level. When you cast a spell that deals damage of a type that isn't psychic, bludgeoning, piercing, or slashing damage, you can spend a freeze charge and change the damage type to cold. These charges restore on after a long rest."
+            ]
+        },
+        {
+            "name": "Inner Chill",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you can unleash the absolute cold that has taken root inside your soul.",
+                "As a bonus action, ice starts to form on you as your body temperature lowers dramatically. For 1 minute, you gain the following benefits:",
+                "-All natural light within 30 feet of you becomes half as strong, as your oppressive cold leeches the heat from torches and open flames.",
+                "-Any creature takes cold damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
+                "-Whenever you roll cold damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
+                "You can use this feature a number of times equal to your charisma modifier, and regain all uses after you finish a long rest."
+            ]
+        },
+        {
+            "name": "Icey Armor",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, When you cast a spell that deals cold damage of 1st level or higher, you can simultaneously use a strand of the spell's magic to create magical icey armor around yourself that lasts until you finish a long rest. The armor has a hit point maximum equal to your proficiency bonus times your sorcerer level. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.",
+                "While the armor has 0 hit points, it can't absorb damage, but its magic remains. Whenever you cast a spell that deals cold damage of 1st level or higher, the armor regains a number of hit points equal to twice the level of the spell.",
+                "Once you create the armor, you can't create it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Permafrost",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you start to grasp the power of the ever present coldness within you.",
+                "If you kill a creature with a spell that deals cold damage, that creature is frozen solid, and can be thawed out normally.",
+                "When you create ice with your Flash Freeze ability, you can choose to create a magical ice called Permafrost. Permafrost ice does not melt normally, and must first have the natural magic infused within it dispelled by a dispel magic, or similar effect first.",
+                "Also, because of how powerful your inner blizzard is, you are immune to the negative effects of cold weather."
+            ]
+        },
+        {
+            "name": "Raging Blizzard",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 18,
+            "entries": [
+                "At 18th level, you finally master the absolute cold that comes from within you. While under the effect of your Inner Chill feature, you gain additional benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You ignore difficult terrain, your movement speed is doubled.",
+                        "You have resistance to all damage.",
+                        "A raging blizzard forms around you within a 20 foot radius. All area in the blizzard is considered difficult terrain. Any creature that starts its turn in the area takes 4d8 cold damage.",
+                        "You can grant a number of creatures up to your charisma mod immunity to these effects."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Expanded Spell List",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 1,
+            "entries": [
+                "When you learn a new spell, you can choose a to learn a spell that is not on your spell list that deals cold damage. These spells count as sorcerer spells for you. If these spells give you a choice between damage types, then you must use cold damage.",
+                "Examples of spells that can be gained from this feature are Armor of Agathys, Fire Shield, Wall of Ice, and Freezing Sphere.",
+                "You can work with your dm to reflavor other spells into cold damage spells to give yourself more options."
+            ]
+        },
+        {
+            "name": "Flash Freeze",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 1,
+            "entries": [
+                "At 1st level, you gain the ability to chill and freeze an area at will. As an action, you can magically freeze up to 5 cubic feet of terrain or fluid to create difficult terrain, or simple shapes of ice. A creature can not be in this area.",
+                "In addition, you have a number of freeze charges equal to your charisma modifier plus half your sorcerer level. When you cast a spell that deals damage of a type that isn't psychic, bludgeoning, piercing, or slashing damage, you can spend a freeze charge and change the damage type to cold. These charges restore on after a long rest."
+            ]
+        },
+        {
+            "name": "Inner Chill",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you can unleash the absolute cold that has taken root inside your soul.",
+                "As a bonus action, ice starts to form on you as your body temperature lowers dramatically. For 1 minute, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "All natural light within 30 feet of you becomes half as strong, as your oppressive cold leeches the heat from torches and open flames.",
+                        "Any creature takes cold damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
+                        "Whenever you roll cold damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
+                        "You can use this feature a number of times equal to your charisma modifier, and regain all uses after you finish a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Icey Armor",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, When you cast a spell that deals cold damage of 1st level or higher, you can simultaneously use a strand of the spell's magic to create magical icey armor around yourself that lasts until you finish a long rest. The armor has a hit point maximum equal to your proficiency bonus times your sorcerer level. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.",
+                "While the armor has 0 hit points, it can't absorb damage, but its magic remains. Whenever you cast a spell that deals cold damage of 1st level or higher, the armor regains a number of hit points equal to twice the level of the spell.",
+                "Once you create the armor, you can't create it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Permafrost",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you start to grasp the power of the ever present coldness within you.",
+                "If you kill a creature with a spell that deals cold damage, that creature is frozen solid, and can be thawed out normally.",
+                "When you create ice with your Flash Freeze ability, you can choose to create a magical ice called Permafrost. Permafrost ice does not melt normally, and must first have the natural magic infused within it dispelled by a dispel magic, or similar effect first.",
+                "Also, because of how powerful your inner blizzard is, you are immune to the negative effects of cold weather."
+            ]
+        },
+        {
+            "name": "Raging Blizzard",
+            "source": "FH",
+            "page": "0",
+            "className": "Sorcerer",
+            "classSource": "BHSor",
+            "subclassShortName": "Frozen Heart",
+            "subclassSource": "FH",
+            "level": 18,
+            "entries": [
+                "At 18th level, you finally master the absolute cold that comes from within you. While under the effect of your Inner Chill feature, you gain additional benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You ignore difficult terrain, your movement speed is doubled.",
+                        "You have resistance to all damage.",
+                        "A raging blizzard forms around you within a 20 foot radius. All area in the blizzard is considered difficult terrain. Any creature that starts its turn in the area takes 4d8 cold damage.",
+                        "You can grant a number of creatures up to your charisma mod immunity to these effects."
+                    ]
+                }
+            ]
+        }
+    ]
+}

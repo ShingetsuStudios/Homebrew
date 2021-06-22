@@ -5,8 +5,12 @@
                 "json": "BHSor",
                 "abbreviation": "BHSor",
                 "full": "Sorcerer Revisited",
-                "authors": "Benjamin Huffman",
-                "convertedBy": "ShingekiSkunk#2922",
+                "authors": [
+                    "Benjamin Huffman"
+                ],
+                "convertedBy": [
+                    ""
+                ],
                 "url": "https://www.dmsguild.com/product/253474/The-Sorcerer-Class-Revisited",
                 "version": "1.0"
             }
@@ -367,129 +371,6 @@
                 "Sorcerous Actualization|Sorcerer|BHSor|20"
             ],
             "subclassTitle": "Sorcerous Origin",
-            "subclasses": [
-                {
-                    "name": "Draconic Bloodline",
-                    "shortName": "Draconic",
-                    "source": "BHSor",
-                    "page": 102,
-                    "subclassFeatures": [
-                        "Draconic Bloodline|Sorcerer|BHSor|Draconic|BHSor|1",
-                        "Elemental Affinity|Sorcerer|BHSor|Draconic|BHSor|6",
-                        "Dragon Wings|Sorcerer|BHSor|Draconic|BHSor|14",
-                        "Draconic Presence|Sorcerer|BHSor|Draconic|BHSor|18"
-                    ]
-                },
-                {
-                    "name": "Wild Magic",
-                    "shortName": "Wild",
-                    "source": "BHSor",
-                    "page": 103,
-                    "subclassFeatures": [
-                        "Wild Magic|Sorcerer|BHSor|Wild|BHSor|1",
-                        "Bend Luck|Sorcerer|BHSor|Wild|BHSor|6",
-                        "Controlled Chaos|Sorcerer|BHSor|Wild|BHSor|14",
-                        "Spell Bombardment|Sorcerer|BHSor|Wild|BHSor|18"
-                    ]
-                },
-                {
-                    "name": "Divine Soul",
-                    "shortName": "Divine Soul",
-                    "source": "BHSor",
-                    "page": 50,
-                    "additionalSpells": [
-                        {
-                            "prepared": {
-                                "1": [
-                                    "cure wounds"
-                                ]
-                            }
-                        },
-                        {
-                            "prepared": {
-                                "1": [
-                                    "inflict wounds"
-                                ]
-                            }
-                        },
-                        {
-                            "prepared": {
-                                "1": [
-                                    "bless"
-                                ]
-                            }
-                        },
-                        {
-                            "prepared": {
-                                "1": [
-                                    "bane"
-                                ]
-                            }
-                        },
-                        {
-                            "prepared": {
-                                "1": [
-                                    "protection from evil and good"
-                                ]
-                            }
-                        }
-                    ],
-                    "subclassFeatures": [
-                        "Divine Soul|Sorcerer|BHSor|Divine Soul|BHSor|1",
-                        "Empowered Healing|Sorcerer|BHSor|Divine Soul|BHSor|6",
-                        "Otherworldly Wings|Sorcerer|BHSor|Divine Soul|BHSor|14",
-                        "Unearthly Recovery|Sorcerer|BHSor|Divine Soul|BHSor|18"
-                    ]
-                },
-                {
-                    "name": "Shadow Magic",
-                    "shortName": "Shadow",
-                    "source": "BHSor",
-                    "page": 50,
-                    "additionalSpells": [
-                        {
-                            "prepared": {
-                                "2": [
-                                    "darkness"
-                                ]
-                            }
-                        }
-                    ],
-                    "subclassFeatures": [
-                        "Shadow Magic|Sorcerer|BHSor|Shadow|BHSor|1",
-                        "Hound of Ill Omen|Sorcerer|BHSor|Shadow|BHSor|6",
-                        "Shadow Walk|Sorcerer|BHSor|Shadow|BHSor|14",
-                        "Umbral Form|Sorcerer|BHSor|Shadow|BHSor|18"
-                    ]
-                },
-                {
-                    "name": "Storm Sorcery",
-                    "shortName": "Storm",
-                    "source": "BHSor",
-                    "page": 51,
-                    "subclassFeatures": [
-                        "Storm Sorcery|Sorcerer|BHSor|Storm|BHSor|1",
-                        "Heart of the Storm|Sorcerer|BHSor|Storm|BHSor|6",
-                        "Storm Guide|Sorcerer|BHSor|Storm|BHSor|6",
-                        "Storm's Fury|Sorcerer|BHSor|Storm|BHSor|14",
-                        "Wind Soul|Sorcerer|BHSor|Storm|BHSor|18"
-                    ]
-                },
-                {
-                    "name": "Arcane Prodogy",
-                    "shortName": "Prodogy",
-                    "source": "BHSor",
-                    "subclassFeatures": [
-                        "Arcane Prodigy|Sorcerer|BHSor|Prodogy|BHSor|1",
-                        "Alternate Spellcasting Ability|Sorcerer|BHSor|Prodogy|BHSor|1",
-                        "Living Grimoire|Sorcerer|BHSor|Prodogy|BHSor|1",
-                        "Rare Genius|Sorcerer|BHSor|Prodogy|BHSor|1",
-                        "Metamagic Prodigy|Sorcerer|BHSor|Prodogy|BHSor|6",
-                        "Spell Tinkering Savant|Sorcerer|BHSor|Prodogy|BHSor|14",
-                        "Metamagic Mastery|Sorcerer|BHSor|Prodogy|BHSor|18"
-                    ]
-                }
-            ],
             "fluff": [
                 {
                     "name": "Sorcerer, Revisited",
@@ -1274,6 +1155,141 @@
             "entries": [
                 "At 20th level, while you are in a sorcerous trance spell slots cost half as many sorcery points to create (round down)"
             ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Draconic Bloodline",
+            "shortName": "Draconic",
+            "source": "BHSor",
+            "page": 102,
+            "subclassFeatures": [
+                "Draconic Bloodline|Sorcerer|BHSor|Draconic|BHSor|1",
+                "Elemental Affinity|Sorcerer|BHSor|Draconic|BHSor|6",
+                "Dragon Wings|Sorcerer|BHSor|Draconic|BHSor|14",
+                "Draconic Presence|Sorcerer|BHSor|Draconic|BHSor|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "BHSor"
+        },
+        {
+            "name": "Wild Magic",
+            "shortName": "Wild",
+            "source": "BHSor",
+            "page": 103,
+            "subclassFeatures": [
+                "Wild Magic|Sorcerer|BHSor|Wild|BHSor|1",
+                "Bend Luck|Sorcerer|BHSor|Wild|BHSor|6",
+                "Controlled Chaos|Sorcerer|BHSor|Wild|BHSor|14",
+                "Spell Bombardment|Sorcerer|BHSor|Wild|BHSor|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "BHSor"
+        },
+        {
+            "name": "Divine Soul",
+            "shortName": "Divine Soul",
+            "source": "BHSor",
+            "page": 50,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "1": [
+                            "cure wounds"
+                        ]
+                    }
+                },
+                {
+                    "prepared": {
+                        "1": [
+                            "inflict wounds"
+                        ]
+                    }
+                },
+                {
+                    "prepared": {
+                        "1": [
+                            "bless"
+                        ]
+                    }
+                },
+                {
+                    "prepared": {
+                        "1": [
+                            "bane"
+                        ]
+                    }
+                },
+                {
+                    "prepared": {
+                        "1": [
+                            "protection from evil and good"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Divine Soul|Sorcerer|BHSor|Divine Soul|BHSor|1",
+                "Empowered Healing|Sorcerer|BHSor|Divine Soul|BHSor|6",
+                "Otherworldly Wings|Sorcerer|BHSor|Divine Soul|BHSor|14",
+                "Unearthly Recovery|Sorcerer|BHSor|Divine Soul|BHSor|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "BHSor"
+        },
+        {
+            "name": "Shadow Magic",
+            "shortName": "Shadow",
+            "source": "BHSor",
+            "page": 50,
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "2": [
+                            "darkness"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                "Shadow Magic|Sorcerer|BHSor|Shadow|BHSor|1",
+                "Hound of Ill Omen|Sorcerer|BHSor|Shadow|BHSor|6",
+                "Shadow Walk|Sorcerer|BHSor|Shadow|BHSor|14",
+                "Umbral Form|Sorcerer|BHSor|Shadow|BHSor|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "BHSor"
+        },
+        {
+            "name": "Storm Sorcery",
+            "shortName": "Storm",
+            "source": "BHSor",
+            "page": 51,
+            "subclassFeatures": [
+                "Storm Sorcery|Sorcerer|BHSor|Storm|BHSor|1",
+                "Heart of the Storm|Sorcerer|BHSor|Storm|BHSor|6",
+                "Storm Guide|Sorcerer|BHSor|Storm|BHSor|6",
+                "Storm's Fury|Sorcerer|BHSor|Storm|BHSor|14",
+                "Wind Soul|Sorcerer|BHSor|Storm|BHSor|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "BHSor"
+        },
+        {
+            "name": "Arcane Prodogy",
+            "shortName": "Prodogy",
+            "source": "BHSor",
+            "subclassFeatures": [
+                "Arcane Prodigy|Sorcerer|BHSor|Prodogy|BHSor|1",
+                "Alternate Spellcasting Ability|Sorcerer|BHSor|Prodogy|BHSor|1",
+                "Living Grimoire|Sorcerer|BHSor|Prodogy|BHSor|1",
+                "Rare Genius|Sorcerer|BHSor|Prodogy|BHSor|1",
+                "Metamagic Prodigy|Sorcerer|BHSor|Prodogy|BHSor|6",
+                "Spell Tinkering Savant|Sorcerer|BHSor|Prodogy|BHSor|14",
+                "Metamagic Mastery|Sorcerer|BHSor|Prodogy|BHSor|18"
+            ],
+            "className": "Sorcerer",
+            "classSource": "BHSor"
         }
     ],
     "subclassFeature": [
