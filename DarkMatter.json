@@ -5028,13 +5028,13 @@
 			"classSource": "DarkMatter",
 			"level": 2,
 			"entries": [
-				"You have developed a sophisticated experimental frame, a powerful exo-suit that augments your strength and shelters you from harm. Your experimental frame counts as heavy armor, which you can don or doff as a bonus action, and it also grants you the benefits of a life suit. You are proficient with your experimental frame, but no other creature can wear it. While wearing your frame, you gain the following benefits: ",
-				"Your size becomes Medium, if it is smaller. ",
-				"Your movement speed increases to 30 feet, if it is less. ",
-				"Your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. This armor can't be enchanted or modified to improve its Armor Class. ",
-				"Whenever you begin your turn wearing this frame, you gain temporary hit points equal to your gadgeteer level. These hit points last until you remove the frame. ",
-				"You can integrate a simple or martial weapon directly into your frame, or you can integrate two weapons (one into each arm) if neither has the Two-Handed property. When you draw an integrated weapon, it snaps to your hand and you can't be disarmed of it. Your frame is programmed in all manner of combat protocol, so you can use these integrated weapons proficiently while wearing your frame, even if you're not normally proficient in their use. You can switch which weapons are integrated when you finish a long rest. ",
-				"When you make an attack with an integrated melee weapon, you can use your Intelligence modifier, instead of your Strength or Dexterity, for attack and damage rolls. ",
+				"You have developed a sophisticated experimental frame, a powerful exo-suit that augments your strength and shelters you from harm. Your experimental frame counts as heavy armor, which you can don or doff as a bonus action, and it also grants you the benefits of a life suit. You are proficient with your experimental frame, but no other creature can wear it. While wearing your frame, you gain the following benefits:",
+				"Your size becomes Medium, if it is smaller.",
+				"Your movement speed increases to 30 feet, if it is less.",
+				"Your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. This armor can't be enchanted or modified to improve its Armor Class.",
+				"Whenever you begin your turn wearing this frame, you gain temporary hit points equal to your gadgeteer level. These hit points last until you remove the frame.",
+				"You can integrate a simple or martial weapon directly into your frame, or you can integrate two weapons (one into each arm) if neither has the Two-Handed property. When you draw an integrated weapon, it snaps to your hand and you can't be disarmed of it. Your frame is programmed in all manner of combat protocol, so you can use these integrated weapons proficiently while wearing your frame, even if you're not normally proficient in their use. You can switch which weapons are integrated when you finish a long rest.",
+				"When you make an attack with an integrated melee weapon, you can use your Intelligence modifier, instead of your Strength or Dexterity, for attack and damage rolls.",
 				"Starting at 5th level, when you make a melee weapon attack with an integrated weapon, you can make an additional melee attack using that weapon as a bonus action."
 			]
 		},
@@ -5116,12 +5116,12 @@
 			"classSource": "DarkMatter",
 			"level": 20,
 			"entries": [
-				"By 20th level, you perfect a cutting-edge device capable of producing an antimagic pulse (abbreviated AMP), a type of energetic burst that completely disrupts and disables magic and machines. You can use your action to throw this device to a location within 60 feet, which explodes in a flash of blue light. This device creates an {@spell antimagic field} (as per the spell) for 1 minute centered on the device, with the following changes: ",
+				"By 20th level, you perfect a cutting-edge device capable of producing an antimagic pulse (abbreviated AMP), a type of energetic burst that completely disrupts and disables magic and machines. You can use your action to throw this device to a location within 60 feet, which explodes in a flash of blue light. This device creates an {@spell antimagic field} (as per the spell) for 1 minute centered on the device, with the following changes:",
 				{
 					"type": "list",
 					"items": [
 						"The effect is a 20-foot radius sphere.",
-						"Magical technology (including your gadgets and blasters) count as magic items and are suppressed within the sphere. Blasters can't be used to make attacks while within the sphere, and attacks with them can't penetrate into it. ",
+						"Magical technology (including your gadgets and blasters) count as magic items and are suppressed within the sphere. Blasters can't be used to make attacks while within the sphere, and attacks with them can't penetrate into it.",
 						"Constructs within the sphere are paralyzed for the duration, even if they would otherwise be immune to this condition."
 					]
 				},
@@ -8163,7 +8163,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "Gnomish ",
+				"namePrefix": "Gnomish",
 				"source": "DarkMatter",
 				"page": 131,
 				"entries": [
@@ -8184,7 +8184,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "Golem Skin ",
+				"namePrefix": "Golem Skin",
 				"source": "DarkMatter",
 				"page": 156,
 				"rarity": "very rare",
@@ -8212,6 +8212,14 @@
 					],
 					"template": "{{prop_name}} ({{item.range}} ft.)"
 				}
+			]
+		},
+		{
+			"abbreviation": "ConGraft",
+			"source": "DarkMatter",
+			"name": "Construct Grafts",
+			"entries": [
+				"Look here for more information on {@variantrule Construct Grafts|DarkMatter}"
 			]
 		}
 	],
@@ -10330,7 +10338,7 @@
 			"level": 10,
 			"entries": [
 				"Starting at 10th level, you gain a Configuration optimized for stealth and subterfuge. As a bonus action, you can activate a cloaking device to temporarily warp the light around you and hide yourself from view. You become invisible until the beginning of your next turn, or until you make an attack, or cast a spell. Once you use this ability, you can't use it again on the following round.",
-				"Additionally, you have advantage on Dexterity (Stealth) checks while in this form and you gain the following action, in addition to your Photon Cannon: ",
+				"Additionally, you have advantage on Dexterity (Stealth) checks while in this form and you gain the following action, in addition to your Photon Cannon:",
 				{
 					"type": "entries",
 					"name": "Antimatter Dagger",
@@ -10390,7 +10398,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 6,
 			"entries": [
-				"At 6th level, you can bestow limited sentience on a lower form of life. You can cast the spell speak with animals or speak with plants without using a spell slot. ",
+				"At 6th level, you can bestow limited sentience on a lower form of life. You can cast the spell speak with animals or speak with plants without using a spell slot.",
 				"Once you use this ability, you can't use it again until you finish a short or long rest."
 			]
 		},
@@ -10774,7 +10782,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 7,
 			"entries": [
-				"Starting at 7th level, you and friendly creatures within 10 feet of you are always under the effects of the spell zone of atmosphere. Additionally, if you are in an area of zero gravity, you have a flight speed equal to your movement speed. When you move in such an area, each friendly creature within 10 feet of you can use its reaction to move with you to remain within this aura. ",
+				"Starting at 7th level, you and friendly creatures within 10 feet of you are always under the effects of the spell zone of atmosphere. Additionally, if you are in an area of zero gravity, you have a flight speed equal to your movement speed. When you move in such an area, each friendly creature within 10 feet of you can use its reaction to move with you to remain within this aura.",
 				"At 18th level, the range of this aura increases to 30 feet."
 			]
 		},
@@ -10895,7 +10903,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 15,
 			"entries": [
-				"By 15th level, you are a true master of stealth, capable of fading into thin air. As a reaction when you take damage, you can use this ability to move up to 5 feet without provoking opportunity attacks and become invisible until the beginning of your next turn. ",
+				"By 15th level, you are a true master of stealth, capable of fading into thin air. As a reaction when you take damage, you can use this ability to move up to 5 feet without provoking opportunity attacks and become invisible until the beginning of your next turn.",
 				"You can use this ability a number of times equal to your Wisdom modifier (minimum 1), and regain all expended uses when you finish a long rest."
 			]
 		},
@@ -14453,7 +14461,7 @@
 			]
 		},
 		{
-			"name": "Hypodemic Needle",
+			"name": "Hypodermic Needle",
 			"source": "DarkMatter",
 			"page": 135,
 			"type": "G",
@@ -14606,6 +14614,692 @@
 			"value": 500,
 			"entries": [
 				"A simple device with a simple purpose, this watch reports the time in a way that is consistent with all major galactic factions."
+			]
+		},
+		{
+			"name": "Engineer's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 32500,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item crowbar|phb}",
+						"a {@item datapad|DarkMatter}",
+						"a {@item flashlight|DarkMatter}",
+						"a {@item hammer|phb}",
+						"an {@item igniter|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"dozens of assorted nuts and bolts",
+						"an {@item omnitool|DarkMatter}",
+						"10 rolls of {@item vent tape|DarkMatter}",
+						"and a {@item wristwatch|DarkMatter}."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"comm set|DarkMatter",
+				"crowbar|phb",
+				"datapad|DarkMatter",
+				"flashlight|DarkMatter",
+				"hammer|phb",
+				"igniter|DarkMatter",
+				"life suit|DarkMatter",
+				{
+					"special": "dozens of assorted nuts and bolts"
+				},
+				"omnitool|DarkMatter",
+				{
+					"item": "vent tape|DarkMatter",
+					"quantity": 10
+				},
+				"wristwatch|DarkMatter"
+			]
+		},
+		{
+			"name": "Marine's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 46500,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bedroll|phb}",
+						"a set of {@item binoculars|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"2 {@item concussion grenade|DarkMatter|concussion grenades}",
+						"a {@item crowbar|phb}",
+						"a {@item flashlight|DarkMatter}",
+						"an {@item igniter|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"10 days of {@item rations (1 day)|phb|rations}",
+						"a {@item tactical vest|DarkMatter}",
+						"and a roll of {@item vent tape|DarkMatter}.",
+						"The pack also has {@item hempen rope (50 feet)|phb} strapped to the side of it."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bed roll|phb",
+				"binoculars|DarkMatter",
+				"comm set|DarkMatter",
+				{
+					"item": "concussion grenade|DarkMatter",
+					"quantity": 2
+				},
+				"crowbar|phb",
+				"flashlight|DarkMatter",
+				"igniter|DarkMatter",
+				"life suit|DarkMatter",
+				{
+					"item": "rations (1 day)|phb",
+					"quantity": 10
+				},
+				"tactical vest|DarkMatter",
+				"vent tape|DarkMatter",
+				"hempen rope (50 feet)|phb"
+			]
+		},
+		{
+			"name": "Researcher's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 75000,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"{@item binoculars|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item datapad|DarkMatter}",
+						"a {@item flashlight|DarkMatter}",
+						"a {@item holo-sphere|DarkMatter}",
+						"a {@item hypodermic needle|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"a {@item log keeper|DarkMatter}",
+						"an {@item omnitool|DarkMatter}",
+						"a {@item quadcorder|DarkMatter}",
+						"and a {@item wristwatch|DarkMatter}."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"binoculars|DarkMatter",
+				"comm set|DarkMatter",
+				"datapad|DarkMatter",
+				"flashlight|DarkMatter",
+				"holo-sphere|DarkMatter",
+				"hypodermic needle|DarkMatter",
+				"life suit|DarkMatter",
+				"log keeper|DarkMatter",
+				"omnitool|DarkMatter",
+				"quadcorder|DarkMatter",
+				"wristwatch|DarkMatter."
+			]
+		},
+		{
+			"name": "Surveyor's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 37800,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bandolier|DarkMatter}",
+						"a {@item bedroll|phb}",
+						"{@item binoculars|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item flashlight|DarkMatter}",
+						"a {@item log keeper|DarkMatter}",
+						"an {@item igniter|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"a {@item quadcorder|DarkMatter}",
+						"10 days of {@item rations (1 day)|phb|rations}",
+						"and a {@item wristwatch|DarkMatter}.",
+						"The pack also has {@item hempen rope (50 feet)|phb} strapped to the side of it."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bandolier|DarkMatter",
+				"bedroll|phb",
+				"binoculars|DarkMatter",
+				"comm set|DarkMatter",
+				"flashlight|DarkMatter",
+				"log keeper|DarkMatter",
+				"igniter|DarkMatter",
+				"life suit|DarkMatter",
+				"quadcorder|DarkMatter",
+				{
+					"item": "rations (1 day)|phb",
+					"quantity": 10
+				},
+				"wristwatch|DarkMatter",
+				"hempen rope (50 feet)|phb"
+			]
+		},
+		{
+			"name": "Spacer's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 62800,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bandolier|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item datapad|DarkMatter}",
+						"2 {@item flashlight|DarkMatter|flashlights}",
+						"a {@item holo-sphere|DarkMatter}",
+						"an {@item interface rig|DarkMatter}",
+						"2 cans of {@item krash|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"a {@item log keeper|DarkMatter}",
+						"an {@item igniter|DarkMatter}",
+						"an {@item omnitool|DarkMatter}",
+						"a {@item quadcorder|DarkMatter}",
+						"10 rolls of {@item vent tape|DarkMatter}",
+						"and a {@item wristwatch|DarkMatter}."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bandolier|DarkMatter",
+				"comm set|DarkMatter",
+				"datapad|DarkMatter",
+				{
+					"item": "flashlight|DarkMatter",
+					"quantity": 2
+				},
+				"holo-sphere|DarkMatter",
+				"interface rig|DarkMatter",
+				{
+					"item": "krash|DarkMatter",
+					"quantity": 2
+				},
+				"life suit|DarkMatter",
+				"log keeper|DarkMatter",
+				"igniter|DarkMatter",
+				"omnitool|DarkMatter",
+				"quadcorder|DarkMatter",
+				{
+					"item": "vent tape|DarkMatter",
+					"quantity": 10
+				},
+				"wristwatch|DarkMatter."
+			]
+		},
+		{
+			"name": "Adamantine Plating",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 225000,
+			"entries": [
+				"{@b Slot:} External",
+				"Prerequisite: Vect race\nYour Armor Class equals 17 and any critical hit against you becomes a normal hit."
+			]
+		},
+		{
+			"name": "Arcane Synapses",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 32500,
+			"entries": [
+				"{@b Slot:} Head",
+				"You have stolen a bit of arcane potential by inserting some additional arcane nerves into your brain. You learn one cantrip of your choice from the wizard spell list. Intelligence is your casting ability for this cantrip. "
+			]
+		},
+		{
+			"name": "Arm Blade",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 20000,
+			"entries": [
+				"{@b Slot:} Arms",
+				"Whenever you would normally be able to draw a weapon, you can collapse your mechanical hand into your forearm with a flick of the wrist, extending a wide shortsword in its place. You can revert it to its normal form whenever you could normally stow a weapon. While this weapon is installed, you are proficient with it and can't be disarmed of it. You can't hold or otherwise manipulate a weapon, shield, or other object with an arm that is transformed. "
+			]
+		},
+		{
+			"name": "Arm Cannon",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 45000,
+			"entries": [
+				"{@b Slot:} Arms",
+				"One of your arms is replaced wholesale with a powerful blaster cannon. This arm cannon lacks any hand or manipulator, so you can't use that arm to hold or manipulate objects while the arm cannon is installed. Only one of your arms can be an arm cannon. An arm cannon is a blaster that deals 2d8 radiant damage on a hit and has the Blaster (range 30/120) property. You are proficient with it and can't be disarmed of it. "
+			]
+		},
+		{
+			"name": "Concentration Module",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 20000,
+			"entries": [
+				"{@b Slot:} Internal",
+				"Prerequisite: Spellcasting feature Your body houses a mechanical mind, secondary to your true mind, to assist in arcane focus. Whenever you make a Constitution saving throw to maintain concentration on a spell, you can add your spellcasting ability modifier, instead of your Constitution modifier, to the roll. "
+			]
+		},
+		{
+			"name": "Embedded Battlefist",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 150000,
+			"entries": [
+				"{@b Slot:} Arms",
+				"You replace one of your hands (your choice) with an imposing, articulated gauntlet, a battlefist. While this weapon is installed, you are proficient with it and can't be disarmed of it. Additionally, it has the Light property. "
+			]
+		},
+		{
+			"name": "Embedded Phaser",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 25000,
+			"entries": [
+				"{@b Slot:} Arms",
+				"One of your hands is mechanical and can transform into a phaser. You can transform your hand into a phaser any time you would normally be able to draw a weapon, and can revert it to its normal form when you could normally stow a weapon. You are proficient with this weapon and can't be disarmed of it. You can't hold or otherwise manipulate a weapon, shield, or other object with an arm that is transformed. "
+			]
+		},
+		{
+			"name": "Embedded Translator",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 50000,
+			"entries": [
+				"{@b Slot:} Head",
+				"You have a universal translator magic item installed within your skull and can use the effects of it at will. "
+			]
+		},
+		{
+			"name": "Final Word",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 5000000,
+			"entries": [
+				"{@b Slot:} Internal",
+				"Deep within your body, you have installed a devastating arcane warhead, whose trigger is linked to your life. When you die, this bomb detonates, destroying your body completely; as a result, you can be restored to life only by means of a true resurrection or a wish spell. Each creature within 180 feet must make a DC 18 Dexterity saving throw. Creatures within 60 feet that have Evasion or a similar feature canâ€™t avoid this damage. On a failed save, a creature takes 1d4 mega (1d4 Ã— 100) force damage, of half as much on a successful save. "
+			]
+		},
+		{
+			"name": "Finger Picks",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 15000,
+			"entries": [
+				"{@b Slot:} Arms",
+				"Your mechanical hand has retractable thievesâ€™ tools built directly into the fingers. You are always considered to have these thievesâ€™ tools on your person and can conceal them perfectly. If you are proficient with thievesâ€™ tools, you can add a +2 bonus to ability checks you make using them. "
+			]
+		},
+		{
+			"name": "Heart of Steel",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 225000,
+			"entries": [
+				"{@b Slot:} Internal",
+				"You have replaced your heart with the core from a construct. As a result, you can ignore the effects of 1 level of exhaustion, and you only need to rest for 4 hours to gain the same benefit that a human does from 8 hours of sleep. Because vect already have construct cores, they canâ€™t install this graft. "
+			]
+		},
+		{
+			"name": "Heavy Legs",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 80000,
+			"entries": [
+				"{@b Slot:} Legs",
+				"A mechanical exoskeleton, rooted in your legs, helps carry your weight. Your lifting and carrying capacity doubles. "
+			]
+		},
+		{
+			"name": "Impulse Unit",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 20000,
+			"entries": [
+				"{@b Slot:} Legs",
+				"You have installed thrusters into your legs and back. On your turn, you can use 10 feet of your movement to leap 10 feet vertically. In zero gravity environments, this allows you to move 20 feet in any direction on your turn. "
+			]
+		},
+		{
+			"name": "Infrasight Eyes",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 45000,
+			"entries": [
+				"{@b Slot:} Head",
+				"You have replaced your eyes with sensors that can see in the dark. You gain darkvision, the ability to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. "
+			]
+		},
+		{
+			"name": "Logic Unit",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 15000,
+			"entries": [
+				"{@b Slot:} Head",
+				"Having augmented your brain with an algorithmic processing unit, you have advantage on Intelligence checks to perform mathematical operations and solve logical dilemmas. "
+			]
+		},
+		{
+			"name": "Mithral Plating",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 150000,
+			"entries": [
+				"{@b Slot:} External",
+				"Prerequisite: Vect race Your Armor Class equals 14 + your Dexterity modifier. Additionally, you have resistance to lightning damage.\nYou can only install this graft if you are proficient with light armor. "
+			]
+		},
+		{
+			"name": "Overdrive Module",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 75000,
+			"entries": [
+				"{@b Slot:} Internal",
+				"You have installed an internal generator, which can accelerate your metabolism for a short while. You can use your bonus action to fire up your Overdrive Module. For up to the next minute, whenever you make an ability check, attack roll, or saving throw, rolling a 19 counts as rolling a 20. This effect ends early if you roll a 1. Once you use this ability, you must finish a short or long rest before using it again. "
+			]
+		},
+		{
+			"name": "Replacement",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 40000,
+			"entries": [
+				"{@b Slot:} Any",
+				"One or more of your organs or limbs has been interchanged with an efficient mechanical version. A replacement can effectively solve any amputation or organ failure, but they can't return to life someone that has died; such work is solely the domain of necromancy. Replacement limbs can look like the original limb, or can appear metallic or otherwise mechanical. A replacement organ or limb takes up one body slot relevant to it; for example, a robotic hand takes the Arms slot and a replacement kidney takes up the Internal slot. "
+			]
+		},
+		{
+			"name": "Shield Module",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 55000,
+			"entries": [
+				"{@b Slot:} External",
+				"By activating this mechanical plate installed near your spine, you can cast the spell mage armor as a bonus action targeting yourself, without using a spell slot. Once you do so, you canâ€™t cast the spell again using this graft until you finish a long rest. "
+			]
+		},
+		{
+			"name": "Spiked Plating",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 75000,
+			"entries": [
+				"{@b Slot:} External",
+				"Your Armor Class equals 14 + your Dexterity modifier (maximum +2). Additionally, your unarmed strikes deal 1d4 piercing damage and, whenever you begin your turn grappling another creature, that creature takes 1d4 piercing damage.\nYou can only install this graft if you are proficient with medium armor. "
+			]
+		},
+		{
+			"name": "Tesla Module",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 35000,
+			"entries": [
+				"{@b Slot:} Internal",
+				"This device, installed in your chest, electrically polarizes your skin and discharges a shock of electricity to attackers. Whenever a creature within 5 feet of you hits you with an attack, you can use your reaction to deal 1d6 lightning damage to each creature within 5 feet of you. "
+			]
+		},
+		{
+			"name": "Thermoregulator",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 50000,
+			"entries": [
+				"{@b Slot:} Internal",
+				"This component protects your body from extremely hot or cold conditions, allowing you to endure the Extreme Temperatures (see Appendix E) of space and other harsh environments without taking damage. "
+			]
+		},
+		{
+			"name": "Traction Spikes",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 25000,
+			"entries": [
+				"{@b Slot:} Legs",
+				"Retractable spikes in your legs and feet allow you to climb more quickly. Climbing no longer halves your speed and you have advantage on saving throws against being moved against your will or knocked prone. "
+			]
+		},
+		{
+			"name": "Wings",
+			"source": "DarkMatter",
+			"page": 140,
+			"rarity": "none",
+			"type": "ConGraft",
+			"value": 550000,
+			"entries": [
+				"{@b Slot:} External",
+				"Folded into your back and resembling a hump when not in use, these silver, clockwork wings allow you to soar. You can deploy or retract these wings as a bonus action. While deployed, they grant you a flying speed equal to your base movement speed. You can fly with these wings for a total of 10 minutes, after which, you must finish a short or long rest before using them again.\nAdditionally, as a reaction while falling, you can deploy your wings to glide gently to the ground. You can do so even if you have no time remaining to use your wings."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Construct Grafts",
+			"type": "DarkMatter",
+			"entries": [
+				"Mechanical hands, robotic eyes with an unnerving red glow, ports and wires running down the length of someone's arm— these construct grafts (also called embedded components) are a popular, if invasive, way of garnering an advantage over one's foes. Construct parts, after all, are more robust and customizable than any organic limb. Sometimes, these components are obtained from deceased vect to serve as replacement parts, and other times, they're intentional upgrades, built to fit the recipient's needs.",
+				"All the items presented in this section are considered magical technology for the purposes of spells and magical effects that influence such technology.",
+				{
+					"type": "entries",
+					"name": "Attaching a Graft.",
+					"entries": [
+						"Attaching a graft for the first time requires a laborious surgical procedure, normally removing an original body part. This procedure takes one hour and requires a healer's kit, a set of mechanist’s tools, and a knife (or a facility with access to such tools), as well as someone to perform the operation. A construct graft is permanent until another graft is provided to replace it.",
+						"This surgery is intensive and necessitates recovery time. When you finish installing a construct graft into your body, you lose half your hit points and all of your hit dice. For 24 hours after installation, you can't use the graft's abilities, as you adjust to its presence. Replacing a graft or adding a new graft in its body slot takes only 30 minutes. You still lose half your hit points when replacing a graft, but you don't lose hit dice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vect Components.",
+					"entries": [
+						"Vect can replace sections of their bodies with customized or improved components with ease. A vect can install a construct graft on themselves with 10 minutes of work, requiring the vect to disable a part of its body, remove it, and install the new component. A vect can install construct grafts without assistance, unless the graft is installed into the Head or Arm slots.",
+						"Vect require no recovery time and suffer no penalties after adding a construct graft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Body Slots.",
+					"entries": [
+						"Each graft takes up one of the following slots: Arms, External, Head, Internal, or Legs. You can't have more than one graft in the same body slot. For instance, if you already have an arm graft, you must remove it before you can attach a different arm graft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cost.",
+					"entries": [
+						"The cost of obtaining and installing construct grafts are shown on the Graft Cost table below. Most of these can be acquired at far cheaper rates, if one is willing to track down a disreputable establishment specializing in dealing grafts and accept the risks inherent to an unsanitary operation."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Graft Cost",
+					"colLabels": [
+						"Graft",
+						"Cost"
+					],
+					"colStyles": [
+						"col-9",
+						"col-3"
+					],
+					"rows": [
+						[
+							"{@item Adamantine Plating|DarkMatter}",
+							"2250 gp"
+						],
+						[
+							"{@item Arcane Synapses|DarkMatter}",
+							"325 gp"
+						],
+						[
+							"{@item Arm Blade|DarkMatter}",
+							"200 gp"
+						],
+						[
+							"{@item Arm Cannon|DarkMatter}",
+							"450 gp"
+						],
+						[
+							"{@item Concentration Module|DarkMatter}",
+							"200 gp"
+						],
+						[
+							"{@item Embedded Battlefist|DarkMatter}",
+							"1500 gp"
+						],
+						[
+							"{@item Embedded Phaser|DarkMatter}",
+							"250 gp"
+						],
+						[
+							"{@item Embedded Translator|DarkMatter}",
+							"500 gp"
+						],
+						[
+							"{@item Final Word|DarkMatter}",
+							"50000 gp"
+						],
+						[
+							"{@item Finger Picks|DarkMatter}",
+							"150 gp"
+						],
+						[
+							"{@item Heart of Steel|DarkMatter}",
+							"2250 gp"
+						],
+						[
+							"{@item Heavy Legs|DarkMatter}",
+							"800 gp"
+						],
+						[
+							"{@item Impulse Unit|DarkMatter}",
+							"200 gp"
+						],
+						[
+							"{@item Infrasight Eyes|DarkMatter}",
+							"450 gp"
+						],
+						[
+							"{@item Logic Unit|DarkMatter}",
+							"150 gp"
+						],
+						[
+							"{@item Mithral Plating|DarkMatter}",
+							"1500 gp"
+						],
+						[
+							"{@item Overdrive Module|DarkMatter}",
+							"750 gp"
+						],
+						[
+							"{@item Replacement|DarkMatter}",
+							"400 gp"
+						],
+						[
+							"{@item Shield Module|DarkMatter}",
+							"550 gp"
+						],
+						[
+							"{@item Spiked Plating|DarkMatter}",
+							"750 gp"
+						],
+						[
+							"{@item Tesla Module|DarkMatter}",
+							"350 gp"
+						],
+						[
+							"{@item Thermoregulator|DarkMatter}",
+							"500 gp"
+						],
+						[
+							"{@item Traction Spikes|DarkMatter}",
+							"250 gp"
+						],
+						[
+							"{@item Wings|DarkMatter}",
+							"5500 gp"
+						]
+					]
+				}
 			]
 		}
 	]
