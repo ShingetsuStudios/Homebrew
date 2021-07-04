@@ -4048,443 +4048,6 @@
 			}
 		}
 	],
-	"class": [
-		{
-			"name": "Gadgeteer",
-			"source": "DarkMatter",
-			"hd": {
-				"number": 1,
-				"faces": 6
-			},
-			"proficiency": [
-				"dex",
-				"int"
-			],
-			"startingProficiencies": {
-				"armor": [
-					"light"
-				],
-				"weapons": [
-					"simple",
-					"simple blasters",
-					"martial weapons"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"arcana",
-								"data",
-								"deception",
-								"history",
-								"investigation",
-								"medicine",
-								"nature",
-								"piloting",
-								"religion",
-								"sleight of hand",
-								"technology"
-							],
-							"count": 3
-						}
-					}
-				],
-				"tools": [
-					"alchemist’s supplies",
-					"circuitry kit",
-					"mechanist’s tools",
-					"ship maintenance tools",
-					"smith’s tools",
-					"tinker tools"
-				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"A repeater and any simple weapon",
-					"(a) a martial blaster or (b) two simple blasters",
-					"(a) a circuitry kit or (b) a mechanist’s tools",
-					"An engineer’s pack and leather armor"
-				],
-				"defaultData": [
-					{
-						"_": [
-							"repeater",
-							"simple weapon",
-							"An engineer’s pack",
-							"leather armor"
-						]
-					},
-					{
-						"a": [
-							"martial blaster"
-						],
-						"b": [
-							"two simple blasters"
-						]
-					},
-					{
-						"a": [
-							"circuitry kit"
-						],
-						"b": [
-							"mechanist’s tools"
-						]
-					}
-				]
-			},
-			"multiclassing": {
-				"requirements": {},
-				"proficienciesGained": {}
-			},
-			"fluff": [
-				{
-					"name": "Gadgeteer",
-					"type": "section",
-					"entries": [
-						"A gnome tinkers at his workbench, fervently toiling with two precise instruments under a magnifying lens. Suddenly, a spark of blue electricity flashes across the room and scorches the far wall. The gnome grins and puts away his tools.",
-						"An amoeboid carefully positions a rabbit on a pedestal, stands back, and presses a large red button. With a pop and a puff of fur, the rabbit vanishes, only to hop back into the room seconds later, hairless from the waist down. The amoeboid nods and scratches down a few notes.",
-						"A bald human woman with a glowing, red, robotic eye tightens the joints on her new cybernetic arm. Her work complete, she rears back her metal fist and crushes a nearby chair.",
-						"Gadgeteers are masters of technology and engineering, turning every device available to their advantage. Assisted by their artificial intelligence companions, gadgeteers pursue the cutting edge of science and innovation, acquiring a mass of gadgets and a wealth of knowledge along the way.",
-						{
-							"type": "entries",
-							"name": "Cutting-Edge Innovators",
-							"entries": [
-								"Impelled by the lure of systems and logic, a wildly eccentric group embraces the sciences. These disparate tinkers, students, and inventors tend to be uniformly welleducated (or at least highly self-educated) in the principles of science, arcana, and engineering, with a particular focus on practical applications. Though most gadgeteers are at least curious about the underlying mysteries of the universe, many view groundbreaking scientific discoveries as a means to an end; theory only exists to facilitate application.",
-								"Fueled by breakthroughs and scientific advances, gadgeteers push the cutting edge of science and innovation, devising new technological marvels (or at least new blaster variants) at a breakneck pace. Some gadgeteers become absorbed in a particular problem, innovating and optimizing solutions for it alone, while others devise technological marvels wherever they can find application. All the great advances of the modern world, from datapads to Dark Matter engines, have been spearheaded by gadgeteers."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "AIs",
-							"entries": [
-								"A gadgeteer is rarely seen far from the floating holographic orb that is their Artificial Intelligence (AI) companion. After all, an organic brain can only hold so much information, whereas an AI can recall equations, trace schematics, and perform calculations with ease. Such intellect is nothing without a gadgeteer's ingenuity, of course, but the watchful eye of an AI can still spot errors that their creator might not have noticed.",
-								"But more than that, an AI companion is also a tireless friend. The endless work of a gadgeteer can often be monotonous and isolating, but the constant, friendly voice of an AI in one's ear goes a long way to preventing mad scientists and doomsday devices."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Creating a Gadgeteer",
-							"entries": [
-								"When devising your gadgeteer, consider what draws your character to the sciences. Is it the challenge of working out a new puzzle, or the thrill of perfecting a new invention? Perhaps your character is obsessed with a particular facet of the universe, and longs to unravel its mysteries. Think about how you learned about science and engineering. Did you have a mentor that shaped your understanding, or are you totally self-educated?",
-								"Also, consider which Prototype you’ll pick when you reach 2nd level. Are you interested in having a gadget for every situation, or do you just prefer having a big, hulking mech suit? Consider what this prototype means for your specialization and your character’s personality in general.",
-								"Lastly, put some thought into your AI. What’s its name, and what type of personality does it possess, if any?"
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Gnomish Gadgeteers",
-							"entries": [
-								"Though this class can be played by characters of any race or faction, in Dark Matter, it is particularly favored by gnomes. As gnomes are notoriously skeptical of magic, they devise all of their gadgets and equipment exclusively using science and engineering, making them useful in Dead Magic Zones.",
-								"Gnomish gadgeteers must choose proficiency in the Technology skill at 1st level. All gadgets and magic items crafted by a gnomish gadgeteer operate normally in Dead Magic Zones. If a gnomish device would deal radiant damage, it deals force damage instead."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Gadgeteers Outside of Dark Matter",
-							"entries": [
-								"More so than almost any other class, the gadgeteer is uniquely focused on science and engineering, which might not fit cohesively with all campaign settings. If used in a setting outside of Dark Matter, it might be useful to translate the class into more familiar terms: rather than ‘Gadgets,’ the gadgeteer uses ‘Magic Items,’ rather than an ‘AI Companion,’ they have a ‘Sentient Magic Item,’ and rather than a ‘Prototype,’ they have a ‘Relic’, and so on. The mechanics of most of these devices need not be changed, for technology in Dark Matter is also generally powered by magic.",
-								"Blasters, on the other hand, are fairly unique to Dark Matter. The bonus damage offered by Overcharge can be applied to ranged attacks from crossbows or cantrips, as appropriate to the setting.",
-								"Any reference to Dark Matter skills, such as Intelligence (Data) and Intelligence (Technology), can be replaced with a base Intelligence check.",
-								"For some characters and campaigns, a fun alternative might be to present the gadgeteer as a time-traveler or a stranded visitor from outer space, equipped with high technology. This angle works best with a heavy dose of humor and satire, contrasting a conventional fantasy setting with a sci-fi outsider."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Quick Build",
-							"entries": [
-								"Follow these suggestions to quickly build a gadgeteer. Choose Intelligence as your highest ability score, followed by Dexterity. Investing in Constitution might also be wise for characters that intend to select the Experimental Frame Prototype at 2nd level. For your equipment, choose a researcher’s pack and an antimatter dagger. Lastly, choose the Technologist background."
-							]
-						}
-					]
-				}
-			],
-			"classFeatures": [
-				"Ai Companion|Gadgeteer|DarkMatter|1",
-				"Gadgets|Gadgeteer|DarkMatter|1",
-				"Overcharge|Gadgeteer|DarkMatter|2",
-				"Prototype|Gadgeteer|DarkMatter|2",
-				{
-					"classFeature": "Tech Specialty|Gadgeteer|DarkMatter|3",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Gadgeteer|DarkMatter|4",
-				{
-					"classFeature": "Tech Specialty Feature|Gadgeteer|DarkMatter|6",
-					"gainSubclassFeature": true
-				},
-				"Bluescreen Protocol|Gadgeteer|DarkMatter|7",
-				"Ability Score Improvement|Gadgeteer|DarkMatter|8",
-				{
-					"classFeature": "Tech Specialty Feature|Gadgeteer|DarkMatter|10",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Gadgeteer|DarkMatter|12",
-				{
-					"classFeature": "Tech Specialty Feature|Gadgeteer|DarkMatter|14",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Gadgeteer|DarkMatter|16",
-				"Override Protocol|Gadgeteer|DarkMatter|18",
-				"Ability Score Improvement|Gadgeteer|DarkMatter|19",
-				"Antimagic Pulse|Gadgeteer|DarkMatter|20"
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Ai Companion",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 1,
-			"entries": [
-				"Beginning at 1st level, you are assisted by an AI companion, an intricate data construct which lives on your datapad and possesses near human-like levels of intelligence. When it manifests, it does so as a simple geometric projection; otherwise, it is merely a voice in your ear, checking your reasoning and informing you of relevant information. Your companion can solve any arithmetic or strictly logical problem you pose to it.",
-				"Additionally, whenever you make an Intelligence (Technology) check, you can treat the result as 10, or your gadgeteer level + your Intelligence modifier, whichever is higher.",
-				"Your AI companion downloads and integrates knowledge of additional subjects as you gain higher levels in this class. At 6th level, and again at 10th level and 15th level, you can choose one of the following skills to gain this benefit when you make an Intelligence check with it: Arcana, Data, History, Investigation, Nature, or Religion. "
-			]
-		},
-		{
-			"name": "Gadgets",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 1,
-			"entries": [
-				"At 1st level, you begin to amass a collection of cuttingedge technological devices called gadgets. You gain one gadget of your choice for which you meet the prerequisites. Because your gadgets are powered by your personal power cell, no other creature can use them. If one of your gadgets is lost or damaged, you can fashion a new one for no cost when you take a long rest.",
-				"You acquire additional gadgets as you gain levels in this class, as shown on the Gadgeteer table. Additionally, when you gain a level in this class, you can choose one of the gadgets you have and replace it with another one that you could gain at that level.",
-				"Your gadget options are detailed at the end of the class description.",
-				"{@b Saving Throws}. If one of your gadgets calls for a saving throw, its DC is calculated as follows:",
-				{
-					"type": "abilityDc",
-					"name": "Spell",
-					"attributes": [
-						"int"
-					]
-				}
-			]
-		},
-		{
-			"name": "Overcharge",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 2,
-			"entries": [
-				"With your technical aptitude and ingenuity, you can modify blasters to fire in more intense bursts. Starting at 2nd level, once on each of your turns when you hit a target with an attack from a blaster, you can deal an additional die of damage to that target.",
-				"This ability improves as you gain levels in this class. You add an additional die of damage at 5th level (2 dice), 11th level (3 dice), and 17th level (4 dice). Additionally, starting at 11th level, when you use this ability, you can add your Intelligence modifier to the blaster’s damage roll. "
-			]
-		},
-		{
-			"name": "Prototype",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 2,
-			"entries": [
-				"At 2nd level, you make a breakthrough innovation with a prototype of your own design. Choose one of the following three prototypes.",
-				{
-					"type": "options",
-					"count": 1,
-					"entries": [
-						{
-							"type": "refClassFeature",
-							"classFeature": "Experimental Frame|Gadgeteer|DarkMatter|2|DarkMatter"
-						},
-						{
-							"type": "refClassFeature",
-							"classFeature": "Mechanized Autonomous Construct|Gadgeteer|DarkMatter|2|DarkMatter"
-						},
-						{
-							"type": "refClassFeature",
-							"classFeature": "Utility Matrix|Gadgeteer|DarkMatter|2|DarkMatter"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Experimental Frame",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 2,
-			"entries": [
-				"You have developed a sophisticated experimental frame, a powerful exo-suit that augments your strength and shelters you from harm. Your experimental frame counts as heavy armor, which you can don or doff as a bonus action, and it also grants you the benefits of a life suit. You are proficient with your experimental frame, but no other creature can wear it. While wearing your frame, you gain the following benefits: ",
-				"Your size becomes Medium, if it is smaller. ",
-				"Your movement speed increases to 30 feet, if it is less. ",
-				"Your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. This armor can't be enchanted or modified to improve its Armor Class. ",
-				"Whenever you begin your turn wearing this frame, you gain temporary hit points equal to your gadgeteer level. These hit points last until you remove the frame. ",
-				"You can integrate a simple or martial weapon directly into your frame, or you can integrate two weapons (one into each arm) if neither has the Two-Handed property. When you draw an integrated weapon, it snaps to your hand and you can’t be disarmed of it. Your frame is programmed in all manner of combat protocol, so you can use these integrated weapons proficiently while wearing your frame, even if you're not normally proficient in their use. You can switch which weapons are integrated when you finish a long rest. ",
-				"When you make an attack with an integrated melee weapon, you can use your Intelligence modifier, instead of your Strength or Dexterity, for attack and damage rolls. ",
-				"Starting at 5th level, when you make a melee weapon attack with an integrated weapon, you can make an additional melee attack using that weapon as a bonus action."
-			]
-		},
-		{
-			"name": "Mechanized Autonomous Construct",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 2,
-			"entries": [
-				"You have put the finishing touches on a {@creature Mechanized Autonomous Construct|DarkMatter} (a MAC), which is a speciallyconstructed automaton piloted by your AI.",
-				"The construct has statistics as shown above, and takes its own turn in combat immediately after yours. On your turn, you can mentally command your construct if it is within 500 feet of you (no action required). You decide what action it will take and where it will move during its turn, or you can issue a general command, such as to guard a particular chamber or corridor. In combat, your construct's actions are governed by its Combat Protocols, which you can switch as a bonus action on your turn. If you are incapacitated or absent, your AI guides your construct to protect you and itself.",
-				"If your construct drops to 0 hit points, it becomes disabled. When you take a long rest, you can repair your construct to its full hit points. You are always considered to have enough materials to build and repair your construct.",
-				"You can integrate weapons and gadgets directly into your construct. You can integrate one two-handed melee weapon, two one-handed melee weapons, or a one-handed melee weapon and a gadget. When your construct draws an integrated weapon or gadget, the item snaps to its hand and it can’t be disarmed of it. Your construct is proficient with any weapons integrated into it. The construct takes the Use an Object action to activate an integrated gadget.",
-				"Starting at 5th level, your construct makes two attacks, instead of one, when you command it to take the Attack action with its integrated weapons."
-			]
-		},
-		{
-			"name": "Utility Matrix",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 2,
-			"entries": [
-				"You have developed a utility matrix, an advanced, cubeshaped mechanism that rearranges its form and function into that of other devices. Your matrix can become any of the following gadgets, which you can use at will:",
-				"{@b Cloaking Device}. As an action, you can activate your cloaking device to temporarily warp the light around you and hide yourself from view. You become invisible until the beginning of your next turn, or until you make an attack, cast a spell, or use a gadget. Once you use this gadget, you can't use it again on the following round.",
-				"{@b Flashbang}. As a bonus action, you throw a concussive bomb at your feet, disorienting and distracting nearby foes. Each creature within 5 feet of you can't take reactions until the start of its next turn. Once you use this gadget, you can't use it again on the following round.",
-				"{@b Forcefield Projector}. As a bonus action, you can activate your forcefield projector, temporarily sheltering yourself behind a powerful electromagnetic field. Until the beginning of your next turn, your Armor Class increases by your Intelligence modifier. Once you use this gadget, you can't use it again on the following round.",
-				"{@b Grappling Hook}. As a reaction when you fall, or as a bonus action on your turn, you can project a grappling hook at a target location you can see within your movement speed. If the target location can hold your weight, you are pulled there, expending movement normally. This movement doesn't provoke opportunity attacks. Once you use this gadget, you can't use it again on the following round.",
-				"{@b Modular Gadget}. Starting at 5th level, you can reconfigure your utility matrix into an un-upgraded gadget of your choice that does not have prerequisites. This gadget doesn't count against your total number of gadgets known. Alternately, you can reconfigure your utility matrix into an upgrade for an existing gadget for which you meet prerequisites. Once you reconfigure your utility matrix, you can’t do so again until you finish a long rest."
-			]
-		},
-		{
-			"name": "Tech Specialty",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 3,
-			"entries": [
-				"Beginning at 3rd level, you adopt a tech specialty that informs your gadgeteering expertise. Choose one Tech Specialty option. Your selection grants you features at 3rd level, and again at 6th, 10th, and 14th level."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 4,
-			"entries": [
-				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
-			]
-		},
-		{
-			"name": "Bluescreen Protocol",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 7,
-			"entries": [
-				"Beginning at 7th level, you have integrated a complex construct-disabling algorithm into your AI companion, which you can activate as an action. Each construct within 30 feet of you must make a Wisdom saving throw with disadvantage against your Gadget save DC. On a failed save, a construct is incapacitated and its speed is reduced to 0 until the beginning of your next turn, even if it would otherwise be immune to being incapacitated.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Override Protocol",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 18,
-			"entries": [
-				"At 18th level, your AI companion can upload a devastating virus to seize control of a construct. You can use your action to touch a construct within your reach, which must succeed a Wisdom saving throw against your Gadget save DC or be charmed by you for 1 hour, even if it would otherwise be immune to being charmed. While it is charmed, you can issue commands to the construct while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as attack that creature, run over there, or fetch that object. If the construct completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
-				"Once you use this feature, you can't use it again until you finish a long rest."
-			]
-		},
-		{
-			"name": "Antimagic Pulse",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 20,
-			"entries": [
-				"By 20th level, you perfect a cutting-edge device capable of producing an antimagic pulse (abbreviated AMP), a type of energetic burst that completely disrupts and disables magic and machines. You can use your action to throw this device to a location within 60 feet, which explodes in a flash of blue light. This device creates an {@spell antimagic field} (as per the spell) for 1 minute centered on the device, with the following changes: ",
-				{
-					"type": "list",
-					"items": [
-						"The effect is a 20-foot radius sphere.",
-						"Magical technology (including your gadgets and blasters) count as magic items and are suppressed within the sphere. Blasters can’t be used to make attacks while within the sphere, and attacks with them can’t penetrate into it. ",
-						"Constructs within the sphere are paralyzed for the duration, even if they would otherwise be immune to this condition."
-					]
-				},
-				"Destroying the device once it is thrown doesn't end its effects early. Once you use this device, it fizzles out. You can make a new one when you finish a long rest. "
-			]
-		},
-		{
-			"name": "Tech Specialty Feature",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 6,
-			"entries": [
-				"At 6th level, you gain a feature from your Tech Specialty."
-			]
-		},
-		{
-			"name": "Tech Specialty Feature",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 10,
-			"entries": [
-				"At 10th level, you gain a feature from your Tech Specialty."
-			]
-		},
-		{
-			"name": "Tech Specialty Feature",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 14,
-			"entries": [
-				"At 14th level, you gain a feature from your Tech Specialty."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 8,
-			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 12,
-			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 16,
-			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "DarkMatter",
-			"className": "Gadgeteer",
-			"classSource": "DarkMatter",
-			"level": 19,
-			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		}
-	],
 	"race": [
 		{
 			"name": "Amoeboid",
@@ -4523,9 +4086,9 @@
 				{
 					"name": "Flexible Form",
 					"entries": [
-						"You can use your action to stretch, compress, and mold your body into a myriad of shapes. You can transform into any static form that you choose that is no larger than 8 feet in any dimension. When you assume this form, you can replicate something’s basic shape but not its color, texture, moving parts, or fine details. You can’t change your body’s volume, nor can you move, attack, or cast spells while you’re transformed into a static shape.",
-						"You can also use your action to touch a living creature and assume its general form. Your size and other statistics don’t change. You gain the ability to speak and understand that creature’s language, and if the target has a burrowing, climbing, or swimming speed, you gain those with the same speed, up to a maximum of 40 feet.",
-						"Your transformation ends after 1 hour, or when you choose to end it on your turn (no action required). If you transform into a form incapable of wearing armor, your armor falls off. You can only take actions while you’re transformed if you are in the form of a creature, and you can only take actions that creature would be able to take."
+						"You can use your action to stretch, compress, and mold your body into a myriad of shapes. You can transform into any static form that you choose that is no larger than 8 feet in any dimension. When you assume this form, you can replicate something's basic shape but not its color, texture, moving parts, or fine details. You can't change your body's volume, nor can you move, attack, or cast spells while you're transformed into a static shape.",
+						"You can also use your action to touch a living creature and assume its general form. Your size and other statistics don't change. You gain the ability to speak and understand that creature's language, and if the target has a burrowing, climbing, or swimming speed, you gain those with the same speed, up to a maximum of 40 feet.",
+						"Your transformation ends after 1 hour, or when you choose to end it on your turn (no action required). If you transform into a form incapable of wearing armor, your armor falls off. You can only take actions while you're transformed if you are in the form of a creature, and you can only take actions that creature would be able to take."
 					]
 				},
 				{
@@ -4543,7 +4106,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Amoeboid. Most creatures are only able to approximate speaking Amoeboid, for its burbling words are made using the amoeboid’s fluid body. If you are transformed into a creature that has a language, you can speak and understand that language"
+						"You can speak, read, and write Common and Amoeboid. Most creatures are only able to approximate speaking Amoeboid, for its burbling words are made using the amoeboid's fluid body. If you are transformed into a creature that has a language, you can speak and understand that language"
 					]
 				}
 			],
@@ -4592,7 +4155,7 @@
 				{
 					"name": "Darkvision",
 					"entries": [
-						"Thanks to the rituals of your ancestors, the light of the sun dances in your eyes and grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Thanks to the rituals of your ancestors, the light of the sun dances in your eyes and grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -4610,8 +4173,8 @@
 				{
 					"name": "Blessings of the Sun",
 					"entries": [
-						"You can cast the spell bless, targeting only yourself, without using a spell slot. Wisdom is your spellcasting ability for this spell. For the spell’s duration, if you roll a 4 on the d4 that you add to an attack roll or saving throw, you gain advantage on that attack roll or saving throw.",
-						"Once you use this trait, you can’t use it again until you finish a long rest."
+						"You can cast the spell bless, targeting only yourself, without using a spell slot. Wisdom is your spellcasting ability for this spell. For the spell's duration, if you roll a 4 on the d4 that you add to an attack roll or saving throw, you gain advantage on that attack roll or saving throw.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
 					]
 				},
 				{
@@ -4883,7 +4446,7 @@
 				{
 					"name": "Darkvision",
 					"entries": [
-						"Thanks to the rituals of your ancestors, the light of the sun dances in your eyes and grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Thanks to the rituals of your ancestors, the light of the sun dances in your eyes and grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -5155,13 +4718,13 @@
 				{
 					"name": "Darkvision",
 					"entries": [
-						"Thanks to the rituals of your ancestors, the light of the sun dances in your eyes and grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Thanks to the rituals of your ancestors, the light of the sun dances in your eyes and grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					]
 				},
 				{
 					"name": "Neural Lock",
 					"entries": [
-						"You can use your action to freeze the nervous system of a humanoid creature you can see within 60 feet. This creature must make a Wisdom saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature is incapacitated and its speed becomes 0 until the start of your next turn. After you use your neural lock, you can’t use it again until you finish a long rest."
+						"You can use your action to freeze the nervous system of a humanoid creature you can see within 60 feet. This creature must make a Wisdom saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature is incapacitated and its speed becomes 0 until the start of your next turn. After you use your neural lock, you can't use it again until you finish a long rest."
 					]
 				},
 				{
@@ -5194,6 +4757,449 @@
 					"common": true,
 					"Wrothian": true
 				}
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Gadgeteer",
+			"source": "DarkMatter",
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": [
+				"dex",
+				"int"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"simple blasters",
+					"martial weapons"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"data",
+								"deception",
+								"history",
+								"investigation",
+								"medicine",
+								"nature",
+								"piloting",
+								"religion",
+								"sleight of hand",
+								"technology"
+							],
+							"count": 3
+						}
+					}
+				],
+				"tools": [
+					"alchemist's supplies",
+					"circuitry kit",
+					"mechanist's tools",
+					"ship maintenance tools",
+					"smith's tools",
+					"tinker tools"
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"A repeater and any simple weapon",
+					"(a) a martial blaster or (b) two simple blasters",
+					"(a) a circuitry kit or (b) a mechanist's tools",
+					"An engineer's pack and leather armor"
+				],
+				"defaultData": [
+					{
+						"_": [
+							"repeater|DarkMatter",
+							{
+								"equipmentType": "weaponSimple"
+							},
+							"engineer's pack|DarkMatter",
+							"leather armor|phb"
+						]
+					},
+					{
+						"a": [
+							{
+								"special": "a martial blaster"
+							}
+						],
+						"b": [
+							{
+								"special": "two simple blasters"
+							}
+						]
+					},
+					{
+						"a": [
+							"circuitry kit|DarkMatter"
+						],
+						"b": [
+							"mechanist's tools|DarkMatter"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {},
+				"proficienciesGained": {}
+			},
+			"fluff": [
+				{
+					"name": "Gadgeteer",
+					"type": "section",
+					"entries": [
+						"A gnome tinkers at his workbench, fervently toiling with two precise instruments under a magnifying lens. Suddenly, a spark of blue electricity flashes across the room and scorches the far wall. The gnome grins and puts away his tools.",
+						"An amoeboid carefully positions a rabbit on a pedestal, stands back, and presses a large red button. With a pop and a puff of fur, the rabbit vanishes, only to hop back into the room seconds later, hairless from the waist down. The amoeboid nods and scratches down a few notes.",
+						"A bald human woman with a glowing, red, robotic eye tightens the joints on her new cybernetic arm. Her work complete, she rears back her metal fist and crushes a nearby chair.",
+						"Gadgeteers are masters of technology and engineering, turning every device available to their advantage. Assisted by their artificial intelligence companions, gadgeteers pursue the cutting edge of science and innovation, acquiring a mass of gadgets and a wealth of knowledge along the way.",
+						{
+							"type": "entries",
+							"name": "Cutting-Edge Innovators",
+							"entries": [
+								"Impelled by the lure of systems and logic, a wildly eccentric group embraces the sciences. These disparate tinkers, students, and inventors tend to be uniformly welleducated (or at least highly self-educated) in the principles of science, arcana, and engineering, with a particular focus on practical applications. Though most gadgeteers are at least curious about the underlying mysteries of the universe, many view groundbreaking scientific discoveries as a means to an end; theory only exists to facilitate application.",
+								"Fueled by breakthroughs and scientific advances, gadgeteers push the cutting edge of science and innovation, devising new technological marvels (or at least new blaster variants) at a breakneck pace. Some gadgeteers become absorbed in a particular problem, innovating and optimizing solutions for it alone, while others devise technological marvels wherever they can find application. All the great advances of the modern world, from datapads to Dark Matter engines, have been spearheaded by gadgeteers."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "AIs",
+							"entries": [
+								"A gadgeteer is rarely seen far from the floating holographic orb that is their Artificial Intelligence (AI) companion. After all, an organic brain can only hold so much information, whereas an AI can recall equations, trace schematics, and perform calculations with ease. Such intellect is nothing without a gadgeteer's ingenuity, of course, but the watchful eye of an AI can still spot errors that their creator might not have noticed.",
+								"But more than that, an AI companion is also a tireless friend. The endless work of a gadgeteer can often be monotonous and isolating, but the constant, friendly voice of an AI in one's ear goes a long way to preventing mad scientists and doomsday devices."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Gadgeteer",
+							"entries": [
+								"When devising your gadgeteer, consider what draws your character to the sciences. Is it the challenge of working out a new puzzle, or the thrill of perfecting a new invention? Perhaps your character is obsessed with a particular facet of the universe, and longs to unravel its mysteries. Think about how you learned about science and engineering. Did you have a mentor that shaped your understanding, or are you totally self-educated?",
+								"Also, consider which Prototype you'll pick when you reach 2nd level. Are you interested in having a gadget for every situation, or do you just prefer having a big, hulking mech suit? Consider what this prototype means for your specialization and your character's personality in general.",
+								"Lastly, put some thought into your AI. What's its name, and what type of personality does it possess, if any?"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Gnomish Gadgeteers",
+							"entries": [
+								"Though this class can be played by characters of any race or faction, in Dark Matter, it is particularly favored by gnomes. As gnomes are notoriously skeptical of magic, they devise all of their gadgets and equipment exclusively using science and engineering, making them useful in Dead Magic Zones.",
+								"Gnomish gadgeteers must choose proficiency in the Technology skill at 1st level. All gadgets and magic items crafted by a gnomish gadgeteer operate normally in Dead Magic Zones. If a gnomish device would deal radiant damage, it deals force damage instead."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Gadgeteers Outside of Dark Matter",
+							"entries": [
+								"More so than almost any other class, the gadgeteer is uniquely focused on science and engineering, which might not fit cohesively with all campaign settings. If used in a setting outside of Dark Matter, it might be useful to translate the class into more familiar terms: rather than ‘Gadgets,' the gadgeteer uses ‘Magic Items,' rather than an ‘AI Companion,' they have a ‘Sentient Magic Item,' and rather than a ‘Prototype,' they have a ‘Relic', and so on. The mechanics of most of these devices need not be changed, for technology in Dark Matter is also generally powered by magic.",
+								"Blasters, on the other hand, are fairly unique to Dark Matter. The bonus damage offered by Overcharge can be applied to ranged attacks from crossbows or cantrips, as appropriate to the setting.",
+								"Any reference to Dark Matter skills, such as Intelligence (Data) and Intelligence (Technology), can be replaced with a base Intelligence check.",
+								"For some characters and campaigns, a fun alternative might be to present the gadgeteer as a time-traveler or a stranded visitor from outer space, equipped with high technology. This angle works best with a heavy dose of humor and satire, contrasting a conventional fantasy setting with a sci-fi outsider."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quick Build",
+							"entries": [
+								"Follow these suggestions to quickly build a gadgeteer. Choose Intelligence as your highest ability score, followed by Dexterity. Investing in Constitution might also be wise for characters that intend to select the Experimental Frame Prototype at 2nd level. For your equipment, choose a researcher's pack and an antimatter dagger. Lastly, choose the Technologist background."
+							]
+						}
+					]
+				}
+			],
+			"classFeatures": [
+				"Ai Companion|Gadgeteer|DarkMatter|1",
+				"Gadgets|Gadgeteer|DarkMatter|1",
+				"Overcharge|Gadgeteer|DarkMatter|2",
+				"Prototype|Gadgeteer|DarkMatter|2",
+				{
+					"classFeature": "Tech Specialty|Gadgeteer|DarkMatter|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gadgeteer|DarkMatter|4",
+				{
+					"classFeature": "Tech Specialty Feature|Gadgeteer|DarkMatter|6",
+					"gainSubclassFeature": true
+				},
+				"Bluescreen Protocol|Gadgeteer|DarkMatter|7",
+				"Ability Score Improvement|Gadgeteer|DarkMatter|8",
+				{
+					"classFeature": "Tech Specialty Feature|Gadgeteer|DarkMatter|10",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gadgeteer|DarkMatter|12",
+				{
+					"classFeature": "Tech Specialty Feature|Gadgeteer|DarkMatter|14",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gadgeteer|DarkMatter|16",
+				"Override Protocol|Gadgeteer|DarkMatter|18",
+				"Ability Score Improvement|Gadgeteer|DarkMatter|19",
+				"Antimagic Pulse|Gadgeteer|DarkMatter|20"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Ai Companion",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, you are assisted by an AI companion, an intricate data construct which lives on your datapad and possesses near human-like levels of intelligence. When it manifests, it does so as a simple geometric projection; otherwise, it is merely a voice in your ear, checking your reasoning and informing you of relevant information. Your companion can solve any arithmetic or strictly logical problem you pose to it.",
+				"Additionally, whenever you make an Intelligence (Technology) check, you can treat the result as 10, or your gadgeteer level + your Intelligence modifier, whichever is higher.",
+				"Your AI companion downloads and integrates knowledge of additional subjects as you gain higher levels in this class. At 6th level, and again at 10th level and 15th level, you can choose one of the following skills to gain this benefit when you make an Intelligence check with it: Arcana, Data, History, Investigation, Nature, or Religion. "
+			]
+		},
+		{
+			"name": "Gadgets",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 1,
+			"entries": [
+				"At 1st level, you begin to amass a collection of cuttingedge technological devices called {@filter Gadgets|optionalfeatures|feature type=Gadgets}. You gain one gadget of your choice for which you meet the prerequisites. Because your gadgets are powered by your personal power cell, no other creature can use them. If one of your gadgets is lost or damaged, you can fashion a new one for no cost when you take a long rest.",
+				"You acquire additional gadgets as you gain levels in this class, as shown on the Gadgeteer table. Additionally, when you gain a level in this class, you can choose one of the gadgets you have and replace it with another one that you could gain at that level.",
+				"Your gadget options are detailed at the end of the class description.",
+				"{@b Saving Throws}. If one of your gadgets calls for a saving throw, its DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Spell",
+					"attributes": [
+						"int"
+					]
+				}
+			]
+		},
+		{
+			"name": "Overcharge",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 2,
+			"entries": [
+				"With your technical aptitude and ingenuity, you can modify blasters to fire in more intense bursts. Starting at 2nd level, once on each of your turns when you hit a target with an attack from a blaster, you can deal an additional die of damage to that target.",
+				"This ability improves as you gain levels in this class. You add an additional die of damage at 5th level (2 dice), 11th level (3 dice), and 17th level (4 dice). Additionally, starting at 11th level, when you use this ability, you can add your Intelligence modifier to the blaster's damage roll. "
+			]
+		},
+		{
+			"name": "Prototype",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you make a breakthrough innovation with a prototype of your own design. Choose one of the following three prototypes.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Experimental Frame|Gadgeteer|DarkMatter|2|DarkMatter"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Mechanized Autonomous Construct|Gadgeteer|DarkMatter|2|DarkMatter"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Utility Matrix|Gadgeteer|DarkMatter|2|DarkMatter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Experimental Frame",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 2,
+			"entries": [
+				"You have developed a sophisticated experimental frame, a powerful exo-suit that augments your strength and shelters you from harm. Your experimental frame counts as heavy armor, which you can don or doff as a bonus action, and it also grants you the benefits of a life suit. You are proficient with your experimental frame, but no other creature can wear it. While wearing your frame, you gain the following benefits: ",
+				"Your size becomes Medium, if it is smaller. ",
+				"Your movement speed increases to 30 feet, if it is less. ",
+				"Your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. This armor can't be enchanted or modified to improve its Armor Class. ",
+				"Whenever you begin your turn wearing this frame, you gain temporary hit points equal to your gadgeteer level. These hit points last until you remove the frame. ",
+				"You can integrate a simple or martial weapon directly into your frame, or you can integrate two weapons (one into each arm) if neither has the Two-Handed property. When you draw an integrated weapon, it snaps to your hand and you can't be disarmed of it. Your frame is programmed in all manner of combat protocol, so you can use these integrated weapons proficiently while wearing your frame, even if you're not normally proficient in their use. You can switch which weapons are integrated when you finish a long rest. ",
+				"When you make an attack with an integrated melee weapon, you can use your Intelligence modifier, instead of your Strength or Dexterity, for attack and damage rolls. ",
+				"Starting at 5th level, when you make a melee weapon attack with an integrated weapon, you can make an additional melee attack using that weapon as a bonus action."
+			]
+		},
+		{
+			"name": "Mechanized Autonomous Construct",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 2,
+			"entries": [
+				"You have put the finishing touches on a {@creature Mechanized Autonomous Construct|DarkMatter} (a MAC), which is a speciallyconstructed automaton piloted by your AI.",
+				"The construct has statistics as shown above, and takes its own turn in combat immediately after yours. On your turn, you can mentally command your construct if it is within 500 feet of you (no action required). You decide what action it will take and where it will move during its turn, or you can issue a general command, such as to guard a particular chamber or corridor. In combat, your construct's actions are governed by its Combat Protocols, which you can switch as a bonus action on your turn. If you are incapacitated or absent, your AI guides your construct to protect you and itself.",
+				"If your construct drops to 0 hit points, it becomes disabled. When you take a long rest, you can repair your construct to its full hit points. You are always considered to have enough materials to build and repair your construct.",
+				"You can integrate weapons and gadgets directly into your construct. You can integrate one two-handed melee weapon, two one-handed melee weapons, or a one-handed melee weapon and a gadget. When your construct draws an integrated weapon or gadget, the item snaps to its hand and it can't be disarmed of it. Your construct is proficient with any weapons integrated into it. The construct takes the Use an Object action to activate an integrated gadget.",
+				"Starting at 5th level, your construct makes two attacks, instead of one, when you command it to take the Attack action with its integrated weapons."
+			]
+		},
+		{
+			"name": "Utility Matrix",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 2,
+			"entries": [
+				"You have developed a utility matrix, an advanced, cubeshaped mechanism that rearranges its form and function into that of other devices. Your matrix can become any of the following gadgets, which you can use at will:",
+				"{@b Cloaking Device}. As an action, you can activate your cloaking device to temporarily warp the light around you and hide yourself from view. You become invisible until the beginning of your next turn, or until you make an attack, cast a spell, or use a gadget. Once you use this gadget, you can't use it again on the following round.",
+				"{@b Flashbang}. As a bonus action, you throw a concussive bomb at your feet, disorienting and distracting nearby foes. Each creature within 5 feet of you can't take reactions until the start of its next turn. Once you use this gadget, you can't use it again on the following round.",
+				"{@b Forcefield Projector}. As a bonus action, you can activate your forcefield projector, temporarily sheltering yourself behind a powerful electromagnetic field. Until the beginning of your next turn, your Armor Class increases by your Intelligence modifier. Once you use this gadget, you can't use it again on the following round.",
+				"{@b Grappling Hook}. As a reaction when you fall, or as a bonus action on your turn, you can project a grappling hook at a target location you can see within your movement speed. If the target location can hold your weight, you are pulled there, expending movement normally. This movement doesn't provoke opportunity attacks. Once you use this gadget, you can't use it again on the following round.",
+				"{@b Modular Gadget}. Starting at 5th level, you can reconfigure your utility matrix into an un-upgraded gadget of your choice that does not have prerequisites. This gadget doesn't count against your total number of gadgets known. Alternately, you can reconfigure your utility matrix into an upgrade for an existing gadget for which you meet prerequisites. Once you reconfigure your utility matrix, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Tech Specialty",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you adopt a tech specialty that informs your gadgeteering expertise. Choose one Tech Specialty option. Your selection grants you features at 3rd level, and again at 6th, 10th, and 14th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Bluescreen Protocol",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, you have integrated a complex construct-disabling algorithm into your AI companion, which you can activate as an action. Each construct within 30 feet of you must make a Wisdom saving throw with disadvantage against your Gadget save DC. On a failed save, a construct is incapacitated and its speed is reduced to 0 until the beginning of your next turn, even if it would otherwise be immune to being incapacitated.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Override Protocol",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 18,
+			"entries": [
+				"At 18th level, your AI companion can upload a devastating virus to seize control of a construct. You can use your action to touch a construct within your reach, which must succeed a Wisdom saving throw against your Gadget save DC or be charmed by you for 1 hour, even if it would otherwise be immune to being charmed. While it is charmed, you can issue commands to the construct while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as attack that creature, run over there, or fetch that object. If the construct completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Antimagic Pulse",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 20,
+			"entries": [
+				"By 20th level, you perfect a cutting-edge device capable of producing an antimagic pulse (abbreviated AMP), a type of energetic burst that completely disrupts and disables magic and machines. You can use your action to throw this device to a location within 60 feet, which explodes in a flash of blue light. This device creates an {@spell antimagic field} (as per the spell) for 1 minute centered on the device, with the following changes: ",
+				{
+					"type": "list",
+					"items": [
+						"The effect is a 20-foot radius sphere.",
+						"Magical technology (including your gadgets and blasters) count as magic items and are suppressed within the sphere. Blasters can't be used to make attacks while within the sphere, and attacks with them can't penetrate into it. ",
+						"Constructs within the sphere are paralyzed for the duration, even if they would otherwise be immune to this condition."
+					]
+				},
+				"Destroying the device once it is thrown doesn't end its effects early. Once you use this device, it fizzles out. You can make a new one when you finish a long rest. "
+			]
+		},
+		{
+			"name": "Tech Specialty Feature",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature from your Tech Specialty."
+			]
+		},
+		{
+			"name": "Tech Specialty Feature",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature from your Tech Specialty."
+			]
+		},
+		{
+			"name": "Tech Specialty Feature",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature from your Tech Specialty."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "DarkMatter",
+			"className": "Gadgeteer",
+			"classSource": "DarkMatter",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 			]
 		}
 	],
@@ -5657,7 +5663,7 @@
 				"You have chosen to embrace your golem heritage and redefine yourself as a construct. You can't gain this feat if you have the Vitality Upgrade feat. You gain the following benefits:",
 				"• Increase two of your Strength, Dexterity, or Constitution scores by 1, to a maximum of 20. Decrease your Charisma score by 1.",
 				"• When you have Adamantine Plating or Juggernaut Plating installed, your AC is 18.",
-				"• You can’t be poisoned and magic can’t put you to sleep.",
+				"• You can't be poisoned and magic can't put you to sleep.",
 				"• You can add your proficiency bonus to any saving throw you make against a spell."
 			],
 			"ability": [
@@ -5725,7 +5731,7 @@
 			"entries": [
 				"One of your parents was a creature of darkness, such as a shadow or a native to the Plane of Shadow. Grues such as yourself have blackened skin and cast a shadow in all directions, even when directly in light. In shadows, you are nearly invisible. You have the following racial traits:",
 				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.",
+				"• You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
 				"• When you are hidden and a creature discovers you with a successful Wisdom (Perception) check, you can reattempt your Dexterity (Stealth) check to hide. On a success, you silently reposition yourself, and the creature does not notice you. Once you use this trait, you can't use it again until you finish a short or long rest."
 			],
 			"ability": [
@@ -5779,7 +5785,7 @@
 			"entries": [
 				"You are equipped with an advanced aqua suit bestowed upon nautilid warriors, known as a Leviathan Suit. You gain the following benefits while wearing your suit:",
 				"• Increase your Strength score by 1, to a maximum of 20.",
-				"• You can integrate two one-handed weapons or one two-handed weapon into your suit. When you draw an integrated weapon, it snaps to your hand and you can’t be disarmed of it. You can switch which weapons are integrated when you take a long rest.",
+				"• You can integrate two one-handed weapons or one two-handed weapon into your suit. When you draw an integrated weapon, it snaps to your hand and you can't be disarmed of it. You can switch which weapons are integrated when you take a long rest.",
 				"• You can attempt to move through a hostile creature's space as a bonus action. When you do so, make an opposed Strength (Athletics) check against the target. On a success, you move into the target's space and push the target up to 10 feet in any direction you choose."
 			],
 			"ability": [
@@ -5803,7 +5809,7 @@
 			"entries": [
 				"You are a paragon of the Avia-Ra, and your faith in the sun never wavers. You can't gain this feat if you have the Nonbeliever feat. You gain the following benefits:",
 				"• Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
-				"• You can use a bonus action to undergo a divine transformation, which lasts for 1 minute. Once you use this transformation, you can’t use it again until you finish a long rest. You can invest this divine power in one of the following abilities:",
+				"• You can use a bonus action to undergo a divine transformation, which lasts for 1 minute. Once you use this transformation, you can't use it again until you finish a long rest. You can invest this divine power in one of the following abilities:",
 				"Aura. You manifest a radiant aura, which sheds bright light in a radius of 10 feet, and dim light for an additional 10 feet. Additionally, each creature you choose which comes within 5 feet of you or begins its turn in that area takes 1d8 radiant damage.",
 				"Shield. You manifest a glorious shield of crimson energy and your Armor Class increases by 2 if you aren't wielding a shield. You have resistance to fire, necrotic, and radiant damage.",
 				"Wings. You manifest luminous, incorporeal wings and a sunlike disk appears behind your head. These wings grant you a flight speed of 30 feet."
@@ -5871,8 +5877,8 @@
 				"You are a heretic of the avia-ra, and have turned your back on the Sun Above. You can't gain this feat if you have the Mantle of the Sun feat. You gain the following benefits:",
 				"• Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
 				"• Whenever you reduce a creature to 0 hit points, and that creature begins to make death saving throws, it automatically gains one failure.",
-				"• You can cast the spell darkness once without using a spell slot or spell components. Once you use this trait, you can’t use it again until you finish a long rest.",
-				"• When a creature you can see regains hit points due to magic, you can use your reaction to cause that creature to lose that many hit points instead. Once you use this trait, you can’t use it again until you finish a long rest."
+				"• You can cast the spell darkness once without using a spell slot or spell components. Once you use this trait, you can't use it again until you finish a long rest.",
+				"• When a creature you can see regains hit points due to magic, you can use your reaction to cause that creature to lose that many hit points instead. Once you use this trait, you can't use it again until you finish a long rest."
 			],
 			"ability": [
 				{
@@ -5939,7 +5945,7 @@
 				"• Increase one ability score of your choice by 1, to a maximum of 20.",
 				"• You can go twice as long as other humans without eating or drinking.",
 				"• You can speak, read, and write Draconic.",
-				"• You can use your action to spit acid from your mouth. When you do so, make a ranged attack roll against a creature within 30 feet. On a hit, the target takes 1d8 acid damage for each point of your proficiency bonus. Once you use this trait, you can’t use it again until you finish a short or long rest."
+				"• You can use your action to spit acid from your mouth. When you do so, make a ranged attack roll against a creature within 30 feet. On a hit, the target takes 1d8 acid damage for each point of your proficiency bonus. Once you use this trait, you can't use it again until you finish a short or long rest."
 			],
 			"ability": [
 				{
@@ -5975,7 +5981,7 @@
 				"• Increase one ability score of your choice by 1, to a maximum of 20.",
 				"• You have resistance to cold damage.",
 				"• You take no damage from the extreme temperatures of space and other harsh environments.",
-				"• You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+				"• You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 			],
 			"ability": [
 				{
@@ -6010,7 +6016,7 @@
 				"You hail from a world that followed a slightly different evolutionary path than High Terra; your people all resemble monkeys or apes. Despite your more primitive appearance and your prominent tail, you are just as intelligent as other humans—you just like bananas a little more. You gain the following benefits:",
 				"• Increase one ability score of your choice by 1, to a maximum of 20.",
 				"• You gain a climbing speed equal to half your movement speed.",
-				"• You can hold and manipulate objects and weapons with your hands, feet, and tail, but you can’t make attack rolls with weapons held by your tail."
+				"• You can hold and manipulate objects and weapons with your hands, feet, and tail, but you can't make attack rolls with weapons held by your tail."
 			],
 			"ability": [
 				{
@@ -6165,7 +6171,7 @@
 			"entries": [
 				"Increase one ability score of your choice by 1, to a maximum of 20.",
 				"• Your face and body are unnerving to behold. You gain proficiency with Intimidation.",
-				"• In response to the ravages of the warp, many of your vital organs have shifted to new locations within your body. When you are targeted by an attack that is a critical hit, you can choose to take no additional damage from the critical hit, as if it were a normal hit instead. Once you use this ability, you can’t use it again until you finish a long rest."
+				"• In response to the ravages of the warp, many of your vital organs have shifted to new locations within your body. When you are targeted by an attack that is a critical hit, you can choose to take no additional damage from the critical hit, as if it were a normal hit instead. Once you use this ability, you can't use it again until you finish a long rest."
 			],
 			"ability": [
 				{
@@ -6229,7 +6235,7 @@
 				"Charged with recalling defective constructs, hunting renegade androids, and quarantining the N-Virus, decommissioners are experts in slaying machines. You gain the following benefits:",
 				"• By spending 1 minute observing or conversing with a creature, you can discern if that creature is a disguised construct, such as an android. If the creature is a construct or living construct, you can tell if the construct is malfunctioning and if the construct is infected with the N-Virus (even if the virus is dormant).",
 				"• When a construct or living construct within 5 feet of you makes an attack, you can use your reaction to make a melee weapon attack against that creature.",
-				"• When you hit a construct with a melee weapon attack, you can cripple its joints. Until the end of its next turn, its speed is reduced by 10 feet, to a minimum of 0, and it can’t take the Dash action.",
+				"• When you hit a construct with a melee weapon attack, you can cripple its joints. Until the end of its next turn, its speed is reduced by 10 feet, to a minimum of 0, and it can't take the Dash action.",
 				"• You can add your proficiency bonus to any saving throw you make against an effect caused by a piece of magical technology, such as a concussion grenade or a volcanic."
 			]
 		},
@@ -6240,7 +6246,7 @@
 				"Under your leadership, your allies fight as a cohesive unit, outmaneuvering and outflanking any enemy. You gain the following benefits:",
 				"• Increase your Charisma score by 1, to a maximum of 20.",
 				"• As an action, you can issue an order to an ally within 60 feet that can hear you. They can then use their reaction to take one of the following actions: Attack (one attack only), Dash, Disengage, Dodge, Help, Hide, Search, or Use an Object.",
-				"• While you are within 5 feet of two or more allies who aren’t incapacitated, hostile creatures can't have advantage on attack rolls against you."
+				"• While you are within 5 feet of two or more allies who aren't incapacitated, hostile creatures can't have advantage on attack rolls against you."
 			],
 			"ability": [
 				{
@@ -6345,7 +6351,7 @@
 				"Understanding of technology comes naturally to you, and the intricacies of complicated systems always seem to unravel in front of your eyes, no matter how convoluted they seem at first. You gain the following benefits:",
 				"• Increase your Intelligence score by 1, to a maximum of 20.",
 				"• You gain proficiency in the Technology skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-				"• You gain proficiency in circuitry kits, mechanist’s tools, and ship maintenance tools.",
+				"• You gain proficiency in circuitry kits, mechanist's tools, and ship maintenance tools.",
 				"• You can instantly assess the damage of any device you see. You can determine whether or not an object is repairable, how long a repair will take, how expensive a repair would be, and what tools and materials it might cost."
 			],
 			"ability": [
@@ -6432,7 +6438,7 @@
 			"entries": [
 				"When it comes to firing a blaster, quantity often beats quality. By holding down the trigger and firing nonstop, you gain the following benefits:",
 				"• Increase your Strength or Dexterity score by 1, to a maximum of 20.",
-				"• As an action, while wielding a weapon that has the Automatic property, you can target a 10-foot cube area with a hail of bullets. Each creature in the area must succeed on a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Dexterity modifier) or take the weapon’s normal damage.",
+				"• As an action, while wielding a weapon that has the Automatic property, you can target a 10-foot cube area with a hail of bullets. Each creature in the area must succeed on a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Dexterity modifier) or take the weapon's normal damage.",
 				"• You can use your Strength modifier instead of your Dexterity modifier when making attack rolls with a weapon that has the Mounted property."
 			]
 		},
@@ -6483,7 +6489,7 @@
 			"name": "Ace Pilot",
 			"source": "DarkMatter",
 			"entries": [
-				"You have logged thousands of hours at a starship’s helm, granting you the following benefits:",
+				"You have logged thousands of hours at a starship's helm, granting you the following benefits:",
 				"• You gain proficiency in the Piloting skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
 				"• When you are in the Pilot role and you take Evasive Maneuvers, you can move 1,000 feet in any direction.",
 				"• No matter how difficult the conditions, if you are forced to make a crash landing, you can guide the ship to the ground softly enough to ensure that no one aboard dies in the crash."
@@ -6523,7 +6529,7 @@
 			"source": "DarkMatter",
 			"entries": [
 				"You are among the deadliest fighter pilots alive. Your dogfighting instincts guide you in the heat of combat, and grant you the following benefits:",
-				"• While you are in the Dogfighter role, you can use the Pilot's Dogfighting action as a bonus action, which expends half of your ship’s movement. Additionally, you have advantage on the Dexterity (Piloting) check.",
+				"• While you are in the Dogfighter role, you can use the Pilot's Dogfighting action as a bonus action, which expends half of your ship's movement. Additionally, you have advantage on the Dexterity (Piloting) check.",
 				"• While you are in the Dogfighter role and your ship would drop to 0 mega hit points, you can choose for the ship to drop to 1 mega hit point instead. Once you use this ability, you can't do so again until you finish a long rest.",
 				"• You can recognize any common ship model instantly, and know the typical capacity for passengers, tonnage, and weapons for any ship that you can see."
 			]
@@ -6537,11 +6543,11 @@
 				}
 			],
 			"entries": [
-				"As a fully-inducted Agent of the Tower, you are familiar with the organization’s cryptic ciphers, secret codes, and arcane symbols, and are trained in their clandestine, magical arts. You gain the following benefits:",
+				"As a fully-inducted Agent of the Tower, you are familiar with the organization's cryptic ciphers, secret codes, and arcane symbols, and are trained in their clandestine, magical arts. You gain the following benefits:",
 				"• You are branded with an invisible tattoo, visible only under the effects of the spell detect magic, which is used to identify you as an Agent to your fellow Tower members.",
 				"• You learn the prestidigitation cantrip. If you already know prestidigitation, you can instead learn any other wizard cantrip. Intelligence is your spellcasting ability for this spell.",
-				"• When you cast a spell, you can make an Intelligence (Arcana) check to disguise the spell’s casting. The DC equals 12 + the spell’s level. On a successful check, you can cast the spell without its verbal or somatic components (your choice).",
-				"• You can use your action to magically muffle your movement and hasten your step. For the next minute, creatures have disadvantage on Wisdom (Perception) checks to hear you move, and your movement speed increases by 5 feet. Once you use this ability, you can’t use it again until you take a long rest."
+				"• When you cast a spell, you can make an Intelligence (Arcana) check to disguise the spell's casting. The DC equals 12 + the spell's level. On a successful check, you can cast the spell without its verbal or somatic components (your choice).",
+				"• You can use your action to magically muffle your movement and hasten your step. For the next minute, creatures have disadvantage on Wisdom (Perception) checks to hear you move, and your movement speed increases by 5 feet. Once you use this ability, you can't use it again until you take a long rest."
 			]
 		},
 		{
@@ -6601,7 +6607,7 @@
 				"You have passed the legal and ritualistic exams necessary to become a bonded soul broker for the Cabal. As a result, you gain the following benefits:",
 				"• Due to your dealings with your infernal bosses, you gain resistance to fire damage. If you already have resistance to fire damage, you gain resistance to cold damage as well.",
 				"• You have advantage on any ability check you make to negotiate the terms of a deal or write a binding contract in your favor.",
-				"• A creature that breaks a contract with you or negotiated by you gains 1 level of exhaustion. This level of exhaustion can’t be removed by any means for 7 days."
+				"• A creature that breaks a contract with you or negotiated by you gains 1 level of exhaustion. This level of exhaustion can't be removed by any means for 7 days."
 			]
 		},
 		{
@@ -6614,7 +6620,7 @@
 			],
 			"entries": [
 				"While all who worship the Chosen strive to live their best amongst the stars, only a select number walk the path of the chaplain. As a chaplain, you gain the following benefits:",
-				"• You gain proficiency in the Religion skill. • You can cast the spell worldseek once without expending spell slots or spell components. Once you use this ability, you can’t use it again until you finish a long rest.",
+				"• You gain proficiency in the Religion skill. • You can cast the spell worldseek once without expending spell slots or spell components. Once you use this ability, you can't use it again until you finish a long rest.",
 				"• As an action, you can pray to the Chosen for guidance while aboard a ship. Choose one creature in a role aboard your ship. The next attack roll, ability check, or saving throw that creature makes as a part of their role has advantage on that roll."
 			]
 		},
@@ -6642,9 +6648,14 @@
 				}
 			],
 			"entries": [
-				"Grax’s Guys are known for being tough, adaptable, and able to get the job done; you’re no different. You gain the following benefits:",
-				"• You gain proficiency with one weapon or tool of your choice.",
-				"• You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+				"Grax's Guys are known for being tough, adaptable, and able to get the job done; you're no different. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with one weapon or tool of your choice.",
+						"You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+					]
+				}
 			]
 		},
 		{
@@ -6657,8 +6668,13 @@
 			],
 			"entries": [
 				"As a licensed Contractor, you know that while the pen is mightier than the sword, the dagger is stronger still. You gain the following benefits:",
-				"• You gain proficiency with one of the following skills of your choice: Data, Deception, Intimidation, or Stealth.",
-				"• On the first round of combat, you have advantage on melee weapon attacks you make against any creature in combat that is surprised."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with one of the following skills of your choice: Data, Deception, Intimidation, or Stealth.",
+						"On the first round of combat, you have advantage on melee weapon attacks you make against any creature in combat that is surprised."
+					]
+				}
 			]
 		},
 		{
@@ -6670,7 +6686,7 @@
 				}
 			],
 			"entries": [
-				"As one of Scale & Fang’s illustrious bodyguards, the duty to protect your charge, no matter the cost, has been burned into the scales of your armor. You gain the following benefits:",
+				"As one of Scale & Fang's illustrious bodyguards, the duty to protect your charge, no matter the cost, has been burned into the scales of your armor. You gain the following benefits:",
 				"• You gain proficiency in the Intimidation skill and with shields.",
 				"• While using a shield, if you are within 5 feet of a friendly creature and you both must make a saving throw against an effect that would deal damage, you can use your reaction to give that creature advantage on its saving throw. If you do so, you automatically fail your saving throw against that effect. If the creature would take half damage from succeeding on that saving throw, they take no damage instead."
 			]
@@ -6685,10 +6701,15 @@
 			],
 			"entries": [
 				"As a starguide, you are uniquely qualified for the task of charting unknown systems and braving the Galactic Frontier. You gain the following benefits:",
-				"• You gain proficiency in Investigation.",
-				"• You have advantage on saving throws you make against natural hazards, such as radiation and high gravity, that you encounter in space and in harsh planetary environments.",
-				"• You can add 5 whenever you roll on the Jump Navigation table for an unassisted jump. If your result is greater than 100, you treat the roll as a 100.",
-				"• You are immune to the effects of Roach addiction."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in Investigation.",
+						"You have advantage on saving throws you make against natural hazards, such as radiation and high gravity, that you encounter in space and in harsh planetary environments.",
+						"You can add 5 whenever you roll on the Jump Navigation table for an unassisted jump. If your result is greater than 100, you treat the roll as a 100.",
+						"You are immune to the effects of Roach addiction."
+					]
+				}
 			]
 		}
 	],
@@ -8187,8 +8208,9 @@
 					"type": "entries",
 					"name": "Blaster",
 					"entries": [
-						""
-					]
+						"A weapon with the Blaster property is a ranged weapon that requires no ammunition. Blasters are considered firearms for the purpose of class features and abilities. Like firearms, you don't add your ability score modifier to blaster's damage rolls."
+					],
+					"template": "{{prop_name}} ({{item.range}} ft.)"
 				}
 			]
 		}
@@ -8217,7 +8239,6 @@
 				}
 			],
 			"property": [
-				"BLS",
 				"2H"
 			]
 		},
@@ -8236,7 +8257,6 @@
 			"dmg2": "2d8",
 			"dmgType": "R",
 			"property": [
-				"BLS",
 				"SCT",
 				"2H"
 			]
@@ -8255,7 +8275,6 @@
 			"dmg1": "2d4",
 			"dmgType": "R",
 			"property": [
-				"BLS",
 				"L",
 				"NL"
 			]
@@ -8273,9 +8292,7 @@
 			"weapon": true,
 			"dmg1": "2d6",
 			"dmgType": "R",
-			"property": [
-				"BLS"
-			]
+			"property": []
 		},
 		{
 			"name": "Standard Carbine",
@@ -8291,7 +8308,6 @@
 			"dmg1": "2d6",
 			"dmgType": "R",
 			"property": [
-				"BLS",
 				"ATO",
 				"2H"
 			]
@@ -8310,7 +8326,6 @@
 			"dmg1": "2d4",
 			"dmgType": "R",
 			"property": [
-				"BLS",
 				"ATO",
 				"FRGP",
 				"L"
@@ -8330,7 +8345,6 @@
 			"dmg1": "2d6",
 			"dmgType": "N",
 			"property": [
-				"BLS",
 				"ATO",
 				"FRGP"
 			]
@@ -8350,7 +8364,6 @@
 			"dmg2": "2d10",
 			"dmgType": "L",
 			"property": [
-				"BLS",
 				"H",
 				"SCT",
 				"2H"
@@ -8370,7 +8383,6 @@
 			"dmg1": "2d8",
 			"dmgType": "T",
 			"property": [
-				"BLS",
 				"SHT",
 				"2H"
 			]
@@ -8394,12 +8406,11 @@
 					"name": "Special",
 					"entries": [
 						"As an action, this weapon can be fired continuously in a beam, affecting a 120-foot long, 5-foot wide line in a direction you choose. When a creature enters the area for the first time on a turn or starts its turn there, it must make a DC 14 Dexterity saving throw or take 4d6 radiant damage.",
-						"At the beginning of each of your subsequent turns, roll a d20. On a 5 or lower, the weapon overheats and can’t be fired until the end of your next turn. If you roll higher than 5, you can use your action to continue firing the beam and can change the direction the line faces from you."
+						"At the beginning of each of your subsequent turns, roll a d20. On a 5 or lower, the weapon overheats and can't be fired until the end of your next turn. If you roll higher than 5, you can use your action to continue firing the beam and can change the direction the line faces from you."
 					]
 				}
 			],
 			"property": [
-				"BLS",
 				"H",
 				"MNT",
 				"2H"
@@ -8419,7 +8430,6 @@
 			"dmg1": "2d8",
 			"dmgType": "R",
 			"property": [
-				"BLS",
 				"H",
 				"OH"
 			]
@@ -8438,7 +8448,6 @@
 			"dmg1": "2d6",
 			"dmgType": "F",
 			"property": [
-				"BLS",
 				"EXPL",
 				"FRGP"
 			]
@@ -8461,13 +8470,11 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"You can use your choice of Intelligence, Wisdom, or Charisma, instead of Dexterity, for this weapon’s attack rolls."
+						"You can use your choice of Intelligence, Wisdom, or Charisma, instead of Dexterity, for this weapon's attack rolls."
 					]
 				}
 			],
-			"property": [
-				"BLS"
-			]
+			"property": []
 		},
 		{
 			"name": "REC Gun",
@@ -8483,7 +8490,6 @@
 			"dmg1": "2d8",
 			"dmgType": "R",
 			"property": [
-				"BLS",
 				"ATO",
 				"H",
 				"MNT",
@@ -8513,7 +8519,6 @@
 				}
 			],
 			"property": [
-				"BLS",
 				"H",
 				"OH",
 				"2H"
@@ -8542,10 +8547,10 @@
 				}
 			],
 			"property": [
-				"BLS",
 				"HT",
 				"H",
-				"2H"
+				"2H",
+				"S"
 			]
 		},
 		{
@@ -8665,7 +8670,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"This weapon acts as an oversized, articulated gauntlet. It can hold and manipulate objects, though you can’t attack with your battlefist while you’re holding an object with it."
+						"This weapon acts as an oversized, articulated gauntlet. It can hold and manipulate objects, though you can't attack with your battlefist while you're holding an object with it."
 					]
 				}
 			]
@@ -8719,7 +8724,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						"Depending on this weapon’s construction, it can deal force, necrotic, or radiant damage. Once the weapon is created, this damage type doesn't change."
+						"Depending on this weapon's construction, it can deal force, necrotic, or radiant damage. Once the weapon is created, this damage type doesn't change."
 					]
 				}
 			],
@@ -8798,7 +8803,7 @@
 					"type": "entries",
 					"name": "Special",
 					"entries": [
-						" Once per turn, when you make an attack with this weapon, you can engage its thrusters to deal an additional 1d4 bludgeoning damage on a hit."
+						"Once per turn, when you make an attack with this weapon, you can engage its thrusters to deal an additional 1d4 bludgeoning damage on a hit."
 					]
 				}
 			],
@@ -8819,7 +8824,9 @@
 			"dmg1": "1d8",
 			"dmg2": "1d10",
 			"dmgType": "F",
-			"property": []
+			"property": [
+				"V"
+			]
 		},
 		{
 			"name": "Wrenchinator",
@@ -9087,7 +9094,7 @@
 						{
 							"type": "entries",
 							"entries": [
-								"This impressive handgun, named for its creator, Magnus Opum, weighs almost twice that of a repeater. It’s infamous for its heft, recoil, and stoppingpower, and it is favored by gunslingers that accept no compromises."
+								"This impressive handgun, named for its creator, Magnus Opum, weighs almost twice that of a repeater. It's infamous for its heft, recoil, and stoppingpower, and it is favored by gunslingers that accept no compromises."
 							]
 						}
 					]
@@ -9138,7 +9145,7 @@
 						{
 							"type": "entries",
 							"entries": [
-								"Few things are as intimidating as a plasma cutter’s circular, white-hot blade. When used in normal operation to carve up high-density metal plates, it can easily remove careless fingers or limbs, but if wielded with lethal intent, it can cleanly dissect someone from end to end."
+								"Few things are as intimidating as a plasma cutter's circular, white-hot blade. When used in normal operation to carve up high-density metal plates, it can easily remove careless fingers or limbs, but if wielded with lethal intent, it can cleanly dissect someone from end to end."
 							]
 						}
 					]
@@ -9172,7 +9179,7 @@
 						{
 							"type": "entries",
 							"entries": [
-								"The nodes mounted on this helmet’s dome emit an invisible psionic field, amplified by the mind of anyone who wears it. By focusing on the helm and extending a hand, the user can even direct the field into a blast of psionic force."
+								"The nodes mounted on this helmet's dome emit an invisible psionic field, amplified by the mind of anyone who wears it. By focusing on the helm and extending a hand, the user can even direct the field into a blast of psionic force."
 							]
 						}
 					]
@@ -9917,7 +9924,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 3,
 			"entries": [
-				"Also at 3rd level, you begin to channel the majesty of the stars with your spellcasting. Whenever you deal damage with a bard spell, you can change the damage type to radiant damage. Additionally, you can increase the damage by expending one use of your Bardic Inspiration, adding that die to the spell’s damage roll"
+				"Also at 3rd level, you begin to channel the majesty of the stars with your spellcasting. Whenever you deal damage with a bard spell, you can change the damage type to radiant damage. Additionally, you can increase the damage by expending one use of your Bardic Inspiration, adding that die to the spell's damage roll"
 			]
 		},
 		{
@@ -9943,7 +9950,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 14,
 			"entries": [
-				"When you reach 14th level, you are so attuned to the rhythm of the cosmos that the skies shake when you sing. Once per turn, when a creature makes a saving throw against a spell you cast, you can expend one use of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll."
+				"When you reach 14th level, you are so attuned to the rhythm of the cosmos that the skies shake when you sing. Once per turn, when a creature makes a saving throw against a spell you cast, you can expend one use of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll."
 			]
 		},
 		{
@@ -10031,7 +10038,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 2,
 			"entries": [
-				"Starting at 2nd level, as a bonus action, you can present your holy symbol and use your Channel Divinity to brand a creature that you can see within 60 feet with an ancient mark, condemning them to receive the absolute judgment of the Sun Above. For 1 minute, the target can’t take the Hide action, as it is followed by an uncanny light. Additionally, you deal an extra 1d6 radiant damage to the target whenever you hit it with a weapon attack."
+				"Starting at 2nd level, as a bonus action, you can present your holy symbol and use your Channel Divinity to brand a creature that you can see within 60 feet with an ancient mark, condemning them to receive the absolute judgment of the Sun Above. For 1 minute, the target can't take the Hide action, as it is followed by an uncanny light. Additionally, you deal an extra 1d6 radiant damage to the target whenever you hit it with a weapon attack."
 			]
 		},
 		{
@@ -10045,7 +10052,7 @@
 			"level": 6,
 			"entries": [
 				"By 6th level, you have attained the much-coveted rank of Apologist within the faith, and are tasked with carrying the message of the Sun to all who will listen and banishing those who would obscure this message. Whenever you make a Charisma check, you can add your Wisdom modifier to the roll.",
-				"Additionally, you can bend non-believers before the Sun’s authority. When you roll initiative and aren't surprised, you can choose one creature you can see within 60 feet to make a Wisdom saving throw, opposed by your spell save DC. On a failed save, that creature has a penalty equal to your Wisdom modifier to its AC and attack rolls for the first round of combat."
+				"Additionally, you can bend non-believers before the Sun's authority. When you roll initiative and aren't surprised, you can choose one creature you can see within 60 feet to make a Wisdom saving throw, opposed by your spell save DC. On a failed save, that creature has a penalty equal to your Wisdom modifier to its AC and attack rolls for the first round of combat."
 			]
 		},
 		{
@@ -10071,8 +10078,8 @@
 			"subclassSource": "DarkMatter",
 			"level": 17,
 			"entries": [
-				"At 17th level, you can feel the sun’s majesty at your fingertips and can summon it in immense waves. You learn the spell sunbeam, and it counts as a cleric spell for you. Sunbeam is always prepared for you, and doesn't count against your number of prepared spells.",
-				"Additionally, as an action on your turn, you can fill yourself with the luminous wrath of the Sun Above. You can cast sunbeam as an 8th level spell without expending a spell slot. When you cast the spell in this way, you regain hit points equal to your Wisdom modifier at the start of each of your turns if you have no more than half of your hit points left. You can't lose your concentration on this casting of sunbeam as a result of taking damage. Once you use this ability, you can’t use it again until you finish a long rest."
+				"At 17th level, you can feel the sun's majesty at your fingertips and can summon it in immense waves. You learn the spell sunbeam, and it counts as a cleric spell for you. Sunbeam is always prepared for you, and doesn't count against your number of prepared spells.",
+				"Additionally, as an action on your turn, you can fill yourself with the luminous wrath of the Sun Above. You can cast sunbeam as an 8th level spell without expending a spell slot. When you cast the spell in this way, you regain hit points equal to your Wisdom modifier at the start of each of your turns if you have no more than half of your hit points left. You can't lose your concentration on this casting of sunbeam as a result of taking damage. Once you use this ability, you can't use it again until you finish a long rest."
 			]
 		},
 		{
@@ -10140,7 +10147,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 1,
 			"entries": [
-				"At 1st level, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray. If you already possess darkvision, its range increases by 30 feet.",
+				"At 1st level, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. If you already possess darkvision, its range increases by 30 feet.",
 				"Starting at 8th level, you can see through magical, as well as nonmagical, darkness."
 			]
 		},
@@ -10344,7 +10351,7 @@
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, you can use your action to switch to an empowered version of your Juggernaut Configuration: a towering Mecha Configuration. While in this form, you have all the benefits of being in your Juggernaut Configuration, except you retain your photon cannon attack option and you subtract 4 from all damage you take, instead of 2. In addition, you become Large size, have advantage on Strength checks and saving throws, and can use your bonus action to make two melee weapon additional attacks when you take the Attack action.",
-				"You can remain in this configuration for up to 10 minutes. Once you enter this configuration, you can’t do so again until you finish a long rest. "
+				"You can remain in this configuration for up to 10 minutes. Once you enter this configuration, you can't do so again until you finish a long rest. "
 			]
 		},
 		{
@@ -10449,7 +10456,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 3,
 			"entries": [
-				"When you select this archetype at 3rd level, you gain access to the space marine’s most valuable piece of gear: a suit of magically-powered armor known as an impulse frame. An impulse frame is a suit of environmentally sealed heavy armor made of exotic alloys. While wearing your impulse frame, you gain the following benefits:",
+				"When you select this archetype at 3rd level, you gain access to the space marine's most valuable piece of gear: a suit of magically-powered armor known as an impulse frame. An impulse frame is a suit of environmentally sealed heavy armor made of exotic alloys. While wearing your impulse frame, you gain the following benefits:",
 				{
 					"type": "entries",
 					"name": "Composite Plating.",
@@ -10475,7 +10482,7 @@
 					"type": "entries",
 					"name": "",
 					"entries": [
-						"Your impulse frame is a magic item which is permanently attuned to you and does not count against your total number of attuned magic items. You can integrate a different suit of armor into your impulse frame by spending 100 gp worth of materials and 24 hours of construction time. Doing so confers the armor’s AC and magical properties (if any) to your frame. You can integrate only one suit into your frame at a time.",
+						"Your impulse frame is a magic item which is permanently attuned to you and does not count against your total number of attuned magic items. You can integrate a different suit of armor into your impulse frame by spending 100 gp worth of materials and 24 hours of construction time. Doing so confers the armor's AC and magical properties (if any) to your frame. You can integrate only one suit into your frame at a time.",
 						"If your impulse frame is destroyed, it can be rebuilt with 10 days of work and 1,000 gp in materials."
 					]
 				}
@@ -10637,7 +10644,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 17,
 			"entries": [
-				"Starting at 17th level, your attacks carry massive fields in their wake. When you hit a creature with two or more unarmed strikes on your turn, you form a gravitational field around it. Until the beginning of your next turn, the creature can’t willingly move unless it first uses the Disengage action and spends half its movement to escape this field."
+				"Starting at 17th level, your attacks carry massive fields in their wake. When you hit a creature with two or more unarmed strikes on your turn, you form a gravitational field around it. Until the beginning of your next turn, the creature can't willingly move unless it first uses the Disengage action and spends half its movement to escape this field."
 			]
 		},
 		{
@@ -10655,7 +10662,7 @@
 					"type": "entries",
 					"name": "Tenets of the Sepulcher",
 					"entries": [
-						"The Order of the Sepulcher dates back to the Night Crusade’s conclusion, and its core vows are designed to prevent such a tragedy from ever again enveloping the galaxy:"
+						"The Order of the Sepulcher dates back to the Night Crusade's conclusion, and its core vows are designed to prevent such a tragedy from ever again enveloping the galaxy:"
 					]
 				},
 				{
@@ -10808,7 +10815,7 @@
 					"name": "Galactic Knight",
 					"entries": [
 						"If you activate this ability in open space, outside the confines of an atmosphere or gravitational field, you can choose to pull energy from the galaxy itself and transform into a Galactic Knight. For 1 minute, you surround yourself in a massive, humanoidshaped field of cosmic energy, growing to 100 times your normal size. If you are Medium-sized, for example, you will grow to occupy a 500-by-500-foot square. For the duration, you gain a flight speed of 6,000 feet, your attacks deal mega damage, and your hit points are converted to mega hit points.",
-						"Once you use this ability with either option, you can’t do so again until you finish a long rest."
+						"Once you use this ability with either option, you can't do so again until you finish a long rest."
 					]
 				}
 			]
@@ -10902,7 +10909,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 3,
 			"entries": [
-				"The ‘verse is harsh, alien, and above all, unspeakably vast  and reconnaissance rangers task themselves with being the first to explore it. When a ship comes out of a blind void jump, it’s far more likely to find itself orbiting a previously-undiscovered planet or star system than it is to be remotely near civilization. This is the time for a landing party. Recon rangers lead landing parties through harsh, unfamiliar territories, derelict spacecraft, and deadly warzones. They are experts in identifying danger before it strikes and use every tool available to them to survive."
+				"The ‘verse is harsh, alien, and above all, unspeakably vast  and reconnaissance rangers task themselves with being the first to explore it. When a ship comes out of a blind void jump, it's far more likely to find itself orbiting a previously-undiscovered planet or star system than it is to be remotely near civilization. This is the time for a landing party. Recon rangers lead landing parties through harsh, unfamiliar territories, derelict spacecraft, and deadly warzones. They are experts in identifying danger before it strikes and use every tool available to them to survive."
 			]
 		},
 		{
@@ -10928,7 +10935,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 7,
 			"entries": [
-				"Beginning at 7th level, you can use your bonus action to move up to 15 feet. This movement doesn't provoke opportunity attacks, ignores difficult terrain, and can move you through hostile creature’s spaces, as long as you do not end your movement there.",
+				"Beginning at 7th level, you can use your bonus action to move up to 15 feet. This movement doesn't provoke opportunity attacks, ignores difficult terrain, and can move you through hostile creature's spaces, as long as you do not end your movement there.",
 				"You can use this ability a number of times equal to your Dexterity modifier, and regain all expended uses when you finish a long rest."
 			]
 		},
@@ -11187,7 +11194,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 18,
 			"entries": [
-				"When you reach 18th level, your nanites enable you to reset yourself quickly after being knocked unconscious, and help you to store your memories so they can't be tampered with. When you regain consciousness after dropping to 0 hit points, you immediately regain an additional 4d6 + 4 hit points. Once you use this ability, you can’t use it again until you finish a short or long rest.",
+				"When you reach 18th level, your nanites enable you to reset yourself quickly after being knocked unconscious, and help you to store your memories so they can't be tampered with. When you regain consciousness after dropping to 0 hit points, you immediately regain an additional 4d6 + 4 hit points. Once you use this ability, you can't use it again until you finish a short or long rest.",
 				"Furthermore, you are immune to any spell or ability that would alter your memory or personality."
 			]
 		},
@@ -11253,13 +11260,13 @@
 			"subclassSource": "DarkMatter",
 			"level": 14,
 			"entries": [
-				"Starting at 14th level, you can use your action to transform your entire body, along with everything you’re wearing and carrying, into a cloud of dangerous radioactive material. This effect acts as the {@spell gaseous form} spell, with the following differences:",
+				"Starting at 14th level, you can use your action to transform your entire body, along with everything you're wearing and carrying, into a cloud of dangerous radioactive material. This effect acts as the {@spell gaseous form} spell, with the following differences:",
 				"• Your flying speed is equal to half your movement",
 				"speed.",
 				"• If another creature enters your space or starts its turn",
 				"there, it takes 4d10 radiant damage.",
-				"• You can cast cantrips while you’re in this form.",
-				"Once you use this ability, you can’t use it again until you finish a long rest."
+				"• You can cast cantrips while you're in this form.",
+				"Once you use this ability, you can't use it again until you finish a long rest."
 			]
 		},
 		{
@@ -11272,7 +11279,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 18,
 			"entries": [
-				"At 18th level, as an action, you can spend 3 sorcery points to bombard a creature you touch with a near lethal amount of radioactivity. At the beginning of each of the target’s turns, it must make a Constitution saving throw. On a failed save, the target is poisoned until the beginning of its next turn and takes 4d10 radiant damage. If a target fails three times, it remains poisoned for one hour, and takes 1d10 radiant damage at the beginning of each of its turns. If it succeeds three times, this effect ends."
+				"At 18th level, as an action, you can spend 3 sorcery points to bombard a creature you touch with a near lethal amount of radioactivity. At the beginning of each of the target's turns, it must make a Constitution saving throw. On a failed save, the target is poisoned until the beginning of its next turn and takes 4d10 radiant damage. If a target fails three times, it remains poisoned for one hour, and takes 1d10 radiant damage at the beginning of each of its turns. If it succeeds three times, this effect ends."
 			]
 		},
 		{
@@ -11361,7 +11368,7 @@
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, you can induce terror and despair by showing others the truth of the Void as an action. Each creature within 30 feet of you that can see you must succeed a Wisdom saving throw or be frightened of you for 1 minute. If a frightened creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw, ending the effect on a successful save.",
-				"Once you use this ability, you can’t use it again until you finish a short or long rest."
+				"Once you use this ability, you can't use it again until you finish a short or long rest."
 			]
 		},
 		{
@@ -11401,7 +11408,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 1,
 			"entries": [
-				"It is impossible to comprehend the unbridled power contained within a star: an infinity of nuclear reactions, a constant explosion, unceasing for millennia—the ultimate inferno. It’s no surprise that someone would seek to harness some of this power for their own.",
+				"It is impossible to comprehend the unbridled power contained within a star: an infinity of nuclear reactions, a constant explosion, unceasing for millennia—the ultimate inferno. It's no surprise that someone would seek to harness some of this power for their own.",
 				"With the right words of forgotten lore, warlocks can do just that, drawing some small fraction of the howling flames into themselves. The Star is not a sentient patron, it doesn't demand sacrifices or worship from its warlocks; it is a beacon in a sea of black, a force of nature that will long outlive any living thing.",
 				"Though the annals of history do not recount their battles, warlocks of The Star have waged endless war with those of The Singularity, who seek to plunge the galaxy into perfect darkness."
 			]
@@ -11476,7 +11483,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 1,
 			"entries": [
-				"At 1st level, you can unleash your Star’s fury in earnest. However, if you channel its energy for too long, it will consume your mortal body. You can use your bonus action to enter a Nova. When you enter a Nova, and each subsequent turn you begin while your Nova is active, you take special radiant damage called Nova damage. This damage begins at 1d6 when you enter your Nova, and increases to 2d6 the following turn, 3d6 the turn after, and so on. This damage can’t be reduced or avoided. You don't make Constitution saving throws to maintain your Concentration as a result of taking this damage. Your Nova ends if you drop to 0 hit points or if you use your bonus action to end it.",
+				"At 1st level, you can unleash your Star's fury in earnest. However, if you channel its energy for too long, it will consume your mortal body. You can use your bonus action to enter a Nova. When you enter a Nova, and each subsequent turn you begin while your Nova is active, you take special radiant damage called Nova damage. This damage begins at 1d6 when you enter your Nova, and increases to 2d6 the following turn, 3d6 the turn after, and so on. This damage can't be reduced or avoided. You don't make Constitution saving throws to maintain your Concentration as a result of taking this damage. Your Nova ends if you drop to 0 hit points or if you use your bonus action to end it.",
 				"While your Nova is active, you can add bonus d6s of damage, up to a maximum of twice the number of Nova damage dice you have taken on your turn, when you damage a creature with an attack on your turn. You can choose to add all the damage dice to the roll of a single attack, or divide up the damage among multiple attacks. For example, if you take 3d6 Nova damage, you have 6d6 bonus damage to add to your attacks on your turn."
 			]
 		},
@@ -11491,7 +11498,7 @@
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, if you drop to 0 hit points while your Nova is active, you can choose to instead drop to 1 hit point and cause each hostile creature within 30 feet of you to take radiant damage equal to your Charisma modifier + your warlock level. Your Nova ends.",
-				"Once you use this feature, you can’t use it again until you finish a short or long rest."
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		},
 		{
@@ -11504,7 +11511,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 10,
 			"entries": [
-				"At 10th level, the Star’s soothing rays can mend even your severest of wounds. When you begin your turn in direct sunlight and your Nova isn't active, you can use your action to regain 1d6 hit points.",
+				"At 10th level, the Star's soothing rays can mend even your severest of wounds. When you begin your turn in direct sunlight and your Nova isn't active, you can use your action to regain 1d6 hit points.",
 				"You can heal yourself a number of times using this ability equal to your Charisma modifier and regain all expended uses when you finish a short or long rest. At 14th level, this healing increases to 1d10."
 			]
 		},
@@ -11677,7 +11684,7 @@
 			"subclassShortName": "Drone Jockey",
 			"subclassSource": "DarkMatter",
 			"entries": [
-				"Most gadgeteers tinker with drones at some point in their career; after all, they’re compact, useful projects, with a limited number of moving parts. However, only drone jockeys take this to the extreme of arming themselves with a small army of programmed drones. By linking the drones’ sensors and construct cores, they create a more cunning swarm intelligence, distributed over the drone network as a whole. This swarm can act almost autonomously, scouting the area and defending the jockey with mechanical efficiency."
+				"Most gadgeteers tinker with drones at some point in their career; after all, they're compact, useful projects, with a limited number of moving parts. However, only drone jockeys take this to the extreme of arming themselves with a small army of programmed drones. By linking the drones' sensors and construct cores, they create a more cunning swarm intelligence, distributed over the drone network as a whole. This swarm can act almost autonomously, scouting the area and defending the jockey with mechanical efficiency."
 			],
 			"level": 3,
 			"page": "62"
@@ -11740,7 +11747,7 @@
 			"subclassShortName": "Drone Jockey",
 			"subclassSource": "DarkMatter",
 			"entries": [
-				"At 14th level, as an action, you can combine three of your drones (a defense drone, a medical drone, and a recon drone) into a single omega drone. Once combined, the omega drone’s AC equals 10 + your Intelligence modifier, its HP equals 5 times your level, and its ability scores are all 14.",
+				"At 14th level, as an action, you can combine three of your drones (a defense drone, a medical drone, and a recon drone) into a single omega drone. Once combined, the omega drone's AC equals 10 + your Intelligence modifier, its HP equals 5 times your level, and its ability scores are all 14.",
 				"The drone can take all the actions of its constituent drones and takes its own turn immediately after yours in initiative, acting as directed by your AI. On a hit with its integrated blaster, it deals 3d6 radiant damage.",
 				"Your drone controller can't link to other drones while your omega drone is active. You can separate your omega drone back into its constituent drones as an action."
 			],
@@ -11892,7 +11899,7 @@
 			"subclassShortName": "Hardlight Architect",
 			"subclassSource": "DarkMatter",
 			"entries": [
-				"By 10th level, you’ve perfected a stable hardlight weapon, which you can conjure effortlessly. You can cast the spell {@spell hardlight blaster|DarkMatter} at will and can apply your Overcharge feature to the spell. "
+				"By 10th level, you've perfected a stable hardlight weapon, which you can conjure effortlessly. You can cast the spell {@spell hardlight blaster|DarkMatter} at will and can apply your Overcharge feature to the spell. "
 			],
 			"level": 10,
 			"page": "63"
@@ -11944,8 +11951,8 @@
 			"subclassShortName": "Mastermaker",
 			"subclassSource": "DarkMatter",
 			"entries": [
-				"At 3rd level, you can install one gadget or a one-handed blaster directly into one of your arms. You can’t be disarmed of this item and you can use it if at least one of your hands is free. Additionally, you can perfectly conceal this item, so long as another creature does not inspect the metal plates installed in your arm. You can change which gadget or blaster you have embedded when you finish a long rest.",
-				"Additionally, you don’t lose hit points or hit dice from installing or removing construct grafts, and it takes you no time to recover after the attachment of a new graft. "
+				"At 3rd level, you can install one gadget or a one-handed blaster directly into one of your arms. You can't be disarmed of this item and you can use it if at least one of your hands is free. Additionally, you can perfectly conceal this item, so long as another creature does not inspect the metal plates installed in your arm. You can change which gadget or blaster you have embedded when you finish a long rest.",
+				"Additionally, you don't lose hit points or hit dice from installing or removing construct grafts, and it takes you no time to recover after the attachment of a new graft. "
 			],
 			"level": 3,
 			"page": "65"
@@ -11984,7 +11991,7 @@
 			"subclassShortName": "Mastermaker",
 			"subclassSource": "DarkMatter",
 			"entries": [
-				"By 14th level, you have achieved the height of construct superiority by installing a construct core directly into your head. You no longer need to sleep and magic can’t put you to sleep. You are immune to being charmed, frightened, or possessed. Additionally, the maximum for your Intelligence score is now 22. "
+				"By 14th level, you have achieved the height of construct superiority by installing a construct core directly into your head. You no longer need to sleep and magic can't put you to sleep. You are immune to being charmed, frightened, or possessed. Additionally, the maximum for your Intelligence score is now 22. "
 			],
 			"level": 14,
 			"page": "65"
@@ -12334,7 +12341,7 @@
 				{
 					"name": "Surveillance Protocol",
 					"entries": [
-						"The drone creates a holographic marker above one target it can see within 60 feet until the beginning of the drone’s next turn. For that duration, attacks against the target can’t have disadvantage (unless the disadvantage is due to the Automatic property), and the target has disadvantage on checks made to hide."
+						"The drone creates a holographic marker above one target it can see within 60 feet until the beginning of the drone's next turn. For that duration, attacks against the target can't have disadvantage (unless the disadvantage is due to the Automatic property), and the target has disadvantage on checks made to hide."
 					]
 				}
 			]
@@ -12667,7 +12674,7 @@
 				{
 					"name": "Integrated Mace",
 					"entries": [
-						"{@atk mw} its creator’s Intelligence modifier + its proficiency bonus to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6+2}) bludgeoning damage."
+						"{@atk mw} its creator's Intelligence modifier + its proficiency bonus to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6+2}) bludgeoning damage."
 					]
 				},
 				{
@@ -12683,6 +12690,1214 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Vortirrackt",
+			"size": "M",
+			"type": "aberration",
+			"source": "DarkMatter",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 18,
+			"dex": 19,
+			"con": 17,
+			"int": 21,
+			"wis": 11,
+			"cha": 16,
+			"passive": 13,
+			"cr": "6",
+			"page": 244,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Deep Speech",
+				"telepathy 500 ft"
+			],
+			"languageTags": [
+				"DS",
+				"TP"
+			],
+			"skill": {
+				"deception": "+6",
+				"insight": "+3",
+				"perception": "+3",
+				"persuasion": "+6",
+				"stealth": "+7"
+			},
+			"resist": [
+				{
+					"resist": [
+						"radiant"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The vortirrackt has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The vortirrackt has advantage on saving throws against spells and other magical effects"
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher",
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d6 + 8}) slashing damage, plus 7 ({@damage 2d6}) slashing damage if the target has already been hit with a claw attack this turn."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"tokenUrl": "https://i.imgur.com/jZ3uOwg.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/cm50XL2.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Demi-Vortirrackt",
+			"size": "L",
+			"type": "aberration",
+			"source": "DarkMatter",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d10 + 60",
+				"average": 126
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 21,
+			"dex": 19,
+			"con": 21,
+			"int": 11,
+			"wis": 13,
+			"cha": 9,
+			"passive": 11,
+			"cr": "9",
+			"page": 244,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"save": {
+				"con": "+9",
+				"str": "+9"
+			},
+			"resist": [
+				{
+					"resist": [
+						"radiant"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"trait": [
+				{
+					"name": "Acidic Blood",
+					"entries": [
+						"A creature that damages the demi-vortirrackt while within 5 feet of it takes 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The demi-Vortirrackt has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The demi-vortirrackt makes three attacks with its claws."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}15 ({@damage 1d10 + 10}) slashing damage, plus 11 ({@damage 2d10}) slashing damage if the target has already been hit with a claw attack this turn."
+					]
+				},
+				{
+					"name": "Acid Glob {@recharge 5}",
+					"entries": [
+						"The demi-vortirrackt lobs a glob of acid at a point it can see within 60 feet. Each creature within a 5-foot radius of that point must make a {@dc 18} Dexterity saving throw, taking 55 (10d10) acid damage on a failed save, or half as much damage on asuccessful one."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S",
+				"A"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"tokenUrl": "https://i.imgur.com/VbRUNEu.png"
+		},
+		{
+			"name": "Vortirrackt Larva",
+			"size": "S",
+			"type": "aberration",
+			"source": "DarkMatter",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 35,
+				"climb": 35
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 1,
+			"wis": 9,
+			"cha": 4,
+			"passive": 9,
+			"cr": "1/8",
+			"page": 244,
+			"skill": {
+				"stealth": "+4"
+			},
+			"trait": [
+				{
+					"name": "Writhe",
+					"entries": [
+						"The larva moves 10 feet without provoking opportunity attacks whenever it takes damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/uGIbFrG.png"
+		},
+		{
+			"name": "Vortirrackt Chrysalis",
+			"size": "L",
+			"type": "aberration",
+			"source": "DarkMatter",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				5
+			],
+			"hp": {
+				"formula": "2d10 + 10",
+				"average": 21
+			},
+			"speed": {
+				"walk": 0
+			},
+			"str": 1,
+			"dex": 1,
+			"con": 20,
+			"int": 1,
+			"wis": 1,
+			"cha": 1,
+			"passive": 5,
+			"cr": "1/2",
+			"page": 244,
+			"trait": [
+				{
+					"name": "Acidic Blood",
+					"entries": [
+						"A creature that damages the chrysalis while within 5 feet of it takes 4 ({@damage 1d8}) acid damage."
+					]
+				},
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the chrysalis dies, it explodes in a shower of acid. Each creature within 5 feet of it must then succeed on a {@dc 14} Dexterity saving throw, taking 14 ({@damage 4d6}) acid damage on a failed save, or half as much damage on a successful one. If the chrysalis is killed with fire damage, it does not explode."
+					]
+				}
+			],
+			"damageTags": [
+				"A"
+			],
+			"traitTags": [
+				"Death Burst"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"tokenUrl": "https://i.imgur.com/Ss8ipYQ.png"
+		},
+		{
+			"name": "Nautilid Seeker",
+			"source": "DarkMatter",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"nautilid"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				"aqua suit",
+				16
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 17,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"data": "+4",
+				"investigation": "+4",
+				"technology": "+4"
+			},
+			"passive": 11,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"all",
+				"from universal translator"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Aqua Suit",
+					"entries": [
+						"The seeker wears an aqua suit, which counts as a life suit and provides the seeker with the benefits of a universal translator."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rocket Hammer",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}11 ({@damage 1d10 + 1d4 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Ion Cannon",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}7 ({@damage 2d6}) radiant damage, or 9 ({@damage 2d8}) radiant damage if the target is within 15 feet."
+					]
+				}
+			],
+			"languageTags": [
+				"XX"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"tokenUrl": "https://i.imgur.com/vuy1S5I.png"
+		},
+		{
+			"name": "Redshirt",
+			"source": "DarkMatter",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 3,
+				"formula": "1d8 - 1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 9,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Phaser",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 50/200 ft., one target. {@h}5 (2d4) radiant damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"tokenUrl": "https://i.imgur.com/RbHiATL.png"
+		},
+		{
+			"name": "Hegemony Trooper",
+			"source": "DarkMatter",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				"triplate suit/breastplate",
+				16
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"perception": "+3",
+				"survival": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Comm Link",
+					"entries": [
+						"The trooper is in constant communication and coordination with its allies within 2 miles of it. It can't be surprised by any creature or object that any of its allies within range are aware of."
+					]
+				},
+				{
+					"name": "Life Suit",
+					"entries": [
+						"The trooper's armor contains an integrated life suit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The trooper makes two attacks with its standard carbine, two attacks with its arc baton, or four attacks with its standard carbine with disadvantage."
+					]
+				},
+				{
+					"name": "Arc Baton",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 (1d6 + 2) lightning damage. If the target is a creature, it can't take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Concussion Grenade",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30 ft., one target. {@h}4 (1d8) thunder damage and the target is {@condition deafened} until the beginning of the trooper's next turn. Additionally, each creature within 10 feet of the target must make a {@dc 12} Dexterity saving throw or also take this damage and be {@condition deafened} for the same duration."
+					]
+				},
+				{
+					"name": "Standard Carbine",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range",
+						"80/320 ft., one target. {@h}7 (2d6) radiant damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"tokenUrl": "https://i.imgur.com/wxSpwNw.png"
+		},
+		{
+			"name": "Vect Scout",
+			"source": "DarkMatter",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"vect"
+				]
+			},
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 14,
+			"int": 12,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"perception": "+3",
+				"sleight of hand": "+5",
+				"stealth": "+5",
+				"survival": "+3",
+				"data": "+3"
+			},
+			"senses": [
+				"thermalsight 30 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Construct Anatomy",
+					"entries": [
+						"The vect is immune to nonmagical diseases, and it doesn't need to eat, drink, or breathe."
+					]
+				},
+				{
+					"name": "Inflexible Mind",
+					"entries": [
+						"The vect has advantage on saving throws against being {@condition charmed}."
+					]
+				},
+				{
+					"name": "Keen Hearing and Sight",
+					"entries": [
+						"The vect has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The vect deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the vect that isn't incapacitated and the vect doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The vect makes two attacks with its arm blade or two attacks with its embedded phaser."
+					]
+				},
+				{
+					"name": "Arm Blade",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 (1d6 + 3) slashing damage."
+					]
+				},
+				{
+					"name": "Embedded Phaser",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range",
+						"50/200 ft., one target. {@h}5 (2d4) radiant damage"
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"tokenUrl": "https://i.imgur.com/YbB9IUa.png"
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Adaptable Omnitool",
+			"source": "DarkMatter",
+			"entries": [
+				"This gadget can be configured into a number of useful devices, including the following:",
+				"{@b Auto Entry Device}. This device automatically attempts to crack physical locks or hack powered doors when set to do so as an action. Its ability check for doing so is 10 + your Intelligence modifier.",
+				"{@b Rebreather}. You can start or stop breathing through this apparatus as a bonus action. When doing so, you can breathe normally in airless environments. This device also shelters you from toxic fumes and other airborne poisons. You can't talk while breathing through this device.",
+				"{@b Scanner.} As an action, you can use your handheld scanner to analyze the electromagnetic spectrum around you. Your scanner detects the presence, number, and type of technological devices within 30 feet of you and can determine whether or not a unique construct or device has been present in the area within the last hour.",
+				"{@b Taser}. This device produces a debilitating current of electricity when you use it as an action. Make a melee attack roll (attack bonus equals your Intelligence bonus + your proficiency modifier) against the target. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn. This damage increases to 2d8 lightning damage at when you reach 5th level, 3d8 at 11th level, and 4d8 at 17th level."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Blink Button",
+			"source": "DarkMatter",
+			"entries": [
+				"This complicated looking device has a single large red button on its face. When you press it as an action, you teleport up to 15 feet to an unoccupied location of your choice that you can see."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Bubble Projector",
+			"source": "DarkMatter",
+			"entries": [
+				"You construct a device that, as an action, creates a dome of force as if you had cast the spell {@spell geodesic shield|DarkMatter}. You don't need to concentrate on this spell. Once you use this gadget, you can't use it again until you finish a long rest."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Chronoshifter",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 17th level}",
+				"When you use your bonus action to activate this sophisticated, spherical device, you temporarily distort time, as per the spell {@spell time stop}. Once you use this gadget, you can't use it again until you finish a long rest."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Death Ray",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 17th level}",
+				"You construct a {@item death ray|DarkMatter} magic item."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "F-Mac",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisites: Mechanized Autonomous Construct prototype, 5th level}",
+				"You integrate a set of thrusters into your construct, granting it a flying speed of 30 feet."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"other": "Mechanized Autonomous Construct prototype"
+				},
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Feedback Electrodes",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisites: Utility Matrix Prototype, 5th level}",
+				"You've installed an electrical feedback system into your Utility Matrix. When you take damage from a creature that is within 5 feet of you, you can use your reaction to deal 2d6 lightning damage to that creature.",
+				"This damage improves as you gain higher levels in this class. At 11th level, you can deal 3d6 damage, and at 17th level, you can deal 4d6 damage."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"other": "Utility Matrix Prototype"
+				},
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Flux Cannon",
+			"source": "DarkMatter",
+			"entries": [
+				"This gadget, which looks like a blaster ending in a series of lenses, modulates the temperature of matter. When you activate it as an action, you can chill or warm a 5-foot cube of nonliving matter within 30 feet that isn't being worn or carried to a temperature you choose. You can heat or freeze most matter to extreme temperatures, resulting in different effects, depending on the material: heating water to its extreme causes it to boil, and chilling it causes it to freeze instantly; heating wood instantly causes it to combust, and freezing causes it to become more brittle; heating metal causes it to glow red-hot and become malleable, and chilling it causes it to become brittle and shrink slightly. At its extreme setting, this device can normally cause a change in its target's state of matter, especially if used on a target for multiple rounds, but the GM decides the exact effects on different materials."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Focus Aperture",
+			"source": "DarkMatter",
+			"entries": [
+				"The short and long ranges of blasters you use is doubled, up to a maximum of 180/540 feet, or the blaster's original range, whichever is longer"
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Gravity Manipulator",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 5th level}",
+				"This blaster like device emits a soft glow from the center of its conical muzzle. While holding it, you can activate one of the following effects:",
+				"{@b Levitate}. As an action, you nullify the gravitational forces on a Large or smaller creature or object weighing less than 500 pounds that you can see within 30 feet. The target is attracted to you and comes to rest in a space that you choose within 5 feet of you. You can move the target around you and choose its orientation on your turn. You can levitate a target for 1 minute at a time with this device.",
+				"An unwilling creature can make a Constitution saving throw to resist this device's effects and can repeat the saving throw at the end of each of its turns. The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing.",
+				"{@b Repel}. As a bonus action on your turn, you can violently repel, in a direction that you choose, a target that is being levitated by this gadget. The target is pushed 60 feet if it is Tiny or Small size, 30 feet if it is Medium, or 15 feet if it is Large. If the target contacts an obstacle, both the target and the obstacle take 2d8 bludgeoning damage. If the target's shape permits, it can deal piercing or slashing damage, at the GM's discretion. The target is then no longer levitated by this gadget."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Hypnosis Ray",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 13th level}",
+				"This phaser like device fires harmless swirls of colors to mesmerize a humanoid creature within 30 feet of you. The target must succeed on a Wisdom saving throw or be charmed by you for up to 1 minute. While charmed, the target is incapacitated and its speed is 0. This effect ends early if the creature takes damage or if you use this device again. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this gadget for 24 hours."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Invisibomb",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 5th level}",
+				"When you activate this device as an action and throw it to a space within 30 feet, it produces a faint shimmer, and then each creature within 60 feet of it vanishes from sight. Each creature within that radius becomes invisible, as per invisibility, for a number of rounds equal to your Intelligence modifier. Once you use this gadget, you can't use it again until you finish a short or long rest."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Jetpack",
+			"source": "DarkMatter",
+			"entries": [
+				"You construct a {@item jetpack|DarkMatter} magic item.",
+				"{@b Upgrade (13th level)}. This gadget can be chosen twice, gaining the following upgrade when you select it the second time: You can use this magic item for an unlimited amount of time each day."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Jump Pad",
+			"source": "DarkMatter",
+			"entries": [
+				"When you deploy this rectangular device as an action, it unfolds into a 5-foot square panel that whirs with an upward thrust. Whenever a creature moves atop the panel, they are launched up to 30 feet in any direction they choose. The creature takes no falling damage for the first 30 feet it falls. The jump pad deactivates after 1 minute or when you collect it on your turn (no action required.)"
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Magnet Boots",
+			"source": "DarkMatter",
+			"entries": [
+				"These weighty boots grant you the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You also gain a climbing speed equal to your walking speed."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Mega-Gizmo",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: Utility Matrix Prototype, 17th level}",
+				"You can use two of your Utility Matrix's devices as a bonus action. These devices must each activate as a bonus action"
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"other": "Utility Matrix Prototype"
+				},
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Micro-Missle",
+			"source": "DarkMatter",
+			"entries": [
+				"As an action, this wrist-mounted device fires a small homing missile at a target you can see within 30 feet. This missile automatically hits its target and deals 1d6 force damage. You fire additional missiles when you reach higher levels in this class: 2 missiles at 5th level, 3 missiles at 11th level, and 4 missiles at 17th level. You can direct the missiles at the same target or at different ones. "
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Micro-Turret",
+			"source": "DarkMatter",
+			"entries": [
+				"As an action, this device can be thrown to any unoccupied space within 10 feet of you, where it transforms into a Small stationary blaster turret, which has AC 10 and 30 HP. Reducing the turret to 0 hit points disables it.",
+				"The turret makes a ranged attack roll (attack bonus equals your proficiency bonus + your Intelligence modifier) against a creature you designate within 60 feet of it. On a hit, the turret deals 1d8 radiant damage. You can use your bonus action on subsequent turns to designate a target for the turret and command it to attack. After 1 minute, the turret deactivates and must charge for 1 minute before being deployed again.",
+				"{@b Upgrade}. This gadget can be chosen twice, gaining the following upgrade when you select it the second time: When you command the turret to fire, you can choose for it to fire an overcharged shot, which deals 3d8 radiant damage on a hit. The turret then overheats, and can't be used to fire on the following turn."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Molecular Destabilizer",
+			"source": "DarkMatter",
+			"entries": [
+				"As an action, you can activate this gadget, which looks like a blaster with a widely-flared muzzle. When you do so, it disintegrates a nonliving object you choose within 5 feet of you that can fit entirely within a 3-foot cube, reducing it into a fine dust. This gadget has no effect on metallic objects or magic items."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Motion Tracker",
+			"source": "DarkMatter",
+			"entries": [
+				"Prerequisite: 9th level",
+				"You construct a {@item motion tracker|DarkMatter} magic item."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Omni-Grenade",
+			"source": "DarkMatter",
+			"entries": [
+				"Prerequisite: 5th level",
+				"As an action, you can prime this device to release a blast of elemental energy and throw it up to 30 feet. You can collect and reuse the device after it is thrown. When you prime the grenade, choose one of the following effects:",
+				"{@b Fire}. The grenade explodes in a scorching inferno. Each creature within 5 feet of it must make a Dexterity saving throw. On a failed save, a creature takes 4d8 fire damage and an additional 2d8 fire damage at the beginning of its next turn. On a success, a creature takes half as much damage and none at the beginning of its next turn.",
+				"{@b Ice}. The grenade explodes with a cryogenic blast of frigid air. Each creature within 5 feet of it must make a Dexterity saving throw. On a failed save, a creature takes 4d8 cold damage and its speed is halved until the end of its next turn. On a success, a creature takes half as much damage and its speed isn't halved.",
+				"{@b Lightning}. The grenade explodes in a crackling electric burst. Each creature within 5 feet of it must make a Dexterity saving throw. On a failed save, a creature takes 4d8 lightning damage and can't take reactions until the start of its next turn. On a success, a creature takes half as much damage and can still take reactions.",
+				"This gadget improves as you gain levels in this class. At 11th level, you deal an additional 1d8 damage when a target fails its saving throw against your grenade, and at 17th level, you deal an additional 2d8 damage."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Orbital Superweapon",
+			"source": "DarkMatter",
+			"entries": [
+				"You have pieced together a massive doomsday device, an orbital cannon, which you store in a pocket dimension for convenience. By throwing out a beacon, you can summon the weapon and fire it, as per the spell {@spell orbital hardlight cannon|DarkMatter}. You don't need to concentrate on this spell. Once you use this gadget, you can't use it again until you finish a long rest."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Overheat Beacon",
+			"source": "DarkMatter",
+			"entries": [
+				"As an action, you can activate this gadget, which produces a signal that causes every blaster within 60 feet to overheat. An overheated weapon can't be used to make an attack again until the end of your next turn. Once you use this gadget, you can't use it again for 1 minute.",
+				"{@b Upgrade}. This gadget can be chosen twice, gaining the following upgrade when you select it the second time: When you activate this gadget, you can choose any number of blasters within range to be unaffected by it."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "R-Mac",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisites: Mechanized Autonomous Construct prototype, 17th level}",
+				"You reinforce your MAC with high-density alloy bands. As a result, the construct has resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"other": "Mechanized Autonomous Construct prototype"
+				},
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Remote Gloves",
+			"source": "DarkMatter",
+			"entries": [
+				"These rocket powered robotic gauntlets fly around following your every gesture. You can deploy the gauntlets or retrieve them as a bonus action. On each of your turns, without using an action, you can command each of the gauntlets to move up to 30 feet. The gauntlets will automatically stay within 30 feet of you, as they become inactive if they ever fall outside of this range.",
+				"You can assume control of the gauntlets to perform actions at a distance. When you do so, the gauntlets exactly mimic your hands, allowing you to manipulate objects and technological devices, store and retrieve items, or perform any other action for which you normally use your hands. Controlling each gauntlet requires a free hand and takes actions to perform tasks as if you were performing them yourself.",
+				"The gauntlets can't attack, activate magic items or gadgets, or carry more than 25 pounds each."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Ricochet Aperture",
+			"source": "DarkMatter",
+			"entries": [
+				"Your weapon attacks using blasters ignore half and three-quarters cover, if there exists a solid surface off of which to ricochet the shot towards the target. You can target a creature in total cover with a ricocheted blaster attack with disadvantage if you know the target's location within 5 feet."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Rocket Fists",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisites: Experimental Frame Prototype, 5th level}",
+				"You have replaced your frame's hands with rocket fists. The fists are ranged weapons with a range of 60/180, which use your Intelligence modifier for attack and damage rolls. On a hit, a fist deals 1d10 bludgeoning damage. When you make a melee weapon attack with an integrated weapon or a ranged attack with a rocket fist, you can make an additional ranged attack with a rocket fist as a bonus action. A launched rocket fist returns to you at the end of your turn."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"other": "Experimental Frame Prototype"
+				},
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Self-Destruct Sequence",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisites: Experimental Frame Prototype, 17th level}",
+				"You've installed an explosive mechanism into your frame, allowing you to detonate it when you enter a special code as an action. When you enter the self-destruct code into your frame, you can specify that it detonates after 1 round, 3 rounds, or 10 rounds (1 minute). You can deactivate the self-destruct code as an action. The frame explodes in a",
+				"60-foot radius, destroying it completely. Each creature in that area must make a Dexterity saving throw. A creature takes 14d6 fire damage on a failed save, or half as much damage on a successful one. You can rebuild the frame with one week of work"
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"other": "Experimental Frame Prototype"
+				},
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Shrink Ray",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 9th level}",
+				"As an action while holding this device, you can target a creature within 30 feet with the Reduce effect of the {@spell enlarge/reduce} spell. This effect doesn't require your",
+				"concentration and can't be dispelled with dispel magic or similar effects. Only one target can be affected by this gadget at a time.",
+				"{@b Upgrade}. This gadget can be chosen twice, gaining the following upgrade when you select it the second time: You can use the Enlarge option of the enlarge/reduce spell when you use this device."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Sonic Amplifier",
+			"source": "DarkMatter",
+			"entries": [
+				"This device, which is fitted with several large speakers on its face, can deaden or amplify sounds within range. When you activate the device as an action, choose one of the following effects:",
+				"{@b Anti Sound}. A 20 foot radius sphere around you is rendered completely silent until the beginning of your next turn. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible within the area.",
+				"{@b Noise Burst}. The amplifier creates a sudden blast of white noise. Each creature you choose within 20 feet of you must make a Constitution saving throw or take 1d6 thunder damage. This damage increases to 2d6 thunder damage at when you reach 5th level, 3d6 at 11th level, and 4d6 at 17th level."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Spectrum Visor",
+			"source": "DarkMatter",
+			"entries": [
+				"This visor has a single long slit, blipping with lights and sensors. As an action or bonus action, you can activate one of the following visor modes. Only one visor mode can be active at a time.",
+				"{@b Aurasight}. You can see a faint aura around any visible creature or object within 30 feet that bears magic, and you learn its school of magic, if any. This detection can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+				"{@b Darkvision}. You gain darkvision, which means you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+				"{@b Thermalsight}. You gain thermalsight, which means you can see living creatures through darkness and heavily obscured conditions, such as fog, out to a range of 30 feet. You can also determine if a creature is living or dead though its body heat. However, you can't discern color, nor use this sense to see through illusions, invisibility, or magical darkness. This sense is blocked by one inch of any solid barrier."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Spell Cube",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 13th level}",
+				"As a reaction when a spell of 1st to 5th level that would affect you is cast, you can trap it within the spell cube. The spell has no effect and is instead contained within the cube. The cube can only store one spell at a time.",
+				"While holding the cube, you can cast the spell stored in it, expending it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. "
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Stasis Field Generator",
+			"source": "DarkMatter",
+			"entries": [
+				"This device deploys a 5 foot diameter spherical forcefield around you as a reaction when you drop to 0 hit points. Until the beginning of your next turn, you are enveloped within this forcefield, which nothingâ€”not physical objects, energy, or spell effectsâ€”can penetrate. The forcefield itself is immune to damage and you can't be damaged further while within the sphere, nor do you make death saving throws. The sphere is weightless and can be moved while you're within it. At the beginning of your next turn, the sphere deactivates, and you are restored to consciousness with 1 hit point. Once this device activates, it can't do so again until you finish a long rest.",
+				"{@b Upgrade}. This gadget can be chosen twice, gaining the following upgrade when you select it the second time: You can activate this gadget as a bonus action on your turn, placing you in the spherical forcefield and restoring 1 of your hit points. "
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Tesla Mines",
+			"source": "DarkMatter",
+			"entries": [
+				"You gain a set of three electrical proximity mines. As an action, you can activate and throw a mine onto a surface within 40 feet, to which it firmly attaches. If a creature other than yourself enters the 5 foot cube area originating at the top of the mine, it must make a Dexterity saving throw. On a failed save, a creature takes 2d8 lightning damage and can't move or take reactions until the end of its next turn. On a successful save, a creature takes half this amount of damage and can move and take reactions as normal.",
+				"You can disarm and recover a mine within 5 feet of you as an action. After 1 hour, a deployed mine burns out. You rebuild deployed and burned out mines during a long rest.",
+				"{@b Upgrade}. This gadget can be chosen twice, gaining the following upgrade when you select it the second time: A mine triggers when a creature enters a 15 foot cube originating at the top of the mine."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Transmat Deck",
+			"source": "DarkMatter",
+			"entries": [
+				"You construct a {@item transmat deck|DarkMatter} magic item."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Universal Translator",
+			"source": "DarkMatter",
+			"entries": [
+				"You construct a {@item universal translator|DarkMatter} magic item and can also use it to read all writing."
+			],
+			"featureType": "Gadget"
+		},
+		{
+			"name": "Version 1812 Multirocket Launcher",
+			"source": "DarkMatter",
+			"entries": [
+				"{@i Prerequisite: 5th level}",
+				"As an action, this device unfolds into a comically large multi barrel rocket launcher, which proceeds to fire wildly in every direction while playing a grand overture. Each creature other than yourself within 30 feet of you must make a Dexterity saving throw. A creature takes 6d6 fire damage on a failed save, or half as much on a successful one.",
+				"Once you use this gadget, you can't use it again until you finish a long rest."
+			],
+			"featureType": "Gadget",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gadgeteer"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Zipgun",
+			"source": "DarkMatter",
+			"entries": [
+				"You build a {@item zipgun|DarkMatter} magic item. This magic item's save DC equals your Gadget save DC. Once this item burns out, you can rebuild it during a long rest. "
+			],
+			"featureType": "Gadget"
 		}
 	],
 	"item": [
@@ -12711,12 +13926,11 @@
 			"source": "DarkMatter",
 			"page": 144,
 			"baseItem": "singularity emitter|DarkMatter",
-			"type": "R",
+			"type": "B",
 			"rarity": "legendary",
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
-				"BLS",
 				"H",
 				"OH",
 				"2H"
@@ -12778,14 +13992,12 @@
 			"source": "DarkMatter",
 			"page": 144,
 			"baseItem": "repeater|DarkMatter",
-			"type": "R",
+			"type": "B",
 			"rarity": "very rare",
 			"reqAttune": true,
 			"weight": 3,
 			"weaponCategory": "martial",
-			"property": [
-				"BLS"
-			],
+			"property": [],
 			"range": "60/240",
 			"dmg1": "2d6",
 			"dmgType": "R",
@@ -12964,11 +14176,11 @@
 			"page": 145,
 			"baseItem": "phaser|DarkMatter",
 			"type": "B",
+			"firearm": true,
 			"rarity": "rare",
 			"weight": 3,
 			"weaponCategory": "simple",
 			"property": [
-				"BLS",
 				"L",
 				"NL"
 			],
@@ -12978,8 +14190,423 @@
 			"weapon": true,
 			"entries": [
 				"On a hit, this magic weapon deals an additional {@damage 2d10} radiant damage and the target is pushed 10 feet away from you. The weapon then overheats. An overheated weapon can't be used to make an attack again until the end of your next turn."
+			]
+		},
+		{
+			"name": "Circuitry Kit",
+			"source": "DarkMatter",
+			"page": 137,
+			"type": "AT",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"additionalEntries": [
+				"A circuitry kit contains a soldering iron, spare wire, and dozens of spare arcane components, such as abjurators, illusiometers, evocation shifters, and conjuration processors—everything necessary to rewire a piece of magical technology. Proficiency with this kit allows you to add your proficiency bonus to any checks you make to build, modify, and repair handheld gadgets, such as blasters, which contain an arcane battery.",
+				{
+					"type": "entries",
+					"name": "Data (Hacking Doors",
+					"entries": [
+						"Proficiency with circuitry kits lets you rewire a door's interface to bypass its security features."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Survival (Repurposing Technology)",
+					"entries": [
+						"When things fail in the Black or on foreign planets, it's sometimes necessary to repurpose technology to keep the bare essentials, such as life support, running. Proficiency with circuitry kits helps you to adapt technology for related uses."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mechanist's Tools",
+			"source": "DarkMatter",
+			"page": 137,
+			"type": "AT",
+			"rarity": "none",
+			"weight": 30,
+			"value": 8500,
+			"additionalEntries": [
+				"This kit contains a wide variety of tools used for metalworking and robotics, including a compact saw-grinder-mill tool, a welding torch and mask, an auto-hammer, and a lathe. It also includes enough scrap metal to begin and end most inexpensive projects. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to build, repair, and modify constructs and complex machines.",
+				{
+					"type": "entries",
+					"name": "Deception (Posing as a Construct)",
+					"entries": [
+						"If someone is willing to rigidly stand still in a robotic chassis for hours on end, they can convincingly pass as a construct. Proficiency with mechanist's tools lets you disguise a humanoid as a similarly-sized construct, or vice-versa"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Investigation (Inspecting Constructs)",
+					"entries": [
+						"Proficiency with mechanist's tools helps you identify if a construct is active, motionlessly waiting, malfunctioning, infected with the N-Virus, or otherwise damaged."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ship Maintenance Tools",
+			"source": "DarkMatter",
+			"page": 137,
+			"type": "AT",
+			"rarity": "none",
+			"weight": 50,
+			"value": 15000,
+			"additionalEntries": [
+				"These tools are essential for keeping starships spaceworthy and repairing them after combat. Each component in this extensive set of tools is intricate and extremely specialized, and can be used to fix virtually every part of a ship, from disabled systems, to external hull damage, to problems in the Dark Matter engine itself. Proficiency with this kit helps you repair ships more quickly and easily, adding your proficiency bonus to checks you make to repair your ship.",
+				{
+					"type": "entries",
+					"name": "History (Identify Warships)",
+					"entries": [
+						"History's record of space-bound warships is as long as it is varied. Proficiency with ship maintenance tools allows you to identify such vessels, as well as their age, function, and manufacturers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Piloting (Malfunctions)",
+					"entries": [
+						"When flying at the edge of a Dead Magic Zone or through an electromagnetic storm, components of a ship might outright fail, forcing the pilot to improvise. Proficiency with ship maintenance tools lets you manually operate some systems that would otherwise fail in these scenarios,"
+					]
+				}
+			]
+		},
+		{
+			"name": "Ambassador's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 50000,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item chest|phb}",
+						"a {@item fine clothes|phb}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item datapad|DarkMatter}",
+						"a {@item flashlight|DarkMatter}",
+						"a {@item holo-sphere|DarkMatter}",
+						"a {@item Ink (1-ounce bottle)|phb|bottle of ink}",
+						"an {@item ink pen|phb}",
+						"a {@item log keeper|DarkMatter}",
+						"10 sheets of {@item Paper (one sheet)|phb|Paper}",
+						"a {@item Perfume (vial)|phb|vial of purfume}",
+						"and a {@item Wristwatch|DarkMatter}"
+					]
+				}
 			],
-			"ammoType": "crossbow bolt|phb"
+			"packContents": [
+				"chest|phb",
+				"fine clothes|phb",
+				"comm set|DarkMatter",
+				"datapad|DarkMatter",
+				"flashlight|DarkMatter",
+				"holo-sphere|DarkMatter",
+				"Ink (1-ounce bottle)|phb",
+				"ink pen|phb",
+				"log keeper|DarkMatter",
+				{
+					"item": "Paper (one sheet)|phb",
+					"quantity": 10
+				},
+				"Perfume (vial)|phb",
+				"Wristwatch|DarkMatter"
+			]
+		},
+		{
+			"name": "Bandolier",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 300,
+			"entries": [
+				"This shoulder strap contains six pouches large enough to hold a potion, grenade, or similarly-sized item within easy reach. It can hold 10 pounds of gear."
+			]
+		},
+		{
+			"name": "Binoculars",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 1500,
+			"entries": [
+				"Objects viewed through binoculars are magnified to ten times their size."
+			]
+		},
+		{
+			"name": "Bottled Lightning",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 7500,
+			"entries": [
+				"This glass canister is filled with a constantly surging bolt of magic lightning and sheds bright light in a 10-foot radius, and dim light for an additional 10 feet.",
+				"As an action, you can throw this canister up to 20 feet, breaking it on impact. Make a ranged attack against a creature or object, treating the bottled lightning as an improvised weapon. On a hit, the target takes 1d8 lightning damage."
+			]
+		},
+		{
+			"name": "Comm Set",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"entries": [
+				"Using this handheld device, you can verbally communicate with any creature within 1 mile that also has a comm set. A comm set can be connected to a headset worn on the ear or can be talked into directly. Its signal can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+			]
+		},
+		{
+			"name": "Concussion Grenade",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 2,
+			"value": 7500,
+			"entries": [
+				"This spherical device, dotted with blinking lights, explodes in a wave of concussive force. As an action, you can throw this grenade up to 20 feet, which detonates a moment after impact. Make a ranged attack against a creature or object, treating the grenade as an improvised weapon. On a hit, the target takes 1d8 thunder damage and is deafened until the beginning of your next turn. Additionally, each creature within 10 feet of the target must make a DC 12 Dexterity saving throw or also take this damage and be deafened for the same duration."
+			]
+		},
+		{
+			"name": "Data Book",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 4,
+			"value": 12500,
+			"entries": [
+				"This 10-inch long rectangular drive can hold a massive quantity of informationâ€”ten times as much as a datapad can hold. Over the course of a minute, you can transfer information between a data book and an arcane terminal, a datapad, or shipâ€™s computer, uploading or downloading any information you have access to, but information can't be directly read from a data book.",
+				"Like a datapad, a data book can be locked with a secret password."
+			]
+		},
+		{
+			"name": "Datapad",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 5000,
+			"entries": [
+				"A common gadget that is used to store personal information, search for data on arcane terminals, communicate with others, and transfer credits. You can enter text by hand into a datapad or draw in it using a stylus as if it were a notebook with 2,000 pages. You can also search these notes with one-word queries. If the datapad is within 1 mile of an arcane terminal or ship's computer, you can use it to communicate with other datapads that are also within that range, provided both datapads have exchanged a comm number. This communication is limited to one text-based message (128 characters) every minute. Lastly, datapads are often used to access an account with the Galactic Bank, where your wealth is stored as credits on their server.",
+				"When you get a datapad, you also lock it with a password that you likely keep secret. Only someone with the password can access the datapad (barring unauthorized access, which can be accomplished with a successful DC 18 Intelligence (Data) check to hack the datapad).",
+				"If the datapad is connected by cable to an arcane terminal or ship's computer, you can use it to perform advanced operations on systems connected to it. This might be necessary to operate some systems, like the research devices on a science satellite"
+			]
+		},
+		{
+			"name": "Flare",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 100,
+			"entries": [
+				"A flare is a foot-long, brightly colored stick with a plastic cap. You can strike the bottom of the flare as an action, causing the flare to bursts into a bright, colored flame, matching that of the stick. This flame burns for 10 minutes, emitting a 40-foot radius of bright light and dim light for an additional 20 feet. A flare will still burn underwater or in a vacuum."
+			]
+		},
+		{
+			"name": "Flashlight",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 3500,
+			"entries": [
+				"This device produces a 60-foot cone of bright light, and dim light for an additional 15 feet. It can provide light for up to 4 hours, after which it must recharge for 8 hours."
+			]
+		},
+		{
+			"name": "Holo-Sphere",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 2,
+			"value": 15000,
+			"entries": [
+				"As an action, you can activate this 6-inch wide sphere and deploy it within 15 feet of you. The sphere then captures a 5-foot cube holographic recording of the events of the next 30 seconds, which can be replayed on it later. In spite of the high technology, the image leaves something to be desired: the sphere produces a roughly one-foot high monochromatic hologram of the subject it recorded, often with a considerable amount of static. High volumes of magic disrupt recording with even more static, often creating an unrecognizable holographic mess."
+			]
+		},
+		{
+			"name": "Holster",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 100,
+			"entries": [
+				"A holster is a specially-made holder which allows a blaster which lacks the Two-Handed property to be carried on a belt or under the arm"
+			]
+		},
+		{
+			"name": "Hypodemic Needle",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 17500,
+			"entries": [
+				"This syringe can directly inject a substance into someoneâ€™s bloodstream. You can load a liquid, such as a potion of healing, into a hypodermic needle as a bonus action, then administer it to another creature as an action on your turn. If the creature is unwilling, you must make a melee weapon attack, treating the needle as an improvised weapon, to do so."
+			]
+		},
+		{
+			"name": "Igniter",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 500,
+			"entries": [
+				"An interface rig includes everything necessary to connect to a device without an accessible interface: a datapad accessor loaded with complicated algorithms, a plethora of wires and connectors, and a heavy magnet, in case things get dire. Such a rig is necessary to gain unauthorized access to many systems."
+			]
+		},
+		{
+			"name": "Interface Rig",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"entries": [
+				"When you drink this can of sugary liquid as an action, you feel a rush of energy. For the next hour, your exhaustion level temporarily decreases by 1. You can only be under the effect of one can of krash at a time."
+			]
+		},
+		{
+			"name": "Krash",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0.75,
+			"value": 20,
+			"entries": [
+				"This one-piece jumpsuit comes equipped with a domed glass helmet. While wearing it, you can breathe normally and survive underwater or in the vacuum of space without ill effect for up to 24 hours at a time. The suit must be removed for 2 hours to replenish its air supply. While wearing it, you are immune to the effects of inhaled poisons, gases, and pathogens. Additionally, the suit insulates you from extreme environmental temperatures (see Appendix E). You can wear the suit under armor"
+			]
+		},
+		{
+			"name": "Life Suit",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 20,
+			"value": 20000,
+			"entries": [
+				"This foot-long device records and replays audio, organizing entries by date. It can store up to 72 hours of audio before it automatically begins purging the earliest entries."
+			]
+		},
+		{
+			"name": "Log Keeper",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"entries": [
+				"This device produces a small flame, which you can use to light a candle, torch, or campfire"
+			]
+		},
+		{
+			"name": "Omnitool",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 2500,
+			"entries": [
+				"This multipurpose gadget contains a plethora of useful tools: small knives of various sizes, a small hammer, screwdrivers, a file, a bottle opener, a small saw, a wrench, a can opener, a wire-cutter, and a small set of pliers."
+			]
+		},
+		{
+			"name": "Quadcorder",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 8500,
+			"entries": [
+				"This handheld scanning device has four prominent sensors (each looking like a small radar dish) on its operating end. When directed at an object within 5 feet as an action, the device measures and displays many of that object's intrinsic properties, including its temperature, density, boiling point, freezing point, conductivity, and viscosity."
+			]
+		},
+		{
+			"name": "Roach",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 10000,
+			"entries": [
+				"Ocoulori Radavitis is an insectlike creature that is consumed to improve the results of a void jump. See the Ships chapter for more details."
+			]
+		},
+		{
+			"name": "Sling",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 50,
+			"entries": [
+				"A sling is a strap which attaches to a twohanded ranged weapon (usually a blaster) and is worn on the body, usually over a shoulder, to make the weapon's weight easier to bear. When you drop a weapon attached to a sling you are wearing, it falls to your side and continues to hang within reach."
+			]
+		},
+		{
+			"name": "Tactical Vest",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 6,
+			"value": 1500,
+			"entries": [
+				"This light vest is covered in pouches, straps, and holsters. The vest can carry a two-handed melee weapon on its back and a dagger or an antimatter dagger on its front. It has two holsters and one sling can attach to it. The tactical vest can be worn atop armor."
+			]
+		},
+		{
+			"name": "Vent tape",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 10,
+			"entries": [
+				"This durable adhesive tape is useful for any application that involves sticking two things together. While more creative minds might use large quantities of vent tape for other uses, most people use it for quick repairs and to affix flashlights to blasters in a pinch. A single roll of vent tape contains 60 feet of 2-inch wide tape."
+			]
+		},
+		{
+			"name": "Wristwatch",
+			"source": "DarkMatter",
+			"page": 135,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 500,
+			"entries": [
+				"A simple device with a simple purpose, this watch reports the time in a way that is consistent with all major galactic factions."
+			]
 		}
 	]
 }
