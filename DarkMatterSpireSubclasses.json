@@ -1,0 +1,123 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DarkMatterSpireSubclasses",
+				"abbreviation": "DaM-SS",
+				"full": "Dark Matter Spire Subclasses",
+				"url": "",
+				"authors": [
+					"Mage Hand Press"
+				],
+				"convertedBy": [],
+				"version": "unknown",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1604591775,
+		"dateLastModified": 1604591775
+	},
+    "subclass": [
+        {
+            "subclassFeatures": [
+                "Coalition Arcanist|Warmage|Spire of Secrets|Coalition Arcanist|DarkMatterSpireSubclasses|3",
+                "Coalition Blaster Gauntlet|Warmage|Spire of Secrets|Coalition Arcanist|DarkMatterSpireSubclasses|3",
+                "Tactical Uplink|Warmage|Spire of Secrets|Coalition Arcanist|DarkMatterSpireSubclasses|7",
+                "Requisition|Warmage|Spire of Secrets|Coalition Arcanist|DarkMatterSpireSubclasses|10",
+                "Squadsight|Warmage|Spire of Secrets|Coalition Arcanist|DarkMatterSpireSubclasses|15",
+                "Orbital Bombardment|Warmage|Spire of Secrets|Coalition Arcanist|DarkMatterSpireSubclasses|18"
+            ],
+            "shortName": "Coalition Arcanist",
+            "name": "Coalition Arcanist",
+            "source": "DarkMatterSpireSubclasses",
+            "className": "Warmage",
+            "classSource": "Spire of Secrets",
+            "page": "100"
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Coalition Arcanist",
+            "source": "DarkMatterSpireSubclasses",
+            "className": "Warmage",
+            "classSource": "Spire of Secrets",
+            "subclassShortName": "Coalition Arcanist",
+            "subclassSource": "DarkMatterSpireSubclasses",
+            "entries": [
+                "Adapted to the modern scale and complexity of interstellar warfare, warmages of the Coalition blend the tactics of the College with formidable blaster technology. Squads of these arcanists form the backbone of Coalition special forces, as their firepower and discipline are unmatched, even among Coalition troops."
+            ],
+            "level": 3,
+            "page": "100"
+        },
+        {
+            "name": "Coalition Blaster Gauntlet",
+            "source": "DarkMatterSpireSubclasses",
+            "className": "Warmage",
+            "classSource": "Spire of Secrets",
+            "subclassShortName": "Coalition Arcanist",
+            "subclassSource": "DarkMatterSpireSubclasses",
+            "entries": [
+                "Starting when you choose this house at 3rd level, you gain a specialized spell focus known as a blaster gauntlet, which allows you to apply some of the traits of blasters to cantrips you cast through it. If the gauntlet is lost or stolen, you can requisition another one from the Coalition when you take a long rest.",
+                "Whenever you cast a warmage cantrip that deals damage and requires a ranged spell attack using the gauntlet as a spell focus, you can apply one of the following modifiers:",
+                "{@b Automatic}. You can cast a cantrip twice, targeting two different creatures within 15 feet of one another with the spell. Your spell attacks for this cantrip always have disadvantage, regardless of circumstance.",
+                "{@b Scatter}. Shooting at a close range target, you increase the cantrip’s damage dice by one die size for the attack. For example, if the cantrip deals d6s for damage, it deals d8s instead. If it deals d8s, it instead deals d10s, up to a maximum of d12s. This cantrip can’t target a creature further than 10 feet from you.",
+                "{@b Sighted}. You can cast a cantrip at up to double its range. If its target is beyond its normal range, the spell attack has disadvantage."
+            ],
+            "level": 3,
+            "page": "100"
+        },
+        {
+            "name": "Tactical Uplink",
+            "source": "DarkMatterSpireSubclasses",
+            "className": "Warmage",
+            "classSource": "Spire of Secrets",
+            "subclassShortName": "Coalition Arcanist",
+            "subclassSource": "DarkMatterSpireSubclasses",
+            "entries": [
+                "Starting at 7th level, you are fitted with a neural implant, granting you unparalleled battlefield awareness. You can use an action to gain knowledge of the general lay of the land within a 1-mile radius of yourself. This knowledge only extends to surface-level or obvious features (natural or artificial), and doesn't detect creatures of any sort.",
+                "Additionally, you gain a +5 bonus to your passive Perception score."
+            ],
+            "level": 7,
+            "page": "100"
+        },
+        {
+            "name": "Requisition",
+            "source": "DarkMatterSpireSubclasses",
+            "className": "Warmage",
+            "classSource": "Spire of Secrets",
+            "subclassShortName": "Coalition Arcanist",
+            "subclassSource": "DarkMatterSpireSubclasses",
+            "entries": [
+                "By 10th level, you can requisition magic items from the Coalition’s armory for short term use. When you finish a long rest, choose one of the following magic items, which is teleported to you: 2 {@item attractor mine|DarkMatterSpireSubclasses|attractor mines}, a {@item dome projector|DarkMatterSpireSubclasses}, a {@item gravity nullifier|DarkMatterSpireSubclasses}, a {@item jetpack|DarkMatterSpireSubclasses}, a {@item ring of spacewalking|DarkMatterSpireSubclasses} (which is attuned to you automatically), or a {@item universal translator|DarkMatterSpireSubclasses}. This item remains in your possession for 24 hours, at which time it is teleported back to the Coalition’s secure armory."
+            ],
+            "level": 10,
+            "page": "100"
+        },
+        {
+            "name": "Squadsight",
+            "source": "DarkMatterSpireSubclasses",
+            "className": "Warmage",
+            "classSource": "Spire of Secrets",
+            "subclassShortName": "Coalition Arcanist",
+            "subclassSource": "DarkMatterSpireSubclasses",
+            "entries": [
+                "Starting at 15th level, your tactical uplink synchronizes you with your allies, granting you a decisive tactical advantage. While you are within 120 feet of an ally, you know the exact location of any creature that your ally sees. Additionally, you can use a cantrip to target a creature that your ally can see, as long as that creature isn't in cover from your ally’s perspective. This cantrip is fired like a mortar, ricocheted off obstacles, or fired through thin barriers to hit its target."
+            ],
+            "level": 15,
+            "page": "100"
+        },
+        {
+            "name": "Orbital Bombardment",
+            "source": "DarkMatterSpireSubclasses",
+            "className": "Warmage",
+            "classSource": "Spire of Secrets",
+            "subclassShortName": "Coalition Arcanist",
+            "subclassSource": "DarkMatterSpireSubclasses",
+            "entries": [
+                "At 18th level, you are granted access to the Coalition’s vast fleet of orbital drones, which are teleported to your location. You can cast the spell {@spell orbital hardlight cannon|DarkMatterSpireSubclasses} without using a spell slot. Once you use this ability, you can’t use it again until you finish a long rest."
+            ],
+            "level": 18,
+            "page": "100"
+        }
+    ]
+}
