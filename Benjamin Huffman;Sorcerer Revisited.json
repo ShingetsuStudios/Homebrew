@@ -20,7 +20,7 @@
     },
     "class": [
         {
-            "name": "Sorcerer",
+            "name": "Sorcerer (Revisited)",
             "source": "BHSor",
             "hd": {
                 "number": 1,
@@ -339,36 +339,36 @@
                 }
             ],
             "classFeatures": [
-                "Spellcasting|Sorcerer|BHSor|1",
+                "Spellcasting|Sorcerer (Revisited)|BHSor|1",
                 {
-                    "classFeature": "Sorcerous Origin|Sorcerer|BHSor|1",
+                    "classFeature": "Sorcerous Origin|Sorcerer (Revisited)|BHSor|1",
                     "gainSubclassFeature": true
                 },
-                "Metamagic|Sorcerer|BHSor|2",
-                "Font of Magic|Sorcerer|BHSor|3",
-                "Ability Score Improvement|Sorcerer|BHSor|4",
-                "Sorcerous Versatility|Sorcerer|BHSor|4",
-                "Magical Guidance|Sorcerer|BHSor|5",
+                "Metamagic|Sorcerer (Revisited)|BHSor|2",
+                "Font of Magic|Sorcerer (Revisited)|BHSor|3",
+                "Ability Score Improvement|Sorcerer (Revisited)|BHSor|4",
+                "Sorcerous Versatility|Sorcerer (Revisited)|BHSor|4",
+                "Magical Guidance|Sorcerer (Revisited)|BHSor|5",
                 {
-                    "classFeature": "Sorcerous Origin feature|Sorcerer|BHSor|6",
+                    "classFeature": "Sorcerous Origin feature|Sorcerer (Revisited)|BHSor|6",
                     "gainSubclassFeature": true
                 },
-                "Metamagic|Sorcerer|BHSor|6",
-                "Ability Score Improvement|Sorcerer|BHSor|8",
-                "Metamagic|Sorcerer|BHSor|10",
-                "Ability Score Improvement|Sorcerer|BHSor|12",
+                "Metamagic|Sorcerer (Revisited)|BHSor|6",
+                "Ability Score Improvement|Sorcerer (Revisited)|BHSor|8",
+                "Metamagic|Sorcerer (Revisited)|BHSor|10",
+                "Ability Score Improvement|Sorcerer (Revisited)|BHSor|12",
                 {
-                    "classFeature": "Sorcerous Origin feature|Sorcerer|BHSor|14",
+                    "classFeature": "Sorcerous Origin feature|Sorcerer (Revisited)|BHSor|14",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Improvement|Sorcerer|BHSor|16",
-                "Metamagic|Sorcerer|BHSor|17",
+                "Ability Score Improvement|Sorcerer (Revisited)|BHSor|16",
+                "Metamagic|Sorcerer (Revisited)|BHSor|17",
                 {
-                    "classFeature": "Sorcerous Origin feature|Sorcerer|BHSor|18",
+                    "classFeature": "Sorcerous Origin feature|Sorcerer (Revisited)|BHSor|18",
                     "gainSubclassFeature": true
                 },
-                "Ability Score Improvement|Sorcerer|BHSor|19",
-                "Sorcerous Actualization|Sorcerer|BHSor|20"
+                "Ability Score Improvement|Sorcerer (Revisited)|BHSor|19",
+                "Sorcerous Actualization|Sorcerer (Revisited)|BHSor|20"
             ],
             "subclassTitle": "Sorcerous Origin",
             "fluff": [
@@ -758,7 +758,7 @@
             "name": "Sorcerous Origin",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 1,
             "entries": [
@@ -770,7 +770,7 @@
             "name": "Spellcasting",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 1,
             "entries": [
@@ -892,7 +892,7 @@
             "name": "Metamagic",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 2,
             "entries": [
@@ -974,7 +974,7 @@
             "name": "Font of Magic",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 3,
             "entries": [
@@ -991,7 +991,7 @@
             "name": "Ability Score Improvement",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 4,
             "entries": [
@@ -1003,7 +1003,7 @@
             "name": "Sorcerous Versatility",
             "source": "BHSor",
             "page": 65,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 4,
             "isClassFeatureVariant": true,
@@ -1022,7 +1022,7 @@
         {
             "name": "Magical Guidance",
             "source": "BHSor",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 5,
             "isClassFeatureVariant": true,
@@ -1035,7 +1035,7 @@
             "name": "Sorcerous Origin feature",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 6,
             "entries": [
@@ -1046,7 +1046,7 @@
             "name": "Ability Score Improvement",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 8,
             "entries": [
@@ -1058,7 +1058,7 @@
             "name": "Metamagic",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 10,
             "entries": [
@@ -1069,7 +1069,7 @@
             "name": "Metamagic",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 6,
             "entries": [
@@ -1080,7 +1080,7 @@
             "name": "Ability Score Improvement",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 12,
             "entries": [
@@ -1092,7 +1092,7 @@
             "name": "Sorcerous Origin feature",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 14,
             "entries": [
@@ -1103,7 +1103,7 @@
             "name": "Ability Score Improvement",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 16,
             "entries": [
@@ -1115,7 +1115,7 @@
             "name": "Metamagic",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 17,
             "entries": [
@@ -1126,7 +1126,7 @@
             "name": "Sorcerous Origin feature",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 18,
             "entries": [
@@ -1137,7 +1137,7 @@
             "name": "Ability Score Improvement",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 19,
             "entries": [
@@ -1149,7 +1149,7 @@
             "name": "Sorcerous Actualization",
             "source": "BHSor",
             "page": 0,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "level": 20,
             "entries": [
@@ -1164,12 +1164,12 @@
             "source": "BHSor",
             "page": 102,
             "subclassFeatures": [
-                "Draconic Bloodline|Sorcerer|BHSor|Draconic|BHSor|1",
-                "Elemental Affinity|Sorcerer|BHSor|Draconic|BHSor|6",
-                "Dragon Wings|Sorcerer|BHSor|Draconic|BHSor|14",
-                "Draconic Presence|Sorcerer|BHSor|Draconic|BHSor|18"
+                "Draconic Bloodline|Sorcerer (Revisited)|BHSor|Draconic|BHSor|1",
+                "Elemental Affinity|Sorcerer (Revisited)|BHSor|Draconic|BHSor|6",
+                "Dragon Wings|Sorcerer (Revisited)|BHSor|Draconic|BHSor|14",
+                "Draconic Presence|Sorcerer (Revisited)|BHSor|Draconic|BHSor|18"
             ],
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor"
         },
         {
@@ -1178,12 +1178,12 @@
             "source": "BHSor",
             "page": 103,
             "subclassFeatures": [
-                "Wild Magic|Sorcerer|BHSor|Wild|BHSor|1",
-                "Bend Luck|Sorcerer|BHSor|Wild|BHSor|6",
-                "Controlled Chaos|Sorcerer|BHSor|Wild|BHSor|14",
-                "Spell Bombardment|Sorcerer|BHSor|Wild|BHSor|18"
+                "Wild Magic|Sorcerer (Revisited)|BHSor|Wild|BHSor|1",
+                "Bend Luck|Sorcerer (Revisited)|BHSor|Wild|BHSor|6",
+                "Controlled Chaos|Sorcerer (Revisited)|BHSor|Wild|BHSor|14",
+                "Spell Bombardment|Sorcerer (Revisited)|BHSor|Wild|BHSor|18"
             ],
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor"
         },
         {
@@ -1229,12 +1229,12 @@
                 }
             ],
             "subclassFeatures": [
-                "Divine Soul|Sorcerer|BHSor|Divine Soul|BHSor|1",
-                "Empowered Healing|Sorcerer|BHSor|Divine Soul|BHSor|6",
-                "Otherworldly Wings|Sorcerer|BHSor|Divine Soul|BHSor|14",
-                "Unearthly Recovery|Sorcerer|BHSor|Divine Soul|BHSor|18"
+                "Divine Soul|Sorcerer (Revisited)|BHSor|Divine Soul|BHSor|1",
+                "Empowered Healing|Sorcerer (Revisited)|BHSor|Divine Soul|BHSor|6",
+                "Otherworldly Wings|Sorcerer (Revisited)|BHSor|Divine Soul|BHSor|14",
+                "Unearthly Recovery|Sorcerer (Revisited)|BHSor|Divine Soul|BHSor|18"
             ],
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor"
         },
         {
@@ -1252,12 +1252,12 @@
                 }
             ],
             "subclassFeatures": [
-                "Shadow Magic|Sorcerer|BHSor|Shadow|BHSor|1",
-                "Hound of Ill Omen|Sorcerer|BHSor|Shadow|BHSor|6",
-                "Shadow Walk|Sorcerer|BHSor|Shadow|BHSor|14",
-                "Umbral Form|Sorcerer|BHSor|Shadow|BHSor|18"
+                "Shadow Magic|Sorcerer (Revisited)|BHSor|Shadow|BHSor|1",
+                "Hound of Ill Omen|Sorcerer (Revisited)|BHSor|Shadow|BHSor|6",
+                "Shadow Walk|Sorcerer (Revisited)|BHSor|Shadow|BHSor|14",
+                "Umbral Form|Sorcerer (Revisited)|BHSor|Shadow|BHSor|18"
             ],
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor"
         },
         {
@@ -1266,13 +1266,13 @@
             "source": "BHSor",
             "page": 51,
             "subclassFeatures": [
-                "Storm Sorcery|Sorcerer|BHSor|Storm|BHSor|1",
-                "Heart of the Storm|Sorcerer|BHSor|Storm|BHSor|6",
-                "Storm Guide|Sorcerer|BHSor|Storm|BHSor|6",
-                "Storm's Fury|Sorcerer|BHSor|Storm|BHSor|14",
-                "Wind Soul|Sorcerer|BHSor|Storm|BHSor|18"
+                "Storm Sorcery|Sorcerer (Revisited)|BHSor|Storm|BHSor|1",
+                "Heart of the Storm|Sorcerer (Revisited)|BHSor|Storm|BHSor|6",
+                "Storm Guide|Sorcerer (Revisited)|BHSor|Storm|BHSor|6",
+                "Storm's Fury|Sorcerer (Revisited)|BHSor|Storm|BHSor|14",
+                "Wind Soul|Sorcerer (Revisited)|BHSor|Storm|BHSor|18"
             ],
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor"
         },
         {
@@ -1280,15 +1280,15 @@
             "shortName": "Prodogy",
             "source": "BHSor",
             "subclassFeatures": [
-                "Arcane Prodigy|Sorcerer|BHSor|Prodogy|BHSor|1",
-                "Alternate Spellcasting Ability|Sorcerer|BHSor|Prodogy|BHSor|1",
-                "Living Grimoire|Sorcerer|BHSor|Prodogy|BHSor|1",
-                "Rare Genius|Sorcerer|BHSor|Prodogy|BHSor|1",
-                "Metamagic Prodigy|Sorcerer|BHSor|Prodogy|BHSor|6",
-                "Spell Tinkering Savant|Sorcerer|BHSor|Prodogy|BHSor|14",
-                "Metamagic Mastery|Sorcerer|BHSor|Prodogy|BHSor|18"
+                "Arcane Prodigy|Sorcerer (Revisited)|BHSor|Prodogy|BHSor|1",
+                "Alternate Spellcasting Ability|Sorcerer (Revisited)|BHSor|Prodogy|BHSor|1",
+                "Living Grimoire|Sorcerer (Revisited)|BHSor|Prodogy|BHSor|1",
+                "Rare Genius|Sorcerer (Revisited)|BHSor|Prodogy|BHSor|1",
+                "Metamagic Prodigy|Sorcerer (Revisited)|BHSor|Prodogy|BHSor|6",
+                "Spell Tinkering Savant|Sorcerer (Revisited)|BHSor|Prodogy|BHSor|14",
+                "Metamagic Mastery|Sorcerer (Revisited)|BHSor|Prodogy|BHSor|18"
             ],
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor"
         }
     ],
@@ -1297,7 +1297,7 @@
             "name": "Draconic Bloodline",
             "source": "BHSor",
             "page": 102,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Draconic",
             "subclassSource": "BHSor",
@@ -1306,11 +1306,11 @@
                 "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Dragon Ancestor|Sorcerer|BHSor|Draconic|BHSor|1"
+                    "subclassFeature": "Dragon Ancestor|Sorcerer (Revisited)|BHSor|Draconic|BHSor|1"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Draconic Resilience|Sorcerer|BHSor|Draconic|BHSor|1"
+                    "subclassFeature": "Draconic Resilience|Sorcerer (Revisited)|BHSor|Draconic|BHSor|1"
                 }
             ]
         },
@@ -1318,7 +1318,7 @@
             "name": "Draconic Resilience",
             "source": "BHSor",
             "page": 102,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Draconic",
             "subclassSource": "BHSor",
@@ -1333,7 +1333,7 @@
             "name": "Dragon Ancestor",
             "source": "BHSor",
             "page": 102,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Draconic",
             "subclassSource": "BHSor",
@@ -1349,8 +1349,8 @@
                         "Damage Type"
                     ],
                     "colStyles": [
-                        "col-6 text-center",
-                        "col-6 text-center"
+                        "col-3 text-center",
+                        "col-3 text-center"
                     ],
                     "rows": [
                         [
@@ -1402,7 +1402,7 @@
             "name": "Elemental Affinity",
             "source": "BHSor",
             "page": 102,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Draconic",
             "subclassSource": "BHSor",
@@ -1416,7 +1416,7 @@
             "name": "Dragon Wings",
             "source": "BHSor",
             "page": 102,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Draconic",
             "subclassSource": "BHSor",
@@ -1431,7 +1431,7 @@
             "name": "Draconic Presence",
             "source": "BHSor",
             "page": 102,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Draconic",
             "subclassSource": "BHSor",
@@ -1445,7 +1445,7 @@
             "name": "Wild Magic",
             "source": "BHSor",
             "page": 103,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Wild",
             "subclassSource": "BHSor",
@@ -1454,11 +1454,11 @@
                 "Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Wild Magic Surge|Sorcerer|BHSor|Wild|BHSor|1"
+                    "subclassFeature": "Wild Magic Surge|Sorcerer (Revisited)|BHSor|Wild|BHSor|1"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Tides of Chaos|Sorcerer|BHSor|Wild|BHSor|1"
+                    "subclassFeature": "Tides of Chaos|Sorcerer (Revisited)|BHSor|Wild|BHSor|1"
                 }
             ]
         },
@@ -1466,7 +1466,7 @@
             "name": "Tides of Chaos",
             "source": "BHSor",
             "page": 103,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Wild",
             "subclassSource": "BHSor",
@@ -1481,7 +1481,7 @@
             "name": "Wild Magic Surge",
             "source": "BHSor",
             "page": 103,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Wild",
             "subclassSource": "BHSor",
@@ -1713,7 +1713,7 @@
             "name": "Bend Luck",
             "source": "BHSor",
             "page": 103,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Wild",
             "subclassSource": "BHSor",
@@ -1727,7 +1727,7 @@
             "name": "Controlled Chaos",
             "source": "BHSor",
             "page": 103,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Wild",
             "subclassSource": "BHSor",
@@ -1741,7 +1741,7 @@
             "name": "Spell Bombardment",
             "source": "BHSor",
             "page": 103,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Wild",
             "subclassSource": "BHSor",
@@ -1755,7 +1755,7 @@
             "name": "Divine Soul",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Divine Soul",
             "subclassSource": "BHSor",
@@ -1767,11 +1767,11 @@
                 "In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Divine Magic|Sorcerer|BHSor|Divine Soul|BHSor|1"
+                    "subclassFeature": "Divine Magic|Sorcerer (Revisited)|BHSor|Divine Soul|BHSor|1"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Favored by the Gods|Sorcerer|BHSor|Divine Soul|BHSor|1"
+                    "subclassFeature": "Favored by the Gods|Sorcerer (Revisited)|BHSor|Divine Soul|BHSor|1"
                 }
             ]
         },
@@ -1779,7 +1779,7 @@
             "name": "Divine Magic",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Divine Soul",
             "subclassSource": "BHSor",
@@ -1827,7 +1827,7 @@
             "name": "Favored by the Gods",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Divine Soul",
             "subclassSource": "BHSor",
@@ -1841,7 +1841,7 @@
             "name": "Empowered Healing",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Divine Soul",
             "subclassSource": "BHSor",
@@ -1855,7 +1855,7 @@
             "name": "Otherworldly Wings",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Divine Soul",
             "subclassSource": "BHSor",
@@ -1870,7 +1870,7 @@
             "name": "Unearthly Recovery",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Divine Soul",
             "subclassSource": "BHSor",
@@ -1885,7 +1885,7 @@
             "name": "Shadow Magic",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Shadow",
             "subclassSource": "BHSor",
@@ -1901,7 +1901,7 @@
                         "Quirk"
                     ],
                     "colStyles": [
-                        "col-2 text-center",
+                        "col-1 text-center",
                         "col-10"
                     ],
                     "rows": [
@@ -1933,11 +1933,11 @@
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Eyes of the Dark|Sorcerer|BHSor|Shadow|BHSor|1"
+                    "subclassFeature": "Eyes of the Dark|Sorcerer (Revisited)|BHSor|Shadow|BHSor|1"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Strength of the Grave|Sorcerer|BHSor|Shadow|BHSor|1"
+                    "subclassFeature": "Strength of the Grave|Sorcerer (Revisited)|BHSor|Shadow|BHSor|1"
                 }
             ]
         },
@@ -1945,7 +1945,7 @@
             "name": "Eyes of the Dark",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Shadow",
             "subclassSource": "BHSor",
@@ -1960,7 +1960,7 @@
             "name": "Strength of the Grave",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Shadow",
             "subclassSource": "BHSor",
@@ -1975,7 +1975,7 @@
             "name": "Hound of Ill Omen",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Shadow",
             "subclassSource": "BHSor",
@@ -1999,7 +1999,7 @@
             "name": "Shadow Walk",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Shadow",
             "subclassSource": "BHSor",
@@ -2013,7 +2013,7 @@
             "name": "Umbral Form",
             "source": "BHSor",
             "page": 50,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Shadow",
             "subclassSource": "BHSor",
@@ -2028,7 +2028,7 @@
             "name": "Storm Sorcery",
             "source": "BHSor",
             "page": 51,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Storm",
             "subclassSource": "BHSor",
@@ -2038,11 +2038,11 @@
                 "Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Wind Speaker|Sorcerer|BHSor|Storm|BHSor|1"
+                    "subclassFeature": "Wind Speaker|Sorcerer (Revisited)|BHSor|Storm|BHSor|1"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Tempestuous Magic|Sorcerer|BHSor|Storm|BHSor|1"
+                    "subclassFeature": "Tempestuous Magic|Sorcerer (Revisited)|BHSor|Storm|BHSor|1"
                 }
             ]
         },
@@ -2050,7 +2050,7 @@
             "name": "Tempestuous Magic",
             "source": "BHSor",
             "page": 51,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Storm",
             "subclassSource": "BHSor",
@@ -2064,7 +2064,7 @@
             "name": "Wind Speaker",
             "source": "BHSor",
             "page": 51,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Storm",
             "subclassSource": "BHSor",
@@ -2078,7 +2078,7 @@
             "name": "Heart of the Storm",
             "source": "BHSor",
             "page": 51,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Storm",
             "subclassSource": "BHSor",
@@ -2092,7 +2092,7 @@
             "name": "Storm Guide",
             "source": "BHSor",
             "page": 51,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Storm",
             "subclassSource": "BHSor",
@@ -2108,7 +2108,7 @@
             "name": "Storm's Fury",
             "source": "BHSor",
             "page": 51,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Storm",
             "subclassSource": "BHSor",
@@ -2122,7 +2122,7 @@
             "name": "Wind Soul",
             "source": "BHSor",
             "page": 51,
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Storm",
             "subclassSource": "BHSor",
@@ -2137,7 +2137,7 @@
             "name": "Arcane Prodigy",
             "source": "BHSor",
             "page": "5",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
@@ -2150,7 +2150,7 @@
             "name": "Alternate Spellcasting Ability",
             "source": "BHSor",
             "page": "5",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
@@ -2163,7 +2163,7 @@
             "name": "Living Grimoire",
             "source": "BHSor",
             "page": "5",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
@@ -2176,7 +2176,7 @@
             "name": "Rare Genius",
             "source": "BHSor",
             "page": "5",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
@@ -2190,7 +2190,7 @@
             "name": "Metamagic Prodigy",
             "source": "BHSor",
             "page": "5",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
@@ -2203,7 +2203,7 @@
             "name": "Spell Tinkering Savant",
             "source": "BHSor",
             "page": "5",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
@@ -2216,7 +2216,7 @@
             "name": "Metamagic Mastery",
             "source": "BHSor",
             "page": "5",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Prodogy",
             "subclassSource": "BHSor",
@@ -2237,7 +2237,7 @@
                     "level": {
                         "level": 2,
                         "class": {
-                            "name": "Sorcerer"
+                            "name": "Sorcerer (Revisited)"
                         },
                         "subclass": {
                             "name": "Divine Soul"
@@ -2260,7 +2260,7 @@
                     "level": {
                         "level": 2,
                         "class": {
-                            "name": "Sorcerer"
+                            "name": "Sorcerer (Revisited)"
                         },
                         "subclass": {
                             "name": "Draconic Bloodline"
@@ -2283,7 +2283,7 @@
                     "level": {
                         "level": 2,
                         "class": {
-                            "name": "Sorcerer"
+                            "name": "Sorcerer (Revisited)"
                         },
                         "subclass": {
                             "name": "Arcane Prodigy"
@@ -2306,7 +2306,7 @@
                     "level": {
                         "level": 2,
                         "class": {
-                            "name": "Sorcerer"
+                            "name": "Sorcerer (Revisited)"
                         },
                         "subclass": {
                             "name": "Storm Sorcery"
@@ -2329,7 +2329,7 @@
                     "level": {
                         "level": 2,
                         "class": {
-                            "name": "Sorcerer"
+                            "name": "Sorcerer (Revisited)"
                         },
                         "subclass": {
                             "name": "Shadow Sorcery"
@@ -2352,7 +2352,7 @@
                     "level": {
                         "level": 2,
                         "class": {
-                            "name": "Sorcerer"
+                            "name": "Sorcerer (Revisited)"
                         },
                         "subclass": {
                             "name": "Wild Magic"

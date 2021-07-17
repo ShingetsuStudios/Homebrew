@@ -93,14 +93,14 @@
                 }
             ],
             "subclassFeatures": [
-                "Expanded Spell List|Sorcerer|BHSor|Frozen Heart|FH|1",
-                "Flash Freeze|Sorcerer|BHSor|Frozen Heart|FH|1",
-                "Inner Chill|Sorcerer|BHSor|Frozen Heart|FH|1",
-                "Icey Armor|Sorcerer|BHSor|Frozen Heart|FH|6",
-                "Permafrost|Sorcerer|BHSor|Frozen Heart|FH|14",
-                "Raging Blizzard|Sorcerer|BHSor|Frozen Heart|FH|18"
+                "Expanded Spell List|Sorcerer (Revisited)|BHSor|Frozen Heart|FH|1",
+                "Flash Freeze|Sorcerer (Revisited)|BHSor|Frozen Heart|FH|1",
+                "Inner Chill|Sorcerer (Revisited)|BHSor|Frozen Heart|FH|1",
+                "Icey Armor|Sorcerer (Revisited)|BHSor|Frozen Heart|FH|6",
+                "Permafrost|Sorcerer (Revisited)|BHSor|Frozen Heart|FH|14",
+                "Raging Blizzard|Sorcerer (Revisited)|BHSor|Frozen Heart|FH|18"
             ],
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor"
         }
     ],
@@ -146,10 +146,15 @@
             "entries": [
                 "Starting at 1st level, you can unleash the absolute cold that has taken root inside your soul.",
                 "As a bonus action, ice starts to form on you as your body temperature lowers dramatically. For 1 minute, you gain the following benefits:",
-                "-All natural light within 30 feet of you becomes half as strong, as your oppressive cold leeches the heat from torches and open flames.",
-                "-Any creature takes cold damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
-                "-Whenever you roll cold damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
-                "You can use this feature a number of times equal to your charisma modifier, and regain all uses after you finish a long rest."
+                {
+                    "type": "list",
+                    "items": [
+                        "All natural light within 30 feet of you becomes half as strong, as your oppressive cold leeches the heat from torches and open flames.",
+                        "Any creature takes cold damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
+                        "Whenever you roll cold damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
+                        "You can use this feature a number of times equal to your charisma modifier, and regain all uses after you finish a long rest."
+                    ]
+                }
             ]
         },
         {
@@ -209,7 +214,7 @@
             "name": "Expanded Spell List",
             "source": "FH",
             "page": "0",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Frozen Heart",
             "subclassSource": "FH",
@@ -224,7 +229,7 @@
             "name": "Flash Freeze",
             "source": "FH",
             "page": "0",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Frozen Heart",
             "subclassSource": "FH",
@@ -238,7 +243,7 @@
             "name": "Inner Chill",
             "source": "FH",
             "page": "0",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Frozen Heart",
             "subclassSource": "FH",
@@ -261,7 +266,7 @@
             "name": "Icey Armor",
             "source": "FH",
             "page": "0",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Frozen Heart",
             "subclassSource": "FH",
@@ -276,7 +281,7 @@
             "name": "Permafrost",
             "source": "FH",
             "page": "0",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Frozen Heart",
             "subclassSource": "FH",
@@ -292,7 +297,7 @@
             "name": "Raging Blizzard",
             "source": "FH",
             "page": "0",
-            "className": "Sorcerer",
+            "className": "Sorcerer (Revisited)",
             "classSource": "BHSor",
             "subclassShortName": "Frozen Heart",
             "subclassSource": "FH",
