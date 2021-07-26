@@ -4173,7 +4173,7 @@
 				{
 					"name": "Blessings of the Sun",
 					"entries": [
-						"You can cast the spell bless, targeting only yourself, without using a spell slot. Wisdom is your spellcasting ability for this spell. For the spell's duration, if you roll a 4 on the d4 that you add to an attack roll or saving throw, you gain advantage on that attack roll or saving throw.",
+						"You can cast the spell {@spell bless}, targeting only yourself, without using a spell slot. Wisdom is your spellcasting ability for this spell. For the spell's duration, if you roll a 4 on the d4 that you add to an attack roll or saving throw, you gain advantage on that attack roll or saving throw.",
 						"Once you use this trait, you can't use it again until you finish a long rest."
 					]
 				},
@@ -4303,22 +4303,9 @@
 		{
 			"name": "Near-Human",
 			"source": "DarkMatter",
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 2
-					}
-				}
-			],
+			"lineage": "VRGR",
 			"page": 46,
+			"speed": 30,
 			"size": "M",
 			"traitTags": [
 				"Skill Proficiency"
@@ -4378,32 +4365,289 @@
 					]
 				},
 				{
-					"name": "Ability Score Increase",
-					"entries": [
-						"Two different ability scores of your choice increase by 1."
-					],
-					"type": "entries"
-				},
-				{
 					"name": "Skills",
 					"entries": [
 						"You gain proficiency in one skill of your choice."
 					],
 					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Android",
+					"page": 108,
+					"entries": [
+						{
+							"name": "Android",
+							"type": "entries",
+							"entries": [
+								"You are an escaped android—likely a Version 13—that is functionally a perfect replica of a human being, except that wires and blinking lights lie hidden underneath your skin. It is even possible you aren't aware of your construct origins, owing to faulty programming, willing suppression of memory, or intentional tampering with your construct core. You have the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You don't need to eat, drink, or breathe, but you can ingest food and drink if you wish.",
+										"Instead of sleeping, you enter an inactive state for 4 hours each day. You don't dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal. You can still be placed into a torpor by sleep-inducing magic.",
+										"You have the ability to speak the native code-language of machines. You can use this language to interact with arcane terminals and ship computers from range and to communicate with constructs, even if you don't share a language."
+									]
+								}
+							]
+						}
+					]
 				},
 				{
-					"name": "Feat",
+					"name": "Aquatic",
+					"page": 108,
 					"entries": [
-						"You gain one {@filter Feat|feats|search=near-human|hash=android_darkmatter} of your choice. This feat must have Near-Human variant as a prerequisite."
+						{
+							"name": "Aquatic",
+							"type": "entries",
+							"entries": [
+								"Your world is nearly one continuous ocean, with nary an island in sight. Consequently, you have aquatic features, like gills, webbed fingers and toes, and fishlike scales, which grant you the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You can breathe water as well as air.",
+										"You have a swimming speed equal to your movement speed."
+									]
+								}
+							]
+						}
 					],
-					"type": "entries"
+					"effects": [
+						{
+							"name": "Aquatic",
+							"changes": [
+								{
+									"key": "data.attributes.movement.swim",
+									"mode": "UPGRADE",
+									"value": "30"
+								}
+							]
+						}
+					]
 				},
 				{
-					"name": "Languages",
+					"name": "Beastman",
+					"page": 108,
 					"entries": [
-						"You can speak, read, and write Common and one extra language of your choice."
+						{
+							"name": "Beastman",
+							"type": "entries",
+							"entries": [
+								"With a short tail, coarse fur covering your face, and long teeth and claws, you appear more like a ferocious beast than a man. You might resemble any type of beast, but always gain the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You have advantage on Wisdom (Perception) checks that rely on smell.",
+										"You possess sharp claws, which are natural weapons that you can use to make unarmed strikes. On a hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Green Skin",
+					"page": 109,
+					"entries": [
+						{
+							"name": "Green Skin",
+							"type": "entries",
+							"entries": [
+								"Your people metabolize by basking in the sunlight, aided by your tough, photosynthetic skin, which grants you the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You have advantage on saving throws against being poisoned and have resistance to poison damage.",
+										"While you aren't wearing armor, your AC equals 12 + your Dexterity modifier."
+									]
+								}
+							]
+						}
 					],
-					"type": "entries"
+					"effects": [
+						{
+							"name": "Green Skin Natural Armor",
+							"changes": [
+								{
+									"key": "data.attributes.ac.value",
+									"mode": "UPGRADE",
+									"value": "12 + @abilities.dex.mod"
+								}
+							]
+						}
+					],
+					"entryData": {
+						"resist": [
+							"poison"
+						]
+					}
+				},
+				{
+					"name": "Grue",
+					"page": 109,
+					"entries": [
+						{
+							"name": "Grue",
+							"type": "entries",
+							"entries": [
+								"One of your parents was a creature of darkness, such as a shadow or a native to the Plane of Shadow. Grues such as yourself have blackened skin and cast a shadow in all directions, even when directly in light. In shadows, you are nearly invisible. You have the following racial traits:",
+								{
+									"type": "list",
+									"items": [
+										"You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+										"When you are hidden and a creature discovers you with a successful Wisdom (Perception) check, you can reattempt your Dexterity (Stealth) check to hide. On a success, you silently reposition yourself, and the creature does not notice you. Once you use this trait, you can't use it again until you finish a short or long rest."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Porterling",
+					"page": 110,
+					"entries": [
+						{
+							"name": "Porterling",
+							"type": "entries",
+							"entries": [
+								"You are a porterling, parented both by a human and one of the little folk, either a gnome or a halfling. You stand about as tall as a dwarf, but are far leaner—and if fathered by a gnome, are also somewhat top-heavy. Though they are often confused for dwarves, porterlings can only rarely grow large or thick beards. You have the following racial traits:",
+								{
+									"type": "list",
+									"items": [
+										"Porterlings are unnaturally flexible. You have advantage on checks you make to escape grapple or to slip bindings.",
+										"You suffer no penalty for squeezing into a space that is only large enough for a creature that is one size smaller than you."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Proto-Man",
+					"page": 110,
+					"entries": [
+						{
+							"name": "Proto-Man",
+							"type": "entries",
+							"entries": [
+								"You come from a world of ancient fauna and colossal flora; your people are hardy and robust, much like very early humans. You gain the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You can add your proficiency bonus to saving throws you make against being {@condition frightened}.",
+										"Once per day when you take a short rest, you can automatically regain 1 hit die and can choose to spend it immediately."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Reptiloid",
+					"page": 110,
+					"entries": [
+						{
+							"name": "Reptiloid",
+							"type": "entries",
+							"entries": [
+								"You bear the abrasive skin, slitted eyes, and forked tongue of a reptile, which grant you the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You can go twice as long as other humans without eating or drinking.",
+										"You can speak, read, and write Draconic.",
+										"You can use your action to spit acid from your mouth. When you do so, make a ranged attack roll against a creature within 30 feet. On a hit, the target takes 1d8 acid damage for each point of your proficiency bonus. Once you use this trait, you can't use it again until you finish a short or long rest."
+									]
+								}
+							]
+						}
+					],
+					"entryData": {
+						"languageProficiencies": [
+							{
+								"draconic": true
+							}
+						]
+					}
+				},
+				{
+					"name": "Roguean",
+					"page": 110,
+					"entries": [
+						{
+							"name": "Roguean",
+							"type": "entries",
+							"entries": [
+								"You hail from an icy, desolate world, thrown away from its home star by some catastrophic event. Surviving the interminable harshness of your rogue world gives you the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You have resistance to cold damage.",
+										"You take no damage from the extreme temperatures of space and other harsh environments.",
+										"You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+									]
+								}
+							]
+						}
+					],
+					"entryData": {
+						"resist": [
+							"cold"
+						]
+					}
+				},
+				{
+					"name": "Simian",
+					"page": 111,
+					"entries": [
+						{
+							"name": "Simian",
+							"type": "entries",
+							"entries": [
+								"You hail from a world that followed a slightly different evolutionary path than High Terra; your people all resemble monkeys or apes. Despite your more primitive appearance and your prominent tail, you are just as intelligent as other humans—you just like bananas a little more. You gain the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You gain a climbing speed equal to half your movement speed.",
+										"You can hold and manipulate objects and weapons with your hands, feet, and tail, but you can't make attack rolls with weapons held by your tail."
+									]
+								}
+							]
+						}
+					],
+					"effects": [
+						{
+							"name": "Simian",
+							"changes": [
+								{
+									"key": "data.attributes.movement.climb",
+									"mode": "UPGRADE",
+									"value": "@attributes.movement.walk/2"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Warped",
+					"page": 111,
+					"entries": [
+						{
+							"name": "Warped",
+							"type": "entries",
+							"entries": [
+								"You have been twisted by the insidious lights of the Void—irrevocably warped by its radiation. You gain the following changes:",
+								{
+									"type": "list",
+									"items": [
+										"Your face and body are unnerving to behold. You gain proficiency with Intimidation.",
+										"In response to the ravages of the warp, many of your vital organs have shifted to new locations within your body. When you are targeted by an attack that is a critical hit, you can choose to take no additional damage from the critical hit, as if it were a normal hit instead. Once you use this ability, you can't use it again until you finish a long rest."
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -5388,7 +5632,7 @@
 				{
 					"name": "Fey Arcana",
 					"entries": [
-						"You know the Minor Illusion cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You know the Minor Illusion cantrip. When you reach 3rd level, you can cast the {@spell faerie fire} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell misty step} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
 			],
@@ -5503,32 +5747,66 @@
 	],
 	"feat": [
 		{
-			"name": "Android",
+			"name": "Strengthened Wings",
 			"source": "DarkMatter",
 			"prerequisite": [
 				{
 					"race": [
 						{
-							"name": "Near-Human"
+							"name": "Skathári"
 						}
-					],
-					"other": "1st Level Only"
+					]
 				}
 			],
 			"entries": [
-				"You are an escaped android—likely a Version 13—that is functionally a perfect replica of a human being, except that wires and blinking lights lie hidden underneath your skin. It is even possible you aren't aware of your construct origins, owing to faulty programming, willing suppression of memory, or intentional tampering with your construct core. You have the following benefits:",
-				"• You are immune to nonmagical diseases.",
-				"• You don't need to eat, drink, or breathe, but you can ingest food and drink if you wish.",
-				"• Instead of sleeping, you enter an inactive state for 4 hours each day. You don't dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal. You can still be placed into a torpor by sleep-inducing magic.",
-				"• You have the ability to speak the native code-language of machines. You can use this language to interact with arcane terminals and ship computers from range and to communicate with constructs, even if you don't share a language."
+				"Your wings have grown in size and strength, allowing you short bursts of flight. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+						"You have a flying speed equal to your movement speed. If you end your movement in the air, you fall.",
+						"When you are falling, you can use your reaction to slow your descent, taking no damage from the fall."
+					]
+				}
 			],
 			"ability": [
 				{
 					"choose": {
 						"from": [
 							"str",
-							"dex",
-							"con",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Synaptic Bind",
+			"source": "DarkMatter",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Wrothian"
+						}
+					]
+				}
+			],
+			"entries": [
+				"In your time, you were an exceptional Taker, and never let a quarry escape your grasp, a skill which confers the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+						"When you use your Neural Lock feature, the target is stunned, instead of incapacitated. Additionally, you regain the use of this ability when you finish a short or long rest."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
 							"int",
 							"wis",
 							"cha"
@@ -5539,107 +5817,74 @@
 			]
 		},
 		{
-			"name": "Aquatic",
+			"name": "Thermalsight Upgrade",
 			"source": "DarkMatter",
 			"prerequisite": [
 				{
 					"race": [
 						{
-							"name": "Near-Human"
+							"name": "Vect"
 						}
-					],
-					"other": "1st Level Only"
+					]
 				}
 			],
 			"entries": [
-				"Your world is nearly one continuous ocean, with nary an island in sight. Consequently, you have aquatic features, like gills, webbed fingers and toes, and fishlike scales, which grant you the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You can breathe water as well as air.",
-				"• You have a swimming speed equal to your movement speed."
-			],
-			"ability": [
+				"You upgrade your optics to make better use of your thermal vision, gaining the following benefits:",
 				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
+					"type": "list",
+					"items": [
+						"The range of your thermalsight extends to 60 feet.",
+						"Your thermalsight penetrates one foot of any material.",
+						"You see invisible creatures within range of your thermalsight as if they were visible. This doesn't apply to creatures that are in the Ethereal Plane."
+					]
 				}
 			]
 		},
 		{
-			"name": "Beastman",
+			"name": "Thick-Shelled",
 			"source": "DarkMatter",
 			"prerequisite": [
 				{
 					"race": [
 						{
-							"name": "Near-Human"
+							"name": "Skathári"
 						}
-					],
-					"other": "1st Level Only"
+					]
 				}
 			],
 			"entries": [
-				"With a short tail, coarse fur covering your face, and long teeth and claws, you appear more like a ferocious beast than a man. You might resemble any type of beast, but always gain the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You have advantage on Wisdom (Perception) checks that rely on smell.",
-				"• You possess sharp claws, which are natural weapons that you can use to make unarmed strikes. On a hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-			],
-			"ability": [
+				"You are covered in a tough, chitinous exoskeleton that is more durable than that of other skathári. You gain the following benefits:",
 				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
+					"type": "list",
+					"items": [
+						"Increase your Dexterity or Constitution score by 1, to a maximum of 20.",
+						"Your AC when you aren't wearing armor equals 13 + your Dexterity modifier.",
+						"As a reaction when you would be hit by a ranged spell attack, you can roll a d4. On a roll of 4, the attack bounces harmlessly off your shell."
+					]
 				}
 			]
 		},
 		{
-			"name": "Aquatic",
+			"name": "Vitality Upgrade",
 			"source": "DarkMatter",
 			"prerequisite": [
 				{
 					"race": [
 						{
-							"name": "Near-Human"
+							"name": "Vect"
 						}
-					],
-					"other": "1st Level Only"
+					]
 				}
 			],
 			"entries": [
-				"Your world is nearly one continuous ocean, with nary an island in sight. Consequently, you have aquatic features, like gills, webbed fingers and toes, and fishlike scales, which grant you the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You can breathe water as well as air.",
-				"• You have a swimming speed equal to your movement speed."
-			],
-			"ability": [
+				"You have chosen to embrace your destiny as a living thing, despite your mechanical nature. You can't gain this feat if you have the Golem Upgrade feat. You gain the following benefits:",
 				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
+					"type": "list",
+					"items": [
+						"Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+						"When you use your Reconfigurable Ability Score Increase trait to increase a single ability score, you can become proficient with one skill of your choice associated with that ability score until you take a long rest.",
+						"Whenever you take a short rest, your body naturally heals. You can roll one hit die without spending it, and regain hit points equal to the number rolled."
+					]
 				}
 			]
 		},
@@ -5676,26 +5921,6 @@
 			]
 		},
 		{
-			"name": "Depth Module",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Nautilid"
-						}
-					]
-				}
-			],
-			"entries": [
-				"An advanced depth module has been integrated into your aqua suit, which grants you additional benefits while you're wearing your aqua suit:",
-				"• Increase your Strength score by 1, to a maximum of 20.",
-				"• You gain proficiency with the net, trident, and spear.",
-				"• Your swimming speed increases to 60 feet.",
-				"• A sonar system is incorporated into your suit. You gain blindsight with a range of 5 feet, which extends to 20 feet while you are underwater."
-			]
-		},
-		{
 			"name": "Flexible Reach",
 			"source": "DarkMatter",
 			"prerequisite": [
@@ -5709,6 +5934,31 @@
 			],
 			"entries": [
 				"You have trained your body to produce lengthy pseudopods, extending your reach drastically. You can reach out to 10 feet. When you cast a spell that has a range of Touch, your range extends to that distance. Additionally, any melee weapon you use gains the Reach property if it didn't already have it."
+			]
+		},
+		{
+			"name": "Depth Module",
+			"source": "DarkMatter",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Nautilid"
+						}
+					]
+				}
+			],
+			"entries": [
+				"An advanced depth module has been integrated into your aqua suit, which grants you additional benefits while you're wearing your aqua suit:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength score by 1, to a maximum of 20.",
+						"You gain proficiency with the net, trident, and spear.",
+						"Your swimming speed increases to 60 feet.",
+						"A sonar system is incorporated into your suit. You gain blindsight with a range of 5 feet, which extends to 20 feet while you are underwater."
+					]
+				}
 			]
 		},
 		{
@@ -5730,10 +5980,15 @@
 			],
 			"entries": [
 				"You have chosen to embrace your golem heritage and redefine yourself as a construct. You can't gain this feat if you have the Vitality Upgrade feat. You gain the following benefits:",
-				"• Increase two of your Strength, Dexterity, or Constitution scores by 1, to a maximum of 20. Decrease your Charisma score by 1.",
-				"• When you have Adamantine Plating or Juggernaut Plating installed, your AC is 18.",
-				"• You can't be poisoned and magic can't put you to sleep.",
-				"• You can add your proficiency bonus to any saving throw you make against a spell."
+				{
+					"type": "list",
+					"items": [
+						"Increase two of your Strength, Dexterity, or Constitution scores by 1, to a maximum of 20. Decrease your Charisma score by 1.",
+						"When you have Adamantine Plating or Juggernaut Plating installed, your AC is 18.",
+						"You can't be poisoned and magic can't put you to sleep.",
+						"You can add your proficiency bonus to any saving throw you make against a spell."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -5750,72 +6005,31 @@
 			]
 		},
 		{
-			"name": "Green Skin",
+			"name": "Leviathan Suit",
 			"source": "DarkMatter",
 			"prerequisite": [
 				{
 					"race": [
 						{
-							"name": "Near-Human"
+							"name": "Nautilid"
 						}
-					],
-					"other": "1st Level Only"
+					]
 				}
 			],
 			"entries": [
-				"Your people metabolize by basking in the sunlight, aided by your tough, photosynthetic skin, which grants you the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You have advantage on saving throws against being poisoned and have resistance to poison damage.",
-				"• While you aren't wearing armor, your AC equals 12 + your Dexterity modifier."
+				"You are equipped with an advanced aqua suit bestowed upon nautilid warriors, known as a Leviathan Suit. You gain the following benefits while wearing your suit:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength score by 1, to a maximum of 20.",
+						"You can integrate two one-handed weapons or one two-handed weapon into your suit. When you draw an integrated weapon, it snaps to your hand and you can't be disarmed of it. You can switch which weapons are integrated when you take a long rest.",
+						"You can attempt to move through a hostile creature's space as a bonus action. When you do so, make an opposed Strength (Athletics) check against the target. On a success, you move into the target's space and push the target up to 10 feet in any direction you choose."
+					]
+				}
 			],
 			"ability": [
 				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Grue",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Near-Human"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"One of your parents was a creature of darkness, such as a shadow or a native to the Plane of Shadow. Grues such as yourself have blackened skin and cast a shadow in all directions, even when directly in light. In shadows, you are nearly invisible. You have the following racial traits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
-				"• When you are hidden and a creature discovers you with a successful Wisdom (Perception) check, you can reattempt your Dexterity (Stealth) check to hide. On a success, you silently reposition yourself, and the creature does not notice you. Once you use this trait, you can't use it again until you finish a short or long rest."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
+					"str": 1
 				}
 			]
 		},
@@ -5840,26 +6054,38 @@
 			]
 		},
 		{
-			"name": "Leviathan Suit",
+			"name": "Nonbeliever",
 			"source": "DarkMatter",
 			"prerequisite": [
 				{
 					"race": [
 						{
-							"name": "Nautilid"
+							"name": "Avia-Ra"
 						}
 					]
 				}
 			],
 			"entries": [
-				"You are equipped with an advanced aqua suit bestowed upon nautilid warriors, known as a Leviathan Suit. You gain the following benefits while wearing your suit:",
-				"• Increase your Strength score by 1, to a maximum of 20.",
-				"• You can integrate two one-handed weapons or one two-handed weapon into your suit. When you draw an integrated weapon, it snaps to your hand and you can't be disarmed of it. You can switch which weapons are integrated when you take a long rest.",
-				"• You can attempt to move through a hostile creature's space as a bonus action. When you do so, make an opposed Strength (Athletics) check against the target. On a success, you move into the target's space and push the target up to 10 feet in any direction you choose."
+				"You are a heretic of the avia-ra, and have turned your back on the Sun Above. You can't gain this feat if you have the Mantle of the Sun feat. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
+						"Whenever you reduce a creature to 0 hit points, and that creature begins to make death saving throws, it automatically gains one failure.",
+						"You can cast the spell {@spell darkness} once without using a spell slot or spell components. Once you use this trait, you can't use it again until you finish a long rest.",
+						"When a creature you can see regains hit points due to magic, you can use your reaction to cause that creature to lose that many hit points instead. Once you use this trait, you can't use it again until you finish a long rest."
+					]
+				}
 			],
 			"ability": [
 				{
-					"str": 1
+					"choose": {
+						"from": [
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
 				}
 			]
 		},
@@ -5877,379 +6103,21 @@
 			],
 			"entries": [
 				"You are a paragon of the Avia-Ra, and your faith in the sun never wavers. You can't gain this feat if you have the Nonbeliever feat. You gain the following benefits:",
-				"• Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
-				"• You can use a bonus action to undergo a divine transformation, which lasts for 1 minute. Once you use this transformation, you can't use it again until you finish a long rest. You can invest this divine power in one of the following abilities:",
-				"Aura. You manifest a radiant aura, which sheds bright light in a radius of 10 feet, and dim light for an additional 10 feet. Additionally, each creature you choose which comes within 5 feet of you or begins its turn in that area takes 1d8 radiant damage.",
-				"Shield. You manifest a glorious shield of crimson energy and your Armor Class increases by 2 if you aren't wielding a shield. You have resistance to fire, necrotic, and radiant damage.",
-				"Wings. You manifest luminous, incorporeal wings and a sunlike disk appears behind your head. These wings grant you a flight speed of 30 feet."
-			],
-			"ability": [
 				{
-					"choose": {
-						"from": [
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Porterling",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Near-Human"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"You are a porterling, parented both by a human and one of the little folk, either a gnome or a halfling. You stand about as tall as a dwarf, but are far leaner—and if fathered by a gnome, are also somewhat top-heavy. Though they are often confused for dwarves, porterlings can only rarely grow large or thick beards. You have the following racial traits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• Porterlings are unnaturally flexible. You have advantage on checks you make to escape grapple or to slip bindings.",
-				"• You suffer no penalty for squeezing into a space that is only large enough for a creature that is one size smaller than you."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Nonbeliever",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Avia-Ra"
-						}
+					"type": "list",
+					"items": [
+						"Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
+						"You can use a bonus action to undergo a divine transformation, which lasts for 1 minute. Once you use this transformation, you can't use it again until you finish a long rest. You can invest this divine power in one of the following abilities:",
+						"{@b Aura}. You manifest a radiant aura, which sheds bright light in a radius of 10 feet, and dim light for an additional 10 feet. Additionally, each creature you choose which comes within 5 feet of you or begins its turn in that area takes 1d8 radiant damage.",
+						"{@b Shield}. You manifest a glorious shield of crimson energy and your Armor Class increases by 2 if you aren't wielding a shield. You have resistance to fire, necrotic, and radiant damage.",
+						"{@b Wings}. You manifest luminous, incorporeal wings and a sunlike disk appears behind your head. These wings grant you a flight speed of 30 feet."
 					]
 				}
 			],
-			"entries": [
-				"You are a heretic of the avia-ra, and have turned your back on the Sun Above. You can't gain this feat if you have the Mantle of the Sun feat. You gain the following benefits:",
-				"• Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
-				"• Whenever you reduce a creature to 0 hit points, and that creature begins to make death saving throws, it automatically gains one failure.",
-				"• You can cast the spell darkness once without using a spell slot or spell components. Once you use this trait, you can't use it again until you finish a long rest.",
-				"• When a creature you can see regains hit points due to magic, you can use your reaction to cause that creature to lose that many hit points instead. Once you use this trait, you can't use it again until you finish a long rest."
-			],
 			"ability": [
 				{
 					"choose": {
 						"from": [
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Proto-Man",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Near-Human"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"You come from a world of ancient fauna and colossal flora; your people are hardy and robust, much like very early humans. You gain the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You can add your proficiency bonus to saving throws you make against being frightened.",
-				"• Once per day when you take a short rest, you can automatically regain 1 hit die and can choose to spend it immediately."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Reptiloid",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Near-Human"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"You bear the abrasive skin, slitted eyes, and forked tongue of a reptile, which grant you the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You can go twice as long as other humans without eating or drinking.",
-				"• You can speak, read, and write Draconic.",
-				"• You can use your action to spit acid from your mouth. When you do so, make a ranged attack roll against a creature within 30 feet. On a hit, the target takes 1d8 acid damage for each point of your proficiency bonus. Once you use this trait, you can't use it again until you finish a short or long rest."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Roguean",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Near-Human"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"You hail from an icy, desolate world, thrown away from its home star by some catastrophic event. Surviving the interminable harshness of your rogue world gives you the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You have resistance to cold damage.",
-				"• You take no damage from the extreme temperatures of space and other harsh environments.",
-				"• You have darkvision, the ability to see in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Simian",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Near-Human"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"You hail from a world that followed a slightly different evolutionary path than High Terra; your people all resemble monkeys or apes. Despite your more primitive appearance and your prominent tail, you are just as intelligent as other humans—you just like bananas a little more. You gain the following benefits:",
-				"• Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• You gain a climbing speed equal to half your movement speed.",
-				"• You can hold and manipulate objects and weapons with your hands, feet, and tail, but you can't make attack rolls with weapons held by your tail."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Strengthened Wings",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Skathári"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"Your wings have grown in size and strength, allowing you short bursts of flight. You gain the following benefits:",
-				"• Increase your Strength or Dexterity score by 1, to a maximum of 20.",
-				"• You have a flying speed equal to your movement speed. If you end your movement in the air, you fall.",
-				"• When you are falling, you can use your reaction to slow your descent, taking no damage from the fall."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Synaptic Bind",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Wrothian"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"In your time, you were an exceptional Taker, and never let a quarry escape your grasp, a skill which confers the following benefits:",
-				"• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
-				"• When you use your Neural Lock feature, the target is stunned, instead of incapacitated. Additionally, you regain the use of this ability when you finish a short or long rest."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"int",
-							"wis",
-							"cha"
-						],
-						"amount": 1
-					}
-				}
-			]
-		},
-		{
-			"name": "Synaptic Bind",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Wrothian"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"You upgrade your optics to make better use of your thermal vision, gaining the following benefits:",
-				"• The range of your thermalsight extends to 60 feet.",
-				"• Your thermalsight penetrates one foot of any material.",
-				"• You see invisible creatures within range of your thermalsight as if they were visible. This doesn't apply to creatures that are in the Ethereal Plane."
-			]
-		},
-		{
-			"name": "Thick-Shelled",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Skathári"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"You are covered in a tough, chitinous exoskeleton that is more durable than that of other skathári. You gain the following benefits:",
-				"• Increase your Dexterity or Constitution score by 1, to a maximum of 20.",
-				"• Your AC when you aren't wearing armor equals 13 + your Dexterity modifier.",
-				"• As a reaction when you would be hit by a ranged spell attack, you can roll a d4. On a roll of 4, the attack bounces harmlessly off your shell."
-			]
-		},
-		{
-			"name": "Vitality Upgrade",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Vect"
-						}
-					]
-				}
-			],
-			"entries": [
-				"You have chosen to embrace your destiny as a living thing, despite your mechanical nature. You can't gain this feat if you have the Golem Upgrade feat. You gain the following benefits:",
-				"• Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
-				"• When you use your Reconfigurable Ability Score Increase trait to increase a single ability score, you can become proficient with one skill of your choice associated with that ability score until you take a long rest.",
-				"• Whenever you take a short rest, your body naturally heals. You can roll one hit die without spending it, and regain hit points equal to the number rolled."
-			]
-		},
-		{
-			"name": "Warped",
-			"source": "DarkMatter",
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Near-Human"
-						}
-					],
-					"other": "1st Level Only"
-				}
-			],
-			"entries": [
-				"Increase one ability score of your choice by 1, to a maximum of 20.",
-				"• Your face and body are unnerving to behold. You gain proficiency with Intimidation.",
-				"• In response to the ravages of the warp, many of your vital organs have shifted to new locations within your body. When you are targeted by an attack that is a critical hit, you can choose to take no additional damage from the critical hit, as if it were a normal hit instead. Once you use this ability, you can't use it again until you finish a long rest."
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
 							"wis",
 							"cha"
 						],
@@ -6286,10 +6154,15 @@
 			"source": "DarkMatter",
 			"entries": [
 				"When there's a price on someone's head, you make it your business to collect. You gain the following benefits:",
-				"• Increase your Wisdom score by 1, to a maximum of 20.",
-				"• You perfectly remember the name and face of every person you've ever met.",
-				"• You can use your action to mark a creature you can see within 120 feet of you for 1 hour. You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find the marked creature. Additionally, as long as the creature is marked, you can discern whether or not the creature has passed through a location. You can have only one creature marked at a time.",
-				"• Whenever you reduce a target to 0 hit points with any attack you make or spell that you cast, you can choose to knock the creature out instead of killing it."
+				{
+					"type": "list",
+					"items": [
+						"Increase your Wisdom score by 1, to a maximum of 20.",
+						"You perfectly remember the name and face of every person you've ever met.",
+						"You can use your action to mark a creature you can see within 120 feet of you for 1 hour. You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find the marked creature. Additionally, as long as the creature is marked, you can discern whether or not the creature has passed through a location. You can have only one creature marked at a time.",
+						"Whenever you reduce a target to 0 hit points with any attack you make or spell that you cast, you can choose to knock the creature out instead of killing it."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -6302,10 +6175,15 @@
 			"source": "DarkMatter",
 			"entries": [
 				"Charged with recalling defective constructs, hunting renegade androids, and quarantining the N-Virus, decommissioners are experts in slaying machines. You gain the following benefits:",
-				"• By spending 1 minute observing or conversing with a creature, you can discern if that creature is a disguised construct, such as an android. If the creature is a construct or living construct, you can tell if the construct is malfunctioning and if the construct is infected with the N-Virus (even if the virus is dormant).",
-				"• When a construct or living construct within 5 feet of you makes an attack, you can use your reaction to make a melee weapon attack against that creature.",
-				"• When you hit a construct with a melee weapon attack, you can cripple its joints. Until the end of its next turn, its speed is reduced by 10 feet, to a minimum of 0, and it can't take the Dash action.",
-				"• You can add your proficiency bonus to any saving throw you make against an effect caused by a piece of magical technology, such as a concussion grenade or a volcanic."
+				{
+					"type": "list",
+					"items": [
+						"By spending 1 minute observing or conversing with a creature, you can discern if that creature is a disguised construct, such as an android. If the creature is a construct or living construct, you can tell if the construct is malfunctioning and if the construct is infected with the N-Virus (even if the virus is dormant).",
+						"When a construct or living construct within 5 feet of you makes an attack, you can use your reaction to make a melee weapon attack against that creature.",
+						"When you hit a construct with a melee weapon attack, you can cripple its joints. Until the end of its next turn, its speed is reduced by 10 feet, to a minimum of 0, and it can't take the Dash action.",
+						"You can add your proficiency bonus to any saving throw you make against an effect caused by a piece of magical technology, such as a concussion grenade or a volcanic."
+					]
+				}
 			]
 		},
 		{
@@ -6313,9 +6191,14 @@
 			"source": "DarkMatter",
 			"entries": [
 				"Under your leadership, your allies fight as a cohesive unit, outmaneuvering and outflanking any enemy. You gain the following benefits:",
-				"• Increase your Charisma score by 1, to a maximum of 20.",
-				"• As an action, you can issue an order to an ally within 60 feet that can hear you. They can then use their reaction to take one of the following actions: Attack (one attack only), Dash, Disengage, Dodge, Help, Hide, Search, or Use an Object.",
-				"• While you are within 5 feet of two or more allies who aren't incapacitated, hostile creatures can't have advantage on attack rolls against you."
+				{
+					"type": "list",
+					"items": [
+						"Increase your Charisma score by 1, to a maximum of 20.",
+						"As an action, you can issue an order to an ally within 60 feet that can hear you. They can then use their reaction to take one of the following actions: Attack (one attack only), Dash, Disengage, Dodge, Help, Hide, Search, or Use an Object.",
+						"While you are within 5 feet of two or more allies who aren't incapacitated, hostile creatures can't have advantage on attack rolls against you."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -6328,8 +6211,13 @@
 			"source": "DarkMatter",
 			"entries": [
 				"Always keen for probabilities and risk, you often trust your safety and fortune to the hands of fate. You gain the following benefits:",
-				"• You gain proficiency in all gaming sets and have advantage on ability checks you make for games of chance.",
-				"• Once on each of your turns, before you roll damage, you can place stakes on the roll. Choose less than the average, or higher than or equal to the average. If you choose correctly, you can add one additional die of damage to the roll. If you choose incorrectly, you must remove the damage die with the highest number."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in all gaming sets and have advantage on ability checks you make for games of chance.",
+						"Once on each of your turns, before you roll damage, you can place stakes on the roll. Choose less than the average, or higher than or equal to the average. If you choose correctly, you can add one additional die of damage to the roll. If you choose incorrectly, you must remove the damage die with the highest number."
+					]
+				}
 			]
 		},
 		{
@@ -6346,8 +6234,13 @@
 			],
 			"entries": [
 				"Every successful starship needs at least one person with uncanny knowledge about most things. As one of those people, you gain the following benefits:",
-				"• You gain proficiency in four of the following skills: Arcana, Data, History, Nature, Religion, or Technology.",
-				"• You can reroll an Intelligence check. If you do so, you must use the new roll, and you can't use this feature again until you finish a short or long rest."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in four of the following skills: Arcana, Data, History, Nature, Religion, or Technology.",
+						"You can reroll an Intelligence check. If you do so, you must use the new roll, and you can't use this feature again until you finish a short or long rest."
+					]
+				}
 			]
 		},
 		{
@@ -6355,10 +6248,15 @@
 			"source": "DarkMatter",
 			"entries": [
 				"With a few keystrokes, you can make just about any system sing the right tune. You gain the following benefits:",
-				"• Increase your Intelligence score by 1, to a maximum of 20.",
-				"• You gain proficiency in the Data skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-				"• You can attempt to hack devices without an interface, even when you don't have an interface rig. If you do have an interface rig, you can attempt to hack a device as an action, rather than over the course of one minute.",
-				"• Devices never lock after your attempts to hack them."
+				{
+					"type": "list",
+					"items": [
+						"Increase your Intelligence score by 1, to a maximum of 20.",
+						"You gain proficiency in the Data skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You can attempt to hack devices without an interface, even when you don't have an interface rig. If you do have an interface rig, you can attempt to hack a device as an action, rather than over the course of one minute.",
+						"Devices never lock after your attempts to hack them."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -6380,9 +6278,14 @@
 			],
 			"entries": [
 				"Your expertise in heavy weapons, particularly the impressively impactful rocket hammer, grants you the following benefits:",
-				"• You deal an additional 2d4, instead of 1d4, bludgeoning damage when you engage the thrusters on your rocket hammer's attack.",
-				"• By engaging your rocket hammer's thruster and performing an uppercut, you can propel yourself high into the air. If you perform a long jump or a high jump as an action while holding a rocket hammer, you can double your jump distance or jump height, respectively.",
-				"• Once per turn, when you have advantage on an attack roll using a maul, rocket hammer, warhammer, or wrenchinator, you can push the target 10 feet away from you on a hit. You don't need advantage on this attack if the target is one size category smaller than you or smaller."
+				{
+					"type": "list",
+					"items": [
+						"You deal an additional 2d4, instead of 1d4, bludgeoning damage when you engage the thrusters on your rocket hammer's attack.",
+						"By engaging your rocket hammer's thruster and performing an uppercut, you can propel yourself high into the air. If you perform a long jump or a high jump as an action while holding a rocket hammer, you can double your jump distance or jump height, respectively.",
+						"Once per turn, when you have advantage on an attack roll using a maul, rocket hammer, warhammer, or wrenchinator, you can push the target 10 feet away from you on a hit. You don't need advantage on this attack if the target is one size category smaller than you or smaller."
+					]
+				}
 			]
 		},
 		{
@@ -6390,9 +6293,14 @@
 			"source": "DarkMatter",
 			"entries": [
 				"You have resolved yourself to save the day when all hope seems lost. You gain the following benefits:",
-				"• When you are attacked by a creature that has a CR higher than your level, you gain a +2 bonus to your Armor Class.",
-				"• You have advantage on attack rolls against any creature that has reduced one of your allies to 0 hit points in the last round.",
-				"• If a hostile creature you can see takes a legendary action, you can use your reaction to intercede, preventing the legendary action from happening. Once you use this ability, you can't use it again until you finish a short or long rest."
+				{
+					"type": "list",
+					"items": [
+						"When you are attacked by a creature that has a CR higher than your level, you gain a +2 bonus to your Armor Class.",
+						"You have advantage on attack rolls against any creature that has reduced one of your allies to 0 hit points in the last round.",
+						"If a hostile creature you can see takes a legendary action, you can use your reaction to intercede, preventing the legendary action from happening. Once you use this ability, you can't use it again until you finish a short or long rest."
+					]
+				}
 			]
 		},
 		{
@@ -6409,8 +6317,13 @@
 			],
 			"entries": [
 				"You are a trained and practiced sage of the laser sword, a subtle, yet elegant weapon. As such, you gain the following benefits:",
-				"• When you are wielding an antimatter dagger, laser halfsword, or laser sword with which you are proficient and another creature hits you with a ranged blaster attack or an attack from one of these weapons, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
-				"• When you score a critical hit with an antimatter dagger, laser halfsword, or laser sword, instead of rolling the weapon's damage dice twice, you deal the weapon's maximum damage and add the weapon's damage dice once."
+				{
+					"type": "list",
+					"items": [
+						"When you are wielding an antimatter dagger, laser halfsword, or laser sword with which you are proficient and another creature hits you with a ranged blaster attack or an attack from one of these weapons, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.",
+						"When you score a critical hit with an antimatter dagger, laser halfsword, or laser sword, instead of rolling the weapon's damage dice twice, you deal the weapon's maximum damage and add the weapon's damage dice once."
+					]
+				}
 			]
 		},
 		{
@@ -6418,10 +6331,15 @@
 			"source": "DarkMatter",
 			"entries": [
 				"Understanding of technology comes naturally to you, and the intricacies of complicated systems always seem to unravel in front of your eyes, no matter how convoluted they seem at first. You gain the following benefits:",
-				"• Increase your Intelligence score by 1, to a maximum of 20.",
-				"• You gain proficiency in the Technology skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-				"• You gain proficiency in circuitry kits, mechanist's tools, and ship maintenance tools.",
-				"• You can instantly assess the damage of any device you see. You can determine whether or not an object is repairable, how long a repair will take, how expensive a repair would be, and what tools and materials it might cost."
+				{
+					"type": "list",
+					"items": [
+						"Increase your Intelligence score by 1, to a maximum of 20.",
+						"You gain proficiency in the Technology skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You gain proficiency in circuitry kits, mechanist's tools, and ship maintenance tools.",
+						"You can instantly assess the damage of any device you see. You can determine whether or not an object is repairable, how long a repair will take, how expensive a repair would be, and what tools and materials it might cost."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -6466,9 +6384,14 @@
 			"source": "DarkMatter",
 			"entries": [
 				"Presentation is at least as important as being effective, if not more so. After all, there is little reason to do something unless is looks impressive. You gain the following benefits:",
-				"• Increase your Charisma score by 1, to a maximum of 20.",
-				"• You gain proficiency in the Performance skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-				"• If there is a non-combative audience watching you fight, once per turn, you can gain a bonus to an ability check or attack roll equal to the number of people in the audience, up to a maximum of your Charisma modifier. You can use this ability three times, and regain all expended uses when you finish a long rest."
+				{
+					"type": "list",
+					"items": [
+						"Increase your Charisma score by 1, to a maximum of 20.",
+						"You gain proficiency in the Performance skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"If there is a non-combative audience watching you fight, once per turn, you can gain a bonus to an ability check or attack roll equal to the number of people in the audience, up to a maximum of your Charisma modifier. You can use this ability three times, and regain all expended uses when you finish a long rest."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -6481,10 +6404,15 @@
 			"source": "DarkMatter",
 			"entries": [
 				"Daring pilots can profit handsomely from small shipments of questionable legality basically anywhere in the 'verse. Having learned the ins and outs of smuggling, you gain the following benefits:",
-				"• Increase your Dexterity score by 1, to a maximum of 20.",
-				"• You gain proficiency in the Piloting skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-				"• You have advantage on ability checks you make to pilot a ship undetected, conceal cargo, and to deceive others about the contents of your cargo.",
-				"• When things go awry, you shoot first. When you roll initiative and you aren't surprised, you can use your reaction to draw and make a ranged weapon attack with a one-handed blaster against a target within the weapon's range."
+				{
+					"type": "list",
+					"items": [
+						"Increase your Dexterity score by 1, to a maximum of 20.",
+						"You gain proficiency in the Piloting skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You have advantage on ability checks you make to pilot a ship undetected, conceal cargo, and to deceive others about the contents of your cargo.",
+						"When things go awry, you shoot first. When you roll initiative and you aren't surprised, you can use your reaction to draw and make a ranged weapon attack with a one-handed blaster against a target within the weapon's range."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -6506,9 +6434,14 @@
 			],
 			"entries": [
 				"When it comes to firing a blaster, quantity often beats quality. By holding down the trigger and firing nonstop, you gain the following benefits:",
-				"• Increase your Strength or Dexterity score by 1, to a maximum of 20.",
-				"• As an action, while wielding a weapon that has the Automatic property, you can target a 10-foot cube area with a hail of bullets. Each creature in the area must succeed on a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Dexterity modifier) or take the weapon's normal damage.",
-				"• You can use your Strength modifier instead of your Dexterity modifier when making attack rolls with a weapon that has the Mounted property."
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+						"As an action, while wielding a weapon that has the Automatic property, you can target a 10-foot cube area with a hail of bullets. Each creature in the area must succeed on a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Dexterity modifier) or take the weapon's normal damage.",
+						"You can use your Strength modifier instead of your Dexterity modifier when making attack rolls with a weapon that has the Mounted property."
+					]
+				}
 			]
 		},
 		{
@@ -6530,9 +6463,14 @@
 			],
 			"entries": [
 				"You have mastered the sunstaff, the only true total weapon, capable of dispatching enemies in close quarters and at range. You gain the following benefits:",
-				"• You can use Dexterity modifier, instead of Strength, for the attack and damage rolls of quarterstaffs you wield.",
-				"• Whenever you take the Attack action to make a ranged weapon attack with a sunstaff, you can make a melee weapon attack with it (as a quarterstaff) as a bonus action.",
-				"• You don't suffer disadvantage from attacking with a blaster while you are within 5 feet of a hostile creature."
+				{
+					"type": "list",
+					"items": [
+						"You can use Dexterity modifier, instead of Strength, for the attack and damage rolls of quarterstaffs you wield.",
+						"Whenever you take the Attack action to make a ranged weapon attack with a sunstaff, you can make a melee weapon attack with it (as a quarterstaff) as a bonus action.",
+						"You don't suffer disadvantage from attacking with a blaster while you are within 5 feet of a hostile creature."
+					]
+				}
 			]
 		},
 		{
@@ -6549,9 +6487,14 @@
 			],
 			"entries": [
 				"There is nothing quite so satisfying as two swarm pistols releasing a hail of fire upon your enemies. You gain the following benefits:",
-				"• You can draw or stow up to two weapons when you roll initiative and whenever you take an action on your turn.",
-				"• Whenever you wield a weapon with the Foregrip property in one hand, you can double its range.",
-				"• Blasters you wield in one hand which have the Light property deal an additional 1d4 damage on a hit."
+				{
+					"type": "list",
+					"items": [
+						"You can draw or stow up to two weapons when you roll initiative and whenever you take an action on your turn.",
+						"Whenever you wield a weapon with the Foregrip property in one hand, you can double its range.",
+						"Blasters you wield in one hand which have the Light property deal an additional 1d4 damage on a hit."
+					]
+				}
 			]
 		},
 		{
@@ -6559,9 +6502,14 @@
 			"source": "DarkMatter",
 			"entries": [
 				"You have logged thousands of hours at a starship's helm, granting you the following benefits:",
-				"• You gain proficiency in the Piloting skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-				"• When you are in the Pilot role and you take Evasive Maneuvers, you can move 1,000 feet in any direction.",
-				"• No matter how difficult the conditions, if you are forced to make a crash landing, you can guide the ship to the ground softly enough to ensure that no one aboard dies in the crash."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Piloting skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"When you are in the Pilot role and you take Evasive Maneuvers, you can move 1,000 feet in any direction.",
+						"No matter how difficult the conditions, if you are forced to make a crash landing, you can guide the ship to the ground softly enough to ensure that no one aboard dies in the crash."
+					]
+				}
 			]
 		},
 		{
@@ -6577,10 +6525,15 @@
 			"source": "DarkMatter",
 			"entries": [
 				"You are a brilliant engineer, knowledgeable of every system on board your ship, and capable of fixing just about anything. You gain the following benefits:",
-				"• You gain proficiency in the Technology skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-				"• When you deactivate the ship's shield to direct its power elsewhere, you can invest its power in both the engines and a weapon, or in two weapons of your choice.",
-				"• You have advantage on checks you make to repair systems. When you repair a system or weapon, it regains 5 mega hit points, instead of 1.",
-				"• Additionally, when you repair the ship as a downtime activity, the ship regains mega hit points equal to three times your proficiency bonus + your Intelligence modifier for each day you spend performing repairs."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Technology skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"When you deactivate the ship's shield to direct its power elsewhere, you can invest its power in both the engines and a weapon, or in two weapons of your choice.",
+						"You have advantage on checks you make to repair systems. When you repair a system or weapon, it regains 5 mega hit points, instead of 1.",
+						"Additionally, when you repair the ship as a downtime activity, the ship regains mega hit points equal to three times your proficiency bonus + your Intelligence modifier for each day you spend performing repairs."
+					]
+				}
 			]
 		},
 		{
@@ -6588,9 +6541,14 @@
 			"source": "DarkMatter",
 			"entries": [
 				"Your experience behind massive shipbound weapons grants you the following benefits:",
-				"• You gain proficiency with two blasters of your choice.",
-				"• Your weapon attacks with ship weapons score a critical hit on a roll of 19 or 20. Additionally, on a critical hit, you can choose which system to deactivate, instead of selecting it randomly.",
-				"• Whenever you roll damage with a ship weapon, if you roll the highest number possible on two or more damage dice, you can roll one additional damage die and add it to the roll."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with two blasters of your choice.",
+						"Your weapon attacks with ship weapons score a critical hit on a roll of 19 or 20. Additionally, on a critical hit, you can choose which system to deactivate, instead of selecting it randomly.",
+						"Whenever you roll damage with a ship weapon, if you roll the highest number possible on two or more damage dice, you can roll one additional damage die and add it to the roll."
+					]
+				}
 			]
 		},
 		{
@@ -6598,9 +6556,14 @@
 			"source": "DarkMatter",
 			"entries": [
 				"You are among the deadliest fighter pilots alive. Your dogfighting instincts guide you in the heat of combat, and grant you the following benefits:",
-				"• While you are in the Dogfighter role, you can use the Pilot's Dogfighting action as a bonus action, which expends half of your ship's movement. Additionally, you have advantage on the Dexterity (Piloting) check.",
-				"• While you are in the Dogfighter role and your ship would drop to 0 mega hit points, you can choose for the ship to drop to 1 mega hit point instead. Once you use this ability, you can't do so again until you finish a long rest.",
-				"• You can recognize any common ship model instantly, and know the typical capacity for passengers, tonnage, and weapons for any ship that you can see."
+				{
+					"type": "list",
+					"items": [
+						"While you are in the Dogfighter role, you can use the Pilot's Dogfighting action as a bonus action, which expends half of your ship's movement. Additionally, you have advantage on the Dexterity (Piloting) check.",
+						"While you are in the Dogfighter role and your ship would drop to 0 mega hit points, you can choose for the ship to drop to 1 mega hit point instead. Once you use this ability, you can't do so again until you finish a long rest.",
+						"You can recognize any common ship model instantly, and know the typical capacity for passengers, tonnage, and weapons for any ship that you can see."
+					]
+				}
 			]
 		},
 		{
@@ -6613,10 +6576,15 @@
 			],
 			"entries": [
 				"As a fully-inducted Agent of the Tower, you are familiar with the organization's cryptic ciphers, secret codes, and arcane symbols, and are trained in their clandestine, magical arts. You gain the following benefits:",
-				"• You are branded with an invisible tattoo, visible only under the effects of the spell detect magic, which is used to identify you as an Agent to your fellow Tower members.",
-				"• You learn the prestidigitation cantrip. If you already know prestidigitation, you can instead learn any other wizard cantrip. Intelligence is your spellcasting ability for this spell.",
-				"• When you cast a spell, you can make an Intelligence (Arcana) check to disguise the spell's casting. The DC equals 12 + the spell's level. On a successful check, you can cast the spell without its verbal or somatic components (your choice).",
-				"• You can use your action to magically muffle your movement and hasten your step. For the next minute, creatures have disadvantage on Wisdom (Perception) checks to hear you move, and your movement speed increases by 5 feet. Once you use this ability, you can't use it again until you take a long rest."
+				{
+					"type": "list",
+					"items": [
+						"You are branded with an invisible tattoo, visible only under the effects of the spell detect magic, which is used to identify you as an Agent to your fellow Tower members.",
+						"You learn the prestidigitation cantrip. If you already know prestidigitation, you can instead learn any other wizard cantrip. Intelligence is your spellcasting ability for this spell.",
+						"When you cast a spell, you can make an Intelligence (Arcana) check to disguise the spell's casting. The DC equals 12 + the spell's level. On a successful check, you can cast the spell without its verbal or somatic components (your choice).",
+						"You can use your action to magically muffle your movement and hasten your step. For the next minute, creatures have disadvantage on Wisdom (Perception) checks to hear you move, and your movement speed increases by 5 feet. Once you use this ability, you can't use it again until you take a long rest."
+					]
+				}
 			]
 		},
 		{
@@ -6629,9 +6597,14 @@
 			],
 			"entries": [
 				"You are a shining beacon of law and order, bringing justice and peace to those of the Frontier. You gain the following benefits:",
-				"• You are granted a badge of rank, designating you as an Archon of the S.S. St. Vincent. You have advantage on Charisma (Persuasion) checks to convince those who recognize this badge of your benevolence, and Charisma (Intimidation) checks against raiders, pirates, and other lawbreakers.",
-				"• As a bonus action on your turn, you can place yourself between harm and one of your allies within 5 feet of you. Until the beginning of your next turn, you have a −2 penalty to AC and your ally gains a +2 bonus to AC.",
-				"• You gain a +1 bonus to one saving throw of your choice."
+				{
+					"type": "list",
+					"items": [
+						"You are granted a badge of rank, designating you as an Archon of the S.S. St. Vincent. You have advantage on Charisma (Persuasion) checks to convince those who recognize this badge of your benevolence, and Charisma (Intimidation) checks against raiders, pirates, and other lawbreakers.",
+						"As a bonus action on your turn, you can place yourself between harm and one of your allies within 5 feet of you. Until the beginning of your next turn, you have a −2 penalty to AC and your ally gains a +2 bonus to AC.",
+						"You gain a +1 bonus to one saving throw of your choice."
+					]
+				}
 			]
 		},
 		{
@@ -6644,9 +6617,14 @@
 			],
 			"entries": [
 				"You are one of DD&D's renowned Artifactors, tasked with acquiring valuable magic items, be it through shrewd negotiation or daring expedition. You gain the following benefits:",
-				"• You are adept at identifying the properties of magic items. After examining an object for one minute, you can determine the object's exact market value; as well, if it is a magic item, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any.",
-				"• You can attune to four magic items, instead of three.",
-				"• You have advantage on all Charisma (Persuasion) checks made to barter, buy and sell goods and services."
+				{
+					"type": "list",
+					"items": [
+						"You are adept at identifying the properties of magic items. After examining an object for one minute, you can determine the object's exact market value; as well, if it is a magic item, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any.",
+						"You can attune to four magic items, instead of three.",
+						"You have advantage on all Charisma (Persuasion) checks made to barter, buy and sell goods and services."
+					]
+				}
 			],
 			"ability": [
 				{
@@ -6674,9 +6652,14 @@
 			],
 			"entries": [
 				"You have passed the legal and ritualistic exams necessary to become a bonded soul broker for the Cabal. As a result, you gain the following benefits:",
-				"• Due to your dealings with your infernal bosses, you gain resistance to fire damage. If you already have resistance to fire damage, you gain resistance to cold damage as well.",
-				"• You have advantage on any ability check you make to negotiate the terms of a deal or write a binding contract in your favor.",
-				"• A creature that breaks a contract with you or negotiated by you gains 1 level of exhaustion. This level of exhaustion can't be removed by any means for 7 days."
+				{
+					"type": "list",
+					"items": [
+						"Due to your dealings with your infernal bosses, you gain resistance to fire damage. If you already have resistance to fire damage, you gain resistance to cold damage as well.",
+						"You have advantage on any ability check you make to negotiate the terms of a deal or write a binding contract in your favor.",
+						"A creature that breaks a contract with you or negotiated by you gains 1 level of exhaustion. This level of exhaustion can't be removed by any means for 7 days."
+					]
+				}
 			]
 		},
 		{
@@ -6689,8 +6672,14 @@
 			],
 			"entries": [
 				"While all who worship the Chosen strive to live their best amongst the stars, only a select number walk the path of the chaplain. As a chaplain, you gain the following benefits:",
-				"• You gain proficiency in the Religion skill. • You can cast the spell worldseek once without expending spell slots or spell components. Once you use this ability, you can't use it again until you finish a long rest.",
-				"• As an action, you can pray to the Chosen for guidance while aboard a ship. Choose one creature in a role aboard your ship. The next attack roll, ability check, or saving throw that creature makes as a part of their role has advantage on that roll."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Religion skill. ",
+						"You can cast the spell {@spell worldseek|DarkMatter} once without expending spell slots or spell components. Once you use this ability, you can't use it again until you finish a long rest.",
+						"As an action, you can pray to the Chosen for guidance while aboard a ship. Choose one creature in a role aboard your ship. The next attack roll, ability check, or saving throw that creature makes as a part of their role has advantage on that roll."
+					]
+				}
 			]
 		},
 		{
@@ -6703,9 +6692,14 @@
 			],
 			"entries": [
 				"For joining the Coalition, you have received marksman training to make the most out of the standard-issue carbine, which confers the following benefits:",
-				"• You gain proficiency with the repeater and the standard carbine.",
-				"• When you make an attack with a carbine you are holding in two hands and you don't fire it automatically, its damage increases to 2d8.",
-				"• Using a system of silent hand signals, you can communicate tactical information, such as how many enemies are in sight, where your allies should move, and when to attack."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with the repeater and the standard carbine.",
+						"When you make an attack with a carbine you are holding in two hands and you don't fire it automatically, its damage increases to 2d8.",
+						"Using a system of silent hand signals, you can communicate tactical information, such as how many enemies are in sight, where your allies should move, and when to attack."
+					]
+				}
 			]
 		},
 		{
@@ -6756,8 +6750,13 @@
 			],
 			"entries": [
 				"As one of Scale & Fang's illustrious bodyguards, the duty to protect your charge, no matter the cost, has been burned into the scales of your armor. You gain the following benefits:",
-				"• You gain proficiency in the Intimidation skill and with shields.",
-				"• While using a shield, if you are within 5 feet of a friendly creature and you both must make a saving throw against an effect that would deal damage, you can use your reaction to give that creature advantage on its saving throw. If you do so, you automatically fail your saving throw against that effect. If the creature would take half damage from succeeding on that saving throw, they take no damage instead."
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Intimidation skill and with shields.",
+						"While using a shield, if you are within 5 feet of a friendly creature and you both must make a saving throw against an effect that would deal damage, you can use your reaction to give that creature advantage on its saving throw. If you do so, you automatically fail your saving throw against that effect. If the creature would take half damage from succeeding on that saving throw, they take no damage instead."
+					]
+				}
 			]
 		},
 		{
@@ -10156,7 +10155,7 @@
 			"level": 17,
 			"entries": [
 				"At 17th level, you can feel the sun's majesty at your fingertips and can summon it in immense waves. You learn the spell sunbeam, and it counts as a cleric spell for you. Sunbeam is always prepared for you, and doesn't count against your number of prepared spells.",
-				"Additionally, as an action on your turn, you can fill yourself with the luminous wrath of the Sun Above. You can cast sunbeam as an 8th level spell without expending a spell slot. When you cast the spell in this way, you regain hit points equal to your Wisdom modifier at the start of each of your turns if you have no more than half of your hit points left. You can't lose your concentration on this casting of sunbeam as a result of taking damage. Once you use this ability, you can't use it again until you finish a long rest."
+				"Additionally, as an action on your turn, you can fill yourself with the luminous wrath of the Sun Above. You can cast {@spell sunbeam} as an 8th level spell without expending a spell slot. When you cast the spell in this way, you regain hit points equal to your Wisdom modifier at the start of each of your turns if you have no more than half of your hit points left. You can't lose your concentration on this casting of sunbeam as a result of taking damage. Once you use this ability, you can't use it again until you finish a long rest."
 			]
 		},
 		{
@@ -10467,7 +10466,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 6,
 			"entries": [
-				"At 6th level, you can bestow limited sentience on a lower form of life. You can cast the spell speak with animals or speak with plants without using a spell slot.",
+				"At 6th level, you can bestow limited sentience on a lower form of life. You can cast the spell {@spell speak with animals} or {@spell speak with plants} without using a spell slot.",
 				"Once you use this ability, you can't use it again until you finish a short or long rest."
 			]
 		},
@@ -10865,7 +10864,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 15,
 			"entries": [
-				"Beginning at 15th level, you can cast the spell plane shift, targeting only yourself, without using a spell slot or spell components, or you can teleport to the nearest Maw station, appearing somewhere on its surface.",
+				"Beginning at 15th level, you can cast the spell {@spell plane shift}, targeting only yourself, without using a spell slot or spell components, or you can teleport to the nearest Maw station, appearing somewhere on its surface.",
 				"Once you use this ability, you can't use it again until you finish a long rest."
 			]
 		},
@@ -11079,10 +11078,15 @@
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you build your own infiltration rig, which is an interface rig extended with gloves, a visor, and a range of additional functions. While you wear it, you gain the following benefits:",
-				"• You can access arcane terminals, datapads, and ship computers from up to 30 feet away.",
-				"• You have darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet.",
-				"• You can use your action to detect the location of surveillance devices within 30 feet.",
-				"• You can cast the spell {@spell disguise self} once, and regain the ability to do so when you finish a long rest. At 9th level, you can cast the spell {@spell invisibility} once, targeting only yourself, and regain the ability to do so when you finish a long rest. At 13th level, you regain the ability to cast these spells when you take a short or a long rest.",
+				{
+					"type": "list",
+					"items": [
+						"You can access arcane terminals, datapads, and ship computers from up to 30 feet away.",
+						"You have darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet.",
+						"You can use your action to detect the location of surveillance devices within 30 feet.",
+						"You can cast the spell {@spell disguise self} once, and regain the ability to do so when you finish a long rest. At 9th level, you can cast the spell {@spell invisibility} once, targeting only yourself, and regain the ability to do so when you finish a long rest. At 13th level, you regain the ability to cast these spells when you take a short or a long rest."
+					]
+				},
 				"Your infiltration rig can only be used by you, and you can only have one rig at a time. Should your rig be lost or destroyed, you can create a new one with 24 hours of work and 100 gp worth of materials."
 			]
 		},
@@ -11176,7 +11180,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 13,
 			"entries": [
-				"At 13th level, you can cast the spell dimension door without using a spell slot or spell components. Once you use this ability, you must finish a short or long rest before you can use it again."
+				"At 13th level, you can cast the spell {@spell dimension door} without using a spell slot or spell components. Once you use this ability, you must finish a short or long rest before you can use it again."
 			]
 		},
 		{
@@ -11189,7 +11193,7 @@
 			"subclassSource": "DarkMatter",
 			"level": 17,
 			"entries": [
-				"Starting at 17th level, you can cast the spell teleportation circle as a ritual, without using material components. Circles you create in this way can't be made permanent.",
+				"Starting at 17th level, you can cast the spell {@spell teleportation circle} as a ritual, without using material components. Circles you create in this way can't be made permanent.",
 				"Additionally, you can create a destination circle each day by casting this spell using 50 gp worth of diamond dust as a material component. This destination circle lasts for 24 hours, or until it is used, after which it becomes inert. As long as you are on the same plane of existence as the destination circle, you can use your action to teleport yourself and up to eight willing creatures within 30 feet of you to that destination circle."
 			]
 		},
@@ -11338,11 +11342,16 @@
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, you can use your action to transform your entire body, along with everything you're wearing and carrying, into a cloud of dangerous radioactive material. This effect acts as the {@spell gaseous form} spell, with the following differences:",
-				"• Your flying speed is equal to half your movement",
-				"speed.",
-				"• If another creature enters your space or starts its turn",
-				"there, it takes 4d10 radiant damage.",
-				"• You can cast cantrips while you're in this form.",
+				{
+					"type": "list",
+					"items": [
+						"Your flying speed is equal to half your movement",
+						"speed.",
+						"If another creature enters your space or starts its turn",
+						"there, it takes 4d10 radiant damage.",
+						"You can cast cantrips while you're in this form."
+					]
+				},
 				"Once you use this ability, you can't use it again until you finish a long rest."
 			]
 		},
@@ -14158,7 +14167,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
-				"By grasping the two handles on this foot-wide disk, you can cast the spell Telaros's speedcycle. The disk becomes the steering wheel of the speedcycle, which materializes beneath you.",
+				"By grasping the two handles on this foot-wide disk, you can cast the spell {@spell Telaros's speedcycle|DarkMatter}. The disk becomes the steering wheel of the speedcycle, which materializes beneath you.",
 				"Once Telaros's speedcycle is cast from the disk, it can't be used again until the following dawn."
 			]
 		},
@@ -14463,7 +14472,7 @@
 			"weight": 4,
 			"value": 12500,
 			"entries": [
-				"This 10-inch long rectangular drive can hold a massive quantity of informationâ€”ten times as much as a datapad can hold. Over the course of a minute, you can transfer information between a data book and an arcane terminal, a datapad, or shipâ€™s computer, uploading or downloading any information you have access to, but information can't be directly read from a data book.",
+				"This 10-inch long rectangular drive can hold a massive quantity of informationâ€”ten times as much as a datapad can hold. Over the course of a minute, you can transfer information between a data book and an arcane terminal, a datapad, or ship's computer, uploading or downloading any information you have access to, but information can't be directly read from a data book.",
 				"Like a datapad, a data book can be locked with a secret password."
 			]
 		},
@@ -14538,7 +14547,7 @@
 			"weight": 0,
 			"value": 17500,
 			"entries": [
-				"This syringe can directly inject a substance into someoneâ€™s bloodstream. You can load a liquid, such as a potion of healing, into a hypodermic needle as a bonus action, then administer it to another creature as an action on your turn. If the creature is unwilling, you must make a melee weapon attack, treating the needle as an improvised weapon, to do so."
+				"This syringe can directly inject a substance into someone's bloodstream. You can load a liquid, such as a potion of healing, into a hypodermic needle as a bonus action, then administer it to another creature as an action on your turn. If the creature is unwilling, you must make a melee weapon attack, treating the needle as an improvised weapon, to do so."
 			]
 		},
 		{
@@ -15038,7 +15047,7 @@
 			"value": 5000000,
 			"entries": [
 				"{@b Slot:} Internal",
-				"Deep within your body, you have installed a devastating arcane warhead, whose trigger is linked to your life. When you die, this bomb detonates, destroying your body completely; as a result, you can be restored to life only by means of a true resurrection or a wish spell. Each creature within 180 feet must make a DC 18 Dexterity saving throw. Creatures within 60 feet that have Evasion or a similar feature canâ€™t avoid this damage. On a failed save, a creature takes 1d4 mega (1d4 Ã— 100) force damage, of half as much on a successful save. "
+				"Deep within your body, you have installed a devastating arcane warhead, whose trigger is linked to your life. When you die, this bomb detonates, destroying your body completely; as a result, you can be restored to life only by means of a true resurrection or a wish spell. Each creature within 180 feet must make a DC 18 Dexterity saving throw. Creatures within 60 feet that have Evasion or a similar feature can't avoid this damage. On a failed save, a creature takes 1d4 mega (1d4 Ã— 100) force damage, of half as much on a successful save. "
 			]
 		},
 		{
@@ -15050,7 +15059,7 @@
 			"value": 15000,
 			"entries": [
 				"{@b Slot:} Arms",
-				"Your mechanical hand has retractable thievesâ€™ tools built directly into the fingers. You are always considered to have these thievesâ€™ tools on your person and can conceal them perfectly. If you are proficient with thievesâ€™ tools, you can add a +2 bonus to ability checks you make using them. "
+				"Your mechanical hand has retractable thieves' tools built directly into the fingers. You are always considered to have these thieves' tools on your person and can conceal them perfectly. If you are proficient with thieves' tools, you can add a +2 bonus to ability checks you make using them. "
 			]
 		},
 		{
@@ -15062,7 +15071,7 @@
 			"value": 225000,
 			"entries": [
 				"{@b Slot:} Internal",
-				"You have replaced your heart with the core from a construct. As a result, you can ignore the effects of 1 level of exhaustion, and you only need to rest for 4 hours to gain the same benefit that a human does from 8 hours of sleep. Because vect already have construct cores, they canâ€™t install this graft. "
+				"You have replaced your heart with the core from a construct. As a result, you can ignore the effects of 1 level of exhaustion, and you only need to rest for 4 hours to gain the same benefit that a human does from 8 hours of sleep. Because vect already have construct cores, they can't install this graft. "
 			]
 		},
 		{
@@ -15158,7 +15167,7 @@
 			"value": 55000,
 			"entries": [
 				"{@b Slot:} External",
-				"By activating this mechanical plate installed near your spine, you can cast the spell mage armor as a bonus action targeting yourself, without using a spell slot. Once you do so, you canâ€™t cast the spell again using this graft until you finish a long rest. "
+				"By activating this mechanical plate installed near your spine, you can cast the spell {@spell mage armor} as a bonus action targeting yourself, without using a spell slot. Once you do so, you can't cast the spell again using this graft until you finish a long rest. "
 			]
 		},
 		{
