@@ -1,22 +1,23 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "DarkMatterSpireSubclasses",
-				"abbreviation": "DaM-SS",
-				"full": "Dark Matter Spire Subclasses",
-				"url": "",
-				"authors": [
-					"Mage Hand Press"
-				],
-				"convertedBy": [],
-				"version": "unknown",
-				"targetSchema": "1.2"
-			}
-		],
-		"dateAdded": 1604591775,
-		"dateLastModified": 1604591775
-	},
+    "_meta": {
+        "sources": [
+            {
+                "json": "DarkMatterSpireSubclasses",
+                "abbreviation": "DaM-SS",
+                "full": "Dark Matter Spire Subclasses",
+                "url": "",
+                "authors": [
+                    "Mage Hand Press"
+                ],
+                "convertedBy": [
+                    ""
+                ],
+                "version": "1.0"
+            }
+        ],
+        "dateAdded": 1604591775,
+        "dateLastModified": 1604591775
+    },
     "subclass": [
         {
             "subclassFeatures": [
@@ -118,6 +119,73 @@
             ],
             "level": 18,
             "page": "100"
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Leading Edge Tactics",
+            "source": "DarkMatterSpireSubclasses",
+            "entries": [
+                "{@i Prerequisite: 2nd Level, Coalition Warmage}",
+                "You always have a plan when engaging the enemy. As such, attacks during the first round of combat have disadvantage against you."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Coalition",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Technomancer",
+            "source": "DarkMatterSpireSubclasses",
+            "entries": [
+                "{@i Prerequisite: Technomancy Cantrip}",
+                "Your constant exposure to magical technology has given you the ability to manipulate it almost subconsciously. You can cast the cantrip {@spell technomancy|DarkMatter} as a bonus action on your turn, and can do so without using somatic components. Additionally, you can use the cantrip to attempt to hack devices within range."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "technomancy|DarkMatter#c"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gauntlet Upgrade",
+            "source": "DarkMatterSpireSubclasses",
+            "entries": [
+                "{@i Prerequisite: 10th Level, Coalition Warmage}",
+                "You install a high-power module in your blaster gauntlet. You can apply one of the following two modifiers to cantrips that you cast using your Coalition Blaster Gauntlet ability.",
+                "{@b Beam.} The cantrip creates a 5-foot wide beam out to the spell’s range in a direction you choose. This beam lasts until the start of your next turn. When a creature enters the area for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw against your spell save DC or take the spell’s damage.",
+                "{@b Overheat.} The cantrip’s damage dice become d12s.",
+                "Once you use one of these modifiers, you can’t use them again until you finish a short or long rest."
+            ],
+            "featureType": "Warmage Tricks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Warmage"
+                        },
+                        "subclass": {
+                            "name": "Coalition",
+                            "visible": true
+                        }
+                    }
+                }
+            ]
         }
     ]
 }
