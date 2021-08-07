@@ -7149,10 +7149,11 @@
 						}
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
-			"name": "Commercial Pilot",
+			"name": "Exile",
 			"source": "DarkMatter",
 			"page": 115,
 			"entries": [
@@ -7783,12 +7784,13 @@
 					}
 				},
 				{
-					"name": "I come from a world whose greatest technology is ___.",
+					"name": "Homeworld",
 					"type": "entries",
 					"entries": [
-						"",
+						"You can use the following tables to decide on the technology level of the world from which you originated and to determine how you left it. More information on how to build a world can be found in Appendix A.",
 						{
 							"type": "table",
+							"name": "I come from a world whose greatest technology is ___.",
 							"colLabels": [
 								"d6",
 								"Technology"
@@ -7826,6 +7828,7 @@
 						},
 						{
 							"type": "table",
+							"name": "How I left",
 							"colLabels": [
 								"d6",
 								"Technology"
@@ -8059,6 +8062,597 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Ship's Doctor",
+			"source": "DarkMatter",
+			"page": 120,
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Investigation}, {@skill Medicine}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item Alchemist's Supplies}, {@item Herbalist's Kit}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A {@item healer's kit|phb}, a book of physiology, a needle and string, a doctor's uniform, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Xenobiology",
+					"type": "entries",
+					"entries": [
+						"Having seen many strange things on your travels, you have developed an instinctive understanding of alien biologies. Whenever you encounter a creature you have never seen before, you are able to make a few observations and deductions about it, gaining an idea of how dangerous it could be, what its weaknesses might be, or how it would behave in response to a given stimulus."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Medical Training",
+					"type": "entries",
+					"entries": [
+						"By education, doctors tend to be experts in one branch of medicine, though serving on a ship means there is no one else to call on if something outside of their expertise should arise, so most ships' doctors possess broad medical skills. Choose a specialty or roll on the table below.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Specialty"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"1",
+									"Infectious diseases"
+								],
+								[
+									"2",
+									"Neurosurgery"
+								],
+								[
+									"3",
+									"Alien lifeforms"
+								],
+								[
+									"4",
+									"Orthopedic surgery"
+								],
+								[
+									"5",
+									"Ophthalmology"
+								],
+								[
+									"6",
+									"Cardithoracic surgery"
+								],
+								[
+									"7",
+									"Psychiatry"
+								],
+								[
+									"8",
+									"Plastic/Cyborg surgery"
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"While medical practice often attracts analytical, gentle people, the life-shaping events that medics experience often have a lasting impact on their outlook.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I obsessively clean my medical equipment"
+								],
+								[
+									"2",
+									"I like to organize things into neat categories"
+								],
+								[
+									"3",
+									"My handwriting is an atrocious scrawl"
+								],
+								[
+									"4",
+									"I'm constantly reading something"
+								],
+								[
+									"5",
+									"I'm not afraid of a bit of blood"
+								],
+								[
+									"6",
+									"I expect people to jump when I say so, if not sooner"
+								],
+								[
+									"7",
+									"High-pressure situations don't faze me"
+								],
+								[
+									"8",
+									"I can be blasé about my own health."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Aid}. I have dedicated my life to helping others. (Good)"
+								],
+								[
+									"2",
+									"{@b Wealth}. At the end of the day, I'm here for the money. (Evil)"
+								],
+								[
+									"3",
+									"{@b Secrets}. My goal in life is to learn as much as possible. (Neutral)"
+								],
+								[
+									"4",
+									"{@b Duty}. I swore an oath to “do no harm,” and I mean to stick to it. (Lawful)"
+								],
+								[
+									"5",
+									"{@b Freedom}. I enable people to live the way they want by providing the medical care they choose for themselves. (Chaotic)"
+								],
+								[
+									"6",
+									"{@b Peace}. I have seen the results of war and conflict, so I want to do everything I can to foster peace and understanding. (Good)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am looking for a cure to save someone I love."
+								],
+								[
+									"2",
+									"I must track down the relatives of a deceased patient to tell them the bad news (and collect my fee)."
+								],
+								[
+									"3",
+									"A hospital on another planet has asked me to help deal with an emergency."
+								],
+								[
+									"4",
+									"A terminal patient in my care charged me with completing their life's work."
+								],
+								[
+									"5",
+									"My friends from medical school still keep in touch, even from across the galaxy."
+								],
+								[
+									"6",
+									"I have a gaggle of medical students following me around everywhere."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I have nightmares about the people I have failed to save."
+								],
+								[
+									"2",
+									"I have a problem with self-medication."
+								],
+								[
+									"3",
+									"I focus solely on immediate problems and ignore the bigger picture."
+								],
+								[
+									"4",
+									"My black humor sometimes unsettles those around me."
+								],
+								[
+									"5",
+									"My qualifications are actually fake;?I live in fear of being found out."
+								],
+								[
+									"6",
+									"I am a dreadful hypochondriac."
+								]
+							]
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"medicine": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true,
+					"alchemist's supplies": true
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Aboard a ship, you must be prepared for anything. Whether exploring the far reaches of the ‘verse, where untold alien pathogens lurk, going to war in one of the great space fleets and staring down alien weapons, or simply dealing with the crew's cybernetic implants going haywire, the ship's doctor never knows what challenges they might face from day to day",
+					"Pragmatic out of necessity, but always seeking to provide the best possible care for their patients, shipboard medics are natural candidates to be made clerics of healing gods, and often possess an intellectual capacity well-suited to the demands of wizardry. Some, wishing to become self-sufficient in terms of potion supply, become interested in alchemy, while others make warlock pacts to gain more power with which to help more people. In this way, it's not uncommon for ships' doctors to transition into a more intense adventuring life."
+				]
+			},
+			"startingEquipment": [
+				{
+					"_": [
+						"healer's kit|phb",
+						{
+							"special": "A book of physiology"
+						},
+						{
+							"special": "a needle and string"
+						},
+						{
+							"special": "a doctor's uniform"
+						},
+						{
+							"special": "belt pouch",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Technologist",
+			"source": "DarkMatter",
+			"page": 120,
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Data}, {@skill Technology}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "{@item Mechanist's tools}, One type of {@filter artisan's tools|items|miscellaneous=mundane|type=artisan's tools}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A set of {@item tinker's tools|phb}, a broken piece of a mysterious machine, a large pipe wrench (counts as a {@item mace|phb}), a set of common clothes, and a {@item pouch|phb} containing 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Vent Tape and Elbow Grease",
+					"type": "entries",
+					"entries": [
+						"Invariably, technologists find themselves needing to repair things without access to the proper tools, training, or spare parts, having to make do with temporary stop-gap measures and whatever they happen to have on hand. Your experience with this means that you can often cobble something together to keep a damaged system working for a few crucial minutes or hours, as long as you focus all of your attention onto it."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Specialism",
+					"type": "entries",
+					"entries": [
+						"Most technologists are highly trained in the workings of a handful of systems and have only theoretical knowledge of others. Decide which machines you have worked on, or roll on the table below.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Specialty"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"1",
+									"Dark Matter engines."
+								],
+								[
+									"2",
+									"Blasters."
+								],
+								[
+									"3",
+									"Arcane databases."
+								],
+								[
+									"4",
+									"Power systems."
+								],
+								[
+									"5",
+									"Shield generators."
+								],
+								[
+									"6",
+									"Automatons and construct cores."
+								],
+								[
+									"7",
+									"Cranes and docking systems."
+								],
+								[
+									"8",
+									"Climate control systems."
+								],
+								[
+									"9",
+									"Terrestrial/atmospheric vehicles."
+								],
+								[
+									"10",
+									"Industrial machinery."
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Technologists are a breed apart, often preferring to work with machines than with people. Having to blend technical knowledge, manual skills, and a certain amount of creativity in order to succeed in their roles means that they are sometimes rather eccentric in character.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am extremely curious about everything."
+								],
+								[
+									"2",
+									"I collect random pieces of junk."
+								],
+								[
+									"3",
+									"I have strong opinions about different manufacturers of tools."
+								],
+								[
+									"4",
+									"I prefer machines to people."
+								],
+								[
+									"5",
+									"I have an encyclopedic knowledge of material properties."
+								],
+								[
+									"6",
+									"Attention to detail is my middle name."
+								],
+								[
+									"7",
+									"I am very attached to my custom-built weapon."
+								],
+								[
+									"8",
+									"I have an uncanny instinct for when a ship is about to break down.."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Fix What's Broken}. I see myself as a healer of the sick; someone who restores hope when things are going wrong. (Good)"
+								],
+								[
+									"2",
+									"{@b Invent Something New}. The purpose of life is to break the mold and do things that have never been done before. (Chaotic)"
+								],
+								[
+									"3",
+									"{@b Build Deadlier Weapons}. I derive pleasure from the thought that my machines might hurt people. (Evil)"
+								],
+								[
+									"4",
+									"{@b Everything in Its Place}. I believe it's important to make the universe more organized and efficient. (Lawful)"
+								],
+								[
+									"5",
+									"{@b Just a Job}. I do what's needed, but nothing more. Getting paid is what's important. (Neutral)"
+								],
+								[
+									"6",
+									"{@b A Better Future}. More technology will make this world a utopia! (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am extremely attached to a particular machine."
+								],
+								[
+									"2",
+									"I am looking for a lost piece of technology."
+								],
+								[
+									"3",
+									"I need to find an expert in an obscure science to help me complete my life's work."
+								],
+								[
+									"4",
+									"My current employer has sent me to a distant system to do some specialist work."
+								],
+								[
+									"5",
+									"An important device has been entrusted to me for maintenance and repair."
+								],
+								[
+									"6",
+									"I formed a strong bond with my ship's crew."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I compulsively disassemble any machinery that isn't in use right now."
+								],
+								[
+									"2",
+									"I can't bring myself to trust magic-users."
+								],
+								[
+									"3",
+									"I am incapable of communicating my ideas clearly and concisely to other people."
+								],
+								[
+									"4",
+									"I suffer from very rigid logic and struggle to think outside of the box."
+								],
+								[
+									"5",
+									"I jump in trying to fix things before properly assessing what the problem is."
+								],
+								[
+									"6",
+									"I'm completely uninterested in history, art, or culture."
+								]
+							]
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"data": true,
+					"technology": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"tinker's tools": true,
+					"artisan's tools": true
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The galaxy is filled with machines—machines that often break down. Technologists are experts in repairing, tuning, and decommissioning the devices that other people rely on for their employment, comfort, and safety. Therefore, they are in constant demand everywhere, from heavilyindustrialized foundry worlds near the galactic core, to the Frontier worlds on the rim. Moreover, any ship of significant size is likely to employ engineers to keep it flying, regardless of where it finds itself in the ‘verse.",
+					"Technologists come in all shapes and sizes, so there are lots of reasons why they might become adventurers. It could be that they are drawn to the challenge, or that they seek to uncover arcane secrets that can be incorporated into their machines. Some might have gotten their start as hired helpers for an established adventuring party, while a surprising number turn to druidry, having become so sick of malfunctioning technology that the only option is to cut it out of their lives altogether!"
+				]
+			},
+			"startingEquipment": [
+				{
+					"_": [
+						"tinker's tools|phb",
+						{
+							"special": "a broken piece of a mysterious machine"
+						},
+						{
+							"item": "mace|phb",
+							"displayName": "Large Pipe Wrench"
+						},
+						"common clothes|phb",
+						{
+							"special": "belt pouch",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"hasFluff": true
 		}
 	],
 	"itemProperty": [
@@ -14403,6 +14997,254 @@
 			]
 		},
 		{
+			"name": "Engineer's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 32500,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item crowbar|phb}",
+						"a {@item datapad|DarkMatter}",
+						"a {@item flashlight|DarkMatter}",
+						"a {@item hammer|phb}",
+						"an {@item igniter|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"dozens of assorted nuts and bolts",
+						"an {@item omnitool|DarkMatter}",
+						"10 rolls of {@item vent tape|DarkMatter}",
+						"and a {@item wristwatch|DarkMatter}."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"comm set|DarkMatter",
+				"crowbar|phb",
+				"datapad|DarkMatter",
+				"flashlight|DarkMatter",
+				"hammer|phb",
+				"igniter|DarkMatter",
+				"life suit|DarkMatter",
+				{
+					"special": "dozens of assorted nuts and bolts"
+				},
+				"omnitool|DarkMatter",
+				{
+					"item": "vent tape|DarkMatter",
+					"quantity": 10
+				},
+				"wristwatch|DarkMatter"
+			]
+		},
+		{
+			"name": "Marine's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 46500,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bedroll|phb}",
+						"a set of {@item binoculars|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"2 {@item concussion grenade|DarkMatter|concussion grenades}",
+						"a {@item crowbar|phb}",
+						"a {@item flashlight|DarkMatter}",
+						"an {@item igniter|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"10 days of {@item rations (1 day)|phb|rations}",
+						"a {@item tactical vest|DarkMatter}",
+						"and a roll of {@item vent tape|DarkMatter}.",
+						"The pack also has {@item hempen rope (50 feet)|phb} strapped to the side of it."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bedroll|phb",
+				"binoculars|DarkMatter",
+				"comm set|DarkMatter",
+				{
+					"item": "concussion grenade|DarkMatter",
+					"quantity": 2
+				},
+				"crowbar|phb",
+				"flashlight|DarkMatter",
+				"igniter|DarkMatter",
+				"life suit|DarkMatter",
+				{
+					"item": "rations (1 day)|phb",
+					"quantity": 10
+				},
+				"tactical vest|DarkMatter",
+				"vent tape|DarkMatter",
+				"hempen rope (50 feet)|phb"
+			]
+		},
+		{
+			"name": "Researcher's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 75000,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"{@item binoculars|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item datapad|DarkMatter}",
+						"a {@item flashlight|DarkMatter}",
+						"a {@item holo-sphere|DarkMatter}",
+						"a {@item hypodermic needle|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"a {@item log keeper|DarkMatter}",
+						"an {@item omnitool|DarkMatter}",
+						"a {@item quadcorder|DarkMatter}",
+						"and a {@item wristwatch|DarkMatter}."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"binoculars|DarkMatter",
+				"comm set|DarkMatter",
+				"datapad|DarkMatter",
+				"flashlight|DarkMatter",
+				"holo-sphere|DarkMatter",
+				"hypodermic needle|DarkMatter",
+				"life suit|DarkMatter",
+				"log keeper|DarkMatter",
+				"omnitool|DarkMatter",
+				"quadcorder|DarkMatter",
+				"wristwatch|DarkMatter"
+			]
+		},
+		{
+			"name": "Surveyor's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 37800,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bandolier|DarkMatter}",
+						"a {@item bedroll|phb}",
+						"{@item binoculars|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item flashlight|DarkMatter}",
+						"a {@item log keeper|DarkMatter}",
+						"an {@item igniter|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"a {@item quadcorder|DarkMatter}",
+						"10 days of {@item rations (1 day)|phb|rations}",
+						"and a {@item wristwatch|DarkMatter}.",
+						"The pack also has {@item hempen rope (50 feet)|phb} strapped to the side of it."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bandolier|DarkMatter",
+				"bedroll|phb",
+				"binoculars|DarkMatter",
+				"comm set|DarkMatter",
+				"flashlight|DarkMatter",
+				"log keeper|DarkMatter",
+				"igniter|DarkMatter",
+				"life suit|DarkMatter",
+				"quadcorder|DarkMatter",
+				{
+					"item": "rations (1 day)|phb",
+					"quantity": 10
+				},
+				"wristwatch|DarkMatter",
+				"hempen rope (50 feet)|phb"
+			]
+		},
+		{
+			"name": "Spacer's Pack",
+			"source": "DarkMatter",
+			"page": 75,
+			"type": "G",
+			"rarity": "none",
+			"weight": 0,
+			"value": 62800,
+			"entries": [
+				"Includes:",
+				{
+					"type": "list",
+					"items": [
+						"a {@item backpack|phb}",
+						"a {@item bandolier|DarkMatter}",
+						"a {@item comm set|DarkMatter}",
+						"a {@item datapad|DarkMatter}",
+						"2 {@item flashlight|DarkMatter|flashlights}",
+						"a {@item holo-sphere|DarkMatter}",
+						"an {@item interface rig|DarkMatter}",
+						"2 cans of {@item krash|DarkMatter}",
+						"a {@item life suit|DarkMatter}",
+						"a {@item log keeper|DarkMatter}",
+						"an {@item igniter|DarkMatter}",
+						"an {@item omnitool|DarkMatter}",
+						"a {@item quadcorder|DarkMatter}",
+						"10 rolls of {@item vent tape|DarkMatter}",
+						"and a {@item wristwatch|DarkMatter}."
+					]
+				}
+			],
+			"packContents": [
+				"backpack|phb",
+				"bandolier|DarkMatter",
+				"comm set|DarkMatter",
+				"datapad|DarkMatter",
+				{
+					"item": "flashlight|DarkMatter",
+					"quantity": 2
+				},
+				"holo-sphere|DarkMatter",
+				"interface rig|DarkMatter",
+				{
+					"item": "krash|DarkMatter",
+					"quantity": 2
+				},
+				"life suit|DarkMatter",
+				"log keeper|DarkMatter",
+				"igniter|DarkMatter",
+				"omnitool|DarkMatter",
+				"quadcorder|DarkMatter",
+				{
+					"item": "vent tape|DarkMatter",
+					"quantity": 10
+				},
+				"wristwatch|DarkMatter"
+			]
+		},
+		{
 			"name": "Bandolier",
 			"source": "DarkMatter",
 			"page": 135,
@@ -14692,254 +15534,6 @@
 			"value": 500,
 			"entries": [
 				"A simple device with a simple purpose, this watch reports the time in a way that is consistent with all major galactic factions."
-			]
-		},
-		{
-			"name": "Engineer's Pack",
-			"source": "DarkMatter",
-			"page": 75,
-			"type": "G",
-			"rarity": "none",
-			"weight": 0,
-			"value": 32500,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item comm set|DarkMatter}",
-						"a {@item crowbar|phb}",
-						"a {@item datapad|DarkMatter}",
-						"a {@item flashlight|DarkMatter}",
-						"a {@item hammer|phb}",
-						"an {@item igniter|DarkMatter}",
-						"a {@item life suit|DarkMatter}",
-						"dozens of assorted nuts and bolts",
-						"an {@item omnitool|DarkMatter}",
-						"10 rolls of {@item vent tape|DarkMatter}",
-						"and a {@item wristwatch|DarkMatter}."
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"comm set|DarkMatter",
-				"crowbar|phb",
-				"datapad|DarkMatter",
-				"flashlight|DarkMatter",
-				"hammer|phb",
-				"igniter|DarkMatter",
-				"life suit|DarkMatter",
-				{
-					"special": "dozens of assorted nuts and bolts"
-				},
-				"omnitool|DarkMatter",
-				{
-					"item": "vent tape|DarkMatter",
-					"quantity": 10
-				},
-				"wristwatch|DarkMatter"
-			]
-		},
-		{
-			"name": "Marine's Pack",
-			"source": "DarkMatter",
-			"page": 75,
-			"type": "G",
-			"rarity": "none",
-			"weight": 0,
-			"value": 46500,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item bedroll|phb}",
-						"a set of {@item binoculars|DarkMatter}",
-						"a {@item comm set|DarkMatter}",
-						"2 {@item concussion grenade|DarkMatter|concussion grenades}",
-						"a {@item crowbar|phb}",
-						"a {@item flashlight|DarkMatter}",
-						"an {@item igniter|DarkMatter}",
-						"a {@item life suit|DarkMatter}",
-						"10 days of {@item rations (1 day)|phb|rations}",
-						"a {@item tactical vest|DarkMatter}",
-						"and a roll of {@item vent tape|DarkMatter}.",
-						"The pack also has {@item hempen rope (50 feet)|phb} strapped to the side of it."
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"bed roll|phb",
-				"binoculars|DarkMatter",
-				"comm set|DarkMatter",
-				{
-					"item": "concussion grenade|DarkMatter",
-					"quantity": 2
-				},
-				"crowbar|phb",
-				"flashlight|DarkMatter",
-				"igniter|DarkMatter",
-				"life suit|DarkMatter",
-				{
-					"item": "rations (1 day)|phb",
-					"quantity": 10
-				},
-				"tactical vest|DarkMatter",
-				"vent tape|DarkMatter",
-				"hempen rope (50 feet)|phb"
-			]
-		},
-		{
-			"name": "Researcher's Pack",
-			"source": "DarkMatter",
-			"page": 75,
-			"type": "G",
-			"rarity": "none",
-			"weight": 0,
-			"value": 75000,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"{@item binoculars|DarkMatter}",
-						"a {@item comm set|DarkMatter}",
-						"a {@item datapad|DarkMatter}",
-						"a {@item flashlight|DarkMatter}",
-						"a {@item holo-sphere|DarkMatter}",
-						"a {@item hypodermic needle|DarkMatter}",
-						"a {@item life suit|DarkMatter}",
-						"a {@item log keeper|DarkMatter}",
-						"an {@item omnitool|DarkMatter}",
-						"a {@item quadcorder|DarkMatter}",
-						"and a {@item wristwatch|DarkMatter}."
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"binoculars|DarkMatter",
-				"comm set|DarkMatter",
-				"datapad|DarkMatter",
-				"flashlight|DarkMatter",
-				"holo-sphere|DarkMatter",
-				"hypodermic needle|DarkMatter",
-				"life suit|DarkMatter",
-				"log keeper|DarkMatter",
-				"omnitool|DarkMatter",
-				"quadcorder|DarkMatter",
-				"wristwatch|DarkMatter."
-			]
-		},
-		{
-			"name": "Surveyor's Pack",
-			"source": "DarkMatter",
-			"page": 75,
-			"type": "G",
-			"rarity": "none",
-			"weight": 0,
-			"value": 37800,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item bandolier|DarkMatter}",
-						"a {@item bedroll|phb}",
-						"{@item binoculars|DarkMatter}",
-						"a {@item comm set|DarkMatter}",
-						"a {@item flashlight|DarkMatter}",
-						"a {@item log keeper|DarkMatter}",
-						"an {@item igniter|DarkMatter}",
-						"a {@item life suit|DarkMatter}",
-						"a {@item quadcorder|DarkMatter}",
-						"10 days of {@item rations (1 day)|phb|rations}",
-						"and a {@item wristwatch|DarkMatter}.",
-						"The pack also has {@item hempen rope (50 feet)|phb} strapped to the side of it."
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"bandolier|DarkMatter",
-				"bedroll|phb",
-				"binoculars|DarkMatter",
-				"comm set|DarkMatter",
-				"flashlight|DarkMatter",
-				"log keeper|DarkMatter",
-				"igniter|DarkMatter",
-				"life suit|DarkMatter",
-				"quadcorder|DarkMatter",
-				{
-					"item": "rations (1 day)|phb",
-					"quantity": 10
-				},
-				"wristwatch|DarkMatter",
-				"hempen rope (50 feet)|phb"
-			]
-		},
-		{
-			"name": "Spacer's Pack",
-			"source": "DarkMatter",
-			"page": 75,
-			"type": "G",
-			"rarity": "none",
-			"weight": 0,
-			"value": 62800,
-			"entries": [
-				"Includes:",
-				{
-					"type": "list",
-					"items": [
-						"a {@item backpack|phb}",
-						"a {@item bandolier|DarkMatter}",
-						"a {@item comm set|DarkMatter}",
-						"a {@item datapad|DarkMatter}",
-						"2 {@item flashlight|DarkMatter|flashlights}",
-						"a {@item holo-sphere|DarkMatter}",
-						"an {@item interface rig|DarkMatter}",
-						"2 cans of {@item krash|DarkMatter}",
-						"a {@item life suit|DarkMatter}",
-						"a {@item log keeper|DarkMatter}",
-						"an {@item igniter|DarkMatter}",
-						"an {@item omnitool|DarkMatter}",
-						"a {@item quadcorder|DarkMatter}",
-						"10 rolls of {@item vent tape|DarkMatter}",
-						"and a {@item wristwatch|DarkMatter}."
-					]
-				}
-			],
-			"packContents": [
-				"backpack|phb",
-				"bandolier|DarkMatter",
-				"comm set|DarkMatter",
-				"datapad|DarkMatter",
-				{
-					"item": "flashlight|DarkMatter",
-					"quantity": 2
-				},
-				"holo-sphere|DarkMatter",
-				"interface rig|DarkMatter",
-				{
-					"item": "krash|DarkMatter",
-					"quantity": 2
-				},
-				"life suit|DarkMatter",
-				"log keeper|DarkMatter",
-				"igniter|DarkMatter",
-				"omnitool|DarkMatter",
-				"quadcorder|DarkMatter",
-				{
-					"item": "vent tape|DarkMatter",
-					"quantity": 10
-				},
-				"wristwatch|DarkMatter."
 			]
 		},
 		{
@@ -15242,7 +15836,7 @@
 					"type": "entries",
 					"name": "Attaching a Graft.",
 					"entries": [
-						"Attaching a graft for the first time requires a laborious surgical procedure, normally removing an original body part. This procedure takes one hour and requires a healer's kit, a set of mechanist’s tools, and a knife (or a facility with access to such tools), as well as someone to perform the operation. A construct graft is permanent until another graft is provided to replace it.",
+						"Attaching a graft for the first time requires a laborious surgical procedure, normally removing an original body part. This procedure takes one hour and requires a healer's kit, a set of mechanist's tools, and a knife (or a facility with access to such tools), as well as someone to perform the operation. A construct graft is permanent until another graft is provided to replace it.",
 						"This surgery is intensive and necessitates recovery time. When you finish installing a construct graft into your body, you lose half your hit points and all of your hit dice. For 24 hours after installation, you can't use the graft's abilities, as you adjust to its presence. Replacing a graft or adding a new graft in its body slot takes only 30 minutes. You still lose half your hit points when replacing a graft, but you don't lose hit dice."
 					]
 				},
