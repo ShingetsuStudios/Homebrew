@@ -15828,7 +15828,7 @@
 	"variantrule": [
 		{
 			"name": "Construct Grafts",
-			"type": "DarkMatter",
+			"source": "DarkMatter",
 			"entries": [
 				"Mechanical hands, robotic eyes with an unnerving red glow, ports and wires running down the length of someone's arm— these construct grafts (also called embedded components) are a popular, if invasive, way of garnering an advantage over one's foes. Construct parts, after all, are more robust and customizable than any organic limb. Sometimes, these components are obtained from deceased vect to serve as replacement parts, and other times, they're intentional upgrades, built to fit the recipient's needs.",
 				"All the items presented in this section are considered magical technology for the purposes of spells and magical effects that influence such technology.",
