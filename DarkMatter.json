@@ -4161,7 +4161,7 @@
 				{
 					"name": "Avia-Ra Weapon Training",
 					"entries": [
-						"You have proficiency with the avia-ra sunstaff, scimitar, shortbow, spear, and whip."
+						"You have proficiency with the {@item avia-ra sunstaff|DarkMatter}, scimitar, shortbow, spear, and whip."
 					]
 				},
 				{
@@ -8671,7 +8671,7 @@
 			]
 		},
 		{
-			"abbreviation": "BLS",
+			"abbreviation": "BLAST",
 			"source": "DarkMatter",
 			"page": "132",
 			"entries": [
@@ -8889,7 +8889,7 @@
 		{
 			"name": "Avia-Ra Sunstaff",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "100/400",
 			"firearm": true,
 			"rarity": "none",
@@ -8909,13 +8909,54 @@
 				}
 			],
 			"property": [
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d6",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true,
+			"subEntities": {
+				"item": [
+					{
+						"name": "Sunstaff (Melee)",
+						"source": "PHB",
+						"page": 149,
+						"srd": true,
+						"type": "M",
+						"rarity": "none",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"foundryData": {
+							"equipped": true,
+							"damage.parts": [
+								[
+									"1d6",
+									"bludgeoning"
+								]
+							],
+							"damage.versatile": "1d8"
+						},
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8"
+					}
+				]
+			}
 		},
 		{
 			"name": "Ion Cannon",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "30/90",
 			"firearm": true,
 			"rarity": "none",
@@ -8928,13 +8969,26 @@
 			"dmgType": "R",
 			"property": [
 				"SCT",
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d6",
+						"radiant"
+					]
+				],
+				"damage.versatile": "2d8",
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Phaser",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "50/200",
 			"firearm": true,
 			"rarity": "none",
@@ -8946,13 +9000,25 @@
 			"dmgType": "R",
 			"property": [
 				"L",
-				"NL"
-			]
+				"NL",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d4",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Repeater",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "60/240",
 			"firearm": true,
 			"rarity": "none",
@@ -8962,12 +9028,25 @@
 			"weapon": true,
 			"dmg1": "2d6",
 			"dmgType": "R",
-			"property": []
+			"property": [
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d6",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Standard Carbine",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "80/320",
 			"firearm": true,
 			"rarity": "none",
@@ -8979,13 +9058,25 @@
 			"dmgType": "R",
 			"property": [
 				"ATO",
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d6",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Swarm Pistol",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "30/120",
 			"firearm": true,
 			"rarity": "none",
@@ -8998,13 +9089,25 @@
 			"property": [
 				"ATO",
 				"FRGP",
-				"L"
-			]
+				"L",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d4",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Antimatter Carbine",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "30/120",
 			"firearm": true,
 			"rarity": "none",
@@ -9016,13 +9119,25 @@
 			"dmgType": "N",
 			"property": [
 				"ATO",
-				"FRGP"
-			]
+				"FRGP",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d6",
+						"necrotic"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Blitz Cannon",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "10/30",
 			"firearm": true,
 			"rarity": "none",
@@ -9036,13 +9151,26 @@
 			"property": [
 				"H",
 				"SCT",
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d8",
+						"lightning"
+					]
+				],
+				"damage.versatile": "2d10",
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Concussion Rifle",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "150/600",
 			"firearm": true,
 			"rarity": "none",
@@ -9054,13 +9182,25 @@
 			"dmgType": "T",
 			"property": [
 				"SHT",
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d8",
+						"thunder"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Diode Beam",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "120/480",
 			"firearm": true,
 			"rarity": "none",
@@ -9083,13 +9223,25 @@
 			"property": [
 				"H",
 				"MNT",
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d8",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Magnus",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "70/280",
 			"firearm": true,
 			"rarity": "none",
@@ -9101,13 +9253,25 @@
 			"dmgType": "R",
 			"property": [
 				"H",
-				"OH"
-			]
+				"OH",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d8",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Plasma Launcher",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "50/200",
 			"firearm": true,
 			"rarity": "none",
@@ -9119,13 +9283,25 @@
 			"dmgType": "F",
 			"property": [
 				"EXPL",
-				"FRGP"
-			]
+				"FRGP",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d6",
+						"fire"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Psionic Helm",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "70/280",
 			"firearm": true,
 			"rarity": "none",
@@ -9144,12 +9320,25 @@
 					]
 				}
 			],
-			"property": []
+			"property": [
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d6",
+						"psychic"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "REC Gun",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "100/400",
 			"firearm": true,
 			"rarity": "none",
@@ -9163,13 +9352,25 @@
 				"ATO",
 				"H",
 				"MNT",
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d8",
+						"radiant"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Singularity Emitter",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "120/480",
 			"firearm": true,
 			"rarity": "none",
@@ -9191,13 +9392,25 @@
 			"property": [
 				"H",
 				"OH",
-				"2H"
-			]
+				"2H",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"damage.parts": [
+					[
+						"2d10",
+						"force"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Volcanic",
 			"source": "DarkMatter",
-			"type": "B",
+			"type": "R",
 			"range": "15-foot-cone",
 			"firearm": true,
 			"rarity": "none",
@@ -9220,8 +9433,23 @@
 				"HT",
 				"H",
 				"2H",
-				"S"
-			]
+				"S",
+				"BLAST"
+			],
+			"foundryData": {
+				"activation.type": "action",
+				"target.value": 15,
+				"target.units": "ft",
+				"target.type": "cone",
+				"damage.parts": [
+					[
+						"2d6",
+						"fire"
+					]
+				],
+				"ability": "dex"
+			},
+			"hasFluff": true
 		},
 		{
 			"name": "Antimatter Dagger",
@@ -9237,7 +9465,8 @@
 			"property": [
 				"F",
 				"L"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ballistic Gloves",
@@ -9253,7 +9482,8 @@
 			"property": [
 				"FST",
 				"L"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Laser Claws",
@@ -9270,7 +9500,8 @@
 				"FST",
 				"L",
 				"F"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Skathari Warclub",
@@ -9285,7 +9516,8 @@
 			"dmgType": "P",
 			"property": [
 				"2H"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Void Shackles",
@@ -9301,7 +9533,8 @@
 			"property": [
 				"FST",
 				"L"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Arc Baton",
@@ -9322,7 +9555,8 @@
 						"When a creature is hit with this weapon, it can't take reactions until the start of its next turn."
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Battlefist",
@@ -9343,7 +9577,8 @@
 						"This weapon acts as an oversized, articulated gauntlet. It can hold and manipulate objects, though you can't attack with your battlefist while you're holding an object with it."
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Crystalline Rod",
@@ -9359,7 +9594,8 @@
 			"property": [
 				"F",
 				"R"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Laser Halfsword",
@@ -9375,7 +9611,8 @@
 			"property": [
 				"F",
 				"L"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Laser Sword",
@@ -9400,7 +9637,8 @@
 			],
 			"property": [
 				"F"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Photonic Lash",
@@ -9416,7 +9654,8 @@
 			"property": [
 				"F",
 				"R"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Plasma Cutter",
@@ -9440,7 +9679,8 @@
 			],
 			"property": [
 				"2H"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Repulsor Gauntlet",
@@ -9455,7 +9695,8 @@
 			"dmgType": "O",
 			"property": [
 				"H"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rocket Hammer",
@@ -9480,7 +9721,8 @@
 			"property": [
 				"H",
 				"2H"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Thermal Lance",
@@ -9496,7 +9738,8 @@
 			"dmgType": "F",
 			"property": [
 				"V"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Wrenchinator",
@@ -9512,7 +9755,8 @@
 			"property": [
 				"H",
 				"2H"
-			]
+			],
+			"hasFluff": true
 		}
 	],
 	"itemFluff": [
