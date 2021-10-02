@@ -1,0 +1,1405 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MHPICCH",
+                "abbreviation": "MHPICCH",
+                "full": "Incomplete Channeler",
+                "authors": [
+                    "Mage Hand Press"
+                ],
+                "convertedBy": [
+                    ""
+                ],
+                "url": "",
+                "version": "1.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "class": [
+        {
+            "name": "Channeler",
+            "source": "MHPICCH",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "con",
+                "int"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "heavy"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "athletics",
+                                "history",
+                                "insight",
+                                "investigation",
+                                "persuasion",
+                                "religion"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "A martial weapon",
+                    "(a) a light crossbow and 20 bolts or (b) any simple melee weapon",
+                    "(a) a dungeoneer's pack or (b) a scholar's pack",
+                    "Scale mail and a material component pouch"
+                ],
+                "defaultData": [
+                    {
+                        "_": [
+                            "A martial weapon"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "a light crossbow and 20 bolts"
+                        ],
+                        "b": [
+                            "any simple melee weapon"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "a dungeoneer's pack"
+                        ],
+                        "b": [
+                            "a scholar's pack"
+                        ]
+                    },
+                    {
+                        "_": [
+                            "Scale mail and a material component pouch"
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "int": 13
+                },
+                "proficienciesGained": {}
+            },
+            "fluff": [
+                {
+                    "name": "Channeler",
+                    "type": "section",
+                    "entries": [
+                        "Squalid masses crowd draw close around a young Working furtively with chalk, incense, and an immense tome of diagrams, a bespectacled gnome traces a circle of the floor. With a flick of his wrist, the tile floor vanishes, unveiling a field engulfed in flames and a metallic metallic city looming in the distance.",
+                        "A figure clad in a hooded azure robe draws a longsword, hefts it high in one hand, and vanishes. Appearing across the room an instant later, she brings the blade crashing down on a dragon's head, releasing a hail of blood and sparks.",
+                        "Skilled in sword and spell alike, channelers are dynamic and formidable mages who draw their power from the planes of the multiverse. This connection stems from a unique arcane focus, called a portal key, through which they can unlock the doors of the universe.",
+                        {
+                            "type": "entries",
+                            "name": "Key Bound",
+                            "entries": [
+                                "The multiverse is crisscrossed by portals, passageways between the planes known only to a select few. Most are completely innocuous—archways, standing stones, ladders, and crawl spaces—until united with a specific magic item, a portal key. At that moment, the portal animates in a dance of arcane energy and twisting spacetime, transporting anyone nearby across the multiverse. These portals and their associated keys are deeply magical, intertwined with the energies of the planes themselves.",
+                                "Channelers use these very portal keys as the source of their arcane magic. With one in hand, a channeler can call upon the very tides of the multiverse to fuel their arcana; without one, they have no magic to call their own."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Walking the Multiverse",
+                            "entries": [
+                                "Orders of channelers are perhaps the only organizations to possess a comprehensive understanding of the multiverse, its structure, and the portals which weave throughout it. Even the most intrepid explorer will become hopelessly lost among the infinite planes without expert guidance leading them to the right portals. By contrast, a channeler can travel unhindered, using their bound portal key to access a slew of portals known only to them and their order. Most channelers even learn of a few backdoors and side streets between the planes of existence, which they keep secret, in case they ever need to (for example) slip incognito to or from the Elemental Plane of Fire."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Swordmages",
+                            "entries": [
+                                "Channelers blur the line between spellcaster and warrior, marrying arcane might with physical prowess. Because all channelers are bound to a portal key, they have the innate potential to focus their spellcasting potential though other objects, and many seek to master the delicate art of balancing a spell's fury on the edge of a blade. Consequently, their strikes bite not only with steel, but also with flame, lightning, and frost."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating a Channeler",
+                            "entries": [
+                                "As you build your channeler, consider what entangled your character with extraplanar powers in the first place. Were you drawn to the vast, unending reaches of the distant Elemental Planes, or were you initiated into an order of channelers, before you truly understood their reach? Perhaps you accidentally became stranded in a city positioned between the planes, or in the shallowest layer of the Hells, before learning to walk the multiverse.",
+                                "Also consider what type of portal key you bonded to, and what it says about your character. How did you acquire your key, and to which portal was it originally bound? If your key is a weapon, is it a family heirloom, a trophy taken from victorious combat, or a rusted piece of junk? If your key is a tome, what kind of book is it, and what information, other than spells and arcane secrets, is held within its pages? Perhaps, your key isn't an item of substantial importance; that too, is an important character note."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Quick Build",
+                            "entries": [
+                                "When building a channeler, you need to balance your physical and mental ability scores to maximize your character's potential. Your highest ability score should be Strength or Dexterity, followed by Intelligence. Your next highest ability score should be Constitution. Then, choose the Order of Blinknights and select the cantrips minor illusion and shocking grasp. Finally, choose any background and a versatile martial weapon as part of your equipment."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "spellsKnownProgression": [
+                0,
+                4,
+                5,
+                5,
+                6,
+                6,
+                7,
+                7,
+                8,
+                8,
+                9,
+                9,
+                10,
+                10,
+                11,
+                11,
+                12,
+                12,
+                13,
+                13
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Arcana Points",
+                        "{@filter Spells Known|spells|class=Channeler (MHPICCH)}",
+                        "Max Spell Level"
+                    ],
+                    "rows": [
+                        [
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            4,
+                            "{@filter 1st|spells|level=1|class=Channeler (MHPICCH)}"
+                        ],
+                        [
+                            6,
+                            5,
+                            "1st"
+                        ],
+                        [
+                            6,
+                            5,
+                            "1st"
+                        ],
+                        [
+                            14,
+                            6,
+                            "{@filter 2nd|spells|level=2|class=Channeler (MHPICCH)}"
+                        ],
+                        [
+                            14,
+                            6,
+                            "2nd"
+                        ],
+                        [
+                            17,
+                            7,
+                            "2nd"
+                        ],
+                        [
+                            17,
+                            7,
+                            "2nd"
+                        ],
+                        [
+                            27,
+                            8,
+                            "{@filter 3rd|spells|level=3|class=Channeler (MHPICCH)}"
+                        ],
+                        [
+                            27,
+                            8,
+                            "3rd"
+                        ],
+                        [
+                            32,
+                            9,
+                            "3rd"
+                        ],
+                        [
+                            32,
+                            9,
+                            "3rd"
+                        ],
+                        [
+                            38,
+                            10,
+                            "{@filter 4th|spells|level=4|class=Channeler (MHPICCH)}"
+                        ],
+                        [
+                            38,
+                            10,
+                            "4th"
+                        ],
+                        [
+                            44,
+                            11,
+                            "4th"
+                        ],
+                        [
+                            44,
+                            11,
+                            "4th"
+                        ],
+                        [
+                            57,
+                            12,
+                            "{@filter 5th|spells|level=5|class=Channeler (MHPICCH)}"
+                        ],
+                        [
+                            57,
+                            12,
+                            "5th"
+                        ],
+                        [
+                            64,
+                            13,
+                            "5th"
+                        ],
+                        [
+                            64,
+                            13,
+                            "5th"
+                        ]
+                    ]
+                }
+            ],
+            "classSpells": [
+                "burning hands",
+                "command",
+                "detect magic",
+                "false life",
+                "fog cloud",
+                "grease",
+                "guiding bolt",
+                "hellish rebuke",
+                "jump",
+                "longstrider",
+                "magic missile",
+                "thunderwave",
+                "acid arrow",
+                "blur",
+                "knock",
+                "levitate",
+                "locate object",
+                "magic weapon",
+                "mirror image",
+                "misty step",
+                "ray of enfeeblement",
+                "scorching ray",
+                "silence",
+                "shatter",
+                "blink",
+                "dispel magic",
+                "fireball",
+                "haste",
+                "lightning bolt",
+                "magic circle",
+                "sending",
+                "tongues",
+                "water breathing",
+                "water walk",
+                "arcane eye",
+                "banishment",
+                "black tentacles",
+                "death ward",
+                "dimension door",
+                "freedom of movement",
+                "locate creature",
+                "resilient sphere",
+                "secret chest",
+                "stoneskin",
+                "commune",
+                "contact other plane",
+                "dispel evil and good",
+                "passwall",
+                "planar Binding",
+                "teleportation circle",
+                {
+                    "name": "boomering",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "hardlight blaster",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "icicle javelin",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "zephyr's feather",
+                    "source": "Spire of Secrets"
+                },
+                {
+                    "name": "hardlight gauntlet",
+                    "source": "Spire of Secrets"
+                }
+            ],
+            "classFeatures": [
+                "Arcane Reverberation|Channeler|MHPICCH|1",
+                {
+                    "classFeature": "Planar Order|Channeler|MHPICCH|1",
+                    "gainSubclassFeature": true
+                },
+                "Fighting Style|Channeler|MHPICCH|2",
+                "Spellcasting|Channeler|MHPICCH|2",
+                "Spell Channeling|Channeler|MHPICCH|2",
+                "Planar Focus|Channeler|MHPICCH|3",
+                "Ability Score Improvement|Channeler|MHPICCH|4",
+                "Extra Attack|Channeler|MHPICCH|5",
+                "Combat Channeling|Channeler|MHPICCH|5",
+                "Null Arcane|Channeler|MHPICCH|6",
+                {
+                    "classFeature": "Planar Order Feature|Channeler|MHPICCH|7",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Channeler|MHPICCH|8",
+                {
+                    "classFeature": "Planar Order Feature|Channeler|MHPICCH|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Channeler|MHPICCH|12",
+                "Greater Focus|Channeler|MHPICCH|14",
+                {
+                    "classFeature": "Planar Order Feature|Channeler|MHPICCH|15",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Channeler|MHPICCH|16",
+                "Planeshifter|Channeler|MHPICCH|18",
+                "Ability Score Improvement|Channeler|MHPICCH|19",
+                "Nexus Arcane|Channeler|MHPICCH|20"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Arcane Reverberation",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 1,
+            "entries": [
+                "At 1st level, you can sense the reverberations magic leaves inside objects. By spending your action concentrating on an object that you touch, you can make an Intelligence check to determine if the object is under the effect of magic or if it is within the area of any spells (DC equals 10 + the spell's level). You learn the school of magic, if any. If the object is a magic item, you feel an intense amount of energy, but can't directly determine the type of item, or its properties. If the object is a portal or a portal key, you know to which plane of existence it leads, and you learn if the portal has any special requirements, but not what these requirements are."
+            ]
+        },
+        {
+            "name": "Planar Order",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 1,
+            "entries": [
+                "At 1st level, you align yourself with a close confederation of channelers, called a Planar Order. Your choice is linked to the kind of portal key you wield, for channelers with similar keys might use the same passageways throughout the multiverse. Your choice in planar order grants you features at 1st level, and additional features at 7th, 10th, and 15th level. Portal Key Each order also details the types of portal keys they use to manipulate planar energies and cast spells. With your portal key in hand, you can open certain planar portals (at the GMs discretion) without the normal portal key. If your portal key is out of your reach for longer than 1 minute, you can teleport it back to your hand as a bonus action. If your portal key is ever lost or destroyed, you can replace it by performing a 1-hour ritual, which can be done during a short rest, to imbue an object of a similar type with a portal key's magic."
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+                {
+                    "type": "entries",
+                    "name": "Combat Casting.",
+                    "entries": [
+                        "Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged spell attack rolls."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dueling.",
+                    "entries": [
+                        "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hand-and-a-Half.",
+                    "entries": [
+                        "While wielding a versatile weapon in two hands, you gain a +1 bonus to attack and damage rolls with that weapon."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magebreaker.",
+                    "entries": [
+                        "When you deal damage to a creature with a melee weapon attack, you have advantage on saving throws against spells cast by that creature until the beginning of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level, by evoking your connection to the planes through your portal key, you can channel raw power from the multiverse into spells.",
+                {
+                    "type": "entries",
+                    "name": "Arcana Points",
+                    "entries": [
+                        "You have a pool of arcana points, which you can use to cast spells of 1st level and higher. The Arcana Point Cost table summarizes the number of arcana points required to produce a spell slot of 1st to 5th level. Cantrips don't require spell slots and therefore don't require arcana points.",
+                        "The Channeler table shows how many arcana points you have and when your point pool increases. You regain all expended arcana points when you finish a long rest.",
+                        {
+                            "type": "table",
+                            "caption": "Arcana Point Cost",
+                            "colLabels": [
+                                "Spell Level",
+                                "Point Cost"
+                            ],
+                            "colStyles": [
+                                "col-2",
+                                "col-2"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "2"
+                                ],
+                                [
+                                    "2nd",
+                                    "3"
+                                ],
+                                [
+                                    "3rd",
+                                    "5"
+                                ],
+                                [
+                                    "4th",
+                                    "6"
+                                ],
+                                [
+                                    "5th",
+                                    "7"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spells Known of 1st Level or Higher",
+                    "entries": [
+                        "You know four first-level spells of your choice from the channeler spell list. The channeler table shows when you learn more channeler spells of your choice. A spell you choose must be of a level no higher than what's shown on the Max Spell Level column for your level.",
+                        "Additionally, when you gain a level in this class, you can choose one of the channeler spells you know and replace it with another spell from the channeler spell list, which also must be of a level no higher than what's shown on the Max Spell Level column."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your channeler spells, since you learn your spells by studying and memorizing sigil sequences to planar gates. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a channeler spell you cast and when making an attack roll with one.",
+                        "Spell save DC = 8 + your proficiency bonus + your Intelligence modifier",
+                        "Spell attack modifier = your proficiency bonus + your Intelligence modifier"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You must use your portal key as a spellcasting focus in order to use your channeler spells."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Channeler as a Half-Caster",
+                    "entries": [
+                        "Though the channeler class uses arcane points in place of conventional spell slots, this does not exempt it from interacting with multiclassing or other optional rules for spellcasters.",
+                        "Multiclassing, as well as other rules which refer to the Spellcasting feature, treat the Channeler as a Half-Caster, such as a Paladin or Ranger. If the channeler multiclasses with another spellcaster, convert the total number of spell slots of 5th level or lower from the multiclass table into arcana points using the Arcana Point Cost table. Arcana points can only be used to cast spells of 5th level and lower."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spell Channeling",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 2,
+            "entries": [
+                "By 2nd level, you have mastered the art of channeling spells through your weapon strikes. When you make a spell attack against a creature within your reach while holding a melee weapon that isn't heavy, you can use your bonus action to substitute the spell attack with a melee weapon attack. On a hit, the weapon attack deals normal damage, in addition to the effects of the spell."
+            ]
+        },
+        {
+            "name": "Planar Focus",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 3,
+            "entries": [
+                "Beginning at 3rd level, you can narrow your focus to channel energy from a particular part of the multiverse. You can use your bonus action to begin or end a planar focus. Once on each of your turns, you can switch your active focus. You maintain this effect as if concentrating on a spell.",
+                "You have the following four focus options:",
+                {
+                    "type": "entries",
+                    "name": "Elemental Air.",
+                    "entries": [
+                        "Your movement speed increases by 10 feet, you can stand from being prone without using any movement, and opportunity attacks against you have disadvantage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Elemental Earth.",
+                    "entries": [
+                        "While you are not holding a shield, your Armor Class increases by 2."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Elemental Fire.",
+                    "entries": [
+                        "When you roll a 1 or 2 on a damage die for a channeler spell, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Elemental Water.",
+                    "entries": [
+                        "Whenever you take acid, cold, fire, lightning, or thunder damage and you do not have resistance to that type of damage, you can use your reaction to halve the damage taken."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Combat Channeling",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 5,
+            "entries": [
+                "Starting at 5th level, when you use Spell Channeling, you can make two melee weapon attacks, instead of one. The second attack must target a different creature than the first. The effects of the spell are only triggered on the first hit.",
+                "At 11th level, both melee weapon attacks can target the same creature."
+            ]
+        },
+        {
+            "name": "Null Arcane",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 6,
+            "entries": [
+                "At 6th level, you have learned to tap into the Void between planes. When you see a creature within 60 feet of you casting a spell of 5th level or lower, you can use your reaction to produce a field of opposing magic, nullifying the effect. You expend a number of arcana points equal to the spell's point cost, as shown in the Arcana Point Cost table (or 1 point for a cantrip) and make an Intelligence check. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect."
+            ]
+        },
+        {
+            "name": "Greater Focus",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you gain the following Planar Focus options:",
+                {
+                    "type": "entries",
+                    "name": "Limbo.",
+                    "entries": [
+                        "Once per turn when you deal damage to a hostile creature with a melee weapon attack, you can use your bonus action to sap some arcane energy from the strike. On a hit, you regain 1 arcana point, up to your arcana point maximum."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Paradise.",
+                    "entries": [
+                        "You have a flight speed equal to your movement speed. When you begin your turn in the air, you can maintain this effect by spending an arcana point. Otherwise, you fall."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Underworld.",
+                    "entries": [
+                        "You can cast the spell {@spell vampiric touch} without using arcana points. You maintain concentration on this spell as long as you maintain this planar focus."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Planeshifter",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 18,
+            "entries": [
+                "Starting at 18th level, you can freely walk the planes. You can cast the {@spell plane shift} spell once, without using arcana points or spell components.",
+                "Once you use this ability, you must finish a long rest before using it again."
+            ]
+        },
+        {
+            "name": "Nexus Arcane",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 20,
+            "entries": [
+                "At 20th level, you connect with the central nexus of all existence. When you roll initiative and have no arcana points remaining, you immediately regain 10 arcana points."
+            ]
+        },
+        {
+            "name": "Planar Order Feature",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 7,
+            "entries": [
+                "At 7th level, you gain a feature from your Planar Order."
+            ]
+        },
+        {
+            "name": "Planar Order Feature",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature from your Planar Order."
+            ]
+        },
+        {
+            "name": "Planar Order Feature",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 15,
+            "entries": [
+                "At 15th level, you gain a feature from your Planar Order."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "subclassFeatures": [
+                "Order Of Blinknights|Channeler|MHPICCH|Blinknights|MHPICCH|1",
+                "Portal Key: Weapon|Channeler|MHPICCH|Blinknights|MHPICCH|1",
+                "Cantrips|Channeler|MHPICCH|Blinknights|MHPICCH|1",
+                "Bonus Focus|Channeler|MHPICCH|Blinknights|MHPICCH|7",
+                "Spellstrike Ward|Channeler|MHPICCH|Blinknights|MHPICCH|10",
+                "Arcane Edge|Channeler|MHPICCH|Blinknights|MHPICCH|15"
+            ],
+            "shortName": "Blinknights",
+            "name": "Order Of Blinknights",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Order Of Dimensional Magi|Channeler|MHPICCH|Dimensional Magi|MHPICCH|1",
+                "Portal Key: Book|Channeler|MHPICCH|Dimensional Magi|MHPICCH|1",
+                "Cantrips|Channeler|MHPICCH|Dimensional Magi|MHPICCH|1",
+                "Bonus Focus|Channeler|MHPICCH|Dimensional Magi|MHPICCH|7",
+                "Phase Shift|Channeler|MHPICCH|Dimensional Magi|MHPICCH|10",
+                "Secret Arcana|Channeler|MHPICCH|Dimensional Magi|MHPICCH|15"
+            ],
+            "shortName": "Dimensional Magi",
+            "name": "Order Of Dimensional Magi",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Order Of Titanfists|Channeler|MHPICCH|Titanfists|MHPICCH|1",
+                "Portal Key: Battlefist|Channeler|MHPICCH|Titanfists|MHPICCH|1",
+                "Cantrips|Channeler|MHPICCH|Titanfists|MHPICCH|1",
+                "Bonus Focus|Channeler|MHPICCH|Titanfists|MHPICCH|7",
+                "Concussive Strike|Channeler|MHPICCH|Titanfists|MHPICCH|10",
+                "Meteor Blow|Channeler|MHPICCH|Titanfists|MHPICCH|15"
+            ],
+            "shortName": "Titanfists",
+            "name": "Order Of Titanfists",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Order Of Wild Hunters|Channeler|MHPICCH|Titanfists|MHPICCH|1",
+                "Portal Key: Quiver|Channeler|MHPICCH|Titanfists|MHPICCH|1",
+                "Bonus Focus|Channeler|MHPICCH|Titanfists|MHPICCH|7",
+                "Fey Arrowhead|Channeler|MHPICCH|Titanfists|MHPICCH|10",
+                "Arrow Downpour|Channeler|MHPICCH|Titanfists|MHPICCH|15"
+            ],
+            "shortName": "Titanfists",
+            "name": "Order Of Wild Hunters",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "page": ""
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Order Of Blinknights",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Blinknights",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "A channeler joining the Order of Blinknights unifies themselves with a weapon, which becomes an extension of their very being. Skilled blinknights can feel the energy of the multiverse hum through their steel, guiding their strikes as they blink across the battlefield. A blinknights fears no force in the multiverse, be it angel, devil, or rival spellcaster."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Portal Key: Weapon",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Blinknights",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 1st level, your portal key is a weapon, which you can sequester away on the Ethereal Plane when it’s not in use. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. You can summon your key weapon to your hand or dismiss it to the Ethereal Plane as you would normally draw or stow a weapon."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Cantrips",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Blinknights",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 1st level, you learn three cantrips of your choice from the following list: {@spell chill touch}, {@spell light}, {@spell fire bolt}, {@spell mage hand}, {@spell magic daggers|Spire of Secrets}, {@spell minor illusion}, {@spell prestidigitation}, {@spell produce flame}, {@spell ray of frost}, {@spell shocking grasp}, and {@spell true strike}. Intelligence is your spellcasting ability for these spells.",
+                "At 8th level, you learn a fourth cantrip from this list."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Bonus Focus",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Blinknights",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 7th level, you gain the following Planar Focus option:",
+                {
+                    "type": "entries",
+                    "name": "Ethereal.",
+                    "entries": [
+                        "You can use your bonus action and spend up to 3 arcana points to teleport to an unoccupied space you can see up to 15 feet away for each arcana point spent.",
+                        ""
+                    ]
+                }
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Spellstrike Ward",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Blinknights",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "Starting at 10th level, you can use your bonus action to raise a defensive ward. For the next minute, you have a pool of 5 temporary hit points. For the duration, whenever you deal damage to a hostile creature with a melee weapon attack, your temporary hit point pool gains points equal to your Intelligence modifier. Your hit point pool holds a maximum number of points equal to twice your level.",
+                "Once you use this ability, you must complete a short or long rest before using it again."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Arcane Edge",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Blinknights",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 15th level, when you hit with a spell attack roll that is channeled through a melee weapon attack, you can choose for the attack to become a critical hit.",
+                "Once you use this ability, you can’t use it again until you finish a short or long rest. "
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Order Of Dimensional Magi",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Dimensional Magi",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "The Dimensional Magi are an order of channelers that study the structure of the multiverse itself, learning to slip between its many layers. For all intents and purposes, these channelers are scholars, and choose a tome full of planar secrets as their key. Master Dimensional Magi have collected the universe’s most cryptic mysteries within their spellbooks, and can call upon them in times of need for a sudden burst of potent magic."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Portal Key: Book",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Dimensional Magi",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 1st level, your portal key is a spellbook, humming with planar energy. The book begins inscribed with two 1st-level spells of your choice that have the ritual tag from any class’s spell list. Spells copied into this spellbook don’t count against the number of spells you know. With your spellbook in hand, you can cast the chosen spells as rituals. You can’t cast the spells except as rituals, unless you’ve learned them by some other means. You can also cast any channeler spell you know as a ritual if it has the ritual tag.",
+                "On your adventures, you can add other ritual spells to your spellbook. When you find such a spell, you can add it to the book if the spell is of level which you can cast and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Cantrips",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Dimensional Magi",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 1st level, you learn three cantrips of your choice from the following list: {@spell acid splash}, {@spell chill touch}, {@spell force dart|Spire of Secrets}, {@spell light}, {@spell mage hand}, {@spell mending}, {@spell message}, {@spell minor illusion}, {@spell poison spray}, {@spell prestidigitation}, {@spell ray of frost}, and {@spell resistance}. Intelligence is your spellcasting ability for these spells.",
+                "At 8th level, you learn a fourth cantrip from this list."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Bonus Focus",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Dimensional Magi",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "Starting at 7th level, you gain the following Planar Focus option:",
+                {
+                    "type": "entries",
+                    "name": "Shadowfell.",
+                    "entries": [
+                        "On your turn, you can use your bonus action and spend 2 arcana points to become invisible until the beginning of your next turn, and can spend an additional arcana point at the start of your turn to maintain this effect for an additional round. This effect ends if you attack or cast a spell.",
+                        ""
+                    ]
+                }
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Phase Shift",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Dimensional Magi",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 10th level, you can shift your body out of phase with the Material and Ethereal Planes as an action. For the next minute, you can subtract your Intelligence modifier from bludgeoning, piercing, and slashing damage you take. This effect is bypassed by damage that would normally affect creatures on the Ethereal Plane.",
+                "Once you use this ability, you can’t use it again until you finish a short or long rest."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Secret Arcana",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Dimensional Magi",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "Starting at 15th level, you know three spells of your choice of 7th level or lower from the wizard spell list. While holding your spellbook, you can cast one of these spells without using a spell slot or arcana points.",
+                "Once you use this ability, you can’t use it again until you complete a long rest. "
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Order Of Titanfists",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "Channelers who align themselves with the Order of Titanfists live by the axiom that strength is king. Brandishing their namesakes, colossal metal gauntlets known as battlefists, these channelers literally punch holes in the multiverse as they traverse the planes. Their go-to solution for any obstacle is always overwhelming force, which is not to say that titanfists are any less canny than their bretheren: titanfists match their strength with cunning, agility, and surprising arcane power."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Portal Key: Battlefist",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 1st level, your portal key is a pair of oversized, articulated gauntlets known as battlefists, which act as weapons in their own right. Each battlefist is a martial melee weapon that deals 1d8 bludgeoning damage on a hit. It can hold and manipulate objects, though you can’t attack with your battlefist while you’re holding an object with it. Your battlefists have the Light property while you wield them.",
+                "When you use the Attack action to attack with a battlefist, you can make one attack with another one you are wielding as a bonus action."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Cantrips",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 1st level, you learn three cantrips of your choice from the following list: {@spell chill touch}, {@spell light}, {@spell mage hand}, {@spell minor illusion}, {@spell prestidigitation}, {@spell produce flame}, {@spell resistance}, {@spell shocking grasp}, and {@spell true strike}."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Bonus Focus",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 7th level, you gain the following Planar Focus option:",
+                {
+                    "type": "entries",
+                    "name": "Olympus.",
+                    "entries": [
+                        "While in this concentration, you grow to titanic size, as per the Enlarge effect of the enlarge/ reduce spell.",
+                        ""
+                    ]
+                }
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Concussive Strike",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "Beginning at 10th level, you can knock people into a daze. Whenever you hit with one of your battlefists, you can spend 2 arcana points to force the target to make a Constitution saving throw against your spell save DC. On a failed save, the target is dazed until the end of its next turn. A dazed creature has disadvantage on attack rolls and Dexterity saving throws. Any creature that is immune to being stunned is also immune to being dazed."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Meteor Blow",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 15th level, when you make an attack with one of your battlefists on your turn, you can channel your might into a single colossal strike. On a hit, this attack deals an additional 4d6 bludgeoning damage. Additionally, if the target is on the ground, each creature on the ground other than yourself within 5 feet of it must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes the same amount of bludgeoning damage and is knocked prone. On a successful save, a creature takes half this amount and is not knocked prone.",
+                "Once you use this ability, you can’t use it again until you complete a long rest. "
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Order Of Wild Hunters",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "Across the multiverse, the Order of Wild Hunters pursue all manner of quarry, from infernal creatures of the lower planes, to renegade fey, to celestials, and other creatures of light. Many wild hunters chase quarry for clients, but many more simply do it for the challenge and thrill of the hunt itself. Only wild hunters know the secret for shrinking a spell onto an arrow’s point, but this skill alone marks them among the most dangerous warriors in existence. Truly, there is no covering your tracks or escaping anywhere in the planes from a wild hunter."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Portal Key: Quiver",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 1st level, your portal key is a quiver which produces an endless supply of nonmagical ammunition. Whenever a piece of ammunition is taken from the quiver, it is instantly replaced by a similar piece of ammunition. A piece of ammunition removed from the quiver disintegrates after 1 minute.",
+                "Starting at 2nd level, you can use ammunition taken from this quiver to channel spells at range. When you make a ranged spell attack against a creature, you can use your bonus action to substitute the spell attack with a ranged weapon attack using ammunition taken from your portal key quiver. On a hit, the attack deals the weapon’s normal damage die, but not its ability score modifier, in addition to the effects of the spell.",
+                "When your spell channeling improves at higher levels, you can similarly use your quiver to channel spells at range. !Cantrips",
+                "At 1st level, you learn three cantrips of your choice from the following list: {@spell chill touch}, {@spell fire bolt}, {@spell light}, {@spell mage hand}, {@spell mending}, {@spell minor illusion}, {@spell prestidigitation}, {@spell produce flame}, {@spell ray of frost}, and {@spell resistance}. Intelligence is your spellcasting ability for these spells.",
+                "At 8th level, you learn a fourth cantrip from this list."
+            ],
+            "level": 1,
+            "page": ""
+        },
+        {
+            "name": "Bonus Focus",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 7th level, you gain the following Planar Focus option:",
+                {
+                    "type": "entries",
+                    "name": "Asphodel.",
+                    "entries": [
+                        "When you miss with a ranged weapon attack on your turn, you can spend an arcana point to repeat the attack against the same target. You can use this ability once per turn.",
+                        ""
+                    ]
+                }
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Fey Arrowhead",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "By 10th level, you’ve mastered a trick known to fey hunters for moving swiftly through the underbrush. Once per turn, when you make a ranged attack using your portal key quiver, you can spend 2 arcana points to replace the attack with a Fey Arrowhead. You teleport to where the projectile lands, or to the nearest unoccupied space."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Arrow Downpour",
+            "source": "MHPICCH",
+            "className": "Channeler",
+            "classSource": "MHPICCH",
+            "subclassShortName": "Titanfists",
+            "subclassSource": "MHPICCH",
+            "entries": [
+                "At 15th level, you can single-handedly deliver a rain of arrows upon your foes. As an action, you can fire the ammunition from your quiver in a high arc, affecting a 100-foot long, 15-foot wide line. Each creature in the area must make a Dexterity saving throw against your spell save DC. A creature with cover from above has advantage on this saving throw. On a failed save, a creature takes 8d6 + 10 piercing damage, or half as much on a successful save.",
+                "Once you use this ability, you can’t use it again until you finish a long rest. "
+            ],
+            "level": 15,
+            "page": ""
+        }
+    ],
+    "spell": [
+        {
+            "name": "Cerebral Ray",
+            "source": "MHPICCH",
+            "page": 0,
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "A translucent beam of violet light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d10} psychic damage and has disadvantage on ability checks until the beginning of your next turn.",
+                {
+                    "type": "entries",
+                    "name": " At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d10} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "psychic"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Channeler",
+                        "source": "MHPICCH"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dazzling Ray",
+            "source": "MHPICCH",
+            "page": 0,
+            "level": 2,
+            "school": "I",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "round",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "Three rays of brilliant color shoot from your hand at up to three creatures that you can see within range.",
+                "Make a ranged spell attack for each ray. On a hit, the target is {@condition blinded} until the spell ends.",
+                {
+                    "type": "entries",
+                    "name": " At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd, to a maximum of 6 rays."
+                    ]
+                }
+            ],
+            "conditionInflict": [
+                "blinded"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "miscTags": [
+                "SGT"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Channeler",
+                        "source": "MHPICCH"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ray of Warping",
+            "source": "MHPICCH",
+            "page": 0,
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "A sapphire beam leaps forth from your fingertips, twisting and contorting the form of a creature it touches. Make a ranged spell attack roll against a target you can see within range. On a hit, the creature takes {@damage 2d8} bludgeoning damage, and for the duration, its speed is halved and its highest ability score is reduced to be the same as its lowest ability score (to a minimum of 3). If two or more of the creature's ability scores are tied for highest, you choose which ability score is reduced. The creature also has disadvantage on saving throws with its lowest ability scores. On its turn, the target can use its action to make a Constitution saving throw, ending this spell on a success.",
+                {
+                    "type": "entries",
+                    "name": " At Higher Levels",
+                    "entries": [
+                        "If you cast this spell using a spell slot of 4th level or higher, the initial damage increases by {@dice 1d8} per slot level above 3rd. Additionally, if you cast this spell using a spell slot of 7th level or higher, the creature's second highest ability score is also reduced to be the same as its lowest ability score."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [
+                "SGT"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Channeler",
+                        "source": "MHPICCH"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Rusting Grasp",
+            "source": "MHPICCH",
+            "page": 0,
+            "level": 2,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "The touch of your acid-soaked hand can corrode metal and burn flesh. Make a melee spell attack against a creature within your reach. On a hit, the target takes {@damage 2d6} acid damage, and any nonmagical armor it is wearing takes a permanent and cumulative -1 penalty to the AC it offers. On a miss, any shield it is wielding takes a similar -1 penalty. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed.",
+                "Until the spell ends, you can make the attack again on each of your turns as an action.",
+                {
+                    "type": "entries",
+                    "name": " At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "acid"
+            ],
+            "spellAttack": [
+                "M"
+            ],
+            "miscTags": [
+                "MAC"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Channeler",
+                        "source": "MHPICCH"
+                    }
+                ]
+            }
+        }
+    ]
+}
