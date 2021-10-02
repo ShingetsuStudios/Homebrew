@@ -60,36 +60,43 @@
             "startingEquipment": {
                 "additionalFromBackground": true,
                 "default": [
-                    "A martial weapon",
-                    "(a) a light crossbow and 20 bolts or (b) any simple melee weapon",
-                    "(a) a dungeoneer's pack or (b) a scholar's pack",
-                    "Scale mail and a material component pouch"
+                    "A {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
+                    "(a) a {@item light crossbow|phb} and {@item Crossbow Bolts (20)|phb|20 bolts} or (b) any {@filter simple melee weapon|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
+                    "(a) a {@item dungeoneer's pack} or (b) a {@item scholar's pack}",
+                    "{@item Scale mail|phb} and a material {@item component pouch|PHB}"
                 ],
                 "defaultData": [
                     {
                         "_": [
-                            "A martial weapon"
+                            {
+                                "equipmentType": "weaponMartial"
+                            }
                         ]
                     },
                     {
                         "a": [
-                            "a light crossbow and 20 bolts"
+                            "light crossbow|phb",
+                            "Crossbow Bolts (20)|phb"
                         ],
                         "b": [
-                            "any simple melee weapon"
+                            {
+                                "equipmentType": "weaponSimpleMelee"
+                            }
                         ]
                     },
                     {
                         "a": [
-                            "a dungeoneer's pack"
+                            "dungeoneer's pack|phb"
                         ],
                         "b": [
-                            "a scholar's pack"
+                            "scholar's pack|phb"
                         ]
                     },
                     {
                         "_": [
-                            "Scale mail and a material component pouch"
+                            
+                            "scale mail|phb",
+                            "component pouch|phb"
                         ]
                     }
                 ]
