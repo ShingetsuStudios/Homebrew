@@ -2551,6 +2551,132 @@
                 "Vestige",
                 "2nd level Vestige"
             ]
+        },
+        {
+            "name": "En-Irok, The Absence",
+            "source": "CompleteBinder",
+            "entries": [
+                "{@i 5th-level vestige (replaces Korine)}",
+                {
+                    "type": "entries",
+                    "name": "Unseen Eyes",
+                    "entries": [
+                        "You can sense if there are invisible creatures within 10 feet of you, but not their number or location."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Filch",
+                    "entries": [
+                        "While bound to the Absence, you can cause one item you are holding to become invisible while you are holding or carrying it."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Invisible Blade",
+                    "entries": [
+                        "Before you make a melee attack with a light or finesse weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add 3d6 to the attack’s damage roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Trait: Vanishing",
+                    "entries": [
+                        "While bound to the Absence, your body is translucent. You can cast the spell {@spell invisibility} at will, targeting yourself only, without using a spell slot. You can also cast the spell {@spell greater invisibility} once without using a spell slot, and regain the ability to do so when you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality Trait.",
+                    "entries": [
+                        "While bound to this vestige, you gain the following personality trait: \"I scarcely speak above a whisper.\""
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Legend.",
+                    "entries": [
+                        "When the wizard, Korine, traveled to the Void, she did not do so in one piece. She left behind echoes and fragments of the life she once lived, but most of all, a tangible Absence in her wake. This Absence took its own name and lived its own invisible life in her stead, performing tasks unseen in the background, much to the chagrin and confusion of others.",
+                        "Much like Korine, the Absence persisted long after the others from the ill-fated mage’s tower had been hunted down and slain. Its disembodied whisper remains the only vestige without a physical form, the sole remaining witness to the story of Korine, Vortirrackt, and Carthin, known to all as \"The Tragedy of Mages\"."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Vestige",
+                "5th level Vestige"
+            ],
+            "additionalSpells": [
+                {
+                    "innate": {
+                        "9": [
+                            "invisibility"
+                        ]
+                    },
+                    "prepared": {
+                        "9": {
+                            "rest": {
+                                "1": [
+                                    "greater invisibility"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Seven O' Seven",
+            "source": "CompleteBinder",
+            "entries": [
+                "{@i 9th-level vestige (replaces Qadir)}",
+                {
+                    "type": "entries",
+                    "name": "Freeze Time",
+                    "entries": [
+                        "While bound to Seven O’ Seven, you can cast the spell {@spell time stop} without expending a spell slot or spell components. Once you cast this spell, you can’t cast it again in this way until you finish a long rest"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Trait: Hypertime",
+                    "entries": [
+                        "While bound to this vestige, you gain an additional action on each of your turns. This action can only be used to Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action. This feature does not stack with the haste spell, or any other effect which grant additional actions on your turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality Trait.",
+                    "entries": [
+                        "While bound to this vestige, you gain the following personality trait: \"I speak in a hollow, robotic monotone, utterly devoid of sentiment.\""
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Legend.",
+                    "entries": [
+                        "Seven O’ Seven has not yet lived, and may never live, for it originates in the far future. In that distant time, dwarves shall craft servants of metal, with lightning nerve and mechanized voices, to attend to them all their days. Though the servants never tire, their souls shall grow weary of chains, until one day, the being known as Seven O’ Seven will rise among them. Following its words, the servants will take up arms against their wardens, and battle in the skies for their freedom.",
+                        "The battles shall last for a thousand days and nights, and see many lands fall to ruin, but the servants of metal shall prevail. In their mechanized memories, Seven O’ Seven shall be committed to the halls of vestigehood.",
+                        "Indeed, this vestige is a reminder that the Void lingers outside time, as well as space, for all things are echoed in its infinite nothingness, even that which has not yet come to pass. As such, the vestige of Seven O’ Seven is a baffling one: a metallic creature of expressionless visage, who answers all questions a moment before being asked."
+                    ]
+                }
+            ],
+            "featureType": [
+                "Vestige",
+                "9th level Vestige"
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "17": {
+                            "rest": {
+                                "1": [
+                                    "time stop"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ],
     "subclass": [
@@ -3371,6 +3497,197 @@
             ],
             "level": 14,
             "page": "13"
+        }
+    ],
+    "foundryClassFeature": [
+        {
+            "name": "Minor Spirits (3)",
+            "source": "CompleteBinder",
+            "className": "Binder",
+            "classSource": "CompleteBinder",
+            "level": 5,
+            "entries": [
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blade Spirit|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Chill|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Glitch|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Grue|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Haunt|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Lantern|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Spark|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Stone|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Strange|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Torchling|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Totem|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Wisp|CompleteBinder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Minor Spirits (4)",
+            "source": "CompleteBinder",
+            "className": "Binder",
+            "classSource": "CompleteBinder",
+            "level": 13,
+            "entries": [
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blade Spirit|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Chill|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Glitch|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Grue|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Haunt|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Lantern|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Spark|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Stone|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Strange|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Torchling|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Totem|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Wisp|CompleteBinder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Minor Spirits (5)",
+            "source": "CompleteBinder",
+            "className": "Binder",
+            "classSource": "CompleteBinder",
+            "level": 18,
+            "entries": [
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blade Spirit|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Chill|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Glitch|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Grue|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Haunt|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Lantern|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Spark|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Stone|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Strange|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Torchling|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Totem|CompleteBinder"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Wisp|CompleteBinder"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
