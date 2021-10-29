@@ -1,0 +1,63 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CobaltBookofKobolds",
+				"abbreviation": "CBoK",
+				"full": "Cobalt Book of Kobolds",
+				"authors": [
+					"Mage Hand Press"
+				],
+				"convertedBy": [
+					"Shin"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1612593587,
+		"dateLastModified": 1612593587
+	},
+	"spell": [
+		{
+			"name": "Dragon Claws",
+			"source": "CobaltBookofKobolds",
+			"page": 4,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Spectral dragon claws appear around your hands ready to rend your foes. Make a melee spell attack against a creature within 5 feet of you. On a hit, the target takes {@damage 1d10} damage, and you choose whether the attack does acid, cold, fire, lightning, or poison damage when you cast the spell.",
+				"The spell allows you to make more than one attack when you reach higher levels: 2 attacks at 5th level, 3 attacks at 11th level, and 4 attacks at 17th level. You can make the attacks against the same target or different ones. Make a separate attack roll for each attack. All of your attacks deal the same damage type."
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		}
+	]
+}
