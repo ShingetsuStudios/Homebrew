@@ -1,0 +1,3279 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Warrior",
+                "abbreviation": "Warrior",
+                "full": "The Warrior",
+                "authors": [
+                    "Jaron, The Palm of Vecna"
+                ],
+                "convertedBy": [
+                    ""
+                ],
+                "url": "",
+                "version": ""
+            }
+        ],
+        "optionalFeatureTypes": {
+            "FS:Warrior": "Fighting Style: Warrior", 
+            "W:Stance": "Warrior: Stance",
+            "W:Tech": "Warrior: Technique",
+            "W:Tech:Beginner": "Warrior: Begginer Technique",
+            "W:Tech:Advanced": "Warrior: Advanced Technique",
+            "W:Tech:Master": "Warrior: Master Technique"
+        },
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "class": [
+        {
+            "name": "Warrior",
+            "source": "Warrior",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "str",
+                "dex"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "shields",
+                    "heavy"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "animal handling",
+                                "athletics",
+                                "history",
+                                "insight",
+                                "intimidation",
+                                "perception",
+                                "survival"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a martial weapon and a shield or (b) two martial weapons",
+                    "(a) chain mail or (b) leather armor, longbow, and 20 arrows",
+                    "(a) a light crossbow and 20 bolts or (b) two handaxes",
+                    "(a) a dungeoneer's pack or (b) an explorer's pack"
+                ],
+                "defaultData": [
+                    {
+                        "a": [
+                            {
+                                "equipmentType": "weaponMartial"
+                            },
+                            "shield|phb"
+                        ],
+                        "b": [
+                            {
+                                "equipmentType": "weaponMartial",
+                                "quantity": 2
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "chain mail|phb"
+                        ],
+                        "b": [
+                            "leather armor|phb",
+                            "longbow|phb",
+                            "arrows (20)|phb"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "light crossbow|phb",
+                            "bolts (20)|phb"
+                        ],
+                        "b": [
+                            {
+                                "item": "handaxe|phb",
+                                "quantity": 2
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "dungeoneer's pack|phb"
+                        ],
+                        "b": [
+                            "explorer's pack|phb"
+                        ]
+                    }
+                ]
+            },
+            "multiclassing": {
+                "requirements": {},
+                "proficienciesGained": {}
+            },
+            "fluff": [
+                {
+                    "name": "Warrior",
+                    "type": "section",
+                    "entries": [
+                        "Two men face each other down on a dusty bit of roadway: on one side, a corrupt town sheriff who had been letting bandits raid the town for a cut of the take, and on the other, a stranger who just happened to ride in the night before. The Stranger, his cloak billowing in the wind and wide-brimmed hat concealing his face, rushes at the sheriff. A moment later, he sheathes his blade, having drawn it moments before the strike, and the sheriff falls to the ground.",
+                        "A lone elf woman balances on one leg a the peak of a mountaintop, the wind rushing through her braided hair. Her hands and feet are heavily callused from years of perfecting her martial craft, and her eyes are closed as her perfectly honed senses feel the movment of the air around her. She opens her eyes, and in a single move drops, slamming her fist into a large hunk of granite. The stone shatters into rubble, and the woman smiles.",
+                        "Marauders rush the steps of a temple, intent on taking the treasures within and burning the building to the ground; they ignore the holy symbol above the entrance, depicting a hand carrying a bar with two large black orbs attached to either end. Seeing the commotion, a thickly-muscled tiefling gets up from the bench they had been lying on. They smile to themselves as they tighten the straps on the fingerless gloves they were wearing, and rush towards the first raider, grabbing him and flinging him out the entrance like a shot-put.",
+                        {
+                            "type": "entries",
+                            "name": "Master of the Blade",
+                            "entries": [
+                                "The path of a Warrior is one defined by continual perfection and constant conflict. Warriors are dedicated to the stufy of fighting and war, though they differentiate themselves from their martial bretheren: Unlike Fighters, who strive to master weaponry and armor of all types, Warriors most often dedicate themselves to a single, specialized style of combat; Though they display anger, they do not give into the primal rage that Barbarians gain strength from, preferring to maintain focus and a clear head; and while many warriors are masters of unarmed combat, they do not tap into the mystical forces that Monks use to empower themselves, focusing instead of physical perfection and grit."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Far Traveler",
+                            "entries": [
+                                "Warriors are always on the lookout for their next challenge; as such, the life of an adventurer is often perfectly suited to them. Few are the warriors who settle down in one place for long, although those that do often form schools or dojos dedicated to their particular style of combat. Some may find calling in becoming a guard for a town or temple, or a particularly important noble, but such endeavors are usually temporary."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating a Warrior",
+                            "entries": [
+                                "While you build your Warrior, you should keep in mind their outlook on combat and conflict above all else. Do they prefer to fight with their fists or a sword from up close, or keep to the edges of combat, peppering foes with arrows or daggers? Do they wear armor, or do they prefer to stay unburdened and rely on their reflexes to avoid death?",
+                                "As well, it is important to consider how your Warrior chooses to interact with others when blades are not drawn. Are they a lone wanderer, always searching for the next fight, or do they perhaps have friends or comerades they met during their training? Many Warriors develop freindly (and not-so-friendly) rivalries with other members of their clan, dojo, school, or another apprentice that trained under their revered master"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "{@filter Stances Known|optionalfeatures|feature type=W:Stance}",
+                        "{@filter Techniques Known|optionalfeatures|feature type=W:Tech}",
+                        "Combat Die"
+                    ],
+                    "rows": [
+                        [
+                            0,
+                            3,
+                            "1d8"
+                        ],
+                        [
+                            2,
+                            3,
+                            "1d8"
+                        ],
+                        [
+                            2,
+                            4,
+                            "1d8"
+                        ],
+                        [
+                            2,
+                            4,
+                            "1d8"
+                        ],
+                        [
+                            2,
+                            5,
+                            "1d8"
+                        ],
+                        [
+                            2,
+                            5,
+                            "1d8"
+                        ],
+                        [
+                            3,
+                            6,
+                            "1d10"
+                        ],
+                        [
+                            3,
+                            6,
+                            "1d10"
+                        ],
+                        [
+                            3,
+                            6,
+                            "1d10"
+                        ],
+                        [
+                            3,
+                            7,
+                            "1d10"
+                        ],
+                        [
+                            3,
+                            7,
+                            "1d10"
+                        ],
+                        [
+                            3,
+                            7,
+                            "1d10"
+                        ],
+                        [
+                            3,
+                            8,
+                            "1d10"
+                        ],
+                        [
+                            3,
+                            8,
+                            "1d10"
+                        ],
+                        [
+                            4,
+                            8,
+                            "1d12"
+                        ],
+                        [
+                            4,
+                            9,
+                            "1d12"
+                        ],
+                        [
+                            4,
+                            9,
+                            "1d12"
+                        ],
+                        [
+                            4,
+                            9,
+                            "1d12"
+                        ],
+                        [
+                            4,
+                            10,
+                            "1d12"
+                        ],
+                        [
+                            4,
+                            11,
+                            "1d12"
+                        ]
+                    ]
+                }
+            ],
+            "optionalfeatureProgression": [
+                {
+                    "name": "Stance",
+                    "featureType": [
+                        "W:Stance"
+                    ],
+                    "progression": [
+                        0,
+                        2,
+                        2,
+                        2,
+                        2,
+                        2,
+                        3,
+                        3,
+                        3,
+                        3,
+                        3,
+                        3,
+                        3,
+                        3,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4
+                    ]
+                },
+                {
+                    "name": "Techniques",
+                    "featureType": [
+                        "W:Tech"
+                    ],
+                    "progression": [
+                        3,
+                        3,
+                        4,
+                        4,
+                        5,
+                        5,
+                        6,
+                        6,
+                        6,
+                        7,
+                        7,
+                        7,
+                        8,
+                        8,
+                        8,
+                        9,
+                        9,
+                        9,
+                        10,
+                        11
+                    ]
+                }
+            ],
+            "foundryAdvancement": [
+                {
+                    "type": "ScaleValue",
+                    "configuration": {
+                        "identifier": "combat-die",
+                        "type": "dice",
+                        "scale": {
+                            "1": {
+                                "n": 1,
+                                "die": "8"
+                            },
+                            "6": {
+                                "n": 1,
+                                "die": "10"
+                            },
+                            "15": {
+                                "n": 1,
+                                "die": "12"
+                            }
+                        }
+                    },
+                    "title": "Combat Die"
+                }
+            ],
+            "classFeatures": [
+                "Fighting Style|Warrior|Warrior|1",
+                "Combat Mastery|Warrior|Warrior|1",
+                "Iron Recovery|Warrior|Warrior|2",
+                "Stance|Warrior|Warrior|2",
+                {
+                    "classFeature": "Tradition|Warrior|Warrior|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warrior|Warrior|4",
+                "Extra Attack|Warrior|Warrior|5",
+                "Ability Score Improvement|Warrior|Warrior|6",
+                {
+                    "classFeature": "Tradition Feature|Warrior|Warrior|7",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warrior|Warrior|8",
+                "Iron Resolve|Warrior|Warrior|9",
+                {
+                    "classFeature": "Tradition Feature|Warrior|Warrior|10",
+                    "gainSubclassFeature": true
+                },
+                "Iron Breaker|Warrior|Warrior|11",
+                "Ability Score Improvement|Warrior|Warrior|12",
+                "Ability Score Improvement|Warrior|Warrior|14",
+                {
+                    "classFeature": "Tradition Feature|Warrior|Warrior|15",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warrior|Warrior|16",
+                {
+                    "classFeature": "Tradition Feature|Warrior|Warrior|18",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Warrior|Warrior|19",
+                "Master Armsman|Warrior|Warrior|20"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Fighting Style",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 1,
+            "entries": [
+                "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again. Whenever you finish a short or long rest, you may replace any fighting styles you know that are on this list with any other styles that are also on this list.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Archery"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Blind Fighting|tce"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Defense"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Dueling"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Hand and a Half Fighting|Warrior"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Great Weapon Fighting"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Interception|tce"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Protection"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Thrown Weapon Fighting|tce"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Two-Weapon Fighting"
+                        },
+                        {
+                            "type": "refOptionalfeature",
+                            "optionalfeature": "Unarmed Fighting|tce"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Combat Mastery",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you are able to use your supreme martial training to perform powerful combat Technique.",
+                {
+                    "type": "entries",
+                    "name": "Techniques",
+                    "entries": [
+                        "You know two techniques of your choice from the Warrior Techniques list. Most techniques enhance your weapon attacks in some way, while others enhance your defenses or provide other benefits. You learn additional technique as you gain levels in the Warrior class as shown on the Techniques Known column of the Warrior table. If an ability would let you gain a specific technique and you already know it, you can choose a different Technique you do not already know. Whenever you gain a level in the Warrior class, you can exchange a technique you know out for any other technique you could learn at that level.",
+                        "You can use one technique per turn. Once you use a technique, it is {@b Exhausted}: you cannot use it again until it is {@b Refreshed}.",
+                        "Unless stated otherwise, your techniques automatically refresh when you complete a short or long rest, when you roll initiative, or when you go 1 full round in combat without using any techniques."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Technique Levels",
+                    "entries": [
+                        "There are three levels of techniques: Beginner, Advanced, and Master. You can learn Beginner techniques as soon as you take this class. You gain the ability to learn Advanced techniques at 7th level, and Master techniques at 15th level."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Technique Types",
+                    "entries": [
+                        "There are 4 different types of techniques: {@i Strikes, Counters, Moves, and Ultimates).",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@i Strikes} primarily deal damage to and affect your opponents, and are usually initiated by making a melee or ranged weapon attack.",
+                                "{@i Counters} are triggered as reactions, usually against attacks your foes make against you.",
+                                "{@i Moves} are utility-focused techniques, usually triggered when you use an action other than attacking (such as Hide or Disengage)",
+                                "{@i Ultimate} techniques are the pinnacle of that particular fighting style's expression, and are usually powerful finishing moves."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Combat Die",
+                    "entries": [
+                        "Your Combat Die is used to add to and modify your techniques. Your Combat Die starts at a d8, and becomes larger as you gain levels in the Warrior class as shown on the Combat Die column of the Warrior Table."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Saving Throws",
+                    "entries": [
+                        "Some of your techniques require your target to make a saving throw to resist the technique's effects. The saving throw DC is calculated as follows:",
+                        {
+                            "type": "abilityDc",
+                            "name": "Technique",
+                            "attributes": [
+                                "str",
+                                "dex"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Iron Recovery",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level, whenever you roll initiative and you have no more than half of your hit points left, you can roll your Combat Die. When you do so, you heal that many + your constitution modifier hit points. This ability has no effect if you have 0 hit points.",
+                "Starting at 13th level, when you use this ability you can roll your Combat Die twice, adding both to the total amount healed."
+            ]
+        },
+        {
+            "name": "Stance",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 2,
+            "entries": [
+                "Also at 2nd level, you learn to set your body into a permanent state of martial readiness, called a Stance. You learn two stances of your choice from those available to you. Stances provide two benefits: one Passive, and one Active.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain and always have access to the Passive benefits of any stance you know.",
+                        "As a bonus action on your turn, you can Enter a stance. You gain the Active benefits of that stance until you use a bonus action to enter a different stance, or until you take a short or long rest. You can only have one Active stance at a time. Starting at 12th level, you can enter two stances as a bonus action and have two stances Active at a time."
+                    ]
+                },
+                "You learn additional stances as you gain levels in the warrior class, as shown on the Stances Known column of the Warrior table. If an ability would let you gain a specific stance and you already know that stance, you can choose a different stance you do not already know. Additionally, whenever you gain a level in the Warrior class, you can swap a Stance you know out for any other stance you could learn at that level."
+            ]
+        },
+        {
+            "name": "Tradition",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you choose your Fighting Tradition, in which you focus your combat talents. The discipline you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Iron Resolve",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 9,
+            "entries": [
+                "At 9th level, your relentless martial training has hardened your mind as well as your body. Whenever you make an Intelligence, Wisdom, or Charisma Saving throw, you roll Combat Die, adding that number to your saving throw. You can use this ability a number of times equal to your one-third your Warrior level (rounded down), gaining back all expended uses on a short or long rest."
+            ]
+        },
+        {
+            "name": "Iron Breaker",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 11,
+            "entries": [
+                "Starting at 11th level, when your weapons strike, they strike clear and true. Your unarmed strikes and weapon attacks score a critical hit on a roll of 19 or 20. At 17th level, your unarmed strikes and weapon attacks score a critical hit on a roll of 18, 19 or 20."
+            ]
+        },
+        {
+            "name": "Master Armsman",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 20,
+            "entries": [
+                "At 20th level, your skill at arms becomes truly unparalleled. Whenever you deal damage to a creature with a weapon or an unarmed strike, you treat all weapon damage dice rolls as if you had rolled the maximum amount; this includes additional weapon damage dice dealt on a critical hit. This does not apply to any bonus damage dice from other sources, such as Techniques, Sneak Attack, or magical weapons such as a flame tongue. "
+            ]
+        },
+        {
+            "name": "Tradition Feature",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 7,
+            "entries": [
+                "At 7th level, you gain a feature from your Tradition."
+            ]
+        },
+        {
+            "name": "Tradition Feature",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature from your Tradition."
+            ]
+        },
+        {
+            "name": "Tradition Feature",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 15,
+            "entries": [
+                "At 15th level, you gain a feature from your Tradition."
+            ]
+        },
+        {
+            "name": "Tradition Feature",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 18,
+            "entries": [
+                "At 18th level, you gain a feature from your Tradition."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 6,
+            "entries": [
+                "When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 14,
+            "entries": [
+                "When you reach 14th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+          "name": "Hand and a Half Fighting",
+          "source": "Warrior",
+          "featureType": [
+            "FS:Warrior"
+          ],
+          "entries": [
+            "While you are wielding a versatile weapon in two hands, you gain a +1 bonus to your attack rolls with that weapon and a +1 bonus to AC."
+          ]
+        },
+        {
+            "name": "Ambush",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "When you use your action to Hide or when you make an initiative roll, you can add your Combat Die to the roll, provided you aren't incapacitated."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Boomerang Throw",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you take the attack action on your turn, you can throw a melee weapon or shield you are holding at a creature you can see within 30 feet as a ranged weapon attack. If you hit with this attack, it deals damage equal to your Combat Die + your Strength Modifier. The thrown item returns to your hand at the end of your turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @mod",
+                "ability": "str"
+            }
+        },
+        {
+            "name": "Brace",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Counter}",
+                "When a creature you can see moves into your reach, you can use your reaction to make one attack against the creature, using that weapon. If the attack hits, add your Combat Die to the weapon's damage roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Brick Breaking Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature or an object with an unarmed strike, roll your Combat Die and add the result to the damage roll. If you are using this Technique on an object, that attack ignores the object's hardness and deals maximum damage."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Brutal Swing",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, you can attempt to drive the target back. You add your Combat Die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you can choose to push the target up to 15 feet away from you or knock it prone."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Castigating Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a melee weapon attack, you can force that creature to focus on you under threat of pain. That creature takes additional radiant or fire damage (your choice) equal to a roll of your combat die (or two rolls of your combat die if it is an Aberration, Fiend or Undead), and until the start of your next turn it takes radiant or fire damage (your choice) equal to your Wisdom modifier whenever it damages a creature other than you."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die",
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Cold Iron Blade",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, you can break through your foe's defenses, otherworldly or no. Your attack ignores any of the creature's damage resistances. Roll your Combat Die and add the result to the attack's damage roll; if the creature was resistant to any type of damage roll your Combat Die twice and add both to the damage roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Deflecting Parry",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Counter}",
+                "When another creature damages you with a melee attack, you can use your reaction to roll your Combat Die, reducing the damage by an amount equal to your Combat Die roll + your Strength or Dexterity modifier."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @mod"
+            }
+        },
+        {
+            "name": "Dim Star Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you damage a creature with an unarmed strike, add your combat die to the damage roll, and you can force that creature to make a constitution saving throw. On a failure, they are struck blind until the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Disarming Blow",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, you can attempt to disarm that creature. The creature takes additional damage equal to your Combat Die, and must make a dexterity saving throw: on a failure, they drop a weapon or shield that they may have been holding."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Distracting Blow",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, you can distract the creature, giving your allies an opening. You add the Combat Die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1
+            }
+        },
+        {
+            "name": "Evasive Footwork",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "When you take the Dodge action, you can roll your Combat Die, adding the number rolled to your AC and Dexterity saving throws until the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Iron Grip",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you attempt to initiate a grapple, you can roll your Combat Die and add it to your athletics check. If you are successful, the creature you are grappling takes damage equal to your Combat Die + your strength modifier."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @mod",
+                "ability": "str"
+            }
+        },
+        {
+            "name": "Iron Rally",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "On your turn, you can use a bonus action to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to a roll of your Combat Die + your Charisma modifier."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @mod"
+            }
+        },
+        {
+            "name": "Lethargic Shot",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a ranged weapon attack, Add your combat die to the damage roll. That creature's speed is reduced by half until the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Piercing Shot",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "Your shots can punch through cover. When you make a ranged weapon attack, you can ignore non-magical ½ and ¾ cover that is less than 1 foot thick. When you do so, add your combat die to the damage roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Ruby Slice",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you make a weapon attack roll against a creature, you can roll your Combat Die and add it to the roll. You can use this Technique before or after making the attack roll, but before you know if it is successful."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Riposte",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Counter}",
+                "When a creature misses you with a melee attack, you can use your reaction to make a melee weapon attack against the creature. If you hit, you add your Combat Die to the attack's damage roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Split Shot",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you use the attack action to make a ranged weapon attack against a creature, you can immediately make an additional ranged weapon attack against a different creature within 10 feet of the target. Both creatures take additional damage equal to your Combat Die if you hit."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Sweeping Attack",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a melee weapon attack, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Combat Die. The damage is of the same type dealt by the original attack."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1
+            }
+        },
+        {
+            "name": "Vanguard Dash",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "When you take the Disengage action, your speed increases by 10 feet until the end of your turn. You also gain an amount of temporary hit points equal to a roll of your combat die + your Warrior level."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @classes.warrior.levels"
+            }
+        },
+        {
+            "name": "Viper's Fang",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a melee weapon, that creature takes additional poison damage equal to your Combat Die and makes a constitution saving throw. On a failure, it gains the poisoned condition until the start of your next turn. Both of these effects ignore a creature's resistance or immunity to poison damage or the poisoned condition."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Whelming Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, add your combat die to the damage roll. That creature's speed is reduced by half and it must succeed on a strength saving throw or be knocked prone."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "White Glove Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, you can attempt to goad the target into attacking you. Add your Combat Die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Beginner"
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Cleaving Wind",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you score a critical hit on a creature with a melee weapon attack, you can attempt to sever one of their limbs; this includes body parts such as a wing or a tail. That creature takes additional damage equal to two rolls of your Combat Die, and must make a constitution saving throw. On a failure, you cut off one of the creature's limbs of your choice."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Cobalt Throw",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "While you have a creature grappled, you can attempt to throw them as an action. Make a grapple check, adding your Combat Die to the roll against the creature you have grappled. You throw the grappled creature up to 20 feet away from you in any direction. If that creature strikes a solid object or structure, it takes damage equal to 4 rolls of your Combat Die + your strength modifier.",
+                "You can use this ability to throw the creature you are grappling at another creature within 20 feet of you. If you do so, make a thrown weapon attack roll with proficiency against that creature; on a hit, both creatures take damage equal to 4 rolls of your Combat Die + your strength modifier."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @mod",
+                "ability": "str"
+            }
+        },
+        {
+            "name": "Fan of Arrows",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "As an action, while wielding a ranged weapon you can fire a spray of shots into a crowd of foes. Make one ranged weapon attack against each creature within a 30 foot cone, adding your Combat Die to the damage roll of each attack that hits."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1
+            }
+        },
+        {
+            "name": "Giant Smash",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you use an attack to Shove a creature, add your Combat Die to your Athletics check. If you are successful, you can both move that creature up to 15 feet and knock it prone. Additionally, its speed is reduced to 0 until the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Guerilla Vanish",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "When you use your action to Hide, you can become invisible for a number of rounds equal to your Proficiency Bonus. This invisibility ends when you make an attack or cast a spell. If you end the invisibility by making a weapon attack, you can add your Combat Die to that attack roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Iron Tornado",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "As an action on your turn, you can make a single melee weapon attack with a against each creature within your reach. When you do so, roll your Combat Die twice and add it to the damage of each attack that hits."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Lightning Step",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "When you take the Dodge Action, you can roll your combat die twice, adding the total to both your AC and your Dexterity saving throws until the start of your next turn. When you use this ability, you can immediately move up to your movement speed in a straight line."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Magnum Arrow",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "Your shots can punch through even the thickest cover. When you make a ranged weapon attack, you can ignore ½, ¾ and full cover (you still have disadvantage on the attack roll if you cannot see the creature). When you do so, roll your combat die twice and add the total to the damage roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Manticore's Tail",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike }",
+                "When you hit a creature with a melee weapon attack, that creature takes additional poison damage (which ignores poison resistance or immunity) equal to two rolls of your Combat Die and makes a constitution saving throw. On a failure, the creature is stunned until the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Pinning Shot",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a ranged weapon attack, roll your combat die twice and add it to the damage roll. That creature's speed is reduced to zero until the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Reflecting Block",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Counter}",
+                "When another creature damages you with an attack, you can use your reaction to attempt to block the attack. Reduce the damage of the attack by an amount equal to three rolls of your Combat Die + your Strength or Dexterity modifier. If this reduces the damage of a ranged attack to 0, you can reflect the attack back against the attacker, dealing them damage equal to your Combat Die + your Strength or Dexterity modifier; the damage type is the same type as the attack you blocked."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die",
+                "damage.versatile": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Ricochet Toss",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "As an action on your turn, you can throw a melee weapon or a shield you are holding at a creature you can see within 60 feet. If it hits, it deals bludgeoning damage (or damage of a type the weapon can deal) equal to two rolls of your Combat Die + your strength modifier. If it hits, you can immediately ricochet the item to a different creature within 30 feet of the creature you hit, making an attack against that creature that deals damage equal to your Combat Die + your strength modifier. You may repeat this ricochet a number of times equal to your proficiency modifier, until you miss a creature. The object you throw returns to your hand at the end of your turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die",
+                "damage.versatile": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Sapphire Razor",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you make a weapon attack roll against a creature, you can roll your Combat Die twice and add both to the roll. You can use this Technique before or after making the attack roll, but before you know if it is successful. If you hit the creature and exceed its AC by 5 or more, it takes additional damage equal to your Combat Die."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Searing Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a melee weapon attack, that creature takes additional radiant or fire damage (your choice) equal to two rolls of your combat die (or four rolls of your combat die if it is an Aberration, Fiend, or Undead). At the start of that creature's following turn, it takes additional Radiant or Fire damage (your choice) equal to twice your wisdom modifier."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Shining Star Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you damage a creature with an unarmed strike, roll your combat die twice and add it to the damage roll, and you can force that creature to make a constitution saving throw. On a failure, it gains one level of exhaustion."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Silvered Cleaver",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, you can cleave your way through your foe's defenses. Your attack ignores any of the creature's damage resistances or immunities. Roll your Combat Die and add the result to the attack's damage roll; if the creature was resistant or immune to any type of damage roll your Combat Die four times and add all rolls to the damage roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Steel Bulwark",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "On your turn, you can use a bonus action to bolster the resolve of several of your companions. When you do so, choose a number of friendly creatures who can see or hear you. Those creatures gain temporary hit points equal to two rolls of your Combat Die + your Charisma modifier."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Stone Shattering Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature or an object with an unarmed strike, roll your Combat Die twice and add the total to the damage roll. If you are using this technique on an object, that attack ignores the object's hardness and deals maximum damage."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Undertow Blade",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike}",
+                "When you hit a creature with a weapon attack, roll your combat die twice and add it to the damage roll. That creature's speed is reduced to 0 until the start of your next turn, and it must succeed on a strength saving throw or be knocked prone."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Vanguard Blitz",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move}",
+                "When you take the Disengage action, your speed increases by 20 feet until the end of your turn. You can make a single melee weapon attack against each creature you pass within 5 feet of during your movement, to a maximum number of creatures equal to 1 + your proficiency modifier. Add your Combat die to the damage roll of each of these attacks."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Advanced"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Adamantine Fortress",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move, Ultimate}",
+                "On your turn, you can use a bonus action to bolster the resolve of all of your companions. When you do so, each friendly creature within 60 feet that can see or hear you gains temporary hit points equal to Four rolls of your Combat Die + your Charisma modifier. The next time any of the affected creatures take damage before the end of your next turn, they have resistance to that damage."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Afterimage",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move, Ultimate}",
+                "When you take the Dodge Action, you can roll your combat die three times, adding the total to both your AC and your Dexterity saving throws until the start of your next turn. When you use this ability, you can immediately move up to your movement speed in any direction, and you leave behind an illusory image of yourself which remains until the start of your next turn. This technique refreshes when you complete a short or long rest, or when you roll initiative."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Annihilating Charge",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move, Ultimate}",
+                "When you take the Disengage action, your speed triples until the end of your turn. You can make a single melee weapon attack against each creature you pass within 5 feet of during your movement. Add your 4 rolls of your Combat die to the damage roll of each of these attacks."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Arrow of Judgement",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "As an action, while wielding a ranged weapon, you can fire a single shot that punches through all in its path. Each creature in a 120 foot long, 5 foot wide line must make a Dexterity saving throw, taking damage equal to 8 rolls of your combat die + your dexterity modifier on a failure or half that on a success. The line ignores all cover or impediments, magical or otherwise."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Boulder Sundering Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "When you hit a creature or an object with an unarmed strike, roll your Combat Die 6 times and add the total to the damage roll. If you are using this Technique on an object, that attack ignores the object's hardness and deals maximum damage."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Diamond Edge",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "When you make a weapon attack roll against a creature, you can roll your Combat Die four times and add the total to the roll. You can use this Technique before or after making the attack roll, but before you know if it is successful. If you hit the creature and exceed its AC by 5 or more, it takes additional damage equal to 4 rolls of your Combat Die."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die",
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Earthquake Smash",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "As an action, you can strike the ground with earth shattering force. Each creature other than you within 30 feet of you makes a Dexterity saving throw; on a failed save, they take bludgeoning damage equal to six rolls of your Combat Die, they are knocked prone, and their speed is reduced to 0 feet until the start of your next turn. Creatures that succeed on their saving throw take half the damage dealt, are not knocked prone, and their speed is reduced by half until the start of your next turn."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Flashing Sunset",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Counter, Ultimate}",
+                "When a creature makes an attack against you with a melee weapon, you can use your reaction to move up to 15 feet in a straight line, moving through that creatures space as part of the movement. You can do so even if te creature is not two sizes or more larger than you. When you do so, make a single melee weapon attack against that creature; On a hit, roll your Combat Die 6 times and add it to the damage roll of the attack."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Field of Thorns",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "As an action on your turn, you can make one ranged weapon attack against each creature within a 120 ft cone. Each creature you hit takes damage equal to your two rolls of your combat die + your dexterity modifier, and their speed is reduced to 0 for a number of rounds equal to your dexterity modifier. At the end of a creature's turn, it can attempt a strength saving throw vs your technique DC to free itself and return its speed to normal."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Gorgon's Breath",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "When you hit a creature with a melee weapon attack, that creature takes additional poison damage (which ignores poison resistance or immunity) equal to four rolls of your Combat Die and makes a constitution saving throw. On a failure, the creature is paralyzed for a number of rounds equal to your strength or dexterity modifier."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Hailstorm Shot",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "As an action, while wielding a ranged weapon, you can fire a hail of shots into the sky which rain down upon your foes. Choose a point within 120 feet of you: each creature within 30 feet of that point must make a dexterity saving throw, taking damage (of a type your weapon can deal) equal to eight rolls of your Combat Die + your dexterity modifier on a failure, or half that much damage on a success."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Maelstrom Swing",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate",
+                "As an action, make a single melee weapon attack against each creature within 15 feet of you. On a hit, roll your combat die 4 times and add the total to the damage roll. The speed of each creature you hit is reduced to 0 for one minute, and they must succeed on a strength saving throw or be knocked prone. Creatures in the area that you do not hit have their speed reduced by half for one minute. Creatures whose speed has been reduced by this ability can make a strength saving throw at the end of each of their turns to end the effect."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Mithral Execution",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "When you hit a creature with a weapon attack, you can tear through the beast's hide, rending it asunder. Your attack ignores any of the creature's damage resistances or immunities. Roll your Combat Die and add the result to the attack's damage roll; if the creature was resistant or immune to any type of damage roll your Combat Die eight times and add all rolls to the damage roll."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Obsidian Powerbomb",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "While grappling another creature, as an action you can break your grapple to smash them into the ground with bone breaking force. The creature you are grappling takes damage equal to 8 rolls of your Combat Die + your strength modifier, and must make a constitution saving throw; on a failure, the creature is stunned for a number of rounds equal to your strength modifier. If that creature succeeds on the saving throw, you can use your bonus action to attempt to grapple that creature."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Phantom Stalker",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Move, Ultimate}",
+                "When you use your action to Hide, you can become invisible for a number of rounds equal to your Warrior Level. This invisibility ends if you cast a spell. While you are invisible, you can use an action to make a single weapon attack that ends your invisibility. If you do so, the attack is a critical hit. This technique refreshes when you complete a short or long rest, or when you roll initiative."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1
+            }
+        },
+        {
+            "name": "Seven Star Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "As an action on your turn, you can make seven unarmed strikes against a creature within your reach. Each hit deals no damage, instead giving the creature one level of exhaustion. If the creature dies from exhaustion in this way, they explode in a spectacularly gory fashion.",
+                "Once you use this ability, you cannot do so again until you finish a long rest."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1
+            }
+        },
+        {
+            "name": "Slayer's Strike",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "When you hit a creature with a melee weapon attack, you can set it ablaze, burning it to ash. The creature takes additional Fire or Radiant damage (your choice) equal to four rolls of your combat die (or eight rolls of your combat die if it is an Aberration, Fiend, or Undead) and the target is set ablaze for a number of turns equal to your proficiency modifier. At the start of each of its turns, it takes fire or radiant damage (your choice) equal to your warrior level. The creature can use its action to put out this blaze. A creature killed by Slayer's Strike cannot be raised from the dead, and it's body disintegrates into ash. Once you use this ability, you cannot do so again until you finish a long rest."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Steel Hurricane",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "As an action on your turn, you can make two melee weapon attacks against each creature within 15 feet of you. When you do so, roll your Combat Die twice and add it to the damage of each attack that hits."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": 1,
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Vorpal Reaper",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "Your terrible blade goes snicker-snack. When you score a critical hit on a creature with a melee weapon, that creature takes additional damage equal to four rolls of your Combat Die, and must make a constitution saving throw. On a failure, if that creature has a head and would generally die from having it removed, it dies as it's head is severed from its body; otherwise, it takes an additional 100 points of damage. On a successful save, the creature only takes an additional 50 points of damage. Once you use this technique, you cannot do so again until you finish a long rest."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Wall of Blades",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Counter, Ultimate}",
+                "When another creature damages you with an attack, you can use your reaction to attempt to block the attack. Reduce the damage of the attack by an amount equal to ten rolls of your Combat Die + your Strength or Dexterity modifier. Until the end of your next turn, you have resistance to damage from that creature."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Whirling Toss",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "{@i Strike, Ultimate}",
+                "As an action, while wielding a melee weapon or a shield, you can fling that weapon or shield with overwhelming force at a line of foes. Each creature in a 120 foot long, 5 foot wide long line must make a dexterity saving throw, taking bludgeoning damage (or damage of a type the weapon you throw can deal) equal to 8 rolls of your Combat Die + your strength or dexterity modifier, or half that on a successful saving throw."
+            ],
+            "featureType": [
+                "W:Tech",
+                "W:Tech:Master"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Warrior"
+                        }
+                    }
+                }
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Bare-Knuckle Brawler",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You eschew traditional weapons in favor of just punching your opponent right in the face",
+                "{@b Passive:}  You can add either your strength or dexterity modifiers to the attack and damage rolls of your unarmed strikes, and when you are unarmed and you use the attack action to make an unarmed strike you can make a single unarmed strike as a bonus action.",
+                "{@b Active:}  You can use your Combat Die instead of your normal unarmed strike damage die, and your unarmed strikes are treated as magical for the purposes of bypassing damage resistance and immunity."
+            ],
+            "featureType": [
+                "W:Stance"
+            ]
+        },
+        {
+            "name": "Bat's Eyes",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You refocus yourself inward, enhancing your sense of hearing to an almost supernatural degree.",
+                "{@b Passive:} You gain darkvision out to 30 feet; if you already had darkvision, its range increases by 30 feet. This ability does not function if you are deafened or in an area of magical silence.",
+                "{@b Active:} You gain Blindsight out to 10 feet; if you already had blindsight, its range increases by 10 feet. In addition, you cannot be surprised, and creatures you can't see do not gain advantage on attacks made against you."
+            ],
+            "featureType": [
+                "W:Stance"
+            ]
+        },
+        {
+            "name": "Captain's Gambit",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You've developed a highly unique fighting style that emphasizes use of a shield for both attack and defense.",
+                "{@b Passive:} You can use your shield as a melee weapon that has the Light property. You are proficient with it, and it deals bludgeoning damage equal to your Combat Die on a hit. You retain the AC bonus granted by your shield when you make an attack with it.",
+                "{@b Active:} While you are wielding a shield, if you take the Dash action and move at least 15 feet in a straight line you can make one melee weapon attack with your shield against a target within your reach."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Coiled Serpent",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You coil yourself inward like a viper, ready to lash out at a moment's notice.",
+                "{@b Passive:} You cannot be surprised, and your melee attacks gain reach if they did not already have it.",
+                "{@b Active:} When you roll initiative, you can roll your Combat Die, adding the result to your initiative roll."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Combat Brute",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "Only the heaviest of weapons will do for you.",
+                "{@b Passive:}  Whenever you critically hit a creature with a weapon that has the Heavy property, that creature takes additional damage equal to two rolls of your combat die.",
+                "{@b Active:}  Once on your turn you can gain advantage on an attack roll you make with a heavy melee weapon. When you do so, the next attack a creature makes against you gains advantage."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die + @scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Deadeye",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You attune yourself to the twang of a bowstring or the click of a trigger, making your shots ring true.",
+                "{@b Passive:} Your ranged weapon attacks ignore half and three-quarter's cover, and you do not have disadvantage when making ranged attacks at long range or when you are within 5 feet of a hostile creature.",
+                "{@b Active:}  Once per turn when you miss with a ranged attack roll, you can add your Combat Die to the roll, potentially causing it to hit."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Duelist's Swagger",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "Your tongue is nearly as deadly as your blade, and your wit is even sharper.",
+                "{@b Passive:}  You can cast the {@spell vicious mockery} cantrip, and you add your Combat Die to the spell's damage roll.",
+                "{@b Active:}  Whenever you take the attack action or make an opportunity attack and you are unarmed or wielding a weapon in one hand and nothing in the other, you can cast vicious mockery in place of one of those attacks."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Giant's Grasp",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "Your solid stance reinforces your grip, making your clinch inescapable.",
+                "{@b Passive:}  Whenever you hit a creature with an Unarmed Strike, you can attempt to grapple that creature as a bonus action.",
+                "{@b Active:} You have advantage on Athletics checks made to initiate or maintain a grapple, and you can grapple creatures up to two size categories larger than you."
+            ],
+            "featureType": [
+                "W:Stance"
+            ]
+        },
+        {
+            "name": "Gorilla's Arm",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You learn to leverage the weight and heft of larger weapons into superior ranged stopping power",
+                "{@b Passive:} You can treat any melee weapon you are holding as if it had the Thrown property, with a range of 20/60 feet.",
+                "{@b Active:} Ranged attacks you make with melee weapons that don't have the light property deal an additional 1d4 damage."
+            ],
+            "featureType": [
+                "W:Stance"
+            ]
+        },
+        {
+            "name": "Improvisational Expert",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You are exceptionally skilled at using your combat environment to your advantage.",
+                "{@b Passive:}  You gain proficiency with Improvised weapons, improvised weapons you wield use your Combat Die instead of their normal damage die, and they are treated as magical for the purposes of bypassing damage resistance and immunity.",
+                "{@b Active:} You are unaffected by difficult terrain, and as long as there is a sufficient amount of environmental objects within 10 feet of you (tables, chairs, ladders, other debris, etc.) you are treated as if you have half cover."
+            ],
+            "featureType": [
+                "W:Stance"
+            ]
+        },
+        {
+            "name": "Tiger's Claws",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You are always ready to pounce on your foe and rend them asunder.",
+                "{@b Passive:} Your speed is increased by 10 feet and your jumping distances are tripled.",
+                "{@b Active:}  Whenever you use a bonus action to make an attack with an Unarmed Strike or a melee weapon that has the light and/or finesse properties, you can add your combat die to that damage roll of that attack."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die"
+            },
+            "effects": [
+                {
+                    "name": "Tiger's Claws",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "data.attributes.ac.calc",
+                            "mode": "OVERRIDE",
+                            "value": "unarmoredMonk"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Troll's Hide",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You can use your imposing physique to shrug off blows that most would find lethal",
+                "{@b Passive:} You can use your strength modifier instead of your dexterity modifier when determining your AC.",
+                "{@b Active:} At the end of each of your turns, if you have at least 1 hit point you gain a number of temporary hit points equal to your strength modifier + one-third your Warrior level (Rounded Down)."
+            ],
+            "featureType": [
+                "W:Stance"
+            ]
+        },
+        {
+            "name": "Unfocused Eye",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "You adopt an unfocused, steely eyed gaze, allowing you to focus more on the periphery than what is directly in front of you.",
+                "{@b Passive:}  While you are not wearing armor, your AC is equal to 10 + your Dexterity modifier + your Wisdom modifier.",
+                "{@b Active:} Whenever you move, you don't provoke opportunity attacks from creatures you haven't attacked that turn."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "effects": [
+                {
+                    "name": "Unfocused Eye",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "data.attributes.ac.calc",
+                            "mode": "OVERRIDE",
+                            "value": "unarmoredMonk"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wolf's Fang",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "Your mastery of versatile weaponry allows you to perform incredible feats with such weapons.",
+                "{@b Passive:} Versatile weapons you wield have the Finesse property.",
+                "{@b Active:} While you are wielding a single versatile weapon and nothing else, when a creature hits you with a melee attack, you can use your reaction to roll your combat die and add it to your AC for that attack, potentially causing that attack to miss."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die"
+            }
+        },
+        {
+            "name": "Wasp's Sting",
+            "source": "Warrior",
+            "page": 0,
+            "entries": [
+                "Daggers, darts, axes and chakram, thrown weapons are the tools of your deadly trade.",
+                "{@b Passive:} You can draw weapons that have the Thrown property as part of the attack you make with them. Once per turn, when you hit a creature with a weapon that has the Thrown property, you can roll your combat die and add it to the damage roll.",
+                "{@b Active:} When you use the attack action to make a ranged attack with a weapon that has the Thrown property, you can make a single ranged attack with a weapon that has the thrown property as a bonus action."
+            ],
+            "featureType": [
+                "W:Stance"
+            ],
+            "foundrySystem": {
+                "formula": "@scale.warrior.combat-die"
+            }
+        }
+    ],
+    "subclass": [
+        {
+            "subclassFeatures": [
+                "Acolyte Of The Arcane Blade|Warrior|Warrior|Arcane Blade|Warrior|3",
+                "Arcane Blade|Warrior|Warrior|Arcane Blade|Warrior|3",
+                "Martial Spellcasting|Warrior|Warrior|Arcane Blade|Warrior|3",
+                "Arcane Mind|Warrior|Warrior|Arcane Blade|Warrior|7",
+                "Arcane Barrier|Warrior|Warrior|Arcane Blade|Warrior|10",
+                "Blink|Warrior|Warrior|Arcane Blade|Warrior|15",
+                "Arcane Blademaster|Warrior|Warrior|Arcane Blade|Warrior|18"
+            ],
+            "shortName": "Arcane Blade",
+            "name": "Acolyte Of The Arcane Blade",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "page": "",
+            "spellcastingAbility": "int",
+            "cantripProgression": [
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+            ],
+            "additionalSpells": [
+                {
+                    "expanded": {
+                        "3": [
+                            {
+                                "all": "level=0|class=Wizard"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "subclassFeatures": [
+                "Master Of The Iron Hand|Warrior|Warrior|Iron Hand|Warrior|3",
+                "Iron Hand Stance|Warrior|Warrior|Iron Hand|Warrior|3",
+                "Iron Hand Style|Warrior|Warrior|Iron Hand|Warrior|3",
+                "Iron Determination|Warrior|Warrior|Iron Hand|Warrior|7",
+                "Iron Instinct|Warrior|Warrior|Iron Hand|Warrior|10",
+                "Iron Insight|Warrior|Warrior|Iron Hand|Warrior|15",
+                "Master Of The Iron Strike|Warrior|Warrior|Iron Hand|Warrior|18"
+            ],
+            "shortName": "Iron Hand",
+            "name": "Master Of The Iron Hand",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "King Of Heavy Metal|Warrior|Warrior|Heavy Metal|Warrior|3",
+                "Conqueror's Steel|Warrior|Warrior|Heavy Metal|Warrior|3",
+                "Metal King Style|Warrior|Warrior|Heavy Metal|Warrior|3",
+                "Pillar Of Steel|Warrior|Warrior|Heavy Metal|Warrior|7",
+                "Wall Of Steel|Warrior|Warrior|Heavy Metal|Warrior|10",
+                "Iron Countenance|Warrior|Warrior|Heavy Metal|Warrior|15",
+                "Nightmare Of Steel|Warrior|Warrior|Heavy Metal|Warrior|18"
+            ],
+            "shortName": "Heavy Metal",
+            "name": "King Of Heavy Metal",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Hunter Of The Ancient Lodge|Warrior|Warrior|Ancient Lodge|Warrior|3",
+                "Hunter's Ferocity|Warrior|Warrior|Ancient Lodge|Warrior|3",
+                "Hunter Style|Warrior|Warrior|Ancient Lodge|Warrior|3",
+                "Hunter's Bravado|Warrior|Warrior|Ancient Lodge|Warrior|7",
+                "Hunting Trophies|Warrior|Warrior|Ancient Lodge|Warrior|10",
+                "Hunter's Tenacity|Warrior|Warrior|Ancient Lodge|Warrior|15",
+                "Master Hunter|Warrior|Warrior|Ancient Lodge|Warrior|18"
+            ],
+            "shortName": "Ancient Lodge",
+            "name": "Hunter Of The Ancient Lodge",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Wanderer of the World|Warrior|Warrior|World|Warrior|3",
+                "Wanderer's Fury|Warrior|Warrior|World|Warrior|3",
+                "Wanderer's Training|Warrior|Warrior|World|Warrior|3",
+                "Faceless Warrior|Warrior|Warrior|World|Warrior|7",
+                "Well-traveled Training|Warrior|Warrior|World|Warrior|10",
+                "World Traveler|Warrior|Warrior|World|Warrior|15",
+                "Wandering Master|Warrior|Warrior|World|Warrior|18"
+            ],
+            "shortName": "World",
+            "name": "Wanderer of the World",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Knight Of The Pious Path|Warrior|Warrior|Pious Path|Warrior|3",
+                "Healing Surge|Warrior|Warrior|Pious Path|Warrior|3",
+                "Divine Blade|Warrior|Warrior|Pious Path|Warrior|3",
+                "Warrior Priest|Warrior|Warrior|Pious Path|Warrior|7",
+                "Aura Of Resilience|Warrior|Warrior|Pious Path|Warrior|10",
+                "Pilgrim's Progress|Warrior|Warrior|Pious Path|Warrior|15",
+                "Divine Judgment|Warrior|Warrior|Pious Path|Warrior|18"
+            ],
+            "shortName": "Pious Path",
+            "name": "Knight Of The Pious Path",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "page": ""
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Acolyte Of The Arcane Blade",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Acolytes of the Arcane Blade forge a unique blend of swordplay and sorcery, decimating their foes with both weapon and spell."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Arcane Blade",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level you learn to harness your innate magical power into lethal, physical form. As a bonus action or whenever you would draw a weapon, you can summon your Arcane Blade to your open hand. When you do so, choose from the following damage types: Acid, Cold, Fire, Force, Lightning, Necrotic, or Radiant. Your Arcane Blade is a Martial melee weapon with the finesse, light, and thrown properties made of the chosen type of magical energy. The weapon deals the chosen type of damage, and it's damage die is equal to your Combat Die. The weapon persists until you release it (vanishing at the end of your turn) or are rendered unconscious. The weapon can be used as a spellcasting focus.",
+                "Starting at 7th level, whenever you use your Action to cast a cantrip, you can make a single attack with your Arcane Blade as a Bonus Action."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Martial Spellcasting",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "entries": [
+                "When you reach 3rd level, you augment your martial prowess with the ability to cast spells.",
+                {
+                    "type": "entries",
+                    "name": "Cantrips.",
+                    "entries": [
+                        "You learn three cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 7th level, 10th level, and 15th level. Spell attacks you make as part of casting Cantrips are treated as Weapon attacks, and you can add your Strength or Dexterity modifier instead of your Intelligence Modifier to your cantrip Spell Attack rolls. Additionally, whenever you would make a Ranged Spell Attack as part of casting a cantrip, you can make a Melee Spell Attack instead."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability.",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "int",
+                                "str",
+                                "dex"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Arcane Mind",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 7th level, You gain proficiency in the Arcana skill. Whenever you make an Intelligence check, save, or skill check, you can roll your combat die and add it to the d20 roll."
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Arcane Barrier",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At 10th level, you learn to forge a buffer of ablative force between you and your foes. As long as you have at least one empty hand, you gain a +1 bonus to your AC. Additionally, following a short or long rest, or whenever you roll initiative, you gain a number of temporary hit points equal to your Warrior level + your Intelligence Modifier."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Blink",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 15th level, you can Dash as a bonus action. When you Dash, your movement does not provoke attacks of opportunity, you ignore difficult terrain, and you can move though creatures and physical objects. If you end your movement in a space occupied by another creature or an object, you are shunted to the nearest available open space, taking 1d10 force damage per 5 feet you are moved."
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Arcane Blademaster",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 18th level, when you use your action to cast a cantrip, the damage die of the cantrip is replaced with your Combat Die."
+            ],
+            "level": 18,
+            "page": ""
+        },
+        {
+            "name": "Master Of The Iron Hand",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Iron Hand",
+            "subclassSource": "Warrior",
+            "entries": [
+                "While many warriors hone their bodies and minds, Masters of the Iron Hand take that dedication to the next level, forging their bodies into weapons as potent and deadly as any sword."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Iron Hand Stance",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Iron Hand",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level when you take this subclass, you learn the {@optfeature Bare-Knuckle Brawler|Warrior} stance and either the {@optfeature Unfocused Eye|Warrior} or {@optfeature Troll's Hide|Warrior} stance. These stances don't count against your maximum number of stances known, and are always considered to be active in addition to any other stances you might be in. You cannot change these stances out for any others.",
+                "In addition, while you are unarmored, your speed increases by 10 feet, and increases by 10 feet again at 10th level and 18th level. Starting at 10th level, when you move you can move across vertical surfaces and non-solid surfaces (such as water), although you still fall if you do not end your movement on a solid surface."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Iron Hand Style",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Iron Hand",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Also starting at 3rd level, you learn the {@optfeature Brick Breaking Strike|Warrior} technique. At 10th level you learn the {@optfeature Stone Shattering Strike|Warrior} Technique."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Iron Determination",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Iron Hand",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 7th level, your martial focus has taught you to read your opponents to an uncanny degree. You can add your Combat Die to your Insight checks, and you can automatically tell if a creature that is speaking to you is lying to you."
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Iron Instinct",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Iron Hand",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At 10th level, your body has been trained to act almost before you think. You can take the Dash and Disengage actions as Bonus actions. Additionally, you can take the Dodge action as a bonus action. You can use this ability a number of times equal to your wisdom modifier, gaining back all uses on a long rest."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Iron Insight",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Iron Hand",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 15th level, you learn the {@optfeature Bat's Eyes|Warrior} stance. It is considered to be active in addition to any other stances you might be in."
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Master Of The Iron Strike",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Iron Hand",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At level 18, your abilities reach their peak. You learn the {@optfeature Boulder Sundering Strike|Warrior} technique, which does not count against your total number of techniques known."
+            ],
+            "level": 18,
+            "page": ""
+        },
+        {
+            "name": "King Of Heavy Metal",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Heavy Metal",
+            "subclassSource": "Warrior",
+            "entries": [
+                "While other warriors may put their trust in the slim point of a rapier or the taut twang of a bowstring, Metal Kings put their trust in Iron, steel, and adamantine...and lots of it."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Conqueror's Steel",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Heavy Metal",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level, you can forge a Conqueror, a massive, oversized weapon laden with metal, over the course of a week. Your weapon can be any melee weapon you choose that has the heavy and two-handed properties. The weapon gains reach if it did not have it before, and deals an additional 1d4 damage on a hit. At 10th level, this increases to an additional 1d6 damage on a hit. You can choose to forge a new Conqueror at any time, using any weapon that meets the prerequisites, but you cannot have more than one Conqueror at a time."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Metal King Style",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Heavy Metal",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level, you learn the {@optfeature Sweeping Attack|Warrior} technique. At 10th level you learn the {@optfeature Iron Tornado|Warrior} Technique."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Pillar Of Steel",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Heavy Metal",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 7th level, your constant training with the heaviest of weapons and armor has turned you into an immovable bastion of muscle. While you are wearing heavy armor and are conscious, you cannot be moved against your will, and you have advantage on Athletics checks made to resist being grappled or knocked prone. As well, your lifting and carrying capacity doubles."
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Wall Of Steel",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Heavy Metal",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 10th level, you gain your choice of the {@optfeature Defense|phb}, {@optfeature Protection|phb}, or {@optfeature Interception|tce} fighting styles. Your Conqueror counts as a shield for the purposes of the Protection or Interception fighting styles.",
+                "Additionally, while wearing heavy armor, as an action you can brace yourself until the end of your next turn. When you do so, your speed is reduced to 0 feet, and you and all friendly creatures within 5 feet of you gain half cover."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Iron Countenance",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Heavy Metal",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 15th level, your Iron is not merely on your body or in your hands, but in your bones and blood as well. You cannot be Frightened, and you can add your Combat Die to your Wisdom and Charisma Saving Throws."
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Nightmare Of Steel",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Heavy Metal",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At level 18, your abilities reach their peak. You learn the {@optfeature Steel Hurricane|Warrior} technique, which does not count against your total number of techniques known. Additionally, while you are wearing heavy armor, you gain resistance to bludgeoning, piercing, and slashing damage."
+            ],
+            "level": 18,
+            "page": ""
+        },
+        {
+            "name": "Hunter Of The Ancient Lodge",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Ancient Lodge",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Veteran members of the venerable Monster Hunter's Lodge, Monster Hunters do just what their name implies: use their formidable skill and raw power to take down wild and dangerous beasts (for the appropriate amount of coin)."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Hunter's Ferocity",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Ancient Lodge",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level when you take this subclass, you learn to face down creatures that often dwarf you in size and raw power. Whenever you attack a creature that is one size category larger than you, you gain a +1 bonus to your attack and damage rolls against that creature. This bonus increases to +2 if the creature is two size categories larger than you, and +3 if it is three or more size categories larger.",
+                "When a creature that is larger than you attacks you, you can use your reaction to roll your Combat Die, adding it to your AC for that attack, potentially causing that attack to miss.",
+                "Starting at 7th level, when a creature larger than you forces you to make a saving throw, you can use your reaction to roll your Combat Die and add it to that roll."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Hunter Style",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Ancient Lodge",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Also starting at 3rd level, you learn the {@optfeature Cold Iron Blade|Warrior} technique. At 10th level you learn the {@optfeature Silvered Cleaver|Warrior} Technique."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Hunter's Bravado",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Ancient Lodge",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At 7th level, your record of successful hunts fills you with a greater sense of purpose, value, and fearlessness. You cannot become frightened, and when you make an Intimidation or Persuasion check, you can roll your Combat Die and add the result to the check. If the check is being made to haggle over the cost of your hunting services, you gain advantage on the check."
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Hunting Trophies",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Ancient Lodge",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 10th level, you can take carefully carved trophies from your hunts. Creating a trophy from a carcass takes 10 minutes of time, which can be done as a part of a short or long rest. You cannot create a trophy from a humanoid carcass.",
+                "While the trophy is displayed on your person (perhaps as a part of your Armor or merely hung from your belt) you are resistant to damage dealt by creatures of the same type as your trophy. Additionally, you have advantage on Intimidation checks against creatures of that type.",
+                "You can only have and maintain one trophy at a time."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Hunter's Tenacity",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Ancient Lodge",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 15th level, it is nearly impossible to shake you off the hunt once you have started. You gain proficiency in the Investigate and Perception skills, and you have advantage on all such skill checks made when tracking a creature."
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Master Hunter",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Ancient Lodge",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At level 18, your abilities reach their peak. You learn the {@optfeature Mithral Execution|Warrior} technique, which does not count against your total number of techniques known."
+            ],
+            "level": 18,
+            "page": ""
+        },
+        {
+            "name": "Wanderer of the World",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "World",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Lone wolves at heart, Wandering warriors excel when they are surrounded on all sides, with nary an ally in sight. They travel from region to region, tirelessly testing their skills against fellow masters of combat."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Wanderer's Fury",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "World",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level, your enemies learn why you prefer to work alone. You gain a +1 bonus to your AC and your Attack and Damage rolls while there is at least 1 hostile creature within 5 feet of you. You lose this benefit if there is a friendly creature within 5 feet of you. This bonus increases to +2 if there are at least 4 hostile creatures within 5 feet of you, and to +3 if there are at least 7.",
+                "At 7th level, you can choose one friendly creature you know to be a Trusted Ally. That creature does not cause you to lose this bonus. At 15th level, during a short or long rest, you can choose a number of additional creatures equal to your wisdom bonus to become Trusted Allies At 10th level, you gain this bonus if there are hostile creatures within 15 feet of you, and at 18th level within 20 feet."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Wanderer's Training",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "World",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level, you gain proficiency in the Perception and Survival skills, and non-magical difficult terrain does not reduce your movement speed. Additionally, you learn one Beginner technique of your choice."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Faceless Warrior",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "World",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 7th level, you become both hard to read and hard for others to get a bead on. Despite your many victories, your reputation never seems to carry. You have advantage on Deception, Intimidation, and Persuasion checks against any creature you have never met before: this benefit lasts until you fail one of these checks against that creature or you become Hostile to that creature. Additionally, creatures that have never met you before never initially view you as Hostile (unless you are displaying blatant hostility, such as attacking that creature or its allies).",
+                "You regain this benefit against a creature if they have not interacted with you for 6 months or longer. Additionally, once you have been out of sight of anyone other than your Trusted Allies for longer than a day, creatures have disadvantage on all checks made to track or find you."
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Well-traveled Training",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "World",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 10th level, your continued dedication to diverse training pays off. You learn one additional Advanced Technique, Stance, and Fighting Style of your choice. As well, as long as there are no friendly creatures other than your Trusted Allies within 5 feet of you, you can enter one additional stance whenever you would enter a stance."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "World Traveler",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "World",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 15th level, traveling undetected becomes nearly second nature to you, be it on foot or by vehicle. You can add your Combat die to all Survival and Nature checks. When you are traveling, so long as you are traveling alone or only with your Trusted Allies, you and any Trusted Allies can travel at a fast pace at no penalty, can use stealth, and are constantly under the effect of {@spell pass without trace}."
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Wandering Master",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "World",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At 18th level, your skills reach their peak. You learn one additional Stance and one Master Technique of your choice. As well, you can use one additional Technique on each of your turns. You can use this ability a number of times equal to your Wisdom Modifier, gaining back all uses when you finish a Long Rest."
+            ],
+            "level": 18,
+            "page": ""
+        },
+        {
+            "name": "Knight Of The Pious Path",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Pious Path",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Those Warriors who find themselves devoted as strongly to their deity as they are the art of combat may walk the Pious Path. While they may tread similar roads as their paladin brothers, these knights view martial combat itself as a holy expression of their faith."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Healing Surge",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Pious Path",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 3rd level when you take this subclass, you learn to channel divine energy into healing for you and your allies. As an action, you can touch a creature within 5 feet of you. That creature heals a number of Hit points equal to your Combat Die + half your Warrior level. You can use this ability a number of times equal to 1 + your Wisdom modifier, regaining all expended uses when you complete a short or long rest.",
+                "This ability gets stronger as you gain levels in the Warrior class: Starting at 7th level, instead of healing the target you can expend a use of Healing surge to cure one disease or neutralize one poison affecting the creature. At 10th level, your healing surge heals a number of hit points equal to two rolls of your Combat Die + half your Warrior level Starting at 15th level you can expend two uses of Healing surge to heal all friendly creatures within 30 feet of you. Starting at 18th level, you can expend 3 uses of Healing surge to cast the spell {@spell revivify} without a spell slot or components. You cannot cast this spell with this ability on the same target more than once every 24 hours."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Divine Blade",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Pious Path",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Also starting at 3rd level, your unarmed strikes and melee weapons you wield are considered magical for the purposes of ignoring damage resistance and immunity, and deal additional damage equal to your wisdom modifier on a hit against Aberrations, Fiends, and Undead. Additionally, You learn the {@optfeature Castigating Strike|Warrior} technique, and at 10th level you learn the {@optfeature Searing Strike|Warrior} Technique."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Warrior Priest",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Pious Path",
+            "subclassSource": "Warrior",
+            "entries": [
+                "While you are not a cleric, you are trained in a similar fashion. Starting at 7th level, You gain proficiency in the Religion and Medicine skills, and you can add your combat die to rolls using those skills. Additionally, you have advantage on persuasion checks against creatures who worship the same or similar god and/or hold your temple in high regard."
+            ],
+            "level": 7,
+            "page": ""
+        },
+        {
+            "name": "Aura Of Resilience",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Pious Path",
+            "subclassSource": "Warrior",
+            "entries": [
+                "You can channel holy energy to protect yourself and others in battle. When either you or a creature you can see within 30 feet of you is hit by an attack or forced to make a saving throw, you can use your reaction to add your Wisdom modifier to either their AC for that attack, potentially causing it to miss, or to that saving throw."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Pilgrim's Progress",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Pious Path",
+            "subclassSource": "Warrior",
+            "entries": [
+                "Starting at 15th level, Creatures traveling with you find themselves under minimal threat of harm. As an action, you and any number of friendly creatures within 30 feet of you gain the effect of the sanctuary spell for as long as they are within range. This effect ends once you or one of the affected creatures takes a hostile action towards another creature. You cannot use this ability while you are engaged in combat."
+            ],
+            "level": 15,
+            "page": ""
+        },
+        {
+            "name": "Divine Judgment",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Pious Path",
+            "subclassSource": "Warrior",
+            "entries": [
+                "At level 18, your abilities reach their peak. You learn the {@optfeature Slayer's Strike|Warrior} technique, which does not count against your total number of techniques known."
+            ],
+            "level": 18,
+            "page": ""
+        }
+    ],
+    "foundrySubclassFeature": [
+        {
+            "name": "Arcane Blade",
+            "source": "Warrior",
+            "className": "Warrior",
+            "classSource": "Warrior",
+            "subclassShortName": "Arcane Blade",
+            "subclassSource": "Warrior",
+            "subEntities": {
+                "item": [
+                    {
+                        "name": "Arcane Blade",
+                        "source": "Warrior",
+                        "type": "M",
+                        "rarity": "none",
+                        "weaponCategory": "Martial",
+                        "property": [
+                            "FI",
+                            "L",
+                            "T"
+                        ],
+                        "range": "20/60",
+                        "entries": [
+                            "Starting at 3rd level you learn to harness your innate magical power into lethal, physical form. As a bonus action or whenever you would draw a weapon, you can summon your Arcane Blade to your open hand. When you do so, choose from the following damage types: Acid, Cold, Fire, Force, Lightning, Necrotic, or Radiant. Your Arcane Blade is a Martial melee weapon with the finesse, light, and thrown properties made of the chosen type of magical energy. The weapon deals the chosen type of damage, and it's damage die is equal to your Combat Die. The weapon persists until you release it (vanishing at the end of your turn) or are rendered unconscious. The weapon can be used as a spellcasting focus.",
+                            "Starting at 7th level, whenever you use your Action to cast a cantrip, you can make a single attack with your Arcane Blade as a Bonus Action."
+                        ],
+                        "foundrySystem": {
+                            "equipped": true,
+                            "damage.parts": [
+                                [
+                                    "@scale.warrior.combat-die + @mod",
+                                    "bludgeoning"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            "level": 3
+        }
+    ]
+}

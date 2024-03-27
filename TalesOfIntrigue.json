@@ -8,7 +8,7 @@
 				"authors": [
 					"Baron"
 				],
-				"version": "1.0",
+				"version": "1.1",
 				"url": "",
 				"targetSchema": "1.1.2"
 			}
@@ -29,98 +29,98 @@
 	},
 	"spell": [
 		{
-            "name": "Quincy Shot",
+			"name": "Quincy Shot",
 			"source": "TalesOfIntrigue",
-            "level": 2,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "bonus"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 120
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1,
-                        "upTo": true
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You call upon the power of light to form a powerful bow, when you cast this spell and as a bonus action on each of the following turns you can make a ranged spell attack. On a hit you deal {@damage 2d8} force damage."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 3rd lvl or higher the damage increases by {@dice 1d8} per a spell lvl above 2nd."
-                    ]
-                }
-            ],
-            "damageInflict": [
-                "force"
-            ],
-            "areaTags": [
-                "ST"
-            ],
-            "miscTags": [
-                "SCL"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Cleric",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Wizard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Sorcerer",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Druid",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Paladin",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Ranger",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Warlock",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Bard",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "spellAttack": [
-                "R"
-            ]
-        },
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call upon the power of light to form a powerful bow, when you cast this spell and as a bonus action on each of the following turns you can make a ranged spell attack. On a hit you deal {@damage 2d8} force damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd lvl or higher the damage increases by {@dice 1d8} per a spell lvl above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"spellAttack": [
+				"R"
+			]
+		},
 		{
 			"name": "Bonds of Renewal",
 			"source": "TalesOfIntrigue",
@@ -1086,6 +1086,520 @@
 				"Once per day, you may reach into the pouch and create one uncommon or common magic item that does not require attunement.",
 				"Any item created by the Fanny Pack disappates into wisps of shadow after 24 hours."
 			]
+		}
+	],
+	"class": [
+		{
+			"name": "Dragon Knight",
+			"source": "TalesOfIntrigue",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shields",
+					"heavy"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"athletics",
+								"deception",
+								"intimidation",
+								"perception",
+								"persuasion"
+							],
+							"count": 2
+						}
+					}
+				],
+				"tools": []
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [],
+				"defaultData": [
+					{}
+				]
+			},
+			"multiclassing": {
+				"requirements": {},
+				"proficienciesGained": {}
+			},
+			"classFeatures": [
+				"Dragon Covenant |Dragon Knight|TalesOfIntrigue|1",
+				"Companion's Bond|Dragon Knight|TalesOfIntrigue|1",
+				"Fighting Style |Dragon Knight|TalesOfIntrigue|2",
+				"Dragons Fury|Dragon Knight|TalesOfIntrigue|2",
+				{
+					"classFeature": "Dragon Knight Practice|Dragon Knight|TalesOfIntrigue|3",
+					"gainSubclassFeature": true
+				},
+				"Eye For Detail |Dragon Knight|TalesOfIntrigue|3",
+				"Ability Score Improvement|Dragon Knight|TalesOfIntrigue|4",
+				"Coordinated Attack|Dragon Knight|TalesOfIntrigue|5",
+				"Draconic Growth|Dragon Knight|TalesOfIntrigue|5",
+				"Rending Strikes |Dragon Knight|TalesOfIntrigue|5",
+				"Breath Weapon|Dragon Knight|TalesOfIntrigue|6",
+				{
+					"classFeature": "Dragon Knight Practice Feature|Dragon Knight|TalesOfIntrigue|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Dragon Knight|TalesOfIntrigue|8",
+				{
+					"classFeature": "Dragon Knight Practice Feature|Dragon Knight|TalesOfIntrigue|10",
+					"gainSubclassFeature": true
+				},
+				"Draconic Heart|Dragon Knight|TalesOfIntrigue|11",
+				"Ability Score Improvement|Dragon Knight|TalesOfIntrigue|12",
+				"Titanic Roar|Dragon Knight|TalesOfIntrigue|13",
+				"Legacy Of The Dragon|Dragon Knight|TalesOfIntrigue|14",
+				{
+					"classFeature": "Dragon Knight Practice Feature|Dragon Knight|TalesOfIntrigue|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Dragon Knight|TalesOfIntrigue|16",
+				"Ancient Resistance |Dragon Knight|TalesOfIntrigue|17",
+				{
+					"classFeature": "Dragon Knight Practice Feature|Dragon Knight|TalesOfIntrigue|18",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Dragon Knight|TalesOfIntrigue|19",
+				"Fulfilled Covenant |Dragon Knight|TalesOfIntrigue|20"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Dragon Covenant",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 1,
+			"entries": [
+				"At 1st level, you form a covenant with a type of dragon. The damage type associated with each dragon is used by features you gain later. You also gain the service of a dragon, who's statistics can be found at the end of the document. The dragon gains additional damage immunities and traits, depending on the type of dragon you chose for your Dragon Covenant.When you die, your dragon also dies after a number of hours equal to your dragon knight level. If your dragon companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of precious gems per your dragon knight level, you can call forth your companion's spirit and use your magic to create a new body for it. You can return a dragon companion to life in this manner even if you do not possess any part of its body.Returning your dragon to life is a grueling process, and you must expend a number of hit dice equal to half your dragon knight level (rounded up) to perform this ritual. Finally, you can speak, read, and write Draconic due to the bond you and your dragon share.",
+				"Due to Rathaa's Background you would gain resistance to magical damage at later levels"
+			]
+		},
+		{
+			"name": "Companion's Bond",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 1,
+			"entries": [
+				"For each dragon knight level after 1st, your dragon gains additional hp and when you would receive an asi your dragon also receives one.",
+				"Your dragon companion's level is equal to your dragon knight level for the purpose of calculating spells like polymorph and true polymorph.",
+				"You and your dragon always know the direction to one another, and can communicate with vague images, emotions, and feelings, regardless of distance to one another.",
+				"Your dragon shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your dragon shares your ideal, and its bond is always \"I will protect my knight; I will do the best I can for my knight; I will die for my knight.\""
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a fighting style option more than once, even if you later get to choose again.",
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Archery"
+				},
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Blind Fighting|TCE"
+				},
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Dueling"
+				},
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Great Weapon Fighting"
+				},
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Two-Weapon Fighting"
+				},
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Interception|TCE"
+				}
+			]
+		},
+		{
+			"name": "Dragons Fury",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 2,
+			"entries": [
+				"At 2nd level, your dragon companion is ready for battle, and can now take the Attack action in combat. Additionally, your dragon gains the following attack options, which it can use with the Attack action. Your dragon is proficient with them, and adds its Strength modifier to their attack and damage rolls. If an option causes a creature to make a saving throw, the save DC is equal to 8 + your proficiency bonus + the dragon's Strength modifier. Your dragon can use these attack options a number of times equal to its Strength modifier (minimum of once.) It regains any expended uses when it finishes a short or long rest.",
+				{
+					"type": "entries",
+					"name": "Bite Attack",
+					"entries": [
+						"Your dragon makes a melee weapon attack against a creature within 5 feet of it. On a hit, the target takes 1d8 piercing damage, and an extra 1d6 damage. This extra damage increases to 2d6 at 6th level, 3d6 at 10th level, and 4d6 at 14th level. The additional damage is the same type as the one associated with your Draconic Covenant."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a melee weapon attack against a creature within 5 feet of it. On a hit, the target takes 1d8 bludgeoning damage, and must succeed on a Strength saving throw or be knocked prone. The reach of this attack increases to 10ft at 6th level, 15ft at 10th level, and 20ft at 14th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wing Attack",
+					"entries": [
+						"Rather than making an attack, your dragon can beat its wings. Creatures of your choice within 5 feet of your dragon must make a Strength saving throw. On a failed save, a creature is pushed 5 feet away from the dragon. The range of the push and distance a creature is pushed on a failed save increases by 5 feet at 6th level, 10th level, and 14th level. Immediately after making this special attack, your dragon can move up to half its flying speed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragon Knight Practice",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you can choose a Practice that defines your combat style, either Rider, Elemental, Platinum, or Shadow. These practices are detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
+			]
+		},
+		{
+			"name": "Eye For Detail",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you can easily discern the value and rarity of gems, art pieces, and magical items. You can spend 1 minute studying a gem or art piece, after which you learn its exact value. Additionally, if it is a gemstone, you learn what kind of gemstone it is. If it's an art piece, you learn how old it is. Furthermore, you can cast the identify spell, but only as a ritual. You don't require material components for the spell when you cast it this way."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Coordinated Attack",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th Level, you and your dragon companion form a more potent fighting team. When you take the Attack action on your turn, if your dragon companion can see or hear you, it can use its reaction to make a single claw attack."
+			]
+		},
+		{
+			"name": "Draconic Growth",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 5,
+			"entries": [
+				"At 5th level, your dragon companion's flying speed increases by 15 feet, its other speeds increase by 10 feet, and it no longer falls to the ground if it ends its turn in the air. At 9th level it's flying speed and other speeds increase by a further 15 feet and 10 feet respectively."
+			]
+		},
+		{
+			"name": "Rending Strikes",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 5,
+			"entries": [
+				"Also at 5th level, the damage of your dragon's bite, claw, and tail attacks increases to 2d6. At 11th level, they increase to 3d6.",
+				"Additionally, your dragon companion's attacks count as magical for the purpose of overcoming resistance and immunity to non magical attacks and damage."
+			]
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, your dragon has developed the ability to unleash raw, destructive elements from its mouth. The damage of the breath weapon, as well as its area, is determined by the color of your dragon. As an action on its turn, the dragon can exhale this destructive energy. Each creature in the area takes 4d6 damage on a failed save, or half as much on a successful one, with the saving throw calculated as follows:",
+				"Breath Save DC = 8 + your proficiency bonus + your dragon's Constitution modifier",
+				"The area of the line and cone and the damage of the breath weapon increase as you gain levels in this class, as shown below.",
+				"Your Dragon may use this ability a number of times equal to your proficiency bonus, regaining all expended uses on a long rest",
+				"Rathaa uses breath weapon line scaling"
+			]
+		},
+		{
+			"name": "Draconic Heart",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 11,
+			"entries": [
+				"At 11th Level, your bond with rathaa has grown to the point of near perfection granting you both the following benefits.",
+				"Immune to the frightened condition",
+				"You may add your charisma bonus to your initiative",
+				"You both gain advantage on perception checks"
+			]
+		},
+		{
+			"name": "Titanic Roar",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, your dragon can let loose a vicious roar, filling nearby creatures with dread. As an action on its turn, your dragon can roar. Any number of creatures of your choice within 20 feet of the dragon must make a Wisdom saving throw against the dragon's breath weapon DC. On a failed save, creatures are frightened of the dragon for 1 minute. The creature can repeat the saving throw at the end each of their turns, ending the effect on a success.",
+				"Once your dragon has used this ability, it can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Legacy Of The Dragon",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 14,
+			"entries": [
+				"At 14th level, you have been blessed with a dragon's extended lifespan. You age only one year for every ten years that pass, and can't be aged magically."
+			]
+		},
+		{
+			"name": "Ancient Resistance",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 17,
+			"entries": [
+				"At 17th level, you can shrug off even the most dangerous effects. Whenever you or your dragon fail a saving throw, you can choose to turn that failure into a success.",
+				"Once you use this feature, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Fulfilled Covenant",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 20,
+			"entries": [
+				"At 20th level, you and your dragon share hit points, the total of which is equal to your hit point maximum + your dragon's hit point maximum. Whenever one of you takes damage, that damage is subtracted from your combined hit point maximum. When this hit point maximum hits 0, both you and your dragon fall unconscious, but only you make death saving throws. If you become stable or die, so does your dragon. If you receive any healing, both you and your dragon return to consciousness. When you spend hit dice during a short rest, you can use both your hit dice and your dragon's hit dice to restore hit points."
+			]
+		},
+		{
+			"name": "Dragon Knight Practice Feature",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain a feature from your Dragon Knight Practice."
+			]
+		},
+		{
+			"name": "Dragon Knight Practice Feature",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature from your Dragon Knight Practice."
+			]
+		},
+		{
+			"name": "Dragon Knight Practice Feature",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature from your Dragon Knight Practice."
+			]
+		},
+		{
+			"name": "Dragon Knight Practice Feature",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature from your Dragon Knight Practice."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"subclassFeatures": [
+				"Platinum Practice|Dragon Knight|TalesOfIntrigue|Platinum|TalesOfIntrigue|3",
+				"Draconic Radiance|Dragon Knight|TalesOfIntrigue|Platinum|TalesOfIntrigue|3",
+				"Platinum Protector|Dragon Knight|TalesOfIntrigue|Platinum|TalesOfIntrigue|3",
+				"Holy Light|Dragon Knight|TalesOfIntrigue|Platinum|TalesOfIntrigue|7",
+				"Radiant Bastion|Dragon Knight|TalesOfIntrigue|Platinum|TalesOfIntrigue|10",
+				"Divine Covenant|Dragon Knight|TalesOfIntrigue|Platinum|TalesOfIntrigue|15",
+				"Platinum Ward|Dragon Knight|TalesOfIntrigue|Platinum|TalesOfIntrigue|18"
+			],
+			"shortName": "Platinum",
+			"name": "Platinum Practice",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"page": ""
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Platinum Practice",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"subclassShortName": "Platinum",
+			"subclassSource": "TalesOfIntrigue",
+			"entries": [
+				"A few dragon knights worship the Platinum Dragon, Bahamut. These few are members of the Platinum Practice, and are dedicated to preserving the lives of their allies and the innocent. Accepting the Platinum practice allows you to attune to items previously only attainable by paladins"
+			],
+			"level": 3,
+			"page": ""
+		},
+		{
+			"name": "Draconic Radiance",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"subclassShortName": "Platinum",
+			"subclassSource": "TalesOfIntrigue",
+			"entries": [
+				"At 3rd level, your draconic nature and that of your companion shifts to reflect the holy magic you now wield. The damage type associated with your Draconic Covenant becomes radiant, and any damage and condition immunities your dragon companion has are replaced with immunity to radiant damage. Your dragon also physically shifts to reflect this change, and its scales change color to look like the brightest platinum."
+			],
+			"level": 3,
+			"page": ""
+		},
+		{
+			"name": "Platinum Protector",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"subclassShortName": "Platinum",
+			"subclassSource": "TalesOfIntrigue",
+			"entries": [
+				"At 3rd level, as a bonus action for one minute, you may bathe all allies within 10ft in a platinum light, while in the light your allies gain the following benefits:",
+				"When an affected ally takes damage they reduce that damage by your dragon knight level.",
+				"Once you have used this ability you may not do so again until you take a long rest Your aura’s range increases by five feet at 4th, 8th, 12th, and 16th lvl.",
+				"At 20th level any ally in your aura receives your dragon knight level in temp hp at the start of each of your turns."
+			],
+			"level": 3,
+			"page": ""
+		},
+		{
+			"name": "Holy Light",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"subclassShortName": "Platinum",
+			"subclassSource": "TalesOfIntrigue",
+			"entries": [
+				"At 7th level, any evil creature that is within your aura takes additional damage from your attacks equal to your proficiency bonus, also your aura sheds bright light"
+			],
+			"level": 7,
+			"page": ""
+		},
+		{
+			"name": "Radiant Bastion",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"subclassShortName": "Platinum",
+			"subclassSource": "TalesOfIntrigue",
+			"entries": [
+				"Beginning at 10th level, you're able to easily stand against the tide of battle. You and your dragon have advantage on ability checks and saving throws to avoid being knocked prone, grappled, restrained, or otherwise moved against your will."
+			],
+			"level": 10,
+			"page": ""
+		},
+		{
+			"name": "Divine Covenant",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"subclassShortName": "Platinum",
+			"subclassSource": "TalesOfIntrigue",
+			"entries": [
+				"Starting at 15th level, when an ally within 15ft of you falls unconscious you may use your reaction to expend a hit die to heal that ally. Your ally regains hp equal to the number rolled + half your dragon knight level rounded up. You may use this ability a number of times equal to your proficiency bonus"
+			],
+			"level": 15,
+			"page": ""
+		},
+		{
+			"name": "Platinum Ward",
+			"source": "TalesOfIntrigue",
+			"className": "Dragon Knight",
+			"classSource": "TalesOfIntrigue",
+			"subclassShortName": "Platinum",
+			"subclassSource": "TalesOfIntrigue",
+			"entries": [
+				"At 18th level, you and your dragon embrace the true power of Bahamut, and his grace safeguards you both. You and your dragon companion gain resistance to bludgeoning, piercing, and slashing damage from non magical weapons. Additionally, whenever you or your dragon take damage that would be equal to or lower than half your dragon knight level + prof bonus before resistances are applied, you instead take no damage. "
+			],
+			"level": 18,
+			"page": ""
 		}
 	]
 }

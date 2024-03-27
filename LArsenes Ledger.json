@@ -1,0 +1,1170 @@
+{
+	"_meta": {
+	  "sources": [
+		{
+		  "json": "LArsenesLedger",
+		  "abbreviation": "LL",
+		  "full": "L`Arsene's Ledger",
+		  "authors": [
+			"Loot Tavern"
+		  ],
+		  "convertedBy": [
+			""
+		  ],
+		  "url": "",
+		  "version": ".90"
+		}
+	  ],
+	  "dateAdded": 0,
+	  "dateLastModified": 0
+	},
+	"subclass": [
+	  {
+		"subclassFeatures": [
+		  "Swarmslinger|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|3",
+		  "Swarmcatcher|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|3",
+		  "Overwhelm|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|3",
+		  "Swarmslinger Spells|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|3",
+		  "Plague Of Pests I|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|7",
+		  "Distracting Onslaught|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|10",
+		  "Swarmform|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|14",
+		  "Plague Of Pests II|Tamer|helianasguidetomonsterhunting|Swarmslinger|LArsenesLedger|18"
+		],
+		"subclassSpells": [
+		  "command",
+		  "shield",
+		  "enlarge/reduce",
+		  "protection|helianasguidetomonsterhunting",
+		  "hypnotic pattern",
+		  "spirit guardians",
+		  "freedom of movement",
+		  "polymorph",
+		  "insect plague",
+		  "mislead"
+		],
+		"shortName": "Swarmslinger",
+		"name": "Swarmslinger",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"page": 265
+	  },
+	  {
+		"subclassFeatures": [
+		  "Path Of The Brewmaster|Barbarian|PHB|Brewmaster|LArsenesLedger|3",
+		  "Brewer|Barbarian|PHB|Brewmaster|LArsenesLedger|3",
+		  "Ancestral Spirits|Barbarian|PHB|Brewmaster|LArsenesLedger|3",
+		  "Brewer's Gut|Barbarian|PHB|Brewmaster|LArsenesLedger|6",
+		  "Drinking Buddiesdrinking Buddies|Barbarian|PHB|Brewmaster|LArsenesLedger|10",
+		  "Fermented Binge|Barbarian|PHB|Brewmaster|LArsenesLedger|14"
+		],
+		"shortName": "Brewmaster",
+		"name": "Path Of The Brewmaster",
+		"source": "LArsenesLedger",
+		"className": "Barbarian",
+		"classSource": "PHB",
+		"page": 0
+	  },
+	  {
+		"subclassFeatures": [
+		  "College Of Mixology|Bard|PHB|Mixology|LArsenesLedger|3",
+		  "Flair Bartending|Bard|PHB|Mixology|LArsenesLedger|3",
+		  "Pick Your Poison|Bard|PHB|Mixology|LArsenesLedger|3",
+		  "Barside Therapy|Bard|PHB|Mixology|LArsenesLedger|6",
+		  "Quick Fix|Bard|PHB|Mixology|LArsenesLedger|6",
+		  "Garnish|Bard|PHB|Mixology|LArsenesLedger|14"
+		],
+		"shortName": "Mixology",
+		"name": "College Of Mixology",
+		"source": "LArsenesLedger",
+		"className": "Bard",
+		"classSource": "PHB",
+		"page": 0
+	  },
+	  {
+		"subclassFeatures": [
+		  "Festivity Domain|Cleric|PHB|Festivity|LArsenesLedger|1",
+		  "Domain Spells|Cleric|PHB|Festivity|LArsenesLedger|1",
+		  "Reveler's Resilience|Cleric|PHB|Festivity|LArsenesLedger|1",
+		  "Life Of The Partylife Of The Party|Cleric|PHB|Festivity|LArsenesLedger|1",
+		  "Channel Divinity: Invoke Festivitieschannel Divinity: Invoke Festivities|Cleric|PHB|Festivity|LArsenesLedger|2",
+		  "Afterparty|Cleric|PHB|Festivity|LArsenesLedger|6",
+		  "Potent Spellcastingpotent Spellcasting|Cleric|PHB|Festivity|LArsenesLedger|8",
+		  "The Grand Revelrythe Grand Revelry|Cleric|PHB|Festivity|LArsenesLedger|"
+		],
+		"shortName": "Festivity",
+		"name": "Festivity Domain",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"page": 0
+	  },
+	  {
+		"subclassFeatures": [
+		  "Tavern Brawler|Fighter|PHB|Tavern Brawler|LArsenesLedger|3",
+		  "Barroom Wrestler|Fighter|PHB|Tavern Brawler|LArsenesLedger|3",
+		  "Inn-habitor|Fighter|PHB|Tavern Brawler|LArsenesLedger|3",
+		  "Tavern Tusslertavern Tussler|Fighter|PHB|Tavern Brawler|LArsenesLedger|3",
+		  "Twisting Grapples|Fighter|PHB|Tavern Brawler|LArsenesLedger|7",
+		  "Uncanny Technique|Fighter|PHB|Tavern Brawler|LArsenesLedger|10",
+		  "Tavern Regular|Fighter|PHB|Tavern Brawler|LArsenesLedger|15",
+		  "Grandstand Performer|Fighter|PHB|Tavern Brawler|LArsenesLedger|18"
+		],
+		"shortName": "Tavern Brawler",
+		"name": "Tavern Brawler",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"page": 0
+	  },
+	  {
+		"subclassFeatures": [
+		  "Way Of The Artisan|Monk|PHB|Artisan|LArsenesLedger|3",
+		  "Tools Of The Trade|Monk|PHB|Artisan|LArsenesLedger|3",
+		  "Soulful Craft|Monk|PHB|Artisan|LArsenesLedger|3",
+		  "Strike Of Inspiration|Monk|PHB|Artisan|LArsenesLedger|6",
+		  "Art History|Monk|PHB|Artisan|LArsenesLedger|11",
+		  "Dying Art|Monk|PHB|Artisan|LArsenesLedger|17"
+		],
+		"shortName": "Artisan",
+		"name": "Way Of The Artisan",
+		"source": "LArsenesLedger",
+		"className": "Monk",
+		"classSource": "PHB",
+		"page": 0
+	  },
+	  {
+		"subclassFeatures": [
+		  "Charlatan|Rogue|PHB|Charlatan|LArsenesLedger|3",
+		  "Premeditation|Rogue|PHB|Charlatan|LArsenesLedger|3",
+		  "Hidden Weapons|Rogue|PHB|Charlatan|LArsenesLedger|3",
+		  "Costume Change|Rogue|PHB|Charlatan|LArsenesLedger|9",
+		  "Surprise!|Rogue|PHB|Charlatan|LArsenesLedger|13",
+		  "Harmless|Rogue|PHB|Charlatan|LArsenesLedger|17"
+		],
+		"shortName": "Charlatan",
+		"name": "Charlatan",
+		"source": "LArsenesLedger",
+		"className": "Rogue",
+		"classSource": "PHB",
+		"page": 0
+	  }
+	],
+	"subclassFeature": [
+	  {
+		"name": "Swarmslinger",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "It takes a malleable and open mind to bond with a swarm of creatures; one needs to tune out the hubbub of bite-sized information and learn to listen to the group as a whole. How did you discover you could control masses of creatures? Perhaps you were a perfumier whose arrangement of scents guided the actions of bees. Maybe you were training as a bard when you found that those who liked your music most were a literal pack of rats. Or maybe you made your clothing a home for a family of creatures who now look to you for leadership. Whatever it is, your command of hordes of creatures gives you the ability to overrun any foe."
+		],
+		"level": 3,
+		"page": 265
+	  },
+	  {
+		"name": "Swarmcatcher",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "You understand the hivemind behaviour of a swarm and can tame swarms of creatures as if they were a single creature using your Tame Creature feature. A creature doesn't automatically succeed on its Charisma saving throw to avoid becoming your companion as a result of having the swarm type, but all other restrictions still apply. In addition, you can attempt to tame Medium swarms starting at 3rd level.",
+		  "Unlike normal swarms, swarms that are your companions can regain hit points and gain temporary hit points. Swarms typically can't wield weapons, and providing armour for each individual member of a swarm would likely be prohibitively expensive; your GM has the final decision on these matters. "
+		],
+		"level": 3,
+		"page": 265
+	  },
+	  {
+		"name": "Overwhelm",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "When it comes to swarms, quantity is better than quality. When your swarm companion makes an attack roll against a creature whose space it is sharing, hit or miss, the attack deals a minimum amount of damage equal to the ability modifier your swarm companion used to make the attack roll plus your proficiency bonus. If the swarm has half its hit points or fewer, this damage is halved. The minimum damage can't be increased in any way, other than by increasing the ability modifier or your proficiency bonus. "
+		],
+		"level": 3,
+		"page": 265
+	  },
+	  {
+		"name": "Swarmslinger Spells",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "You learn additional spells when you reach certain levels in this class, as shown in the Swarmslinger Spells table. Each spell counts as a tamer spell for you, but it doesn't count against the number of tamer spells you know.",
+		  {
+			"type": "table",
+			"colLabels": [
+			  "Tamer Level",
+			  "Spell"
+			],
+			"colStyles": [
+			  "col-1 text-center",
+			  "col-11"
+			],
+			"rows": [
+			  [
+				"3rd",
+				"{@spell command}, {@spell shield}**"
+			  ],
+			  [
+				"5th",
+				"{@spell enlarge/reduce}, {@spell protection|helianasguidetomonsterhunting}*"
+			  ],
+			  [
+				"9th",
+				"{@spell hypnotic pattern}**, {@spell spirit guardians}**"
+			  ],
+			  [
+				"13th",
+				"{@spell freedom of movement}**, {@spell polymorph}***"
+			  ],
+			  [
+				"17th",
+				"{@spell insect plague}, {@spell mislead}**"
+			  ]
+			]
+		  },
+		  "*See Appendix B.",
+		  "**These spells are themed around swarms; shield might summon a swarm of bees to deflect the attack, while spirit guardians could manifest as a swarm of flying piranhas.",
+		  "***This must be a swarm and can be any creature type. "
+		],
+		"level": 3,
+		"page": 265
+	  },
+	  {
+		"name": "Plague Of Pests I",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "As an action, you magically conjure duplicates of your swarm companion's individual members. Until the start of your next turn, its size increases by two categories (up to Gargantuan), and it gains temporary hit points equal to its hit point maximum. As an action on its turn, your swarm companion can make three melee weapon attacks divided as it wishes among targets in its space.",
+		  "Once you use this action, you can't use it again until you finish a short or long rest."
+		],
+		"level": 7,
+		"page": 265
+	  },
+	  {
+		"name": "Distracting Onslaught",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "Your swarms can interfere with those whose spaces they share. When a creature whose space your swarm companion shares makes an attack roll, your companion can use its reaction to impose disadvantage on the attack roll. "
+		],
+		"level": 10,
+		"page": 265
+	  },
+	  {
+		"name": "Swarmform",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "As an action, you conjure a swarm of Tiny creatures that flit about you in an opaque, protective cloud. For the next minute, you have a flying speed of 30 feet; you have resistance to bludgeoning, piercing, and slashing damage; you have advantage on Strength, Dexterity, and Constitution saving throws; and you are heavily obscured. The swarm is translucent to you, allowing you to see through it.",
+		  "As a bonus action on each of your turns for the feature's duration, you can launch a portion of the swarm with lethal intent, forcing a creature you can see within 120 feet of you to make a Dexterity saving throw against your tamer spell save DC. The creature takes 13 (3d8) bludgeoning, piercing, or slashing damage (your choice when you take the action) on a failure, or half as much damage on a success."
+		],
+		"level": 14,
+		"page": 265
+	  },
+	  {
+		"name": "Plague Of Pests II",
+		"source": "LArsenesLedger",
+		"className": "Tamer",
+		"classSource": "helianasguidetomonsterhunting",
+		"subclassShortName": "Swarmslinger",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "Starting at 18th level, you can use this action twice before a rest. "
+		],
+		"level": 18,
+		"page": 265
+	  },
+	  {
+		"name": "Path Of The Brewmaster",
+		"source": "LArsenesLedger",
+		"className": "Barbarian",
+		"classSource": "PHB",
+		"subclassShortName": "Brewmaster",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "The right drink is welcome on any occasion. Mayhaps you want to invigorate your body ahead of a bloody brawl, ru minate over a moral quandary, celebrate a sensational drag on slaying, or fill your veins with liquid bread after a hard day's slog through the elements. Knowing which drink to suggest for which occasion—and having that drink on hand—is what separates a lay brewer from a brewmaster. For a brewmaster, the act of brewing—a process which can take months—is a practice in mindfulness. Carrying their barrels and demijohns from place to place, you would be mistaken to construe these individuals as peaceful. This apparent tranquillity is but the calm before the storm, for when a brewmaster enters a rage, they do so fueled by the fermented products of their labours. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Brewer",
+		"source": "LArsenesLedger",
+		"className": "Barbarian",
+		"classSource": "PHB",
+		"subclassShortName": "Brewmaster",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, years spent experimenting in breweries and kombucha clubs have given you a taste for fermentation and experi ence in bar room brawls. You gain proficiency with brewer's supplies and improvised weapons, and you have a +1 bo nus to attack and damage rolls you make with improvised weapons. When you reach 6th level in this class, attacks made with improvised weapons count as magical for the purpose of overcoming resistance and immunity to non magical attacks and damage. When you reach 10th level in this class, the attack and damage bonus increases to +2. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Ancestral Spirits",
+		"source": "LArsenesLedger",
+		"className": "Barbarian",
+		"classSource": "PHB",
+		"subclassShortName": "Brewmaster",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, the act of refining ingredients, maintaining special yeast cultures, and carefully monitoring a brew's progress is a ritualistic practice through which you find connection with your forebears and the natural world around you. The beverages you brew are fortified with the spirits of your ancestors, imparting enhanced benefits to you.",
+		  "When you finish a long rest, you can use brewer's supplies to prepare a number of beverages equal to the number shown for your barbarian level in the Rages col umn of the Barbarian table (maximum 6), choosing from the list below (you can choose the same option more than once). When you enter a rage, you can imbibe one of these beverages (choosing from those that you prepared) as part of the bonus action you use to enter the rage, gaining its benefits for the duration of the rage. Undrunk beverages lose their potency when you finish a long rest.",
+		  {
+			"type": "entries",
+			"name": "Kefir",
+			"entries": [
+			  "A nutritious, creamy beverage, kefir fortifies your body. You have advantage on Constitution saving throws."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Kombucha",
+			"entries": [
+			  "A stimulating blend of fermented teas, this bubbly drink hones your reactions. You gain an additional reaction each round that can be used only to make oppor tunity attacks. You can take only one reaction per turn."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Mead",
+			"entries": [
+			  "Sweet, honey mead fuels your body. Your walk ing speed increases by 10 feet and opportunity attacks made against you have disadvantage."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Sake",
+			"entries": [
+			  "Strongly alcoholic, this clear liquid lends you a bloody, single-mindedness. You have advantage on Wisdom saving throws."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Stout",
+			"entries": [
+			  "Dark, liquid bread is a bonafide meal replace ment. You gain 1d4 temporary hit points at the start of each of your turns. If you have fewer than half your maximum hit points, you instead regain 1d4 hit points These dice both increase to 1d8 when you reach 10th level in this class. "
+			]
+		  }
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Brewer's Gut",
+		"source": "LArsenesLedger",
+		"className": "Barbarian",
+		"classSource": "PHB",
+		"subclassShortName": "Brewmaster",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 6th level, over time, you've imbibed an amalgam of experimental yeasts that have fortified your gut. When you finish a short or long rest, you gain one of the following benefits of your choice, which lasts until you finish a short or long rest:",
+		  {
+			"type": "entries",
+			"name": "Beer Jacket",
+			"entries": [
+			  "You have resistance to cold damage."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Guts of Steel",
+			"entries": [
+			  "You have resistance to poison damage."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Liquid Courage",
+			"entries": [
+			  "You are immune to the frightened condition. As a bonus action, you can give a fright ened creature that is friendly to you and within your reach a good-natured slap, allowing it to repeat the saving throw against the condition with advantage. "
+			]
+		  }
+		],
+		"level": 6,
+		"page": 0
+	  },
+	  {
+		"name": "Drinking Buddiesdrinking Buddies",
+		"source": "LArsenesLedger",
+		"className": "Barbarian",
+		"classSource": "PHB",
+		"subclassShortName": "Brewmaster",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 10th level, sharing is caring. During a short or long rest, you can spend 30 minutes crafting a pitcher of beverages for up to 10 creatures. At the end of the rest, all creatures that drink your beverage gain your choice of one of the fol lowing benefits until it next finishes a short or long rest. Undrunk beverages lose their potency when you finish a short or long rest.",
+		  {
+			"type": "entries",
+			"name": "Ginger Ale",
+			"entries": [
+			  "Fiery and stimulating, one can react quickly. The creature has advantage on initiative rolls."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Pulque",
+			"entries": [
+			  "Good accompaniment for a drinking song. The creature gains a bonus to Charisma checks equal to your Constitution modifier (minimum bonus of +1)."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Warm Cider",
+			"entries": [
+			  "A wholesome beverage. The creature gains 3 temporary hit points at the start of each of its turns. "
+			]
+		  }
+		],
+		"level": 10,
+		"page": 0
+	  },
+	  {
+		"name": "Fermented Binge",
+		"source": "LArsenesLedger",
+		"className": "Barbarian",
+		"classSource": "PHB",
+		"subclassShortName": "Brewmaster",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 14th level, you have grown a strain of super yeast within yourself that you can activate when you enter a rage. When you drink one of the beverages from your Ancestral Spirits feature, you can enhance the drink to gain an additional benefit based on its type.",
+		  {
+			"type": "entries",
+			"name": "Kefir",
+			"entries": [
+			  "You are immune to poison damage and the poisoned condition, and you have advantage on saving throws made to avoid or end the exhaustion condition on yourself."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Kombucha",
+			"entries": [
+			  "Creatures provoke an opportunity attack from you when they move within your reach."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Mead",
+			"entries": [
+			  "Your walking speed increases by an additional 10 feet (20 feet total increase), and you can take the Dis engage action as a bonus action on each of your turns."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Sake",
+			"entries": [
+			  "You have resistance to psychic damage and are immune to the charmed condition."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Stout",
+			"entries": [
+			  "The number of hit points regained or temporary hit points gained from this drink is doubled.",
+			  "After you have used this feature, you can't do so again until you finish a short or long rest. "
+			]
+		  }
+		],
+		"level": 14,
+		"page": 0
+	  },
+	  {
+		"name": "College Of Mixology",
+		"source": "LArsenesLedger",
+		"className": "Bard",
+		"classSource": "PHB",
+		"subclassShortName": "Mixology",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "A bard of the College of Mixology considers themselves every bit an artist as any painter or musician. After all, does the playful glint of a glass bottle pirouetting through the air in a perfect arc not compare to a graceful arabesque? Does the exquisite blend of carefully curated flavours not bring to mind the mixing of colours on a canvas? And does the feeling of a gentle buzz not relax the soul like the delicately plucked strings of a harp?",
+		  "Adventurous experimenters and eccentric visionaries at heart, mixologists often clash in matters of palate and presentation with bards of the College of Cuisine. These sister colleges maintain a heated rivalry, periodically holding grand competitions that result in meals so sub lime, they have been known to make seasoned connois seurs cry at first taste. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Flair Bartending",
+		"source": "LArsenesLedger",
+		"className": "Bard",
+		"classSource": "PHB",
+		"subclassShortName": "Mixology",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, with impeccable showmanship and nary a spilled drop, you've learned to dazzle audiences by dexterously manip ulating your mixology tools. You gain proficiency with brewer's supplies and can use them as a spellcasting focus for your bard spells.",
+		  "As an action, you can begin a mixological show which lasts up to 1 minute. You must use your action at the start of each of your turns to continue this performance; if you don't, it ends immediately. When the performance starts, make a Dexterity (brewer's supplies) check. Creatures of your choice within 30 feet of you that can see you whose passive Insight score is lower than the result of your check are distracted by your performance, gaining disadvantage on Perception checks for the dura tion of the show.",
+		  "If you roll a 1 on the d20, you drop some of your tools and the effect fails to occur. The threshold to drop your tools subsequently increases by 1 each time you make a Dexterity (brewer's supplies) check using this fea ture, resetting to 1 when you finish a short or long rest. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Pick Your Poison",
+		"source": "LArsenesLedger",
+		"className": "Bard",
+		"classSource": "PHB",
+		"subclassShortName": "Mixology",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, expertly combining only the finest ingredients, you've learned to make delicious beverages that delight even the dourest dwarf. You can use a set of brewer's supplies to prepare a special cocktail over the course of 1 minute. When you do, select up to two different ingredients from the table below, which you magically conjure to mix the cocktail. A creature can drink a cocktail as an action, gaining the effects of the chosen ingredients, which last for 10 minutes or until the creature drinks another cock tail. A cocktail that isn't consumed loses its potency when you finish a long rest.",
+		  "Ingredient Effect",
+		  "Celestial citrus juice",
+		  "The creature regains 1d8 hit points, which aren't lost after the effect ends.",
+		  "Drow rum",
+		  "The creature gains darkvision out to a range of 30 feet. If it already has darkvision, its range is in creased by 30 feet.",
+		  "Dwarven whiskey The creature gains 2d6 temporary hit points.",
+		  "Elemental gin The creature gains advantage on initiative rolls.",
+		  "Sea elf seltzer The creature gains a swimming speed equal to its walking speed.",
+		  "Extraplanar vodka The creature gains a +1 bonus to the damage rolls of its weapon attacks.",
+		  "Feyberry syrup The creature's walking speed is increased by 5 feet.",
+		  "Gnomish coffee liqueur",
+		  "The creature's jump distance is doubled.",
+		  "You can use this feature to create a cocktail a number of times equal to your Charisma modifier (minimum once), and you regain all expended uses when you finish a long rest.",
+		  {
+			"type": "inset",
+			"name": "Optional Rule: Cocktail PotionsOptional Rule: Cocktail Potions",
+			"entries": [
+			  "Whenever you make a cocktail with a garnish using your Pick Your Poison feature, you can choose to substitute the garnish for an equivalent creature part harvested using the Harvesting rules in Heliana's Guide to Monster Hunting, and expend a spell slot of 3rd-level or higher in the process. This expends the creature part, but the resulting cocktail doesn't lose its potency when you finish a long rest. You can have a number of cocktails prepared in this way equal to your Charisma modifier. If making a new one would put you over this limit, the oldest cocktail loses its potency. "
+			]
+		  }
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Barside Therapy",
+		"source": "LArsenesLedger",
+		"className": "Bard",
+		"classSource": "PHB",
+		"subclassShortName": "Mixology",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 6th level, you are a seasoned expert at dealing with the inebriated and have a few tricks up your sleeve to make the sober become intoxicated. You have advantage on ability checks made to interact socially with poisoned creatures and, when you make a cocktail with your Pick Your Poison feature, you can overload it with magically potent alcohol instead of choosing ingredients. A creature that drinks this cocktail must succeed on a Constitution saving throw against your bard spell save DC or be poisoned for 10 minutes. "
+		],
+		"level": 6,
+		"page": 0
+	  },
+	  {
+		"name": "Quick Fix",
+		"source": "LArsenesLedger",
+		"className": "Bard",
+		"classSource": "PHB",
+		"subclassShortName": "Mixology",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 6th level, pain you as it might, you can rush your creative process to prepare one of your cocktails on the spot. As a bonus action, you can expend one use of your Bardic Inspira tion to prepare a cocktail with your Pick Your Poison feature, and either drink it or toss it to a willing creature you can see within 30 feet of you, who can immediately use its reaction to drink it. "
+		],
+		"level": 6,
+		"page": 0
+	  },
+	  {
+		"name": "Garnish",
+		"source": "LArsenesLedger",
+		"className": "Bard",
+		"classSource": "PHB",
+		"subclassShortName": "Mixology",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 14th level, presentation matters, and you've learned to take your drinks to the next level with some tasteful embellish ments, magical replicas of creature parts that you conjure out of thin air. Whenever you make a cocktail with your Pick Your Poison feature, you can select one of the ingre dients from the table below as garnish, which provides an additional effect for the cocktail's duration.",
+		  "Ingredient Effect",
+		  "Aberration eye The creature gains blindsight to a range of 30 feet.",
+		  "Celestial feather The creature gains a flying speed equal to its walking speed.",
+		  "Construct gear The effects of the cocktail last for 1d4 hours instead of 10 minutes.",
+		  "Dragon scale",
+		  "Choose acid, cold, fire, lightning, or poison when you make the cocktail. The creature gains resist ance to that damage type.",
+		  "Fiend horn",
+		  "The creature gains advantage on saving throws against spells and other magical effects. "
+		],
+		"level": 14,
+		"page": 0
+	  },
+	  {
+		"name": "Festivity Domain",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "Worshipping deities like Dionysus, Bacchus, Sucellus, and Inari, clerics of the Festivity domain spread joy and fri volity wherever they roam. If not kept in check, the most insignificant gathering can spin out of control to become a roiling crowd of jubilation as the cleric miraculously finds food and drink with which to incite a celebration.",
+		  "Indeed, tales abound of clerics of Festivity infiltrating fortified citadels under siege, instigating exuberant carous ing, and leaving their fellow merrymakers collapsed and exhausted after expending every last iota of energy. It is then a simple task for a waiting army to enter the city and lock their fatigued foes in chains. As the ancient proverb goes, “there is no celebration comparable to a cleric's cele bration, for a cleric's celebration does not cease”."
+		],
+		"level": 1,
+		"page": 0
+	  },
+	  {
+		"name": "Domain Spells",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 1st level, you gain domain spells at the cleric levels listed in the Festivity Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+		  "Festivity Domain Spells",
+		  "Cleric Level Spells",
+		  "1st charm person, heroism",
+		  "3rd protection from poison, sugar rush*",
+		  "5th create food and water, hypnotic pattern",
+		  "7th freedom of movement, Humperdink's irresist ible revelry*",
+		  "9th endure*, purple rain*"
+		],
+		"level": 1,
+		"page": 0
+	  },
+	  {
+		"name": "Reveler's Resilience",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 1st level, you refuse to let your carousing be interrupted by some thing as trivial as a little pain. When you fail a saving throw to maintain concentration on a spell, you can use your reaction to reroll that saving throw. You can use this feature a number of times equal to your Wisdom mod ifier (minimum of once). You regain all expended uses when you finish a long rest. "
+		],
+		"level": 1,
+		"page": 0
+	  },
+	  {
+		"name": "Life Of The Partylife Of The Party",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 1st level, you're an expert celebrant, armed with a plethora of tricks to liven up any party and a silver tongue to charm other guests. You learn the flare cantrip (see Appendix B). This doesn't count against the number of cantrips you know.",
+		  "In addition, you can use your Wisdom modifier in place of your Charisma modifier when making Charisma checks and Charisma saving throws. "
+		],
+		"level": 1,
+		"page": 0
+	  },
+	  {
+		"name": "Channel Divinity: Invoke Festivitieschannel Divinity: Invoke Festivities",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 2nd level, you can use your Channel Divinity to conjure an atmosphere of celebration and merrymaking, lifting the spirits of your allies and imbuing them with the power of revelry. As an action, you present your holy symbol and choose up to three friendly creatures you can see within 30 feet of you and one of the festivals below. The chosen creatures gain the benefits of the chosen festival until the end of your next turn.",
+		  {
+			"type": "entries",
+			"name": "Blossom Festival",
+			"entries": [
+			  "You celebrate the growth of new life after the harshness of winter, and the beauty and vig our of youth. A creature regains 1d8 hit points at the start of its turn and deals an extra 1d8 radiant damage the first time it hits with an attack on its turn."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Midsummer Festival",
+			"entries": [
+			  "You celebrate long days and hot weather, as well as the sense of freedom they provide. A creature's speed increases by 15 feet, and it deals an extra 1d8 fire damage the first time it hits with an attack on its turn."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Harvest Festival",
+			"entries": [
+			  "You celebrate nature's bounty and reap the rewards of your hard work. A creature deals an extra 1d8 necrotic damage the first time it hits with an attack on its turn, and it gains temporary hit points equal to the necrotic damage dealt, which last for 1 minute."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Midwinter Festival",
+			"entries": [
+			  "You celebrate your community, banding together to endure the coming cold. A crea ture gains a +1 bonus to its AC and deals an extra 1d8 cold damage the first time it hits with an attack on its turn. "
+			]
+		  }
+		],
+		"level": 2,
+		"page": 0
+	  },
+	  {
+		"name": "Afterparty",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 6th level, your celebrations have become so momentous that their effects linger even after they come to an end, leaving your allies invigorated and your foes exhausted. When a creature stops being under the effect of your Channel Divinity or a spell of 1st level or higher that you cast, one of the following effects takes place: If the creature is friendly to you, it gains 2d6 tempo- rary hit points that last for 10 minutes.",
+		  "- If the creature is hostile to you, it gains disadvantage on the next attack roll it makes within 10 minutes. "
+		],
+		"level": 6,
+		"page": 0
+	  },
+	  {
+		"name": "Potent Spellcastingpotent Spellcasting",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 8th level, starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip. "
+		],
+		"level": 8,
+		"page": 0
+	  },
+	  {
+		"name": "The Grand Revelrythe Grand Revelry",
+		"source": "LArsenesLedger",
+		"className": "Cleric",
+		"classSource": "PHB",
+		"subclassShortName": "Festivity",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At null level, when you use your Invoke Festivities, you can choose to augment it, transforming it into the festival of the year. If you do, the effects last for 1 minute instead of until the end of your next turn, and, in addition to the friendly creatures, you can also choose up to three hostile creatures you can see within 30 feet of you, inviting them to take part in your celebrations. Each hostile creature must suc ceed on a Wisdom saving throw or suffer the following effects for the duration, depending on the chosen festival:",
+		  {
+			"type": "entries",
+			"name": "Blossom Festival",
+			"entries": [
+			  "The creature is charmed by you, and whenever it takes radiant damage, it takes an extra 1d8 radiant damage."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Midsummer Festival",
+			"entries": [
+			  "The first attack roll made against the creature each turn is made with advan tage. Whenever the creature takes fire damage, it takes an extra 1d8 fire damage."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Harvest Festival",
+			"entries": [
+			  "The creature has disadvantage on attack rolls, and whenever it takes necrotic damage, it takes an extra 1d8 necrotic damage."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": "Midwinter Festival",
+			"entries": [
+			  "The creature's speed is reduced to 0 feet, and whenever it takes cold damage, it takes an extra 1d8 cold damage. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once you use this feature, you can't use it again until you finish a long rest. "
+			]
+		  }
+		],
+		"level": 0,
+		"page": 0
+	  },
+	  {
+		"name": "Tavern Brawler",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "The taste of ale-soaked floorboards is a familiar flavour to Tavern Brawlers. Whether they've been thrown to the ground in a glorious takedown, blocked an improvised weapon with their teeth, or tackled a foe into a pile of flailing limbs, Tavern Brawlers cherish the memory of every scuffle that hasn't been knocked out of their brains.",
+		  "Though most inns and pubs decry barroom brawls as unnecessarily damaging and expensive affairs, celebrated carpenter and philosopher Lottaw Ood proposed that without the constant kerfuffles, woodworkers and the en tire lumber industry might collapse. In fact, more shrewd carpentry guilds have opened “Brawl-Inns”; taverns with dedicated brawling areas and a microtransaction econ omy that encourages fighters to purchase chairs with which to clout their fellow patrons. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Barroom Wrestler",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, brawler Dice. You've learned techniques that are fueled by special dice called Brawler dice, which are d4s. You have a number of these dice equal to twice your profi ciency bonus. You regain all your expended Brawler dice when you finish a long rest.",
+		  "When you reach certain levels in this class, the size of your Brawler dice increases: at 5th level (d6), 11th level (d8), and 17th level (d10).",
+		  "Saving Throws. Some of your techniques require your target to make a saving throw to resist the technique's effects. The saving throw DC is calculated as follows: Technique save DC = 8 + your proficiency bonus + your Strength modifier",
+		  "Brawler Techniques. The techniques below use your Brawler dice. Creatures more than one size larger than you automatically succeed on any saving throws or con tested checks against these techniques' effects.",
+		  {
+			"type": "entries",
+			"name": " Bind",
+			"entries": [
+			  "Prerequissite: target grappled. When you make an unarmed strike with a free hand against a creature you are grappling, you can expend one Brawler die to force an additional contested grappling check instead of an attack roll. On a success, you deal the strike's normal damage plus extra damage equal to one roll of your Brawler die, and the creature is restrained until the grapple ends or you use one of the hands you have grappling the target for something else."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Chokehold",
+			"entries": [
+			  "Prerequisite: target restrained. While you have a humanoid restrained (for example, by your Bind technique), you can use an action to expend one Brawler die and attempt to cut off the creature's blood supply. The creature must make a Constitu tion saving throw. On a failure, it takes bludgeon ing damage equal to your Strength modifier plus two rolls of your Brawler die and immediately begins to be strangled until it is no longer restrained by you. On a success, it takes half as much damage and doesn't begin to be strangled.",
+			  "A creature that is being strangled remains conscious for a number of rounds equal to its Constitution modifier (minimum 1), and falls unconscious at the start of its next turn. A creature that is made unconscious in this manner regains consciousness if it takes any damage. If you continue to choke a creature beyond this point, it begins suffocating. If you release the creature, it remains unconscious for 1d20 + 10 minutes."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Smash",
+			"entries": [
+			  "Prerequisite: hit with improvised weapon melee weapon attack. When you hit a creature with a melee weapon attack using an improvised weapon, you can expend one Brawler die to deal extra bludgeoning, piercing, or slashing damage (GM's decision) equal to one roll of your Brawler die. The object takes an equal amount of damage, possibly destroying it."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Takedown",
+			"entries": [
+			  "Prerequisite: target grappled. When you make an unarmed strike against a creature you are grappling, you can expend one Brawler die to force an additional contested grappling check instead of an attack roll. On a success, you deal the strike's normal damage plus extra damage equal to one roll of your Brawler die as you throw the target to the ground where it lands prone."
+			]
+		  },
+		  {
+			"type": "inset",
+			"name": "Strangulation & Suffocation",
+			"entries": [
+			  "Strangulation is a new concept introduced for this subclass and acts like a less extreme version of suffocating. In both cases, when a creature be gins to be strangled or begins suffocating, it can act as normal for a number of rounds equal to its Constitution modifier (minimum of 1 round). At the start of the creature's turn after this period has elapsed, the creature falls unconscious.",
+			  "The difference between being strangled and suf focating is that when a suffocating creature falls unconscious it also drops to 0 hit points, is dying, and can't regain hit points or be stabilized until it can breathe again, whereas a strangled creature remains unconscious for 1d20 + 10 minutes, and wakes if it takes any damage.",
+			  " • Chokehold Example",
+			  "On initiative count 10 of round 1, the Tavern Brawler, who has a thug restrained, uses the chokehold technique on the thug. The thug fails its Constitution saving throw and begins to be strangled. Because the thug has a +2 Constitution modifier, it has 2 rounds to act before it falls unconscious. On the thug's turn of rounds 2 and 3, the thug tries and fails to break the Tavern Brawler's grapple, meaning it stays restrained and continues to be strangled. On the thug's initiative count of round 4, the thug falls unconscious at the start of its turn and immedi ately begins suffocating. If the Tavern Brawler continues to maintain the grapple and thus keep the thug restrained, the thug begins suffocating. On initiative count 15 at the start of round 6, the thug would succumb to suffocation, drop to 0 hit points, and begin dying. "
+			]
+		  }
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Inn-habitor",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, your familiarity with patrons of bars and inns has left you adept at sensing their motives. You have advantage on Insight, Intimidation, and Persuasion checks against creatures that have been drinking. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Tavern Tusslertavern Tussler",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, you've learned to use whatever weapons might be close at hand, often surprising foes with your ingenuity. You are proficient with improvised weapons and your unarmed strikes and improvised weapon attacks can deal damage equal to 1d4 + your Strength modifier on a hit. This damage die increases when you reach 5th level (1d6), 11th level (1d8), and 17th level (1d10) in this class.",
+		  {
+			"type": "entries",
+			"name": " Improviser",
+			"entries": [
+			  "You can pick up an object within your reach as part of the attack you make with that object. In addition, the first time you make an attack with an im provised weapon you picked up on that same turn, that attack scores a critical hit on a roll of 19 or 20. "
+			]
+		  }
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Twisting Grapples",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 7th level, you can attempt to grapple a creature as a bonus action on your turn, and you have advantage on attack rolls you make against creatures you are grappling. In addi tion, when you successfully apply the grappled condition to a creature, you can choose to painfully twist, dealing bludgeoning damage to the creature equal to a roll of your unarmed strike die plus your Strength modifier "
+		],
+		"level": 7,
+		"page": 0
+	  },
+	  {
+		"name": "Uncanny Technique",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 10th level, you can add double your proficiency bonus to contested Strength (Athletics) checks you make. When you make an ability check to grapple a creature or to escape a grap ple, you can treat a d20 roll of 9 or lower as a 10. "
+		],
+		"level": 10,
+		"page": 0
+	  },
+	  {
+		"name": "Tavern Regular",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 15th level, years spent anticipating conflict in inns and taverns has given you a preternatural danger sense. You have advan tage on initiative rolls, and you gain proficiency in the Insight skill. If you have this proficiency from another source, you can add twice your proficiency bonus to checks you make using that skill.",
+		  "As a bonus action on your turn, you can make a Wisdom (Insight) check against the passive Deception creature you can see. On a success, you learn the crea ture's disposition towards you, such as whether it means you harm, views you as a friend, or wants something from you. "
+		],
+		"level": 15,
+		"page": 0
+	  },
+	  {
+		"name": "Grandstand Performer",
+		"source": "LArsenesLedger",
+		"className": "Fighter",
+		"classSource": "PHB",
+		"subclassShortName": "Tavern Brawler",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 18th level, when you roll initiative and have no Brawler dice re maining, you regain two Brawler dice.",
+		  "You learn new techniques that use your Brawler dice.",
+		  {
+			"type": "entries",
+			"name": " Piledriver",
+			"entries": [
+			  "Prerequisite: target restrained. When you have a creature restrained (for example, by your Bind technique) and take the Attack action, you can forgo two of your attacks to expend one Brawler die in a complex crushing manoeuvre. The creature must make a Dexterity saving throw. On a failure, it takes bludgeoning damage equal to your Strength modifier plus two rolls of your Brawler die and is stunned until the end of your next turn. On a suc cess, it takes half as much damage and isn't stunned."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Throw",
+			"entries": [
+			  "Prerequisite: target grappled. When you have a creature grappled and take the Attack action, you can forgo one of your attacks to expend one Brawler die and force the creature to make a Strength saving throw as you attempt to launch it. On a failure, you throw the creature horizontally away from you in a straight line up to 30 feet if it is a smaller size cate gory than you, 20 feet if it is the same size as you, or 10 feet if it is one size category larger than you. The creature collides with the first solid object or creature in its path, causing both targets to take bludgeoning damage equal to one roll of your Brawler die plus your Strength modifier."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Wrecking Ball",
+			"entries": [
+			  "When you move at least 10 feet di rectly towards a creature immediately before making an attack as part of the Attack action, you can forgo the attack to expend one Brawler die as you throw your entire body at your target. Make a Strength (Athletics) check contested by the target's Dexter ity (Acrobatics) or Strength (Athletics) check (its choice). If you succeed, the target takes bludgeoning damage equal to your Strength modifier plus two rolls of your Brawler die, and you both land prone. "
+			]
+		  }
+		],
+		"level": 18,
+		"page": 0
+	  },
+	  {
+		"name": "Way Of The Artisan",
+		"source": "LArsenesLedger",
+		"className": "Monk",
+		"classSource": "PHB",
+		"subclassShortName": "Artisan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "To a monk who follows the Way of the Artisan, taking raw materials and giving them shape and purpose is con sidered the noblest of pursuits. The act of creation is the purest form of meditation, an exercise in creativity and discipline that hones both mind and spirit, leading the craftsman on a never ending journey of self-discovery.",
+		  "An adherent of this philosophy seeks true perfection in their craft while accepting that this is a fundamentally unachievable goal. What matters is that they grow and improve themselves along the way, creating art and tools that better the world in the process. In this manner, arti san monks are much like the objects they craft, for they too start off full of raw potential that is ultimately given shape and purpose. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Tools Of The Trade",
+		"source": "LArsenesLedger",
+		"className": "Monk",
+		"classSource": "PHB",
+		"subclassShortName": "Artisan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, a worker is only as good as their tools, and yours are an extension of your own body, such is the graceful ease with which you manipulate them. You gain proficiency with two types of artisan's tools of your choice.",
+		  "In addition, you can use sets of artisan's tools you're proficient with as weapons, using everyday objects in unconventional ways to catch your foes off guard. They count as monk weapons for you, but their damage die is one size larger than your Martial Arts die. (For example, if your Martial Arts die is a d6, the damage die of your artisan's tools is a d8.) They deal bludgeoning, piercing, or slashing damage (your choice each time you hit with them), and when you gain the Ki-Empowered Strikes feature at 6th level, it also applies to attacks made with your artisan's tools.",
+		  {
+			"type": "inset",
+			"name": "Optional Rule: Master Craftsman",
+			"entries": [
+			  "Whenever you start crafting a magic item using the rules in Heliana's Guide to Monster Hunting or in Chapter 3 of this book, you can expend 1 or more ki points, devoting some of your spiritual energy to the item's creation. If you do, you gain a bonus to the enchanting or forging check you make at the end of the process to create the item equal to the number of ki points invested; your maximum number of ki points is reduced by the same amount until you make that check.",
+			  "The maximum number of ki points you can invest at once is based on your monk level, as detailed in the table below:",
+			  "Level Maximum Ki Invested",
+			  "3rd 1",
+			  "6th 2",
+			  "11th 3",
+			  "17th 4 "
+			]
+		  }
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Soulful Craft",
+		"source": "LArsenesLedger",
+		"className": "Monk",
+		"classSource": "PHB",
+		"subclassShortName": "Artisan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, when you say that you put a small piece of your soul into each of your creations, you mean that very literally. When you finish a long rest, you can use your artisan's tools to craft a number of Tiny objects up to your Wis dom modifier (minimum one). These objects take the shape of things you would be able to create with your tools—for example, you can use a set of woodcarver's tools to create a wooden figurine, or a set of cobbler's tools to create a shoe—and each one gains 1 ki point, which is stored within it. When you spend a ki point as part of your Deflect Missiles, Flurry of Blows, Patient Defense, or Step of the Wind features, you can choose to expend that ki from one of your objects, as long as you have that object on your person. An object with no ki points in it is destroyed.",
+		  "You can have a maximum number of objects created in this way equal to your Wisdom modifier. If creating a new object would put you over this limit, you must choose another object to be destroyed.",
+		  "When you reach 11th level in this class, each object you create using this feature starts with 2 ki points instead of 1. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Strike Of Inspiration",
+		"source": "LArsenesLedger",
+		"className": "Monk",
+		"classSource": "PHB",
+		"subclassShortName": "Artisan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 6th level, you draw both power and inspiration from the pieces you create, allowing you to make your martial arts more intricate and formidable. When you spend a ki point from one of your Soulful Craft objects, you gain addi tional benefits depending on what you use it for:",
+		  {
+			"type": "entries",
+			"name": " Deflect Missiles",
+			"entries": [
+			  "You have advantage on the attack roll, and it deals an extra 1d10 damage."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Flurry of Blows",
+			"entries": [
+			  "You can replace one or both of the unarmed strikes with attacks made with your artisan's tools."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Patient Defense",
+			"entries": [
+			  "While you have the benefit of the Dodge action, if a creature misses you with an attack roll, you can use your reaction to make an attack against it using your artisan's tools."
+			]
+		  },
+		  {
+			"type": "entries",
+			"name": " Step of the Wind",
+			"entries": [
+			  "You take both the Dash and Disengage actions. "
+			]
+		  }
+		],
+		"level": 6,
+		"page": 0
+	  },
+	  {
+		"name": "Art History",
+		"source": "LArsenesLedger",
+		"className": "Monk",
+		"classSource": "PHB",
+		"subclassShortName": "Artisan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 11th level, every scratch and bump in a work of art tells a story, and you have become an expert at deciphering and inter preting these untold tales. You can spend 10 minutes touching a Medium or smaller creature-made object and meditating to try and discern its history. At the end of that time, make a DC 15 Wisdom check. You have advantage on the check if you are proficient with a set of artisan's tools that could be used to craft that object. If the object was created with your Soulful Craft feature, you automatically succeed on the check, but the object is destroyed in the process. If you succeed, you gain the following benefits:",
+		  "- You learn the name, creature type, and appearance of each creature that touched the object within the last 24 hours.",
+		  "- You learn every location the object has been in for the last 24 hours, and its trajectory, if it was moved.",
+		  "- You can choose a point in time within the last 24 hours, and receive a vision of events unfolding within 30 feet of the object during that time, as if you were standing in the object's space. This vision includes sight, sound, and smell, and lasts for 10 minutes or until you decide to end it.",
+		  "Once you use this feature, you can't use it again until you finish a short or long rest, and you can't use it on the same object again. "
+		],
+		"level": 11,
+		"page": 0
+	  },
+	  {
+		"name": "Dying Art",
+		"source": "LArsenesLedger",
+		"className": "Monk",
+		"classSource": "PHB",
+		"subclassShortName": "Artisan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 17th level, nothing lasts forever. A true artist must learn to detach themselves from what they have created and look ahead to what they have yet to bring to life. When you are reduced to 0 hit points as a result of taking damage, you can choose to draw vigor from one of your creations to fight on. If you have one of your Soulful Craft objects on your person, you can destroy it, preventing yourself from falling unconscious and regaining 2d8 hit points for each ki point in the object. You can then immediately move up to half your speed without triggering opportunity attacks.",
+		  "Once you use this feature, you can't use it again until you finish a short or long rest. "
+		],
+		"level": 17,
+		"page": 0
+	  },
+	  {
+		"name": "Charlatan",
+		"source": "LArsenesLedger",
+		"className": "Rogue",
+		"classSource": "PHB",
+		"subclassShortName": "Charlatan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "Fraudster, cheat, scammer, shyster… to be a confidence trickster is to alienate yourself from society one gullible mark at a time. However, as the saying goes, “you can't cheat an honest man”, so they probably deserved it, right? Plus, pulling off a perfectly planned scam can be so fun.",
+		  "Charlatans are masters of planned deceit and misdirec tion. A Charlatan might prepare several disguises and waltz into a jewelry store, wait for a perfectly timed explosion to distract the proprietor, then replace a priceless tiara with a poorly-forged replica. Hot-footing it out the door, the Charlatan might switch outfits quicker than the proprietor can say “Oh my word, where's that priceless tiara I tricked a down-on-her luck noble into selling for a pittance?”. The Charlatan might then direct the pursuing, nonplussed guards into a side alley, before fencing the heirloom and heading to a bar to celebrate a job well done.",
+		  "In combat, Charlatans appear as harmless bystanders before using concealed weapons to surprise foes, striking with devastating consequences. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Premeditation",
+		"source": "LArsenesLedger",
+		"className": "Rogue",
+		"classSource": "PHB",
+		"subclassShortName": "Charlatan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, conning is like cooking, and a trickster's tools are the ingredients with which they cook up a plot, creating delectable morsels that the gullible are all too keen to consume. You gain proficiency with the disguise kit and your choice of the forgery kit or any artisan's tools. When you reach 9th, 13th, and 17th level in this class, choose another tool from this list with which to gain proficiency.",
+		  "In addition, you have advantage on any ability checks made to find a willing buyer for your purloined or other wise misappropriated goods. "
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Hidden Weapons",
+		"source": "LArsenesLedger",
+		"className": "Rogue",
+		"classSource": "PHB",
+		"subclassShortName": "Charlatan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 3rd level, long sleeves and concealed pockets turn a Charlatan into a walking inventory of hidden paraphernalia. When you have a free hand and take the Attack action, you can turn one attack against a creature into a special hidden weap on attack using a weapon concealed upon your person. To do so, the weapon must have the thrown and finesse properties. When you do so, make a Dexterity (Sleight of Hand) check against your target's passive Perception score. On a success, you make the attack roll with advantage.",
+		  {
+			"type": "entries",
+			"name": " Teamwork Makes the Scheme Work",
+			"entries": [
+			  "A Charlatan can achieve much more as part of a team. Starting at 9th level, if you succeed on this Dexterity (Sleight of Hand) check by 10 or more, the target becomes confused and the next attack roll against it by a creature other than you before the start of your next turn has advantage.",
+			  "At 17th level, any number of attacks you make can be turned into a hidden weapon attack, instead of only one when you take the Attack action, provided the weapon has the thrown and finesse properties. "
+			]
+		  }
+		],
+		"level": 3,
+		"page": 0
+	  },
+	  {
+		"name": "Costume Change",
+		"source": "LArsenesLedger",
+		"className": "Rogue",
+		"classSource": "PHB",
+		"subclassShortName": "Charlatan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 9th level, the ability to play multiple roles, and switch between them on the fly, expands the repertoire of scams a Charlatan can undertake. When you finish a long rest and you have a disguise kit, you can prepare a number of personas equal to your Charisma modifier (minimum 1). These personas are replete with mannerisms, accents, quick-change costumes, and even different smells. They can have different clothing and other belongings, they can seem 1 foot shorter or taller than you, and they can appear thin, fat, or in between.",
+		  {
+			"type": "entries",
+			"name": " Quick Change",
+			"entries": [
+			  "As an action, you can change into one of your personas. So long as a creature can't see you when you take this action (for example, if you are hidden or behind opaque total cover), the creature doesn't recognise you as the same person when it sees you in your new persona. If a hostile creature can't fathom how you might have escaped, it is likely to be suspicious of you, even in your new persona. A creature can use its action to inspect your appearance, discerning your disguise if it succeeds on an Intelligence (Investigation) check (DC equals 8 + your proficiency bonus + your Charisma modifier). A very suspicious creature may detain you anyway (GM's discretion), and a creature inclined to violence (such as a hunting owlbear) will likely continue to attack despite any apparent difference in appearance. "
+			]
+		  }
+		],
+		"level": 9,
+		"page": 0
+	  },
+	  {
+		"name": "Surprise!",
+		"source": "LArsenesLedger",
+		"className": "Rogue",
+		"classSource": "PHB",
+		"subclassShortName": "Charlatan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 13th level, you can give yourself a bonus to your initiative rolls equal to your Charisma modifier. In addition, when you succeed on your Hidden Weapons ability check, you score a critical hit on a roll of 19 or 20 on the d20. "
+		],
+		"level": 13,
+		"page": 0
+	  },
+	  {
+		"name": "Harmless",
+		"source": "LArsenesLedger",
+		"className": "Rogue",
+		"classSource": "PHB",
+		"subclassShortName": "Charlatan",
+		"subclassSource": "LArsenesLedger",
+		"entries": [
+		  "At 17th level, you are a master of appearing harmless. When you roll initiative, until an enemy observes you making an attack, dealing damage to another creature, or casting a spell that affects a creature other than you, it considers you harmless. While it views you this way and it can see at least one other creature that it is hostile towards, it must first succeed on a Wisdom saving throw before it can target you with an attack or other effect (DC equals 8 + your proficiency bonus + your Charisma modifier). "
+		],
+		"level": 17,
+		"page": 0
+	  }
+	]
+  }

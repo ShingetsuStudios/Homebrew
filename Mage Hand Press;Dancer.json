@@ -1,0 +1,1277 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Dancer",
+                "abbreviation": "MHP:D",
+                "full": "Dancer",
+                "authors": [
+                    "Mage Hand Press"
+                ],
+                "convertedBy": [
+                    ""
+                ],
+                "url": "",
+                "version": ""
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "foundryClassFeature": [
+        {
+            "name": "Unarmored Defense",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "effects": [
+                {
+                    "name": "Unarmored Defense",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "system.attributes.ac.calc",
+                            "value": "custom",
+                            "mode": "OVERRIDE"
+                        },
+                        {
+                            "key": "system.attributes.ac.formula",
+                            "value": "10+@abilities.cha.mod+@abilities.dex.mod",
+                            "mode": "OVERRIDE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fast Movement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 3,
+            "effects": [
+                {
+                    "name": "Fast Movement",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.walk",
+                            "mode": "ADD",
+                            "value": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "class": [
+        {
+            "name": "Dancer",
+            "source": "Dancer",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [],
+            "startingProficiencies": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple",
+                    "hand crossbow",
+                    "scimitar",
+                    "shortsword",
+                    "whip"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "deception",
+                                "insight",
+                                "performance",
+                                "persuasion",
+                                "sleight of hand",
+                                "stealth"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ],
+                "tools": [
+                    ""
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "{@item Leather armor|phb} and two {@item dagger|phb|daggers}",
+                    "Any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} and 10 {@item dart|phb|darts}",
+                    "(a) a {@item diplomat's pack|phb} or (b) a {@item entertainer's pack|phb}"
+                ],
+                "defaultData": [
+                    {
+                        "_": [
+                            "Leather armor|phb",
+                            {
+                                "item": "dagger|phb",
+                                "quantity": 2
+                            }
+                        ]
+                    },
+                    {
+                        "_": [
+                            {
+                                "equipmentType": "weaponSimple"
+                            },
+                            {
+                                "item": "dart|phb",
+                                "quantity": 10
+                            }
+                        ]
+                    },
+                    {
+                        "a": [
+                            "diplomat's pack|phb"
+                        ],
+                        "b": [
+                            "entertainer's pack|phb"
+                        ]
+                    }
+                ],
+                "goldAlternative": "{@dice 4d4x10|4d4x10|Starting Gold}"
+            },
+            "multiclassing": {
+                "requirements": {},
+                "proficienciesGained": {}
+            },
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "{@filter Dances|optionalfeatures|feature type=Dance}"
+                    ],
+                    "rows": [
+                        [
+                            0
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ]
+                    ]
+                }
+            ],
+            "fluff": [
+                {
+                    "name": "Dancer",
+                    "type": "section",
+                    "entries": [
+                        "With an elegant twirl, a tiefling dancer spins across the battlefield, her dagger flashing like silver lightning and embedding itself in the throat of an rampaging troll. As the giant falls, she gracefully retrieves her weapon and continues her deadly dance.",
+                        "An elf, adorned in shimmering silks, lays his mesmerizing gaze upon a night watchman, allowing his companions to slip past undetected. As the last of his allies pass, he gracefully bows to his spectator and slinks into the shadows, leaving the guard bewildered and confused.",
+                        "Bounding and gliding through a goblin encampment, a lithe dragonborn ducks arrows and scimitars in a flurried tempo. Their dance continues in a dramatic flourish, unleashing a spray of darts upon a circle of goblins that fall in a single instant.",
+                        "Masters of movement and skilled in the art of performance, dancers leverage their grace and charm to glide unfettered through the battlefield.",
+                        {
+                            "type": "entries",
+                            "name": "Elegant Performance",
+                            "entries": [
+                                "Dances aren't merely a combination of grace, rhythm, and form. They are a dancer's intrinsic expression, and, much like the careful somatic component of a spell, embody a magic all their own. When a dancer begins their performance, their masterful tempo and poise imbues them or their audience with subtle forms of magic. Experienced dancers dedicate much effort to mastering such dances, the greatest of which allow them to glide weightlessly through the air or deflect the heat of a dragon's breath.",
+                                "To a dancer, the entirety of a battle is a performance, a harmonious union between artistic expression and strategic blows. To this end, most dancers prefer the lightning speed of daggers and darts, which they can wield without sacrificing their careful footwork."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Natural Charm",
+                            "entries": [
+                                "Dancers exude a refined allure that sets them apart from their adventuring companions. Even once tensions have peaked and weapons are drawn, foes routinely underestimate a lightly-armored, gregarious dancer until it's too late."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating a Dancer",
+                            "entries": [
+                                "As you build your dancer, consider where you learned to dance. Were you enlisted in a ballet academy or did you teach yourself the basics through a mirror in your bedroom? Do you owe your appreciation of dance to one person in particular? Also consider who you danced alongside when you began taking your dancing seriously. Did you pirouette alongside a fiddler in a troupe of entertainers, or did you enthrall onlookers at an elegant noble ball?",
+                                "Lastly, consult the options for your character's Aspiration at 1st level. This ideal motivates you to keep dancing and attain greater heights. Who or what inspired this aspiration? What stands in your way of attaining it?"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Quick Build",
+                            "entries": [
+                                "You can build a dancer quickly by following these suggestions: Dexterity should be your highest ability score, followed by Charisma. Choose the Identity Aspiration and any background, preferably one that reflects your elegance and history of performance."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "optionalfeatureProgression": [
+                {
+                    "name": "Dances",
+                    "featureType": [
+                        "Dance"
+                    ],
+                    "progression": [
+                        0,
+                        3,
+                        3,
+                        3,
+                        3,
+                        3,
+                        3,
+                        3,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        6,
+                        6,
+                        6,
+                        6
+                    ]
+                }
+            ],
+            "classFeatures": [
+                "Aspiration|Dancer|Dancer|1",
+                "Dervish Fighting|Dancer|Dancer|1",
+                "Unarmored Defense|Dancer|Dancer|1",
+                "First Impressions|Dancer|Dancer|2",
+                "Dances|Dancer|Dancer|2",
+                {
+                    "classFeature": "Virtuoso Expression|Dancer|Dancer|3",
+                    "gainSubclassFeature": true
+                },
+                "Fast Movement|Dancer|Dancer|3",
+                "Ability Score Improvement|Dancer|Dancer|4",
+                "Extra Attack|Dancer|Dancer|5",
+                {
+                    "classFeature": "Virtusoso Feature|Dancer|Dancer|6",
+                    "gainSubclassFeature": true
+                },
+                "Evasion|Dancer|Dancer|7",
+                "Ability Score Improvement|Dancer|Dancer|8",
+                {
+                    "classFeature": "Virtusoso Feature|Dancer|Dancer|10",
+                    "gainSubclassFeature": true
+                },
+                "Graceful Retaliation|Dancer|Dancer|11",
+                "Ability Score Improvement|Dancer|Dancer|12",
+                {
+                    "classFeature": "Virtusoso Feature|Dancer|Dancer|14",
+                    "gainSubclassFeature": true
+                },
+                "Freestyle|Dancer|Dancer|15",
+                "Ability Score Improvement|Dancer|Dancer|16",
+                "First Fortune|Dancer|Dancer|18",
+                "Ability Score Improvement|Dancer|Dancer|19",
+                "Grand Finale|Dancer|Dancer|20"
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Aspiration",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "Every dancer is driven by an aspiration, an ideal that motivates them and inspires their graceful movements. At 1st level, choose one of the following aspirations and add it to your character's Bonds. If none of these options fit your character's goals and personality, work with your GM to create one using the options below as a guide.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Belonging|Dancer|Dancer|1|Dancer"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Discovery|Dancer|Dancer|1|Dancer"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Freedom|Dancer|Dancer|1|Dancer"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Greatness|Dancer|Dancer|1|Dancer"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Identity|Dancer|Dancer|1|Dancer"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Love|Dancer|Dancer|1|Dancer"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Purpose|Dancer|Dancer|1|Dancer"
+                        },
+                        {
+                            "type": "refClassFeature",
+                            "classFeature": "Revenge|Dancer|Dancer|1|Dancer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Belonging",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You are searching for where you truly belong. If you fail a saving throw, you can gain a bonus to the roll equal to the number of friendly creatures you can see within 30 feet of you, up to a maximum of your Charisma modifier. Once you use this feature, you can't use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Discovery",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You are engrossed with uncovering a secret or unraveling a mystery. As a result, you gain proficiency in two of the following skills of your choice: Arcana, History, Investigation, Nature, and Religion. When you make an Intelligence check with one of the skills that you chose, you can add your Charisma modifier to the roll."
+            ],
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "history",
+                                "investigation",
+                                "nature",
+                                "religion"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Freedom",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You have resolved to never be bound by anything or beholden to anyone. Whenever you Dash as an action, you can take the Disengage action as a bonus action, and vice versa."
+            ]
+        },
+        {
+            "name": "Greatness",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You aspire to be a performance virtuoso, the most prominent dancer of your time. You gain proficiency in the Acrobatics and Performance skills. Your proficiency bonus is doubled for any ability check you make that uses that Performance."
+            ],
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "performance": true,
+                        "acrobatics": true
+                    }
+                ],
+                "expertise": [
+                    {
+                        "performance": true
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Identity",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You desire to know who you are or who you are meant to become. Whenever you roll a 20 on the d20 for an ability check, you gain Inspiration. As normal, you can't have more than one Inspiration at once."
+            ]
+        },
+        {
+            "name": "Love",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You are searching for your soul mate. When a friendly creature you can see within 5 feet of you makes an attack roll, ability check, or saving throw, you can use your reaction to let that creature roll a d4 and add the number rolled to the result."
+            ]
+        },
+        {
+            "name": "Purpose",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You want to find your true calling in life, a responsibility that is both meaningful and indispensable. Whenever you roll initiative, you can treat the result of your roll as 10, or your dancer level plus your Charisma modifier, whichever is higher."
+            ]
+        },
+        {
+            "name": "Revenge",
+            "source": "Dancer",
+            "page": 0,
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "You were once wronged, and will stop at nothing to even the scales. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+            ]
+        },
+        {
+            "name": "Dervish Fighting",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, nimble weapons, such as darts, light hammers, and daggers, become deadly in your hands. Whenever you hit a creature with a weapon that deals 1d4 damage, you can deal an extra 1d4 damage. Additionally, you can draw a weapon that has the thrown property as part of the attack you make with the weapon."
+            ]
+        },
+        {
+            "name": "Unarmored Defense",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 1,
+            "entries": [
+                "Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier."
+            ]
+        },
+        {
+            "name": "First Impressions",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 2,
+            "entries": [
+                "Beginning at 2nd level, creatures have disadvantage on attacks against you on the first round of combat. This effect ends early if you make an attack, cast a spell that affects an enemy, or deal damage to another creature before the end of the first round of combat.",
+                "Additionally, you have advantage on Charisma checks you make to befriend a creature or convince it that you are nonthreatening."
+            ]
+        },
+        {
+            "name": "Dances",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you learn to perform a suite of graceful dances. You learn three {@filter dances|optionalfeatures|feature type=Dance} of your choice for which you meet the prerequisites. Dances are detailed at the end of the class description.",
+                "You gain additional dances of your choice when you gain certain levels in the dancer class, as shown on the Dancer table. Additionally, when you gain a level in this class, you can choose one of the dances you know and replace it with another one that has the same prerequisites.",
+                "You can begin performing any dance you know as a bonus action, provided your speed isn't 0. Whenever you take damage while performing a dance, you must make a Dexterity saving throw to maintain your footing. The DC equals 10 or half the damage you take, whichever is higher. If you take damage from multiple sources, you make a separate saving throw for each source of damage.",
+                "You continue dancing until you lose your footing, your speed is reduced to 0, you choose to stop dancing on your turn (no action required), or you begin performing a different dance."
+            ]
+        },
+        {
+            "name": "Virtuoso Expression",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 3,
+            "entries": [
+                "By 3rd level, your style of dance has crystallized into a virtuoso expression, a unique form that embodies your innermost spirit. Choose a Virtuoso Expression, detailed at the end of the class. Your choice grants you features at 3rd level, and 6th, 10th, and 14th level.",
+                "If your expression grants a dance at any level, it doesn't count against your total number of dances."
+            ]
+        },
+        {
+            "name": "Fast Movement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, your speed increases by 10 feet while you aren't wearing medium or heavy armor."
+            ],
+            "foundryEffects": [
+                {
+                    "name": "Fast Movement",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "data.attributes.movement.walk",
+                            "mode": "ADD",
+                            "value": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 5,
+            "entries": [
+                "Starting at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+                "Alternatively, if all of your attacks are made against different targets, you can attack three times. Beginning at 11th level, you can attack four times against different targets, and at 17th level, you can attack five times against different targets."
+            ]
+        },
+        {
+            "name": "Evasion",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 7,
+            "entries": [
+                "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            ]
+        },
+        {
+            "name": "Graceful Retaliation",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 11,
+            "entries": [
+                "By 11th level, your flowing movements always give you opportunities to respond to foes in kind. When a creature you can see within 30 feet of you makes an attack against you (whether the attack hits or misses), you can use your reaction to make a weapon attack using a light weapon against the creature. Your attack follows the triggering attack and its effects."
+            ]
+        },
+        {
+            "name": "Freestyle",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 15,
+            "entries": [
+                "Starting at 15th level, by interweaving your steps, you can begin performing two dances at once as part of the same bonus action. You only make one Dexterity saving throw to maintain your footing on both dances, and both dances end if you lose your footing."
+            ]
+        },
+        {
+            "name": "First Fortune",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 18,
+            "entries": [
+                "By 18th level, you automatically succeed in saving throws you make on the first round of combat. This effect ends early if you make an attack, cast a spell that affects an enemy, or deal damage to another creature before the end of the first round of combat."
+            ]
+        },
+        {
+            "name": "Grand Finale",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 20,
+            "entries": [
+                "Starting at 20th level, you master a dance known only to legendary masters of movement. You learn the following dance, which doesn't count against your number of dances known:",
+                {
+                    "type": "entries",
+                    "name": "Dance: Showstopper",
+                    "entries": [
+                        "Whenever you are hit by an attack or fail a saving throw while performing this dance, roll a d4. On a 4, the attack misses or you succeed the saving throw, respectively.",
+                        "This dance ends early if your turn ends and you can't see a hostile creature. Additionally, you can't perform another dance at the same time as this one.",
+                        "Record whenever you start your turn performing this dance, and reset the count to 0 if the dance ends. When you start your second turn while performing this dance, you can choose to end this dance with a dramatic flourish to take an additional action before the end of your turn.",
+                        "Once you use this dance to gain an additional action, you can't perform this dance again until you finish a short or long rest, or roll initiative."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Virtusoso Feature",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain a feature from your Virtusoso."
+            ]
+        },
+        {
+            "name": "Virtusoso Feature",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature from your Virtusoso."
+            ]
+        },
+        {
+            "name": "Virtusoso Feature",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 14,
+            "entries": [
+                "At 14th level, you gain a feature from your Virtusoso."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "subclassFeatures": [
+                "Contortionist|Dancer|Dancer|Contortionist|Dancer|3",
+                "Dance: Serpentine Twist|Dancer|Dancer|Contortionist|Dancer|3",
+                "Squeeze|Dancer|Dancer|Contortionist|Dancer|3",
+                "Unnatural Dodge|Dancer|Dancer|Contortionist|Dancer|6",
+                "Boa Constrictor|Dancer|Dancer|Contortionist|Dancer|10",
+                "Double-jointed Strike|Dancer|Dancer|Contortionist|Dancer|14"
+            ],
+            "shortName": "Contortionist",
+            "name": "Contortionist",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Courtesan|Dancer|Dancer|Courtesan|Dancer|3",
+                "Dance: Enthralling Movement|Dancer|Dancer|Courtesan|Dancer|3",
+                "Silver Tongue|Dancer|Dancer|Courtesan|Dancer|3",
+                "Elegant Redirection|Dancer|Dancer|Courtesan|Dancer|6",
+                "Debonair Sway|Dancer|Dancer|Courtesan|Dancer|10",
+                "Heartbreaker|Dancer|Dancer|Courtesan|Dancer|14"
+            ],
+            "shortName": "Courtesan",
+            "name": "Courtesan",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "page": ""
+        },
+        {
+            "subclassFeatures": [
+                "Mime|Dancer|Dancer|Mime|Dancer|3",
+                "Dance: Silent Routine|Dancer|Dancer|Mime|Dancer|3",
+                "Pantomime|Dancer|Dancer|Mime|Dancer|3",
+                "Force Panel|Dancer|Dancer|Mime|Dancer|6",
+                "Unseen Equipment|Dancer|Dancer|Mime|Dancer|10",
+                "Invisible Walls|Dancer|Dancer|Mime|Dancer|14"
+            ],
+            "shortName": "Mime",
+            "name": "Mime",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "page": ""
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Contortionist",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Contortionist",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Balancing on their shoulders and folding their body into perplexing configurations, contortionists represent the pinnacle of flexibility that dancers aspire for. Contortionists can achieve unearthly forms through their dances, and with practice, can leverage their uncanny flexibility to evade attacks and constrict others with the grace of a serpent."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Dance: Serpentine Twist",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Contortionist",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Beginning when you choose this expression at 3rd level, you learn to tangle other creatures with your limbs. Once on each of your turns when you hit a creature with a melee attack while performing this dance, you can attempt to grapple the target.",
+                "While performing this dance, you can make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check to grapple a target. If you succeed, you can knock the target prone."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Squeeze",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Contortionist",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Also at 3rd level, you suffer no penalty for squeezing through a space that is only large enough for a creature that is one size smaller than you.",
+                "Additionally, you have advantage on ability checks and saving throws you make to escape grapple or to slip bindings."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Unnatural Dodge",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Contortionist",
+            "subclassSource": "Dancer",
+            "entries": [
+                "By 6th level, your flexibility allows you to dodge blows in uncanny ways. When an attacker that you can see hits you with an attack, you can use your reaction to roll a d10 and add the result to your Armor Class for that attack, potentially causing the attack to miss.",
+                "Once you use this feature, you can't use it again until you finish a short or long rest."
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": "1",
+                "formula": "1d10",
+                "actionType": "other"
+            },
+            "level": 6,
+            "page": ""
+        },
+        {
+            "name": "Boa Constrictor",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Contortionist",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Beginning at 10th level, you can entangle foes like a constrictor snake. You can attempt to grapple creatures of any size category. Additionally, at the start of each of your turns, you can deal 3d4 bludgeoning damage to one creature grappled by you."
+            ],
+            "foundrySystem": {
+                "formula": "3d4",
+                "actionType": "other"
+            },
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Double-jointed Strike",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Contortionist",
+            "subclassSource": "Dancer",
+            "entries": [
+                "At 14th level, you can unexpectedly contort your body while attacking. Once on each of your turns when you miss with a melee weapon attack, you can reroll the attack, and must use the new roll."
+            ],
+            "level": 14,
+            "page": ""
+        },
+        {
+            "name": "Courtesan",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Courtesan",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Dressed in finery, courtesans are the very picture of cultured elegance. Rather than dancing like a jester for others' amusement, courtesans leverage their unearthly grace to twist the affections of others. Most ingratiate themselves into high society, for melodic tone and a captivating glance is enough to enrapture most nobles."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Dance: Enthralling Movement",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Courtesan",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Beginning when you choose this expression at 3rd level, you learn to beguile others through your performance. When you begin performing this dance, choose one creature that can see you within 5 feet of you to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier). On a failed save, the target is charmed by you for 1 minute or until this dance ends. While charmed, the creature can't willingly move away from you.",
+                "The dance ends early if the creature takes any damage or if someone else uses an action to shake the creature out of its stupor. Once this effect ends for a creature, it is immune to this effect for the next 24 hours."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Silver Tongue",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Courtesan",
+            "subclassSource": "Dancer",
+            "entries": [
+                "By 3rd level, your honeyed words can sweeten any situation. Choose the Deception or Persuasion skill. You gain proficiency in the chosen skill. Whenever you make a Charisma check using the chosen skill, you can treat the result as a 10, or your dancer level plus your Charisma modifier, whichever is higher."
+            ],
+            "level": 3,
+            "page": "",
+            "entryData": {
+                "skillProficiencies": [
+                    {
+                        "choose": {
+                            "from": [
+                                "deception",
+                                "persuasion"
+                            ],
+                            "count": 1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Elegant Redirection",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Courtesan",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Starting at 6th level, you can leverage your allies to ensure your safety. As a reaction when you are targeted by an attack, you can force the attack to target a willing creature within 5 feet of you instead. You must be able to see the attacker and the willing creature must not be incapacitated.",
+                "Once you use this feature, you can't use it again until you finish a short or long rest."
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": "1",
+                "actionType": "other"
+            },
+            "level": 6,
+            "page": ""
+        },
+        {
+            "name": "Debonair Sway",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Courtesan",
+            "subclassSource": "Dancer",
+            "entries": [
+                "At 10th level, your charmed foes temporarily forget their allegiances. You can use an action to suggest a simple and general course of action, such as “Attack that creature,” “Run over there,” or “Fetch that object” to a creature charmed by you. The creature does its best to pursue the course of action until the end of its turn. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the charmed condition for the creature.",
+                "Once you use this feature on a creature, you can't use it on that creature again for 24 hours."
+            ],
+            "foundrySystem": {
+                "uses.per": "daily",
+                "uses.max": "1",
+                "actionType": "other"
+            },
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Heartbreaker",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Courtesan",
+            "subclassSource": "Dancer",
+            "entries": [
+                "By 14th level, your affection causes psychological harm. When the charmed condition ends for a creature you have charmed, you can choose for that creature to immediately take psychic damage equal to 3d6 + your Charisma modifier (no action required)."
+            ],
+            "foundrySystem": {
+                "uses.per": "sr",
+                "uses.max": "1",
+                "damage.parts": [
+                    [
+                        "3d6 + @mod",
+                        "psychic"
+                    ]
+                ],
+                "ability": "cha",
+                "actionType": "other"
+            },
+            "level": 14,
+            "page": ""
+        },
+        {
+            "name": "Mime",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Mime",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Storied and silent monochromatic performers, mimes practice a unique dance that takes place in a world of invisible objects and wordless gags. Those that master this enchanting artform find that their pantomimes can drive sound from the room, imbue invisible props with solidity, and even raise invisible walls of force around their foes."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Dance: Silent Routine",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Mime",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Beginning when you choose this expression at 3rd level, you can enact a silent theatrical routine. When you begin performing this dance, you create a 15-foot-diameter sphere of magical silence, centered on yourself, which moves with you. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there."
+            ],
+            "foundrySystem": {
+                "target.value": 7.5,
+                "target.units": "ft",
+                "target.type": "sphere"
+            },
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Pantomime",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Mime",
+            "subclassSource": "Dancer",
+            "entries": [
+                "At 3rd level, you can communicate complex ideas through miming. You can use your action to make a DC 15 Charisma (Performance) check to silently act out a sentence of 10 words or fewer. On a success, any creature that watches you and that knows at least one language can understand what you mean."
+            ],
+            "level": 3,
+            "page": ""
+        },
+        {
+            "name": "Force Panel",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Mime",
+            "subclassSource": "Dancer",
+            "entries": [
+                "Beginning at 6th level, you can use your bonus action to mime a physical surface, conjuring an invisible 5-foot- square panel composed of magical force in an unoccupied space you choose within 5 feet of you. The panel appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface.",
+                "The panel has AC 10, hit points equal to twice your level, and immunity to poison and psychic damage. Invisible creatures and objects pass through the panel unimpeded, but other creatures and objects encounter the panel as a solid obstacle. Spells and other magical effects can't extend through the panel or pass through it. When an attack would pass through the panel, it targets the panel (without imposing disadvantage on the attack roll) instead of its intended target and deals damage to it on a hit. Reducing the panel to 0 hit points destroys it.",
+                "The panel can hold up to 1,000 pounds, and breaks if more weight is placed on or against it. You can use your action to push against the panel, moving it freely until the end of your turn, at which time the panel becomes fixed again.",
+                "The panel lasts for 1 hour or until it breaks or you dismiss the panel on your turn (no action required). Once you create a panel, you can't do so again until you finish a short or long rest."
+            ],
+            "level": 6,
+            "page": ""
+        },
+        {
+            "name": "Unseen Equipment",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Mime",
+            "subclassSource": "Dancer",
+            "entries": [
+                "By 10th level, whenever you draw a weapon or retrieve an item from a container, you can mime that action to conjure an object composed of invisible magical force in your hand. This object can be any simple weapon, set of tools, or any piece of nonmagical adventuring equipment, such as a length of rope or a crowbar. Conjured objects are magically silent. A conjured object vanishes at the end of your turn if you are not holding it."
+            ],
+            "level": 10,
+            "page": ""
+        },
+        {
+            "name": "Invisible Walls",
+            "source": "Dancer",
+            "className": "Dancer",
+            "classSource": "Dancer",
+            "subclassShortName": "Mime",
+            "subclassSource": "Dancer",
+            "entries": [
+                "By 14th level, you've mastered the most potent trick in a mime's repertoire: raising an invisible cage around your enemies. You can cast the spell {@spell forcecage} without expending a spell slot or verbal or material components.",
+                "Once you use this feature, you can't use it again until you finish a long rest."
+            ],
+            "level": 14,
+            "page": ""
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Bounding Stride",
+            "source": "Dancer",
+            "page": 0,
+            "entries": [
+                "While performing this dance, your movement doesn't provoke opportunity attacks. Additionally, you can move through the space of any hostile creature as long as you don't end your movement there."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Deft Fling",
+            "source": "Dancer",
+            "page": 0,
+            "entries": [
+                "While performing this dance, the normal and long ranges of your thrown weapons double, and your attacks with thrown weapons ignore half and three-quarters cover."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Elusive Hop",
+            "source": "Dancer",
+            "page": 0,
+            "entries": [
+                "While performing this dance, when a creature misses you with an attack, you can either move 10 feet without provoking opportunity attacks or gain a +3 bonus to your Armor Class until the start of your next turn."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Goading Waltz",
+            "source": "Dancer",
+            "page": 0,
+            "entries": [
+                "When you begin performing this dance, choose a hostile creature you can see within 30 feet of you. While this creature is within 5 feet of you and you are performing this dance, it has disadvantage on attacks it makes against creatures other than you."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Pirouette of Thorns",
+            "source": "Dancer",
+            "page": 0,
+            "entries": [
+                "You can only perform this dance while holding a melee weapon. While performing this dance, whenever you take damage from a creature you can see within 5 feet of you, the attacker takes {@damage 1d4} damage. The damage is the same type as the weapon you are holding. You can only use this ability once per turn.",
+                "The damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Dueling Tango",
+            "source": "Dancer",
+            "page": 0,
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Dancer"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "When you begin performing this dance, choose a willing creature you can see within 30 feet of you to be your dance partner. While you are performing this dance and you and your partner are within 5 feet of each other, you and your partner can take the {@action Help} action as a bonus action to help each other. This dance ends early if your partner is {@condition incapacitated} or dies."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Elemental Step",
+            "source": "Dancer",
+            "page": 0,
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Dancer"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "When you begin performing this dance, choose one damage type other than bludgeoning, piercing, and slashing damage. You gain resistance to that damage type until this dance ends."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Invigorating Jig",
+            "source": "Dancer",
+            "page": 0,
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Dancer"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "When you begin performing this dance and again at the start of each of your turns while performing it, you gain temporary hit points equal to half your dancer level, rounded down. These temporary hit points last until the dance ends."
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Jubilant Maypole",
+            "source": "Dancer",
+            "page": 0,
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Dancer"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "While you are performing this dance, whenever you or a friendly creature within 10 feet of you that can see you makes an attack roll or saving throw, the creature can roll a {@dice d4} and add the number to the attack roll or saving throw."
+            ],
+            "foundryEffects": [
+                {
+                    "name": "Jubilant Maypole",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "system.bonuses.All-Attacks",
+                            "value": "1d4",
+                            "mode": 2
+                        },
+                        {
+                            "key": "system.bonuses.abilities.save",
+                            "value": "1d4",
+                            "mode": 2
+                        }
+                    ],
+                    "disabled": true
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        },
+        {
+            "name": "Weightless Glide",
+            "source": "Dancer",
+            "page": 0,
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Dancer"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "While performing this dance, you gain the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.",
+                "You also gain a climbing speed and a flying speed equal to your walking speed. If you end your turn while flying and have nothing holding you aloft, you float gently to the ground."
+            ],
+            "foundryEffects": [
+                {
+                    "name": "Weightless Glide",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "system.attributes.movement.climb",
+                            "value": "@attributes.movement.walk",
+                            "mode": 4
+                        },
+                        {
+                            "key": "system.attributes.movement.fly",
+                            "value": "@attributes.movement.walk",
+                            "mode": 4
+                        }
+                    ],
+                    "disabled": true
+                }
+            ],
+            "featureType": [
+                "Dance"
+            ]
+        }
+    ]
+}

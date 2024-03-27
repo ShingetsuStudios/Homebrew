@@ -94,7 +94,6 @@
                     },
                     {
                         "_": [
-                            
                             "scale mail|phb",
                             "component pouch|phb"
                         ]
@@ -414,7 +413,14 @@
             "classSource": "MHPICCH",
             "level": 1,
             "entries": [
-                "At 1st level, you align yourself with a close confederation of channelers, called a Planar Order. Your choice is linked to the kind of portal key you wield, for channelers with similar keys might use the same passageways throughout the multiverse. Your choice in planar order grants you features at 1st level, and additional features at 7th, 10th, and 15th level. Portal Key Each order also details the types of portal keys they use to manipulate planar energies and cast spells. With your portal key in hand, you can open certain planar portals (at the GMs discretion) without the normal portal key. If your portal key is out of your reach for longer than 1 minute, you can teleport it back to your hand as a bonus action. If your portal key is ever lost or destroyed, you can replace it by performing a 1-hour ritual, which can be done during a short rest, to imbue an object of a similar type with a portal key's magic."
+                "At 1st level, you align yourself with a close confederation of channelers, called a Planar Order. Your choice is linked to the kind of portal key you wield, for channelers with similar keys might use the same passageways throughout the multiverse. Your choice in planar order grants you features at 1st level, and additional features at 7th, 10th, and 15th level.",
+                {
+                    "type": "entries",
+                    "name": "Portal Key",
+                    "entries": [
+                        "Each order also details the types of portal keys they use to manipulate planar energies and cast spells. With your portal key in hand, you can open certain planar portals (at the GMs discretion) without the normal portal key. If your portal key is out of your reach for longer than 1 minute, you can teleport it back to your hand as a bonus action. If your portal key is ever lost or destroyed, you can replace it by performing a 1-hour ritual, which can be done during a short rest, to imbue an object of a similar type with a portal key's magic."
+                    ]
+                }
             ]
         },
         {
@@ -807,13 +813,13 @@
         },
         {
             "subclassFeatures": [
-                "Order Of Wild Hunters|Channeler|MHPICCH|Titanfists|MHPICCH|1",
-                "Portal Key: Quiver|Channeler|MHPICCH|Titanfists|MHPICCH|1",
-                "Bonus Focus|Channeler|MHPICCH|Titanfists|MHPICCH|7",
-                "Fey Arrowhead|Channeler|MHPICCH|Titanfists|MHPICCH|10",
-                "Arrow Downpour|Channeler|MHPICCH|Titanfists|MHPICCH|15"
+                "Order Of Wild Hunters|Channeler|MHPICCH|Wild Hunters|MHPICCH|1",
+                "Portal Key: Quiver|Channeler|MHPICCH|Wild Hunters|MHPICCH|1",
+                "Bonus Focus|Channeler|MHPICCH|Wild Hunters|MHPICCH|7",
+                "Fey Arrowhead|Channeler|MHPICCH|Wild Hunters|MHPICCH|10",
+                "Arrow Downpour|Channeler|MHPICCH|Wild Hunters|MHPICCH|15"
             ],
-            "shortName": "Titanfists",
+            "shortName": "Wild Hunters",
             "name": "Order Of Wild Hunters",
             "source": "MHPICCH",
             "className": "Channeler",
@@ -1094,7 +1100,7 @@
             "source": "MHPICCH",
             "className": "Channeler",
             "classSource": "MHPICCH",
-            "subclassShortName": "Titanfists",
+            "subclassShortName": "Wild Hunters",
             "subclassSource": "MHPICCH",
             "entries": [
                 "Across the multiverse, the Order of Wild Hunters pursue all manner of quarry, from infernal creatures of the lower planes, to renegade fey, to celestials, and other creatures of light. Many wild hunters chase quarry for clients, but many more simply do it for the challenge and thrill of the hunt itself. Only wild hunters know the secret for shrinking a spell onto an arrow’s point, but this skill alone marks them among the most dangerous warriors in existence. Truly, there is no covering your tracks or escaping anywhere in the planes from a wild hunter."
@@ -1107,7 +1113,7 @@
             "source": "MHPICCH",
             "className": "Channeler",
             "classSource": "MHPICCH",
-            "subclassShortName": "Titanfists",
+            "subclassShortName": "Wild Hunters",
             "subclassSource": "MHPICCH",
             "entries": [
                 "At 1st level, your portal key is a quiver which produces an endless supply of nonmagical ammunition. Whenever a piece of ammunition is taken from the quiver, it is instantly replaced by a similar piece of ammunition. A piece of ammunition removed from the quiver disintegrates after 1 minute.",
@@ -1124,7 +1130,7 @@
             "source": "MHPICCH",
             "className": "Channeler",
             "classSource": "MHPICCH",
-            "subclassShortName": "Titanfists",
+            "subclassShortName": "Wild Hunters",
             "subclassSource": "MHPICCH",
             "entries": [
                 "At 7th level, you gain the following Planar Focus option:",
@@ -1145,7 +1151,7 @@
             "source": "MHPICCH",
             "className": "Channeler",
             "classSource": "MHPICCH",
-            "subclassShortName": "Titanfists",
+            "subclassShortName": "Wild Hunters",
             "subclassSource": "MHPICCH",
             "entries": [
                 "By 10th level, you’ve mastered a trick known to fey hunters for moving swiftly through the underbrush. Once per turn, when you make a ranged attack using your portal key quiver, you can spend 2 arcana points to replace the attack with a Fey Arrowhead. You teleport to where the projectile lands, or to the nearest unoccupied space."
@@ -1158,7 +1164,7 @@
             "source": "MHPICCH",
             "className": "Channeler",
             "classSource": "MHPICCH",
-            "subclassShortName": "Titanfists",
+            "subclassShortName": "Wild Hunters",
             "subclassSource": "MHPICCH",
             "entries": [
                 "At 15th level, you can single-handedly deliver a rain of arrows upon your foes. As an action, you can fire the ammunition from your quiver in a high arc, affecting a 100-foot long, 15-foot wide line. Each creature in the area must make a Dexterity saving throw against your spell save DC. A creature with cover from above has advantage on this saving throw. On a failed save, a creature takes 8d6 + 10 piercing damage, or half as much on a successful save.",

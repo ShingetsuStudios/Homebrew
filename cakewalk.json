@@ -1,0 +1,1022 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "Cakewalk",
+        "abbreviation": "Cake",
+        "full": "Cakewalk",
+        "authors": [
+          "Mage Hand Press",
+          "Loot Tavern"
+        ],
+        "convertedBy": [
+          ""
+        ],
+        "url": "",
+        "version": ""
+      }
+    ],
+    "dateAdded": 0,
+    "dateLastModified": 0,
+    "optionalFeatureTypes": {
+      "AdvFamiliar": "Advanced Familiar Feature"
+    }
+  },
+  "subclass": [
+    {
+      "subclassFeatures": [
+        "Mold Magic|Sorcerer|PHB|Mold|Cakewalk|1",
+        "Mold Spells|Sorcerer|PHB|Mold|Cakewalk|1",
+        "The Bread Rise|Sorcerer|PHB|Mold|Cakewalk|1",
+        "Creeping Rot|Sorcerer|PHB|Mold|Cakewalk|6",
+        "Spore Carriers|Sorcerer|PHB|Mold|Cakewalk|14",
+        "Fungal Regeneration|Sorcerer|PHB|Mold|Cakewalk|18"
+      ],
+      "shortName": "Mold",
+      "name": "Mold Magic",
+      "source": "Cakewalk",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "page": ""
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Mold Magic",
+      "source": "Cakewalk",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Mold",
+      "subclassSource": "Cakewalk",
+      "entries": [
+        "The most insidious magic given life by the Island of Yumm is Mold Magic, a creeping necromancy that infects foodfolk and reanimates them as unbread. Once the spores of necromanctic black mold have taken hold, it is impossible to be rid of them. Many fall prey to an all-consuming cough as the mold spreads, but a rare few manage to embrace the mold and find a spark of sorcery within.",
+        {
+          "type": "inset",
+          "name": "Animate Bread",
+          "entries": [
+            "On the Island of Yumm, necromantic magic holds special sway over legions of the walking bread. Whenever you cast the spell animate dead, you can choose to animate 2 {@creature unbread|Cakewalk} instead of animating a skeleton or zombie. Similarly, you can reassert control over twice the number of unbread as other undead creatures. "
+          ]
+        }
+      ],
+      "level": 1,
+      "page": ""
+    },
+    {
+      "name": "Mold Spells",
+      "source": "Cakewalk",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Mold",
+      "subclassSource": "Cakewalk",
+      "entries": [
+        "You learn additional spells when you reach certain levels in this class, as shown on the Mold Spells table. Each spell counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know. These spells can't be replaced when you gain a level in this class. Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a necromancy or a transmutation spell from the sorcerer, warlock, or wizard spell list.",
+        {
+          "type": "entries",
+          "name": "Mold Spells",
+          "entries": [
+            {
+              "type": "table",
+              "caption": "Slime Spells",
+              "colLabels": [
+                "Sorcerer Level",
+                "Spells"
+              ],
+              "colStyles": [
+                "col-2 text-center",
+                "col-10 text- "
+              ],
+              "rows": [
+                [
+                  "1st",
+                  "{@spell bane}, {@spell inflict wounds}"
+                ],
+                [
+                  "3rd",
+                  "{@spell protection from poison}, {@spell ray of enfeeblement}"
+                ],
+                [
+                  "5th",
+                  "{@spell animate dead}, {@spell stinking cloud}"
+                ],
+                [
+                  "7th",
+                  "{@spell blight}, {@spell death ward}"
+                ],
+                [
+                  "9th",
+                  "{@spell antilife shell}, {@spell contagion}"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "level": 1,
+      "page": ""
+    },
+    {
+      "name": "The Bread Rise",
+      "source": "Cakewalk",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Mold",
+      "subclassSource": "Cakewalk",
+      "entries": [
+        "At 1st level, your magic carries sinister black spores. Whenever you cast a spell of 1st level or higher that deals necrotic or poison damage and you reduce a hostile foodfolk to 0 hit points, you can instantly reanimate it. The foodfolk rises as an {@creature unbread|Cakewalk} under your control, causing it to stand up immediately with 1 hit point. The creature uses the unbread stat block found in the Monsters chapter. It remains animated for 1 hour, after which time it collapses and dies.",
+        "In combat, the unbread's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack. Unbread animated this way use your spell attack bonus to make their attack rolls.",
+        "You can command a total number of unbread equal to your proficiency bonus using this feature. Starting at 6th level, whenever you deal poison or necrotic damage with a sorcerer class feature and reduce a hostile foodfolk to 0 hit points, you can animate it as an unbread. "
+      ],
+      "level": 1,
+      "page": ""
+    },
+    {
+      "name": "Creeping Rot",
+      "source": "Cakewalk",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Mold",
+      "subclassSource": "Cakewalk",
+      "entries": [
+        "By 6th level, you can use your action to cover an area in black mold infused with necromantic energy. Expend a number of sorcery points up to your proficiency bonus. The effect's area consists of one 10-foot cube for each sorcery point expended, arranged as you wish within 120 feet of you. Each cube must have at least one face adjacent to the face of another cube. The area is difficult terrain for creatures other than you and {@creature unbread|Cakewalk} you control. Nonmagical vegetation in that area withers and objects within the area that aren't being worn or carried are covered in black mold.",
+        "Any creature other than you and unbread you control that enters the area for the first time on a turn, starts its turn in the area, or touches an object covered in black mold must make a Constitution saving throw or take 1d6 necrotic damage for each point of your proficiency bonus.",
+        "At the start of each of your turns, you can choose for the black mold to spread. Add another 10- foot cube with at least one face adjacent to another cube to the effect's area. The mold immediately covers surfaces and objects that aren't being worn or carried in that area.",
+        "After 1 minute, the mold withers and vanishes. Any 10-foot cube of mold exposed to fire burns away in 1 round. "
+      ],
+      "level": 6,
+      "page": ""
+    },
+    {
+      "name": "Spore Carriers",
+      "source": "Cakewalk",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Mold",
+      "subclassSource": "Cakewalk",
+      "entries": [
+        "Beginning at 14th level, when an {@creature unbread|Cakewalk} under your control drops to 0 hit points, you can choose for it to ignore its Relentless trait and cause it to explode with mold. Additionally, you can expend up to 6 sorcery points to increase the force of the explosion. Each creature within 5 feet of the thrall, other than yourself and other undead creatures under your control, must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes 4d6 poison damage, plus 1d6 poison damage for each sorcery point expended, and is poisoned until the start of your next turn. On a successful save, a creature takes half as much damage and isn't poisoned. "
+      ],
+      "level": 14,
+      "page": ""
+    },
+    {
+      "name": "Fungal Regeneration",
+      "source": "Cakewalk",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Mold",
+      "subclassSource": "Cakewalk",
+      "entries": [
+        "By 18th level, your black mold nourishes and heals your body. As a reaction, when an {@creature unbread|Cakewalk} under your control dies within 10 feet of you, you can absorb its spores to rejuvenate yourself. You can spend and roll one or more of your unspent Hit Dice and regain a number of hit points as if you had just finished a short rest. When you use this ability, you can spend a number of Hit Dice up to your proficiency bonus. Additionally, you can use an action and spend 3 sorcery points to restore a severed body member (finger, leg, tail, and so on) of a creature you touch. The stump is covered in a mat of black mold for 24 hours, after which the body member is restored. "
+      ],
+      "level": 18,
+      "page": ""
+    }
+  ],
+  "monster": [
+    {
+      "name": "Unbread",
+      "source": "Cakewalk",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        8
+      ],
+      "hp": {
+        "average": 13,
+        "formula": "2d8 + 4"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 6,
+      "con": 15,
+      "int": 5,
+      "wis": 5,
+      "cha": 7,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 7,
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "languages": [
+        "understands the languages it knew in life but can't speak"
+      ],
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Relentless (1/Day)",
+          "entries": [
+            "If the unbread takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage"
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "CS",
+        "LF"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Ability Score Increase",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "One of the familiar's ability scores increase by 2, or two of its ability scores increase by 1. The familiar can't increase an ability score above 20 using this feature. You can select this improvement an additional time when you reach 5th level, 9th level, 13th level, and 17th level. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Amphibious",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "The familiar can breathe both air and water. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amorphous",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "The familiar can move through a space as narrow as 1 inch wide without squeezing. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blindsight",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "The familiar can see invisible creatures up to 30 feet away from it. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blood Frenzy",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 350gp.",
+        "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "name": "Breath Weapon",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 350gp.",
+        "Action: Breath Weapon (1/Day). The familiar exhales a 15-foot cone or 30-foot line of elemental energy (your choice). Each creature within the area must make a Dexterity saving throw. The DC for this saving throw equals 10 or 8 + the familiar's Constitution modifier + its proficiency bonus, whichever is higher. On a failed save, a creature takes 2d6 damage for each point of the familiar's proficiency bonus, or half as much damage on a successful save. This damage type is one of acid, cold, fire, lightning, poison, or thunder (your choice). "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brute",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 350gp.",
+        "When the familiar hits a creature with a melee attack, it deals one extra die of damage. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "name": "Damage Resistance",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "The familiar gains resistance to a damage type of your choice except bludgeoning, piercing, or slashing damage. You can select this improvement up to three times. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Damage Immunity",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 350gp.",
+        "The familiar gains immunity to a damage type of your choice except bludgeoning, piercing, or slashing damage. You can select this improvement up to three times. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "name": "Darkvision",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "The familiar can see in dim and dark conditions up to 60 feet, without color. If the familiar already has darkvision, its range increases by 30 feet. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Death Burst",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 150gp.",
+        "When the familiar drops to 0 hit points, it explodes in a burst of magical energy. Each creature within 5 feet of it must make a Dexterity saving throw, taking 1d6 force damage for each point of the familiar's proficiency bonus on a failed save, or half as much damage on a successful one. The DC for this saving throw equals 10 or 8 + the familiar's Constiution modifier + its proficiency bonus, whichever is higher. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elemental Infusion",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "Choose one of the following damage types: acid, cold, fire, lightning, poison, or thunder. Your familiar's attacks and abilities deal damage of the chosen type. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elemental Ray",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 150gp.",
+        "Action: Elemental Ray. The familiar makes a ranged spell attack roll against a creature it can see within 30 feet. Its bonus for this attack roll is its Dexterity modifier + its proficiency bonus. On a hit, the target takes 1d6 damage for each point of the familiar's proficiency bonus. This damage type is one of acid, cold, fire, lightning, poison, or thunder (your choice). "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "False Appearance",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "Choose an inanimate object similar in size and shape to the familiar. While the familiar remains motionless, it is indistinguishable from that object. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flight",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 150gp.",
+        "The familiar gains a flying speed of 60 feet. If it already has a flying speed, its speed is increased by 30 feet. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flyby",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 250gp.",
+        "The familiar doesn't provoke opportunity attacks when it flies out of an enemy's reach. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "Growth",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 150gp.",
+        "The familiar's size increases to Small, its Hit Die increases to a d6 (its hit point maximum consequently increases by 1 for each of its Hit Dice), and its attacks' damage dice increase to d6s. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Illumination",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "The familiar sheds bright light in a 10-foot radius and dim light for an additional 10 feet. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Incorporeal Movement",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 150gp.",
+        "The familiar can move through other creatures and objects as if they were difficult terrain. It takes 1d10 force damage if it ends its turn inside an object. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "The familiar has advantage on Wisdom (Perception) checks that rely on hearing or smell. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Language",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "The familiar learns to read and speak one language you know. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legendary Resistance",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 450gp.",
+        "(2/Day) If the familiar fails a saving throw, it can choose to succeed instead. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 17
+          }
+        }
+      ]
+    },
+    {
+      "name": "Magic Resistance",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 250gp.",
+        "The familiar has advantage on saving throws against spells and other magical effects. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mimicry",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "The familiar can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check. The DC for this check equals 10 or 8 + the familiar's Charisma modifier + its proficiency bonus, whichever is higher. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multiattack",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 450gp.",
+        "Action: Multiattack. The familiar makes two melee attacks. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 17
+          }
+        }
+      ]
+    },
+    {
+      "name": "Natural Armor",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 150gp.",
+        "The familiar's Armor Class increases by 2. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nimble Escape",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 250gp.",
+        "The familiar can take the Disengage or Hide action as a bonus action on each of its turns. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pack Tactics",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 250gp.",
+        "The familiar has advantage on an attack roll against a creature if at least one of the familiar's allies is within 5 feet of the creature and the ally isn't incapacitated. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 9
+          }
+        }
+      ]
+    },
+    {
+      "name": "Powerful Build",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "The familiar is considered to be one size larger for the purpose of determining its carrying capacity and the weight it can push, drag, or lift. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Regeneration",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 450gp.",
+        "The familiar regains 10 hit points at the start of its turn if it has at least 1 hit point. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 17
+          }
+        }
+      ]
+    },
+    {
+      "name": "Relentless",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 150gp.",
+        "(1/Day) If the familiar takes damage less than half its hit point maximum that would reduce it to 0 hit points, it is reduced to 1 hit point instead. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Retaliation",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 350gp.",
+        "Reaction: Retaliation. When the familiar takes damage from a creature within 5 feet of it, it makes a melee attack against that creature. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "name": "Saving Throw",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "The familiar gains proficiency in a saving throw it does not already have proficiency in. You can select this improvement twice. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Skillful",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 50gp.",
+        "The familiar gains proficiency in two skills of your choice. You can select this improvement up to three times. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spell Immunity",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 450gp.",
+        "The familiar is immune to three spells chosen by its master. Typical immunities include fireball, heat metal, and lightning bolt. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 17
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spider Climb",
+      "source": "Cakewalk",
+      "featureType": [
+        "AdvFamiliar"
+      ],
+      "entries": [
+        "Cost: 100gp.",
+        "The familiar can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. "
+      ],
+      "prerequisite": [
+        {
+          "feature": [
+            "{@feat Familiar Master Feat|Cakewalk}"
+          ],
+          "level": {
+            "level": 3
+          }
+        }
+      ]
+    }
+  ],
+  "feat": [
+    {
+      "name": "Familiar Tamer",
+      "source": "Cakewalk",
+      "page": 0,
+      "prerequisite": [
+        {
+          "other": "The ability to command a familiar"
+        }
+      ],
+      "entries": [
+        "You have formed an inseparable bond with your familiar. Choose a familiar that obeys your commands to become an advanced familiar. This familiar can no longer change its form, but is empowered and gains unique improvements, as follows:",
+        "Your familiar gains an improvement available at 1st level.",
+        {
+          "type": "list",
+          "items": [
+            "Your familiar can have a total number of improvements equal to half your level, rounded up.",
+            "You can add a new improvement to your familiar in a ritual over the course of 1 hour, which can be performed over the course over a short or long rest, by spending an amount in gold of rare ingredients as shown on the {@filter Improvements|optionalfeatures|feature type=AdvFamiliar} table for the improvement chosen. You can remove improvements over the same duration for no cost. For each improvement, you must have a high enough level and the familiar must meet the improvement's prerequisites. You can only choose each improvement once, unless otherwise stated."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Advanced Familiar Statistics",
+          "entries": [
+            "An advanced familiar's statistics improve in the following ways:",
+            {
+              "type": "list",
+              "items": [
+                "Your advanced familiar gains an additional number of Hit Dice equal to your level and increases its hit points accordingly.",
+                "Your advanced familiar uses your proficiency bonus instead of its own.",
+                "Your advanced familiar takes its turn immediately before or after your turn each round (your choice). Once on each of your turns as an action or a bonus action, you can mentally command your familiar to use its reaction to use an action listed in its statistics, including attacks.",
+                "Your advanced familiar's attacks deal damage equal to {@dice 1d4} + its Strength or Dexterity modifier (your choice), if it would otherwise deal less damage."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
