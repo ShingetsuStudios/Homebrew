@@ -21,67 +21,67 @@
     "subclass": [
         {
             "subclassFeatures": [
-                "Coalition Arcanist|Warmage|VSoS|Coalition Arcanist|DarkMatterSpireSubclasses|3",
-                "Coalition Blaster Gauntlet|Warmage|VSoS|Coalition Arcanist|DarkMatterSpireSubclasses|3",
-                "Tactical Uplink|Warmage|VSoS|Coalition Arcanist|DarkMatterSpireSubclasses|7",
-                "Requisition|Warmage|VSoS|Coalition Arcanist|DarkMatterSpireSubclasses|10",
-                "Squadsight|Warmage|VSoS|Coalition Arcanist|DarkMatterSpireSubclasses|15",
-                "Orbital Bombardment|Warmage|VSoS|Coalition Arcanist|DarkMatterSpireSubclasses|18"
+                "Coalition Arcanist|Warmage|VSS|Coalition Arcanist|DarkMatterSpireSubclasses|3",
+                "Coalition Blaster Gauntlet|Warmage|VSS|Coalition Arcanist|DarkMatterSpireSubclasses|3",
+                "Tactical Uplink|Warmage|VSS|Coalition Arcanist|DarkMatterSpireSubclasses|7",
+                "Requisition|Warmage|VSS|Coalition Arcanist|DarkMatterSpireSubclasses|10",
+                "Squadsight|Warmage|VSS|Coalition Arcanist|DarkMatterSpireSubclasses|15",
+                "Orbital Bombardment|Warmage|VSS|Coalition Arcanist|DarkMatterSpireSubclasses|18"
             ],
             "shortName": "Coalition Arcanist",
             "name": "Coalition Arcanist",
             "source": "DarkMatterSpireSubclasses",
             "className": "Warmage",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "page": 100
         },
         {
             "subclassFeatures": [
-                "Cyberghoul|Necromancer|VSoS|Cyberghoul|DarkMatterSpireSubclasses|3",
-                "Cyber Spells|Necromancer|VSoS|Cyberghoul|DarkMatterSpireSubclasses|3",
-                "Construct Corpses|Necromancer|VSoS|Cyberghoul|DarkMatterSpireSubclasses|3",
-                "Charnel Blaster|Necromancer|VSoS|Cyberghoul|DarkMatterSpireSubclasses|3",
-                "Ghost In The Machine|Necromancer|VSoS|Cyberghoul|DarkMatterSpireSubclasses|6",
-                "Digital Death|Necromancer|VSoS|Cyberghoul|DarkMatterSpireSubclasses|10",
-                "Cyber Lich|Necromancer|VSoS|Cyberghoul|DarkMatterSpireSubclasses|20"
+                "Cyberghoul|Necromancer|VSS|Cyberghoul|DarkMatterSpireSubclasses|3",
+                "Cyber Spells|Necromancer|VSS|Cyberghoul|DarkMatterSpireSubclasses|3",
+                "Construct Corpses|Necromancer|VSS|Cyberghoul|DarkMatterSpireSubclasses|3",
+                "Charnel Blaster|Necromancer|VSS|Cyberghoul|DarkMatterSpireSubclasses|3",
+                "Ghost In The Machine|Necromancer|VSS|Cyberghoul|DarkMatterSpireSubclasses|6",
+                "Digital Death|Necromancer|VSS|Cyberghoul|DarkMatterSpireSubclasses|10",
+                "Cyber Lich|Necromancer|VSS|Cyberghoul|DarkMatterSpireSubclasses|20"
             ],
             "shortName": "Cyberghoul",
             "name": "Cyberghoul",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "page": 0
         },
         {
             "subclassFeatures": [
-                "Burden Of Awakening|Martyr|VSoS|Awakening|DarkMatterSpireSubclasses|1",
-                "Psionic Awakening|Martyr|VSoS|Awakening|DarkMatterSpireSubclasses|1",
-                "Burden Spells|Martyr|VSoS|Awakening|DarkMatterSpireSubclasses|1",
-                "Bloody Reprieve|Martyr|VSoS|Awakening|DarkMatterSpireSubclasses|6",
-                "Blademaster Psion|Martyr|VSoS|Awakening|DarkMatterSpireSubclasses|14",
-                "Limited Foresight|Martyr|VSoS|Awakening|DarkMatterSpireSubclasses|18"
+                "Burden Of Awakening|Martyr|VSS|Awakening|DarkMatterSpireSubclasses|1",
+                "Psionic Awakening|Martyr|VSS|Awakening|DarkMatterSpireSubclasses|1",
+                "Burden Spells|Martyr|VSS|Awakening|DarkMatterSpireSubclasses|1",
+                "Bloody Reprieve|Martyr|VSS|Awakening|DarkMatterSpireSubclasses|6",
+                "Blademaster Psion|Martyr|VSS|Awakening|DarkMatterSpireSubclasses|14",
+                "Limited Foresight|Martyr|VSS|Awakening|DarkMatterSpireSubclasses|18"
             ],
             "shortName": "Awakening",
             "name": "Burden Of Awakening",
             "source": "DarkMatterSpireSubclasses",
             "className": "Martyr",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "page": 0
         },
         {
             "subclassFeatures": [
-                "Decommissioner|Investigator|VSoS|Decommissioner|DarkMatterSpireSubclasses|3",
-                "Bonus Proficiencies|Investigator|VSoS|Decommissioner|DarkMatterSpireSubclasses|3",
-                "Trinkets|Investigator|VSoS|Decommissioner|DarkMatterSpireSubclasses|3",
-                "Non-regulation Blaster|Investigator|VSoS|Decommissioner|DarkMatterSpireSubclasses|6",
-                "Reprogrammer|Investigator|VSoS|Decommissioner|DarkMatterSpireSubclasses|10",
-                "Antimagic Blaster|Investigator|VSoS|Decommissioner|DarkMatterSpireSubclasses|14"
+                "Decommissioner|Investigator|VSS|Decommissioner|DarkMatterSpireSubclasses|3",
+                "Bonus Proficiencies|Investigator|VSS|Decommissioner|DarkMatterSpireSubclasses|3",
+                "Trinkets|Investigator|VSS|Decommissioner|DarkMatterSpireSubclasses|3",
+                "Non-regulation Blaster|Investigator|VSS|Decommissioner|DarkMatterSpireSubclasses|6",
+                "Reprogrammer|Investigator|VSS|Decommissioner|DarkMatterSpireSubclasses|10",
+                "Antimagic Blaster|Investigator|VSS|Decommissioner|DarkMatterSpireSubclasses|14"
             ],
             "shortName": "Decommissioner",
             "name": "Decommissioner",
             "source": "DarkMatterSpireSubclasses",
             "className": "Investigator",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "page": 0
         }
     ],
@@ -90,7 +90,7 @@
             "name": "Coalition Arcanist",
             "source": "DarkMatterSpireSubclasses",
             "className": "Warmage",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Coalition Arcanist",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -103,14 +103,14 @@
             "name": "Coalition Blaster Gauntlet",
             "source": "DarkMatterSpireSubclasses",
             "className": "Warmage",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Coalition Arcanist",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
                 "Starting when you choose this house at 3rd level, you gain a specialized spell focus known as a blaster gauntlet, which allows you to apply some of the traits of blasters to cantrips you cast through it. If the gauntlet is lost or stolen, you can requisition another one from the Coalition when you take a long rest.",
                 "Whenever you cast a warmage cantrip that deals damage and requires a ranged spell attack using the gauntlet as a spell focus, you can apply one of the following modifiers:",
                 "{@b Automatic}. You can cast a cantrip twice, targeting two different creatures within 15 feet of one another with the spell. Your spell attacks for this cantrip always have disadvantage, regardless of circumstance.",
-                "{@b Scatter}. Shooting at a close range target, you increase the cantrip’s damage dice by one die size for the attack. For example, if the cantrip deals d6s for damage, it deals d8s instead. If it deals d8s, it instead deals d10s, up to a maximum of d12s. This cantrip can’t target a creature further than 10 feet from you.",
+                "{@b Scatter}. Shooting at a close range target, you increase the cantrip's damage dice by one die size for the attack. For example, if the cantrip deals d6s for damage, it deals d8s instead. If it deals d8s, it instead deals d10s, up to a maximum of d12s. This cantrip can't target a creature further than 10 feet from you.",
                 "{@b Sighted}. You can cast a cantrip at up to double its range. If its target is beyond its normal range, the spell attack has disadvantage."
             ],
             "level": 3,
@@ -120,7 +120,7 @@
             "name": "Tactical Uplink",
             "source": "DarkMatterSpireSubclasses",
             "className": "Warmage",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Coalition Arcanist",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -134,11 +134,11 @@
             "name": "Requisition",
             "source": "DarkMatterSpireSubclasses",
             "className": "Warmage",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Coalition Arcanist",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
-                "By 10th level, you can requisition magic items from the Coalition’s armory for short term use. When you finish a long rest, choose one of the following magic items, which is teleported to you: 2 {@item attractor mine|DarkMatter|attractor mines}, a {@item dome projector|DarkMatter}, a {@item gravity nullifier|DarkMatter}, a {@item jetpack|DarkMatter}, a {@item ring of spacewalking|DarkMatter} (which is attuned to you automatically), or a {@item universal translator|DarkMatter}. This item remains in your possession for 24 hours, at which time it is teleported back to the Coalition’s secure armory."
+                "By 10th level, you can requisition magic items from the Coalition's armory for short term use. When you finish a long rest, choose one of the following magic items, which is teleported to you: 2 {@item attractor mine|DarkMatter|attractor mines}, a {@item dome projector|DarkMatter}, a {@item gravity nullifier|DarkMatter}, a {@item jetpack|DarkMatter}, a {@item ring of spacewalking|DarkMatter} (which is attuned to you automatically), or a {@item universal translator|DarkMatter}. This item remains in your possession for 24 hours, at which time it is teleported back to the Coalition's secure armory."
             ],
             "level": 10,
             "page": 100
@@ -147,11 +147,11 @@
             "name": "Squadsight",
             "source": "DarkMatterSpireSubclasses",
             "className": "Warmage",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Coalition Arcanist",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
-                "Starting at 15th level, your tactical uplink synchronizes you with your allies, granting you a decisive tactical advantage. While you are within 120 feet of an ally, you know the exact location of any creature that your ally sees. Additionally, you can use a cantrip to target a creature that your ally can see, as long as that creature isn't in cover from your ally’s perspective. This cantrip is fired like a mortar, ricocheted off obstacles, or fired through thin barriers to hit its target."
+                "Starting at 15th level, your tactical uplink synchronizes you with your allies, granting you a decisive tactical advantage. While you are within 120 feet of an ally, you know the exact location of any creature that your ally sees. Additionally, you can use a cantrip to target a creature that your ally can see, as long as that creature isn't in cover from your ally's perspective. This cantrip is fired like a mortar, ricocheted off obstacles, or fired through thin barriers to hit its target."
             ],
             "level": 15,
             "page": 100
@@ -160,11 +160,11 @@
             "name": "Orbital Bombardment",
             "source": "DarkMatterSpireSubclasses",
             "className": "Warmage",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Coalition Arcanist",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
-                "At 18th level, you are granted access to the Coalition’s vast fleet of orbital drones, which are teleported to your location. You can cast the spell {@spell orbital hardlight cannon|DarkMatter} without using a spell slot. Once you use this ability, you can’t use it again until you finish a long rest."
+                "At 18th level, you are granted access to the Coalition's vast fleet of orbital drones, which are teleported to your location. You can cast the spell {@spell orbital hardlight cannon|DarkMatter} without using a spell slot. Once you use this ability, you can't use it again until you finish a long rest."
             ],
             "level": 18,
             "page": 100
@@ -173,7 +173,7 @@
             "name": "Cyberghoul",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Cyberghoul",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -186,7 +186,7 @@
             "name": "Cyber Spells",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Cyberghoul",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -204,7 +204,7 @@
             "name": "Construct Corpses",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Cyberghoul",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -220,7 +220,7 @@
             "name": "Charnel Blaster",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Cyberghoul",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -233,7 +233,7 @@
             "name": "Ghost In The Machine",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Cyberghoul",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -250,7 +250,7 @@
             "name": "Digital Death",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Cyberghoul",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -263,7 +263,7 @@
             "name": "Cyber Lich",
             "source": "DarkMatterSpireSubclasses",
             "className": "Necromancer",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Cyberghoul",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -307,7 +307,7 @@
             "name": "Burden Of Awakening",
             "source": "DarkMatterSpireSubclasses",
             "className": "Martyr",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Awakening",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -320,7 +320,7 @@
             "name": "Psionic Awakening",
             "source": "DarkMatterSpireSubclasses",
             "className": "Martyr",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Awakening",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -356,7 +356,7 @@
             "name": "Burden Spells",
             "source": "DarkMatterSpireSubclasses",
             "className": "Martyr",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Awakening",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -375,7 +375,7 @@
             "name": "Bloody Reprieve",
             "source": "DarkMatterSpireSubclasses",
             "className": "Martyr",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Awakening",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -388,7 +388,7 @@
             "name": "Blademaster Psion",
             "source": "DarkMatterSpireSubclasses",
             "className": "Martyr",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Awakening",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -416,7 +416,7 @@
             "name": "Limited Foresight",
             "source": "DarkMatterSpireSubclasses",
             "className": "Martyr",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Awakening",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -429,7 +429,7 @@
             "name": "Decommissioner",
             "source": "DarkMatterSpireSubclasses",
             "className": "Investigator",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Decommissioner",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -442,7 +442,7 @@
             "name": "Bonus Proficiencies",
             "source": "DarkMatterSpireSubclasses",
             "className": "Investigator",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Decommissioner",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -455,7 +455,7 @@
             "name": "Trinkets",
             "source": "DarkMatterSpireSubclasses",
             "className": "Investigator",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Decommissioner",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -489,7 +489,7 @@
             "name": "Non-regulation Blaster",
             "source": "DarkMatterSpireSubclasses",
             "className": "Investigator",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Decommissioner",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -502,7 +502,7 @@
             "name": "Reprogrammer",
             "source": "DarkMatterSpireSubclasses",
             "className": "Investigator",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Decommissioner",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -538,7 +538,7 @@
             "name": "Antimagic Blaster",
             "source": "DarkMatterSpireSubclasses",
             "className": "Investigator",
-            "classSource": "VSoS",
+            "classSource": "VSS",
             "subclassShortName": "Decommissioner",
             "subclassSource": "DarkMatterSpireSubclasses",
             "entries": [
@@ -558,7 +558,9 @@
                 "{@i Prerequisite: 2nd Level, Coalition Warmage}",
                 "You always have a plan when engaging the enemy. As such, attacks during the first round of combat have disadvantage against you."
             ],
-            "featureType": "Warmage Tricks",
+            "featureType": [
+                "T:WM"
+            ],
             "prerequisite": [
                 {
                     "level": {
@@ -581,7 +583,9 @@
                 "{@i Prerequisite: Technomancy Cantrip}",
                 "Your constant exposure to magical technology has given you the ability to manipulate it almost subconsciously. You can cast the cantrip {@spell technomancy|DarkMatter} as a bonus action on your turn, and can do so without using somatic components. Additionally, you can use the cantrip to attempt to hack devices within range."
             ],
-            "featureType": "Warmage Tricks",
+            "featureType": [
+                "T:WM"
+            ],
             "prerequisite": [
                 {
                     "spell": [
@@ -596,11 +600,13 @@
             "entries": [
                 "{@i Prerequisite: 10th Level, Coalition Warmage}",
                 "You install a high-power module in your blaster gauntlet. You can apply one of the following two modifiers to cantrips that you cast using your Coalition Blaster Gauntlet ability.",
-                "{@b Beam.} The cantrip creates a 5-foot wide beam out to the spell’s range in a direction you choose. This beam lasts until the start of your next turn. When a creature enters the area for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw against your spell save DC or take the spell’s damage.",
-                "{@b Overheat.} The cantrip’s damage dice become d12s.",
-                "Once you use one of these modifiers, you can’t use them again until you finish a short or long rest."
+                "{@b Beam.} The cantrip creates a 5-foot wide beam out to the spell's range in a direction you choose. This beam lasts until the start of your next turn. When a creature enters the area for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw against your spell save DC or take the spell's damage.",
+                "{@b Overheat.} The cantrip's damage dice become d12s.",
+                "Once you use one of these modifiers, you can't use them again until you finish a short or long rest."
             ],
-            "featureType": "Warmage Tricks",
+            "featureType": [
+                "T:WM"
+            ],
             "prerequisite": [
                 {
                     "level": {
