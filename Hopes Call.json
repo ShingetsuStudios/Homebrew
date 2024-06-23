@@ -1,0 +1,2079 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HopesCall",
+				"abbreviation": "Hope",
+				"full": "Hopes Call",
+				"version": "0.1",
+				"authors": [
+					"Baron"
+				],
+				"convertedBy": [
+					"Shin"
+				]
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"spellSchools": {
+			"TH": {
+				"full": "Thesamancy",
+				"short": "Thes.",
+				"color": "731a32"
+			},
+			"U": {
+				"full": "Umbramancy",
+				"short": "Umbra.",
+				"color": "685875"
+			}
+		}
+	},
+	"spell": [
+		{
+			"name": "Thorn Bind Hostage",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A rose Briar"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You point at a creature within range and cause 3 briar vines to wrap the target's body. The Next time the creature takes damage you may use your reaction to cause any number of the vines to explode causing the hit to deal an additional {@damage 1d8} force damage per vine to the creature."
+			],
+			"entriesHigherLevel": [
+				"At higher levels: for each spell slot above 1st level you create another vine that wraps around the target, When you cast this spell with a 5th level or higher spell slot the damage changes to {@dice 1d10}."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "VSS"
+					},
+					{
+						"name": "Necromancer",
+						"source": "VSS"
+					}
+				]
+			}
+		},
+		{
+			"name": "Anchor Howl",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You let out a war cry, each creature of your choice within 15 feet of you, must succeed on a Wisdom Saving throw. On a failure they have disadvantage on attacks made against anyone other than you and can't willingly move more than 15 feet from you. The effect ends if the creature is ever more than 15 feet from you.  The creature may repeat the save at the end of each of its turns, ending the effect on a successful save."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Geometric Guard",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"By calling on the fractal like patterns of the weave you weave a barrier around yourself. For the duration you Gain a +2 bonus to your ac. As part of casting the spell you may make an arcana check to attempt to bolster its effect 15+:  the bonus to your ac becomes +3",
+				{
+					"type": "entries",
+					"name": "20+:",
+					"entries": [
+						"the bonus to your ac becomes +4"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "25+:",
+					"entries": [
+						"The bonus to your ac becomes +4 and the spell no longer requires {@status concentration}"
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Necromancer",
+						"source": "VSS"
+					}
+				]
+			}
+		},
+		{
+			"name": "Erenaeth's Corrosive Embrace",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a vial of acid worth at least 50 gold which the spell consumes",
+					"cost": 5000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Your hand become coated in a potent acid, When you cast the spell and as an action on each of your turns you may make a melee spell attack, On a hit the target takes {@damage 4d10} acid damage, alternatively on a hit you may forgo damage and target a weapon, or piece of armor. On a hit a weapon gains a -1 to hit and damage, armor gains a -2 to ac. This loss is permanent for non magical equipment, if the item is magical the loss ends when the spell does"
+			],
+			"entriesHigherLevel": [
+				"At Higher levels: For every two levels above 3rd you cast this spell, the damage increases by {@dice 2d10} and the losses items gain increases by 1. If you spend a 9th level spell slot, the loss is permanent on any non legendary non artifact weapon or armor."
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Frigid Aegis",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "when you are hit by an attack"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A shield carved from ice"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"When hit with an attack you swiftly summon a barrier of ice. This shield has 15 Hp which it uses to absorb damage, is vulnerable to fire damage and immune to cold and poison damage. On your next turn, if the shield still has hit points you may use your bonus action to conjure a bolt of ice, Make a ranged spell attack at a creature within 60ft. On a hit you deal {@dice 1d8}+(remaining hp of the shield) in cold damage, If you don't use your bonus action in this way the shield harmlessly melts."
+			],
+			"entriesHigherLevel": [
+				"At higher levels: for every level above first: The barrier gains 5 hp and the damage increases by {@dice 1d8}"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"UBA"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Necromancer",
+						"source": "VSS"
+					}
+				]
+			}
+		},
+		{
+			"name": "Essence Blade",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 3,
+			"school": "U",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "1 oz of essence of the apppropriate creature type, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You touch a weapon and imbue it with the essence of a creature. Choosing one of the following effects.",
+				{
+					"type": "list",
+					"items": [
+						"Abberation: the weapon deals additional 2d8 psychic damage.",
+						"Fey: the weapon deals an addition 2d8 force damage.",
+						"Fiend: the weapon deals an addition 2d8 Poison damage.",
+						"Undead: the weapon deals an additional 2d8 necrotic damage.",
+						"Celestial: the weapon deals an additional 2d8 radiant damage.",
+						"Elemental: the weapon deals an additional 2d8 (fire/lightning/thunder/cold damage your choice).",
+						"Humaniod: the weapon deals an additional 2d8 acid damage.",
+						"Beast: the weapon deals an additional 2d8 slashing damage."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"force",
+				"lightning",
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant",
+				"slashing",
+				"thunder"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "VSS"
+					},
+					{
+						"name": "Necromancer",
+						"source": "VSS"
+					},
+					{
+						"name": "Martyr",
+						"source": "VSS"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wrist Pocket",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "special"
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You create an extra dimensional pocket that can hold one small item. When you cast this spell again you may retrieve the object from the pocket or swap it out with another small object."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mystic Correspondence",
+			"source": "HopesCall",
+			"page": 0,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A silver hand mirror worth at least 50 gp, and 5 gp of quicksilver, which the spell consumes."
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"you pour the quicksilver across the mirror and say the name of a familiar person's name. The mirror will expand to a 1 foot by 1 foot mirror.",
+				"A similar mirror will appear by the target, letting both creatures converse for the duration.",
+				"You cannot see anything outside of 5 feet from the other side, and it follows and centers on the face of the target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "VSS"
+					},
+					{
+						"name": "Necromancer",
+						"source": "VSS"
+					},
+					{
+						"name": "Martyr",
+						"source": "VSS"
+					}
+				]
+			}
+		},
+		{
+			"name": "True Rejuvenation",
+			"source": "TalesOfIntrigue",
+			"page": 0,
+			"level": 8,
+			"school": "TH",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You chose up to 6 willing creatures that you can see. Each creature regains hp  equal to 10x your lvl, lose all levels of {@condition exhaustion} and end all poison and curse effects."
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "VSS"
+					},
+					{
+						"name": "Necromancer",
+						"source": "VSS"
+					},
+					{
+						"name": "Martyr",
+						"source": "VSS"
+					}
+				]
+			}
+		},
+		{
+			"name": "Quincy Shot",
+			"source": "TalesOfIntrigue",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You call upon the power of light to form a powerful bow, when you cast this spell and as a bonus action on each of the following turns you can make a ranged spell attack. On a hit you deal {@damage 2d8} force damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"type": "entries",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd lvl or higher the damage increases by {@dice 1d8} per a spell lvl above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "VSS"
+					},
+					{
+						"name": "Necromancer",
+						"source": "VSS"
+					},
+					{
+						"name": "Martyr",
+						"source": "VSS"
+					}
+				]
+			},
+			"spellAttack": [
+				"R"
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Mul",
+			"source": "HopesCall",
+			"page": 0,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 3
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Mul live lifespans similar to humans."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"They tend to be self-interested and neutral, but rarely lie and are brutally blunt"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Muls are similar to humans in height and build, from barely 5 feet to well over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dual Origin",
+					"entries": [
+						"You may choose to be either dwarf of human"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mul Vitality",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tireless",
+					"entries": [
+						"Rather than needing the usual amount of sleep like a human, you only need to sleep for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Incredible Toughness",
+					"entries": [
+						"You are unwilling to ever give up, having endured as much as you have. As a bonus action, you can end any one of the following conditions if you are affected: Poisoned, Stunned or Paralyzed, even if the effect would stop you from using a bonus action. You can use this feature a number of times equal to your proficiency bonus, regaining all uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Dwarvish."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"ability": [
+				{
+					"int": 2,
+					"choose": {
+						"from": [
+							"str",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dwarvish": true
+				}
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Psion",
+			"source": "HopesCall",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple",
+					"short swords",
+					" scimitars",
+					"whips"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"history",
+								"nature",
+								"investigation",
+								"insight",
+								"perception"
+							],
+							"count": 3
+						}
+					}
+				],
+				"tools": [
+					"one artisan tool or vehicle proficiency of your choice"
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"a) a Shortsword or (b) any Simple weapon",
+					"(a) a Priest's Pack or (b) an Explorer's Pack",
+					"(5) Candles, or Colored Chalks"
+				],
+				"defaultData": [
+					{
+						"_": [
+							"a Shortsword"
+						],
+						"a": [
+							"any Simple weapon"
+						]
+					},
+					{
+						"a": [
+							"a Priest's Pack"
+						],
+						"b": [
+							"an Explorer's Pack"
+						]
+					},
+					{
+						"a": [
+							"Candles, or Colored Chalks"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {},
+				"proficienciesGained": {}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Psi Points",
+						"{@filter Psi Talents|optionalfeatures|Feature Type=PsiTalent}"
+					],
+					"rows": [
+						[
+							0,
+							0
+						],
+						[
+							2,
+							0
+						],
+						[
+							3,
+							2
+						],
+						[
+							4,
+							2
+						],
+						[
+							5,
+							2
+						],
+						[
+							6,
+							2
+						],
+						[
+							7,
+							3
+						],
+						[
+							8,
+							3
+						],
+						[
+							9,
+							3
+						],
+						[
+							10,
+							3
+						],
+						[
+							11,
+							4
+						],
+						[
+							12,
+							4
+						],
+						[
+							13,
+							4
+						],
+						[
+							14,
+							4
+						],
+						[
+							15,
+							5
+						],
+						[
+							16,
+							5
+						],
+						[
+							17,
+							5
+						],
+						[
+							18,
+							5
+						],
+						[
+							19,
+							5
+						],
+						[
+							20,
+							5
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Psi-infused Strikes|Psion|HopesCall|1",
+				"Psionic Pool|Psion|HopesCall|2",
+				"Fledgling Psionics|Psion|HopesCall|2",
+				"Psionic Talents|Psion|HopesCall|3",
+				{
+					"classFeature": "Psionic Discipline|Psion|HopesCall|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Psion|HopesCall|4",
+				"Psionic Resistance|Psion|HopesCall|4",
+				"Mental Acuity|Psion|HopesCall|5",
+				{
+					"classFeature": "Psionic Discipline Feature|Psion|HopesCall|6",
+					"gainSubclassFeature": true
+				},
+				"Psionic Warding|Psion|HopesCall|7",
+				"Ability Score Improvement|Psion|HopesCall|8",
+				"Improved Psionic Strikes|Psion|HopesCall|9",
+				"Ability Score Improvement|Psion|HopesCall|10",
+				{
+					"classFeature": "Psionic Discipline Feature|Psion|HopesCall|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Psion|HopesCall|12",
+				"Improved Psionics|Psion|HopesCall|13",
+				"Perfect Mind|Psion|HopesCall|14",
+				"Mind Over Body|Psion|HopesCall|15",
+				"Ability Score Improvement|Psion|HopesCall|16",
+				{
+					"classFeature": "Psionic Discipline Feature|Psion|HopesCall|17",
+					"gainSubclassFeature": true
+				},
+				"Timeless Soul|Psion|HopesCall|18",
+				"Ability Score Improvement|Psion|HopesCall|19",
+				"Psion|Psion|HopesCall|20"
+			],
+			"subclassTitle": "Psionic Discipline",
+			"spellcastingAbility": "int"
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Psi-infused Strikes",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, once per a turn when you hit with weapon attack or unarmed strike you may deal an additional 1d4 psychic damage."
+			]
+		},
+		{
+			"name": "Psionic Pool",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, you gain a pool of Psi points equal to your Psion level. You regain all expended Psi points at the end of a long rest."
+			]
+		},
+		{
+			"name": "Fledgling Psionics",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, you have learned to harness some of your psychic abilities. You gain limited telepathy with a range of 30 feet allowing you to communicate with any creature you can see with an int score of 5 or higher without sharing a language. You also learn the {@spell mage hand} cantrip, your casting stat is Intelligence."
+			]
+		},
+		{
+			"name": "Psionic Talents",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you may learn 2 Psionic Talents (found at end of document), you learn additional talents at 7th, 11th, and 15th level. When you take a new level in this class you may swap out one feat for another. Your Psion saving throw DC is 8 + Proficiency bonus + Intelligence Mod.",
+				""
+			]
+		},
+		{
+			"name": "Psionic Discipline",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you select your psionic discipline, choosing either Psi-Warrior or Psionic Magus. Your discipline grants you features at 3rd, 6th, 11th, and 17th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Psionic Resistance",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 4,
+			"entries": [
+				"Beginning at 4th level, you gain resistance to Psychic Damage "
+			]
+		},
+		{
+			"name": "Mental Acuity",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you may add your intelligence to your initiative score. Also thanks to your telepathy you have advantage on checks made to perceive hidden creatures."
+			]
+		},
+		{
+			"name": "Psionic Warding",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, your training has made you more resistant to magical attacks. When you are forced to make a save against a spell or magical effect you may spend a Psi point to make the save at",
+				""
+			]
+		},
+		{
+			"name": "Improved Psionic Strikes",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 9,
+			"entries": [
+				"Beginning at 9th level, your psionic strikes ignore psychic resistance. Also Your attacks are considered magical for the purpose of bypassing resistance or immunity to non magical attacks."
+			]
+		},
+		{
+			"name": "Improved Psionics",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 13,
+			"entries": [
+				"Beginning at 13th level, your mastery of your psionic powers has grown granting you new abilities",
+				"Your telepathy range is increased to 60 feet",
+				"You may spend a psi point to make an intelligence (investigation) vs the creature's stealth Check to attempt to connect telepathically to a creature you can't see.",
+				"You gain advantage on insight checks against creatures you connect telepathically to "
+			]
+		},
+		{
+			"name": "Perfect Mind",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 14,
+			"entries": [
+				"Beginning at 14th level, you gain immunity to the charmed condition, also you are immune to any affect that would read your mind or attempt to determine your alignment "
+			]
+		},
+		{
+			"name": "Mind Over Body",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 15,
+			"entries": [
+				"Beginning at 15th level, your mental training has allowed you to learn how to ignore pain. When you would be knocked to zero hp you may spend a Psi Point to fall to 1 hp instead. Each subsequent time you use this feature it costs an additional Psi point "
+			]
+		},
+		{
+			"name": "Timeless Soul",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 18,
+			"entries": [
+				"Beginning at 18th level, you no longer require food or drink, also when you age at a rate of 1 year to every 5."
+			]
+		},
+		{
+			"name": "Psion",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 20,
+			"entries": [
+				"Beginning at 20th level, you have mastered your mental training. Your Intelligence and Wisdom scores increase by 4 to a maximum of 24 and you gain advantage on all Intelligence and wisdom saving throws",
+				""
+			]
+		},
+		{
+			"name": "Psionic Discipline Feature",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature from your Psionic Discipline."
+			]
+		},
+		{
+			"name": "Psionic Discipline Feature",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain a feature from your Psionic Discipline."
+			]
+		},
+		{
+			"name": "Psionic Discipline Feature",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain a feature from your Psionic Discipline."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 10,
+			"entries": [
+				"When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"subclassFeatures": [
+				"Proficiencies|Psion|HopesCall|Psi-warrior|HopesCall|3",
+				"Warrior's Strike|Psion|HopesCall|Psi-warrior|HopesCall|3",
+				"Psionic Bulwark|Psion|HopesCall|Psi-warrior|HopesCall|6",
+				"Sense Weakness|Psion|HopesCall|Psi-warrior|HopesCall|11",
+				"Flow Of Battle|Psion|HopesCall|Psi-warrior|HopesCall|11",
+				"Perfect Warrior|Psion|HopesCall|Psi-warrior|HopesCall|17"
+			],
+			"shortName": "Psi-warrior",
+			"name": "Psi-warrior",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"page": 0,
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Eldritch Knight",
+							"source": "PHB"
+						}
+					],
+					"colLabels": [
+						"Psionic Die"
+					],
+					"rows": [
+						[
+							"0"
+						],
+						[
+							"0"
+						],
+						[
+							"1d4"
+						],
+						[
+							"1d4"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d6"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d8"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d10"
+						],
+						[
+							"1d10"
+						]
+					]
+				}
+			]
+		},
+		{
+			"subclassFeatures": [
+				"Fortune Magic|Sorcerer|PHB|Fate Touched|HopesCall|1",
+				"Diviners Deck|Sorcerer|PHB|Fate Touched|HopesCall|1",
+				"Fate Manipulation|Sorcerer|PHB|Fate Touched|HopesCall|6",
+				"Fate Weaver|Sorcerer|PHB|Fate Touched|HopesCall|14",
+				"Harbinger Of Fate|Sorcerer|PHB|Fate Touched|HopesCall|18"
+			],
+			"shortName": "Fate Touched",
+			"name": "Fate Touched",
+			"source": "HopesCall",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"page": 0,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"guidance#c",
+							"bless",
+							"bane"
+						],
+						"3": [
+							"fortune's favor|egw",
+							"augury"
+						],
+						"5": [
+							"remove curse",
+							"dispel magic"
+						],
+						"7": [
+							"death ward",
+							"divination"
+						],
+						"9": [
+							"comune",
+							"scrying"
+						]
+					}
+				}
+			]
+		},
+		{
+			"subclassFeatures": [
+				"Domain Spells|Cleric|PHB|Travel|HopesCall|1",
+				"Well Traveled|Cleric|PHB|Travel|HopesCall|1",
+				"Quick Step|Cleric|PHB|Travel|HopesCall|1",
+				"Channel Divinity: Divine Shelter|Cleric|PHB|Travel|HopesCall|2",
+				"Traveler's Intuition|Cleric|PHB|Travel|HopesCall|6",
+				"Divine Strike|Cleric|PHB|Travel|HopesCall|8",
+				"True Adventurer|Cleric|PHB|Travel|HopesCall|17"
+			],
+			"shortName": "Travel",
+			"name": "Travel Domain",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 0,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"feather fall",
+							"longstrider"
+						],
+						"3": [
+							"find steed",
+							"pass without trace"
+						],
+						"5": [
+							"fly",
+							"globe of twilight|HWCS"
+						],
+						"7": [
+							"freedom of movement",
+							"conjure woodland beings"
+						],
+						"9": [
+							"teleportation circle",
+							"tree stride"
+						]
+					}
+				}
+			],
+			"advancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "divine-strike",
+						"type": "dice",
+						"scale": {
+							"8": {
+								"n": 1,
+								"die": 8
+							},
+							"14": {
+								"n": 2,
+								"die": 8
+							}
+						}
+					},
+					"title": "Divine Strike"
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Proficiencies",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"subclassShortName": "Psi-warrior",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Beginning at 3rd level, when you choose this discipline you gain proficiency in medium and heavy armor, shields, and martial weapons. You also gain the martial mastery feature."
+			],
+			"level": 3,
+			"page": 0
+		},
+		{
+			"name": "Warrior's Strike",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"subclassShortName": "Psi-warrior",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Beginning at 3rd level, Your Psionic Strike now applies to every weapon attack you make, and the die size increases to a d6 at level 5, a d8 at 11, and to a d10 at 17th level."
+			],
+			"level": 3,
+			"page": 0
+		},
+		{
+			"name": "Psionic Bulwark",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"subclassShortName": "Psi-warrior",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Beginning at 6th level, when you are hit with an attack as a reaction you may spend a Psi point to roll your psionics die and reduce the damage from the attack by an amount equal to the roll + your Psion level "
+			],
+			"level": 6,
+			"page": 0
+		},
+		{
+			"name": "Sense Weakness",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"subclassShortName": "Psi-warrior",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Beginning at 11th level, you may use a bonus action to make an intelligence (investigation check) against an enemies charisma (deception) check, on a success you choose to either have advantage on attacks against the creature or deal an additional die of weapon damage to the creature until the end of your next turn."
+			],
+			"level": 11,
+			"page": 0
+		},
+		{
+			"name": "Flow Of Battle",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"subclassShortName": "Psi-warrior",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Beginning at 11th level, once per a you may spend a psi point to gain an additional reaction if you have already spent your reaction this round. Each additional time you use this ability in the same round it costs an additional psi point."
+			],
+			"level": 11,
+			"page": 0
+		},
+		{
+			"name": "Perfect Warrior",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"subclassShortName": "Psi-warrior",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Beginning at 17th level, you have honed your mind into a weapon. As an action you may spend 5 psi points to unlock your true potential. For one minute you may make one additional attack when you take the attack action. Your attacks ignore immunity to psychic damage, and once per a turn when you hit a creature affected by your Sense Weakness the creature is treated as vulnerable to the damage."
+			],
+			"level": 17,
+			"page": 0
+		},
+		{
+			"name": "Fortune Magic",
+			"source": "HopesCall",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Touched",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 1st level you gain the following features:",
+				"You learn the {@spell Guidance} cantrip.",
+				"All spells with the chronomancy tag are added to your class spell list",
+				"You also learn the following spells as you gain levels in this class. These spells do not count against your spells known",
+				"1st: {@spell Bless}, {@spell Bane}",
+				"3rd: {@spell Fortune's Favor}, {@spell Augury}",
+				"5th: {@spell Remove curse}, {@spell Dispel Magic}",
+				"7th: {@spell Death Ward}, {@spell Divination}",
+				"9th: {@spell Commune}, {@spell Scrying}"
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Diviners Deck",
+			"source": "HopesCall",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Touched",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 1st level you may create a magical deck of cards. Doing so takes a short rest. Should your deck be destroyed or lost you may spend 100 gp worth of resources and 1 hour crafting a new one.",
+				"This deck may be used a spell casting focus",
+				"1/long rest, You may minute drawing 5 cards from the deck (no action)",
+				"As a bonus action you may release the magic in one of the drawn cards,Doing so grants your choice of gaining its passive effect or its active effect.",
+				"The passive effect lasts until you take a long rest or you activate a new passive.",
+				"Once a card has been activated it magically returns to the deck.",
+				"Card effects can be found at end of document"
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Fate Manipulation",
+			"source": "HopesCall",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Touched",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 6th level you gain the following features",
+				{
+					"type": "entries",
+					"name": "Foresight",
+					"entries": [
+						"When you finish a long rest you may choose to gain a bonus to attack rolls, saving throws, or ability checks equal to 1d4"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sealed Fate",
+					"entries": [
+						"When a creature rolls a d20 you may spend your reaction to expend one of your drawn cards to cause the roll to critically Succeed or Fail"
+					]
+				}
+			],
+			"level": 6,
+			"page": 0
+		},
+		{
+			"name": "Fate Weaver",
+			"source": "HopesCall",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Touched",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 14th level you gain the following features",
+				{
+					"type": "entries",
+					"name": "Improved Divination",
+					"entries": [
+						"Divination and chronomancy spells you cast no longer require components"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bestow Fortune",
+					"entries": [
+						"When you cast the spells bane or bless the effect is changed to 2d4 instead of 1d4. "
+					]
+				}
+			],
+			"level": 14,
+			"page": 0
+		},
+		{
+			"name": "Harbinger Of Fate",
+			"source": "HopesCall",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Touched",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 18th level you gain the following abilities:",
+				"When you draw your cards for the day you may now draw 7 cards",
+				"As an action you may expend a card to cast foresight on a willing creature",
+				"Your foresight ability applies to attack all d20 rolls now",
+				"When you roll initiative and have less than 7 cards you may draw back up to seven "
+			],
+			"level": 18,
+			"page": 0
+		},
+		{
+			"name": "Domain Spells",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"1st: {@spell Feather Fall}, {@spell Longstrider}",
+				"3rd: {@spell Find Steed}, {@spell Pass Without Trace}",
+				"5th: {@spell Fly}, {@spell Globe of Twilight}",
+				"7th: {@spell Freedom of Movement}, {@spell Conjure Woodland Beings}",
+				"9th: {@spell Teleportation Circle}, {@spell Tree Stride} "
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Well Traveled",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"When you Choose this domain at 1st level, you gain proficiency in Heavy armor, 2 Weapons of your choice, and you learn two languages "
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Quick Step",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Also at 1st level, your many travels have granted you with the following abilities",
+				"When you take the dash action your movement does nor provoke attacks of opportunity",
+				"Also you may take the disengage action as a bonus action, you may only do this a number of times equal to your Wisdom modifier, regaining all uses at the end of a long rest "
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Channel Divinity: Divine Shelter",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 2nd level, you can use your channel Divinity to create a perfect shelter. As an action you create a magical area that is a 20x20x20 cube. The outside of this cube can take any appearance you want, The interior has room for 8 bed rolls, and 4 benches around a magical smokeless fire pit. Sound and light can not pass into or out of the space, but creatures inside can see out. The interior is always a comfortable temperature and the ground is always flat, dry and warm."
+			],
+			"level": 2,
+			"page": 0
+		},
+		{
+			"name": "Traveler's Intuition",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 6th level, while Traveling for at least an hour you and all friendly creatures within 30 feet gain the following benefits",
+				"You ignore difficult terrain",
+				"You may travel at a normal pace without suffering penalties",
+				"As long as you are traveling along a man made road, Trail, or Pathway you can not get lost except for magical means",
+				"When traveling in the wilderness, your group gains advantage on initiative checks",
+				"When foraging your group gathers 2x the amount on a successful survival check. "
+			],
+			"level": 6,
+			"page": 0
+		},
+		{
+			"name": "Divine Strike",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with extra kinetic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 force damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			],
+			"level": 8,
+			"page": 0
+		},
+		{
+			"name": "True Adventurer",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 17th level, your adventurous spirit has led you to gaining the following abilities",
+				"Your Walking speed Increases by 10 feet",
+				"You gain a climb and swim speed equal to your walking speed",
+				"You gain a bonus to your initiative rolls equal to your wisdom mod",
+				"When you Move at least 30 feet and hit a creature with a spell or weapon attack, you deal additional force damage equal to your Cleric Level "
+			],
+			"level": 17,
+			"page": 0
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Psychic Wings",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"You may cast {@spell fly} on yourself. You may cast this spell for free once per a long rest,  you may also spend 3 psi points to cast it additional times"
+			],
+			"featureType": [
+				"PsiTalent"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"fly"
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Psychic Shield",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"You may cast the spell {@spell shield}. you may use this ability a number of times equal to your intelligence modifier, you regain all expended uses at the end of a long rest."
+			],
+			"featureType": [
+				"PsiTalent"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"shield"
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Psychic Claws",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"Your unarmed strikes now deal {@damage 1d6} psychic damage, you add intelligence to your attack and damage rolls instead of strength or dex."
+			],
+			"featureType": [
+				"PsiTalent"
+			]
+		},
+		{
+			"name": "Mind Break",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"As an action you may attempt to flood a creature's mind with images and sounds, the creature must make a wisdom saving throw against your psion save dc. On a failure the creature has disadvantage on {@status concentration} and insight checks for 1 minute."
+			],
+			"featureType": [
+				"PsiTalent"
+			]
+		},
+		{
+			"name": "Psychic Step",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"Your walking speed increases by 10 feet, you may also move across vertical surfaces and liquids so long as you end your turn on the ground."
+			],
+			"prerequisite": [
+				{
+					"level": 11
+				}
+			],
+			"featureType": [
+				"PsiTalent"
+			]
+		},
+		{
+			"name": "Warriors Training",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"When you take the attack action you may make two attacks instead of one. You also learn one of the following fighting styles.",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Archery"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Defense"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Dueling"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Two-Weapon Fighting"
+						}
+					]
+				}
+			],
+			"prerequisite": [
+				{
+					"feature": [
+						"Psi-Warior"
+					],
+					"level": {
+						"level": 5
+					}
+				}
+			],
+			"featureType": [
+				"PsiTalent"
+			]
+		},
+		{
+			"name": "Psionic Recovery",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"As an action you may roll up to a your proficiency bonus in psi-dice and regain hp equal to the total rolled, You must spend one Psi point per dice rolled."
+			],
+			"prerequisite": [
+				{
+					"feature": [
+						"Psi-Warrior"
+					]
+				}
+			],
+			"featureType": [
+				"PsiTalent"
+			]
+		},
+		{
+			"name": "Warrior's Maneuvers",
+			"source": "HopesCall",
+			"page": 0,
+			"entries": [
+				"You may spend a number psi points to use the following maneuvers.",
+				{
+					"type": "entries",
+					"name": "Retort",
+					"entries": [
+						"When hit with a melee attack, as a reaction you may spend 2 psi points to make attack against the creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Coordinated Strike",
+					"entries": [
+						"When you make an attack against a creature you may spend 2 psi points to allow an ally within 5 feet of the creature you are attacks to also make a melee attack against that creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Focused Strike",
+					"entries": [
+						"You may spend 2 psi points when you make an attack against a creature, roll a psi die and add the result to the attack and damage roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tripping strike.",
+					"entries": [
+						"When you hit a creature with a weapon attack you may spend 2 psi points to force it to make a strength saving throw, being knocked {@condition prone} on a failure."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Guardians Stance",
+					"entries": [
+						"As a bonus action you may spend 2 psi points to shield an ally within 5ft  from danger. Until the start of your next turn attacks against that creature have disadvantage, but attacks against you have advantage, this ability ends early if you or your ally ever move more than 5ft from the other one."
+					]
+				}
+			],
+			"prerequisite": [
+				{
+					"feature": [
+						"Psi-Warrior"
+					]
+				}
+			],
+			"featureType": [
+				"PsiTalent"
+			]
+		}
+	]
+}
