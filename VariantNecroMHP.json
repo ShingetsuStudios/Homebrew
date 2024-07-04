@@ -1,1472 +1,1302 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "Valias",
-                "abbreviation": "Bal",
-                "full": "Bal's Necromancer",
-                "authors": [
-                    "Mage Hand Press",
-                    "Cardstock Caster"
-                ],
-                "convertedBy": [
-                    ""
-                ],
-                "version": "1.0",
-                "url": "https://www.kickstarter.com/projects/magehandpress/spire-of-secrets",
-                "targetSchema": "1.0",
-                "color": "b600ed"
+   "_meta": {
+      "sources": [
+         {
+            "json": "Valias",
+            "abbreviation": "Bal",
+            "full": "Bal's Necromancer",
+            "authors": [
+               "Mage Hand Press",
+               "Cardstock Caster"
+            ],
+            "convertedBy": [
+               ""
+            ],
+            "version": "1.0",
+            "url": "https://www.kickstarter.com/projects/magehandpress/spire-of-secrets",
+            "color": "b600ed"
+         }
+      ],
+      "dependencies": {
+         "spell": [
+            "VSS",
+            "HelianasGuidetoMonsterHunting"
+         ]
+      },
+      "dateAdded": 1647295221,
+      "dateLastModified": 1705771680
+   },
+   "class": [
+      {
+         "name": "Necromancer (Variant)",
+         "source": "Valias",
+         "subclassTitle": "Grave Ambition",
+         "hd": {
+            "number": 1,
+            "faces": 6
+         },
+         "proficiency": [
+            "con",
+            "int"
+         ],
+         "startingProficiencies": {
+            "weapons": [
+               "simple"
+            ],
+            "skills": [
+               {
+                  "choose": {
+                     "from": [
+                        "arcana",
+                        "deception",
+                        "history",
+                        "investigation",
+                        "intimidation",
+                        "medicine",
+                        "persuasion",
+                        "religion"
+                     ],
+                     "count": 2
+                  }
+               }
+            ]
+         },
+         "startingEquipment": {
+            "additionalFromBackground": true,
+            "default": [
+               "A {@item dagger|phb} and any simple weapon",
+               "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+               "A {@item shovel|PHB} and (a) a {@item dungeoneer's pack|phb} or (b) a {@item scholar's pack|PHB}"
+            ],
+            "defaultData": [
+               {
+                  "_": [
+                     "dagger|phb",
+                     {
+                        "equipmentType": "weaponSimple"
+                     },
+                     "shovel|VSS"
+                  ]
+               },
+               {
+                  "a": [
+                     "component pouch|phb"
+                  ],
+                  "b": [
+                     "arcane focus|phb"
+                  ]
+               },
+               {
+                  "a": [
+                     "dungeoneer's pack|phb"
+                  ],
+                  "b": [
+                     "scholar's pack|phb"
+                  ]
+               }
+            ]
+         },
+         "multiclassing": {
+            "requirements": {
+               "int": 13
+            },
+            "proficienciesGained": {
+               "armor": [
+                  "light"
+               ]
             }
-        ]
-    },
-    "class": [
-        {
-            "name": "Necromancer (Variant)",
-            "source": "Valias",
-            "subclassTitle": "Grave Ambition",
-            "hd": {
-                "number": 1,
-                "faces": 6
+         },
+         "classTableGroups": [
+            {
+               "colLabels": [
+                  "Thrall CR"
+               ],
+               "rows": [
+                  [
+                     0
+                  ],
+                  [
+                     "1/4"
+                  ],
+                  [
+                     "1/2"
+                  ],
+                  [
+                     "1/2"
+                  ],
+                  [
+                     "1"
+                  ],
+                  [
+                     "1"
+                  ],
+                  [
+                     "1"
+                  ],
+                  [
+                     "1"
+                  ],
+                  [
+                     "2"
+                  ],
+                  [
+                     "2"
+                  ],
+                  [
+                     "2"
+                  ],
+                  [
+                     "2"
+                  ],
+                  [
+                     "3"
+                  ],
+                  [
+                     "3"
+                  ],
+                  [
+                     "3"
+                  ],
+                  [
+                     "3"
+                  ],
+                  [
+                     "4"
+                  ],
+                  [
+                     "4"
+                  ],
+                  [
+                     "4"
+                  ],
+                  [
+                     "4"
+                  ]
+               ]
             },
-            "proficiency": [
-                "con",
-                "int"
-            ],
-            "casterProgression": "full",
-            "spellcastingAbility": "int",
-            "preparedSpells": "<$level$> + <$int_mod$>",
-            "startingProficiencies": {
-                "weapons": [
-                    "simple"
-                ],
-                "skills": [
-                    {
-                        "choose": {
-                            "from": [
-                                "arcana",
-                                "deception",
-                                "history",
-                                "investigation",
-                                "intimidation",
-                                "medicine",
-                                "persuasion",
-                                "religion"
-                            ],
-                            "count": 2
+            {
+               "colLabels": [
+                  "Cantrips Known"
+               ],
+               "rows": [
+                  [
+                     4
+                  ],
+                  [
+                     4
+                  ],
+                  [
+                     4
+                  ],
+                  [
+                     5
+                  ],
+                  [
+                     5
+                  ],
+                  [
+                     5
+                  ],
+                  [
+                     5
+                  ],
+                  [
+                     5
+                  ],
+                  [
+                     5
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ],
+                  [
+                     6
+                  ]
+               ]
+            },
+            {
+               "colLabels": [
+                  "Spells Known"
+               ],
+               "rows": [
+                  [
+                     7
+                  ],
+                  [
+                     9
+                  ],
+                  [
+                     11
+                  ],
+                  [
+                     13
+                  ],
+                  [
+                     15
+                  ],
+                  [
+                     17
+                  ],
+                  [
+                     19
+                  ],
+                  [
+                     21
+                  ],
+                  [
+                     23
+                  ],
+                  [
+                     25
+                  ],
+                  [
+                     27
+                  ],
+                  [
+                     29
+                  ],
+                  [
+                     31
+                  ],
+                  [
+                     33
+                  ],
+                  [
+                     35
+                  ],
+                  [
+                     37
+                  ],
+                  [
+                     39
+                  ],
+                  [
+                     41
+                  ],
+                  [
+                     43
+                  ],
+                  [
+                     45
+                  ]
+               ]
+            },
+            {
+               "title": "Spell Slots per Spell Level",
+               "colLabels": [
+                  "{@filter 1st|spells|level=1|class=Necromancer (Valias)}",
+                  "{@filter 2nd|spells|level=2|class=Necromancer (Valias)}",
+                  "{@filter 3rd|spells|level=3|class=Necromancer (Valias)}",
+                  "{@filter 4th|spells|level=4|class=Necromancer (Valias)}",
+                  "{@filter 5th|spells|level=5|class=Necromancer (Valias)}",
+                  "{@filter 6th|spells|level=6|class=Necromancer (Valias)}",
+                  "{@filter 7th|spells|level=7|class=Necromancer (Valias)}",
+                  "{@filter 8th|spells|level=8|class=Necromancer (Valias)}",
+                  "{@filter 9th|spells|level=9|class=Necromancer (Valias)}"
+               ],
+               "rows": [
+                  [
+                     3,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     4,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     3,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     3,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     2,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     3,
+                     0,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     2,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     0,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     0,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     2,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     2,
+                     0,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     2,
+                     2,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     2,
+                     2,
+                     0
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     2,
+                     2,
+                     2
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     4,
+                     2,
+                     2,
+                     2,
+                     2
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     4,
+                     3,
+                     2,
+                     2,
+                     2
+                  ],
+                  [
+                     5,
+                     4,
+                     4,
+                     4,
+                     4,
+                     3,
+                     3,
+                     2,
+                     2
+                  ]
+               ]
+            }
+         ],
+         "casterProgression": "full",
+         "spellcastingAbility": "int",
+         "preparedSpells": "<$level$> + <$int_mod$>",
+         "spellsKnownProgressionFixedAllowLowerLevel": true,
+         "spellsKnownProgression": [
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31,
+            33,
+            35,
+            37,
+            39,
+            41,
+            43,
+            45
+         ],
+         "cantripProgression": [
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+         ],
+         "classSpells": [
+            "Acid Splash",
+            "Caustic Blade|VSS",
+            "Chill Touch",
+            "Dancing Lights",
+            "Light",
+            "Mage Hand",
+            "Mending",
+            "Poison Spray",
+            "Shocking Grasp",
+            "True strike",
+            "Cheat|VSS",
+            "Cryptogram|VSS",
+            "Eldritch Orb|VSS",
+            "Eye of Anubis|VSS",
+            "Flesh Ripper|VSS",
+            "Hocuspocus|VSS",
+            "Lightning Surge|VSS",
+            "Minor Lifesteal|VSS",
+            "Spark of Life|VSS",
+            "Alarm",
+            "Bane",
+            "Command",
+            "Detect Evil and Good",
+            "Detect Magic",
+            "Expeditious Retreat",
+            "False Life",
+            "Fog Cloud",
+            "Grease",
+            "Identify",
+            "Inflict Wounds",
+            "Mage Armor",
+            "Protection from Evil and Good",
+            "Sleep",
+            "Unseen Servant",
+            "Arcane Anomaly|VSS",
+            "Blood Print|VSS",
+            "Dead Mist Lash|VSS",
+            "Exhume|VSS",
+            "Flawed Reconstruction|VSS",
+            "Gahoul's Shrieking Skull|VSS",
+            "Hollowing Curse|VSS",
+            "Indemnify|VSS",
+            "Memorize|VSS",
+            "Might of the Abyss|VSS",
+            "Acid Arrow",
+            "Blindness/Deafness",
+            "Darkness",
+            "Darkvision",
+            "Detect Thoughts",
+            "Enlarge/Reduce",
+            "Gentle Repose",
+            "Invisibility",
+            "Knock",
+            "Locate Object",
+            "Misty Step",
+            "Pass without Trace",
+            "Ray of Enfeeblement",
+            "Silence",
+            "Spider Climb",
+            "Web",
+            "Curse Ward|VSS",
+            "Delay|VSS",
+            "Nondescript|VSS",
+            "Protection from Ballistics|VSS",
+            "Protect Threshold|VSS",
+            "Stone Bones|VSS",
+            "Unseen Accountant|VSS",
+            "Animate Dead",
+            "Bestow Curse",
+            "Call Lightning",
+            "Clairvoyance",
+            "Counterspell",
+            "Dispel Magic",
+            "Fear",
+            "Gaseous Form",
+            "Glyph of Warding",
+            "Nondetection",
+            "Phantom Steed",
+            "Remove Curse",
+            "Revivify",
+            "Stinking Cloud",
+            "Speak with Dead",
+            "Vampiric Touch",
+            "Benign Dismemberment|VSS",
+            "Curse of Blades|VSS",
+            "Dead Fog|VSS",
+            "Ruby-Eye Curse|VSS",
+            "Rusting Grasp|VSS",
+            "Séance|VSS",
+            "Arcane Eye",
+            "Blight",
+            "Death Ward",
+            "Dimension Door",
+            "Greater Invisibility",
+            "Locate Creature",
+            "Phantasmal killer",
+            "Secret chest",
+            "Dire Warning|VSS",
+            "Distort Gravity|VSS",
+            "False Vision|VSS",
+            "Gahoul's Scapegoat|VSS",
+            "Grasp of the Grave|VSS",
+            "Antilife Shell",
+            "Cloudkill",
+            "Contagion",
+            "Dispel Evil and Good",
+            "Dream",
+            "Insect Plague",
+            "Modify Memory",
+            "Scrying",
+            "Teleportation Circle",
+            "Pharaoh's Curse|VSS",
+            "Scrutinize Foe|VSS",
+            "Circle of Death",
+            "Contingency",
+            "Create Undead",
+            "Eyebite",
+            "Flesh to Stone",
+            "Harm",
+            "Magic Jar",
+            "Antiballistic Shield|VSS",
+            "Frenzy|VSS",
+            "Gahoul's Spectral Scythe|VSS",
+            "Inexorable Sarcophagus|VSS",
+            "Etherealness",
+            "Finger of Death",
+            "Sequester",
+            "Teleport",
+            "Abduct|VSS",
+            "Antimagic Shield",
+            "Clone",
+            "Feeblemind",
+            "Mind Blank",
+            "Power Word Stun",
+            "Gahoul's Glorious Gothic|VSS",
+            "Imprisonment",
+            "Power Word Kill",
+            "Storm of Vengeance",
+            "Weird",
+            "Heart of Darkness|VSS",
+            "Blade Ward",
+            "Encode Thoughts|GGR",
+            "Infestation|XGE",
+            "Sapping Sting|EGW",
+            "Toll the Dead|XGE",
+            "Arms of Hadar",
+            "Cause Fear|XGE",
+            "Hex",
+            "Ray of Sickness",
+            "Tasha's Caustic Brew|TCE",
+            "Witch Bolt",
+            "Melf's Acid Arrow",
+            "Shadow Blade|XGE",
+            "Wither and Bloom|SCC",
+            "Feign Death",
+            "Hunger of Hadar",
+            "Life Transference|XGE",
+            "Spirit Shroud|TCE",
+            "Summon Lesser Demons|XGE",
+            "Summon Shadowspawn|TCE",
+            "Summon Undead|TCE",
+            "Shadow of Moil|XGE",
+            "Sickening Radiance|XGE",
+            "Summon Greater Demon|XGE",
+            "Vitriolic Sphere|XGE",
+            "Danse Macabre|XGE",
+            "Destructive Wave",
+            "Enervation|XGE",
+            "Negative Energy Flood|XGE",
+            "Arcane Gate",
+            "Create Homunculus|XGE",
+            "Mental Prison|XGE",
+            "Soul Cage|XGE",
+            "Summon Fiend|TCE",
+            "Create Magen|IDRotF",
+            "Power Word Pain|XGE",
+            "Tether Essence|EGW",
+            "Abi-Dalzim's Horrid Wilting|XGE",
+            "Maddening Darkness|XGE",
+            "Psychic Scream|XGE",
+            "Time Ravage|EGW",
+            "Can'trip|HelianasGuidetoMonsterHunting",
+            "Pins & Needles|HelianasGuidetoMonsterHunting",
+            "smokescreen|HelianasGuidetoMonsterHunting",
+            "swarm|HelianasGuidetoMonsterHunting",
+            "cannotrip|HelianasGuidetoMonsterHunting",
+            "corrupting ichor|HelianasGuidetoMonsterHunting",
+            "endoleech|HelianasGuidetoMonsterHunting",
+            "mortiferous pulse|HelianasGuidetoMonsterHunting",
+            "food coma|HelianasGuidetoMonsterHunting",
+            "influenza|HelianasGuidetoMonsterHunting",
+            "mass leech|HelianasGuidetoMonsterHunting",
+            "aura of impurity|HelianasGuidetoMonsterHunting",
+            "fungal infection|HelianasGuidetoMonsterHunting",
+            "bone cage|HelianasGuidetoMonsterHunting",
+            "lungburst|HelianasGuidetoMonsterHunting"
+         ],
+         "classFeatures": [
+            "Spirit Vessel|Necromancer (Variant)|Valias|1",
+            "Charnel Touch|Necromancer|VSS|1",
+            "Thralls|Necromancer|VSS|2",
+            "Bag of Bones|Necromancer|VSS|2",
+            {
+               "classFeature": "Grave Ambition|Necromancer|VSS|3",
+               "gainSubclassFeature": true
+            },
+            "Black Arcana|Necromancer|VSS|3",
+            "Ability Score Improvement|Necromancer|VSS|4",
+            "Critical Spellcasting|Necromancer|VSS|5",
+            {
+               "classFeature": "Grave Ambition Feature|Necromancer|VSS|6",
+               "gainSubclassFeature": true
+            },
+            "Enthralling Presence|Necromancer|VSS|7",
+            "Ability Score Improvement|Necromancer|VSS|8",
+            {
+               "classFeature": "Grave Ambition Feature|Necromancer|VSS|10",
+               "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Necromancer|VSS|12",
+            "Critical Spellcasting Improvement|Necromancer|VSS|14",
+            "Ability Score Improvement|Necromancer|VSS|16",
+            "Undying Servitude|Necromancer|VSS|18",
+            "Ability Score Improvement|Necromancer|VSS|19",
+            {
+               "classFeature": "Lichdom|Necromancer|VSS|20",
+               "gainSubclassFeature": true
+            }
+         ],
+         "hasFluff": true
+      }
+   ],
+   "classFeature": [
+      {
+         "name": "Spirit Vessel",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "level": 1,
+         "entries": [
+            "When you choose to take this feature at 1st level, ignore the spells known feature of Necromancer. As a researcher of the Undead Arts you have a Spirit Vessel, which can contain not only the imprints of spells you know, and the corpses that you utilize in your studies, but also contains the knowledge of types of undead you know how to create.",
+            {
+               "name": "Cantrips",
+               "type": "entries",
+               "entries": [
+                  "At 1st level, you know four cantrips of your choice from {@filter the necromancer spell list|spells|class=Necromancer (Valias)}. You learn additional necromancer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Necromancer table."
+               ]
+            },
+            {
+               "name": "Spell Slots",
+               "type": "entries",
+               "entries": [
+                  "The Necromancer table shows how many spell slots you have to cast spells of the 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all spell slots when you finish a long rest."
+               ]
+            },
+            {
+               "name": "Spirit Vessel",
+               "type": "entries",
+               "entries": [
+                  "At 1st Level, you have a Spirit Vessel containing the signatures for six 1st-level Necromancer Spells of your choice. Your Spirit Vessel is the container of the Necromancer Spells you know, except your Cantrips, which are affixed to your soul.",
+                  "You prepare the list of Necromancer Spells that are available for you to cast. To do so, choose a number of Necromancer Spells from your Spirit Vessel equal to your Intelligence modifier + your Necromancer level (minimum of one spell). The Spells must be of a level for which you have Spell Slots.",
+                  "You can change your list of prepared Spells when you finish a Long Rest. Preparing a new list of Necromancer Spells requires time spent melding your soul with the arcane imprints sealed within your vessel connecting to the spells they grant you: this takes at least 1  minute per Spell Level for each spell on your list."
+               ]
+            },
+            {
+               "name": "Learning New Spells and Making New Spirit Vesselsl",
+               "type": "entries",
+               "entries": [
+                  "Each time you gain a Necromancer level, you can add one Necromancer Spell of your choice to your Spellbook for free. Each of these Spells must be of a level for which you have Spell Slots, as shown on the Necromancer table.",
+                  "On your Adventures, you might find other Spells that you can add to your Spirit vessel. When you copy the spell, instead of writing down the spell, you infuse your soul with the magical signature of the spell, trapping it in your spirit vessel. This takes 3 hours per spell level, and costs 60 gp of necromantic supplies for each level of the spell, as the procedure is very taxing, draining not only your own life energy, but the inherent life energy of the world and supplies around you. (Otherwise, reference the 'Spell book' information of the wizard class, applying it to the necromancer.)",
+                  "Just like a wizard, you can create additional or new spirit vessels. Instead of a book, this requires a specialized container made of specialized clay, glass, metal, or other similar material that is much more durable than its typical counterpart, worth 50gp."
+               ]
+            },
+            {
+               "name": "Spellcasting Ability",
+               "type": "entries",
+               "entries": [
+                  "Intelligence is your spellcasting ability for your necromancer spells, since your power is rooted in the fine manipulation of negative energy and research into magical secrets. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a necromancer spell you cast and when making an attack roll with one.",
+                  {
+                     "type": "abilityDc",
+                     "name": "Spell",
+                     "attributes": [
+                        "int"
+                     ]
+                  },
+                  {
+                     "type": "abilityAttackMod",
+                     "name": "Spell",
+                     "attributes": [
+                        "int"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "Ritual Casting",
+               "type": "entries",
+               "entries": [
+                  "You can cast a necromancer spell as a ritual if that spell has the ritual tag."
+               ]
+            },
+            {
+               "name": "Spellcasting Focus",
+               "type": "entries",
+               "entries": [
+                  "You can use an arcane focus as a spellcasting focus. For a necromancer, these are typically objects with sentimental value, such as a locket, childhood toy, prison shackle, or wedding ring, that are altered with magically conductive materials."
+               ]
+            },
+            {
+               "name": "Your Spirit Vessel and the Undead",
+               "type": "entries",
+               "entries": [
+                  "In addition, when you create a bag of bones at 2nd level, your bag of bones' contents can be accessed through the bag, or through your Spirit Vessel."
+               ]
+            }
+         ]
+      }
+   ],
+   "subclass": [
+      {
+         "subclassFeatures": [
+            "Toymaker|Necromancer (Variant)|Valias|Toymaker|Valias|3",
+            "Slaymates|Necromancer (Variant)|Valias|Toymaker|Valias|3",
+            "Charnel Puppet|Necromancer (Variant)|Valias|Toymaker|Valias|3",
+            "Soul Doll|Necromancer (Variant)|Valias|Toymaker|Valias|6",
+            "Miniature Minions|Necromancer (Variant)|Valias|Toymaker|Valias|10",
+            "Capstone: Clockwork Lich|Necromancer (Variant)|Valias|Toymaker|Valias|20"
+         ],
+         "shortName": "Toymaker",
+         "name": "Toymaker",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "page": ""
+      }
+   ],
+   "subclassFeature": [
+      {
+         "name": "Toymaker",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "subclassShortName": "Toymaker",
+         "subclassSource": "Valias",
+         "entries": [
+            "Toymaking is not unlike necromancy. Painting details in miniature, carving faces, stitching clothing, and stringing up limbs require a meticulousness and obsession that is also a prerequisite for animating the dead. Necromancers, after all, devise their own playthings and meticulously fashion them, albeit using more gruesome materials. It should come at no surprise, therefore, that necromancy enjoys a strong tradition of toymaking. Practiced necromantic toymakers can animate their dolls as slaymates, adorable but lethal minions that strike in numbers."
+         ],
+         "level": 3,
+         "page": ""
+      },
+      {
+         "name": "Slaymates",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "subclassShortName": "Toymaker",
+         "subclassSource": "Valias",
+         "entries": [
+            "Starting when you choose this ambition at 3rd level, you learn to bind the souls of the dead into Construct vessels—namely porcelain dolls, clockwork toys, wooden puppets, and stuffed animals. When you perform your Animate Thralls ritual, you can summon {@creature slaymate|Valias|slaymates}. You command these creatures as your thralls and they count as Undead for the purpose of your necromancer class features. Additionally, two slaymates count as one thrall for your maximum number of thralls. When one of these creatures is reduced to 0 hit points or released by you, it collapses into a heap of ruined materials.",
+            {
+               "type": "statblock",
+               "tag": "creature",
+               "source": "Valias",
+               "name": "slaymate",
+               "style": "inset"
+            }
+         ],
+         "level": 3,
+         "page": ""
+      },
+      {
+         "name": "Charnel Puppet",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "subclassShortName": "Toymaker",
+         "subclassSource": "Valias",
+         "entries": [
+            "At 3rd level, using a supply of material stored in your bag of bones, you can animate slaymates at a moment's notice. You can use an action and expend 5 or more points from your Charnel Touch pool to animate two slaymates under your control for every 5 points expended, which count as your thralls. These slaymates appear within your space or in an unoccupied space within 5 feet of you."
+         ],
+         "level": 3,
+         "page": ""
+      },
+      {
+         "name": "Soul Doll",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "subclassShortName": "Toymaker",
+         "subclassSource": "Valias",
+         "entries": [
+            "Beginning at 6th level, as a reaction when a creature you can see within 60 feet of you dies, you can capture the creature's soul and trap it within a soul doll. The creature controls the body of the doll using the statistics of a slaymate, but it can't attack and retains its alignment, personality, and Intelligence, Wisdom, and Charisma scores. You don't control the soul doll and it doesn't count as one of your thralls. The soul doll speaks and understands all the languages it knew in life. It is under no compulsion to answer your questions truthfully or cooperate with you, especially if you are hostile to it or it recognizes you as an enemy. While the creature's soul is trapped in a soul doll, it can't return to life. The soul leaves the doll when you release it as an action, or when the soul doll is reduced to 0 hit points. You can have up to five soul dolls at one time. If you attempt to create a new soul doll, you can release another doll as a part of the reaction used to create the new doll. "
+         ],
+         "level": 6,
+         "page": ""
+      },
+      {
+         "name": "Miniature Minions",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "subclassShortName": "Toymaker",
+         "subclassSource": "Valias",
+         "entries": [
+            "Beginning at 10th level, when you perform your Animate Thralls ritual, you can choose for any thrall you animate to be Tiny and have a toylike appearance of your choice. Every Tiny thrall under your control gains the Evasion trait.",
+            {
+               "type": "entries",
+               "name": "Evasion.",
+               "entries": [
+                  "If the thrall is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't incapacitated."
+               ]
+            }
+         ],
+         "level": 10,
+         "page": ""
+      },
+      {
+         "name": "Capstone: Clockwork Lich",
+         "source": "Valias",
+         "className": "Necromancer (Variant)",
+         "classSource": "Valias",
+         "subclassShortName": "Toymaker",
+         "subclassSource": "Valias",
+         "entries": [
+            "At 20th level, you have reached the pinnacle of necromancy and transformed yourself into a lich. As a part of the Rite of Lichdom, you transfer your soul into a body of ticking clockwork, a stuttering but immortal form. You gain the following features in addition to the Lichdom feature:",
+            {
+               "type": "entries",
+               "name": "Clockwork Body.",
+               "entries": [
+                  "Your soul is bound to a Construct body with your statistics. Your type is Undead. However, spells and effects that specifically affect Constructs affect you as well. In your clockwork body, you are immune to being blinded, charmed, deafened, frightened, paralyzed, or stunned. Additionally, you are immune to any spell or effect that would alter your form. You can spend 10 days and 500 gp of materials to build an additional clockwork body to act as a safeguard against death. Whenever you die, your soul transfers to another clockwork body that you have built of your choice. If you have no clockwork bodies available, you reform at your phylactery in the body of a slaymate, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Spell Immunity.",
+               "entries": [
+                  "You are immune to three spells of your choice, which you select when you build the clockwork body. "
+               ]
+            }
+         ],
+         "level": 20,
+         "page": ""
+      }
+   ],
+   "race": [
+      {
+         "name": "Ovine",
+         "source": "Valias",
+         "size": [
+            "M"
+         ],
+         "speed": {
+            "walk": 30
+         },
+         "lineage": "VRGR",
+         "entries": [
+            {
+               "type": "entries",
+               "name": "Creature Type",
+               "entries": [
+                  "You are a Humanoid."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Speed",
+               "entries": [
+                  "Your walking speed is 30 feet."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "March on Hooves",
+               "entries": [
+                  "You have advantage on saving throws you make to avoid suffering exhaustion from a forced march."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Efficient Metabolism",
+               "entries": [
+                  "Ovines can eat a wide variety of foods that are unpalatable to other species. You can (joyfully!) sustain yourself indefinitely on any green, non-toxic vegetation."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Mind for Beasts",
+               "entries": [
+                  "You can comprehend and verbally communicate with all Beasts. Their knowledge and awareness is limited by their intelligence, but at minimum, animals can give information about what they've seen within the past 24 hours. You might also be able to persuade a Beast to perform a small favor for you, at the GM's discretion. ",
+                  "Additionally, you can cast the {@spell animal messenger} spell as a 2nd-level spell once with this trait, and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for it."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Shepherd Step",
+               "entries": [
+                  "The steep hills of the world have been your playground since you took your first steps. On anything other than a sheer vertical surface, you have a climbing speed of 15 feet, and your hands remain free while you do so."
+               ]
+            }
+         ],
+         "languagesProficiencies": [
+            {
+               "common": true,
+               "anyStandard": 1
+            }
+         ],
+         "page": 0,
+         "fluff": {
+            "entries": [
+               {
+                  "type": "quote",
+                  "entries": [
+                     "We talk about a lot of things. I've found I can get them to express their feelings about anything, if I can put it in terms of walking around, how annoying flies are, or the taste of oats and apples."
+                  ],
+                  "by": "Dorian",
+                  "from": "ovine delver"
+               },
+               "Wherever there are interesting animals to talk to, you'll find a sheep somewhere nearby making conversation. These gentle and uncomplicated folks are equally common in every homeland. Sheep are born with a unique blessing from the goddess Pirhoua: the ability to communicate with animals. Most sheep keep faithful pets as friends and conversation partners throughout their lives. The most common pet is a pig, whose minds can absorb and retain more ideas than some other potential companions.",
+               "Ovines invented the term \"quiet-minded beasts\" to describe the animals of the world. The term comes from the simple, quiet thoughts that animals express. Creatures driven by instinct don't have the same elaborate motivations and nuanced thoughts as their willful counterparts. Sheep recognize the value of their freedom from strife and anxiety, and have great respect for animal life.",
+               "Ovines are tuned into a reality most only have a passing awareness of, but impatient folks might think them dull-witted. A sheep's priorities rarely include formal learning and intellectual study. Their love for peaceful life among the herd is incompatible with the conniving of Allemagnian street hustlers or savvy Vinyotian trade moguls.",
+               "But sheep aren't stupid! Their patience affords them wisdom and perception of the world around them.",
+               "Their gentle nature and tendency to take things slow makes them the friends of the eccentric ligonines. In particular, sheep and sloths tend to meet for the first time just as one might chatter with an old friend. In the opposite manner, laetines are sometimes impatient with ovines on their crew. A ferret's mind races in a dozen directions, and they find sheep impossible to drag along on their mental tangents.",
+               "Appropriately, sheep have unrivaled shepherding skills. A flock is well-understood and obedient in the care of an ovine rancher. They also enjoy work as shopkeepers or any other job with ample opportunities for long, thoughtful gazes into the distance.",
+               "Wooly delvers often have a close relationship to nature or practice druidic magic. Indeed, sheep druids are gravely concerned about the Dungeon's effects on the natural world. They ally themselves with crews to seek any possible way to reverse the blight an entrance might inflict on local flora and fauna."
+            ]
+         },
+         "additionalSpells": [
+            {
+               "innate": {
+                  "1": {
+                     "daily": {
+                        "1": [
+                           "animal messenger"
+                        ]
+                     }
+                  }
+               }
+            }
+         ]
+      }
+   ],
+   "subrace": [
+      {
+         "name": "Sheep",
+         "raceName": "Ovine",
+         "source": "Valias",
+         "raceSource": "Valias",
+         "entries": [
+            {
+               "type": "entries",
+               "name": "Homeland Traits",
+               "entries": [
+                  {
+                     "type": "entries",
+                     "name": "Oria",
+                     "entries": [
+                        "Oric sheep have been cherished for centuries by the Houses of Oria for their role as scouts and watchers in the night. When the doors of a lodge house close for the colder months, some sheep stay on the outside. Orians abstain from shearing their thick wool until spring, which protects from the cold. When the sun sets, they teach each new generation how to find the scarce remaining wildlife to enlist help watching for winter dangers.",
+                        {
+                           "type": "entries",
+                           "name": "Self-Sufficient Herder",
+                           "entries": [
+                              "You automatically succeed on Constitution saving throws made to survive in extreme cold weather. Additionally, you have proficiency in Survival, and you know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it."
+                           ]
                         }
-                    }
-                ]
+                     ]
+                  }
+               ]
             },
-            "startingEquipment": {
-                "additionalFromBackground": true,
-                "default": [
-                    "A {@item dagger|phb} and any simple weapon",
-                    "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
-                    "A {@item shovel|VSS} and (a) a {@item dungeoneer's pack|phb} or (b) a {@item scholar's pack|PHB}"
-                ],
-                "defaultData": [
-                    {
-                        "_": [
-                            "dagger|phb",
-                            {
-                                "equipmentType": "weaponSimple"
-                            },
-                            "shovel|VSS"
-                        ]
-                    },
-                    {
-                        "a": [
-                            "component pouch|phb"
-                        ],
-                        "b": [
-                            "arcane focus|phb"
-                        ]
-                    },
-                    {
-                        "a": [
-                            "dungeoneer's pack|phb"
-                        ],
-                        "b": [
-                            "scholar's pack|phb"
-                        ]
-                    }
-                ]
+            {
+               "type": "section",
+               "entries": [
+                  {
+                     "type": "entries",
+                     "name": "Sheep"
+                  }
+               ]
             },
-            "multiclassing": {
-                "requirements": {
-                    "int": 13
-                },
-                "proficienciesGained": {
-                    "armor": [
-                        "light"
-                    ]
-                }
+            {
+               "type": "entries",
+               "name": "Size",
+               "entries": [
+                  "Most ovines stand somewhere between 4'11\" and 5'11\". Your size is Medium."
+               ]
             },
-            "classTableGroups": [
-                {
-                    "colLabels": [
-                        "Thrall CR"
-                    ],
-                    "rows": [
-                        [
-                            0
-                        ],
-                        [
-                            "1/4"
-                        ],
-                        [
-                            "1/2"
-                        ],
-                        [
-                            "1/2"
-                        ],
-                        [
-                            "1"
-                        ],
-                        [
-                            "1"
-                        ],
-                        [
-                            "1"
-                        ],
-                        [
-                            "1"
-                        ],
-                        [
-                            "2"
-                        ],
-                        [
-                            "2"
-                        ],
-                        [
-                            "2"
-                        ],
-                        [
-                            "2"
-                        ],
-                        [
-                            "3"
-                        ],
-                        [
-                            "3"
-                        ],
-                        [
-                            "3"
-                        ],
-                        [
-                            "3"
-                        ],
-                        [
-                            "4"
-                        ],
-                        [
-                            "4"
-                        ],
-                        [
-                            "4"
-                        ],
-                        [
-                            "4"
-                        ]
-                    ]
-                },
-                {
-                    "colLabels": [
-                        "Cantrips Known"
-                    ],
-                    "rows": [
-                        [
-                            4
-                        ],
-                        [
-                            4
-                        ],
-                        [
-                            4
-                        ],
-                        [
-                            5
-                        ],
-                        [
-                            5
-                        ],
-                        [
-                            5
-                        ],
-                        [
-                            5
-                        ],
-                        [
-                            5
-                        ],
-                        [
-                            5
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ]
-                    ]
-                },
-                {
-                    "colLabels": [
-                        "Spells Known"
-                    ],
-                    "rows": [
-                        [
-                            6
-                        ],
-                        [
-                            7
-                        ],
-                        [
-                            8
-                        ],
-                        [
-                            9
-                        ],
-                        [
-                            10
-                        ],
-                        [
-                            11
-                        ],
-                        [
-                            12
-                        ],
-                        [
-                            13
-                        ],
-                        [
-                            14
-                        ],
-                        [
-                            15
-                        ],
-                        [
-                            16
-                        ],
-                        [
-                            17
-                        ],
-                        [
-                            18
-                        ],
-                        [
-                            19
-                        ],
-                        [
-                            20
-                        ],
-                        [
-                            21
-                        ],
-                        [
-                            22
-                        ],
-                        [
-                            23
-                        ],
-                        [
-                            24
-                        ],
-                        [
-                            25
-                        ]
-                    ]
-                },
-                {
-                    "title": "Spell Slots per Spell Level",
-                    "colLabels": [
-                        "{@filter 1st|spells|level=1|class=Necromancer (VSS)}",
-                        "{@filter 2nd|spells|level=2|class=Necromancer (VSS)}",
-                        "{@filter 3rd|spells|level=3|class=Necromancer (VSS)}",
-                        "{@filter 4th|spells|level=4|class=Necromancer (VSS)}",
-                        "{@filter 5th|spells|level=5|class=Necromancer (VSS)}",
-                        "{@filter 6th|spells|level=5|class=Necromancer (VSS)}",
-                        "{@filter 7th|spells|level=5|class=Necromancer (VSS)}",
-                        "{@filter 8th|spells|level=5|class=Necromancer (VSS)}",
-                        "{@filter 9th|spells|level=5|class=Necromancer (VSS)}"
-                    ],
-                    "rows": [
-                        [
-                            2,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            3,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            2,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            2,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            2,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            1,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            1,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            3,
-                            1,
-                            1,
-                            1,
-                            1
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            3,
-                            2,
-                            1,
-                            1,
-                            1
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            3,
-                            2,
-                            2,
-                            1,
-                            1
-                        ]
-                    ]
-                }
-            ],
-            "spellsKnownProgressionFixed": [
-                6,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1
-            ],
-            "spellsKnownProgressionFixedAllowLowerLevel": true,
-            "cantripProgression": [
-                4,
-                4,
-                4,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6
-            ],
-            "classSpells": [
-                "Acid Splash",
-                "Caustic Blade|VSS",
-                "Chill Touch",
-                "Dancing Lights",
-                "Light",
-                "Mage Hand",
-                "Mending",
-                "Poison Spray",
-                "Shocking Grasp",
-                "True strike",
-                "Cheat|VSS",
-                "Cryptogram|VSS",
-                "Eldritch Orb|VSS",
-                "Eye of Anubis|VSS",
-                "Flesh Ripper|VSS",
-                "Hocuspocus|VSS",
-                "Lightning Surge|VSS",
-                "Minor Lifesteal|VSS",
-                "Spark of Life|VSS",
-                "Alarm",
-                "Bane",
-                "Command",
-                "Detect Evil and Good",
-                "Detect Magic",
-                "Expeditious Retreat",
-                "False Life",
-                "Fog Cloud",
-                "Grease",
-                "Identify",
-                "Inflict Wounds",
-                "Mage Armor",
-                "Protection from Evil and Good",
-                "Sleep",
-                "Unseen Servant",
-                "Arcane Anomaly|VSS",
-                "Blood Print|VSS",
-                "Dead Mist Lash|VSS",
-                "Exhume|VSS",
-                "Flawed Reconstruction|VSS",
-                "Gahoul's Shrieking Skull|VSS",
-                "Hollowing Curse|VSS",
-                "Indemnify|VSS",
-                "Memorize|VSS",
-                "Might of the Abyss|VSS",
-                "Acid Arrow",
-                "Blindness/Deafness",
-                "Darkness",
-                "Darkvision",
-                "Detect Thoughts",
-                "Enlarge/Reduce",
-                "Gentle Repose",
-                "Invisibility",
-                "Knock",
-                "Locate Object",
-                "Misty Step",
-                "Pass without Trace",
-                "Ray of Enfeeblement",
-                "Silence",
-                "Spider Climb",
-                "Web",
-                "Curse Ward|VSS",
-                "Delay|VSS",
-                "Nondescript|VSS",
-                "Protection from Ballistics|VSS",
-                "Protect Threshold|VSS",
-                "Stone Bones|VSS",
-                "Unseen Accountant|VSS",
-                "Animate Dead",
-                "Bestow Curse",
-                "Call Lightning",
-                "Clairvoyance",
-                "Counterspell",
-                "Dispel Magic",
-                "Fear",
-                "Gaseous Form",
-                "Glyph of Warding",
-                "Nondetection",
-                "Phantom Steed",
-                "Remove Curse",
-                "Revivify",
-                "Stinking Cloud",
-                "Speak with Dead",
-                "Vampiric Touch",
-                "Benign Dismemberment|VSS",
-                "Curse of Blades|VSS",
-                "Dead Fog|VSS",
-                "Ruby-Eye Curse|VSS",
-                "Rusting Grasp|VSS",
-                "Séance|VSS",
-                "Arcane Eye",
-                "Blight",
-                "Death Ward",
-                "Dimension Door",
-                "Greater Invisibility",
-                "Locate Creature",
-                "Phantasmal killer",
-                "Secret chest",
-                "Dire Warning|VSS",
-                "Distort Gravity|VSS",
-                "False Vision|VSS",
-                "Gahoul's Scapegoat|VSS",
-                "Grasp of the Grave|VSS",
-                "Antilife Shell",
-                "Cloudkill",
-                "Contagion",
-                "Dispel Evil and Good",
-                "Dream",
-                "Insect Plague",
-                "Modify Memory",
-                "Scrying",
-                "Teleportation Circle",
-                "Pharaoh's Curse|VSS",
-                "Scrutinize Foe|VSS",
-                "Circle of Death",
-                "Contingency",
-                "Create Undead",
-                "Eyebite",
-                "Flesh to Stone",
-                "Harm",
-                "Magic Jar",
-                "Antiballistic Shield|VSS",
-                "Frenzy|VSS",
-                "Gahoul's Spectral Scythe|VSS",
-                "Inexorable Sarcophagus|VSS",
-                "Etherealness",
-                "Finger of Death",
-                "Sequester",
-                "Teleport",
-                "Abduct|VSS",
-                "Antimagic Shield",
-                "Clone",
-                "Feeblemind",
-                "Mind Blank",
-                "Power Word Stun",
-                "Gahoul's Glorious Gothic|VSS",
-                "Imprisonment",
-                "Power Word Kill",
-                "Storm of Vengeance",
-                "Weird",
-                "Heart of Darkness|VSS",
-                "Blade Ward",
-                "Encode Thoughts|GGR",
-                "Infestation|XGE",
-                "Sapping Sting|EGW",
-                "Toll the Dead|XGE",
-                "Arms of Hadar",
-                "Cause Fear|XGE",
-                "Hex",
-                "Ray of Sickness",
-                "Tasha's Caustic Brew|TCE",
-                "Witch Bolt",
-                "Melf's Acid Arrow",
-                "Shadow Blade|XGE",
-                "Wither and Bloom|SCC",
-                "Feign Death",
-                "Hunger of Hadar",
-                "Life Transference|XGE",
-                "Spirit Shroud|TCE",
-                "Summon Lesser Demons|XGE",
-                "Summon Shadowspawn|TCE",
-                "Summon Undead|TCE",
-                "Shadow of Moil|XGE",
-                "Sickening Radiance|XGE",
-                "Summon Greater Demon|XGE",
-                "Vitriolic Sphere|XGE",
-                "Danse Macabre|XGE",
-                "Destructive Wave",
-                "Enervation|XGE",
-                "Negative Energy Flood|XGE",
-                "Arcane Gate",
-                "Create Homunculus|XGE",
-                "Mental Prison|XGE",
-                "Soul Cage|XGE",
-                "Summon Fiend|TCE",
-                "Create Magen|IDRotF",
-                "Power Word Pain|XGE",
-                "Tether Essence|EGW",
-                "Abi-Dalzim's Horrid Wilting|XGE",
-                "Maddening Darkness|XGE",
-                "Psychic Scream|XGE",
-                "Time Ravage|EGW",
-                "Can'trip|HelianasGuidetoMonsterHunting",
-                "Pins & Needles|HelianasGuidetoMonsterHunting",
-                "smokescreen|HelianasGuidetoMonsterHunting",
-                "swarm|HelianasGuidetoMonsterHunting",
-                "cannotrip|HelianasGuidetoMonsterHunting",
-                "corrupting ichor|HelianasGuidetoMonsterHunting",
-                "endoleech|HelianasGuidetoMonsterHunting",
-                "mortiferous pulse|HelianasGuidetoMonsterHunting",
-                "food coma|HelianasGuidetoMonsterHunting",
-                "influenza|HelianasGuidetoMonsterHunting",
-                "mass leech|HelianasGuidetoMonsterHunting",
-                "aura of impurity|HelianasGuidetoMonsterHunting",
-                "fungal infection|HelianasGuidetoMonsterHunting",
-                "bone cage|HelianasGuidetoMonsterHunting",
-                "lungburst|HelianasGuidetoMonsterHunting"
-            ],
-            "fluff": [
-                {
-                    "source": "Valias",
-                    "name": "Necromancer",
-                    "type": "section",
-                    "entries": [
-                        "A withered old woman reaches out and grasps a battle-hardened knight by the arm. The knight laughs at the crone's gesture before collapsing in mere seconds, desiccated and dead.",
-                        "A scarred and grizzled warrior in breastplate leads a charge through a detachment of soldiers, swinging a glaive, shrouded in dark energies, at her foes. A shambling, undead vanguard follows her path, and her slain foes rise to join their ranks.",
-                        "A grim, robed figure presides before his court, all arranged in a marble hall of gothic construction. Shambling corpses, abominations of flesh and bone, and dead-eyed charmed nobles wait in attendance, forming perfect lines in silent obedience.",
-                        "Necromancers are spellcasters that hold sway over the forces of life and death, twisting them to serve their own ambitions, and commanding small armies of lifeless, animated thralls.",
+            {
+               "type": "entries",
+               "name": "Inner Spark",
+               "entries": [
+                  "Ovine wool gives a friend a little shock, but with a bit of practice this can be honed into something extraordinary. Whenever you deal lightning damage to a creature, the creature takes an extra 1d4 lightning damage."
+               ]
+            }
+         ],
+         "size": [
+            "M"
+         ],
+         "additionalSpells": [
+            {
+               "ability": "wis",
+               "known": {
+                  "1": {
+                     "_": [
                         {
-                            "name": "Morbid Curiosity",
-                            "type": "entries",
-                            "entries": [
-                                "Necromancers must match their grand intellects with an equal lack of scruples, the willingness to turn to forbidden knowledge and unquestionably evil methods. No matter their means, every necromancer is driven by a deep fascination with the dark arts and the power necromancy can afford them. Most see themselves as outcast members of the academic elite, braving new dark territories of magic that other spellcasters are too cowardly to explore.",
-                                "However, collecting knowledge expanding their understanding is merely a means to an end for most necromancers—they are almost always driven by a deeper, darker impulse, a goal which pushes them to the utter brink. This might be the perverted ideal of a \"greater good\" or a goal to right the wrong of mortality; in every case, necromancy is a grim implement for their life's work."
-                            ]
-                        },
-                        {
-                            "name": "Masters of Undeath",
-                            "type": "entries",
-                            "entries": [
-                                "Necromancers have learned through trial and error how to puppet the flesh, bone, and spirits of the dead, binding them to their will. Through their terrible magic, they command the forms of lesser undead, and demand respect from those powerful enough to resist their thrall. All necromancers share the capability of simply animating corpses, along with the knowledge and foresight to create new and terrible undead abominations to further their goals.",
-                                "Beyond the basic command over the undead, each necromancer specializes in a method to impart their will upon the world. Some dive deeply into the necromantic arts, whereas others focus on their ability to assert control over others, while others still master the art of both martial and magical combat. While their skills might seem specialized, properly prepared necromancers can dominate both on the battlefield and at the round table."
-                            ]
-                        },
-                        {
-                            "name": "Creating a Necromancer",
-                            "type": "entries",
-                            "entries": [
-                                "As you create your necromancer, the most important piece of information to consider is your character's ambition. What is their goal? How do they intend to achieve it? How does necromancy fit into the picture? Once you've decided on your ambition, consider why they turned to necromancy to accomplish it. Were they scorned by their previous spellcasting master? Did they come across an old, rotting tome filled with forgotten knowledge? Were they the survivors of some great attack by another necromancer?",
-                                "Work with your GM to determine how necromancy is viewed in the world. Is it just another method of spellcasting, or is it an abominable tool, used only by the most abhorred spellcaster? How do commoners react when they see you? Must you hide your thralls from public scrutiny, and if so, how? Furthermore, do the other player characters know of your sinister magic, and if so, how have they reacted to seeing your puppeteered corpses? Work with other players, especially those with cleric and paladin characters, to find suitable reasons you might work together.",
-                                {
-                                    "name": "Quick Build",
-                                    "type": "entries",
-                                    "entries": [
-                                        "You can make a necromancer quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution, and then Strength or Dexterity if you plan to choose to be the Death Knight ambition. Second, choose a background of your choice, preferably one that ties into your ambition. Third, choose {@spell chill touch|phb}, {@spell hocuspocus|VSS}, {@spell light|phb}, and {@spell spark of life|VSS} for your cantrips, and then choose {@spell detect magic}, {@spell expeditious retreat}, {@spell Gahoul's gruesome garrote|VSS}, and {@spell inflict wounds} as your 1st level spells."
-                                    ]
-                                }
-                            ]
+                           "choose": "level=0|class=Druid"
                         }
-                    ]
-                }
-            ],
-            "classFeatures": [
-                "Spirit Vessel|Necromancer (Variant)|Valias|1",
-                "Charnel Touch|Necromancer (Variant)|Valias|1",
-                "Thralls|Necromancer (Variant)|Valias|2",
-                "Bag of Bones|Necromancer (Variant)|Valias|2",
-                {
-                    "classFeature": "Grave Ambition|Necromancer (Variant)|Valias|3",
-                    "gainSubclassFeature": true
-                },
-                "Black Arcana|Necromancer (Variant)|Valias|3",
-                "Ability Score Improvement|Necromancer (Variant)|Valias|4",
-                "Critical Spellcasting|Necromancer (Variant)|Valias|5",
-                {
-                    "classFeature": "Grave Ambition Feature|Necromancer (Variant)|Valias|6",
-                    "gainSubclassFeature": true
-                },
-                "Enthralling Presence|Necromancer (Variant)|Valias|7",
-                "Ability Score Improvement|Necromancer (Variant)|Valias|8",
-                {
-                    "classFeature": "Grave Ambition Feature|Necromancer (Variant)|Valias|10",
-                    "gainSubclassFeature": true
-                },
-                "Ability Score Improvement|Necromancer (Variant)|Valias|12",
-                "Critical Spellcasting Improvement|Necromancer (Variant)|Valias|14",
-                "Ability Score Improvement|Necromancer (Variant)|Valias|16",
-                "Undying Servitude|Necromancer (Variant)|Valias|18",
-                "Ability Score Improvement|Necromancer (Variant)|Valias|19",
-                {
-                    "classFeature": "Lichdom|Necromancer (Variant)|Valias|20",
-                    "gainSubclassFeature": true
-                }
-            ]
-        }
-    ],
-    "classFeature": [
-        {
-            "name": "Spirit Vessel",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 1,
-            "entries": [
-                "When you choose to take this feature at 1st level, ignore the spells known feature of Necromancer. As a researcher of the Undead Arts you have a Spirit Vessel, which can contain not only the imprints of spells you know, and the corpses that you utilize in your studies, but also contains the knowledge of types of undead you know how to create.",
-                {
-                    "name": "Cantrips",
-                    "type": "entries",
-                    "entries": [
-                        "At 1st level, you know four cantrips of your choice from {@filter the necromancer spell list|spells|class=Necromancer (VSS)}. You learn additional necromancer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Necromancer table."
-                    ]
-                },
-                {
-                    "name": "Spell Slots",
-                    "type": "entries",
-                    "entries": [
-                        "The Necromancer table shows how many spell slots you have to cast spells of the 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all spell slots when you finish a long rest."
-                    ]
-                },
-                {
-                    "name": "Spirit Vessel",
-                    "type": "entries",
-                    "entries": [
-                        "At 1st Level, you have a Spirit Vessel containing the signatures for six 1st-level Necromancer Spells of your choice. Your Spirit Vessel is the container of the Necromancer Spells you know, except your Cantrips, which are affixed to your soul.",
-                        "You prepare the list of Necromancer Spells that are available for you to cast. To do so, choose a number of Necromancer Spells from your Spirit Vessel equal to your Intelligence modifier + your Necromancer level (minimum of one spell). The Spells must be of a level for which you have Spell Slots.",
-                        "You can change your list of prepared Spells when you finish a Long Rest. Preparing a new list of Necromancer Spells requires time spent melding your soul with the arcane imprints sealed within your vessel connecting to the spells they grant you: this takes at least 1  minute per Spell Level for each spell on your list."
-                    ]
-                },
-                {
-                    "name": "Learning New Spells and Making New Spirit Vesselsl",
-                    "type": "entries",
-                    "entries": [
-                        "Each time you gain a Necromancer level, you can add one Necromancer Spell of your choice to your Spellbook for free. Each of these Spells must be of a level for which you have Spell Slots, as shown on the Necromancer table.",
-                        "On your Adventures, you might find other Spells that you can add to your Spirit vessel. When you copy the spell, instead of writing down the spell, you infuse your soul with the magical signature of the spell, trapping it in your spirit vessel. This takes 3 hours per spell level, and costs 60 gp of necromantic supplies for each level of the spell, as the procedure is very taxing, draining not only your own life energy, but the inherent life energy of the world and supplies around you. (Otherwise, reference the 'Spell book' information of the wizard class, applying it to the necromancer.)",
-                        "Just like a wizard, you can create additional or new spirit vessels. Instead of a book, this requires a specialized container made of specialized clay, glass, metal, or other similar material that is much more durable than its typical counterpart, worth 50gp."
-                    ]
-                },
-                {
-                    "name": "Spellcasting Ability",
-                    "type": "entries",
-                    "entries": [
-                        "Intelligence is your spellcasting ability for your necromancer spells, since your power is rooted in the fine manipulation of negative energy and research into magical secrets. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a necromancer spell you cast and when making an attack roll with one.",
-                        {
-                            "type": "abilityDc",
-                            "name": "Spell",
-                            "attributes": [
-                                "int"
-                            ]
-                        },
-                        {
-                            "type": "abilityAttackMod",
-                            "name": "Spell",
-                            "attributes": [
-                                "int"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Ritual Casting",
-                    "type": "entries",
-                    "entries": [
-                        "You can cast a necromancer spell as a ritual if that spell has the ritual tag."
-                    ]
-                },
-                {
-                    "name": "Spellcasting Focus",
-                    "type": "entries",
-                    "entries": [
-                        "You can use an arcane focus as a spellcasting focus. For a necromancer, these are typically objects with sentimental value, such as a locket, childhood toy, prison shackle, or wedding ring, that are altered with magically conductive materials."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Charnel Touch",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 1,
-            "entries": [
-                "Your connection to the negative energy realm grants you an inner nexus of dangerous power, ready to be unleashed at a moment's notice. At 1st level, you have a pool of Charnel Touch points equal to your necromancer level × 5 that replenishes when you finish a long rest.",
-                "As an action, declare the number of points you wish to expend, up to a maximum of 5 × your proficiency bonus, and make a melee spell attack against one target within reach. On a hit, you expend the declared amount of points and deal necrotic damage equal to the points expended. If you miss the attack, you do not expend any points. The damage dealt by your Charnel Touch is doubled when you score a critical hit, expending no additional points.",
-                "This attack deals no damage to constructs and instead heals undead for the amount of points expended. You can target a willing creature with this ability without making a spell attack roll."
-            ]
-        },
-        {
-            "name": "Thralls",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 2,
-            "entries": [
-                {
-                    "type": "inset",
-                    "name": "Variant Rule: Necromancy Unleashed",
-                    "entries": [
-                        "This class imposes limitations on animate deadstyle spells, as well as the number and types of thralls a player can use in order to ensure timely, balanced play. If you'd like to throw caution to the wind and embrace the undead horde experience, use this variant rule. Ignore the \"Animate Dead\" header in the Thralls feature. Animated undead from spells are separate from your thralls for the purposes of your class features, but have no other class-based limitations."
-                    ]
-                },
-                "While lesser spellcasters can only animate flesh and bone in a rudimentary fashion, and must expend valuable energy to maintain their undead's loyalty, true necromancers can provide their undead with a portion of their own life force, ensuring long term obedience. Beginning at the 2nd level, you learn an ancient and powerful ritual which allows you to raise and command your own army of the undead.",
-                {
-                    "type": "entries",
-                    "name": "Animate Thralls",
-                    "entries": [
-                        "By spending 10 uninterrupted minutes performing this ritual with a spellcasting focus or component pouch, you can raise the remains of one or more Small or Medium humanoids into undead creatures. Undead created in this way become your thralls. You maintain control over your thralls indefinitely. Stat blocks for {@creature zombie|VSS|zombies}, {@creature skeleton|VSS|skeletons}, and other thralls can be found in the Undead Thralls table."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Commanding Thralls",
-                    "entries": [
-                        "If you are conscious, you can mentally control all of your thralls, without using any actions. If you are unconscious, your thralls will move to protect your body from harm, but will not attack.",
-                        "In combat, your thralls share your initiative count, but take their turns immediately after yours. All thralls collectively share one reaction and bonus action, which a single thrall can use each round.",
-                        "Thralls use your spellcasting modifier to make their attacks."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Maximum Thralls",
-                    "entries": [
-                        "You can animate and control a thrall of challenge rating (CR) 1/4. As you gain levels in this class, you can animate more thralls. The combined CR of all your thralls can't exceed the number shown in the Thrall CR Total column of the Necromancer table, and the total number of thralls under your control can never exceed your proficiency bonus.",
-                        "At any time, you can use your action to sever your connection to one or more thralls, releasing them. Corporeal undead crumple into a heap and incorporeal undead flee to the Ethereal Plane."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Animate Dead",
-                    "entries": [
-                        "Beginning at 5th level, a necromancer can learn the {@spell animate dead} spell, a staple of the school of necromancy. Necromancers can cast this spell as an action, instead of in one minute. All undead created by the {@spell animate dead} spell (as well as any other magic, such as the create undead spell, which allows you to control undead) count as your thralls and can be commanded as such. If your new thralls granted to you by a spell cause you to exceed your total CR or number of thralls, you can immediately sever your connection to any of your existing thralls so as to stay within these limits. Your thralls can never command or create other undead.",
-                        "As always, you can't reanimate your undead which have been reduced to 0 hit points. Your Animate Thralls ritual, the {@spell animate dead} spell, and similar magic only affects humanoid corpses, whereas your thralls are undead creatures."
-                    ]
-                },
-                {
-                    "type": "table",
-                    "caption": "Undead Thralls",
-                    "colLabels": [
-                        "Name",
-                        "CR",
-                        "AC",
-                        "HP",
-                        "Movement",
-                        "Traits"
-                    ],
-                    "colStyles": [
-                        "col-2 text-left",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-2 text-left",
-                        "col-5 text-left"
-                    ],
-                    "rows": [
-                        [
-                            "{@creature Bonebeast|VSS}",
-                            "1",
-                            "14",
-                            "28",
-                            "40 ft.",
-                            "Keen Smell, Pack Tactics"
-                        ],
-                        [
-                            "{@creature Gorger|VSS}",
-                            "1",
-                            "8",
-                            "36",
-                            "30 ft.",
-                            "-"
-                        ],
-                        [
-                            "{@creature Gravetouched Ghoul|VSS}",
-                            "2",
-                            "12",
-                            "63",
-                            "30 ft.",
-                            "Regeneration"
-                        ],
-                        [
-                            "{@creature Skeleton|VSS}",
-                            "1/4",
-                            "13",
-                            "13",
-                            "30 ft.",
-                            "-"
-                        ],
-                        [
-                            "{@creature Spirit|VSS}",
-                            "1/4",
-                            "15",
-                            "7",
-                            "25 ft., fly 25 ft. (hover)",
-                            "Incorporeal Movement"
-                        ],
-                        [
-                            "{@creature Visage|VSS}",
-                            "2",
-                            "17",
-                            "41",
-                            "25 ft., fly 25 ft. (hover)",
-                            "Incorporeal Movement, Magic Resistance"
-                        ],
-                        [
-                            "{@creature Zombie|VSS}",
-                            "1/4",
-                            "8",
-                            "22",
-                            "20 ft.",
-                            "Undead Fortitude"
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Bag of Bones",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 2,
-            "entries": [
-                "Also at 2nd level, you learn how to create a necromantic magic item, a bag of bones. The bag connects to a vast extradimensional space which can only hold Medium or smaller corpses, bones, and undead creatures; it violently expels anything else placed within it. You can use an action to place a corpse or willing undead creature into the bag, up to a maximum of 10 corpses or undead creatures, or use your action to dump the contents of the bag, which land in spaces within 5 feet of you.",
-                "You can transform any container you can carry into a bag of bones by performing a special ritual over the course of 1 hour while you hold it. This container ceases to be magical if you perform this ritual again to create a new bag of bones. The container always connects to the same extradimensional space. If the bag is placed inside an extradimensional space, such as that created by a bag of holding, it is destroyed. Its contents remain in the same extradimensional space until you create a new bag."
-            ]
-        },
-        {
-            "name": "Grave Ambition",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 3,
-            "entries": [
-                "When you reach 3rd level, you decide on a proper path of research into the dark arts in order to carve a path leading your ultimate goal. Choose one Grave Ambition, detailed at the end of the class. Your choice grants you features at 3rd level, and again at 6th, 10th, and 20th level."
-            ]
-        },
-        {
-            "name": "Grave Ambition Feature",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 6,
-            "entries": [
-                "At 6th level, you gain a feature granted by your Grave Ambition."
-            ]
-        },
-        {
-            "name": "Grave Ambition Feature",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 10,
-            "entries": [
-                "At 10th level, you gain a feature granted by your Grave Ambition."
-            ]
-        },
-        {
-            "name": "Black Arcana",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 3,
-            "entries": [
-                "Also beginning at 3rd level, as a bonus action, you can expend a spell slot to replenish your Charnel Touch point pool. Your pool regains {@dice 1d8} expended points, plus {@dice 1d8} for each level of the spell slot expended, up a maximum of your pool's total."
-            ]
-        },
-        {
-            "name": "Ability Score Improvement",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 4,
-            "entries": [
-                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
-            ]
-        },
-        {
-            "name": "Ability Score Improvement",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 8,
-            "entries": [
-                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
-            ]
-        },
-        {
-            "name": "Ability Score Improvement",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 12,
-            "entries": [
-                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
-            ]
-        },
-        {
-            "name": "Ability Score Improvement",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 16,
-            "entries": [
-                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
-            ]
-        },
-        {
-            "name": "Ability Score Improvement",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 19,
-            "entries": [
-                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
-            ]
-        },
-        {
-            "name": "Critical Spellcasting",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 5,
-            "entries": [
-                "At 5th level, your potent necrotic powers punish your enemy at the first sign of weakness. When a creature rolls a 1 on a saving throw against one of your spells, it automatically fails the save and takes twice the number of damage dice dealt by the spell. The additional damage only applies to the creature that rolled a 1.",
-                "Additionally, your spell attacks score a critical hit on a roll of 19 or 20."
-            ]
-        },
-        {
-            "name": "Critical Spellcasting Improvement",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 14,
-            "entries": [
-                "Starting at 14th level, creatures automatically fail their saving throws against your spells and take additional damage when they roll a 1 or a 2. Additionally, your spell attacks score a critical hit on a roll of 18–20."
-            ]
-        },
-        {
-            "name": "Enthralling Presence",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 7,
-            "entries": [
-                "At 7th level, the negative energy that flows through you reinforces your thralls against those who would seek to destroy or control your servants. Your thralls and other undead you control can't be turned or forcefully controlled by another creature while you are conscious."
-            ]
-        },
-        {
-            "name": "Undying Servitude",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 18,
-            "entries": [
-                "When you reach 18th level, your connection to your thralls can pull them back from the brink of destruction. When a thrall under your control is reduced to 0 hit points and not destroyed outright, you can use your reaction to restore it to half of its maximum hit points. Once you use this ability, you can't use it again until you finish a long rest."
-            ]
-        },
-        {
-            "name": "Lichdom",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "level": 20,
-            "entries": [
-                "By 20th level, you have unlocked the pinnacle of necromantic prowess, through which you will conquer death itself: The Rite of Lichdom. When you reach this level, you have completed your phylactery and are ready to undergo the rite. To do so, you shut yourself away for 30 days in an isolated location of your choice, and emerge as an immortal lich, an undead of unsurpassed power. Once the rite is complete, you gain the following benefits as well as those dictated by your choice of Grave Ambition.",
-                {
-                    "type": "entries",
-                    "name": "Phylactery",
-                    "entries": [
-                        "A phylactery is a small object that houses a lich's soul, safeguarding their immortality. If you drop to 0 hit points, your body crumbles to dust, but your will and mind escape to the phylactery. After {@dice 1d4 + 1} days, a new body coalesces as near to your phylactery as possible and you return to life (or rather, unlife). When your body reforms, you gain the benefits of a long rest. The new body is identical in every way to the one that was destroyed."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Undead Resilience",
-                    "entries": [
-                        "You gain immunity to poison and necrotic damage."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Undead Traits",
-                    "entries": [
-                        "You are immune to the effects of exhaustion and you do not need to eat, drink, sleep, or breathe. You must still rest for 4 hours a day to gain the benefits of a long rest. Though your type is Humanoid, spells and effects which specifically affect undead affect you as well. You are immune to any effect that turns undead.",
-                        {
-                            "type": "inset",
-                            "name": "Phylactery",
-                            "entries": [
-                                "A lich's phylactery is as much a memento as it is their anchor to immortality, and as such, no two are alike. Phylacteries are often constructed from objects with sentimental value, such as family heirlooms or prized possessions, but can be fashioned from swords, pieces of armor, or even entire castles.",
-                                "Furthermore, every phylactery has a weakness, a critical flaw by which it can be destroyed, allowing their lich to be slain permanently. These weaknesses, too, are unique to each phylactery. One phylactery might require a ritual to be performed around it for 24 hours, while another might call for the phylactery to be dipped in the lava of an active volcano. Discuss with your GM the form your phylactery takes and what weakness it possesses."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "subclass": [
-        {
-            "subclassFeatures": [
-                "Toymaker|Necromancer (Variant)|Valias|Toymaker|Valias|3",
-                "Slaymates|Necromancer (Variant)|Valias|Toymaker|Valias|3",
-                "Charnel Puppet|Necromancer (Variant)|Valias|Toymaker|Valias|3",
-                "Soul Doll|Necromancer (Variant)|Valias|Toymaker|Valias|6",
-                "Miniature Minions|Necromancer (Variant)|Valias|Toymaker|Valias|10",
-                "Capstone: Clockwork Lich|Necromancer (Variant)|Valias|Toymaker|Valias|20"
-            ],
-            "shortName": "Toymaker",
-            "name": "Toymaker",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "page": ""
-        }
-    ],
-    "subclassFeature": [
-        {
-            "name": "Toymaker",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "subclassShortName": "Toymaker",
-            "subclassSource": "Valias",
-            "entries": [
-                "Toymaking is not unlike necromancy. Painting details in miniature, carving faces, stitching clothing, and stringing up limbs require a meticulousness and obsession that is also a prerequisite for animating the dead. Necromancers, after all, devise their own playthings and meticulously fashion them, albeit using more gruesome materials. It should come at no surprise, therefore, that necromancy enjoys a strong tradition of toymaking. Practiced necromantic toymakers can animate their dolls as slaymates, adorable but lethal minions that strike in numbers."
-            ],
-            "level": 3,
-            "page": ""
-        },
-        {
-            "name": "Slaymates",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "subclassShortName": "Toymaker",
-            "subclassSource": "Valias",
-            "entries": [
-                "Starting when you choose this ambition at 3rd level, you learn to bind the souls of the dead into Construct vessels—namely porcelain dolls, clockwork toys, wooden puppets, and stuffed animals. When you perform your Animate Thralls ritual, you can summon {@creature slaymate|Valias|slaymates}. You command these creatures as your thralls and they count as Undead for the purpose of your necromancer class features. Additionally, two slaymates count as one thrall for your maximum number of thralls. When one of these creatures is reduced to 0 hit points or released by you, it collapses into a heap of ruined materials."
-            ],
-            "level": 3,
-            "page": ""
-        },
-        {
-            "name": "Charnel Puppet",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "subclassShortName": "Toymaker",
-            "subclassSource": "Valias",
-            "entries": [
-                "At 3rd level, using a supply of material stored in your bag of bones, you can animate slaymates at a moment's notice. You can use an action and expend 5 or more points from your Charnel Touch pool to animate two slaymates under your control for every 5 points expended, which count as your thralls. These slaymates appear within your space or in an unoccupied space within 5 feet of you."
-            ],
-            "level": 3,
-            "page": ""
-        },
-        {
-            "name": "Soul Doll",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "subclassShortName": "Toymaker",
-            "subclassSource": "Valias",
-            "entries": [
-                "Beginning at 6th level, as a reaction when a creature you can see within 60 feet of you dies, you can capture the creature's soul and trap it within a soul doll. The creature controls the body of the doll using the statistics of a slaymate, but it can't attack and retains its alignment, personality, and Intelligence, Wisdom, and Charisma scores. You don't control the soul doll and it doesn't count as one of your thralls. The soul doll speaks and understands all the languages it knew in life. It is under no compulsion to answer your questions truthfully or cooperate with you, especially if you are hostile to it or it recognizes you as an enemy. While the creature's soul is trapped in a soul doll, it can't return to life. The soul leaves the doll when you release it as an action, or when the soul doll is reduced to 0 hit points. You can have up to five soul dolls at one time. If you attempt to create a new soul doll, you can release another doll as a part of the reaction used to create the new doll. "
-            ],
-            "level": 6,
-            "page": ""
-        },
-        {
-            "name": "Miniature Minions",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "subclassShortName": "Toymaker",
-            "subclassSource": "Valias",
-            "entries": [
-                "Beginning at 10th level, when you perform your Animate Thralls ritual, you can choose for any thrall you animate to be Tiny and have a toylike appearance of your choice. Every Tiny thrall under your control gains the Evasion trait.",
-                {
-                    "type": "entries",
-                    "name": "Evasion.",
-                    "entries": [
-                        "If the thrall is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided it isn't incapacitated."
-                    ]
-                }
-            ],
-            "level": 10,
-            "page": ""
-        },
-        {
-            "name": "Capstone: Clockwork Lich",
-            "source": "Valias",
-            "className": "Necromancer (Variant)",
-            "classSource": "Valias",
-            "subclassShortName": "Toymaker",
-            "subclassSource": "Valias",
-            "entries": [
-                "At 20th level, you have reached the pinnacle of necromancy and transformed yourself into a lich. As a part of the Rite of Lichdom, you transfer your soul into a body of ticking clockwork, a stuttering but immortal form. You gain the following features in addition to the Lichdom feature:",
-                {
-                    "type": "entries",
-                    "name": "Clockwork Body.",
-                    "entries": [
-                        "Your soul is bound to a Construct body with your statistics. Your type is Undead. However, spells and effects that specifically affect Constructs affect you as well. In your clockwork body, you are immune to being blinded, charmed, deafened, frightened, paralyzed, or stunned. Additionally, you are immune to any spell or effect that would alter your form. You can spend 10 days and 500 gp of materials to build an additional clockwork body to act as a safeguard against death. Whenever you die, your soul transfers to another clockwork body that you have built of your choice. If you have no clockwork bodies available, you reform at your phylactery in the body of a slaymate, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Spell Immunity.",
-                    "entries": [
-                        "You are immune to three spells of your choice, which you select when you build the clockwork body. "
-                    ]
-                }
-            ],
-            "level": 20,
-            "page": ""
-        }
-    ],
-    "monster": [
-        {
-            "name": "Slaymate",
-            "source": "Valias",
-            "page": 0,
-            "size": [
-                "T"
-            ],
-            "type": "construct",
-            "alignment": [
-                "C",
-                "E"
-            ],
-            "alignmentPrefix": "typically ",
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 2,
-                "formula": "1d4"
+                     ]
+                  }
+               }
+            }
+         ],
+         "skillProficiencies": [
+            {
+               "survival": true
+            }
+         ]
+      }
+   ],
+   "monster": [
+      {
+         "name": "Slaymate",
+         "source": "Valias",
+         "page": 0,
+         "size": [
+            "T"
+         ],
+         "type": "construct",
+         "alignment": [
+            "C",
+            "E"
+         ],
+         "alignmentPrefix": "typically ",
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 2,
+            "formula": "1d4"
+         },
+         "speed": {
+            "walk": 30
+         },
+         "str": 6,
+         "dex": 12,
+         "con": 10,
+         "int": 3,
+         "wis": 3,
+         "cha": 16,
+         "skill": {
+            "stealth": "+3"
+         },
+         "senses": [
+            "darkvision 60 ft."
+         ],
+         "passive": 7,
+         "immune": [
+            "poison",
+            "psychic"
+         ],
+         "conditionImmune": [
+            "poisoned"
+         ],
+         "languages": [
+            "the languages known by its creator"
+         ],
+         "cr": "1/8",
+         "trait": [
+            {
+               "name": "False Appearance",
+               "entries": [
+                  "While the slaymate remains motionless, it is indistinguishable from a normal toy."
+               ]
             },
-            "speed": {
-                "walk": 30
-            },
-            "str": 6,
-            "dex": 12,
-            "con": 10,
-            "int": 3,
-            "wis": 3,
-            "cha": 16,
-            "skill": {
-                "stealth": "+3"
-            },
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 7,
-            "immune": [
-                "poison",
-                "psychic"
-            ],
-            "conditionImmune": [
-                "poisoned"
-            ],
-            "languages": [
-                "the languages known by its creator"
-            ],
-            "cr": "1/8",
-            "trait": [
-                {
-                    "name": "False Appearance",
-                    "entries": [
-                        "While the slaymate remains motionless, it is indistinguishable from a normal toy."
-                    ]
-                },
-                {
-                    "name": "Mimicry",
-                    "entries": [
-                        "The slaymate can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 11} Wisdom (Insight) check."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Scratch",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "False Appearance"
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "damageTags": [
-                "S"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        }
-    ]
+            {
+               "name": "Mimicry",
+               "entries": [
+                  "The slaymate can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 11} Wisdom (Insight) check."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Scratch",
+               "entries": [
+                  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) slashing damage."
+               ]
+            }
+         ],
+         "traitTags": [
+            "False Appearance"
+         ],
+         "senseTags": [
+            "D"
+         ],
+         "damageTags": [
+            "S"
+         ],
+         "miscTags": [
+            "MW"
+         ]
+      }
+   ]
 }
