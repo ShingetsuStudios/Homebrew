@@ -1098,8 +1098,8 @@
 			"classFeatures": [
 				"Psi-infused Strikes|Psion|HopesCall|1",
 				"Psionic Pool|Psion|HopesCall|2",
-				"Fledgling Psionics|Psion|HopesCall|2",
-				"Psionic Talents|Psion|HopesCall|3",
+				"Psionic Talents|Psion|HopesCall|2",
+				"Fledgling Psionics|Psion|HopesCall|3",
 				{
 					"classFeature": "Psionic Discipline|Psion|HopesCall|3",
 					"gainSubclassFeature": true
@@ -1162,7 +1162,7 @@
 			"source": "HopesCall",
 			"className": "Psion",
 			"classSource": "HopesCall",
-			"level": 2,
+			"level": 3,
 			"entries": [
 				"Beginning at 2nd level, you have learned to harness some of your psychic abilities. You gain limited telepathy with a range of 30 feet allowing you to communicate with any creature you can see with an int score of 5 or higher without sharing a language. You also learn the {@spell mage hand} cantrip, your casting stat is Intelligence."
 			]
@@ -1172,10 +1172,9 @@
 			"source": "HopesCall",
 			"className": "Psion",
 			"classSource": "HopesCall",
-			"level": 3,
+			"level": 2,
 			"entries": [
-				"Beginning at 3rd level, you may learn 2 Psionic Talents (found at end of document), you learn additional talents at 7th, 11th, and 15th level. When you take a new level in this class you may swap out one feat for another. Your Psion saving throw DC is 8 + Proficiency bonus + Intelligence Mod.",
-				""
+				"Beginning at 3rd level, you may learn 2 Psionic Talents (found at end of document), you learn additional talents at 7th, 11th, and 15th level. When you take a new level in this class you may swap out one feat for another. Your Psion saving throw DC is 8 + Proficiency bonus + Intelligence Mod."
 			]
 		},
 		{
@@ -1225,8 +1224,7 @@
 			"classSource": "HopesCall",
 			"level": 7,
 			"entries": [
-				"Beginning at 7th level, your training has made you more resistant to magical attacks. When you are forced to make a save against a spell or magical effect you may spend a Psi point to make the save at",
-				""
+				"Beginning at 7th level, your training has made you more resistant to magical attacks. When you are forced to make a save against a spell or magical effect you may spend a Psi point to make the save at"
 			]
 		},
 		{
@@ -1289,8 +1287,7 @@
 			"classSource": "HopesCall",
 			"level": 20,
 			"entries": [
-				"Beginning at 20th level, you have mastered your mental training. Your Intelligence and Wisdom scores increase by 4 to a maximum of 24 and you gain advantage on all Intelligence and wisdom saving throws",
-				""
+				"Beginning at 20th level, you have mastered your mental training. Your Intelligence and Wisdom scores increase by 4 to a maximum of 24 and you gain advantage on all Intelligence and wisdom saving throws"
 			]
 		},
 		{
