@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
@@ -184,7 +185,14 @@
 				}
 			],
 			"entries": [
-				"By calling on the fractal like patterns of the weave you weave a barrier around yourself. For the duration you Gain a +2 bonus to your ac. As part of casting the spell you may make an arcana check to attempt to bolster its effect 15+:  the bonus to your ac becomes +3",
+				"By calling on the fractal like patterns of the weave you weave a barrier around yourself. For the duration you Gain a +2 bonus to your ac. As part of casting the spell you may make an arcana check to attempt to bolster its effect.",
+				{
+					"type": "entries",
+					"name": "15+:",
+					"entries": [
+						"the bonus to your ac becomes +3"
+					]
+				},
 				{
 					"type": "entries",
 					"name": "20+:",
@@ -1018,7 +1026,7 @@
 						],
 						[
 							2,
-							0
+							2
 						],
 						[
 							3,
@@ -1132,6 +1140,36 @@
 				"Ability Score Improvement|Psion|HopesCall|19",
 				"Psion|Psion|HopesCall|20"
 			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Psionic Tallent",
+					"featureType": [
+						"PsiTalent"
+					],
+					"progression": [
+						0,
+						0,
+						2,
+						2,
+						2,
+						2,
+						3,
+						3,
+						3,
+						3,
+						4,
+						4,
+						4,
+						4,
+						5,
+						5,
+						5,
+						5,
+						5,
+						5
+					]
+				}
+			],
 			"subclassTitle": "Psionic Discipline",
 			"spellcastingAbility": "int"
 		}
@@ -1158,23 +1196,23 @@
 			]
 		},
 		{
-			"name": "Fledgling Psionics",
-			"source": "HopesCall",
-			"className": "Psion",
-			"classSource": "HopesCall",
-			"level": 3,
-			"entries": [
-				"Beginning at 2nd level, you have learned to harness some of your psychic abilities. You gain limited telepathy with a range of 30 feet allowing you to communicate with any creature you can see with an int score of 5 or higher without sharing a language. You also learn the {@spell mage hand} cantrip, your casting stat is Intelligence."
-			]
-		},
-		{
 			"name": "Psionic Talents",
 			"source": "HopesCall",
 			"className": "Psion",
 			"classSource": "HopesCall",
 			"level": 2,
 			"entries": [
-				"Beginning at 3rd level, you may learn 2 Psionic Talents (found at end of document), you learn additional talents at 7th, 11th, and 15th level. When you take a new level in this class you may swap out one feat for another. Your Psion saving throw DC is 8 + Proficiency bonus + Intelligence Mod."
+				"Beginning at 2nd level, you may learn 2 Psionic Talents (found at end of document), you learn additional talents at 7th, 11th, and 15th level. When you take a new level in this class you may swap out one feat for another. Your Psion saving throw DC is 8 + Proficiency bonus + Intelligence Mod."
+			]
+		},
+		{
+			"name": "Fledgling Psionics",
+			"source": "HopesCall",
+			"className": "Psion",
+			"classSource": "HopesCall",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you have learned to harness some of your psychic abilities. You gain limited telepathy with a range of 30 feet allowing you to communicate with any creature you can see with an int score of 5 or higher without sharing a language. You also learn the {@spell mage hand} cantrip, your casting stat is Intelligence."
 			]
 		},
 		{
