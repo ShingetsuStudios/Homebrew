@@ -19,7 +19,7 @@
 		"dateLastModified": 0,
 		"spellSchools": {
 			"TH": {
-				"full": "Thesamancy",
+				"full": "Thesismancy",
 				"short": "Thes.",
 				"color": "731a32"
 			},
@@ -1610,6 +1610,47 @@
 					"title": "Divine Strike"
 				}
 			]
+		},
+		{
+			"subclassFeatures": [
+				"Moon Magic|Witch|VSS|Moon|HopesCall|3",
+				"Hex: Moon Glyph|Witch|VSS|Moon|HopesCall|3",
+				"Lunar Phases|Witch|VSS|Moon|HopesCall|6",
+				"Lunar Sight|Witch|VSS|Moon|HopesCall|10",
+				"Beseech The Spirits|Witch|VSS|Moon|HopesCall|14"
+			],
+			"shortName": "Moon",
+			"name": "Moon Magic",
+			"source": "HopesCall",
+			"className": "Witch",
+			"classSource": "VSS",
+			"page": 0,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"bless",
+							"Sanctuary"
+						],
+						"3": [
+							"moonbeam",
+							"aid"
+						],
+						"5": [
+							"globe of twilight|HWCS",
+							"Leomund's Tiny Hut"
+						],
+						"7": [
+							"divination",
+							"stellar bodies|HWCS"
+						],
+						"9": [
+							"circle of power",
+							"teleportation circle"
+						]
+					}
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -1812,7 +1853,7 @@
 			"entries": [
 				"1st: {@spell Feather Fall}, {@spell Longstrider}",
 				"3rd: {@spell Find Steed}, {@spell Pass Without Trace}",
-				"5th: {@spell Fly}, {@spell Globe of Twilight}",
+				"5th: {@spell Fly}, {@spell Globe of Twilight|HWCS}",
 				"7th: {@spell Freedom of Movement}, {@spell Conjure Woodland Beings}",
 				"9th: {@spell Teleportation Circle}, {@spell Tree Stride} "
 			],
@@ -1906,6 +1947,204 @@
 				"When you Move at least 30 feet and hit a creature with a spell or weapon attack, you deal additional force damage equal to your Cleric Level "
 			],
 			"level": 17,
+			"page": 0
+		},
+		{
+			"name": "Moon Magic",
+			"source": "HopesCall",
+			"className": "Witch",
+			"classSource": "VSS",
+			"subclassShortName": "Moon",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"The moon is a potent symbol for many witches— especially those who are forced to practice their art incognito. To them it represents a guiding light in the darkness, a confidant or keeper of secrets, and a link to the powerful natural forces that govern time and tide.",
+				{
+					"type": "table",
+					"name": "Lunar Arcana Spells",
+					"colLabels": [
+						"Spell level",
+						"Spells"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Bless}, {@spell Sanctuary}"
+						],
+						[
+							"2nd",
+							"{@spell Moonbeam}, {@spell Aid}"
+						],
+						[
+							"3rd",
+							"{@spell Globe of Twilight|HWCS}, {@spell Leomund's Tiny Hut}"
+						],
+						[
+							"4th",
+							"{@spell Divination}, {@spell Stellar Bodies|HWCS}"
+						],
+						[
+							"5th",
+							"{@spell Circle of Power}, {@spell teleportation circle}"
+						]
+					]
+				}
+			],
+			"level": 3,
+			"page": 0
+		},
+		{
+			"name": "Hex: Moon Glyph",
+			"source": "HopesCall",
+			"className": "Witch",
+			"classSource": "VSS",
+			"subclassShortName": "Moon",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 3rd level, you can call upon the power of the moon. As an action choose one of the following options:",
+				{
+					"type": "entries",
+					"name": "Waning",
+					"entries": [
+						"Choose a number of enemies, up to your proficiency bonus within 30 feet. Until the end of your next turn when those creatures start their turn they must make a charisma save against your witch spell save dc or suffer force damage equal to 1/2 your witch level (rounded down) + charisma mod."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Waxing",
+					"entries": [
+						"Choose a number of allies within 30ft, up to your proficiency bonus, until the end of your next turn each target ally gains temporary hp equal to 1/2 your witch level (rounded down) + charisma mod at the start of their turn."
+					]
+				}
+			],
+			"level": 3,
+			"page": 0
+		},
+		{
+			"name": "Lunar Phases",
+			"source": "HopesCall",
+			"className": "Witch",
+			"classSource": "VSS",
+			"subclassShortName": "Moon",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 6th level, the spells you cast are empowered by the current phase of the moon.",
+				{
+					"type": "entries",
+					"name": "Full Moon",
+					"entries": [
+						"Once per a turn when you cast a spell or use a hex you may choose to either give the target(s) disadvantage on the saving throw or grant yourself advantage on the attack roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Waxing",
+					"entries": [
+						"On your turn, when you Cast a spell or use a hex that deals damage you may cause that spell to deal additional dice of damage equal to your proficiency bonus. You may use this feature a number of times equal to your charisma mod, regaining all uses during a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "New moon",
+					"entries": [
+						"When you cast a spell that requires concentration, you choose to imbue it with some of the moon's magic, the spell no longer requires concentration but you must use your bonus action on subsequent turns to keep the spell active. You may only have one spell affected by this at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Waning",
+					"entries": [
+						"When you cast a spell that can target more than one creature you may allow that spell to target an additional creature. If this spell only targets allies you may target two additional creatures."
+					]
+				}
+			],
+			"level": 6,
+			"page": 0
+		},
+		{
+			"name": "Lunar Sight",
+			"source": "HopesCall",
+			"className": "Witch",
+			"classSource": "VSS",
+			"subclassShortName": "Moon",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 10th level, once per day you may touch one creature and provide them enhanced sight. Until the target finishes a long rest they gain the following bonus",
+				{
+					"type": "list",
+					"items": [
+						"They gain darkvision 60ft. If they already had darkvision, its range is increased by 30 ft.",
+						"They have advantage on checks made to perceive illusions.",
+						"Creatures and objects under the effect of a shape change or polymorph effect glow with white light.",
+						"When under the full moon their darkvision sees in color.",
+						"If the creature affected has a familiar, their familiar also gains these benefits"
+					]
+				}
+			],
+			"level": 10,
+			"page": 0
+		},
+		{
+			"name": "Beseech The Spirits",
+			"source": "HopesCall",
+			"className": "Witch",
+			"classSource": "VSS",
+			"subclassShortName": "Moon",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 14th level, you have learned a powerful ritual allowing you to call forth the spirits of the moon. When you spend 10 minutes uninterrupted you may choose from one of the following affects depending on the spirit you call on",
+				{
+					"type": "entries",
+					"name": "Khonsu",
+					"entries": [
+						"This spirit empowers up to 8 willing creatures, they gain the following benefits until they take a long rest",
+						{
+							"type": "list",
+							"items": [
+								"Their movement speed is increased by 10 feet",
+								"When in dim light or darkness they gain a bonus to checks and saves equal to your charisma mod",
+								"They can see in darkness as if it was bright light and in full color",
+								"They gain resistance to radiant damage",
+								"They are immune to effects that would reduce their speed or restrain them"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hecate",
+					"entries": [
+						"This spirit empowers your arcana, you gain the following benefits until you take a long rest",
+						{
+							"type": "list",
+							"items": [
+								"Your spell save dc and spell attack modifier increases by 2",
+								"You may choose any of the effects from Lunar cycles even if that isn't the current moon phase and may use those abilities any number of times. (you may still only apply one effect at a time to a spell or ability)",
+								"You gain advantage on saves against spells and magical effects, and resistance to the damage of those saves",
+								"Your gain a bonus to concentration saves equal to your charisma mod"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Crone",
+					"entries": [
+						"This spirit shrouds a number of creatures equal to your charisma mod, from the fates. Those creatures gain the following benefits until they take a long rest",
+						{
+							"type": "list",
+							"items": [
+								"When any of the shrouded creatures roll initiative they gain a singular luck point (as per the {@feat Lucky} feat)",
+								"The shrouded creatures have advantage on death saving throws",
+								"The shrouded creatures have a single use {@spell death ward}",
+								"The shrouded creatures have resistance to necrotic damage",
+								"The Shrouded creatures are under the effect of {@spell Nondetection} until the ritual ends"
+							]
+						}
+					]
+				},
+				"You may only use this ritual once per a 24 hours and you can not beseech the same spirit twice in a row "
+			],
+			"level": 14,
 			"page": 0
 		}
 	],
