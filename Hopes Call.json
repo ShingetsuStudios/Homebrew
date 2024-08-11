@@ -1651,6 +1651,46 @@
 					}
 				}
 			]
+		},
+		{
+			"subclassFeatures": [
+				"Oath Of The Hearth|Paladin|PHB|Hearth|HopesCall|3",
+				"Warmth Of The Hearth|Paladin|PHB|Hearth|HopesCall|7",
+				"Fiery Heart|Paladin|PHB|Hearth|HopesCall|10",
+				"Guardian Of The Hearth|Paladin|PHB|Hearth|HopesCall|20"
+			],
+			"shortName": "Hearth",
+			"name": "Oath Of The Hearth",
+			"source": "HopesCall",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"page": 0,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"bless",
+							"sanctuary"
+						],
+						"3": [
+							"calm emotions",
+							"flaming sphere"
+						],
+						"5": [
+							"beacon of hope",
+							"fireball"
+						],
+						"7": [
+							"guardian of faith",
+							"wall of fire"
+						],
+						"9": [
+							"flame strike",
+							"mass cure wounds"
+						]
+					}
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -2145,6 +2185,156 @@
 				"You may only use this ritual once per a 24 hours and you can not beseech the same spirit twice in a row "
 			],
 			"level": 14,
+			"page": 0
+		},
+		{
+			"name": "Oath Of The Hearth",
+			"source": "HopesCall",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "HopesCall",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tenets of the Hearth",
+					"entries": [
+						"{@b Beacon In The Dark:} When darkness encroaches and fear takes hold, become a beacon of light for all to find their way",
+						"{@b Shelter Those In Need:} Your protection is always there for those in need, your hearth is always open to weary travelers",
+						"{@b Guard from the Cold:} Guard the warmth in all hearts from the infectious cold of hate."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Oath Spells",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell Level",
+								"Spell"
+							],
+							"colStyles": [
+								"col- text-",
+								"col- text-"
+							],
+							"rows": [
+								[
+									"3rd",
+									"{@spell Bless}, {@spell Sanctuary}"
+								],
+								[
+									"7th",
+									"{@spell Calm Emotions}, {@spell Flaming Sphere}"
+								],
+								[
+									"15th",
+									"{@spell Beacon of Hope}, {@spell Fireball}"
+								],
+								[
+									"18th",
+									"{@spell Guardian of Faith}, {@spell Wall of Fire}"
+								],
+								[
+									"20th",
+									"{@spell Flame Strike}, {@spell Mass Cure Wounds}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Channel Divinity",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Channel Divinity: Guarding Warmth|Paladin|PHB|Hearth|HopesCall|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Channel Divinity: Burning Wrath|Paladin|PHB|Hearth|HopesCall|3"
+						}
+					]
+				}
+			],
+			"level": 3,
+			"page": 0
+		},
+		{
+			"name": "Channel Divinity: Guarding Warmth",
+			"source": "HopesCall",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"As an action you provide up to five willing creatures within 30 feet temporary hp equal to your paladin level + charisma mod."
+			],
+			"level": 3,
+			"page": 0
+		},
+		{
+			"name": "Channel Divinity: Burning Wrath",
+			"source": "HopesCall",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"As a bonus action, for one minute you infuse your weapon with powerful flames. The next time you hit a creature with a weapon attack, that creature takes additional d8's of fire damage equal to your proficiency bonus. "
+			],
+			"level": 3,
+			"page": 0
+		},
+		{
+			"name": "Warmth Of The Hearth",
+			"source": "HopesCall",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Beginning at 7th level, you and friendly creatures within 10 feet gain resistance to cold damage, they also gain advantage on checks and saves made to endure in freezing temperatures. Additionally when you use your smite feature you may choose to have the damage be fire instead of radiant.",
+				"At 18th level, the range of this aura increases to 30 ft"
+			],
+			"level": 7,
+			"page": 0
+		},
+		{
+			"name": "Fiery Heart",
+			"source": "HopesCall",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 15th level you gain resistance to fire damage, and you ignore fire resistance when dealing damage with a spell or weapon attack."
+			],
+			"level": 10,
+			"page": 0
+		},
+		{
+			"name": "Guardian Of The Hearth",
+			"source": "HopesCall",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Hearth",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 20th level, you have taken on the aspects of a roaring fire. As an action you may unleash that flame, gaining the following benefits for 1 minute.",
+				{
+					"type": "list",
+					"items": [
+						"You shed bright light for 30 feet and dim light for an additional 30 feet.",
+						"You gain immunity to fire damage",
+						"Whenever an enemy begins its turn within 10 feet of you, they suffer 1d10 fire damage.",
+						"When you use your paladin smite the dice becomes d10s instead of d8s"
+					]
+				},
+				"Once you use this feature you can't do so again until you finish a long rest. "
+			],
+			"level": 20,
 			"page": 0
 		}
 	],
