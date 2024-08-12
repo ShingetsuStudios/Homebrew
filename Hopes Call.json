@@ -1628,6 +1628,69 @@
 					}
 				}
 			]
+		},
+		{
+			"subclassFeatures": [
+				"Domain Spells|Cleric|PHB|Travel|HopesCall|1",
+				"Well Traveled|Cleric|PHB|Travel|HopesCall|1",
+				"Quick Step|Cleric|PHB|Travel|HopesCall|1",
+				"Channel Divinity: Divine Shelter|Cleric|PHB|Travel|HopesCall|2",
+				"Traveler's Intuition|Cleric|PHB|Travel|HopesCall|6",
+				"Divine Strike|Cleric|PHB|Travel|HopesCall|8",
+				"True Adventurer|Cleric|PHB|Travel|HopesCall|17"
+			],
+			"shortName": "Travel",
+			"name": "Travel Domain",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"page": 0,
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"feather fall",
+							"longstrider"
+						],
+						"3": [
+							"find steed",
+							"pass without trace"
+						],
+						"5": [
+							"fly",
+							"globe of twilight|HWCS"
+						],
+						"7": [
+							"freedom of movement",
+							"conjure woodland beings"
+						],
+						"9": [
+							"teleportation circle",
+							"tree stride"
+						]
+					}
+				}
+			],
+			"advancement": [
+				{
+					"type": "ScaleValue",
+					"configuration": {
+						"identifier": "divine-strike",
+						"type": "dice",
+						"scale": {
+							"8": {
+								"n": 1,
+								"die": 8
+							},
+							"14": {
+								"n": 2,
+								"die": 8
+							}
+						}
+					},
+					"title": "Divine Strike"
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -1820,7 +1883,6 @@
 			"level": 18,
 			"page": 0
 		},
-		
 		{
 			"name": "Moon Magic",
 			"source": "HopesCall",
@@ -2167,6 +2229,112 @@
 				"Once you use this feature you can't do so again until you finish a long rest. "
 			],
 			"level": 20,
+			"page": 0
+		},
+		{
+			"name": "Domain Spells",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"1st: {@spell Feather Fall}, {@spell Longstrider}",
+				"3rd: {@spell Find Steed}, {@spell Pass Without Trace}",
+				"5th: {@spell Fly}, {@spell Globe of Twilight|HWCS}",
+				"7th: {@spell Freedom of Movement}, {@spell Conjure Woodland Beings}",
+				"9th: {@spell Teleportation Circle}, {@spell Tree Stride} "
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Well Traveled",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"When you Choose this domain at 1st level, you gain proficiency in Heavy armor, 2 Weapons of your choice, and you learn two languages "
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Quick Step",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Also at 1st level, your many travels have granted you with the following abilities",
+				"When you take the dash action your movement does nor provoke attacks of opportunity",
+				"Also you may take the disengage action as a bonus action, you may only do this a number of times equal to your Wisdom modifier, regaining all uses at the end of a long rest "
+			],
+			"level": 1,
+			"page": 0
+		},
+		{
+			"name": "Channel Divinity: Divine Shelter",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 2nd level, you can use your channel Divinity to create a perfect shelter. As an action you create a magical area that is a 20x20x20 cube. The outside of this cube can take any appearance you want, The interior has room for 8 bed rolls, and 4 benches around a magical smokeless fire pit. Sound and light can not pass into or out of the space, but creatures inside can see out. The interior is always a comfortable temperature and the ground is always flat, dry and warm."
+			],
+			"level": 2,
+			"page": 0
+		},
+		{
+			"name": "Traveler's Intuition",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"Starting at 6th level, while Traveling for at least an hour you and all friendly creatures within 30 feet gain the following benefits",
+				"You ignore difficult terrain",
+				"You may travel at a normal pace without suffering penalties",
+				"As long as you are traveling along a man made road, Trail, or Pathway you can not get lost except for magical means",
+				"When traveling in the wilderness, your group gains advantage on initiative checks",
+				"When foraging your group gathers 2x the amount on a successful survival check. "
+			],
+			"level": 6,
+			"page": 0
+		},
+		{
+			"name": "Divine Strike",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with extra kinetic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 force damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			],
+			"level": 8,
+			"page": 0
+		},
+		{
+			"name": "True Adventurer",
+			"source": "HopesCall",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "HopesCall",
+			"entries": [
+				"At 17th level, your adventurous spirit has led you to gaining the following abilities",
+				"Your Walking speed Increases by 10 feet",
+				"You gain a climb and swim speed equal to your walking speed",
+				"You gain a bonus to your initiative rolls equal to your wisdom mod",
+				"When you Move at least 30 feet and hit a creature with a spell or weapon attack, you deal additional force damage equal to your Cleric Level "
+			],
+			"level": 17,
 			"page": 0
 		}
 	],
