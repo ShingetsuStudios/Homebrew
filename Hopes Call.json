@@ -1631,7 +1631,7 @@
 		},
 		{
 			"subclassFeatures": [
-				"Domain Spells|Cleric|PHB|Travel|HopesCall|1",
+				"Travel Domain Spells|Cleric|PHB|Travel|HopesCall|1",
 				"Well Traveled|Cleric|PHB|Travel|HopesCall|1",
 				"Quick Step|Cleric|PHB|Travel|HopesCall|1",
 				"Channel Divinity: Divine Shelter|Cleric|PHB|Travel|HopesCall|2",
@@ -1671,7 +1671,7 @@
 					}
 				}
 			],
-			"advancement": [
+			"foundryAdvancement": [
 				{
 					"type": "ScaleValue",
 					"configuration": {
@@ -1784,11 +1784,40 @@
 				"You learn the {@spell Guidance} cantrip.",
 				"All spells with the chronomancy tag are added to your class spell list",
 				"You also learn the following spells as you gain levels in this class. These spells do not count against your spells known",
-				"1st: {@spell Bless}, {@spell Bane}",
-				"3rd: {@spell Fortune's Favor}, {@spell Augury}",
-				"5th: {@spell Remove curse}, {@spell Dispel Magic}",
-				"7th: {@spell Death Ward}, {@spell Divination}",
-				"9th: {@spell Commune}, {@spell Scrying}"
+				{
+					"type": "table",
+					"page": 0,
+					"colLabels": [
+						"",
+						""
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Bless}, {@spell Bane}"
+						],
+						[
+							"3rd",
+							"{@spell Fortune's Favor}, {@spell Augury}"
+						],
+						[
+							"5th",
+							"{@spell Remove curse}, {@spell Dispel Magic}"
+						],
+						[
+							"7th",
+							"{@spell Death Ward}, {@spell Divination}"
+						],
+						[
+							"9th",
+							"{@spell Commune}, {@spell Scrying}"
+						]
+					]
+				}
 			],
 			"level": 1,
 			"page": 0
@@ -2109,8 +2138,8 @@
 								"Spell"
 							],
 							"colStyles": [
-								"col- text-",
-								"col- text-"
+								"col-2 text-center",
+								"col-10"
 							],
 							"rows": [
 								[
@@ -2232,18 +2261,46 @@
 			"page": 0
 		},
 		{
-			"name": "Domain Spells",
+			"name": "Travel Domain Spells",
 			"source": "HopesCall",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Travel",
 			"subclassSource": "HopesCall",
 			"entries": [
-				"1st: {@spell Feather Fall}, {@spell Longstrider}",
-				"3rd: {@spell Find Steed}, {@spell Pass Without Trace}",
-				"5th: {@spell Fly}, {@spell Globe of Twilight|HWCS}",
-				"7th: {@spell Freedom of Movement}, {@spell Conjure Woodland Beings}",
-				"9th: {@spell Teleportation Circle}, {@spell Tree Stride} "
+				{
+					"type": "table",
+					"colLabels": [
+						"Spell Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Feather Fall}, {@spell Longstrider}"
+						],
+						[
+							"3rd",
+							"{@spell Find Steed}, {@spell Pass Without Trace}"
+						],
+						[
+							"5th",
+							"{@spell Fly}, {@spell Globe of Twilight|HWCS}"
+						],
+						[
+							"7th",
+							"{@spell Freedom of Movement}, {@spell Conjure Woodland Beings}"
+						],
+						[
+							"9th",
+							"{@spell Teleportation Circle}, {@spell Tree Stride}"
+						]
+					]
+				}
 			],
 			"level": 1,
 			"page": 0
@@ -2298,11 +2355,16 @@
 			"subclassSource": "HopesCall",
 			"entries": [
 				"Starting at 6th level, while Traveling for at least an hour you and all friendly creatures within 30 feet gain the following benefits",
-				"You ignore difficult terrain",
-				"You may travel at a normal pace without suffering penalties",
-				"As long as you are traveling along a man made road, Trail, or Pathway you can not get lost except for magical means",
-				"When traveling in the wilderness, your group gains advantage on initiative checks",
-				"When foraging your group gathers 2x the amount on a successful survival check. "
+				{
+					"type": "list",
+					"items": [
+						"You ignore difficult terrain",
+						"You may travel at a normal pace without suffering penalties",
+						"As long as you are traveling along a man made road, Trail, or Pathway you can not get lost except for magical means",
+						"When traveling in the wilderness, your group gains advantage on initiative checks",
+						"When foraging your group gathers 2x the amount on a successful survival check. "
+					]
+				}
 			],
 			"level": 6,
 			"page": 0
@@ -2318,7 +2380,15 @@
 				"At 8th level, you gain the ability to infuse your weapon strikes with extra kinetic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 force damage to the target. When you reach 14th level, the extra damage increases to 2d8."
 			],
 			"level": 8,
-			"page": 0
+			"page": 0,
+			"foundrySystem": {
+				"damage.parts": [
+					[
+						"@scale.travel-domain.divine-strike",
+						"force"
+					]
+				]
+			}
 		},
 		{
 			"name": "True Adventurer",
@@ -2329,10 +2399,15 @@
 			"subclassSource": "HopesCall",
 			"entries": [
 				"At 17th level, your adventurous spirit has led you to gaining the following abilities",
-				"Your Walking speed Increases by 10 feet",
-				"You gain a climb and swim speed equal to your walking speed",
-				"You gain a bonus to your initiative rolls equal to your wisdom mod",
-				"When you Move at least 30 feet and hit a creature with a spell or weapon attack, you deal additional force damage equal to your Cleric Level "
+				{
+					"type": "list",
+					"items": [
+						"Your Walking speed Increases by 10 feet",
+						"You gain a climb and swim speed equal to your walking speed",
+						"You gain a bonus to your initiative rolls equal to your wisdom mod",
+						"When you Move at least 30 feet and hit a creature with a spell or weapon attack, you deal additional force damage equal to your Cleric Level."
+					]
+				}
 			],
 			"level": 17,
 			"page": 0
