@@ -13425,7 +13425,7 @@
 				"Oath Of Revolution|Paladin|PHB|Revolution|DGtBW|3",
 				"Channel Divinity|Paladin|PHB|Revolution|DGtBW|3",
 				"Aura Of Justice's Mandate|Paladin|PHB|Revolution|DGtBW|7",
-				"Divine J Urat's Discernment|Paladin|PHB|Revolution|DGtBW|15",
+				"Divine Jurat's Discernment|Paladin|PHB|Revolution|DGtBW|15",
 				"Avatar Of Just Sedition|Paladin|PHB|Revolution|DGtBW|20"
 			],
 			"shortName": "Revolution",
@@ -14392,7 +14392,7 @@
 				"In the Beast World, some paladins of the justice goddess Dramphine take the Oath of Revolution to become the watchdogs of the powerful. From the noble courts of Allemance to the Oric batkos' halls, Revolution paladins inspire those downtrodden by rotted social structures to take hold of their own destinies.",
 				{
 					"type": "entries",
-					"name": "tenets oF revolutIon",
+					"name": "tenets of Revolution",
 					"entries": [
 						"Paladins who take the Oath of Revolution recite these three words as a guiding light pointing them toward righteous action."
 					]
@@ -14401,7 +14401,14 @@
 					"type": "entries",
 					"name": "Judgment.",
 					"entries": [
-						"The weak and powerless trust in your discernment, thus you owe them a verdict guided by righteousness. You are tasked with soberly recognizing the world's hidden corruption. Conviction.Conviction. When you find people treated unfairly, your immediate priority is inspiring them to action. Whenever possible, you must aid the oppressed in establishing a better path for themselves. You are insurrection's shepherd, not its sword."
+						"The weak and powerless trust in your discernment, thus you owe them a verdict guided by righteousness. You are tasked with soberly recognizing the world's hidden corruption."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conviction.",
+					"entries": [
+						"When you find people treated unfairly, your immediate priority is inspiring them to action. Whenever possible, you must aid the oppressed in establishing a better path for themselves. You are insurrection's shepherd, not its sword."
 					]
 				},
 				{
@@ -14498,7 +14505,7 @@
 			"page": ""
 		},
 		{
-			"name": "Divine J Urat's Discernment",
+			"name": "Divine Jurat's Discernment",
 			"source": "DGtBW",
 			"className": "Paladin",
 			"classSource": "PHB",
