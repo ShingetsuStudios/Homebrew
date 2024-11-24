@@ -1,5 +1,4 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
@@ -15,8 +14,12 @@
 				]
 			}
 		],
+		"optionalFeatureTypes": {
+			"PsiHope": "Psi Talent"
+		},
 		"dateAdded": 0,
 		"dateLastModified": 0,
+		"edition": "classic",
 		"spellSchools": {
 			"TH": {
 				"full": "Thesismancy",
@@ -843,7 +846,6 @@
 			"name": "Mul",
 			"source": "HopesCall",
 			"page": 0,
-			"lineage": "VRGR",
 			"size": [
 				"M"
 			],
@@ -915,8 +917,6 @@
 					]
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true,
 			"ability": [
 				{
 					"int": 2,
@@ -1017,7 +1017,7 @@
 				{
 					"colLabels": [
 						"Psi Points",
-						"{@filter Psi Talents|optionalfeatures|Feature Type=PsiTalent}"
+						"{@filter Psi Talents|optionalfeatures|Feature Type=PsiHope}"
 					],
 					"rows": [
 						[
@@ -1144,7 +1144,7 @@
 				{
 					"name": "Psionic Tallent",
 					"featureType": [
-						"PsiTalent"
+						"PsiHope"
 					],
 					"progression": [
 						0,
@@ -2422,7 +2422,7 @@
 				"You may cast {@spell fly} on yourself. You may cast this spell for free once per a long rest,  you may also spend 3 psi points to cast it additional times"
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			],
 			"additionalSpells": [
 				{
@@ -2446,7 +2446,7 @@
 				"You may cast the spell {@spell shield}. you may use this ability a number of times equal to your intelligence modifier, you regain all expended uses at the end of a long rest."
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			],
 			"additionalSpells": [
 				{
@@ -2470,7 +2470,7 @@
 				"Your unarmed strikes now deal {@damage 1d6} psychic damage, you add intelligence to your attack and damage rolls instead of strength or dex."
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			]
 		},
 		{
@@ -2481,7 +2481,7 @@
 				"As an action you may attempt to flood a creature's mind with images and sounds, the creature must make a wisdom saving throw against your psion save dc. On a failure the creature has disadvantage on {@status concentration} and insight checks for 1 minute."
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			]
 		},
 		{
@@ -2497,7 +2497,7 @@
 				}
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			]
 		},
 		{
@@ -2540,7 +2540,7 @@
 				}
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			]
 		},
 		{
@@ -2558,7 +2558,7 @@
 				}
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			]
 		},
 		{
@@ -2611,7 +2611,7 @@
 				}
 			],
 			"featureType": [
-				"PsiTalent"
+				"PsiHope"
 			]
 		}
 	]
