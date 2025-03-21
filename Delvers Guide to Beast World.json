@@ -2079,17 +2079,10 @@
 					"type": "entries",
 					"name": "Life's Passion",
 					"entries": [
-						"You gain proficiency with one artisan's tool of your choice, and in one skill chosen from the following: Arcana, History, Medicine, Nature, or Religion. Your proficiency bonus is doubled for any ability check you make using either of these proficiencies. Additionally, you gain proficiency with one martial melee weapon without the heavy property, which counts as a finesse and thrown (range 20/60) weapon for you."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Birthmates of the Arcana",
-					"entries": [
-						"The Seelie's uplifting of the jackal species coincided with the nursing of the infant Arcana, and their fundamental connection to it grants them spell-like abilities. You know the eldritch blast cantrip.",
+						"You gain proficiency with one artisan's tool of your choice, and in one skill chosen from the following: Arcana, History, Medicine, Nature, or Religion. Your proficiency bonus is doubled for any ability check you make using either of these proficiencies. Additionally, you gain proficiency with one martial melee weapon without the heavy property, which counts as a finesse and thrown (range 20/60) weapon for you. Birthmates of the Arcana. Birthmates of the Arcana. The Seelie's uplifting of the jackal species coincided with the nursing of the infant Arcana, and their fundamental connection to it grants them spell-like abilities. You know the eldritch blast cantrip.",
 						"Additionally, choose two 1st-level spells with the ritual tag from the wizard spell list. You can cast each of them with this trait, ignoring any material components without an indicated cost. Once you cast either chosen spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast any of those spells using any spell slots you have of the appropriate level. Intelligence is your spellcasting ability for these spells when you cast them with this trait."
 					]
-				}
+				},
 				{
 					"type": "entries",
 					"name": "Dragons and Jackals are Powerful",
